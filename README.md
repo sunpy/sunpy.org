@@ -1,8 +1,16 @@
-
-# Resources
-This site makes use of Jekyll, it was build with Bootstrap.
+# Background
+This site makes use of Jekyll, and was build upon Bootstrap.
 
 [Shopify](http://docs.shopify.com/themes/liquid-basics)
+
+# Testing Locally
+
+## Setup
+How to setup your machine to run this site locally...
+
+You will likely want test any changes you've made to the site. To do this you'll have the run Jekyll and host the site locally. This can be done by running the following command inside the site directory
+
+    bundle exec jekyll serve --watch
 
 # Creating a Blog Post
 Blog posts can be added by creating a new text file in the _posts directory. The filename
