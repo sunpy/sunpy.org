@@ -1,0 +1,26 @@
+name: "SunPy"
+description: "Python for Solar Physics"
+
+#url: "http://ehsteve.github.io/sunpy/"
+url: "http://localhost:4000/"
+
+paginate: 5
+paginate_path: "blog/page:num"
+timezone: "America/New_York"
+
+exclude:          [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "less"]
+
+markdown: rdiscount
+permalink: pretty
+relative_permalinks: true
+
+pygments: true
+
+# Custom vars
+current_version:  1.0
+repo:             https://github.com/sunpy/sunpy
+
+download_source:  https://github.com/sunpy/sunpy/archive/v3.0.3.zip
+download_dist:    https://github.com/sunpy/sunpy/releases/download/v3.0.3/bootstrap-3.0.3-dist.zip
+
+

@@ -1,0 +1,34 @@
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="{{ site.url }}" class="navbar-brand">SunPy</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li{% if page.slug == "getting-started" %} class="active"{% endif %}>
+          <a href="{{ site.url }}about">About</a>
+        </li>
+        <li{% if page.slug == "css" %} class="active"{% endif %}>
+          <a href="{{ site.url }}blog/index.html">Blog</a>
+        </li>
+        <li>
+          <a href="http://sunpy.readthedocs.org/en/stable/">Docs</a>
+        </li>
+        <li{% if page.slug == "contribute" %} class="active"{% endif %}>
+          <a href="{{ site.url }}contribute">Contribute</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li{% if page.slug == "help" %} class="active"{% endif %}>
+          <a href="{{ site.url }}help">Help</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

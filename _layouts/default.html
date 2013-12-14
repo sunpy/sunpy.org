@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {% include header.html %}
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+    <!-- Docs master nav -->
+    {% include nav-main.html %}
+
+    <!-- Docs page layout -->
+    <div class="bs-header" id="content">
+      <div class="container">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.lead }}</p>
+      </div>
+    </div>
+    
+    <div class="container bs-docs-container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="bs-sidebar hidden-print" role="complementary">
+            <ul class="nav bs-sidenav">
+              {% if page.slug == "about" %}
+                {% include nav-about.html %}
+              {% elsif page.slug == "contribute" %}
+                {% include nav-contribute.html %}
+              {% elsif page.slug == "help" %}
+                {% include nav-help.html %}
+              {% elsif page.slug == "blog" %}
+                {% for post in paginator.posts %}
+                <li><a href="#{{ post.title }}">{{ post.title }}</a></li>
+                {% endfor %}
+                
+                <!-- Pagination links -->
+  {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path }}">Previous Posts</a></li>
+  {% endif %}
+  {% if paginator.next_page %}
+    <li><a href="{{ paginator.next_page_path }}">Next Posts</a></li>
+  {% endif %}
+                
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-9" role="main">
+          {{ content }}
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="bs-footer" role="contentinfo">
+    {% include footer.html %}
+    </footer>
+
+    <!-- JS and analytics only. -->
+    {% include js_footer.html %}
+
+  </body>
+</html>
