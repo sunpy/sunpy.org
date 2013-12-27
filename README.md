@@ -1,11 +1,14 @@
 # Background
-This site makes use of Jekyll, and was build upon Bootstrap.
+This site makes use of [Jekyll](http://jekyllrb.com), and was build upon [Bootstrap](http://getbootstrap.com). Static pages can be written using Markdown. Jekyll makes use of 
 
 [Shopify](http://docs.shopify.com/themes/liquid-basics)
 
 # Testing Locally
 
 ## Setup
+To setup your machine to run this site locally, you'll first need to install a few things. Please follow the 
+[installation instructions](https://help.github.com/articles/using-jekyll-with-pages) provided by github.
+
 How to setup your machine to run this site locally...
 
 You will likely want test any changes you've made to the site. To do this you'll have the run Jekyll and host the site locally. This can be done by running the following command inside the site directory
