@@ -225,6 +225,8 @@ body {
   padding: 30px 15px;
   text-align: center;
   text-shadow: 0 1px 0 rgba(0,0,0,.15);
+  color: #000;
+  background-color: #fff;
 }
 .bs-masthead h1 {
   font-size: 50px;
@@ -269,7 +271,7 @@ body {
   .bs-masthead .btn-outline-inverse {
     width: auto;
     margin: 20px 5px 20px 0;
-    padding: 18px 24px;
+    padding: 8px 14px;
     font-size: 21px;
   }
   .bs-masthead-links {
@@ -285,6 +287,9 @@ body {
  * Jumbotron-esque headers at the top of every page that's not the homepage.
  */
 
+.logo {
+  float: left;
+}
 
 /* Page headers */
 .bs-header {
