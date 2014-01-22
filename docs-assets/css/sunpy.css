@@ -1,11 +1,7 @@
 /* SunPy Theme */
 
 body { 
-  background: url(../img/background_1.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background-color: #fff;
 }
 
 /* Inverted outline button (white on dark) */
@@ -43,7 +39,10 @@ body {
   background-color: #ffffff;
 }
 
-.bs-docs-home,
+.bs-docs-home {
+  color: #eeeeee;
+  background-color: #fff;
+}
 .bs-header {
   color: #eeeeee;
   background-color: #444444;
@@ -58,10 +57,26 @@ body {
  /* Masthead (headings and download button) */
  .bs-masthead {
   color: #000;
+  background: url(../img/background_1.jpg);
+  background-position:bottom center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
 }
 
 .bs-masthead h1 {
   color: #ff8603;
+  text-align: center;
+}
+
+.bs-masthead .lead {
+	margin-right: 0;
+	text-align: center;
+}
+
+.bs-masthead p {
+	text-align: center;
 }
 
 @media (min-width: 768px) {
