@@ -35,8 +35,13 @@ body {
   background-color: #fed20b;
 }
 
+.bs-docs-nav .navbar-toggle {
+	border-color: #333333;
+}
+
 .bs-docs-nav .navbar-toggle:hover {
-  background-color: #ffffff;
+  background-color: #fed20b;
+  border-color: #333333;
 }
 
 .bs-docs-home {
