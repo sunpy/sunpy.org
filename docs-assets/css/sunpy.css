@@ -58,12 +58,13 @@ body {
  /* Masthead (headings and download button) */
  .bs-masthead {
   color: #000;
-  background: url(../img/background_1.jpg);
+  background-color: #fff;
+/*  background: url(../img/background_1.jpg);
   background-position:bottom center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-   background-size: cover;
+   background-size: cover;*/
 }
 
 .bs-masthead h1 {
