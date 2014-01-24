@@ -1,12 +1,17 @@
 /* SunPy Theme */
 
+body { 
+	background-color: #fff;
+}
+
 /* Inverted outline button (white on dark) */
 .btn-outline-inverse {
   color: #ff8603;
   border-color: #ff8603;
 }
 
-.btn-outline-inverse:active {
+.btn-outline-inverse:active,
+.btn-outline-inverse:hover {
   color: #fff;
   background-color: #ff8603;
   border-color: #ff8603;
@@ -24,20 +29,29 @@
   color: #fed20b;
 }
 
+.bs-docs-nav .navbar-nav > .active > a,
 .bs-docs-nav .navbar-nav > .active > a:hover {
   color: #000;
   background-color: #fed20b;
 }
 
-.bs-docs-nav .navbar-toggle:hover {
-  background-color: #ffffff;
+.bs-docs-nav .navbar-toggle {
+	border-color: #333333;
 }
 
-.bs-docs-home,
+.bs-docs-nav .navbar-toggle:hover {
+  background-color: #fed20b;
+  border-color: #333333;
+}
+
+.bs-docs-home {
+  color: #eeeeee;
+  background-color: #fff;
+}
 .bs-header {
   color: #eeeeee;
   background-color: #444444;
-  background-image: none;
+  padding: 15px 7px 20px;
 }
 
 /*
@@ -50,10 +64,26 @@
  .bs-masthead {
   color: #000;
   background-color: #fff;
+/*  background: url(../img/background_1.jpg);
+  background-position:bottom center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;*/
 }
 
 .bs-masthead h1 {
   color: #ff8603;
+  text-align: center;
+}
+
+.bs-masthead .lead {
+	margin-right: 0;
+	text-align: center;
+}
+
+.bs-masthead p {
+	text-align: center;
 }
 
 @media (min-width: 768px) {
