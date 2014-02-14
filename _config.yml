@@ -20,7 +20,7 @@ pygments: true
 current_version:  1.0
 repo:             https://github.com/sunpy/sunpy
 
-download_source:  https://github.com/sunpy/sunpy/archive/v0.3.2.zip
+download_source:  https://github.com/sunpy/sunpy/archive/stable.zip
 download_dist:    https://github.com/sunpy/sunpy/archive/master.zip
 
 
