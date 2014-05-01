@@ -30,15 +30,19 @@ more consistant with the way Map works at the moment.
 This project will also make use of Astropy development, in particular to 
 the [data tables module](https://astropy.readthedocs.org/en/stable/table/index.html).
 
-Last, but no less, [Ashis Panda](https://github.com/kaichogami) (a.k.a. kaichogami).
-Ashis also from Hyderabad but doing a degree in electronics and telecommunications, 
-will be working on ...
+Last, but no less, [Asish Panda](https://github.com/kaichogami) (a.k.a. kaichogami).
+Asish is doing a degree in electronics and telecommunications at Bhubaneswar (India). 
+He will be working on the integration of 
+[Astropy's Quantity objects](https://astropy.readthedocs.org/en/stable/units/index.html) 
+into SunPy and work towards the replacement of the actual sunpy.wcs with the 
+[astropy.wcs](https://astropy.readthedocs.org/en/stable/wcs/index.html)
+module. 
 
 Don't forget to check 
 [Pritish](http://thejoyofpython.wordpress.com/),
 [Rajul](http://pettycoder.blogspot.in),
 [Rishabh](http://rishabhsharmagunner.wordpress.com/) and
-[Ashis's](http://sunpygsoc.wordpress.com/) 
+[Asish's](http://sunpygsoc.wordpress.com/) 
 blogs to be up to date on their progress during this summer and don't be
 afraid to comment in their posts with words of support.  
 Nevertheless, they will have also the opportunity to write here some feature posts
