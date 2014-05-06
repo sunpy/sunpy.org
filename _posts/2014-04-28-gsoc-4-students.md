@@ -24,13 +24,13 @@ This GUI is going to be based in [Ginga](https://github.com/ejeschke/ginga) and
 the SunPy file database funcionality.
 
 [Rishabh Sharma](https://github.com/gunner272) (a.k.a. gunner272),
-who is pursuing at the moment a Computer Science and Engineering degree at Hyderabad (India),
+who is currently pursuing a Computer Science and Engineering degree at Hyderabad (India),
 will be working on refractoring the lightcurve module, making it
 more consistant with the way Map works at the moment. 
 This project will also make use of Astropy development, in particular to 
 the [data tables module](https://astropy.readthedocs.org/en/stable/table/index.html).
 
-Last but no least, [Asish Panda](https://github.com/kaichogami) (a.k.a. kaichogami).
+Last but not least, [Asish Panda](https://github.com/kaichogami) (a.k.a. kaichogami).
 Asish is doing a degree in electronics and telecommunications at Bhubaneswar (India). 
 He will be working on the integration of 
 [Astropy's Quantity objects](https://astropy.readthedocs.org/en/stable/units/index.html) 
@@ -38,15 +38,15 @@ into SunPy and work towards the replacement of the actual sunpy.wcs with the
 [astropy.wcs](https://astropy.readthedocs.org/en/stable/wcs/index.html)
 module. 
 
-Don't forget to check 
+Don't forget to check the student's blogs:
 [Pritish](http://thejoyofpython.wordpress.com/),
 [Rajul](http://pettycoder.blogspot.in),
 [Rishabh](http://rishabhsharmagunner.wordpress.com/) and
-[Asish's](http://sunpygsoc.wordpress.com/) 
-blogs to keep up to date with their progress during this summer and don't be
+[Asish](http://sunpygsoc.wordpress.com/) 
+to keep up to date with their progress during this summer and don't be
 afraid to comment on their posts with words of support.  
-Nevertheless, they will have also the opportunity to write here some feature posts
-on to keep all of us updated.
+Nevertheless, they will have also the opportunity to write some feature posts here
+to keep all of us updated.
 
 Once more, this year GSOC would not have been possible without the help that the
 [Python Software Foundation](https://wiki.python.org/moin/SummerOfCode/2014) 
