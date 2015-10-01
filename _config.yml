@@ -14,7 +14,7 @@ markdown: rdiscount
 permalink: pretty
 relative_permalinks: true
 
-pygments: true
+highlighter: pygments
 
 # Custom vars
 current_version:  1.0
