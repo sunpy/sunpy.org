@@ -7,12 +7,12 @@ author: Stuart Mumford
 
 Hello all,
 
-Sorry for the lack of a Decemeber update, the news for Decemeber can be summed up as: "Stuart passed his Viva with minor corrections."
+Sorry for the lack of a December update, the news for December can be summed up as: "Stuart passed his Viva with minor corrections."
 
 Seeing how we are now in 2016 and the original milestone for 0.7 is the end of January, I hope that many people have made "contribute to SunPy" a new years resolution!!
-Before we can release 0.7 we need a working Python 3 port, and the unidown branch mereged, and the Lightcurve factory implemented.
+Before we can release 0.7 we need a working Python 3 port, and the unidown branch merged, and the Lightcurve factory implemented.
 
-## Decemeber News
+## December News
 
 ### <a name="astropy"></a> Astropy 1.1
 
@@ -30,7 +30,7 @@ Astropy 1.1 has been released, so you should upgrade your Astropy! Also astropy_
 
 On 11th to 15th of January at the University of Sheffield there will be a 5 day workshop, with the first two days being a two day Software Carpentry workshop, teaching bash, git and Python. While the rest of the week covers more SunPy and Astropy specific topics. More information can be found on the website: [http://openastronomy.org/2016-01-11-Sheffield/](http://openastronomy.org/2016-01-11-Sheffield/)
 
-There are still places availble, you can register here: [http://goo.gl/forms/Jv5ocjMo71](http://goo.gl/forms/Jv5ocjMo71).
+There are still places available, you can register here: [http://goo.gl/forms/Jv5ocjMo71](http://goo.gl/forms/Jv5ocjMo71).
 
 ### <a name="devmeetings"></a> Weekly Developer Discussions
 
