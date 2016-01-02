@@ -46,9 +46,9 @@ Links to November's meetings can are below:
 
 ## <a name="pulls"></a> Reviewing Pull Requests
 
-As always, reviews on pull requests are always welcome, you don't have to have merge permissions or anything other than a GitHub account to review PRs. You can find a list of all the PRs that need reviewing here: https://github.com/sunpy/sunpy/labels/%5BReview%5D.
+As always, reviews on pull requests are always welcome, you don't have to have merge permissions or anything other than a GitHub account to review PRs. You can find a list of all the PRs that need reviewing here: [https://github.com/sunpy/sunpy/labels/%5BReview%5D](https://github.com/sunpy/sunpy/labels/%5BReview%5D).
 
-Another easy way to get involved is with labelling issues, if you are interested in doing this but don't have permissions to label issues on GitHub, swing by the IRC channel and talk to me (Cadair). Issues that are not labelled can be found here: [https://github.com/sunpy/sunpy/issues?utf8=%E2%9C%93&q=is%3Aopen+no%3Alabel](https://github.com/sunpy/sunpy/issues?utf8=%E2%9C%93&q=is%3Aopen+no%3Alabel)
+Another easy way to get involved is with labelling issues, if you are interested in doing this but don't have permissions to label issues on GitHub, swing by the IRC channel and talk to me (Cadair). Issues that are not labelled can be found here: [https://github.com/sunpy/sunpy/issues?utf8=%E2%9C%93&q=is%3Aopen+no%3Alabel](https://github.com/sunpy/sunpy/issues?utf8=%E2%9C%93&q=is%3Aopen+no%3Alabel).
 
 ## <a name="gsoc"></a> Summer of Code Project Ideas
 
