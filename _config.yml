@@ -10,14 +10,16 @@ timezone: "America/New_York"
 
 exclude:          [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "less"]
 
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
-relative_permalinks: true
 
-highlighter: pygments
+highlighter: rouge
 
 # Custom vars
 current_version:  1.0
 repo:             https://github.com/sunpy/sunpy
 
 install_instructions: http://docs.sunpy.org/en/stable/guide/installation/
+
+gems: [jekyll-paginate]
+
