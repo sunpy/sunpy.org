@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SunPy at Python in Astronomy 2016
+title: First impressions from SunPy at Python in Astronomy 2016
 author: Steven Christe
 ---
 Steven Christe ([@ehsteve](https://github.com/ehsteve)) and Stuart Mumford ([@Cadair](https://github.com/ehsteve)) got to attend the (great) 
