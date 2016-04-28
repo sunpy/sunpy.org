@@ -28,14 +28,14 @@ who is currently pursuing a Computer Science and Engineering degree at Hyderabad
 will be working on refractoring the lightcurve module, making it
 more consistant with the way Map works at the moment. 
 This project will also make use of Astropy development, in particular to 
-the [data tables module](https://astropy.readthedocs.org/en/stable/table/index.html).
+the [data tables module](https://astropy.readthedocs.io/en/stable/table/index.html).
 
 Last but not least, [Asish Panda](https://github.com/kaichogami) (a.k.a. kaichogami).
 Asish is doing a degree in electronics and telecommunications at Bhubaneswar (India). 
 He will be working on the integration of 
-[Astropy's Quantity objects](https://astropy.readthedocs.org/en/stable/units/index.html) 
+[Astropy's Quantity objects](https://astropy.readthedocs.io/en/stable/units/index.html) 
 into SunPy and work towards the replacement of the actual sunpy.wcs with the 
-[astropy.wcs](https://astropy.readthedocs.org/en/stable/wcs/index.html)
+[astropy.wcs](https://astropy.readthedocs.io/en/stable/wcs/index.html)
 module. 
 
 Don't forget to check the student's blogs:
