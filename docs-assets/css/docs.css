@@ -209,6 +209,13 @@ body {
   color: #cdbfe3;
   background-color: #563d7c;
 }
+@media (max-width: 768px) {
+  .bs-header{
+    padding-top: 6px;
+    padding-top: 6px;
+  }
+}
+
 
 
 /*
