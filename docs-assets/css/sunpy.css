@@ -92,6 +92,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin: 0;
+  }
+}
+
 .logo {
   float: left;
 }
