@@ -4,6 +4,7 @@ body {
 	background-color: #fff;
   font-size: 16px;
   line-height: 24px;
+  word-wrap: break-word;
 }
 
 /* Inverted outline button (white on dark) */
