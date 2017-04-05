@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
-    {% include header.html %}
-  </head>
-  <body>
-    <a class="sr-only" href="#content">Skip to main content</a>
 
-    <!-- Docs master nav -->
-    {% include nav-main.html %}
+<head>
+  <!-- Meta, title, CSS, favicons, etc. -->
+  {% include header.html %}
+</head>
 
-    <!-- Docs page layout -->
-    <div class="bs-header" id="content">
-      <div class="container">
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.lead }}</p>
+<body>
+  <a class="sr-only" href="#content">Skip to main content</a>
+
+  <!-- Docs master nav -->
+  {% include nav-main.html %}
+
+  <!-- Docs page layout -->
+  <div class="bs-header" id="content">
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.lead }}</p>
+    </div>
+  </div>
+
+  <div class="container bs-docs-container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="bs-sidebar hidden-print" role="complementary">
+          <ul class="nav bs-sidenav">
+            <li>
+              <a href="{{ site.url }}/blog">Back</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-9" role="main">
+        Posted on <span class="date">{{ page.date | date: "%-d %B %Y" }}</span> by <span class="author">{{ page.author }}</span><br><br>        {{ content }}
       </div>
     </div>
 
-    <div class="container bs-docs-container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="bs-sidebar hidden-print" role="complementary">
-            <ul class="nav bs-sidenav">
-              <li>
-                <a href="{{ site.url }}/blog">Back</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-9" role="main">
-        Posted on <span class="date">{{ page.date | date: "%-d %B %Y" }}</span> 
-        by <span class="author">{{ page.author }}</span><br><br>
-        {{ content }}
-        </div>
-      </div>
+  </div>
 
-    </div>
-
-    <!-- Footer
+  <!-- Footer
     ==================================================
     <footer class="bs-footer" role="contentinfo">
     {% include footer.html %}
     </footer>
--->
-    <!-- JS and analytics only. -->
-    {% include js_footer.html %}
+  -->
 
-  </body>
+  <!-- JS and analytics only. -->
+  {% include js_footer.html %}
+
+</body>
+
 </html>
