@@ -8,13 +8,15 @@ base_url: "../"
 {% for post in paginator.posts %}
   <h1><a id="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="author">
+    {% assign  auth = site.authors[post.author] %}
     Posted on <span class="date">{{ post.date | date: "%-d %B %Y" }}</span> 
-    by <span class="author">{{ post.author }}</span> 
+    by <a href = "{{auth.github}}"><span class="author">{{ auth.display_name }}</span></a>
   </p>
   <div class="content">
     {{ post.content }}
   </div>
 {% endfor %}
+
 
 <!-- Pagination links -->
 <div class="pagination">
