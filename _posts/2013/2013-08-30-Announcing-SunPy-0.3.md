@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing SunPy 0.3
-author: Stuart Mumford
+author: Cadair
 ---
 It gives me great pleasure to announce the release of a new version of SunPy. 
 This version has been rather too long in the making, but is here at last!
