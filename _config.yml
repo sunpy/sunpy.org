@@ -32,6 +32,13 @@ authors:
       display_name: "Steven Christe"
       github: "https://github.com/ehsteve"
    
+   Simon:
+      display_name: "Simon Liedtke"
+      github: "https://github.com/derdon/"
+      
+   Nabo:
+      display_name: "Nabil Freij"
+      github: "https://github.com/nabobalis"
 
 # Custom vars
 current_version:  1.0
