@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GSOC Community Bonding Period starting now!
-author: David Pérez-Suárez
+author: dpshelio
 ---
 From our last post you may remember that SunPy is participating in GSOC-2013 under the [PSF](http://wiki.python.org/moin/SummerOfCode/2013) (!= [Point Spread Function](http://en.wikipedia.org/wiki/Point_spread_function)). Yesterday, Google announced the accepted candidates for their summer of code.  If you look the [list](http://www.google-melange.com/gsoc/projects/list/google/gsoc2013) you will find between all these students that there are two whose projects is to work with SunPy.
 
