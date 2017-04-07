@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2nd year of SunPy participating in GSOC
-author: David Pérez-Suárez
+author: dpshelio
 ---
 
 Wonderful news for SunPy!  This year is the 
