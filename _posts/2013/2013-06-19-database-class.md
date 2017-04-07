@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GSOC The Database class
-author: Simon Liedtke
+author: Simon 
 ---
 Note: I have also a private blog which covers more advanced topics. The next post there will be about implementing custom caches and custom commands.
 
