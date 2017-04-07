@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SunPy Update - November 2015
-author: Stuart Mumford
+author: Cadair
 ---
 
 Hello all,
