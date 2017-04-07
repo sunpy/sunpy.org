@@ -553,7 +553,7 @@ body {
 
 /* Janky fix for preventing navbar from overlapping */
 h1[id] {
-  padding-top: 55px;
+  padding-top: 35px;
   margin-top: -45px;
 }
 
