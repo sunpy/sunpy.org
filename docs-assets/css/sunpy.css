@@ -75,6 +75,13 @@ body {
 .bs-masthead h1 {
   color: #ff8603;
   text-align: center;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+.bs-masthead .version{
+    font-size: 10px;
+  }
 }
 
 .bs-masthead .lead {

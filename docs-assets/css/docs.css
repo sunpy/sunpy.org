@@ -209,6 +209,13 @@ body {
   color: #cdbfe3;
   background-color: #563d7c;
 }
+@media (max-width: 768px) {
+  .bs-header{
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}
+
 
 
 /*
@@ -546,7 +553,7 @@ body {
 
 /* Janky fix for preventing navbar from overlapping */
 h1[id] {
-  padding-top: 80px;
+  padding-top: 55px;
   margin-top: -45px;
 }
 
