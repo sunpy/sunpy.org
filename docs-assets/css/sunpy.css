@@ -1,58 +1,66 @@
 /* SunPy Theme */
 
-body { 
-	background-color: #fff;
+body {
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    word-wrap: break-word;
 }
 
+
 /* Inverted outline button (white on dark) */
+
 .btn-outline-inverse {
-  color: #ff8603;
-  border-color: #ff8603;
+    color: #ff8603;
+    border-color: #ff8603;
 }
 
 .btn-outline-inverse:active,
 .btn-outline-inverse:hover {
-  color: #fff;
-  background-color: #ff8603;
-  border-color: #ff8603;
+    color: #fff;
+    background-color: #ff8603;
+    border-color: #ff8603;
 }
 
 .bs-docs-nav {
-  background-color: #444444;
-  border-color: #ffffff;
+    background-color: #444444;
+    border-color: #ffffff;
 }
 
 .bs-docs-nav .navbar-brand {
-  color: #ff8603;
-}
-.bs-docs-nav .navbar-nav > li > a {
-  color: #fed20b;
+    color: #ff8603;
 }
 
-.bs-docs-nav .navbar-nav > .active > a,
-.bs-docs-nav .navbar-nav > .active > a:hover {
-  color: #000;
-  background-color: #fed20b;
+.bs-docs-nav .navbar-nav>li>a {
+    color: #fed20b;
+}
+
+.bs-docs-nav .navbar-nav>.active>a,
+.bs-docs-nav .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #fed20b;
 }
 
 .bs-docs-nav .navbar-toggle {
-	border-color: #333333;
+    border-color: #333333;
 }
 
 .bs-docs-nav .navbar-toggle:hover {
-  background-color: #fed20b;
-  border-color: #333333;
+    background-color: #fed20b;
+    border-color: #333333;
 }
 
 .bs-docs-home {
-  color: #eeeeee;
-  background-color: #fff;
+    color: #eeeeee;
+    background-color: #fff;
 }
+
 .bs-header {
-  color: #eeeeee;
-  background-color: #444444;
-  padding: 15px 7px 20px;
+    color: #eeeeee;
+    background-color: #444444;
+    padding: 15px 7px 20px;
 }
+
 
 /*
  * Homepage
@@ -60,57 +68,75 @@ body {
  * Tweaks to the custom homepage and the masthead (main jumbotron).
  */
 
- /* Masthead (headings and download button) */
- .bs-masthead {
-  color: #000;
-  background-color: #fff;
-  background: url(../img/background_1.jpg);
-  background-position:bottom center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-   background-size: cover;
+
+/* Masthead (headings and download button) */
+
+.bs-masthead {
+    color: #000;
+    background-color: #fff;
+    background: url(../img/background_1.jpg);
+    background-position: bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .bs-masthead h1 {
-  color: #ff8603;
-  text-align: center;
+    color: #ff8603;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
-.bs-masthead .lead {
-	margin-right: 0;
-	text-align: center;
-}
-
-.bs-masthead p {
-	text-align: center;
-}
-
-@media (min-width: 768px) {
-  .bs-masthead .btn-outline-inverse {
-    padding: 8px 14px;
+@media (max-width: 768px) {
+.bs-masthead .version{
+    font-size: 10px;
   }
 }
 
-.logo {
-  float: left;
+.bs-masthead .lead {
+    margin-right: 0;
+    text-align: center;
 }
 
-.bs-sidenav{
+.bs-masthead p {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .bs-masthead .btn-outline-inverse {
+        padding: 8px 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin: 0;
+    }
+}
+
+.logo {
+    float: left;
+}
+
+.bs-sidenav {
     background-color: #444444;
     text-shadow: none;
 }
 
-.bs-sidebar .nav > li > a {
+.bs-sidebar .nav>li>a {
     color: #eeeeee;
+    padding: 8px 20px;
 }
 
-.bs-sidebar .nav > li > a:hover, .bs-sidebar .nav > li > a:focus{
+.bs-sidebar .nav>li>a:hover,
+.bs-sidebar .nav>li>a:focus {
     background-color: #fed20b;
     color: #444444;
 }
 
-.bs-sidebar .nav > .active > a, .bs-sidebar .nav > .active:hover > a{
+.bs-sidebar .nav>.active>a,
+.bs-sidebar .nav>.active:hover>a {
     border-right: 4px solid #ffffff;
     color: #fed20b;
     text-shadow: 0 1px 0 #000;
