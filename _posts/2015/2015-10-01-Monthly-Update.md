@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SunPy Update - October 2015
-author: Stuart Mumford
+author: Cadair
 ---
 
 I wanted to keep people in the loop about what is happening in the SunPy project, so I thought I would start sending out monthy updates about things that have happened and things that are going to happen. This update might be a little longer than usual due to the fact it's the first one, and I want to get everyone up to speed.
