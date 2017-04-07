@@ -13,6 +13,29 @@ exclude:          [".editorconfig", ".gitignore", "bower.json", "composer.json",
 markdown: kramdown
 permalink: pretty
 
+
+authors:
+   Cadair:
+      display_name: "Stuart Mumford"
+      github: "https://github.com/Cadair"
+       
+   dpshelio:
+      display_name: "David Pérez-Suárez"
+      github: "https://github.com/dpshelio"
+   
+   wafels:
+      display_name: "Jack Ireland"
+      github: "https://github.com/wafels"
+    
+   ehsteve:
+      display_name: "Steven Christe"
+      github: "https://github.com/ehsteve"
+   
+  
+# more authors names to be added. Just for testing now
+
+
+
 highlighter: rouge
 
 # Custom vars
