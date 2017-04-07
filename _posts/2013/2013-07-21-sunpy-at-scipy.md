@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SunPy at SciPy 2013
-author: Stuart Mumford
+author: Cadair
 ---
 This year I was lucky enough to be able to attend the annual Scientific Python conference 
 (SciPy 2013) in Austin, Texas. This was very kindly supported by a sponsorship from the 
