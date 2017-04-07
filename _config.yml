@@ -1,7 +1,7 @@
 name: "SunPy"
 description: "Python for Solar Physics"
 
-url: "http://http://sunpy.org"
+url: "http://sunpy.org"
 
 paginate: 5
 paginate_path: "blog/page:num"
