@@ -43,7 +43,7 @@
       $body.scrollspy('refresh')
     })
 
-    $('.bs-docs-container [href=#]').click(function (e) {
+    $('.bs-docs-container').click(function (e) {
       e.preventDefault()
     })
 
