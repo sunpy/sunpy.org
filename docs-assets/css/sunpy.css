@@ -141,3 +141,10 @@ body {
     color: #fed20b;
     text-shadow: 0 1px 0 #000;
 }
+
+/* Blog headers */
+
+#blog-header{
+    margin-top: -5px;
+}
+
