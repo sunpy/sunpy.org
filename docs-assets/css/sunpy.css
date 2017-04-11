@@ -88,9 +88,16 @@ body {
     margin-bottom: 5px;
 }
 
+.bs-masthead .version{
+   color: #ff8603;
+   opacity: 0.8;
+   margin-top: -15px;
+   text-shadow: none;
+  }
+
 @media (max-width: 768px) {
 .bs-masthead .version{
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
