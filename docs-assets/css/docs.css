@@ -125,29 +125,15 @@ body {
  */
 
 .bs-footer {
-  padding-top: 40px;
-  padding-bottom: 30px;
-  margin-top: 100px;
+  background-color: #e5e5e5;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #777;
   text-align: center;
   border-top: 1px solid #e5e5e5;
 }
-.footer-links {
-  margin: 10px 0;
-  padding-left: 0;
-}
-.footer-links li {
-  display: inline;
-  padding: 0 2px;
-}
-.footer-links li:first-child {
-  padding-left: 0;
-}
 
 @media (min-width: 768px) {
-  .bs-footer {
-    text-align: left;
-  }
   .bs-footer p {
     margin-bottom: 0;
   }
@@ -161,8 +147,6 @@ body {
  */
 
 .bs-social {
-  margin-top: 20px;
-  margin-bottom: 20px;
   text-align: center;
 }
 .bs-social-buttons {
@@ -176,12 +160,6 @@ body {
   line-height: 1;
   padding: 5px 8px;
 }
-.bs-social-buttons .twitter-follow-button {
-  width: 225px !important;
-}
-.bs-social-buttons .twitter-share-button {
-  width: 98px !important;
-}
 /* Style the GitHub buttons via CSS instead of inline attributes */
 .github-btn {
   border: 0;
@@ -190,10 +168,10 @@ body {
 
 @media (min-width: 768px) {
   .bs-social {
-    text-align: left;
+    text-align: center;
   }
   .bs-social-buttons li:first-child {
-    padding-left: 0;
+    padding-right: : 0;
   }
 }
 
