@@ -8,7 +8,7 @@ Wonderful news for SunPy!  This year is the
 [10th edition of Google Summer of Code](https://www.google-melange.com/gsoc/homepage/google/gsoc2014),
 and SunPy is participating again for the second year in a row! 
 Remember how awesome it was last year when 
-[we got two amazing students]({{ site.baseurl }}{{ 2013-05-28-gsoc-community-bonding.md }})?
+[we got two amazing students]({{ site.baseurl }}/2013/05/28/gsoc-community-bonding/)?
 Well, this year is going to be twice as awesome! Why? Because SunPy has gotten
 twice as many students than in 2013.  Let's introduce them and their projects:
 
