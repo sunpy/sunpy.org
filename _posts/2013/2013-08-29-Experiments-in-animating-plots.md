@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Experiments in animating plots and saving movies in SunPy 0.3
-author: Jack Ireland
+author: wafels
 ---
 Just over a year ago this post described a simple method for saving a movie of SunPy maps.  
 Since then, SunPy and matplotlib have moved on, and I’d like to describe an updated method for animating SunPy maps, and saving the results as an mp4 file.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RHESSI Workshop 13
-author: Steven Christe
+author: ehsteve
 ---
 The latest version of SunPy along with an introduction to scientific computing in Python
 was presented at the [13th RHESSI Workshop](http://sprg.ssl.berkeley.edu/~solarsdy/rhessi13/)
