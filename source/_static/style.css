@@ -1,3 +1,15 @@
 footer {
-  background-color: gray;
+  bottom: 0;
+  height: 65px; 
+  position: fixed;
+  width: 100%;
+  border-top: none;
+  font-size: 16px;
+  text-align: center;
+  background-color: #E5E5E5;
+}
+.center-footer {
+  float: none;
+  min-width: 400px;
+  height: inherit;
 }

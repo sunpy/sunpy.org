@@ -6,6 +6,15 @@
 
 {# Add some extra stuff before and use existing with 'super()' call. #}
 {% block footer %}
-  <h2>My footer of awesomeness.</h2>
-  {{ super() }}
+{{ super() }}
+<footer class="footer">
+  <div class="container">
+    <p class="center-footer"> A 
+       	  <a href="https://www.numfocus.org/">
+         	 <img src="_static/img/numfocus-logo.svg" width="150px;" height="50px;">
+          </a>
+          Fiscally Sponsored Project.
+        </p>
+  </div>
+</footer>
 {% endblock %}

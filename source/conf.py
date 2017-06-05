@@ -48,8 +48,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'SunPy'
-copyright = u'2017, Duygu KESKEK'
-author = u'Duygu KESKEK'
+author  = 'SunPy'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
