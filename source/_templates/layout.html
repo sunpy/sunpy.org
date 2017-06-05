@@ -1,20 +1,18 @@
 {# Import the theme's layout. #}
 {% extends "!layout.html" %}
-
 {# Custom CSS overrides #}
 {% set css_files = css_files + ['_static/style.css'] %}
-
 {# Add some extra stuff before and use existing with 'super()' call. #}
 {% block footer %}
-{{ super() }}
-<footer class="footer">
-  <div class="container">
-    <p class="center-footer"> A 
-       	  <a href="https://www.numfocus.org/">
-         	 <img src="_static/img/numfocus-logo.svg" width="150px;" height="50px;">
-          </a>
-          Fiscally Sponsored Project.
-        </p>
-  </div>
-</footer>
+	{{ super() }}
+	<footer class="footer">
+		<div class="container">
+			<p class="center-footer"> A
+				<a href="https://www.numfocus.org/">
+					<img src="_static/img/numfocus-logo.svg" width="150px;" height="50px;">
+				</a>
+				Fiscally Sponsored Project.
+			</p>
+		</div>
+	</footer>
 {% endblock %}

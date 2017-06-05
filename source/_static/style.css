@@ -1,15 +1,25 @@
+/*Navbar*/
+.navbar {
+background-color: #212121;
+}
+.navbar-default .navbar-brand {
+color: #FF5722;
+}
+/*End Navbar*/
+/*Footer*/
 footer {
-  bottom: 0;
-  height: 65px; 
-  position: fixed;
-  width: 100%;
-  border-top: none;
-  font-size: 16px;
-  text-align: center;
-  background-color: #E5E5E5;
+bottom: 0;
+height: 65px;
+position: fixed;
+width: 100%;
+border-top: none;
+font-size: 16px;
+text-align: center;
+background-color: #E5E5E5;
 }
 .center-footer {
-  float: none;
-  min-width: 400px;
-  height: inherit;
+float: none;
+min-width: 400px;
+height: inherit;
 }
+/*End Footer*/
