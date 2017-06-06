@@ -1,3 +1,10 @@
+body {
+background-image: url("../_static/img/sunpy-bg.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
 /*Navbar*/
 .navbar {
 background-color: #212121;
@@ -15,7 +22,7 @@ width: 100%;
 border-top: none;
 font-size: 16px;
 text-align: center;
-background-color: #E5E5E5;
+background-color: #F5F5F5;
 }
 .center-footer {
 float: none;
