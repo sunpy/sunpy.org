@@ -1,32 +1,56 @@
 body {
-background-image: url("../_static/img/sunpy-bg.jpg");
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-background-size: cover;
+	background-image: url("../_static/img/sunpy-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	color: black;
 }
 /*Navbar*/
 .navbar {
-background-color: #212121;
+	background-color: #212121;
 }
 .navbar-default .navbar-brand {
-color: #FF5722;
+	color: #FF5722;
 }
 /*End Navbar*/
+.center {
+	text-align: center;
+}
+.icon-text{
+	color: #FF5722;
+	font-size: 48px;
+	font-weight: 500;
+}
+.lead {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.btn.btn-default.btn1 {
+	background-color: #FF5722;
+	border-color: #FF5722;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.btn.btn-default.btn2 {
+	background-color: #212121;
+	border-color: #212121;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
 /*Footer*/
 footer {
-bottom: 0;
-height: 65px;
-position: fixed;
-width: 100%;
-border-top: none;
-font-size: 16px;
-text-align: center;
-background-color: #F5F5F5;
+	bottom: 0;
+	height: 65px;
+	position: fixed;
+	width: 100%;
+	border-top: none;
+	font-size: 16px;
+	text-align: center;
+	background-color: #F5F5F5;
 }
 .center-footer {
-float: none;
-min-width: 400px;
-height: inherit;
+	float: none;
+	min-width: 360px;
+	height: inherit;
 }
-/*End Footer*/
