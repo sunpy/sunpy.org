@@ -56,7 +56,7 @@ html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_title = 'SunPy'
+html_favicon ='_static/img/favicon-32.ico'
 html_theme_options = {
 	'navbar_pagenav': False,
 	'source_link_position': False,
