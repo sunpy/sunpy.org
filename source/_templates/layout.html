@@ -3,6 +3,8 @@
 {# Custom CSS overrides #}
 {% set css_files = css_files + ['_static/style.css'] %}
 {# Add some extra stuff before and use existing with 'super()' call. #}
+{% set title = 'SunPy' %}
+{% set docstitle = '' %}
 {% block footer %}
 	{{ super() }}
 	<footer class="footer">
