@@ -2,8 +2,10 @@
 
     <embed>
    		<div class="center" style="vertical-align:middle;">
-   			<img src="_static/img/sunpy_icon.svg" alt="SunPy Logo" width="20%">   
-     		<p class="icon-text">SunPy</p>
+   			<img src="_static/img/sunpy_icon.svg" alt="SunPy Logo" width="20%"> 
+   			<div class="icon-text"> 
+     		<p>sun<span class="icon-text color2">py</span></p>
+     		</div>
      		<p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
         	<div class="container center">
     		  <a href="#" class="btn btn-default btn1" role="button">Get Started</a>
