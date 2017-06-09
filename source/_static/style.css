@@ -4,11 +4,14 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
-	color: black;
+	color: #212121;
 }
 @font-face {
 	font-family: 'Source Sans Pro', sans-serif;
 	src: url('fonts/SourceSansPro-Bold.ttf');
+}
+h4 {
+	font-weight: 300;
 }
 /*Navbar*/
 .navbar {
