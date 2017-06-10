@@ -5,13 +5,23 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	color: #212121;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
 }
 @font-face {
 	font-family: 'Source Sans Pro', sans-serif;
 	src: url('fonts/SourceSansPro-Bold.ttf');
 }
+h1 {
+	margin-top: 45px;
+}
 h4 {
 	font-weight: 300;
+	padding: 15px 0px 15px 0px;
+}
+p.content  {
+	line-height: 24px;
+	padding-bottom: 60px;
 }
 /*Navbar*/
 .navbar {
@@ -25,7 +35,6 @@ h4 {
 	text-align: center;
 }
 .icon-text{
-	font-family: 'Source Sans Pro', sans-serif;
 	color: #FF5722;
 	font-size: 64px;
 	font-weight: bold;
@@ -34,7 +43,7 @@ h4 {
 	color: #212121;
 }
 .lead {
-	max-width: 500px;
+	max-width: 550px;
 	margin: 0 auto;
 }
 .btn.btn-default.btn1 {
@@ -52,9 +61,15 @@ h4 {
 .bs-sidenav {
 	background-color: #212121;
 	text-shadow: none;
+	margin-top: 50px;
 }
 .bs-sidenav .nav > li > a {
 	color: white;
+	padding: 8px 20px;
+}
+.divider {
+	padding: 5px 0px 5px 0px;
+	border-bottom: 1px solid #eee;
 }
 /*Footer*/
 footer {
