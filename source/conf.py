@@ -81,6 +81,7 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'SunPydoc'
 # -- Options for LaTeX output ---------------------------------------------
+html_sidebars = {'about': ['localtoc.html'], 'contribute': ['localtoc.html'], 'help': ['localtoc.html']}
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 #

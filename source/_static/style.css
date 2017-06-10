@@ -49,9 +49,17 @@ h4 {
 	text-transform: uppercase;
 	margin-top: 20px;
 }
+.bs-sidenav {
+	background-color: #212121;
+	text-shadow: none;
+}
+.bs-sidenav .nav > li > a {
+	color: white;
+}
 /*Footer*/
 footer {
-	position: absolute;
+	position: fixed;
+	bottom: 0;
 	width: 100%;
 	border: 0 none;
 	font-size: 16px;
