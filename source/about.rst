@@ -23,3 +23,4 @@ The SunPy Organization
 
 SunPy (the project) is run by the SunPy organization. This organization was founded and defined by this document. Its primary goal is to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment. The organization consists of a lead developer, a board of directors, and the developer community. The purpose of the board is to lead the overal structure and direction of SunPy while the lead developer works with the developer community to implement it.
 
+

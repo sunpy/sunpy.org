@@ -51,11 +51,9 @@ h4 {
 }
 /*Footer*/
 footer {
-	bottom: 0;
-	height: 65px;
-	position: fixed;
+	position: absolute;
 	width: 100%;
-	border-top: none;
+	border: 0 none;
 	font-size: 16px;
 	text-align: center;
 	background-color: #F5F5F5;
@@ -63,5 +61,4 @@ footer {
 .center-footer {
 	float: none;
 	min-width: 360px;
-	height: inherit;
 }
