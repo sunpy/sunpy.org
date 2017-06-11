@@ -12,16 +12,22 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	src: url('fonts/SourceSansPro-Bold.ttf');
 }
+a {
+	color: #FF5722;
+}
+a:hover {
+	color: #DD2C00;
+}
 h1 {
 	margin-top: 45px;
 }
 h4 {
 	font-weight: 300;
 	padding: 15px 0px 15px 0px;
+	font-size: 21px;
 }
 p.content  {
 	line-height: 24px;
-	padding-bottom: 60px;
 }
 /*Navbar*/
 .navbar {
