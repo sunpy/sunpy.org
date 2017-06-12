@@ -94,3 +94,8 @@ footer {
 	float: none;
 	min-width: 360px;
 }
+@media (max-width: 510px) {
+	footer {
+    display: none;
+	}
+}
