@@ -29,6 +29,9 @@ h4 {
 p.content  {
 	line-height: 24px;
 }
+p.content.last {
+	margin-bottom: 100px;
+}
 /*Navbar*/
 .navbar {
 	background-color: #212121;

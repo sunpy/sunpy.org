@@ -54,7 +54,7 @@ SunPy vs SolarSoft
 
     <embed>
       <div class="divider"></div>
-      	<h4>SunPy is a living code base with many contributors. Anyone can and is welcome to get involved.</h4>
+      	<h4>SunPy is an alternative to the popular SolarSoft analysis environment.</h4>
       	<p class="content">
       	  The IDL-based SolarSoft analysis environment is a mature and rich code base to do Solar physics. Unfortunately not every person or institution have the capital necessary to fund a yearly IDL license. With the rise of scientific computing in Python new tools are now available to make developing the basics of a solar data analysis environment straightforward.
       	</p>
@@ -151,6 +151,45 @@ Special Thanks
 
     <embed>
       <div class="divider"></div>
+      <h4>Part of SunPy has been developed with help from the Google and ESA Summer of Code programs.</h4>
+      <p class="content">
+        Part of the development of SunPy has been generously supported by the 
+        <a href="https://developers.google.com/open-source/gsoc/">Google Summer of Code</a> 
+        (GSOC) as well as the 
+        <a href="http://sophia.estec.esa.int/socis2013/">European Space Agency Summer of Code in Space</a> 
+        (SOCIS). Both of these programs have funded several students to work on SunPy for a few months (usually during the summer).
+        <ul>
+        	<li>
+        	<a href="http://sophia.estec.esa.int/socis2014/?q=about">SOCIS 2014</a>:
+        	<a href="https://github.com/mateoi">Mateo Inchaurrandieta</a>
+        	</li>
+        	<li>
+        	<a href="https://www.google-melange.com/archive/gsoc/2014">GSOC 2014</a>:
+        	<a href="https://github.com/VaticanCameos">Pritish Chakraborty</a>,
+        	<a href="https://github.com/kaichogami">Asish Panda</a>,
+        	<a href="https://github.com/gunner272">Rishabh Sharma</a>,
+        	<a href="https://github.com/rajul-iitkgp">Rajul Srivastava</a>
+        	</li>
+        	<li>
+        	<a href="https://www.google-melange.com/archive/gsoc/2013">GSOC 2013</a>:
+        	<a href="https://github.com/derdon/">Simon Liedtke</a> and
+        	<a href="https://github.com/mjm159/">Michael Molocha</a>
+        	</li>
+        	<li>
+        	<a href="http://sophia.estec.esa.int/socis2013/?q=about">SOCIS 2013</a>:
+        	<a href="https://github.com/examon/">Tomás Mészaros</a>
+        	</li>
+        	<li>
+        	<a href="http://sophia.estec.esa.int/socis2012/?q=about">SOCIS 2012</a>:
+        	<a href="https://github.com/mattearnshaw/">Matthew Earnshaw</a>
+        	</li>
+        	<li>
+        	<a href="http://sophia.estec.esa.int/socis2011/?q=about">SOCIS 2011</a>:
+        	<a href="https://github.com/segfaulthunter/">Florian Mayer</a>
+        	</li>
+        </ul>
+        SunPy would like to thank both of these programs for their support.
+      </p>
     </embed>
 
 Financial Support
@@ -160,4 +199,14 @@ Financial Support
 
     <embed>
       <div class="divider"></div>
+      <h4>SunPy is fiscally sponsored by 
+      <a href="https://www.numfocus.org/">NumFOCUS</a>
+      </h4>
+      <p class="content last">
+        If you like SunPy and want to support our goal that is to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment, consider making a 
+        <a href="https://www.flipcause.com/widget/give_now/MTgxMTU=">donation</a> to our project.
+        <a href="http://numfocus.org/"><img src="_static/img/numfocus-logo.svg" width="375px;" height="125px;" alt="numfocus-logo" style="padding-bottom:20px;padding-top:10px;display:block;margin: 0 auto;"></a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.flipcause.com/widget/give_now/MTgxMTU=" data-text="Donate to the SunPy Project" data-via="SunPyProject" data-size="large">Tweet</a> 
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </p>
     </embed>
