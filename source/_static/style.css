@@ -32,6 +32,9 @@ p.content  {
 p.content.last {
 	margin-bottom: 100px;
 }
+p.content.noheader {
+	padding-top: 15px;
+}
 /*Navbar*/
 .navbar {
 	background-color: #212121;

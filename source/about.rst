@@ -72,23 +72,23 @@ Community
       	Anyone can and is welcome to get involved. Many methods of interactions are provide and please refer to our 
         <a href="https://github.com/sunpy/sunpy/wiki/Code-of-Conduct">Code of Conduct</a>.
       	  <ul>
-	      	<li>Read and subscribe to
-	      		<a href="#">The SunPy Blog</a>
-	      	</li>
-	      	<li>Subscribe to the
-	      		<a href="https://groups.google.com/forum/#!forum/sunpy">SunPy Mailing List</a>
-	      	</li>
-	      	<li>Join us on github and add a feature request or bug report to our
-	      		<a href="https://github.com/sunpy/sunpy/issues">issue list</a>
-	      	</li>
-	      	<li>Chat with fellow SunPy users or developers on 
-	      		<a href="http://matrix.org/">matrix.org</a>, in the
-	      		<a href="https://riot.im/app/#/room/#sunpy-general:matrix.org">#sunpy-general</a>
-	      	</li>
-	      	<li>Join us at one of our weekly meetings. Check out
-	      		<a href="https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1">our calendar </a>
-	      		to find the next one.
-	      	</li>
+  	      	<li>Read and subscribe to
+  	      		<a href="blog.html">The SunPy Blog</a>
+  	      	</li>
+  	      	<li>Subscribe to the
+  	      		<a href="https://groups.google.com/forum/#!forum/sunpy">SunPy Mailing List</a>
+  	      	</li>
+  	      	<li>Join us on github and add a feature request or bug report to our
+  	      		<a href="https://github.com/sunpy/sunpy/issues">issue list</a>
+  	      	</li>
+  	      	<li>Chat with fellow SunPy users or developers on 
+  	      		<a href="http://matrix.org/">matrix.org</a>, in the
+  	      		<a href="https://riot.im/app/#/room/#sunpy-general:matrix.org">#sunpy-general</a>
+  	      	</li>
+  	      	<li>Join us at one of our weekly meetings. Check out
+  	      		<a href="https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1">our calendar </a>
+  	      		to find the next one.
+  	      	</li>
       	  </ul>
       	We are looking forward to meeting you!
       </p>
@@ -117,7 +117,7 @@ Acknowledging or Citing SunPy
       <h4>If you have used SunPy in your scientific work we would appreciate it if you would acknowledge it.</h4>
       <p class="content">
         The continued growth and development of SunPy is dependent on the community being aware of the use SunPy. If you use SunPy, we therefore ask that you acknowledge SunPy appropriately in a publication or presentation (poster or talk).
-		<ul>
+		    <ul>
         	<li>
         		<b>For a publication</b>, we recommend the following line be added to the conclusion or acknowledgements
         		<br></br>
