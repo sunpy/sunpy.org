@@ -35,6 +35,9 @@ p.content.last {
 p.content.noheader {
 	padding-top: 15px;
 }
+li.dropdown.global-container {
+	display: none !important;
+}
 /*Navbar*/
 .navbar {
 	background-color: #212121;
@@ -74,6 +77,10 @@ p.content.noheader {
 	background-color: #212121;
 	text-shadow: none;
 	margin-top: 50px;
+}
+.bs-sidenav .nav > li > a:hover,
+.bs-sidenav .nav > li > a:focus {
+	background-color: #FF5722;
 }
 .bs-sidenav .nav > li > a {
 	color: white;
