@@ -99,6 +99,5 @@ Donate
 
 	<embed>
       <div class="divider"></div>
-      <p class="content last noheader">
-      </p>
+      <p class="content last noheader"></p>
     </embed>

@@ -35,14 +35,15 @@ p.content.last {
 p.content.noheader {
 	padding-top: 15px;
 }
-li.dropdown.global-container {
-	display: none !important;
-}
 /*Navbar*/
 .navbar {
 	background-color: #212121;
 }
 .navbar-default .navbar-brand {
+	color: #FF5722;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
 	color: #FF5722;
 }
 /*End Navbar*/
