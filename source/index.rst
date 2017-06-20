@@ -2,7 +2,7 @@
 
     <embed>
    		<div class="center" style="vertical-align:middle;">
-   			<img src="_static/img/sunpy_icon.svg" alt="SunPy Logo" width="20%"> 
+   			<img src="_static/img/sunpy_icon.svg" class="sunpy-logo" alt="SunPy Logo">
    			<div class="icon-text"> 
      		<p>sun<span class="icon-text color2">py</span></p>
      		</div>
@@ -11,7 +11,7 @@
     		  <a href="#" class="btn btn-default btn1" role="button">Get Started</a>
     		  <a href="#" class="btn btn-default btn2" role="button">Install SunPy</a>
 		    </div>
-      </div>
+      	</div>
     </embed>
 
 .. toctree::

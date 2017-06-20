@@ -35,6 +35,9 @@ p.content.last {
 p.content.noheader {
 	padding-top: 15px;
 }
+.sunpy-logo {
+	width: 30%;
+}
 /*Navbar*/
 .navbar {
 	background-color: #212121;
@@ -99,4 +102,9 @@ p.content.noheader {
 }
 footer {
 	display: none;
+}
+@media (max-width: 510px) {
+	.sunpy-logo {
+   		width: 75%;
+ 	}
 }
