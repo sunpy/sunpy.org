@@ -34,7 +34,7 @@ html_theme_options = {
 	'source_link_position': False,
 	'bootswatch_theme': 'flatly',
 	'navbar_site_name': "Site",
-	'navbar_title': 'SunPy',
+	'navbar_title': 'sunpy',
 	'navbar_links': [("About", "about.html", 1),
 					 ("Blog", "blog.html", 1),
 					 ("Docs", "#"),

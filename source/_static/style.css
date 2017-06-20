@@ -44,6 +44,7 @@ p.content.noheader {
 }
 .navbar-default .navbar-brand {
 	color: #FF5722;
+	font-size: 20px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
