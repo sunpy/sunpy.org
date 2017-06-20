@@ -49,6 +49,9 @@ p.content.noheader {
 .navbar-default .navbar-nav > li > a:focus {
 	color: #FF5722;
 }
+.navbar-form {
+	display: none;
+}
 /*End Navbar*/
 .center {
 	text-align: center;
