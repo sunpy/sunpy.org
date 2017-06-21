@@ -79,18 +79,28 @@ p.content.noheader {
 }
 .btn {
 	font-size: 17px;
+	font-weight: bolder;
 }
 .btn.btn-default.btn1 {
 	background-color: #FE7900;
 	border-color: #FE7900;
 	text-transform: uppercase;
 	margin-top: 20px;
+	padding: 10px 21px;
+}
+a.btn.btn-default.btn1:hover {
+	color: #FE7900;
+	background-color: white;
 }
 .btn.btn-default.btn2 {
 	background-color: #444444;
 	border-color: #444444;
 	text-transform: uppercase;
 	margin-top: 20px;
+}
+a.btn.btn-default.btn2:hover {
+	color: #444444;
+	background-color: white;
 }
 .bs-sidenav {
 	background-color: #444444;
