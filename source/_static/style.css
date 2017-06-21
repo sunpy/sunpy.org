@@ -6,7 +6,7 @@ body {
 	background-size: cover;
 	color: #444444;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 }
 @font-face {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -42,9 +42,17 @@ p.content.noheader {
 .navbar {
 	background-color: #444444;
 }
+.navbar-brand.color2 {
+	color: white;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+	color: #FE7900;
+}
 .navbar-default .navbar-brand {
 	color: #FE7900;
 	font-size: 20px;
+	font-weight: bold;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -59,7 +67,7 @@ p.content.noheader {
 }
 .icon-text{
 	color: #FE7900;
-	font-size: 64px;
+	font-size: 96px;
 	font-weight: bold;
 }
 .icon-text.color2{
@@ -68,6 +76,9 @@ p.content.noheader {
 .lead {
 	max-width: 550px;
 	margin: 0 auto;
+}
+.btn {
+	font-size: 17px;
 }
 .btn.btn-default.btn1 {
 	background-color: #FE7900;
