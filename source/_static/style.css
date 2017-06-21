@@ -109,7 +109,7 @@ a.btn.btn-default.btn2:hover {
 }
 .bs-sidenav .nav > li > a:hover,
 .bs-sidenav .nav > li > a:focus {
-	background-color: #FE7900;
+	background-color: rgba(230, 124, 25, 1);
 }
 .bs-sidenav .nav > li > a {
 	color: white;
