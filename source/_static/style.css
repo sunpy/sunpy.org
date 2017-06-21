@@ -4,7 +4,7 @@ body {
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
-	color: #212121;
+	color: #444444;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 }
@@ -13,7 +13,7 @@ body {
 	src: url('fonts/SourceSansPro-Bold.ttf');
 }
 a {
-	color: #FF5722;
+	color: #FE7900;
 }
 a:hover {
 	color: #DD2C00;
@@ -40,15 +40,15 @@ p.content.noheader {
 }
 /*Navbar*/
 .navbar {
-	background-color: #212121;
+	background-color: #444444;
 }
 .navbar-default .navbar-brand {
-	color: #FF5722;
+	color: #FE7900;
 	font-size: 20px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	color: #FF5722;
+	color: #FE7900;
 }
 .navbar-form {
 	display: none;
@@ -58,37 +58,37 @@ p.content.noheader {
 	text-align: center;
 }
 .icon-text{
-	color: #FF5722;
+	color: #FE7900;
 	font-size: 64px;
 	font-weight: bold;
 }
 .icon-text.color2{
-	color: #212121;
+	color: #444444;
 }
 .lead {
 	max-width: 550px;
 	margin: 0 auto;
 }
 .btn.btn-default.btn1 {
-	background-color: #FF5722;
-	border-color: #FF5722;
+	background-color: #FE7900;
+	border-color: #FE7900;
 	text-transform: uppercase;
 	margin-top: 20px;
 }
 .btn.btn-default.btn2 {
-	background-color: #212121;
-	border-color: #212121;
+	background-color: #444444;
+	border-color: #444444;
 	text-transform: uppercase;
 	margin-top: 20px;
 }
 .bs-sidenav {
-	background-color: #212121;
+	background-color: #444444;
 	text-shadow: none;
 	margin-top: 50px;
 }
 .bs-sidenav .nav > li > a:hover,
 .bs-sidenav .nav > li > a:focus {
-	background-color: #FF5722;
+	background-color: #FE7900;
 }
 .bs-sidenav .nav > li > a {
 	color: white;
