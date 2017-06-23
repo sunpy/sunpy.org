@@ -6,12 +6,6 @@ Our Mission
 .. raw:: html
 
     <embed>
-      <style>
-        body {
-         background-color: white;
-         background-image: none !important;
-        }
-      </style>
       <div class="divider"></div>
    		<h4>SunPy is a free and open-source software library for solar physics based on Python.</h4>
      	<p class="content">

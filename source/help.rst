@@ -6,12 +6,6 @@ Documentation
 .. raw:: html
 
     <embed>
-      <style>
-        body {
-         background-color: white;
-         background-image: none !important;
-        }
-      </style>
       <div class="divider"></div>
       	<p class="content noheader">
       	  The SunPy 

@@ -1,9 +1,5 @@
 body {
-	background-image: url("../_static/img/sunpy-bg.jpg");
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
-	background-size: cover;
+	background-color: white;
 	color: #444444;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;

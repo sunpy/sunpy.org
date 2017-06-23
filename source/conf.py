@@ -1,8 +1,6 @@
 import sphinx_bootstrap_theme
 
-extensions = ['sphinx.ext.intersphinx',
-			  'sphinx.ext.githubpages',
-			 ]
+extensions = ['sphinx.ext.intersphinx','sphinx.ext.githubpages']
 
 templates_path = ['_templates']
 source_suffix = '.rst'
@@ -47,12 +45,6 @@ html_theme_options = {
 }
 html_static_path = ['_static']
 html_sidebars = {'about': ['localtoc.html'], 'contribute': ['localtoc.html'], 'help': ['localtoc.html']}
-man_pages = [
-(master_doc, 'sunpy', u'SunPy Documentation',
-[author], 1)]
-texinfo_documents = [
-(master_doc, 'SunPy', u'SunPy Documentation',
-author, 'SunPy', 'One line description of project.',
-'Miscellaneous'),
-]
+man_pages = [(master_doc, 'sunpy', u'SunPy Documentation',[author], 1)]
+texinfo_documents = [(master_doc, 'SunPy', u'SunPy Documentation',author, 'SunPy', 'One line description of project.','Miscellaneous')]
 intersphinx_mapping = {'https://docs.python.org/': None}

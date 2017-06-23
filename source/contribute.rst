@@ -6,12 +6,6 @@ Provide Feedback
 .. raw:: html
 
     <embed>
-      <style>
-        body {
-         background-color: white;
-         background-image: none !important;
-        }
-      </style>
       <div class="divider"></div>
       	<p class="content noheader">
       	  We could always use more voices and opinions in the discussions about SunPy and its development from both users and developers. You may want to suggest a new feature or gripe about how something is not working how you think it should. There are a number of ways to make your voice heard and we would love to hear from you.
