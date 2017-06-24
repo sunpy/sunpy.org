@@ -1,4 +1,1 @@
 :orphan:
-
-Blog Entries
-============

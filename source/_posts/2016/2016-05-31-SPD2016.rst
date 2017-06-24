@@ -1,0 +1,10 @@
+
+SPD 2016
+========
+
+.. post:: May 5, 2016
+   :tags: materials
+   :author: Steven Christe
+
+You can find all of the material for the introductory 
+sessions of scientific python and sunpy can be found `here <https://github.com/sunpy/2016SPD-Python-SunPy/blob/master/README.md>`_

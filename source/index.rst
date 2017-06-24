@@ -3,12 +3,12 @@
     <embed>
     	<style>
         body {
-          background-color: none !important;
-          background-image: url("_static/img/sunpy-bg.jpg");
-      		background-repeat: no-repeat;
-      		background-position: center center;
-      		background-attachment: fixed;
-      		background-size: cover;
+	        background-color: none !important;
+	        background-image: url("_static/img/sunpy-bg.jpg");
+	        background-repeat: no-repeat;
+	      	background-position: center center;
+	      	background-attachment: fixed;
+	      	background-size: cover;
         }
      	</style>
    		<div class="center" style="vertical-align:middle;">

@@ -1,8 +1,12 @@
 import sphinx_bootstrap_theme
+import ablog
 
-extensions = ['sphinx.ext.intersphinx','sphinx.ext.githubpages']
+extensions = ['sphinx.ext.intersphinx','ablog']
 
-templates_path = ['_templates']
+templates_path = ['_templates', ablog.get_html_templates_path()]
+disqus_shortname = 'sunpy-website'
+blog_baseurl = 'https://duygukeskek.github.io/sunpy-website/'
+disqus_pages = True
 source_suffix = '.rst'
 master_doc = 'index'
 project = u'SunPy'
