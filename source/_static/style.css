@@ -58,6 +58,9 @@ p.content.noheader {
 .navbar-form {
 	display: none;
 }
+.navbar-nav>li>a {
+	font-size: 16px;
+}
 /*End Navbar*/
 .center {
 	text-align: center;
@@ -129,4 +132,12 @@ footer {
 	.sunpy-logo {
    		width: 75%;
  	}
+}
+@media (min-width: 768px) {
+	.container>.navbar-header, 
+	.container-fluid>.navbar-header, 
+	.container>.navbar-collapse, 
+	.container-fluid>.navbar-collapse {
+		margin-right: -30px;
+	}
 }

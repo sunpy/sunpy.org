@@ -54,40 +54,6 @@ SunPy vs SolarSoft
       	</p>
     </embed>
 
-Community
-=========
-
-.. raw:: html
-
-    <embed>
-      <div class="divider"></div>
-      <h4>Stay up to date on the development of SunPy and interact with the community with these helpful resources.</h4>
-      <p class="content">
-      	Anyone can and is welcome to get involved. Many methods of interactions are provide and please refer to our 
-        <a href="https://github.com/sunpy/sunpy/wiki/Code-of-Conduct">Code of Conduct</a>.
-      	  <ul>
-  	      	<li>Read and subscribe to
-  	      		<a href="blog.html">The SunPy Blog</a>
-  	      	</li>
-  	      	<li>Subscribe to the
-  	      		<a href="https://groups.google.com/forum/#!forum/sunpy">SunPy Mailing List</a>
-  	      	</li>
-  	      	<li>Join us on github and add a feature request or bug report to our
-  	      		<a href="https://github.com/sunpy/sunpy/issues">issue list</a>
-  	      	</li>
-  	      	<li>Chat with fellow SunPy users or developers on 
-  	      		<a href="http://matrix.org/">matrix.org</a>, in the
-  	      		<a href="https://riot.im/app/#/room/#sunpy-general:matrix.org">#sunpy-general</a>
-  	      	</li>
-  	      	<li>Join us at one of our weekly meetings. Check out
-  	      		<a href="https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1">our calendar </a>
-  	      		to find the next one.
-  	      	</li>
-      	  </ul>
-      	We are looking forward to meeting you!
-      </p>
-    </embed>
-
 SunPy Talks
 ===========
 
