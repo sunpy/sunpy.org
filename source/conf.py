@@ -4,9 +4,16 @@ import ablog
 extensions = ['sphinx.ext.intersphinx','ablog']
 
 templates_path = ['_templates', ablog.get_html_templates_path()]
+html_static_path = ['_static']
+
 disqus_shortname = 'sunpy-website'
-blog_baseurl = 'https://duygukeskek.github.io/sunpy-website/'
 disqus_pages = True
+blog_baseurl = 'https://duygukeskek.github.io/sunpy-website/'
+
+blog_feed_fulltext = True
+blog_feed_length = 10
+blog_feed_archives = True
+
 source_suffix = '.rst'
 master_doc = 'index'
 project = u'SunPy'
@@ -14,22 +21,13 @@ author  = 'SunPy'
 version = u''
 release = u''
 language = None
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This patterns also effect to html_static_path and html_extra_path
 exclude_patterns = []
-# The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
-# If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
-# -- Options for HTML output ----------------------------------------------
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
+
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
-# documentation.
+
 html_favicon ='_static/img/favicon-32.ico'
 html_theme_options = {
 	'navbar_pagenav': False,
@@ -44,12 +42,13 @@ html_theme_options = {
 					 ("Affiliated Projects", "affiliated.html", 1),
 					 ("Get Help", "help.html", 1),
 					 ("The Team", "team.html", 1),
-					 # ("GitHub", "https://github.com/DuyguKeskek/sunpy-website", True),
 					 ],
 					 'globaltoc_depth': 1
 }
-html_static_path = ['_static']
-html_sidebars = {'about': ['localtoc.html'], 'contribute': ['localtoc.html'], 'help': ['localtoc.html']}
-man_pages = [(master_doc, 'sunpy', u'SunPy Documentation',[author], 1)]
+html_sidebars = {'about': ['localtoc.html'], 
+				 'contribute': ['localtoc.html'],
+				 'help': ['localtoc.html'],
+				 'blog': ['postcard.html','recentposts.html','categories.html','archives.html',]
+}
 texinfo_documents = [(master_doc, 'SunPy', u'SunPy Documentation',author, 'SunPy', 'One line description of project.','Miscellaneous')]
 intersphinx_mapping = {'https://docs.python.org/': None}

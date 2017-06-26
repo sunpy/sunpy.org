@@ -1,12 +1,15 @@
 body {
 	background-color: white;
-	color: #444444;
+	color: #333;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
 }
 @font-face {
 	font-family: 'Source Sans Pro', sans-serif;
 	src: url('fonts/SourceSansPro-Bold.ttf');
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Source Sans Pro', sans-serif;
 }
 a {
 	color: #FE7900;
@@ -102,10 +105,14 @@ a.btn.btn-default.btn2:hover {
 	color: #444444;
 	background-color: white;
 }
+/*Sidebar*/
 .bs-sidenav {
 	background-color: #444444;
 	text-shadow: none;
 	margin-top: 50px;
+}
+.bs-sidenav a {
+	padding-left: 20px;
 }
 .bs-sidenav .nav > li > a:hover,
 .bs-sidenav .nav > li > a:focus {
@@ -115,6 +122,7 @@ a.btn.btn-default.btn2:hover {
 	color: white;
 	padding: 8px 20px;
 }
+/*End Sidebar*/
 .divider {
 	padding: 5px 0px 5px 0px;
 	border-bottom: 1px solid #eee;

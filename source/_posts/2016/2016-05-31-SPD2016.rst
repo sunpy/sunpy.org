@@ -2,7 +2,7 @@
 SPD 2016
 ========
 
-.. post:: May 5, 2016
+.. post:: May 31, 2016
    :tags: materials
    :author: Steven Christe
 
