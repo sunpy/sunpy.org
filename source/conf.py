@@ -1,7 +1,7 @@
 import sphinx_bootstrap_theme
 import ablog
 
-extensions = ['sphinx.ext.intersphinx','ablog']
+extensions = ['ablog']
 
 templates_path = ['_templates', ablog.get_html_templates_path()]
 html_static_path = ['_static']
@@ -51,4 +51,3 @@ html_sidebars = {'about': ['localtoc.html'],
 				 'blog': ['postcard.html','recentposts.html','categories.html','archives.html',]
 }
 texinfo_documents = [(master_doc, 'SunPy', u'SunPy Documentation',author, 'SunPy', 'One line description of project.','Miscellaneous')]
-intersphinx_mapping = {'https://docs.python.org/': None}

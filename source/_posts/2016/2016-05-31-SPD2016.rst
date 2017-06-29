@@ -3,7 +3,6 @@ SPD 2016
 ========
 
 .. post:: May 31, 2016
-   :tags: materials
    :author: Steven Christe
 
 You can find all of the material for the introductory 

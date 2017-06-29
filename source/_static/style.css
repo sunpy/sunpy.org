@@ -34,6 +34,9 @@ p.content.last {
 p.content.noheader {
 	padding-top: 15px;
 }
+pre {
+	color: #333;
+}
 .sunpy-logo {
 	width: 30%;
 	padding-top: 2em;
