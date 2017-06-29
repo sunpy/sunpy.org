@@ -8,7 +8,7 @@ html_static_path = ['_static']
 
 disqus_shortname = 'sunpy-website'
 disqus_pages = True
-blog_baseurl = 'https://duygukeskek.github.io/sunpy-website/'
+blog_baseurl = 'https://duygukeskek.github.io/sunpy-website/blog.html'
 
 blog_feed_fulltext = True
 blog_feed_length = 10
