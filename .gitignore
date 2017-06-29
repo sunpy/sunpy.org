@@ -1,0 +1,3 @@
+source/doctrees/
+*.doctree
+*.pickle

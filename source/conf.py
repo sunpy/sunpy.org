@@ -1,7 +1,7 @@
 import sphinx_bootstrap_theme
 import ablog
 
-extensions = ['ablog']
+extensions = ['sphinx.ext.githubpages','ablog']
 
 templates_path = ['_templates', ablog.get_html_templates_path()]
 html_static_path = ['_static']
