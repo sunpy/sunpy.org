@@ -7,7 +7,6 @@ templates_path = ['_templates', ablog.get_html_templates_path()]
 html_static_path = ['_static']
 
 disqus_shortname = 'sunpy-website'
-disqus_pages = True
 blog_baseurl = 'https://duygukeskek.github.io/sunpy-website/blog.html'
 
 blog_feed_fulltext = True
