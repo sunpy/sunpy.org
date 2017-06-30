@@ -37,7 +37,7 @@ The Team
       	<p class="content">
 	      SunPy (the project) is run by the SunPy organization. This organization was founded and defined by 
 	      <a href="https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md">this document</a>. 
-	      Its primary goal is to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment. The organization consists of a lead developer, a board of directors, and the developer community. The purpose of the board is to lead the overal structure and direction of SunPy while the lead developer works with the developer community to implement it.  
+	      Its primary goal is to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment. The organization consists of a lead developer, a board of directors, and the developer community. The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.  
      	</p>
     </embed>
 
@@ -61,7 +61,7 @@ SunPy Talks
 
     <embed>
       <div class="divider"></div>
-      <h4>The SunPy community has presentated their work in various workshops over the years.</h4>
+      <h4>The SunPy community has presented their work in various workshops over the years.</h4>
       <p class="content">
         Most of them include talks about the core of the SunPy library, the organisation and its goals. Some of these talks from workshops such as Python in Astronomy (2016) and Scipy (2013) are listed below.
       </p>
@@ -76,7 +76,7 @@ Acknowledging or Citing SunPy
       <div class="divider"></div>
       <h4>If you have used SunPy in your scientific work we would appreciate it if you would acknowledge it.</h4>
       <p class="content">
-        The continued growth and development of SunPy is dependent on the community being aware of the use SunPy. If you use SunPy, we therefore ask that you acknowledge SunPy appropriately in a publication or presentation (poster or talk).
+        The continued growth and development of SunPy are dependent on the community being aware of the use SunPy. If you use SunPy, we therefore ask that you acknowledge SunPy appropriately in a publication or presentation (poster or talk).
 		    <ul>
         	<li>
         		<b>For a publication</b>, we recommend the following line be added to the conclusion or acknowledgements
