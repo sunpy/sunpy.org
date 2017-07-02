@@ -40,7 +40,7 @@ html_theme_options = {
 					 ("Support Us", "contribute.html", 1),
 					 ("Affiliated Projects", "affiliated.html", 1),
 					 ("Get Help", "help.html", 1),
-					 ("The Team", "team.html", 1),
+					 ("SunPy Project", "team.html", 1),
 					 ],
 					 'globaltoc_depth': 1
 }

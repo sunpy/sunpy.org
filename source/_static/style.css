@@ -136,6 +136,13 @@ a.btn.btn-default.btn2:hover {
 	height:450px;
 	padding-top: 50px;
 }
+.table-img {
+	display: block;
+	margin: 0 auto;
+}
+table a:not(.btn), .table a:not(.btn) {
+	text-decoration: none;
+}
 footer {
 	display: none;
 }
@@ -151,4 +158,3 @@ footer {
 	.container-fluid>.navbar-collapse {
 		margin-right: -30px;
 	}
-}
