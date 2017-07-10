@@ -2,3 +2,4 @@ source/doctrees/
 *.doctree
 *.pickle
 build/
+*vscode*

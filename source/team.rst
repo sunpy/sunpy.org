@@ -1,4 +1,14 @@
-:orphan:
+The Team
+========
+
+SunPy (the project) is run by the SunPy organization.
+This organization was founded and defined by `this document`_.
+Its primary goal is to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment.
+The organization consists of a lead developer, a board of directors, and the developer community.
+The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.
+
+
+.. _this document: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
 
 .. raw:: html
 

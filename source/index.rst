@@ -13,7 +13,7 @@
      	</style>
    		<div class="center" style="vertical-align:middle;">
    			<img src="_static/img/sunpy_icon.svg" class="sunpy-logo" alt="SunPy Logo">
-   			<div class="icon-text"> 
+   			<div class="icon-text">
      		<p>sun<span class="icon-text color2">py</span></p>
      		</div>
      		<p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
@@ -25,7 +25,6 @@
     </embed>
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
    :hidden:
-
 
