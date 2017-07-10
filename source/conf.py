@@ -1,4 +1,8 @@
+import sys
+import os
 import ablog
+
+sys.path.insert(0, os.path.abspath("source/sunpy-sphinx-theme"))
 
 extensions = ['sphinx.ext.githubpages', 'ablog']
 templates_path = [ablog.get_html_templates_path()]
@@ -37,6 +41,8 @@ from sunpy_sphinx_theme.conf import *
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
+
+html_static_path = ['_static']
 
 html_theme_options.update({'navbar_pagenav': False,
                            'globaltoc_depth': 1})
