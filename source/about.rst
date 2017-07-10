@@ -15,12 +15,17 @@ Furthermore, the SunPy project was established in order to provide the software 
 Acknowledging SunPy
 ===================
 
-If you have used SunPy in your scientific work we would appreciate it if you would acknowledge it.
-
 The continued growth and development of SunPy is dependent on the community being aware of the use SunPy.
 If you use SunPy, we therefore ask that you acknowledge SunPy appropriately in a publication or presentation (poster or talk).
 
-**For a publication**, we recommend the following line be added to the conclusion or acknowledgements *This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (citation).* where the citation is to the `SunPy v0.5 paper`_ / `arXiv (open access)`_ (`Bib reference`_) If the journal allows please also include a link to sunpy.org. If you have the time please `email us`_ to let us know about your paper as we maintain a `public list`_ of papers on `Zotero`_.
+**For a publication**, we recommend the following line be added to the conclusion or acknowledgements:
+
+    *This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (citation).*
+
+Where the citation is to the `SunPy v0.5 paper`_ / `arXiv (open access)`_ (`Bib reference`_).
+If the journal allows please also include a link to sunpy.org.
+If you have the time please `email us`_ to let us know about your paper as we maintain a `public list`_ of papers on `Zotero`_.
+
 **For a poster, talks, or project websites**, please include the `Sunpy logo`_ on the title, conclusion slide, or about page.
 For websites please link the image to sunpy.org.
 Other versions of the logo are available in the `sunpy-logo repository`_.
