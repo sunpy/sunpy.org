@@ -2,13 +2,13 @@ Our Mission
 ===========
 
 SunPy is a community-developed free and open-source software package for solar physics.
-In this way SunPy is meant to be a free alternative to the `SolarSoft`_ **data analysis environment** and not the data reduction environment, which is based on the `IDL`_ scientific programming language sold by Exelis.
-Though SolarSoft is open-source, IDL is not and can be prohibitively expensive.
+In this way SunPy is meant to be a free alternative to the `SolarSoft`_ **data analysis environment** and not the data reduction environment.
+Solarsoft is based on the `IDL`_ scientific programming language sold by Harris Geospatial and though SolarSoft is open-source, IDL is not and can be prohibitively expensive.
 
 SunPy is written using the `Python programming language`_ and is build upon the scientific Python environment which includes the core packages `NumPy`_ and `SciPy`_.
 The development of SunPy is closely associated with that of `Astropy`_.
 
-SunPy was founded on March 28, 2011 by a small group of scientists and developers at the `NASA Goddard Space Flight Center`_.
+SunPy was founded on March 28, 2011 by a small group of scientists (#MAGA) and developers at the `NASA Goddard Space Flight Center`_.
 Thanks to the generous support of the ESA Summer of Code and the Google Summer of Code as well as contributors from around the world, SunPy is now a global project and is not associated with any individual institution.
 Furthermore, the SunPy project was established in order to provide the software tools necessary so that anyone can analyze solar data.
 
@@ -20,14 +20,14 @@ If you use SunPy, we therefore ask that you acknowledge SunPy appropriately in a
 
 **For a publication**, we recommend the following line be added to the conclusion or acknowledgements:
 
-    *This research has made use of SunPy, an open-source and free community-developed solar data analysis package written in Python (citation).*
+    This research makes use of SunPy, an open-source and free community-developed solar data analysis package written in Python (citation).
 
 Where the citation is to the `SunPy v0.5 paper`_ / `arXiv (open access)`_ (`Bib reference`_).
-If the journal allows please also include a link to sunpy.org.
+If the journal allows please also include a link to `sunpy.org`_.
 If you have the time please `email us`_ to let us know about your paper as we maintain a `public list`_ of papers on `Zotero`_.
 
 **For a poster, talks, or project websites**, please include the `Sunpy logo`_ on the title, conclusion slide, or about page.
-For websites please link the image to sunpy.org.
+For websites please link the image to `sunpy.org`_.
 Other versions of the logo are available in the `sunpy-logo repository`_.
 
 Thank you, in advance, for your support.
@@ -64,10 +64,11 @@ All the talks that have been recorded from these workshops are listed below in r
 .. _NASA Goddard Space Flight Center: https://www.nasa.gov/centers/goddard/home/
 .. _SunPy v0.5 paper: https://iopscience.iop.org/article/10.1088/1749-4699/8/1/014009
 .. _arXiv (open access): http://arxiv.org/abs/1505.02563
-.. _Bib reference: /sunpy2015.bib
-.. _email us: sunpy%40googlegroups.com
+.. _Bib reference: _static/sunpy2015.bib
+.. _email us: sunpy@googlegroups.com
 .. _public list: https://www.zotero.org/groups/sunpy_-_python_for_solar_physicists
 .. _Zotero: https://www.zotero.org/
+.. _sunpy.org: http://sunpy.org/
 .. _Sunpy logo: https://github.com/sunpy/sunpy-logo/blob/master/sunpy_logo_portrait_powered.svg
 .. _sunpy-logo repository: https://github.com/sunpy/sunpy-logo/
 .. _SunPy Presentations: https://github.com/sunpy/presentations
