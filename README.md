@@ -1,3 +1,1 @@
 # sunpy-website
-
-Source here
