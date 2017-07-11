@@ -66,4 +66,15 @@ You can find the `template`_ and `more information`_ about SEPs in the appropria
 Donate
 ======
 
-Add sometime.
+SunPy is fiscally sponsored by `NumFOCUS`_
+
+If you like SunPy and want to support our goal that is to facilitate and promote the use and development of a community-led, free and open-source
+solar data-analysis software based on the scientific Python environment, consider making a `donation`_ to our project.
+
+|numfocus-logo|
+
+.. _NumFOCUS: http://numfocus.org/
+.. _donation: https://www.flipcause.com/widget/give_now/MTgxMTU=
+
+.. |numfocus-logo| image:: _static/img/numfocus-logo.svg
+   :target: http://numfocus.org/
