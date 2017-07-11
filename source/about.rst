@@ -2,7 +2,7 @@ Our Mission
 ===========
 
 SunPy is a community-developed free and open-source software package for solar physics.
-In this way SunPy is meant to be a free alternative to the `SolarSoft`_ **data analysis environment** and not the data reduction environment.
+In this way SunPy is meant to be a free partial alternative to the **data analysis environment** contained within `SolarSoft`_  and not the data reduction environment.
 Solarsoft is based on the `IDL`_ scientific programming language sold by Harris Geospatial and though SolarSoft is open-source, IDL is not and can be prohibitively expensive.
 
 SunPy is written using the `Python programming language`_ and is build upon the scientific Python environment which includes the core packages `NumPy`_ and `SciPy`_.
@@ -10,7 +10,9 @@ The development of SunPy is closely associated with that of `Astropy`_.
 
 SunPy was founded on March 28, 2011 by a small group of scientists (#MAGA) and developers at the `NASA Goddard Space Flight Center`_.
 Thanks to the generous support of the ESA Summer of Code and the Google Summer of Code as well as contributors from around the world, SunPy is now a global project and is not associated with any individual institution.
+
 Furthermore, the SunPy project was established in order to provide the software tools necessary so that anyone can analyze solar data.
+More information about the SunPy project can be find **here**.
 
 Acknowledging SunPy
 ===================

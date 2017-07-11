@@ -53,7 +53,6 @@ html_sidebars = {
     'help': ['localtoc.html'],
     'blog': [
         'postcard.html',
-        'recentposts.html',
         'categories.html',
         'archives.html',
     ]

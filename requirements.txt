@@ -1,3 +1,3 @@
 sphinx
-git+https://github.com/sunpy/sunpy-sphinx-theme.git
-git+https://github.com/Cadair/ablog.git@tempfix
+git+https://github.com/nabobalis/sunpy-sphinx-theme.git
+git+https://github.com/Cadair/ablog.git
