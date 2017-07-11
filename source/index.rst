@@ -18,8 +18,8 @@
      		</div>
      		<p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
         	<div class="container center">
-    		  <a href="#" class="btn btn-default btn1" role="button">Get Started</a>
-    		  <a href="#" class="btn btn-default btn2" role="button">Install SunPy</a>
+    		  <a href="http://docs.sunpy.org/en/stable/guide/installation/index.html" class="btn btn-default btn2" role="button">Install SunPy</a>
+    		  <a href="start.html" class="btn btn-default btn1" role="button">Get Started</a>
 		    </div>
       	</div>
     </embed>

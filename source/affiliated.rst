@@ -1,4 +1,0 @@
-:orphan:
-
-Affiliated Packages
-===================
