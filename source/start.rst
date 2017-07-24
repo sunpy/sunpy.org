@@ -42,7 +42,7 @@ Code
 ~~~~
 
 | If you would prefer to code Python instead, we have a SunPy issue list
-  on `Github`_ where all the known issues with SunPy are kept.
+  on Github `issues`_ where all the known issues with SunPy are kept.
 | Each issue can have a label and the `Package Novice label`_ is a good
   place to start.
 | These are issues that have been deemed a good way to be eased into
@@ -164,6 +164,6 @@ Finally, a in-depth version of this guide is located `here.`_
 .. _fork: https://guides.github.com/activities/forking/
 .. _SunPy repository: https://github.com/sunpy/sunpy
 .. _Google Group: https://groups.google.com/forum/#!forum/sunpy
-.. _Github: https://github.com/sunpy/sunpy/issues
+.. _issues: https://github.com/sunpy/sunpy/issues
 .. _Package Novice label: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3Apackage-novice
 .. _mozsprint label.: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint
