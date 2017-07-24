@@ -68,11 +68,102 @@ How to setup a work environment
   to your operating system.
 | Once you have downloaded the miniconda version you need, you can run
   the download.
-| If you get stuck, the i
+| If you get stuck, the install instructions `here`_ for each operating
+  system.
 
-.. _here: https://riot.im/app/#/room/#sunpy-general:matrix.org
+| Next we will want to setup the conda environment.
+| SunPy currently lives in the conda-forge channel which we can add this
+  way.
+
+.. code:: bash
+
+    conda config --add channels conda-forge
+    conda create -n sunpy-dev sunpy hypothesis pytest-mock pip
+    source activate sunpy-dev
+
+| This will create a new conda environment called sunpy-dev and install
+  the latest version of SunPy from the conda-forge channel.
+| The next step is remove the conda version of SunPy and install the
+  in-development version of SunPy.
+| This requires that `git`_ be installed before hand.
+
+| Note that if you have a `GitHub`_ account, you can `fork`_ the `SunPy
+  repository`_ (the fork button is to the top right) and use that url
+  for the ``git clone``.
+| This will make submitting changes easier in the long term for you.
+
+.. code:: bash
+
+    conda remove sunpy
+    git clone https://github.com/sunpy/sunpy.git sunpy-git
+    cd sunpy-git
+    pip install -e .
+
+| Now you have the latest version of SunPy installed and are ready to
+  work on it using your favorite editor!
+| Ideally, when you start making changes you want to create a git branch
+  to work on:
+
+.. code:: bash
+
+    git checkout -b my_fix
+
+| You can change my\_fix to anything you prefer.
+| If you get stuck or want help, just ask `here`_!
+
+Send it back to us
+------------------
+
+| Once you have some changes you would like to send to us.
+| To start you would need to commit the changes.
+
+.. code:: bash
+
+    git commit -a -m '<message>'
+
+Where you replace ``<message>`` with some text of the work you have
+done.
+
+Next step is to submit the changes back to SunPy.
+
+| The preferred method is that you submit a Pull Request (PR) using
+  GitHub.
+| This will submit the code to SunPy where we can view the changes but
+  also the inbuilt GitHub helpers allow some automatic review of the
+  submitted code.
+| If you are new to pull requests, here is a `friendly guide`_.
+| This way, we can review the code as a community and offer suggestions
+  or accept it!
+
+| If you do not have time to finish what you started on or ran out of
+  time during a sprint and do not want to submit a pull request, you can
+  create a git patch and send it to the `Google Group`_ or `email a
+  SunPy contributor`_.
+| This way, you still get acknowledged for the work you did and this can
+  be viewed within the SunPy git history.
+
+.. code:: bash
+
+    git format-patch master --stdout > my_fix.patch
+
+You can rename ``my_fix`` to something more relevant to what you did.
+This can be sent to a contributor or attached in the Google group.
+
+Just remember, if you hit any problems get in touch!
+
+Finally, a in-depth version of this guide is located `here.`_
+
+.. _friendly guide: https://guides.github.com/activities/hello-world/
+.. _Google Group: https://groups.google.com/forum/#!forum/sunpy
+.. _email a SunPy contributor: stuart@mumford.me.uk
+.. _here.: http://docs.sunpy.org/en/latest/dev.html
+.. _miniconda: https://conda.io/miniconda.html
+.. _here: https://conda.io/docs/install/quick.html
+.. _git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+.. _GitHub: https://github.com/
+.. _fork: https://guides.github.com/activities/forking/
+.. _SunPy repository: https://github.com/sunpy/sunpy
 .. _Google Group: https://groups.google.com/forum/#!forum/sunpy
 .. _Github: https://github.com/sunpy/sunpy/issues
 .. _Package Novice label: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3Apackage-novice
 .. _mozsprint label.: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint
-.. _miniconda: https://conda.io/miniconda.html
