@@ -28,8 +28,10 @@ You can add a bug report there or if you are not sure it’s a bug send an email
 Provide Code
 ============
 
+Here we just give a very brief overview of how to contribute to SunPy.
 If you are interested in contributing fixes, code or documentation to SunPy please checkout our :doc:`newcomers guide <./newcomers>`.
 We also have a more in-depth `developer guide`_.
+
 SunPy uses a distributed version control system called `Git`_ and the code is hosted on `GitHub`_.
 To get started create an account `on github`_ and fork SunPy then submit your changes via a pull request.
 If you are unfamiliar with `Git`_ and `GitHub <http://github.com>`__ our developer documentation provides a sample `workflow`_ but you can also find lots of `tutorials`_ online.
