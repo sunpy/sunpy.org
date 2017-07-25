@@ -6,9 +6,9 @@ We strive to provide a rich and comprehensive set of docs.
 The documentation is included in the code itself which you can access through `code reference`_ and we also have a number of `guides`_ which take you through specific topics.
 If you do not find your answer there read on!
 
-.. _documentation: #
-.. _code reference: #
-.. _guides: #
+.. _documentation: http://docs.sunpy.org/en/stable/
+.. _code reference: http://docs.sunpy.org/en/stable/code_ref/index.html
+.. _guides: http://docs.sunpy.org/en/stable/generated/gallery/index.html
 
 Community
 =========
