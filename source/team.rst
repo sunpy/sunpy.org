@@ -14,8 +14,7 @@ Members of the development community are too numerous to list here but a list of
 
 .. raw:: html
 
-	<embed>
-		<div class="center">
+	<div class="center">
 			<p style="font-size:52px; padding-top:30px;">SunPy Board</h1>
 		</div>
 
@@ -129,7 +128,7 @@ Members of the development community are too numerous to list here but a list of
 
 		<div class="column">
 			<div class="card">
-				<img src="_static/img/rhewett.png" alt="Jack">
+				<img src="_static/img/sunpy_icon.svg" alt="Jack">
 				<p>Jack Ireland</p>
 				<p><button class="button" data-toggle="modal" data-target="#jack">More Info</button></p>
 				<div class="modal fade" id="jack" role="dialog">
@@ -156,7 +155,7 @@ Members of the development community are too numerous to list here but a list of
 
 		<div class="column">
 			<div class="card">
-				<img src="_static/img/rhewett.png" alt="Kevin">
+				<img src="_static/img/sunpy_icon.svg" alt="Kevin">
 				<p>Kevin Reardon</p>
 				<p><button class="button" data-toggle="modal" data-target="#kevin">More Info</button></p>
 				<div class="modal fade" id="kevin" role="dialog">
@@ -180,7 +179,7 @@ Members of the development community are too numerous to list here but a list of
 
 		<div class="column">
 			<div class="card">
-				<img src="_static/img/rhewett.png" alt="Sabrina">
+				<img src="_static/img/sunpy_icon.svg" alt="Sabrina">
 				<p>Sabrina Savage</p>
 				<p><button class="button" data-toggle="modal" data-target="#sabrina">More Info</button></p>
 				<div class="modal fade" id="sabrina" role="dialog">
@@ -204,7 +203,7 @@ Members of the development community are too numerous to list here but a list of
 
 		<div class="column">
 			<div class="card">
-				<img src="_static/img/rhewett.png" alt="Albert">
+				<img src="_static/img/sunpy_icon.svg" alt="Albert">
 				<p>Albert Shih</p>
 				<p><button class="button" data-toggle="modal" data-target="#albert">More Info</button></p>
 				<div class="modal fade" id="albert" role="dialog">
@@ -228,7 +227,7 @@ Members of the development community are too numerous to list here but a list of
 
 		<div class="column">
 			<div class="card">
-				<img src="_static/img/rhewett.png" alt="Juan">
+				<img src="_static/img/sunpy_icon.svg" alt="Juan">
 				<p>Juan Oliveros</p>
 				<p><button class="button" data-toggle="modal" data-target="#juan">More Info</button></p>
 				<div class="modal fade" id="juan" role="dialog">
@@ -250,9 +249,9 @@ Members of the development community are too numerous to list here but a list of
 			</div>
 		</div>
 
-	<div class="center">
-		<p style="margin: 10px 0;font-size:52px; padding-top:90px;">SunPy Lead Developer</h1>
-	</div>
+		<div class="center">
+			<p style="margin: 10px 0;font-size:52px; padding-top:90px;">SunPy Lead Developer</pm>
+		</div>
 		<div class="column">
 			<div class="card">
 				<img src="_static/img/stuart.png" alt="Stuart">
@@ -267,19 +266,17 @@ Members of the development community are too numerous to list here but a list of
 							</div>
 							<div class="modal-body">
 								<p>Affiliation :  <a href="https://www.sheffield.ac.uk/">Sheffield University</a></p>
-								<p>Github : <a href="https://github.com/cadair">@cadair</a>
-							</p>
-							<p>Start Date : 17 Mar 2014</p>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								<p>Github : <a href="https://github.com/cadair">@cadair</a></p>
+								<p>Start Date : 17 Mar 2014</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</embed>
-
 
 Affiliated Packages
 ===================

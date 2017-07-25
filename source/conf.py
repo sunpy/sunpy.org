@@ -2,8 +2,6 @@ import sys
 import os
 import ablog
 
-sys.path.insert(0, os.path.abspath("source/sunpy-sphinx-theme"))
-
 extensions = ['sphinx.ext.githubpages', 'ablog']
 templates_path = [ablog.get_html_templates_path()]
 
