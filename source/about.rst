@@ -12,7 +12,7 @@ SunPy was founded on March 28, 2011 by a small group of scientists (#MAGA) and d
 Thanks to the generous support of the ESA Summer of Code and the Google Summer of Code as well as contributors from around the world, SunPy is now a global project and is not associated with any individual institution.
 
 Furthermore, the SunPy project was established in order to provide the software tools necessary so that anyone can analyze solar data.
-More information about the SunPy project can be find **here**.
+More information about the SunPy project can be find :doc:`./team`.
 
 .. _SolarSoft: http://www.lmsal.com/solarsoft/
 .. _IDL: http://harrisgeospatial.com/ProductsandTechnology/Software/IDL.aspx
