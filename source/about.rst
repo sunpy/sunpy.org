@@ -14,6 +14,14 @@ Thanks to the generous support of the ESA Summer of Code and the Google Summer o
 Furthermore, the SunPy project was established in order to provide the software tools necessary so that anyone can analyze solar data.
 More information about the SunPy project can be find **here**.
 
+.. _SolarSoft: http://www.lmsal.com/solarsoft/
+.. _IDL: http://harrisgeospatial.com/ProductsandTechnology/Software/IDL.aspx
+.. _Python programming language: https://www.python.org/
+.. _NumPy: http://www.numpy.org/
+.. _SciPy: https://www.scipy.org/
+.. _Astropy: http://www.astropy.org/
+.. _NASA Goddard Space Flight Center: https://www.nasa.gov/centers/goddard/home/
+
 Acknowledging SunPy
 ===================
 
@@ -33,6 +41,16 @@ For websites please link the image to `sunpy.org`_.
 Other versions of the logo are available in the `sunpy-logo repository`_.
 
 Thank you, in advance, for your support.
+
+.. _SunPy v0.5 paper: https://iopscience.iop.org/article/10.1088/1749-4699/8/1/014009
+.. _arXiv (open access): http://arxiv.org/abs/1505.02563
+.. _Bib reference: _static/sunpy2015.bib
+.. _sunpy.org: http://sunpy.org/
+.. _email us: sunpy@googlegroups.com
+.. _public list: https://www.zotero.org/groups/sunpy_-_python_for_solar_physicists
+.. _Zotero: https://www.zotero.org/
+.. _Sunpy logo: https://github.com/sunpy/sunpy-logo/blob/master/sunpy_logo_portrait_powered.svg
+.. _sunpy-logo repository: https://github.com/sunpy/sunpy-logo/
 
 Outreach
 ========
@@ -57,20 +75,4 @@ All the talks that have been recorded from these workshops are listed below in r
         <iframe src="https://www.youtube.com/embed/bXPPTCkaVu8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-.. _SolarSoft: http://www.lmsal.com/solarsoft/
-.. _IDL: http://harrisgeospatial.com/ProductsandTechnology/Software/IDL.aspx
-.. _Python programming language: https://www.python.org/
-.. _NumPy: http://www.numpy.org/
-.. _SciPy: https://www.scipy.org/
-.. _Astropy: http://www.astropy.org/
-.. _NASA Goddard Space Flight Center: https://www.nasa.gov/centers/goddard/home/
-.. _SunPy v0.5 paper: https://iopscience.iop.org/article/10.1088/1749-4699/8/1/014009
-.. _arXiv (open access): http://arxiv.org/abs/1505.02563
-.. _Bib reference: _static/sunpy2015.bib
-.. _email us: sunpy@googlegroups.com
-.. _public list: https://www.zotero.org/groups/sunpy_-_python_for_solar_physicists
-.. _Zotero: https://www.zotero.org/
-.. _sunpy.org: http://sunpy.org/
-.. _Sunpy logo: https://github.com/sunpy/sunpy-logo/blob/master/sunpy_logo_portrait_powered.svg
-.. _sunpy-logo repository: https://github.com/sunpy/sunpy-logo/
 .. _SunPy Presentations: https://github.com/sunpy/presentations

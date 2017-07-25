@@ -31,7 +31,6 @@ You can add a bug report there or if you are not sure it’s a bug send an email
 Provide Code
 ============
 
-
 If you are interested in contributing fixes, code or documentation to SunPy please checkout our `developer guide`_.
 SunPy uses a distributed version control system called `Git`_ and the code is hosted on `GitHub`_.
 To get started create an account `on github`_ and fork SunPy then submit your changes via a pull request.
@@ -75,6 +74,5 @@ solar data-analysis software based on the scientific Python environment, conside
 
 .. _NumFOCUS: http://numfocus.org/
 .. _donation: https://www.flipcause.com/widget/give_now/MTgxMTU=
-
 .. |numfocus-logo| image:: _static/img/numfocus-logo.svg
    :target: http://numfocus.org/
