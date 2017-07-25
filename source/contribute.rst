@@ -5,14 +5,11 @@ We could always use more voices and opinions in the discussions about SunPy and 
 You may want to suggest a new feature or gripe about how something is not working how you think it should.
 There are a number of ways to make your voice heard and we would love to hear from you.
 
--  `The general mailing list`_ is a great place to start. Subscribe to
-   it and participate in the discussion.
--  If you have technical issue about the code the `developer mailing
-   list`_ is a is the place for you. This is where you can find the
-   nitty gritty nuts and bolts discussions about the SunPy codebase.
+-  `The general mailing list`_ is a great place to start. Subscribe to it and participate in the discussion.
+-  If you have technical issue about the code the `developer mailing list`_ is a is the place for you.
+   This is where you can find the nitty gritty nuts and bolts discussions about the SunPy codebase.
    Subscribe to it and participate in the discussion.
--  If you’d like to chat with SunPy developers and users come join us in
-   our `matrix channel`_.
+-  If you’d like to chat with SunPy developers and users come join us in our `matrix channel`_.
 
 .. _The general mailing list: https://groups.google.com/forum/#!forum/sunpy
 .. _developer mailing list: https://groups.google.com/forum/#!forum/sunpy-dev
@@ -31,7 +28,8 @@ You can add a bug report there or if you are not sure it’s a bug send an email
 Provide Code
 ============
 
-If you are interested in contributing fixes, code or documentation to SunPy please checkout our `developer guide`_.
+If you are interested in contributing fixes, code or documentation to SunPy please checkout our :doc:`newcomers guide <./newcomers>`.
+We also have a more in-depth `developer guide`_.
 SunPy uses a distributed version control system called `Git`_ and the code is hosted on `GitHub`_.
 To get started create an account `on github`_ and fork SunPy then submit your changes via a pull request.
 If you are unfamiliar with `Git`_ and `GitHub <http://github.com>`__ our developer documentation provides a sample `workflow`_ but you can also find lots of `tutorials`_ online.

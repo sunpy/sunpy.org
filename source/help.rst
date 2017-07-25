@@ -6,6 +6,10 @@ We strive to provide a rich and comprehensive set of docs.
 The documentation is included in the code itself which you can access through `code reference`_ and we also have a number of `guides`_ which take you through specific topics.
 If you do not find your answer there read on!
 
+.. _documentation: #
+.. _code reference: #
+.. _guides: #
+
 Community
 =========
 
@@ -21,6 +25,13 @@ Many methods of interactions are provide and please refer to our `Code of Conduc
 
 We are looking forward to meeting you!
 
+.. _Code of Conduct: https://github.com/sunpy/sunpy/wiki/Code-of-Conduct
+.. _The SunPy Blog: blog.html
+.. _SunPy Mailing List: https://groups.google.com/forum/#!forum/sunpy
+.. _issue list: https://github.com/sunpy/sunpy/issues
+.. _sunpy-general: https://riot.im/app/#/room/#sunpy-general:matrix.org
+.. _our calendar: https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1
+
 Mailing List
 ============
 
@@ -28,6 +39,9 @@ Sometimes the best way to get your question answered is just by asking someone.
 SunPy has two mailing lists; a `general mailing list`_ for general issues and a `developer mailing list`_.
 If you have a general question about how SunPy works use the main list.
 If, on the other hand, you have a question about the inner workings of SunPy or how SunPy is organized or have a question about developing some new feature please use the developer mailing list.
+
+.. _general mailing list: https://groups.google.com/forum/#!forum/sunpy
+.. _developer mailing list: https://groups.google.com/forum/#!forum/sunpy-dev
 
 Live Chat
 =========
@@ -37,20 +51,9 @@ Stop by and say hello.
 Talk with the SunPy users and the developers and get started.
 If you are using IRC hosted on freenode, then you can join the same channel (bridged into matrix) by joining the (#sunpy) channel on freenode.
 
+.. _matrix.org: http://matrix.org/
+
 .. raw:: html
 
    <iframe src="https://riot.im/app/#/room/#sunpy-general:matrix.org" style="border:0; width:100%; height:450px;">
    </iframe>
-
-.. _documentation: #
-.. _code reference: #
-.. _guides: #
-.. _Code of Conduct: https://github.com/sunpy/sunpy/wiki/Code-of-Conduct
-.. _The SunPy Blog: blog.html
-.. _SunPy Mailing List: https://groups.google.com/forum/#!forum/sunpy
-.. _issue list: https://github.com/sunpy/sunpy/issues
-.. _matrix.org: http://matrix.org/
-.. _sunpy-general: https://riot.im/app/#/room/#sunpy-general:matrix.org
-.. _our calendar: https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1
-.. _general mailing list: https://groups.google.com/forum/#!forum/sunpy
-.. _developer mailing list: https://groups.google.com/forum/#!forum/sunpy-dev
