@@ -14,8 +14,8 @@ Community
 =========
 
 You can stay up to date on the development of SunPy and interact with the community with these helpful resources.
-Anyone can and is welcome to get involved.
-Many methods of interactions are provide and please refer to our `Code of Conduct`_.
+Anyone can and is encouraged to get involved.
+Many methods of interactions are available and listed here:
 
 *  Read and subscribe to `The SunPy Blog`_
 *  Subscribe to the `SunPy Mailing List`_
@@ -24,13 +24,14 @@ Many methods of interactions are provide and please refer to our `Code of Conduc
 *  Join us at one of our weekly meetings. Check out `our calendar`_ to find the next one.
 
 We are looking forward to meeting you!
+But please be aware that we have a `Code of Conduct`_, that sets out how everyone should and will behave with each other.
 
-.. _Code of Conduct: https://github.com/sunpy/sunpy/wiki/Code-of-Conduct
 .. _The SunPy Blog: blog.html
 .. _SunPy Mailing List: https://groups.google.com/forum/#!forum/sunpy
 .. _issue list: https://github.com/sunpy/sunpy/issues
 .. _sunpy-general: https://riot.im/app/#/room/#sunpy-general:matrix.org
 .. _our calendar: https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1
+.. _Code of Conduct: https://github.com/sunpy/sunpy/wiki/Code-of-Conduct
 
 Mailing List
 ============
@@ -38,6 +39,7 @@ Mailing List
 Sometimes the best way to get your question answered is just by asking someone.
 SunPy has two mailing lists; a `general mailing list`_ for general issues and a `developer mailing list`_.
 If you have a general question about how SunPy works use the main list.
+The general mailing list is another way to get help with doing solar physics in Python.
 If, on the other hand, you have a question about the inner workings of SunPy or how SunPy is organized or have a question about developing some new feature please use the developer mailing list.
 
 .. _general mailing list: https://groups.google.com/forum/#!forum/sunpy
@@ -46,12 +48,14 @@ If, on the other hand, you have a question about the inner workings of SunPy or 
 Live Chat
 =========
 
-We have a chat room on `matrix.org`_ which will open directly in your browser, or use the embedded client below.
+We have a chat room that uses `Matrix`_ which will open directly in your browser, or use the embedded client below.
 Stop by and say hello.
 Talk with the SunPy users and the developers and get started.
-If you are using IRC hosted on freenode, then you can join the same channel (bridged into matrix) by joining the (#sunpy) channel on freenode.
 
-.. _matrix.org: http://matrix.org/
+If you are using IRC hosted on `freenode`_, then you can join the same channel (bridged into matrix) by joining the (#sunpy) channel on freenode.
+
+.. _Matrix: http://matrix.org/
+.. _freenode: https://freenode.net/
 
 .. raw:: html
 

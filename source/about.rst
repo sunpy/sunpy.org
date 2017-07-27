@@ -2,25 +2,33 @@ Our Mission
 ===========
 
 SunPy is a community-developed free and open-source software package for solar physics.
-In this way SunPy is meant to be a free partial alternative to the **data analysis environment** contained within `SolarSoft`_  and not the data reduction environment.
-Solarsoft is based on the `IDL`_ scientific programming language sold by Harris Geospatial and though SolarSoft is open-source, IDL is not and can be prohibitively expensive.
+It aims to be provide a comprehensive data analysis environment that allows researchers within the field of solar physics to carry out their tasks with the minimal effort.
 
-SunPy is written using the `Python programming language`_ and is build upon the scientific Python environment which includes the core packages `NumPy`_ and `SciPy`_.
-The development of SunPy is closely associated with that of `Astropy`_.
+SunPy is written using the `Python programming language`_ and is build upon the scientific Python environment which includes several core packages such as `NumPy`_, `SciPy`_, `Matplotlib`_ and `Pandas`_.
+Since SunPy deals with key astrophysical concepts, its development is closely associated with that of `Astropy`_, which is a fundamental package within the Python astronomy ecosystem.
 
-SunPy was founded on March 28, 2011 by a small group of scientists (#MAGA) and developers at the `NASA Goddard Space Flight Center`_.
-Thanks to the generous support of the ESA Summer of Code and the Google Summer of Code as well as contributors from around the world, SunPy is now a global project and is not associated with any individual institution.
+The SunPy package was established on the 28th of March 2011 by a small group of scientists and developers at the `NASA Goddard Space Flight Center`_.
+Since that time, SunPy have grown from this small group into large community python package.
 
-Furthermore, the SunPy project was established in order to provide the software tools necessary so that anyone can analyze solar data.
+Furthermore, the SunPy project was established in order to further the goals of the SunPy package.
+The SunPy project (also known as the Sunpy organization)wants to provide the software tools necessary so that anyone can analyze the ever increasing catalogue of solar data.
+This enables the targeted support of other solar physics Python packages that do not fall within the scope of the core SunPy package.
+
+We are proud to be a `NUMFocus`_ sponsored project and have been supported by `ESA`_, `PSF`_ and `Google`_ to name a few.
+SunPy has become a global project that is not associated with any individual institution.
 More information about the SunPy project can be find :doc:`./team`.
 
-.. _SolarSoft: http://www.lmsal.com/solarsoft/
-.. _IDL: http://harrisgeospatial.com/ProductsandTechnology/Software/IDL.aspx
 .. _Python programming language: https://www.python.org/
 .. _NumPy: http://www.numpy.org/
 .. _SciPy: https://www.scipy.org/
+.. _Matplotlib: http://matplotlib.org/
+.. _Pandas: http://pandas.pydata.org/
 .. _Astropy: http://www.astropy.org/
 .. _NASA Goddard Space Flight Center: https://www.nasa.gov/centers/goddard/home/
+.. _NUMFocus: http://www.numfocus.org/open-source-projects.html
+.. _ESA: http://sophia.estec.esa.int/socis/
+.. _PSF: https://www.python.org/psf/
+.. _Google: https://developers.google.com/open-source/gsoc/
 
 Acknowledging SunPy
 ===================
@@ -52,8 +60,8 @@ Thank you, in advance, for your support.
 .. _Sunpy logo: https://github.com/sunpy/sunpy-logo/blob/master/sunpy_logo_portrait_powered.svg
 .. _sunpy-logo repository: https://github.com/sunpy/sunpy-logo/
 
-Outreach
-========
+Presentations and Posters
+=========================
 
 The **SunPy community** has presented their work at various workshops over the years.
 Most of them include talks about the core of the SunPy library, the organization and its goals.
