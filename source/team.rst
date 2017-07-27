@@ -4,7 +4,7 @@ The Team
 The **SunPy project** (also known as the SunPy organization) was founded and defined by `this document`_.
 Its primary goal is to *facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment*.
 
-The organization consists of a lead developer, a board of directors, and the developer community.
+The organization of a board of directors, a lead developer appointed by the board, community roles and the sunpy and affiliated package developers.
 Anyone is welcome to participate in the SunPy organization.
 The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.
 
