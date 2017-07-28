@@ -48,6 +48,10 @@ If you have the time please `email us`_ to let us know about your paper as we ma
 For websites please link the image to `sunpy.org`_.
 Other versions of the logo are available in the `sunpy-logo repository`_.
 
+**For a Python package or project**, please make a reference to SunPy somewhere in your readme or website and please get in touch with us, so we can list you on here:
+
+    Helioviewer
+
 Thank you, in advance, for your support.
 
 .. _SunPy v0.5 paper: https://iopscience.iop.org/article/10.1088/1749-4699/8/1/014009
