@@ -13,11 +13,11 @@ def visit_card_node(self, node):
     aff_link = node['aff_link']
     date = node['date']
 
-    body="""<div class="card">
-                <img src="_static/img/{}" alt="{}"></img>
+    body="""<div class="column"><div class="card">
+                <img src="_static/img/{}" alt="{}">
                 <p>{}</p>
                 <p><button class="button" data-toggle="modal" data-target="#{}">More Info</button></p>
-                <div class="modal fade" id="{}" role="dialog">
+                <div class="modal fade" id="{}" role="dialog" style="display: none;">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -25,7 +25,7 @@ def visit_card_node(self, node):
                                 <h4 class="modal-title center">{}</h4>
                             </div>
                             <div class="modal-body">
-                                <p>Affiliation : <a href="{}">{}</a></p>
+                                <p>Affiliation: <a href="{}">{}</a></p>
                                 <p>Github: <a href="https://github.com/{}">@{}</a></p>
                                 <p>Start Date: {}</p>
                             </div>
@@ -35,7 +35,7 @@ def visit_card_node(self, node):
                         </div>
                     </div>
                 </div>
-            </div>""".format(img_name, name, name, img_name, img_name, name, aff_link, aff_name, github, github, date)
+            </div></div>""".format(img_name, name, name, github, github, name, aff_link, aff_name, github, github, date)
 
     self.body.append(body)
 
@@ -43,8 +43,11 @@ def depart_card_node(self, node):
     pass
 
 class Card(Directive):
+
     has_content = True
     required_arguments = 1
+    optional_arguments = 5
+    final_argument_whitespace = False
     option_spec = {
         "img_name": directives.unchanged,
         "github": directives.unchanged,
@@ -58,7 +61,7 @@ class Card(Directive):
         if "img_name" in self.options:
             img_name = self.options.get("img_name")
         else:
-            img_name = 'sunpy.svg'
+            img_name = 'sunpy_icon.svg'
         if "github" in self.options:
             github = self.options.get("github")
         else:
@@ -79,5 +82,5 @@ class Card(Directive):
         return [card(name=self.arguments[0], img_name=img_name, github=github, aff_name=aff_name, aff_link=aff_link, date=date)]
 
 def setup(app):
-    app.add_node(card,html=(visit_card_node, depart_card_node))
-    app.add_directive('card', Card)
+    app.add_node(card, html=(visit_card_node, depart_card_node))
+    app.add_directive("card", Card)
