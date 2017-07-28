@@ -2,7 +2,9 @@ import sys
 import os
 import ablog
 
-extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles']
+
+sys.path.append(os.path.abspath('exts'))
+extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles','cards']
 templates_path = [ablog.get_html_templates_path()]
 
 # Files you want to copy

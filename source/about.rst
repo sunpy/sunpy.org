@@ -1,6 +1,8 @@
 Our Mission
 ===========
 
+..  card:: 1
+
 SunPy is a community-developed free and open-source software package for solar physics.
 It aims to be provide a comprehensive data analysis environment that allows researchers within the field of solar physics to carry out their tasks with the minimal effort.
 
