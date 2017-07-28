@@ -31,7 +31,7 @@ But please be aware that we have a `Code of Conduct`_, that sets out how everyon
 .. _issue list: https://github.com/sunpy/sunpy/issues
 .. _matrix.org channel: https://riot.im/app/#/room/#sunpy-general:matrix.org
 .. _our calendar: https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1
-.. _Code of Conduct: https://github.com/sunpy/sunpy/wiki/Code-of-Conduct
+.. _Code of Conduct: https://github.com/sunpy/sunpy/blob/master/CODE_OF_CONDUCT.md
 
 Mailing List
 ============
