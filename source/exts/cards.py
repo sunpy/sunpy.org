@@ -12,22 +12,24 @@ def visit_card_node(self, node):
     aff_name = node['aff_name']
     aff_link = node['aff_link']
     date = node['date']
+    desc = node['desc']
 
-    body="""<div class="column"><div class="card">
-                <img src="_static/img/{}" alt="{}">
-                <p>{}</p>
-                <p><button class="button" data-toggle="modal" data-target="#{}">More Info</button></p>
-                <div class="modal fade" id="{}" role="dialog" style="display: none;">
+    body=f"""<div class="column"><div class="card">
+                <img src="_static/img/{img_name}" alt="{name}">
+                <p>{name}</p>
+                <p><button class="button" data-toggle="modal" data-target="#{github}">More Info</button></p>
+                <div class="modal fade" id="{github}" role="dialog" style="display: none;">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title center">{}</h4>
+                                <h4 class="modal-title center">{name}</h4>
                             </div>
                             <div class="modal-body">
-                                <p>Affiliation: <a href="{}">{}</a></p>
-                                <p>Github: <a href="https://github.com/{}">@{}</a></p>
-                                <p>Start Date: {}</p>
+                                <p>{desc}</p>
+                                <p>Affiliation: <a href="{aff_link}">{aff_name}</a></p>
+                                <p>Github: <a href="https://github.com/{github}">@{github}</a></p>
+                                <p>Start Date: {date}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -35,8 +37,7 @@ def visit_card_node(self, node):
                         </div>
                     </div>
                 </div>
-            </div></div>""".format(img_name, name, name, github, github, name, aff_link, aff_name, github, github, date)
-
+            </div></div>"""
     self.body.append(body)
 
 def depart_card_node(self, node):
@@ -46,7 +47,7 @@ class Card(Directive):
 
     has_content = True
     required_arguments = 1
-    optional_arguments = 5
+    optional_arguments = 6
     final_argument_whitespace = False
     option_spec = {
         "img_name": directives.unchanged,
@@ -54,6 +55,7 @@ class Card(Directive):
         "aff_name": directives.unchanged,
         "aff_link": directives.unchanged,
         "date": directives.unchanged,
+        "desc": directives.unchanged
                   }
 
     def run(self):
@@ -78,8 +80,17 @@ class Card(Directive):
             date = self.options.get("date")
         else:
             date = '1066'
+        if "desc" in self.options:
+            desc = self.options.get("desc")
+        else:
+            desc = ''
 
-        return [card(name=self.arguments[0], img_name=img_name, github=github, aff_name=aff_name, aff_link=aff_link, date=date)]
+        if len(self.arguments) == 2:
+            name = self.arguments[0] + ' ' + self.arguments[1]
+        else:
+            name = self.arguments[0]
+
+        return [card(name=name, img_name=img_name, github=github, aff_name=aff_name, aff_link=aff_link, desc=desc, date=date)]
 
 def setup(app):
     app.add_node(card, html=(visit_card_node, depart_card_node))
