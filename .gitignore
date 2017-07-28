@@ -3,3 +3,4 @@ source/doctrees/
 *.pickle
 build/
 *vscode*
+*pyc
