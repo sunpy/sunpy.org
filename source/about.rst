@@ -50,7 +50,7 @@ Other versions of the logo are available in the `sunpy-logo repository`_.
 
 **For a Python package or project**, please make a reference to SunPy somewhere in your readme or website and please get in touch with us, so we can list you on here:
 
-    Helioviewer
+- Helioviewer
 
 Thank you, in advance, for your support.
 
@@ -59,8 +59,8 @@ Thank you, in advance, for your support.
 .. _Bib reference: _static/sunpy2015.bib
 .. _sunpy.org: http://sunpy.org/
 .. _email us: sunpy@googlegroups.com
-.. _public list: https://www.zotero.org/groups/sunpy_-_python_for_solar_physicists
 .. _Zotero: https://www.zotero.org/
+.. _public list: https://www.zotero.org/groups/sunpy_-_python_for_solar_physicists
 .. _Sunpy logo: https://github.com/sunpy/sunpy-logo/blob/master/sunpy_logo_portrait_powered.svg
 .. _sunpy-logo repository: https://github.com/sunpy/sunpy-logo/
 
@@ -71,6 +71,8 @@ The **SunPy community** has presented their work at various workshops over the y
 Most of them include talks about the core of the SunPy library, the organization and its goals.
 The community has also done many poster presentations and some are hosted on `SunPy Presentations`_.
 All the talks that have been recorded from these workshops are listed below in reverse chronological order.
+
+.. _SunPy Presentations: https://github.com/sunpy/presentations
 
 .. raw:: html
 
@@ -86,5 +88,3 @@ All the talks that have been recorded from these workshops are listed below in r
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/bXPPTCkaVu8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
-
-.. _SunPy Presentations: https://github.com/sunpy/presentations
