@@ -48,7 +48,6 @@ class Card(Directive):
     has_content = True
     required_arguments = 1
     optional_arguments = 6
-    final_argument_whitespace = False
     option_spec = {
         "img_name": directives.unchanged,
         "github": directives.unchanged,
@@ -83,14 +82,14 @@ class Card(Directive):
         if "desc" in self.options:
             desc = self.options.get("desc")
         else:
-            desc = ''
+            desc = 'N/A'
 
         if len(self.arguments) == 2:
             name = self.arguments[0] + ' ' + self.arguments[1]
         else:
             name = self.arguments[0]
 
-        return [card(name=name, img_name=img_name, github=github, aff_name=aff_name, aff_link=aff_link, desc=desc, date=date)]
+        return [card(name=name, img_name=img_name, github=github, aff_name=aff_name, aff_link=aff_link, date=date, desc=desc)]
 
 def setup(app):
     app.add_node(card, html=(visit_card_node, depart_card_node))

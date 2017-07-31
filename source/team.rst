@@ -21,7 +21,7 @@ SunPy Board
     :aff_name: NASA GSFC
     :aff_link: https://science.gsfc.nasa.gov/heliophysics/solar/
     :date: 17 March 2014
-	:desc: N/A
+    :desc: N/A
 
 .. card:: David Perez-Suarez
     :img_name: david.png
@@ -29,7 +29,7 @@ SunPy Board
     :aff_name: University College London
     :aff_link: http://www.ulc.ac.uk/
     :date: 17 March 2014
-	:desc: David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
+    :desc: David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
 
 .. card:: Monica Bobra
     :img_name: mbobra.png
@@ -37,7 +37,7 @@ SunPy Board
     :aff_name: Stanford University
     :aff_link: https://www.stanford.edu/
     :date: 14 March 2017
-	:desc: Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team. She previously worked at the Harvard-Smithsonian Center for Astrophysics, where she studied solar flares as a member of two NASA Heliophysics missions called TRACE and Hinode. Monica Bobra received a B.A. in Astronomy from Boston University and a M.S. in Physics from the University of New Hampshire.
+    :desc: Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team. She previously worked at the Harvard-Smithsonian Center for Astrophysics, where she studied solar flares as a member of two NASA Heliophysics missions called TRACE and Hinode. Monica Bobra received a B.A. in Astronomy from Boston University and a M.S. in Physics from the University of New Hampshire.
 
 .. card:: Russell Hewett
     :img_name: rhewett.png
@@ -45,7 +45,7 @@ SunPy Board
     :aff_name: Unaffiliated
     :aff_link: http://www.russellhewett.com/
     :date: 17 March 2014
-	:desc: Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python.
+    :desc: Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python.
 
 .. card:: Jack Ireland
     :img_name: sunpy_icon.svg
@@ -53,7 +53,7 @@ SunPy Board
     :aff_name: ADNET Systems, Inc. / NASA GSFC
     :aff_link: https://www.adnet-sys.com/
     :date: 17 March 2014
-	:desc: Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.
+    :desc: Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.
 
 .. card:: Kevin Reardon
     :img_name: sunpy_icon.svg
@@ -61,7 +61,7 @@ SunPy Board
     :aff_name: N/A
     :aff_link: N/A
     :date: 23 Sep 2015
-	:desc: N/A
+    :desc: N/A
 
 .. card:: Sabrina Savage
     :img_name: sunpy_icon.svg
@@ -69,7 +69,7 @@ SunPy Board
     :aff_name: N/A
     :aff_link: N/A
     :date: 14 March 2017
-	:desc: N/A
+    :desc: N/A
 
 .. card:: Albert Shih
     :img_name: sunpy_icon.svg
@@ -77,7 +77,7 @@ SunPy Board
     :aff_name: N/A
     :aff_link: N/A
     :date: 14 March 2017
-	:desc: N/A
+    :desc: N/A
 
 .. card:: Juan Oliveros
     :img_name: sunpy_icon.svg
@@ -85,7 +85,34 @@ SunPy Board
     :aff_name: N/A
     :aff_link: N/A
     :date: 7 April 2014
-	:desc: N/A
+    :desc: N/A
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 Community Roles
 ===============
@@ -99,7 +126,22 @@ Lead Developer
     :aff_name: Sheffield University
     :aff_link: https://www.sheffield.ac.uk/
     :date: 17 March 2014
-	:desc: N/A
+    :desc: N/A
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 Affiliated Packages
 ===================
@@ -144,3 +186,7 @@ Please send an email to the `mailing list`_ to start a dialogue.
      -  A package that allows the reading of spectral files that are used by the Swedish Solar Telescope
      - `sunkit-sst Docs <http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html>`_
      - `Nabil Freij <https://github.com/nabobalis>`_
+
+.. |br| raw:: html
+
+   <br />
