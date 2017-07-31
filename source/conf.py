@@ -2,10 +2,13 @@ import sys
 import os
 import ablog
 
-sys.path.insert(0, os.path.abspath("source/sunpy-sphinx-theme"))
 
-extensions = ['sphinx.ext.githubpages', 'ablog']
+sys.path.append(os.path.abspath('exts'))
+extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards']
 templates_path = [ablog.get_html_templates_path()]
+
+# Files you want to copy
+#rawfiles = ['CNAME']
 
 disqus_shortname = 'sunpy-website'
 blog_baseurl = 'https://duygukeskek.github.io/sunpy-website/blog.html'
@@ -53,20 +56,10 @@ html_sidebars = {
     'help': ['localtoc.html'],
     'blog': [
         'postcard.html',
-        'recentposts.html',
         'categories.html',
-        'archives.html',
-    ]
+        'archives.html',],
+    'team': ['localtoc.html'],
+    'newcomers': ['localtoc.html']
 }
-
-texinfo_documents = [(master_doc, 'SunPy', u'SunPy Documentation', author,
-                      'SunPy', 'One line description of project.',
-                      'Miscellaneous')]
-
-man_pages = [(master_doc, 'sunpy', u'SunPy Documentation', [author], 1)]
-texinfo_documents = [
-    (master_doc, 'SunPy', u'SunPy Documentation', author, 'SunPy',
-     'One line description of project.', 'Miscellaneous'),
-]
 
 intersphinx_mapping = {'https://docs.python.org/': None}
