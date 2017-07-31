@@ -23,7 +23,7 @@ SunPy Board
     :date: 17 March 2014
     :desc: N/A
 
-.. card:: David Perez-Suarez
+.. card:: David Suarez
     :img_name: david.png
     :github: dpshelio
     :aff_name: University College London
@@ -98,21 +98,6 @@ SunPy Board
 |
 |
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
 Community Roles
 ===============
@@ -128,13 +113,6 @@ Lead Developer
     :date: 17 March 2014
     :desc: N/A
 
-|
-|
-|
-|
-|
-|
-|
 |
 |
 |
