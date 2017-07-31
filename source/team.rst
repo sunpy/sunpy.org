@@ -164,7 +164,3 @@ Please send an email to the `mailing list`_ to start a dialogue.
      -  A package that allows the reading of spectral files that are used by the Swedish Solar Telescope
      - `sunkit-sst Docs <http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html>`_
      - `Nabil Freij <https://github.com/nabobalis>`_
-
-.. |br| raw:: html
-
-   <br />
