@@ -134,13 +134,13 @@ Please send an email to the `mailing list`_ to start a dialogue.
      - Maintainer
    * - `IRISPy <https://github.com/sunpy/irispy>`_
      - 	A package for handling data from the IRIS satellite
-     - `Docs <http://docs.sunpy.org/projects/irispy/en/latest/>`_
+     - `IRISPy Docs <http://docs.sunpy.org/projects/irispy/en/latest/>`_
      - `Daniel Ryan <https://github.com/DanRyanIrish>`_
    * - `SolarBExtrapolation <https://github.com/sunpy/solarbextrapolation>`_
      - A package used to do solar magnetic field extrapolations
-     - `Docs <http://docs.sunpy.org/projects/solarbextrapolation/en/latest/>`_
+     - `SolarBExtrapolation Docs <http://docs.sunpy.org/projects/solarbextrapolation/en/latest/>`_
      - `Alex Hamilton <https://github.com/Alex-Ian-Hamilton>`_
    * - `sunkit-sst <https://github.com/sunpy/sunkit-sst>`_
      -  A package that allows the reading of spectral files that are used by the Swedish Solar Telescope
-     - `Docs <http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html>`_
+     - `sunkit-sst Docs <http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html>`_
      - `Nabil Freij <https://github.com/nabobalis>`_

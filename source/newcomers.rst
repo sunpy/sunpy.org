@@ -22,7 +22,7 @@ Since SunPy is the work of many volunteers, we are always looking for more peopl
 A common misconception (which applies to any package) is that all we really want is some Python code, in fact, we do not require only code contributions!
 If you do not have the time or the desire to code, we have lots of areas where we can use help.
 
-Most of the items within SunPy has been documented and is hosted `online here`__.
+Most of the items within SunPy has been documented and is hosted `online here`_.
 This documentation is not only for the code itself but contains setup instructions, quick start guides and worked examples.
 However, documentation is never complete; there are always areas that could be expanded upon or could do with some proof reading to check whether what is written is easy to follow and understandable.
 If parts are confusing or difficult to follow, we would love suggestions or improvements!
