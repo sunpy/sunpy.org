@@ -55,11 +55,10 @@ html_sidebars = {
     'contribute': ['localtoc.html'],
     'help': ['localtoc.html'],
     'blog': [
-        'postcard.html',
-        'categories.html',
-        'archives.html',],
+        'archives.html',
+        'tagcloud.html',],
     'team': ['localtoc.html'],
-    'newcomers': ['localtoc.html']
+    'newcomers': ['localtoc.html'],
 }
 
 intersphinx_mapping = {'https://docs.python.org/': None}
