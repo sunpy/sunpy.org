@@ -30,16 +30,19 @@ The filename must use the following naming convention `YEAR-MONTH-DAY-title.rst`
 
 .. post:: <Date>
    :author: <Name>
-   :tag: <Tag list with spaces>
+   :tags: <Tag list with spaces>
+   :category: <One of the below> 
 ```
 
-The current range of tags we have used are:
+The current range of categories we have "offically" are:
 
 * Release
 * Update
 * GSOC
 
 I am sure more will be added with time.
+
+For tags, you can choose what you prefer for your post. 
 
 ## Colors
 
