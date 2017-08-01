@@ -53,11 +53,9 @@ html_theme_options.update({'navbar_pagenav': False,
 html_sidebars = {
     'about': ['localtoc.html'],
     'contribute': ['localtoc.html'],
+    'blog': ['searchbox.html', 'tagcloud.html', 'archives.html'],
     'help': ['localtoc.html'],
-    'blog': [
-        'postcard.html',
-        'categories.html',
-        'archives.html',],
+    '_posts/**': ['postcard.html'],
     'team': ['localtoc.html'],
     'newcomers': ['localtoc.html']
 }

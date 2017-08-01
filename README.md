@@ -30,7 +30,16 @@ The filename must use the following naming convention `YEAR-MONTH-DAY-title.rst`
 
 .. post:: <Date>
    :author: <Name>
+   :tag: <Tag list with spaces>
 ```
+
+The current range of tags we have used are:
+
+* Release
+* Update
+* GSOC
+
+I am sure more will be added with time.
 
 ## Colors
 
