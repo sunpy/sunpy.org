@@ -12,17 +12,6 @@ BUILDDIR      = _build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-deploy:
-	git branch -f gh-pages && \
-	git checkout gh-pages && \
-	git reset --hard && \
-	git commit --allow-empty -m "Initializing gh-pages branch" && \
-	git push origin gh-pages && \
-	git checkout master && \
-	git worktree add -B gh-pages _build/html/ origin/gh-pages && \
-	cd _build/html/ && git add . && git commit -m "Publishing to gh-pages" && cd ../.. && \
-	git push --force origin gh-pages
-
 .PHONY: help Makefile
 
 # Catch-all target: route all unknown targets to Sphinx using the new
