@@ -25,3 +25,9 @@
 .. toctree::
    :maxdepth: 0
    :hidden:
+
+   about.rst
+   blog.rst
+   help.rst
+   newcomers.rst
+   team.rst

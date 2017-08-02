@@ -18,6 +18,12 @@ To do this, we have a Makefile that you should use:
 
 This will build a collection of html pages under `build/html` and you can open the `index.html` using your browser of choice.
 
+## Creating a PR
+
+When you are happy with any changes you have made to the website.
+We reccomend building the website and making sure that everything is building fine.
+You should see these specfic warnings.
+
 ## Creating a Blog Post
 
 Blog posts can be added by creating a new text file in the _posts/<current year> directory.
