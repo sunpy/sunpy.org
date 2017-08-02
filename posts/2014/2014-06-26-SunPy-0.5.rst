@@ -1,19 +1,16 @@
-
 SunPy 0.5.0
 ===========
 
-.. post:: Jun 26, 2014
+.. post:: 26 June 2014
    :author: Stuart Mumford
+   :tags: sunpy 0.5
+   :category: Release
 
 The SunPy project is happy to announce the release of SunPy 0.5.0.
 This release consists of 772 commits from 21 people including 9 new contributors,
-including the ability to co-align map cubes via template matching in scikit image, massive improvements to Map.rotate() including an implementation of an
-aiaprep calibration routine for SDO/AIA data and the ability to calculate GOES
-temperature and emission measure from GOES fluxes.
+including the ability to co-align map cubes via template matching in scikit image, massive improvements to Map.rotate() including an implementation of an aiaprep calibration routine for SDO/AIA data and the ability to calculate GOES temperature and emission measure from GOES fluxes.
 
-Special mentions to Daniel Ryan and Andrew Leonard who have both contributed
-their first major features to SunPy for this release. They contributed the
-GOES temperature and aiaprep code respectively.
+Special mentions to Daniel Ryan and Andrew Leonard who have both contributed their first major features to SunPy for this release. They contributed the GOES temperature and aiaprep code respectively.
 
 New Features:
 
@@ -67,7 +64,4 @@ The people who have contributed to this release are:
 
 Where a * indicates their first contribution.
 
-We hope you find this release useful and that it enables you to do even more
-useful things with SunPy.
-
-
+We hope you find this release useful and that it enables you to do even more useful things with SunPy.

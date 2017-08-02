@@ -1,16 +1,18 @@
-
 Announcing SunPy 0.4
 ====================
 
-.. post:: Feb 14, 2014
+.. post:: 14 February 2014
    :author: Stuart Mumford
+   :tags: sunpy 0.4
+   :category: Release
 
 The SunPy community is pleased to announce the release of SunPy 0.4.0.
-This release contains many new features, some of which are contributed by people 
-who participated in GSOC 2013. It includes the addition of a new local database for storing and searching data, it features a HEK to VSO translator and a new HELIO module in net.
+This release contains many new features, some of which are contributed by people who participated in GSOC 2013.
+It includes the addition of a new local database for storing and searching data, it features a HEK to VSO translator and a new HELIO module in net.
 As well as this major work has been undertaken on the documentation and a new website developed.
 
-To download the latest SunPy release go to our `website <http://sunpy.org>`_ or download from `PyPI <https://pypi.python.org/pypi/sunpy>`_ . The documentation for the latest release can now be found at `docs.sunpy.org <http://docs.sunpy.org/en/stable/http://docs.sunpy.org/en/stable/>`_
+To download the latest SunPy release go to our `website <http://sunpy.org>`_ or download from `PyPI <https://pypi.python.org/pypi/sunpy>`_.
+The documentation for the latest release can now be found at `docs.sunpy.org <http://docs.sunpy.org/en/stable/http://docs.sunpy.org/en/stable/>`_.
 
 This release contains 1025 commits from 19 people.
 
@@ -48,5 +50,3 @@ The people who have contributed to this release are:
 * Jose Iván Campos
 * Keith Hughitt
 * Tiago Pereira
-
-

@@ -1,14 +1,16 @@
-
 SunPy 0.2
 =========
 
-.. post:: Nov 27, 2012
+.. post:: 27 November 2012
    :author: Stuart Mumford
+   :tags: 0.2
+   :category: Release
 
 It has been a busy year but a lot of code later SunPy version 0.2.0 has arrived!
-This new version of SunPy is quite a change from the old 0.1 release, a few things have changed that make it not backwards compatible, however we feel that the changes are for the better! 14 people have helped to make this release of SunPy a big step forwards, between them they have added 1200 commits to the GitHub page.
+This new version of SunPy is quite a change from the old 0.1 release, a few things have changed that make it not backwards compatible, however we feel that the changes are for the better!
+14 people have helped to make this release of SunPy a big step forwards, between them they have added 1200 commits to the GitHub page.
 
-Below is the main features that have been added for this release:  
+Below is the main features that have been added for this release:
 
 * Completely re-written plotting routines for most of the core datatypes.
 * JPEG 2000 support as an input file type.
@@ -28,7 +30,7 @@ Below is the main features that have been added for this release:
 * Superpixel method
 * The addition of the ``rotate()`` method for 2D maps.
 
-The people who have contributed to this release are:  
+The people who have contributed to this release are:
 
 * Florian Mayer
 * Keith Hughitt
@@ -46,4 +48,3 @@ The people who have contributed to this release are:
 * Arseniy Kustov
 
 Thanks to all of them, and may version 0.2 prove very useful to you.
-
