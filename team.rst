@@ -23,7 +23,7 @@ SunPy Board
     :date: 17 March 2014
     :desc: N/A
 
-.. card:: David Suarez
+.. card:: David Pérez-Suárez
     :img_name: david.png
     :github: dpshelio
     :aff_name: University College London
@@ -85,6 +85,14 @@ SunPy Board
     :aff_name: N/A
     :aff_link: N/A
     :date: 7 April 2014
+    :desc: N/A
+
+.. card:: Stuart Mumford
+    :img_name: stuart.png
+    :github: cadair
+    :aff_name: Sheffield University
+    :aff_link: https://www.sheffield.ac.uk/
+    :date: 17 March 2014
     :desc: N/A
 
 |
