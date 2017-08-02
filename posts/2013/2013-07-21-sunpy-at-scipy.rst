@@ -3,7 +3,7 @@ SunPy at SciPy 2013
 
 .. post:: 21 July 2013
    :author: Stuart Mumford
-   :tags: scipy talk outreach conference
+   :tags: scipy, talk, outreach, conference
    :category: Update
 
 This year I was lucky enough to be able to attend the annual Scientific Python conference (SciPy 2013) in Austin, Texas.

@@ -3,7 +3,7 @@ Announcing SunPy 0.4
 
 .. post:: 14 February 2014
    :author: Stuart Mumford
-   :tags: sunpy 0.4
+   :tags: sunpy, 0.4
    :category: Release
 
 The SunPy community is pleased to announce the release of SunPy 0.4.0.

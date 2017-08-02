@@ -3,7 +3,7 @@ RHESSI Workshop 13
 
 .. post:: April 3, 2014
    :author: Steven Christe
-   :tags: conference outreach talk
+   :tags: conference, outreach, talk
    :category: Update
 
 The latest version of SunPy along with an introduction to scientific computing in Python was presented at the `13th RHESSI Workshop <http://sprg.ssl.berkeley.edu/~solarsdy/rhessi13/>`_ on April 3rd, 2014.

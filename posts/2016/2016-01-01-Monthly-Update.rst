@@ -3,7 +3,7 @@ SunPy Update - January 2016
 
 .. post:: 1 January 2016
    :author: Stuart Mumford
-   :tags: sunpy status monthly
+   :tags: sunpy, status, monthly
    :category: Update
 
 Hello all,

@@ -3,7 +3,7 @@ SunPy 0.2
 
 .. post:: 27 November 2012
    :author: Stuart Mumford
-   :tags: 0.2
+   :tags: 0.2, sunpy
    :category: Release
 
 It has been a busy year but a lot of code later SunPy version 0.2.0 has arrived!

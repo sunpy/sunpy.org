@@ -3,7 +3,7 @@ SunPy 0.7
 
 .. post:: 26 May 2016
    :author: Stuart Mumford
-   :tags: sunpy 0.7
+   :tags: sunpy, 0.7
    :category: Release
 
 SunPy 0.7 has arrived!

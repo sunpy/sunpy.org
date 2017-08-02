@@ -3,7 +3,7 @@ Announcing SunPy 0.3
 
 .. post:: 30 August 2013
    :author: Stuart Mumford
-   :tags: sunpy 0.3
+   :tags: sunpy, 0.3
    :category: Release
 
 It gives me great pleasure to announce the release of a new version of SunPy.

@@ -3,7 +3,7 @@ Experiments in animating plots and saving movies in SunPy 0.3
 
 .. post:: 29 August 2013
    :author: Jack Ireland
-   :tags: 0.3 sunpy movies
+   :tags: 0.3, sunpy, movies
    :category: Update
 
 Just over a year ago this post described a simple method for saving a movie of SunPy maps.

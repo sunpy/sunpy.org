@@ -3,7 +3,7 @@ SunPy at the 2014 SPD Meeting
 
 .. post:: Jun 6, 2014
    :author: Steven Christe
-   :tags: conference outreach poster
+   :tags: conference, outreach, poster
    :category: Update
 
 A poster on SunPy was presented at the SPD 2014 Meeting which took place in Boston.

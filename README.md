@@ -30,7 +30,7 @@ The filename must use the following naming convention `YEAR-MONTH-DAY-title.rst`
 
 .. post:: <Date>
    :author: <Name>
-   :tags: <Tag list with spaces>
+   :tags: <Tag list with commas>
    :category: <One of the below>
 ```
 

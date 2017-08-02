@@ -3,7 +3,7 @@ SunPy 0.5.0
 
 .. post:: 26 June 2014
    :author: Stuart Mumford
-   :tags: sunpy 0.5
+   :tags: sunpy, 0.5
    :category: Release
 
 The SunPy project is happy to announce the release of SunPy 0.5.0.

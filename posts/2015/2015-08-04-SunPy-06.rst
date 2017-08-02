@@ -3,7 +3,7 @@ SunPy 0.6 Released
 
 .. post:: 4 August 2015
    :author: Stuart Mumford
-   :tags: sunpy 0.6
+   :tags: sunpy, 0.6
    :category: Release
 
 I am very happy to tell you that the long in the works 0.6.0 release of the SunPy library has arrived.

@@ -3,7 +3,7 @@ SunPy 0.6.1 Released
 
 .. post:: 30 September 2015
    :author: Stuart Mumford
-   :tags: sunpy 0.6.1
+   :tags: sunpy, 0.6.1
    :category: Release
 
 Announcing the 0.6.1 "thesis submission" release of SunPy. This is a bug fix release and contains the following fixes to things that slipped past us into 0.6:
