@@ -21,7 +21,7 @@ deploy:
 	git checkout master && \
 	git worktree add -B gh-pages _build/html origin/gh-pages && \
 	cd _build/html && git add --all && git commit -m "Publishing to gh-pages" && cd ..// && \
-	git push origin gh-pages
+	git push --force origin gh-pages
 
 .PHONY: help Makefile
 
