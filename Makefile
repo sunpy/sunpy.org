@@ -13,6 +13,7 @@ help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 deploy:
+	git branch -f gh-pages && \
 	git checkout --orphan gh-pages && \
 	git reset --hard && \
 	git commit --allow-empty -m "Initializing gh-pages branch" && \
