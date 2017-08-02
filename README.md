@@ -30,7 +30,25 @@ The filename must use the following naming convention `YEAR-MONTH-DAY-title.rst`
 
 .. post:: <Date>
    :author: <Name>
+   :tags: <Tag list with commas>
+   :category: <One of the below>
 ```
+
+Please note that the date for the post is different to the way it is written for the blog filename.
+Since this date is reader facing, we want month day year **e.g.,** 14 May 2056.
+Also we try to enforce one line per sentence.
+
+The current range of categories we have "officially" are:
+
+* Release
+* Update
+* GSoC
+* SOCIS
+
+Please select the one that is more appropriate, for many `Update` would be enough.
+I am sure more will be added with time.
+
+For tags, you can choose what you prefer for your post but please don't use any that are in the categories list.
 
 ## Colors
 

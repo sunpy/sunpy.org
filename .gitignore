@@ -1,6 +1,5 @@
-source/doctrees/
 *.doctree
 *.pickle
-build/
+_build/
 *vscode*
 *pyc

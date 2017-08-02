@@ -1,0 +1,10 @@
+SunPy at the 2014 SPD Meeting
+=============================
+
+.. post:: Jun 6, 2014
+   :author: Steven Christe
+   :tags: conference, outreach, poster
+   :category: Update
+
+A poster on SunPy was presented at the SPD 2014 Meeting which took place in Boston.
+A copy of the poster is available `online <https://github.com/sunpy/presentations/raw/master/2014-06-04_SunPy-Poster_SPD_(Boston)/SunPy-0.4-AAS-SPD%20Poster.pdf>`_ in the `sunpy/presentations <https://github.com/sunpy/presentations>`_ repo on github.

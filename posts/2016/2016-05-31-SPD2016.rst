@@ -1,0 +1,9 @@
+SPD 2016
+========
+
+.. post:: 31 May 2016
+   :author: Steven Christe
+   :tags: conference, outreach, talks
+   :category: Update
+
+You can find all of the material for the introductory sessions of scientific python and sunpy can be found `here <https://github.com/sunpy/2016SPD-Python-SunPy/blob/master/README.md>`_.

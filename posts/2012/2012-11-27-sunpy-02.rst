@@ -1,0 +1,50 @@
+SunPy 0.2
+=========
+
+.. post:: 27 November 2012
+   :author: Stuart Mumford
+   :tags: 0.2, sunpy
+   :category: Release
+
+It has been a busy year but a lot of code later SunPy version 0.2.0 has arrived!
+This new version of SunPy is quite a change from the old 0.1 release, a few things have changed that make it not backwards compatible, however we feel that the changes are for the better!
+14 people have helped to make this release of SunPy a big step forwards, between them they have added 1200 commits to the GitHub page.
+
+Below is the main features that have been added for this release:
+
+* Completely re-written plotting routines for most of the core datatypes.
+* JPEG 2000 support as an input file type.
+* Improved documentation for much of the code base, including re-written installation instructions.
+* New lightcurve object
+* LYRA support
+* GOES/XRS support
+* SDO/EVE support
+* New Spectrum and Spectrogram object (in development)
+* Spectrogram plotting routines
+* Callisto spectrum type and support
+* STEREO/SWAVES support
+* Map Object
+* Added support for LASCO, Yohkoh/XRT maps
+* A new CompositeMap object for overlaying maps
+* Resample method
+* Superpixel method
+* The addition of the ``rotate()`` method for 2D maps.
+
+The people who have contributed to this release are:
+
+* Florian Mayer
+* Keith Hughitt
+* Jack Ireland
+* Steven Christe
+* Stuart Mumford
+* Albert Shih
+* Matt Earnshaw
+* Nicky Chorley
+* David Perez-Suarez
+* Andrew Inglis
+* Russell Hewett
+* Thomas Robitaille
+* Jordan Ballew
+* Arseniy Kustov
+
+Thanks to all of them, and may version 0.2 prove very useful to you.
