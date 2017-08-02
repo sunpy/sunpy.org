@@ -87,6 +87,14 @@ SunPy Board
     :date: 7 April 2014
     :desc: N/A
 
+.. card:: Stuart Mumford
+    :img_name: stuart.png
+    :github: cadair
+    :aff_name: Sheffield University
+    :aff_link: https://www.sheffield.ac.uk/
+    :date: 17 March 2014
+    :desc: Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
+
 |
 |
 |
@@ -111,7 +119,7 @@ Lead Developer
     :aff_name: Sheffield University
     :aff_link: https://www.sheffield.ac.uk/
     :date: 17 March 2014
-    :desc: N/A
+    :desc: Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
 |
 |
@@ -121,6 +129,81 @@ Lead Developer
 |
 |
 |
+|
+|
+|
+
+Release Manager
+---------------
+
+.. card:: Nabil Freij
+    :img_name: sunpy_icon.svg
+    :github: nabobalis
+    :aff_name: Universitat de les Illes Balears
+    :aff_link: http://www.uib.eu/
+    :desc: Nabil is the most swag person.
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+Communications Officer
+----------------------
+
+.. card:: Jack Ireland
+    :img_name: sunpy_icon.svg
+    :github: wafels
+    :aff_name: ADNET Systems, Inc. / NASA GSFC
+    :aff_link: https://www.adnet-sys.com/
+    :date: 17 March 2014
+    :desc: Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+Summer of Code Administrator
+----------------------------
+
+.. card:: David Suarez
+    :img_name: david.png
+    :github: dpshelio
+    :aff_name: University College London
+    :aff_link: http://www.ulc.ac.uk/
+    :date: 17 March 2014
+    :desc: David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 Affiliated Packages
 ===================
