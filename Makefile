@@ -13,7 +13,7 @@ help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 deploy:
-	publish_to_ghpages
+	./publish_to_ghpages.sh
 
 .PHONY: help Makefile
 
