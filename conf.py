@@ -54,8 +54,9 @@ html_sidebars = {
     'about': ['localtoc.html'],
     'contribute': ['localtoc.html'],
     'blog': ['searchbox.html', 'categories.html', 'archives.html'],
+    'blog/**': ['searchbox.html', 'categories.html', 'archives.html'],
     'help': ['localtoc.html'],
-    '_posts/**': ['postcard.html'],
+    'posts/**': ['postcard.html'],
     'team': ['localtoc.html'],
     'newcomers': ['localtoc.html']
 }
