@@ -1,10 +1,9 @@
-
 SunPy Update - October 2015
 ===========================
 
 .. post:: 1 October 2015
    :author: Stuart Mumford
-   :tags: sunpy status
+   :tags: sunpy status monthly
    :category: Update
 
 I wanted to keep people in the loop about what is happening in the SunPy project, so I thought I would start sending out monthy updates about things that have happened and things that are going to happen.

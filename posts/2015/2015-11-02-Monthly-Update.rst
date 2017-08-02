@@ -1,10 +1,9 @@
-
 SunPy Update - November 2015
 ============================
 
 .. post:: 2 November 2015
    :author: Stuart Mumford
-   :tags: sunpy status
+   :tags: sunpy status monthly
    :category: Update
 
 Hello all,

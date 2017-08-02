@@ -1,11 +1,14 @@
-
 SunPy 0.7
 =========
 
-.. post:: May 26, 2016
+.. post:: 26 May 2016
    :author: Stuart Mumford
+   :tags: sunpy 0.7
+   :category: Release
 
-SunPy 0.7 has arrived! This release is a culmination of about 10 months of work from 27 different people. This release brings many `changes <https://github.com/sunpy/sunpy/blob/0.7/CHANGELOG.md>`_, the highlights are:
+SunPy 0.7 has arrived!
+This release is a culmination of about 10 months of work from 27 different people.
+This release brings many `changes <https://github.com/sunpy/sunpy/blob/0.7/CHANGELOG.md>`_, the highlights are:
 
 * Python 3.4 and 3.5 support. This is the first version of SunPy to support
   Python 3, we recommend that users start to consider moving to Python 3, please
@@ -16,10 +19,10 @@ SunPy 0.7 has arrived! This release is a culmination of about 10 months of work 
 * New ``draw_rectangle`` and ``draw_contours`` helpers for ``Map``.
 * Support for masks in SunPy ``Map`` and ``MapCube``.
 
-For this version of SunPy we have started building our 
-`conda <http://conda.pydata.org/docs/>`_ packages on the excellent 
-`conda forge <http://conda-forge.github.io>`_ service. This means you need to add the conda-forge channel to your conda installation. If you have never installed SunPy before we recommend you follow our 
-`installation instruction <http://docs.sunpy.org/en/stable/installation>`_. If you are upgrading from a previous release run the following two commands if you installed via ``conda``:
+For this version of SunPy we have started building our `conda <http://conda.pydata.org/docs/>`_ packages on the excellent `conda forge <http://conda-forge.github.io>`_ service.
+This means you need to add the conda-forge channel to your conda installation.
+If you have never installed SunPy before we recommend you follow our `installation instruction <http://docs.sunpy.org/en/stable/installation>`_.
+If you are upgrading from a previous release run the following two commands if you installed via ``conda``:
 
 ::
 
@@ -27,11 +30,13 @@ For this version of SunPy we have started building our
 	conda upgrade sunpy
 
 If you installed via ``pip`` then you can upgrade with:
+
 ::
 
 	pip install -U sunpy
 
 The following excellent people contributed to SunPy 0.7 (a * indicates their first contribution):
+
 ::
 
 	Stuart Mumford
@@ -61,7 +66,6 @@ The following excellent people contributed to SunPy 0.7 (a * indicates their fir
 	Tessa D. Wilkinson *
 	Thomas Robitaille
 	yasintoda *
-    
+
 
 Happy Pythoning!
-
