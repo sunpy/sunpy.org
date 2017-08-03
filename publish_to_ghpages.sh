@@ -11,11 +11,12 @@ rm -rf _build
 git worktree prune
 rm -rf .git/worktrees/*
 
-echo "Checking out gh-pages branch into public"
+echo "Checking out gh-pages branch into _build/html"
+mkdir _build/html
 git worktree add -B gh-pages _build/html origin/gh-pages
 
 echo "Removing existing files"
-rm -rf _build/*
+rm -rf _build/html/*
 
 echo "Generating site"
 make html
