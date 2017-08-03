@@ -14,9 +14,11 @@ To setup your computer to run this site locally, you need to install the various
 You will *WANT* to test any changes you have made to the website.
 To do this, we have a Makefile that you should use:
 
+```bash
     make html
+```
 
-This will build a collection of html pages under `build/html` and you can open the `index.html` using your browser of choice.
+This will build a collection of html pages under `_build/html` and you can open the `index.html` using your browser of choice.
 
 ## Creating a PR
 
