@@ -31,3 +31,4 @@
    help.rst
    newcomers.rst
    team.rst
+   contribute.rst
