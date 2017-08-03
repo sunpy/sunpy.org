@@ -1,0 +1,90 @@
+SunPy 0.6 Released
+==================
+
+.. post:: 4 August 2015
+   :author: Stuart Mumford
+   :tags: sunpy, 0.6
+   :category: Release
+
+I am very happy to tell you that the long in the works 0.6.0 release of the SunPy library has arrived.
+This release has been 'in the oven' for well over a year, and is full of rather major changes.
+
+The major changes in this release are:
+
+* Most functions throughout the SunPy code base now expect Astropy Quantity objects, and return Astropy Quantity objects.
+* Python 2.6 support has ended, we do not expect this release to work under Python 2.6.
+* Sample data has been removed from SunPy but helpers for downloading sample data have been added to sunpy.data.
+* TimeRange has a new property based API, e.g. start and end are now properties.
+* SunPy colormaps are now registered with matplotlib, allowing their use from imshow and similar functions after the import of sunpy.cm.
+* Solar rotation calculation functionality has been added, along with functionality to de-rotate MapCubes.
+
+While there have been lots of changes, it is the move to Astropy Units throughout the code base that will require most users to update their
+code, if you wish to learn more about Astropy Units see: http://docs.astropy.org/en/latest/units/
+
+You can install this release using either pip or conda.
+If you have a scientific python environment already configured, run:
+
+::
+
+    pip install sunpy
+
+or:
+
+::
+
+    pip install --upgrade sunpy
+
+if you have anaconda you need to add the sunpy and astropy channels to
+your conda config:
+
+::
+
+    conda config --add channels sunpy --add channels astropy
+
+and then run:
+
+::
+
+    conda install sunpy
+
+for more information about installing sunpy see our installation documentation: http://docs.sunpy.org/en/stable/guide/installation/index.html
+
+
+This release consists of 1,341 commits from 29 different people and 13 new contributors!
+
+The people who have contributed to this release are:
+
+::
+
+	Stuart Mumford
+	Daniel Ryan
+	Steven Christe
+	Jack Ireland
+	Brigitta Sipocz *
+	Asish Panda
+	Andrew Inglis
+	Albert Y. Shih
+	Rishabh Sharma
+	David Perez-Suarez
+	Rajul Srivastava
+	Andrew Leonard
+	Ruben De Visscher *
+	Dumindu Buddhika *
+	Goran Cetusic *
+	Jongyeob Park *
+	ChloÃ© Guennou *
+	Ishtyaq Habib *
+ 	Nabil Freij
+	Simon Liedtke
+	Abigail Stevens *
+	Alex Hamilton *
+	Ambar Mehrotra *
+	Erik M. Bray *
+	Jaylen Wimbish *
+	Juan Camilo Buitrago-Casas *
+	Larry Manley
+	Norbert Gyenge
+	Rishabh Mishra *
+
+Happy Pythoning,
+Stuart Mumford
