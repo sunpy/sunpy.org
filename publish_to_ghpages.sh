@@ -22,5 +22,5 @@ echo "Generating site"
 make html
 
 echo "Updating gh-pages branch"
-cd ./_build/html/ && git add . && git commit -m "Publishing to gh-pages (publish.sh)"
+cd _build/html/ && git add . && git commit -m "Publishing to gh-pages (publish.sh)"
 git push --force origin gh-pages
