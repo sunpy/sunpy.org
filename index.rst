@@ -1,14 +1,20 @@
+SunPy
+=====
+
 .. raw:: html
 
     <style>
         body{
-             background-color: none !important;
-             background-image: url("_static/img/sunpy-bg.jpg");
-             background-repeat: no-repeat;
-             background-position: center center;
-             background-attachment: fixed;
-             background-size: cover;
+            background-color: none !important;
+            background-image: url("_static/img/sunpy-bg.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
             }
+          h1 {
+          	display : none;
+          }
         </style>
             <div class="center" style="vertical-align:middle;">
                 <img src="_static/img/sunpy_icon.svg" class="sunpy-logo" alt="SunPy Logo">
