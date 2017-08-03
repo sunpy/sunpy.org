@@ -7,10 +7,9 @@ then
 fi
 
 echo "Deleting old publication"
-rm -rf _build/html
-mkdir _build/html
+rm -rf _build
 git worktree prune
-rm -rf .git/worktrees/_build/html
+rm -rf .git/worktrees/*
 
 echo "Checking out gh-pages branch into public"
 git worktree add -B gh-pages _build/html origin/gh-pages
