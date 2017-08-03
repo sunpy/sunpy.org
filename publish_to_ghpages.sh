@@ -13,7 +13,7 @@ git worktree prune
 rm -rf .git/worktrees/_build
 
 echo "Checking out gh-pages branch into public"
-git worktree add -B gh-pages _build/ origin/gh-pages
+git worktree add -B gh-pages _build/html/ origin/gh-pages
 
 echo "Removing existing files"
 rm -rf _build/*
@@ -22,5 +22,5 @@ echo "Generating site"
 make html
 
 echo "Updating gh-pages branch"
-cd _build/html && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+cd ./_build/html/ && git add . && git commit -m "Publishing to gh-pages (publish.sh)"
 git push --force origin gh-pages
