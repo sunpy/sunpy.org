@@ -17,15 +17,16 @@ SunPy
           }
         </style>
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 center" style="vertical-align:middle;">
+            <div class="row logo-container">
+                <div class="col-md-6 center">
                     <img src="_static/img/sunpy_icon.svg" class="sunpy-logo" alt="SunPy Logo">
                 </div>
                 <div class="col-md-6 center">
                     <div class="icon-text">
                         <p>sun<span class="icon-text color2">py</span></p>
                     </div>
-                    <p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
+                    <p class="lead">The community-developed, free and open-source solar data analysis environment for Python.
+                    </p>
                     <div>
                         <a href="http://docs.sunpy.org/en/stable/guide/installation/index.html" class="btn btn-default btn2" role="button">Install SunPy</a>
                         <a href="http://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
