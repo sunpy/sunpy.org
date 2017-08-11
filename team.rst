@@ -12,7 +12,7 @@ Members of the development community are too numerous to list here but a list of
 
 .. _this document: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
 
-SunPy Board
+SunPy Board 
 ===========
 
 .. card:: Steven Christe

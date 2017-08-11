@@ -32,6 +32,10 @@ SunPy
                         <a href="http://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
                     </div>
                 </div>
+                <div class="col-md-12 border">
+                <p class="whatsnew">What's new in <a href="#">SunPy 0.8?</a></p>
+                <p class="version">Current version:</p>
+                </div>
             </div>
         </div>
 .. toctree::
