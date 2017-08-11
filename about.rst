@@ -76,15 +76,41 @@ All the talks that have been recorded from these workshops are listed below in r
 
 .. raw:: html
 
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/3HYEr4NdziQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/-Lfz3kBjEyY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/1KdeO-lZ2dQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/bXPPTCkaVu8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" style="margin:50px 0 50px 0;">
+			    <div class="item active">
+			      <iframe width="560" height="450" src="https://www.youtube.com/embed/3HYEr4NdziQ" style="width: 100%;"></iframe>
+			    </div>
+
+			    <div class="item">
+			      <iframe width="560" height="450" src="https://www.youtube.com/embed/-Lfz3kBjEyY" style="width: 100%;"></iframe>
+			    </div>
+
+			    <div class="item">
+			      <iframe width="560" height="450" src="https://www.youtube.com/embed/1KdeO-lZ2dQ" style="width: 100%;"></iframe>
+			    </div>
+
+			    <div class="item">
+			      <iframe width="560" height="450" src="https://www.youtube.com/embed/bXPPTCkaVu8" style="width: 100%;"></iframe>
+			    </div>
+
+			  </div>
+
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
