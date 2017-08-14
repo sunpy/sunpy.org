@@ -20,7 +20,7 @@ blog_feed_archives = True
 source_suffix = '.rst'
 master_doc = 'index'
 project = u'SunPy'
-author = 'SunPy'
+author = 'SunPy Community'
 version = u''
 release = u''
 language = None
@@ -44,10 +44,13 @@ from sunpy_sphinx_theme.conf import *
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
+html_title = 'SunPy Website' 
 
 html_static_path = ['_static']
 
-html_theme_options.update({'navbar_pagenav': False,
+html_theme_options.update({'base_url': 'sunpy.org',
+                           'seo_description': 'SunPy Website',
+                           'navbar_pagenav': False,
                            'globaltoc_depth': 1})
 
 html_sidebars = {
