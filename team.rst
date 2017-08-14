@@ -8,9 +8,12 @@ The organization of a board of directors, a lead developer appointed by the boar
 Anyone is welcome to participate in the SunPy organization.
 The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.
 
-Members of the development community are too numerous to list here but a list of anyone who contributed code to SunPy is available on **Github**.
+Members of the development community are too numerous to list here but a list of anyone who contributed code to SunPy is available on Github `contributers`_ and for 
+each major release we keep track of who contributed in between `releases`_.
 
 .. _this document: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
+.. _contributers: https://github.com/sunpy/sunpy/graphs/contributors
+.. _releases: https://github.com/sunpy/sunpy/blob/master/RELEASE.md
 
 SunPy Board 
 ===========
