@@ -8,7 +8,7 @@ extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'card
 templates_path = [ablog.get_html_templates_path()]
 
 # Files you want to copy
-#rawfiles = ['CNAME']
+rawfiles = ['CNAME']
 
 disqus_shortname = 'sunpy-website'
 blog_baseurl = 'https://duygukeskek.github.io/sunpy-website/blog.html'
