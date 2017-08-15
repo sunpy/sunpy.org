@@ -25,8 +25,11 @@ SunPy
                     <div class="icon-text">
                         <p>sun<span class="icon-text color2">py</span></p>
                     </div>
-                    <p class="lead">The community-developed, free and open-source solar data analysis environment for Python.
-                    </p>
+                    <p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
+                    <div id="front" class="border">
+                    <p class="whatsnew">What's new in <a href="#">SunPy 0.8?</a></p>
+                    <p class="version">Current version:</p>
+                    </div>
                     <div>
                         <a href="http://docs.sunpy.org/en/stable/guide/installation/index.html" class="btn btn-default btn2" role="button">Install SunPy</a>
                         <a href="http://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
@@ -34,6 +37,7 @@ SunPy
                 </div>
             </div>
         </div>
+        
 .. toctree::
    :maxdepth: 0
    :hidden:
