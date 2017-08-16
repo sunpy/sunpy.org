@@ -111,12 +111,12 @@ Community Roles
     :desc: Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
 .. card:: Nabil Freij
-    :img_name: sunpy_icon.svg
+    :img_name: nabil.png
     :github: nabobalis
     :title: Release Manager
     :aff_name: Universitat de les Illes Balears
     :aff_link: http://www.uib.eu/
-    :desc: Nabil is the most swag person.
+    :desc:
 
 .. card:: Jack Ireland
     :img_name: sunpy_icon.svg
