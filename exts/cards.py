@@ -2,7 +2,10 @@ from docutils import nodes
 from docutils.parsers.rst import directives
 from sphinx.util.compat import Directive
 
-class card(nodes.General, nodes.Element): pass
+
+class card(nodes.General, nodes.Element):
+    pass
+
 
 def visit_card_node(self, node):
 
@@ -14,7 +17,16 @@ def visit_card_node(self, node):
     date = node['date']
     desc = node['desc']
 
-    body=f"""<div class="column"><div class="card">
+    if node['title']:
+        title = "<h4>{}</h4>".format(node['title'])
+    else:
+        title = ''
+
+    col_extra_class = 'column-half' if title else ''
+
+    body = f"""<div class="column {col_extra_class}">
+                {title}
+                <div class="card">
                 <img src="_static/img/{img_name}" alt="{name}">
                 <p>{name}</p>
                 <p><button class="button" data-toggle="modal" data-target="#{github}">More Info</button></p>
@@ -38,10 +50,13 @@ def visit_card_node(self, node):
                     </div>
                 </div>
             </div></div>"""
+
     self.body.append(body)
+
 
 def depart_card_node(self, node):
     pass
+
 
 class Card(Directive):
 
@@ -50,12 +65,13 @@ class Card(Directive):
     optional_arguments = 6
     option_spec = {
         "img_name": directives.unchanged,
+        "title": directives.unchanged,
         "github": directives.unchanged,
         "aff_name": directives.unchanged,
         "aff_link": directives.unchanged,
         "date": directives.unchanged,
         "desc": directives.unchanged
-                  }
+    }
 
     def run(self):
 
@@ -71,6 +87,10 @@ class Card(Directive):
             aff_name = self.options.get("aff_name")
         else:
             aff_name = 'sunpy'
+        if "title" in self.options:
+            title = self.options.get("title")
+        else:
+            title = ''
         if "aff_link" in self.options:
             aff_link = self.options.get("aff_link")
         else:
@@ -89,7 +109,18 @@ class Card(Directive):
         else:
             name = self.arguments[0]
 
-        return [card(name=name, img_name=img_name, github=github, aff_name=aff_name, aff_link=aff_link, date=date, desc=desc)]
+        return [
+            card(
+                name=name,
+                img_name=img_name,
+                title=title,
+                github=github,
+                aff_name=aff_name,
+                aff_link=aff_link,
+                date=date,
+                desc=desc)
+        ]
+
 
 def setup(app):
     app.add_node(card, html=(visit_card_node, depart_card_node))
