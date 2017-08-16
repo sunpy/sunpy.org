@@ -59,7 +59,7 @@ SunPy Board
     :desc: Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.
 
 .. card:: Kevin Reardon
-    :img_name: kevin-reardon.jpg
+    :img_name: kevin.png
     :github: NA
     :aff_name: NA
     :aff_link: NA
@@ -67,7 +67,7 @@ SunPy Board
     :desc: NA
 
 .. card:: Sabrina Savage
-    :img_name: sunpy_icon.svg
+    :img_name: sabrina.png
     :github: sabrinasavage
     :aff_name: NASA MSFC
     :aff_link: http://solarscience.msfc.nasa.gov
