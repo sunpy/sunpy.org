@@ -12,7 +12,7 @@ deploy:
   skip_cleanup: true
   github_token: $mytoken
   local_dir: _build/html/
-  target_branch:master
+  target_branch: master
   fqdn: sunpy.org
   on:
     branch: source
