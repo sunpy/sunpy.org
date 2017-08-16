@@ -10,8 +10,8 @@ templates_path = [ablog.get_html_templates_path()]
 # Files you want to copy
 rawfiles = ['CNAME']
 
-disqus_shortname = 'sunpy-website'
-blog_baseurl = 'https://duygukeskek.github.io/sunpy-website/blog.html'
+disqus_shortname = 'sunpy-org'
+blog_baseurl = 'https://sunpy.org/blog.html'
 
 blog_feed_fulltext = True
 blog_feed_length = 10
