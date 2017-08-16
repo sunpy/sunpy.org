@@ -2,9 +2,10 @@ import sys
 import os
 import ablog
 
-
 sys.path.append(os.path.abspath('exts'))
-extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards']
+extensions = [
+    'sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards'
+]
 templates_path = [ablog.get_html_templates_path()]
 
 # Files you want to copy
@@ -44,14 +45,16 @@ from sunpy_sphinx_theme.conf import *
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-html_title = 'SunPy Website' 
+html_title = 'SunPy'
 
 html_static_path = ['_static']
 
-html_theme_options.update({'base_url': 'sunpy.org',
-                           'seo_description': 'SunPy Website',
-                           'navbar_pagenav': False,
-                           'globaltoc_depth': 1})
+html_theme_options.update({
+    'base_url': 'sunpy.org',
+    'seo_description': 'SunPy',
+    'navbar_pagenav': False,
+    'globaltoc_depth': 1
+})
 
 html_sidebars = {
     'about': ['localtoc.html'],
