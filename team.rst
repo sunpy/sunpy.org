@@ -22,15 +22,15 @@ SunPy Board
     :img_name: steve.png
     :github: ehsteve
     :aff_name: NASA GSFC
-    :aff_link: https://science.gsfc.nasa.gov/heliophysics/solar/
+    :aff_link: https://science.gsfc.nasa.gov/heliophysics/solar
     :date: 17 March 2014
-    :desc: N/A
+    :desc: NA
 
 .. card:: David Pérez-Suárez
     :img_name: david.png
     :github: dpshelio
     :aff_name: University College London
-    :aff_link: http://www.ulc.ac.uk/
+    :aff_link: http://www.ulc.ac.uk
     :date: 17 March 2014
     :desc: David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
 
@@ -38,7 +38,7 @@ SunPy Board
     :img_name: mbobra.png
     :github: mbobra
     :aff_name: Stanford University
-    :aff_link: https://www.stanford.edu/
+    :aff_link: https://www.stanford.edu
     :date: 14 March 2017
     :desc: Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team. She previously worked at the Harvard-Smithsonian Center for Astrophysics, where she studied solar flares as a member of two NASA Heliophysics missions called TRACE and Hinode. Monica Bobra received a B.A. in Astronomy from Boston University and a M.S. in Physics from the University of New Hampshire.
 
@@ -46,7 +46,7 @@ SunPy Board
     :img_name: rhewett.png
     :github: rhewett
     :aff_name: Unaffiliated
-    :aff_link: http://www.russellhewett.com/
+    :aff_link: http://www.russellhewett.com
     :date: 17 March 2014
     :desc: Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python.
 
@@ -54,41 +54,41 @@ SunPy Board
     :img_name: sunpy_icon.svg
     :github: wafels
     :aff_name: ADNET Systems, Inc. / NASA GSFC
-    :aff_link: https://www.adnet-sys.com/
+    :aff_link: https://www.adnet-sys.com
     :date: 17 March 2014
     :desc: Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.
 
 .. card:: Kevin Reardon
     :img_name: sunpy_icon.svg
-    :github: N/A
-    :aff_name: N/A
-    :aff_link: N/A
+    :github: NA
+    :aff_name: NA
+    :aff_link: NA
     :date: 23 Sep 2015
-    :desc: N/A
+    :desc: NA
 
 .. card:: Sabrina Savage
     :img_name: sunpy_icon.svg
-    :github: N/A
-    :aff_name: N/A
-    :aff_link: N/A
-    :date: 14 March 2017
-    :desc: N/A
+    :github: sabrinasavage
+    :aff_name: NASA MSFC
+    :aff_link: http://solarscience.msfc.nasa.gov
+    :date: 17 March 2017
+    :desc: Sabrina Savage is a solar astrophysicist at NASA Marshall Space Flight Center in Huntsville, AL.  She received her Ph.D. in physics from Montana State University, where she began a career in satellite operations, and followed up with a NASA Postdoctoral fellowship at Goddard Space Flight Center studying flare energetics with the hard X-ray RHESSI satellite.  She now serves as the US Project Scientist for the Japanese-led Hinode mission and works to develop solar instrumentation for sounding rockets and the International Space Station.  Her research interests include observations of reconnection in the solar corona during long duration flaring events coupled with in situ complementary measurements of magnetic storms in the Earth's magnetosphere.
 
 .. card:: Albert Shih
     :img_name: sunpy_icon.svg
-    :github: N/A
-    :aff_name: N/A
-    :aff_link: N/A
+    :github: NA
+    :aff_name: NA
+    :aff_link: NA
     :date: 14 March 2017
-    :desc: N/A
+    :desc: NA
 
 .. card:: Juan Oliveros
     :img_name: sunpy_icon.svg
-    :github: N/A
-    :aff_name: N/A
-    :aff_link: N/A
+    :github: NA
+    :aff_name: NA
+    :aff_link: NA
     :date: 7 April 2014
-    :desc: N/A
+    :desc: NA
 
 .. card:: Stuart Mumford
     :img_name: stuart.png
