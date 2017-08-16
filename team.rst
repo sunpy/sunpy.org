@@ -127,7 +127,7 @@ Community Roles
     :date: 17 March 2014
     :desc: Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.
 
-.. card:: David Suarez
+.. card:: David Pérez-Suárez
     :img_name: david.png
     :github: dpshelio
     :title: Summer of Code Administrator
