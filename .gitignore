@@ -1,5 +1,6 @@
 *.doctree
 *.pickle
 _build/
+_website/
 *vscode*
 *pyc
