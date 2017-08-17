@@ -21,7 +21,9 @@ blog_feed_archives = True
 source_suffix = '.rst'
 master_doc = 'index'
 project = u'SunPy'
-author = 'SunPy Community'
+author = 'SunPy Project'
+copyright = 'SunPy Project'
+show_sphinx = True
 version = u''
 release = u''
 language = None
@@ -53,7 +55,12 @@ html_theme_options.update({
     'base_url': 'sunpy.org',
     'seo_description': 'SunPy',
     'navbar_pagenav': False,
-    'globaltoc_depth': 1
+    'globaltoc_depth': 1,
+    'copyright_html': """
+<a style= "padding-left: 10px;" rel="licence" href="http://creativecommons.org/licenses/by/4.0/">
+<img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
+</a>
+"""
 })
 
 html_sidebars = {
