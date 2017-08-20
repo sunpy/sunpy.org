@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>RHESSI Workshop 13</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/copybutton.js"></script>
+    <script type="text/javascript" src="../../_static/version.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon-32.ico"/>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="RHESSI Workshop 13 | " />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="../../sunpy.org/posts/2014/2014-04-03-RHESSI-Workshop-13.html" />
+  <meta property="og:image" content="../../sunpy.org/_static/img/sunpy_icon.svg" />
+  <meta property="og:description" content="SunPy" />
+  <meta property="og:site_name" content="" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="alternate" type="application/atom+xml"  href="../../blog/atom.xml" title="Blog">
+  
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head>
+  <body>
+  
+<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://sunpy.org/">SunPy</a>
+	  </div>
+	  <div class="collapse navbar-collapse nav-collapse">
+	    <ul class="nav navbar-nav">
+		    
+		    <div class="collapse navbar-collapse nav-collapse">
+			    <ul class="nav navbar-nav navbar-left">
+			    	<li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">About<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html">About</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html#acknowledging-sunpy">Acknowledge</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/coc.html">Code of Conduct</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/blog.html">Blog</a></li>
+			      <li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">Documentation<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/">SunPy</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/irispy/en/latest/">IRISPy</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/solarbextrapolation/en/latest/">SolarBExtrapolation</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html">sunkit-sst</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/contribute.html">Support Us</a></li>
+			      <li><a href="http://sunpy.org/help.html">Get Help</a></li>
+			      <li><a href="http://sunpy.org/team.html">SunPy Project</a></li>
+	    	
+	        </ul>
+	    </div>
+      </ul>
+	  </div>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="row">
+          <div class="col-md-4" id="sidebar">
+            <div id="sidebar" class="bs-sidenav" role="complementary">
+  
+  
+  <h2>
+  
+  
+    3 April 2014
+  
+  </h2>
+
+  <ul>
+    
+
+  
+  <li id="author"><span>Author:</span>
+    
+      
+      <a href="../../blog/author/steven-christe.html">Steven Christe</a>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+  <li id="category"><span>Category:</span>
+    
+      
+      <a href="../../blog/category/update.html">Update</a>
+      
+    </li>
+  
+
+  
+  <li id="tags"><span>Tags:</span>
+      
+    
+      
+      <a href="../../blog/tag/conference.html">conference</a>
+      
+    
+      
+      <a href="../../blog/tag/outreach.html">outreach</a>
+      
+    
+      
+      <a href="../../blog/tag/talk.html">talk</a>
+      
+    </li>
+  
+  
+  <li id="comments">
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'sunpy-org'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    
+    <a href="#disqus_thread" data-disqus-identifier="/posts/2014/2014-04-03-RHESSI-Workshop-13/"> Comments</a>
+  </li>
+  
+  </ul>
+
+
+
+            </div>
+          </div>
+      
+      <div class="col-md-8 content">
+        
+  <div class="section" id="rhessi-workshop-13">
+<h1>RHESSI Workshop 13<a class="headerlink" href="#rhessi-workshop-13" title="Permalink to this headline">¶</a></h1>
+<p>The latest version of SunPy along with an introduction to scientific computing in Python was presented at the <a class="reference external" href="http://sprg.ssl.berkeley.edu/~solarsdy/rhessi13/">13th RHESSI Workshop</a> on April 3rd, 2014.
+The presentation was well attended by about 20 people, a significant fraction of the total conference attendees!
+You can find the presentations (in the form of ipython notebooks) at the following locations</p>
+<ul class="simple">
+<li><a class="reference external" href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20Intro%20to%20Matploblib.ipynb">Introduction to Matplotlib</a></li>
+<li><a class="reference external" href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20Intro%20to%20NumPy%20&amp;%20SciPy.ipynb">Introduction to NumPy</a></li>
+<li><a class="reference external" href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20SunPy.ipynb">Introduction to SunPy</a></li>
+</ul>
+</div>
+
+  <div class="section">
+  
+    
+
+
+<div class="section">
+  <span style="float: left;">
+  
+  Previous: 
+  <a href="2014-02-14-SunPy-0.4.html">
+    
+    Announcing SunPy 0.4
+  </a>
+  
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right;">
+  
+  Next: 
+  <a href="2014-04-28-gsoc-4-students.html">
+    2nd year of SunPy participating in GSOC
+    
+  </a>
+  </span>
+  
+</div>
+
+  
+  
+    <div class="section">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'sunpy-org';
+        var disqus_identifier = '/posts/2014/2014-04-03-RHESSI-Workshop-13/';
+        var disqus_title = 'RHESSI Workshop 13';
+        var disqus_url = 'https://sunpy.org/posts/2014/2014-04-03-RHESSI-Workshop-13';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  
+  </div>
+
+      </div>
+        
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="left-footer">
+          <p>
+                &copy; SunPy Project  
+            
+<a style= "padding-left: 10px;" rel="licence" href="http://creativecommons.org/licenses/by/4.0/">
+<img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
+</a>
+
+        </p>
+      </div>
+      <div class="right-footer">
+          Built with <a href="http://sphinx-doc.org/">Sphinx 1.6.3.</a>
+      </div>
+      <div class="center-footer ">
+        <a href="https://github.com/sunpy/sunpy">Github</a>
+        <span> • </span>
+        <a href="https://twitter.com/SunPyProject">Twitter</a>
+        <span> • </span>
+        <a href="https://riot.im/app/#/room/#sunpy-general:matrix.org">Matrix</a>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>

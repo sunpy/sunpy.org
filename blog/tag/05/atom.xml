@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posts tagged 0.5</title>
+  <id>https://sunpy.org/blog.html/blog/tag/05/atom.xml</id>
+  <updated>2014-06-26T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/tag/05/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/05/atom.xml">
+    <title type="text">SunPy 0.5.0</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-06-26-SunPy-0.5.html</id>
+    <updated>2014-06-26T00:00:00Z</updated>
+    <published>2014-06-26T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-06-26-SunPy-0.5.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-0-5-0&quot;&gt;
+
+&lt;p&gt;The SunPy project is happy to announce the release of SunPy 0.5.0.
+This release consists of 772 commits from 21 people including 9 new contributors,
+including the ability to co-align map cubes via template matching in scikit image, massive improvements to Map.rotate() including an implementation of an aiaprep calibration routine for SDO/AIA data and the ability to calculate GOES temperature and emission measure from GOES fluxes.&lt;/p&gt;
+&lt;p&gt;Special mentions to Daniel Ryan and Andrew Leonard who have both contributed their first major features to SunPy for this release. They contributed the GOES temperature and aiaprep code respectively.&lt;/p&gt;
+&lt;p&gt;New Features:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;map.rotate() improvements and the additon of a aiaprep routine.&lt;/li&gt;
+&lt;li&gt;GOES temperature and emission measure calculation.&lt;/li&gt;
+&lt;li&gt;Added functions that implement image coalignment with support for MapCubes.&lt;/li&gt;
+&lt;li&gt;MapCube._maps changed to MapCube.maps.&lt;/li&gt;
+&lt;li&gt;Added Nobeyama Radioheliograph data support to Lightcurve object.&lt;/li&gt;
+&lt;li&gt;Added support for NOAA solar cycle prediction in lightcurves.&lt;/li&gt;
+&lt;li&gt;Improved line quality and performances issues with map.draw_grid().&lt;/li&gt;
+&lt;li&gt;Most tests should pass on windows and on installed versions of SunPy.&lt;/li&gt;
+&lt;li&gt;Added a window/split method to time range.&lt;/li&gt;
+&lt;li&gt;Updates to spectrogram documentation.&lt;/li&gt;
+&lt;li&gt;Added method Database.add_from_hek_query_result to HEK database.&lt;/li&gt;
+&lt;li&gt;Added method Database.download_from_vso_query_result.&lt;/li&gt;
+&lt;li&gt;GOES Lightcurve now makes use of a new source of GOES data, provides metadata, and data back to 1981.&lt;/li&gt;
+&lt;li&gt;Fix algorithm in sunpy.sun.equation_of_center.&lt;/li&gt;
+&lt;li&gt;Added contains functionality to TimeRange module&lt;/li&gt;
+&lt;li&gt;Added t=’now’ to parse_time to privide utcnow datetime.&lt;/li&gt;
+&lt;li&gt;Fixed time dependant functions (.sun) to default to t=’now’&lt;/li&gt;
+&lt;li&gt;Fixed solar_semidiameter_angular_size&lt;/li&gt;
+&lt;li&gt;Removed sqlalchemy as a requirement for SunPy&lt;/li&gt;
+&lt;li&gt;Some basic tests for GenericLightCurve on types of expected input.&lt;/li&gt;
+&lt;li&gt;Added Docstrings to LightCurve methods.&lt;/li&gt;
+&lt;li&gt;Added tests for classes in sunpy.map.sources.&lt;/li&gt;
+&lt;li&gt;Cleaned up the sunpy namespace, removed .units, /ssw and .sphinx. Also moved .coords .physics.transforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The people who have contributed to this release are:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Stuart Mumford&lt;/li&gt;
+&lt;li&gt;Daniel Ryan *&lt;/li&gt;
+&lt;li&gt;Andrew Leonard&lt;/li&gt;
+&lt;li&gt;Steven Christe&lt;/li&gt;
+&lt;li&gt;Pritish Chakraborty&lt;/li&gt;
+&lt;li&gt;Jack Ireland&lt;/li&gt;
+&lt;li&gt;David Pérez-Suárez&lt;/li&gt;
+&lt;li&gt;Andrew Inglis&lt;/li&gt;
+&lt;li&gt;Michael Mueller *&lt;/li&gt;
+&lt;li&gt;Rishabh Sharma *&lt;/li&gt;
+&lt;li&gt;Albert Y. Shih&lt;/li&gt;
+&lt;li&gt;Jose Ivan Campos Rozo&lt;/li&gt;
+&lt;li&gt;Simon Liedtke&lt;/li&gt;
+&lt;li&gt;Rajul Srivastava *&lt;/li&gt;
+&lt;li&gt;Larry Manley *&lt;/li&gt;
+&lt;li&gt;Mateo Inchaurrandieta *&lt;/li&gt;
+&lt;li&gt;Asish Panda *&lt;/li&gt;
+&lt;li&gt;Daniel Williams *&lt;/li&gt;
+&lt;li&gt;Nabil Freij&lt;/li&gt;
+&lt;li&gt;Russell Hewett&lt;/li&gt;
+&lt;li&gt;freekv *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Where a * indicates their first contribution.&lt;/p&gt;
+&lt;p&gt;We hope you find this release useful and that it enables you to do even more useful things with SunPy.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

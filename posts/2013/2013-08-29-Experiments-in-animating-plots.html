@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Experiments in animating plots and saving movies in SunPy 0.3</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/copybutton.js"></script>
+    <script type="text/javascript" src="../../_static/version.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon-32.ico"/>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="Experiments in animating plots and saving movies in SunPy 0.3 | " />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="../../sunpy.org/posts/2013/2013-08-29-Experiments-in-animating-plots.html" />
+  <meta property="og:image" content="../../sunpy.org/_static/img/sunpy_icon.svg" />
+  <meta property="og:description" content="SunPy" />
+  <meta property="og:site_name" content="" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="alternate" type="application/atom+xml"  href="../../blog/atom.xml" title="Blog">
+  
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head>
+  <body>
+  
+<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://sunpy.org/">SunPy</a>
+	  </div>
+	  <div class="collapse navbar-collapse nav-collapse">
+	    <ul class="nav navbar-nav">
+		    
+		    <div class="collapse navbar-collapse nav-collapse">
+			    <ul class="nav navbar-nav navbar-left">
+			    	<li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">About<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html">About</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html#acknowledging-sunpy">Acknowledge</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/coc.html">Code of Conduct</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/blog.html">Blog</a></li>
+			      <li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">Documentation<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/">SunPy</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/irispy/en/latest/">IRISPy</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/solarbextrapolation/en/latest/">SolarBExtrapolation</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html">sunkit-sst</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/contribute.html">Support Us</a></li>
+			      <li><a href="http://sunpy.org/help.html">Get Help</a></li>
+			      <li><a href="http://sunpy.org/team.html">SunPy Project</a></li>
+	    	
+	        </ul>
+	    </div>
+      </ul>
+	  </div>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="row">
+          <div class="col-md-4" id="sidebar">
+            <div id="sidebar" class="bs-sidenav" role="complementary">
+  
+  
+  <h2>
+  
+  
+    29 August 2013
+  
+  </h2>
+
+  <ul>
+    
+
+  
+  <li id="author"><span>Author:</span>
+    
+      
+      <a href="../../blog/author/jack-ireland.html">Jack Ireland</a>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+  <li id="category"><span>Category:</span>
+    
+      
+      <a href="../../blog/category/update.html">Update</a>
+      
+    </li>
+  
+
+  
+  <li id="tags"><span>Tags:</span>
+      
+    
+      
+      <a href="../../blog/tag/03.html">0.3</a>
+      
+    
+      
+      <a href="../../blog/tag/sunpy.html">sunpy</a>
+      
+    
+      
+      <a href="../../blog/tag/movies.html">movies</a>
+      
+    </li>
+  
+  
+  <li id="comments">
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'sunpy-org'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    
+    <a href="#disqus_thread" data-disqus-identifier="/posts/2013/2013-08-29-Experiments-in-animating-plots/"> Comments</a>
+  </li>
+  
+  </ul>
+
+
+
+            </div>
+          </div>
+      
+      <div class="col-md-8 content">
+        
+  <div class="section" id="experiments-in-animating-plots-and-saving-movies-in-sunpy-0-3">
+<h1>Experiments in animating plots and saving movies in SunPy 0.3<a class="headerlink" href="#experiments-in-animating-plots-and-saving-movies-in-sunpy-0-3" title="Permalink to this headline">¶</a></h1>
+<p>Just over a year ago this post described a simple method for saving a movie of SunPy maps.
+Since then, SunPy and matplotlib have moved on, and I’d like to describe an updated method for animating SunPy maps, and saving the results as an mp4 file.</p>
+<p>First off, all these experiments were conducted on Ubuntu 12.04.
+The code below is based on this <a class="reference external" href="http://stackoverflow.com/questions/18019226/matplotlib-animation">StackOverflow</a> question and answer (where would we be without StackOverflow???? – thanks!), and some googling around concerning Ubuntu and ffmpeg.</p>
+<p>So, to begin, I fired up <a class="reference external" href="http://ipython.org/">ipython</a>.
+I tried the StackOverflow code (including the correction in the answer) and got stuck in an ipython error loop.
+The solution – upgrading to ipython 1.0.0.  Trying again, the code crashed because I did not have ffmpeg installed.
+Matplotlib looks for movie writers it can use, and since I had specified one that was not present, it crashed.
+You can find which movie writers are present with <cite>animation.writers.list()</cite> (having imported the animation module as below).
+I put ffmpeg capabilities on my system through sudo apt-get install libav-tools.</p>
+<p>So, the StackOverflow code worked!
+It was quite simple to adapt it plotting SunPy 0.3 maps.
+I want to read in a bunch of time-ordered AIA FITS files, and make a movie of them.
+A very typical use case for a solar physicist.  Here is what I managed to get to work.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib</span>
+<span class="n">matplotlib</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s2">&quot;Agg&quot;</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib.animation</span> <span class="k">as</span> <span class="nn">animation</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">sunpy</span>
+
+<span class="c1"># Set up formatting for the movie files</span>
+<span class="n">Writer</span> <span class="o">=</span> <span class="n">animation</span><span class="o">.</span><span class="n">writers</span><span class="p">[</span><span class="s1">&#39;ffmpeg&#39;</span><span class="p">]</span>
+<span class="n">writer</span> <span class="o">=</span> <span class="n">Writer</span><span class="p">(</span><span class="n">fps</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">metadata</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">artist</span><span class="o">=</span><span class="s1">&#39;Me&#39;</span><span class="p">),</span> <span class="n">bitrate</span><span class="o">=</span><span class="mi">1800</span><span class="p">)</span>
+
+<span class="c1"># Get some data</span>
+<span class="n">imagedir</span> <span class="o">=</span> <span class="s1">&#39;/home/ireland/Data/AIA_Data/&#39;</span>
+<span class="n">filenames</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">imagedir</span><span class="p">))</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="s2">&quot;An SDO movie&quot;</span><span class="p">)</span>
+<span class="n">img</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">filenames</span><span class="p">:</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Processing </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">x</span><span class="p">)</span>
+<span class="n">im</span> <span class="o">=</span> <span class="n">sunpy</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">imagedir</span><span class="p">,</span> <span class="n">x</span><span class="p">))</span>
+<span class="n">img</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">im</span><span class="o">.</span><span class="n">plot</span><span class="p">()])</span>
+
+<span class="n">ani</span> <span class="o">=</span> <span class="n">animation</span><span class="o">.</span><span class="n">ArtistAnimation</span><span class="p">(</span><span class="n">fig</span><span class="p">,</span> <span class="n">img</span><span class="p">,</span> <span class="n">interval</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">blit</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">repeat_delay</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">ani</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;output_movie.mp4&#39;</span><span class="p">,</span> <span class="n">writer</span><span class="o">=</span><span class="n">writer</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The code creates a SunPy map, and then creates a list of plots of those maps for the animator to work with.
+The animator then saves the animation as a movie using the ffmpeg writer.
+Works quite well.
+The resulting movie is <a class="reference external" href="http://www.sunpy.org/v1/wp-content/uploads/2013/08/output2again3.mp4">here</a>.
+As you can see the title above each image remains the same, whereas in each individual frame the titles differ (according to the observation time).  That needs fixing, and it <a class="reference external" href="http://stackoverflow.com/questions/17558096/animated-title-in-matplotlib">seems it is possible</a>.</p>
+<p>Animating a set of plots is also quite easy.
+The code is almost the same as above.
+Just comment out the line <cite>matplotlib.use(‘Agg’)</cite> and replace the line <cite>ani.save(…)</cite> with <cite>plt.show()</cite>.
+A matplotlib window appears, and the animation plays in it.
+The interactive zoom feature of the matplotlib window also works, and that is pretty cool.</p>
+<p>I have not yet worked out how to animate a set of plots, and then save it as an mp4 movie.
+These simple <a class="reference external" href="http://matplotlib.org/search.html?q=animation&amp;check_keywords=yes&amp;area=default">examples</a> are enough I think, however, to get you going with animating your own plots.
+And by plots, I mean any kind of plots, not just movies of 2-d image data.
+The matplotlib site has examples of how to animate line plots, for example.</p>
+<p>Obviously it would be extremely useful to have the animation and movie saving capability baked in to the mapcube functionality of SunPy.
+The code above is just an experiment, so if you have any improvements, or whole new and better methods, please let me know leave a comment below.
+Thanks again to SunPy, StackOverflow and matplotlib!</p>
+</div>
+
+  <div class="section">
+  
+    
+
+
+<div class="section">
+  <span style="float: left;">
+  
+  Previous: 
+  <a href="2013-07-21-sunpy-at-scipy.html">
+    
+    SunPy at SciPy 2013
+  </a>
+  
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right;">
+  
+  Next: 
+  <a href="2013-08-30-Announcing-SunPy-0.3.html">
+    Announcing SunPy 0.3
+    
+  </a>
+  </span>
+  
+</div>
+
+  
+  
+    <div class="section">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'sunpy-org';
+        var disqus_identifier = '/posts/2013/2013-08-29-Experiments-in-animating-plots/';
+        var disqus_title = 'Experiments in animating plots and saving movies in SunPy 0.3';
+        var disqus_url = 'https://sunpy.org/posts/2013/2013-08-29-Experiments-in-animating-plots';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  
+  </div>
+
+      </div>
+        
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="left-footer">
+          <p>
+                &copy; SunPy Project  
+            
+<a style= "padding-left: 10px;" rel="licence" href="http://creativecommons.org/licenses/by/4.0/">
+<img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
+</a>
+
+        </p>
+      </div>
+      <div class="right-footer">
+          Built with <a href="http://sphinx-doc.org/">Sphinx 1.6.3.</a>
+      </div>
+      <div class="center-footer ">
+        <a href="https://github.com/sunpy/sunpy">Github</a>
+        <span> • </span>
+        <a href="https://twitter.com/SunPyProject">Twitter</a>
+        <span> • </span>
+        <a href="https://riot.im/app/#/room/#sunpy-general:matrix.org">Matrix</a>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>

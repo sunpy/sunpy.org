@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posts tagged status</title>
+  <id>https://sunpy.org/blog.html/blog/tag/status/atom.xml</id>
+  <updated>2016-03-07T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/tag/status/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/status/atom.xml">
+    <title type="text">SunPy Update - March 2016</title>
+    <id>https://sunpy.org/blog.html/posts/2016/2016-03-07-march-update.html</id>
+    <updated>2016-03-07T00:00:00Z</updated>
+    <published>2016-03-07T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2016/2016-03-07-march-update.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-update-march-2016&quot;&gt;
+
+&lt;p&gt;Hello all,&lt;/p&gt;
+&lt;p&gt;Once again I am a week late, but here is a quick recap.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;february-news&quot;&gt;
+&lt;h1&gt;February News&lt;/h1&gt;
+&lt;div class=&quot;section&quot; id=&quot;unified-downloader-aka-fido&quot;&gt;
+&lt;h2&gt;Unified Downloader aka Fido&lt;/h2&gt;
+&lt;p&gt;We had a very successful sprint on the Unified downloader a couple of weeks ago, and progress is being made towards having it ready to be merged.
+The two main things that need to be completed now are adding extra tests of the clients through the Fido interface and improving the documentation.&lt;/p&gt;
+&lt;p&gt;We are maintaining a list of issues outstanding on the unidown branch &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3Aunidown&quot;&gt;here&lt;/a&gt; as always feel free to ask for advice if you would like to tackle any of them.
+Fido is a key feature of SunPy 0.7 and will permit the development of the LightCurve object.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;google-summer-of-code&quot;&gt;
+&lt;h2&gt;Google Summer of Code&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://openastronomy.org&quot;&gt;OpenAstronomy&lt;/a&gt; got accepted as a GSOC 2016 mentoring Organisation.
+This is a significant new development as it indidcates outside recognition of the maturity and quality of the efforts comprising Open Astronomy (SunPy’s previous GSOC students came via the Python Foundation as the mentoring Organisation).
+This is the first time in 4 years thathe GSOC Org application SunPy has put in (individually or as a team) has been accepted!
+What this means for SunPy is that we will get some money per student from Google.
+For more information on GSOC see the &lt;a class=&quot;reference external&quot; href=&quot;http://openastronomy.org&quot;&gt;OpenAstronomy&lt;/a&gt; website, and it’s not too late to submit project ideas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;coming-up-in-march&quot;&gt;
+&lt;h1&gt;Coming up in March&lt;/h1&gt;
+&lt;div class=&quot;section&quot; id=&quot;python-in-astronomy-2016&quot;&gt;
+&lt;h2&gt;Python in Astronomy 2016&lt;/h2&gt;
+&lt;p&gt;The Python in Astronomy conference is running between the 21st and the 25th of March at the e-Science Institute at the University of Washington in Seattle.
+There will a strong SunPy contingent attending, keep your eyes open on social media and on the internet for talks and materials from the conference.
+There will be no meeting on the 21st March due to this conference.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;weekly-developer-discussions&quot;&gt;
+&lt;h2&gt;Weekly Developer Discussions&lt;/h2&gt;
+&lt;p&gt;The weekly meetings will be continuing this month, they are at 1700UTC each week.
+We are using Google Hangouts and you can be notified of them by following our Google+ page (normally the join link is posted in IRC once the meeting has started).
+These meetings are also recorded and uploaded to YouTube, so you can catch up even if you can not attend in person.&lt;/p&gt;
+&lt;p&gt;Links to coming meetings are below:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/cjoctfv55r7220lj0ffdv636tng&quot;&gt;7/3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/ccinoddrb5mhi8l58vu1ah2ti5s&quot;&gt;14/3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;21/3 There will be no meeting this week due to Python in Astronomy 2016.&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/cjiuftsuopsdc7v374qpe1khvl0&quot;&gt;28/3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;reviewing-pull-requests&quot;&gt;
+&lt;h2&gt;Reviewing Pull Requests&lt;/h2&gt;
+&lt;p&gt;As always, reviews on pull requests are always welcome, you don’t have to have merge permissions or anything other than a GitHub account to review PRs.
+You can find a list of all the PRs that need reviewing &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/labels/%5BReview%5D&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;getting-in-touch&quot;&gt;
+&lt;h2&gt;Getting in touch&lt;/h2&gt;
+&lt;p&gt;Finally, I wanted to remind everyone about our public communication methods.
+We have two mailing lists, SunPy and sunpy-dev, the main SunPy list is used for general questions and announcements, and the sunpy-dev list is used for developer discussion and organisational emails.
+We also have the IRC channel (#SunPy on Freenode), which normally has someone hanging out in it, and is an excellent place to get some real-time help,or to just come for a chat.
+We also have our Google+ page and a Twitter account.&lt;/p&gt;
+&lt;p&gt;Happy Pythoning,
+Stuart&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/status/atom.xml">
+    <title type="text">SunPy Update - February 2016</title>
+    <id>https://sunpy.org/blog.html/posts/2016/2016-02-15-Monthly-Update.html</id>
+    <updated>2016-02-15T00:00:00Z</updated>
+    <published>2016-02-15T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2016/2016-02-15-Monthly-Update.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-update-february-2016&quot;&gt;
+
+&lt;p&gt;Hello all,&lt;/p&gt;
+&lt;p&gt;Sorry for the delay to the January update, but it is here at last.&lt;/p&gt;
+&lt;p&gt;There has been quite a lot going on in the six weeks since the last update, thanks to David for collating most of this news.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;january-and-february-news&quot;&gt;
+&lt;h1&gt;January and February News&lt;/h1&gt;
+&lt;div class=&quot;section&quot; id=&quot;sunpy&quot;&gt;
+&lt;h2&gt;SunPy&lt;/h2&gt;
+&lt;p&gt;SunPy is using now the latest version of &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/astropy/astropy-helpers&quot;&gt;astropy-helpers&lt;/a&gt; (v1.1.1) and astropy’s &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/astropy/ci-helpers&quot;&gt;ci-helpers&lt;/a&gt; which eases the maintenance of the package and the tests running.&lt;/p&gt;
+&lt;p&gt;Few new “badges” has been added now to the readme file in the repository, these badges show the status of the repository, like number of downloads, whether the development version is passing all its tests or not (via &lt;a class=&quot;reference external&quot; href=&quot;https://travis-ci.org/sunpy/sunpy&quot;&gt;Travis&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;https://ci.appveyor.com/project/sunpy/sunpy&quot;&gt;appveyor&lt;/a&gt; ), the amount of code tested, two &lt;a class=&quot;reference external&quot; href=&quot;https://landscape.io/github/sunpy/sunpy/&quot;&gt;quality&lt;/a&gt; &lt;a class=&quot;reference external&quot; href=&quot;https://www.quantifiedcode.com/app/project/9edd3e28230840038713e1c7dc3eb141&quot;&gt;measurements&lt;/a&gt; and one that shows &lt;a class=&quot;reference external&quot; href=&quot;http://depsy.org/package/python/sunpy&quot;&gt;the impact in academia&lt;/a&gt;.
+All these are little helpers to keep an eye on the quality and usage of our beloved project.&lt;/p&gt;
+&lt;p&gt;One of the important tests problem solved in this last month has been the figures tests.
+Some visualisation is being tested for every new contribution people submit - as with any other tests - and if they differ the test suite tells us
+something has changed (or is broken). The figures tested are in the new &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy-figure-tests&quot;&gt;sunpy-figure-test&lt;/a&gt; repository.
+There you can see the figures and compare them with the previous versions - including the environment used to create them.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;openastronomy-workshop&quot;&gt;
+&lt;h2&gt;OpenAstronomy workshop&lt;/h2&gt;
+&lt;p&gt;January started with a 5-day workshop which extended a 2-day &lt;a class=&quot;reference external&quot; href=&quot;http://software-carpentry.org/&quot;&gt;software-carpentry&lt;/a&gt; bootcamp with an
+introduction to Astropy and SunPy.
+Read more about the success of the workshop in the &lt;a class=&quot;reference external&quot; href=&quot;http://openastronomy.org/2016/01/15/Workshop.html&quot;&gt;openastronomy blog&lt;/a&gt;.
+This workshop will be repeated in the future, but if you want to organise one don’t hesitate to contact us about it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;coming-up&quot;&gt;
+&lt;h1&gt;Coming up&lt;/h1&gt;
+&lt;div class=&quot;section&quot; id=&quot;google-summer-of-code&quot;&gt;
+&lt;h2&gt;Google Summer of Code&lt;/h2&gt;
+&lt;p&gt;SunPy is joining many other teams to apply together under the OpenAstronomy umbrella to Google Summer of code.
+If you want to mentor or help mentoring one of the &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/wiki/GSoC-2016-Ideas-Page&quot;&gt;summer projects already proposed&lt;/a&gt; contact us.
+If you have some ideas or see that there’s something missing in SunPy… tell us and we can create a project plan for that.&lt;/p&gt;
+&lt;p&gt;If you are a candidate student, please, don’t wait till the last week to get in touch.
+Get yourself known in the IRC and mailing list… we don’t have all the projects ready yet but they will be soon.
+Don’t forget that a contribution before applying is compulsory to being accepted.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;weekly-developer-discussions&quot;&gt;
+&lt;h2&gt;Weekly Developer Discussions&lt;/h2&gt;
+&lt;p&gt;The weekly meetings will be continuing this month, they are at 1700UTC each week.
+We are using Google Hangouts and you can be notified of them by following our Google+ page (normally the join link is posted in IRC once the meeting has started).
+These meetings are also recorded and uploaded to YouTube, so you can catch up even if you can not attend in person.&lt;/p&gt;
+&lt;p&gt;Links to coming meetings can are below:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/cqj6t37am6vdn73hvb0njc3fv8&quot;&gt;15/2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/gi6kd6e97s8mjh9skif8qj0tn8&quot;&gt;22/2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/jt7tb05t7k6ct9cqk4i3lnbjj0&quot;&gt;29/2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;reviewing-pull-requests&quot;&gt;
+&lt;h2&gt;Reviewing Pull Requests&lt;/h2&gt;
+&lt;p&gt;As always, reviews on pull requests are always welcome, you don’t have to have merge permissions or anything other than a GitHub account to review PRs.
+You can find a list of all the PRs that need reviewing &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/jt7tb05t7k6ct9cqk4i3lnbjj0&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;getting-in-touch&quot;&gt;
+&lt;h2&gt;Getting in touch&lt;/h2&gt;
+&lt;p&gt;Finally, I wanted to remind everyone about our public communication methods.
+We have two mailing lists, SunPy and sunpy-dev, the main SunPy list is used for general questions and announcements, and the sunpy-dev list is used for developer discussion and organisational emails.
+We also have the IRC channel (#SunPy on Freenode), which normally has someone hanging out in it, and is an excellent place to get some real-time help or to just come for a chat.
+We also have our Google+ page and a Twitter account.&lt;/p&gt;
+&lt;p&gt;Happy Pythoning,
+David and Stuart&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/status/atom.xml">
+    <title type="text">SunPy Update - January 2016</title>
+    <id>https://sunpy.org/blog.html/posts/2016/2016-01-01-Monthly-Update.html</id>
+    <updated>2016-01-01T00:00:00Z</updated>
+    <published>2016-01-01T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2016/2016-01-01-Monthly-Update.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-update-january-2016&quot;&gt;
+
+&lt;p&gt;Hello all,&lt;/p&gt;
+&lt;p&gt;Sorry for the lack of a December update, the news for December can be summed up as: “Stuart passed his Viva with minor corrections.”&lt;/p&gt;
+&lt;p&gt;Seeing how we are now in 2016 and the original milestone for 0.7 is the end of January, I hope that many people have made “contribute to SunPy” a new years resolution!!
+Before we can release 0.7 we need a working Python 3 port, and the unidown branch merged, and the Lightcurve factory implemented.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;december-news&quot;&gt;
+&lt;h1&gt;December News&lt;/h1&gt;
+&lt;div class=&quot;section&quot; id=&quot;astropy-1-1&quot;&gt;
+&lt;h2&gt;Astropy 1.1&lt;/h2&gt;
+&lt;p&gt;Astropy 1.1 has been released, so you should upgrade your Astropy!
+Also astropy_helpers 1.1 has been released and David has opened &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/pull/1627&quot;&gt;PR #1627&lt;/a&gt; to update the version in SunPy with the new release, which should hopefully fix issues we were having with sphinx and doctests on Travis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;coming-up-in-january&quot;&gt;
+&lt;h1&gt;Coming up in January&lt;/h1&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;SunPy and Astropy Workshop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;Weekly Developer Meetings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;Reviewing Pull Requests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;Summer of Code Project Ideas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;section&quot; id=&quot;openastronomy-sunpy-and-astropy-workshop&quot;&gt;
+&lt;h2&gt;OpenAstronomy SunPy and Astropy Workshop&lt;/h2&gt;
+&lt;p&gt;On 11th to 15th of January at the University of Sheffield there will be a 5 day workshop, with the first two days being a two day Software Carpentry workshop, teaching bash, git and Python.
+While the rest of the week covers more SunPy and Astropy specific topics. More information can be found on the &lt;a class=&quot;reference external&quot; href=&quot;http://openastronomy.org/2016-01-11-Sheffield/&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are still places available, you can register &lt;a class=&quot;reference external&quot; href=&quot;http://goo.gl/forms/Jv5ocjMo71&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;weekly-developer-discussions&quot;&gt;
+&lt;h2&gt;Weekly Developer Discussions&lt;/h2&gt;
+&lt;p&gt;The weekly meetings will be continuing this month, they are at 1600UTC each week.
+We are using Google Hangouts and you can be notified of them by following our &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/+SunpyOrg/posts&quot;&gt;Google+ page&lt;/a&gt; (normally the join link is posted in IRC once the meeting has started).
+These meetings are also recorded and uploaded to YouTube, so you can catch up even if you can not attend in person.&lt;/p&gt;
+&lt;p&gt;Links to November’s meetings are below:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/cr3kkqcvei6nigk65fkl59eh30s&quot;&gt;4/1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/c7nf7hqubums62940jnrailrmh0&quot;&gt;11/1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/c78i30ns96p6uvs04mn13fdeap0&quot;&gt;18/1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/cfgp94dc6eerig5q3g4fcqmaepk&quot;&gt;25/1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;id5&quot;&gt;
+&lt;h2&gt;Reviewing Pull Requests&lt;/h2&gt;
+&lt;p&gt;As always, reviews on pull requests are always welcome, you don’t have to have merge permissions or anything other than a GitHub account to review PRs.
+You can find a list of all the PRs that need reviewing &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/labels/%5BReview%5D&quot;&gt;here :&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Another easy way to get involved is with labelling issues, if you are interested in doing this but don’t have permissions to label issues on GitHub, swing by the IRC channel and talk to me (Cadair).
+Issues that are not labelled can be found &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/issues?utf8=%E2%9C%93&amp;amp;q=is%3Aopen+no%3Alabel&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;id8&quot;&gt;
+&lt;h2&gt;Summer of Code Project Ideas&lt;/h2&gt;
+&lt;p&gt;As usual this year SunPy will be applying for the GSOC and SOCIS summer of code programs.
+As always, the most important part of these applications is having an interesting project ideas list and people willing to mentor students.
+If you have any interesting project ideas related to SunPy (they do not have to be on the SunPy code base), then please drop us a line on the mailing list, or edit this &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/wiki/GSoC-2016-Ideas-Page&quot;&gt;wiki page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As we did last year we will be initially applying for GSOC under the &lt;a class=&quot;reference external&quot; href=&quot;http://openastronomy.org&quot;&gt;OpenAstronomy banner&lt;/a&gt;, so suggestions of ways to improve that site, or general involvement with OpenAstronomy would be welcome.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;getting-in-touch&quot;&gt;
+&lt;h2&gt;Getting in touch&lt;/h2&gt;
+&lt;p&gt;Finally, I wanted to remind everyone about our public communication methods.
+We have two mailing lists, &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!forum/sunpy&quot;&gt;SunPy&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!forum/sunpy-dev&quot;&gt;sunpy-dev&lt;/a&gt;, the main SunPy list is used for general questions and announcements, and the sunpy-dev list is used for developer discussion and organisational emails.
+We also have the IRC channel (&lt;a class=&quot;reference external&quot; href=&quot;https://kiwiirc.com/client/irc.freenode.net/#SunPy&quot;&gt;#SunPy&lt;/a&gt; on Freenode), which normally has someone hanging out in it, and is an excellent place to get some real-time help, or to just come for a chat.
+We also have our &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/+SunpyOrg/posts&quot;&gt;Google+ page&lt;/a&gt; and a &lt;a class=&quot;reference external&quot; href=&quot;https://twitter.com/sunpyproject&quot;&gt;Twitter&lt;/a&gt; account.&lt;/p&gt;
+&lt;p&gt;Happy Pythoning,
+Stuart&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/status/atom.xml">
+    <title type="text">SunPy Update - November 2015</title>
+    <id>https://sunpy.org/blog.html/posts/2015/2015-11-02-Monthly-Update.html</id>
+    <updated>2015-11-02T00:00:00Z</updated>
+    <published>2015-11-02T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2015/2015-11-02-Monthly-Update.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-update-november-2015&quot;&gt;
+
+&lt;p&gt;Hello all,&lt;/p&gt;
+&lt;p&gt;Time for a quick rundown of October.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;october-news&quot;&gt;
+&lt;h1&gt;October News&lt;/h1&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;Python 3 Port&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;Astropy 1.1 beta&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;section&quot; id=&quot;id1&quot;&gt;
+&lt;h2&gt;Python 3 Port&lt;/h2&gt;
+&lt;p&gt;One of the major features scheduled for the 0.7 release is Python 3 compatibility.
+To this end a subpackage by subpackage porting effort is underway.
+The master branch of SunPy will now install and import using Python 3.4 or 3.5 (3.3 is untested) and the map, data, util, cm, time, image, io and sun subpackges now have their tests passing.
+The next major effort is to port the large net submodule across.
+If anyone has any time to contribute to the effort, please drop in to IRC and find me (Cadair).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;id2&quot;&gt;
+&lt;h2&gt;Astropy 1.1 Beta&lt;/h2&gt;
+&lt;p&gt;Just a quick note to let you all know that the 1.1 release of Astropy is getting close.
+This release contains a couple of cool things for SunPy, as well as some improvements to coordinates which will make things easier for SunPy coordinates, it contains an implementation of astropy table with an index column, which makes it possible to store timeseries in astropy tables.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;coming-up-in-november&quot;&gt;
+&lt;h1&gt;Coming up in November&lt;/h1&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;Weekly developer meetings.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;section&quot; id=&quot;weekly-developer-discussions&quot;&gt;
+&lt;h2&gt;Weekly Developer Discussions&lt;/h2&gt;
+&lt;p&gt;The weekly meetings will be continuing this month, they are now at 1700UTC each week, and will be for the next ~6 months.
+We are using Google Hangouts and you can be notified of them by following our &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/+SunpyOrg/posts&quot;&gt;Google+ page&lt;/a&gt; (normally the join link is posted in IRC once the meeting has started).
+These meetings are also recorded and uploaded to YouTube, so you can catch up even if you can not attend in person.&lt;/p&gt;
+&lt;p&gt;Links to November’s meetings are below:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/ckedfpc7tsbjtqfsajv1vmdbkps&quot;&gt;2/11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/c6p3updmqne67e92gfqujbcvfho&quot;&gt;9/11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/cggbdujsjamcg7j4m5ssri5jb8c&quot;&gt;16/11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/c516k5sn5l7q05gft7hbi5m5adk&quot;&gt;23/11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/ca9ag6c6mg66uibvtkjbqnlno28&quot;&gt;30/11&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;getting-in-touch&quot;&gt;
+&lt;h2&gt;Getting in touch&lt;/h2&gt;
+&lt;p&gt;Finally, I wanted to remind everyone about our public communication methods.
+We have two mailing lists, &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!forum/sunpy&quot;&gt;SunPy&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!forum/sunpy-dev&quot;&gt;sunpy-dev&lt;/a&gt;, the main SunPy list is used for general questions and announcements, and the sunpy-dev list is used for developer discussion and organisational emails.
+We also have the IRC channel (&lt;a class=&quot;reference external&quot; href=&quot;https://kiwiirc.com/client/irc.freenode.net/#SunPy&quot;&gt;#SunPy&lt;/a&gt; on Freenode), which normally has someone hanging out in it, and is an excellent place to get some real-time help, or to just come for a chat.
+We also have our &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/+SunpyOrg/posts&quot;&gt;Google+ page&lt;/a&gt; and a &lt;a class=&quot;reference external&quot; href=&quot;https://twitter.com/sunpyproject&quot;&gt;Twitter&lt;/a&gt; account.&lt;/p&gt;
+&lt;p&gt;Happy Pythoning,
+Stuart&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/status/atom.xml">
+    <title type="text">SunPy Update - October 2015</title>
+    <id>https://sunpy.org/blog.html/posts/2015/2015-10-01-Monthly-Update.html</id>
+    <updated>2015-10-01T00:00:00Z</updated>
+    <published>2015-10-01T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2015/2015-10-01-Monthly-Update.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-update-october-2015&quot;&gt;
+
+&lt;p&gt;I wanted to keep people in the loop about what is happening in the SunPy project, so I thought I would start sending out monthy updates about things that have happened and things that are going to happen.
+This update might be a little longer than usual due to the fact it’s the first one, and I want to get everyone up to speed.
+Before I start I just wanted to introduce myself just incase any of you have had the fortune of not knowing.
+I am Stuart Mumford, I submitted my PhD thesis last week at the University of Sheffield.
+I am currently lead developer of the SunPy project (again) having taken over from Albert.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;september-news&quot;&gt;
+&lt;h1&gt;September News&lt;/h1&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;SunPy 0.6.1 released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;Three summer students succesfully completed their projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;SunPy board meeting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;section&quot; id=&quot;sunpy-0-6-1&quot;&gt;
+&lt;h2&gt;SunPy 0.6.1&lt;/h2&gt;
+&lt;p&gt;0.6.1 contained a few bug fixes, mainly to the new WCS implementation because it was not working correctly with old-style headers.
+For the release announcement &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!topic/sunpy/Sg-ucpW-9Y&quot;&gt;see here:&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;summer-students&quot;&gt;
+&lt;h2&gt;Summer Students&lt;/h2&gt;
+&lt;p&gt;This year we were lucky enough to have three summer students, two through Google Summer of Code (GSOC) and one through ESAs Summer of Code in Space (SOCIS).&lt;/p&gt;
+&lt;p&gt;Rupak Kumar Das worked on ginga improvements for multi-dimensional data, for anyone who has worked on IRIS or ground-based data using the CRISPEX software, ginga now has some of the core features you might find useful.
+The main things that have been implemented are 2D slit support when drawing paths on the image, mouse over line profiles and saving of animations and data.
+This is on top of the existing features in ginga which make it an excellent graphical tool for viewing FITS files.
+You can &lt;a class=&quot;reference external&quot; href=&quot;https://ginga.readthedocs.io/en/latest/&quot;&gt;check it out here:&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ankit Kumar worked on implementing support for more sources in the sunpy.lightcurve module, focusing on SEP instruments on SOHO and STEREO.
+He has been implementing downloaders and readers for these new data sources on top of the new downloader class which will be released in SunPy 0.7. His work is in PR &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/pull/1476&quot;&gt;#1476&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alex Hamilton, our SOCIS student, has implemented the first SunPy Affiliated Package, which is a framework for magnetic field extrapolations in Python.
+The package currently provides a simple potential field extrapolator and tools for visulaising the output using MayaVi.
+The goal of this project was to implement a base from which more extrapolation algorithms could be implemented or wrapped into Python.
+Finalisation work is still on going with more documentation and an example gallery to come, for more information &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/solarbextrapolation&quot;&gt;checkout the repository here:&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;id2&quot;&gt;
+&lt;h2&gt;SunPy Board Meeting&lt;/h2&gt;
+&lt;p&gt;The SunPy project is managed by the SunPy board, information on the structure of the SunPy project can be found in its founding
+&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md&quot;&gt;document&lt;/a&gt; .
+The board holds roughly quarterly meetings and discusses the general direction of the project, sponsorship and other things, not normally, directly linked to library development.&lt;/p&gt;
+&lt;p&gt;The minutes of this meeting (and previous meetings) can be seen &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-2015-09-21&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The highlights are:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Kevin Reardon from the DKIST project has joined the board to further collaboration between DKIST and SunPy.&lt;/li&gt;
+&lt;li&gt;Stuart Mumford has been nominated as lead developer.&lt;/li&gt;
+&lt;li&gt;Future board meetings will be advertised on the SunPy lists and people are welcome to observe.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;coming-up-in-october&quot;&gt;
+&lt;h2&gt;Coming up in October&lt;/h2&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;Weekly developer meetings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;#&quot;&gt;Merging of the new downloader branch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;weekly-developer-discussions&quot;&gt;
+&lt;h2&gt;Weekly Developer Discussions&lt;/h2&gt;
+&lt;p&gt;These weekly meetings have been on hiatus recently as Albert and I have been busy and we were sharing reposnsibility for organising them.
+As I have now submitted my thesis, and therefore have marginally more time on my hands they will be resuming.
+These meetings take place at 1600UT (until UK daylight savings kicks in) on Mondays, currently we use Google Hangouts and you can be notified of them by following our &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/+SunpyOrg/posts&quot;&gt;Google+ page&lt;/a&gt; (normally the join link is posted in IRC once the meeting has started).
+These meetings are also recorded and uploaded to YouTube, so you can catch up even if you can not attend in person.&lt;/p&gt;
+&lt;p&gt;Links to Octobers meetings are below:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/c6bro29vfok8q3tramjor0m14mg&quot;&gt;5/10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/cdtdo3grb8g5264qnb09a4s54is&quot;&gt;12/10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/courcu6oondna63l7jiu89l698o&quot;&gt;19/10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meeting on &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/events/cdd6f6nttuu388enddjqm53rp3o&quot;&gt;26/10&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;merging-in-the-new-fido-downloader&quot;&gt;
+&lt;h2&gt;Merging in the new ‘FIDO’ Downloader&lt;/h2&gt;
+&lt;p&gt;After the 0.6 release, it was decided that the focus of the next release (0.7) would be the Lightcurve module and the new downloader that was built to work with it.
+To this end the first priority at the moment is to get the unidown branch merged into SunPy master.
+For anyone who wishes to contribute testing this branch is an excellent place to start, the PR can be found &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/pull/1300&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;getting-in-touch&quot;&gt;
+&lt;h2&gt;Getting in touch&lt;/h2&gt;
+&lt;p&gt;Finally, I wanted to remind everyone about our public communication methods.
+We have two mailing lists, &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!forum/sunpy&quot;&gt;SunPy&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!forum/sunpy-dev&quot;&gt;sunpy-dev&lt;/a&gt;, the main SunPy list is used for general questions and announcements, and the sunpy-dev list is used for developer discussion and organisational emails.
+We also have the IRC channel (&lt;a class=&quot;reference external&quot; href=&quot;https://kiwiirc.com/client/irc.freenode.net/#SunPy&quot;&gt;#SunPy&lt;/a&gt; on Freenode), which normally has someone hanging out in it, and is an excellent place to get some real-time help, or to just come for a chat.
+We also have our &lt;a class=&quot;reference external&quot; href=&quot;https://plus.google.com/+SunpyOrg/posts&quot;&gt;Google+ page&lt;/a&gt; and a &lt;a class=&quot;reference external&quot; href=&quot;https://twitter.com/sunpyproject&quot;&gt;Twitter&lt;/a&gt; account.&lt;/p&gt;
+&lt;p&gt;I hope this email wasn’t so long nobody made it to the end. I will try and keep future ones a little shorter.&lt;/p&gt;
+&lt;p&gt;Happy Pythoning,
+Stuart&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

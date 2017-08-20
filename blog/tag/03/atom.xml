@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posts tagged 0.3</title>
+  <id>https://sunpy.org/blog.html/blog/tag/03/atom.xml</id>
+  <updated>2013-08-30T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/tag/03/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/03/atom.xml">
+    <title type="text">Announcing SunPy 0.3</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-08-30-Announcing-SunPy-0.3.html</id>
+    <updated>2013-08-30T00:00:00Z</updated>
+    <published>2013-08-30T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-08-30-Announcing-SunPy-0.3.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;announcing-sunpy-0-3&quot;&gt;
+
+&lt;p&gt;It gives me great pleasure to announce the release of a new version of SunPy.
+This version has been rather too long in the making, but is here at last!&lt;/p&gt;
+&lt;p&gt;SunPy 0.3 is now available through &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/sunpy&quot;&gt;PyPI&lt;/a&gt; and via &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/releases/tag/v0.3.0&quot;&gt;GitHub&lt;/a&gt;.
+The biggest change in 0.3 is a shift away from our Map and Spectra datatypes inheriting numpy.ndarray to having their array in a &lt;cite&gt;.data&lt;/cite&gt; attribute.
+This was done to make development of these objects easier and more flexible and also to improve our compatibility with Astropy.
+In the process of doing this the map submodule has undergone a massive refactor to streamline the creation and inheritance structure of the module.&lt;/p&gt;
+&lt;p&gt;Below I highlight some of the major changes, the full change log can be found &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/blob/stable/RELEASE.txt&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;The biggest change to the Map API is the deprecation of the &lt;cite&gt;make_map&lt;/cite&gt; function. It has been replaced by the new &lt;cite&gt;sunpy.Map&lt;/cite&gt; factory which is much more intelligent and able to have custom map sources external to the SunPy library register with it, which is handy if you are developing a custom Map source. Along with this change the old top-level map class Map is now called &lt;cite&gt;GenericMap&lt;/cite&gt; and is to be created using the Map factory under normal circumstances.&lt;/li&gt;
+&lt;li&gt;&lt;cite&gt;MapCube&lt;/cite&gt; and &lt;cite&gt;CompositeMap&lt;/cite&gt; have also seen some improvements, including the implementation of &lt;cite&gt;draw_limb&lt;/cite&gt; and &lt;cite&gt;draw_grid&lt;/cite&gt; for both datatypes and a new animation based &lt;cite&gt;plot()&lt;/cite&gt; method for &lt;cite&gt;MapCube&lt;/cite&gt;.&lt;/li&gt;
+&lt;li&gt;To facilitate the changes to map there have also been a lot of improvements to the &lt;cite&gt;io&lt;/cite&gt; submodule, including the ability to read all the HDUs from a FITS file and the addition of a &lt;cite&gt;extract_waveunit&lt;/cite&gt; function that checks the header for common ways to encode the wavelength unit.&lt;/li&gt;
+&lt;li&gt;There has also been a big cleanup of the various top level and submodule namespaces to make imports simpler. Most of this has not changed the user facing API, however there are not nicer ways to import submodules, like &lt;cite&gt;sunpy.util.util&lt;/cite&gt; is now the same as sunpy.util.&lt;/li&gt;
+&lt;li&gt;The spectra module has been refactored so it also has a &lt;cite&gt;.data&lt;/cite&gt; attribute and it’s plotting API is now consistent with that of Map and LightCurve&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SunPy 0.3 consits of 9 months of work from 15 people and over 300 commits to the git repository.
+The people who have contributed to this release are (in commit order):&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Stuart Mumford&lt;/li&gt;
+&lt;li&gt;Russell Hewett&lt;/li&gt;
+&lt;li&gt;Florian Mayer&lt;/li&gt;
+&lt;li&gt;Steven Christe&lt;/li&gt;
+&lt;li&gt;Albert Shih&lt;/li&gt;
+&lt;li&gt;Simon Liedtke&lt;/li&gt;
+&lt;li&gt;Ankit Angrawal&lt;/li&gt;
+&lt;li&gt;Jack Ireland&lt;/li&gt;
+&lt;li&gt;Matt Bates&lt;/li&gt;
+&lt;li&gt;Nabil Freij&lt;/li&gt;
+&lt;li&gt;Keith Hughitt&lt;/li&gt;
+&lt;li&gt;David Perez-Suarez&lt;/li&gt;
+&lt;li&gt;Tomas Meszaros&lt;/li&gt;
+&lt;li&gt;Benjamin Mampaey&lt;/li&gt;
+&lt;li&gt;Andrew Leonard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On behalf of all the SunPy developers, we hope you enjoy 0.3!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/03/atom.xml">
+    <title type="text">Experiments in animating plots and saving movies in SunPy 0.3</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-08-29-Experiments-in-animating-plots.html</id>
+    <updated>2013-08-29T00:00:00Z</updated>
+    <published>2013-08-29T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-08-29-Experiments-in-animating-plots.html" />
+    <author>
+      <name>Jack Ireland</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;experiments-in-animating-plots-and-saving-movies-in-sunpy-0-3&quot;&gt;
+
+&lt;p&gt;Just over a year ago this post described a simple method for saving a movie of SunPy maps.
+Since then, SunPy and matplotlib have moved on, and I’d like to describe an updated method for animating SunPy maps, and saving the results as an mp4 file.&lt;/p&gt;
+&lt;p&gt;First off, all these experiments were conducted on Ubuntu 12.04.
+The code below is based on this &lt;a class=&quot;reference external&quot; href=&quot;http://stackoverflow.com/questions/18019226/matplotlib-animation&quot;&gt;StackOverflow&lt;/a&gt; question and answer (where would we be without StackOverflow???? – thanks!), and some googling around concerning Ubuntu and ffmpeg.&lt;/p&gt;
+&lt;p&gt;So, to begin, I fired up &lt;a class=&quot;reference external&quot; href=&quot;http://ipython.org/&quot;&gt;ipython&lt;/a&gt;.
+I tried the StackOverflow code (including the correction in the answer) and got stuck in an ipython error loop.
+The solution – upgrading to ipython 1.0.0.  Trying again, the code crashed because I did not have ffmpeg installed.
+Matplotlib looks for movie writers it can use, and since I had specified one that was not present, it crashed.
+You can find which movie writers are present with &lt;cite&gt;animation.writers.list()&lt;/cite&gt; (having imported the animation module as below).
+I put ffmpeg capabilities on my system through sudo apt-get install libav-tools.&lt;/p&gt;
+&lt;p&gt;So, the StackOverflow code worked!
+It was quite simple to adapt it plotting SunPy 0.3 maps.
+I want to read in a bunch of time-ordered AIA FITS files, and make a movie of them.
+A very typical use case for a solar physicist.  Here is what I managed to get to work.&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;matplotlib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Agg&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;plt&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.animation&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;animation&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sunpy&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Set up formatting for the movie files&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Writer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;writers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;ffmpeg&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;writer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Writer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;artist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Me&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bitrate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1800&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Get some data&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;imagedir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/home/ireland/Data/AIA_Data/&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;filenames&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imagedir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;An SDO movie&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;filenames&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Processing &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%s&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;im&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sunpy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imagedir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;im&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()])&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;ani&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ArtistAnimation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interval&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repeat_delay&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ani&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;output_movie.mp4&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The code creates a SunPy map, and then creates a list of plots of those maps for the animator to work with.
+The animator then saves the animation as a movie using the ffmpeg writer.
+Works quite well.
+The resulting movie is &lt;a class=&quot;reference external&quot; href=&quot;http://www.sunpy.org/v1/wp-content/uploads/2013/08/output2again3.mp4&quot;&gt;here&lt;/a&gt;.
+As you can see the title above each image remains the same, whereas in each individual frame the titles differ (according to the observation time).  That needs fixing, and it &lt;a class=&quot;reference external&quot; href=&quot;http://stackoverflow.com/questions/17558096/animated-title-in-matplotlib&quot;&gt;seems it is possible&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Animating a set of plots is also quite easy.
+The code is almost the same as above.
+Just comment out the line &lt;cite&gt;matplotlib.use(‘Agg’)&lt;/cite&gt; and replace the line &lt;cite&gt;ani.save(…)&lt;/cite&gt; with &lt;cite&gt;plt.show()&lt;/cite&gt;.
+A matplotlib window appears, and the animation plays in it.
+The interactive zoom feature of the matplotlib window also works, and that is pretty cool.&lt;/p&gt;
+&lt;p&gt;I have not yet worked out how to animate a set of plots, and then save it as an mp4 movie.
+These simple &lt;a class=&quot;reference external&quot; href=&quot;http://matplotlib.org/search.html?q=animation&amp;amp;check_keywords=yes&amp;amp;area=default&quot;&gt;examples&lt;/a&gt; are enough I think, however, to get you going with animating your own plots.
+And by plots, I mean any kind of plots, not just movies of 2-d image data.
+The matplotlib site has examples of how to animate line plots, for example.&lt;/p&gt;
+&lt;p&gt;Obviously it would be extremely useful to have the animation and movie saving capability baked in to the mapcube functionality of SunPy.
+The code above is just an experiment, so if you have any improvements, or whole new and better methods, please let me know leave a comment below.
+Thanks again to SunPy, StackOverflow and matplotlib!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

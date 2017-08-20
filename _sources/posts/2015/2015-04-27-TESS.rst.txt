@@ -1,0 +1,18 @@
+Info for the SunPy Tutorial at the TESS 2015
+============================================
+
+.. post:: 27 April 2015
+   :author: Steven Christe
+   :tags: workshop, talks, tutorials
+   :category: SOCIS
+
+Welcome `TESS <http://aas.org/meetings/tess2015/>`_ attendees to the `Introduction to Solar Data Analysis in Python <http://aas.org/meetings/tess2015/ancillary_events>`_!
+
+Here are a list of various links and information for the tutorial:
+
+* The `Introduction to SunPy <http://nbviewer.ipython.org/github/ehsteve/ipython-notebooks/blob/master/TESS%202015%20-%20SunPy.ipynb>`_ (in the form of ipython notebooks)
+* The `IRC chatroom <http://webchat.freenode.net/?channels=sunpy>`_
+* SunPy Poster by Dan Ryan - Thursday 10 am 403.07 SunPy: Solar Physics in Python (link coming soon)
+* `Anaconda Python Distribution <https://store.continuum.io/cshop/anaconda/>`_ - the only way to fly!
+* `How to install SunPy with Anaconda <http://docs.sunpy.org/en/latest/guide/installation/index.html#installing-sunpy-on-top-of-anaconda>`_
+* `The Sheffield University SunPy Workshop <http://nbviewer.ipython.org/github/drewleonard42/sunpy-workshop-2015-03/tree/master/>`_

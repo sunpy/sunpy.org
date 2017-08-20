@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posts tagged 0.4</title>
+  <id>https://sunpy.org/blog.html/blog/tag/04/atom.xml</id>
+  <updated>2014-02-14T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/tag/04/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/04/atom.xml">
+    <title type="text">Announcing SunPy 0.4</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-02-14-SunPy-0.4.html</id>
+    <updated>2014-02-14T00:00:00Z</updated>
+    <published>2014-02-14T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-02-14-SunPy-0.4.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;announcing-sunpy-0-4&quot;&gt;
+
+&lt;p&gt;The SunPy community is pleased to announce the release of SunPy 0.4.0.
+This release contains many new features, some of which are contributed by people who participated in GSOC 2013.
+It includes the addition of a new local database for storing and searching data, it features a HEK to VSO translator and a new HELIO module in net.
+As well as this major work has been undertaken on the documentation and a new website developed.&lt;/p&gt;
+&lt;p&gt;To download the latest SunPy release go to our &lt;a class=&quot;reference external&quot; href=&quot;http://sunpy.org&quot;&gt;website&lt;/a&gt; or download from &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/sunpy&quot;&gt;PyPI&lt;/a&gt;.
+The documentation for the latest release can now be found at &lt;a class=&quot;reference external&quot; href=&quot;http://docs.sunpy.org/en/stable/http://docs.sunpy.org/en/stable/&quot;&gt;docs.sunpy.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release contains 1025 commits from 19 people.&lt;/p&gt;
+&lt;p&gt;New Features:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Major documentation refactor. A far reaching re-write and restructure.&lt;/li&gt;
+&lt;li&gt;Add a SunPy Database to store and search local data.&lt;/li&gt;
+&lt;li&gt;Add beta support for querying the HELIO HEC&lt;/li&gt;
+&lt;li&gt;Add beta HEK to VSO query translation.&lt;/li&gt;
+&lt;li&gt;Add the ability to download the GOES event list.&lt;/li&gt;
+&lt;li&gt;Add support for downloading and querying the LYTAF database.&lt;/li&gt;
+&lt;li&gt;Add support for ANA data.&lt;/li&gt;
+&lt;li&gt;Updated sun.constants to use astropy.constants objects which include units, source, and error instide. For more info check out &lt;a class=&quot;reference external&quot; href=&quot;http://docs.astropy.org/en/latest/constants/index.html&quot;&gt;http://docs.astropy.org/en/latest/constants/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add some beta support for IRIS data products&lt;/li&gt;
+&lt;li&gt;Add a new MapCubeAnimator class with interactive widgets which is returned by mapcube.peek().&lt;/li&gt;
+&lt;li&gt;The Glymur library is now used to read JPEG2000 files.&lt;/li&gt;
+&lt;li&gt;GOESLightCurve now supports all GOES satellites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The people who have contributed to this release are:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Stuart Mumford&lt;/li&gt;
+&lt;li&gt;Simon Liedtke&lt;/li&gt;
+&lt;li&gt;Steven Christe&lt;/li&gt;
+&lt;li&gt;Jack Ireland&lt;/li&gt;
+&lt;li&gt;Andrew Inglis&lt;/li&gt;
+&lt;li&gt;Nabil Freij&lt;/li&gt;
+&lt;li&gt;Samuel Bennett&lt;/li&gt;
+&lt;li&gt;David Perez-Suarez&lt;/li&gt;
+&lt;li&gt;Pritish Chakraborty&lt;/li&gt;
+&lt;li&gt;Albert Y. Shih&lt;/li&gt;
+&lt;li&gt;John Evans&lt;/li&gt;
+&lt;li&gt;Michael Malocha&lt;/li&gt;
+&lt;li&gt;Florian Mayer&lt;/li&gt;
+&lt;li&gt;Russell Hewett&lt;/li&gt;
+&lt;li&gt;Jose Iván Campos&lt;/li&gt;
+&lt;li&gt;Keith Hughitt&lt;/li&gt;
+&lt;li&gt;Tiago Pereira&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

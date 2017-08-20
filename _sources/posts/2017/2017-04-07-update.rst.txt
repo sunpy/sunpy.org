@@ -1,0 +1,10 @@
+Updates to the website
+======================
+
+.. post:: 7 April 2017
+   :author: Nabil Freij
+   :tags: sunpy, website
+   :category: Update
+
+The website has gone some minor updates to incorporate the latest version of Bootstrap and its build dependencies among other items.
+This work came from `Prateek Chanda <https://github.com/prateekiiest>`_, `Duygu KEŞKEK <https://github.com/DuyguKeskek>`_ and `Sourav Kumar <https://github.com/souravc4>`_

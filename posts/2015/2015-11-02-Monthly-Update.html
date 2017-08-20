@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SunPy Update - November 2015</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/copybutton.js"></script>
+    <script type="text/javascript" src="../../_static/version.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon-32.ico"/>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="SunPy Update - November 2015 | " />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="../../sunpy.org/posts/2015/2015-11-02-Monthly-Update.html" />
+  <meta property="og:image" content="../../sunpy.org/_static/img/sunpy_icon.svg" />
+  <meta property="og:description" content="SunPy" />
+  <meta property="og:site_name" content="" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="alternate" type="application/atom+xml"  href="../../blog/atom.xml" title="Blog">
+  
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head>
+  <body>
+  
+<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://sunpy.org/">SunPy</a>
+	  </div>
+	  <div class="collapse navbar-collapse nav-collapse">
+	    <ul class="nav navbar-nav">
+		    
+		    <div class="collapse navbar-collapse nav-collapse">
+			    <ul class="nav navbar-nav navbar-left">
+			    	<li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">About<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html">About</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html#acknowledging-sunpy">Acknowledge</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/coc.html">Code of Conduct</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/blog.html">Blog</a></li>
+			      <li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">Documentation<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/">SunPy</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/irispy/en/latest/">IRISPy</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/solarbextrapolation/en/latest/">SolarBExtrapolation</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html">sunkit-sst</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/contribute.html">Support Us</a></li>
+			      <li><a href="http://sunpy.org/help.html">Get Help</a></li>
+			      <li><a href="http://sunpy.org/team.html">SunPy Project</a></li>
+	    	
+	        </ul>
+	    </div>
+      </ul>
+	  </div>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="row">
+          <div class="col-md-4" id="sidebar">
+            <div id="sidebar" class="bs-sidenav" role="complementary">
+  
+  
+  <h2>
+  
+  
+    2 November 2015
+  
+  </h2>
+
+  <ul>
+    
+
+  
+  <li id="author"><span>Author:</span>
+    
+      
+      <a href="../../blog/author/stuart-mumford.html">Stuart Mumford</a>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+  <li id="category"><span>Category:</span>
+    
+      
+      <a href="../../blog/category/update.html">Update</a>
+      
+    </li>
+  
+
+  
+  <li id="tags"><span>Tags:</span>
+      
+    
+      
+      <a href="../../blog/tag/sunpy.html">sunpy</a>
+      
+    
+      
+      <a href="../../blog/tag/status.html">status</a>
+      
+    
+      
+      <a href="../../blog/tag/monthly.html">monthly</a>
+      
+    </li>
+  
+  
+  <li id="comments">
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'sunpy-org'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    
+    <a href="#disqus_thread" data-disqus-identifier="/posts/2015/2015-11-02-Monthly-Update/"> Comments</a>
+  </li>
+  
+  </ul>
+
+
+
+            </div>
+          </div>
+      
+      <div class="col-md-8 content">
+        
+  <div class="section" id="sunpy-update-november-2015">
+<h1>SunPy Update - November 2015<a class="headerlink" href="#sunpy-update-november-2015" title="Permalink to this headline">¶</a></h1>
+<p>Hello all,</p>
+<p>Time for a quick rundown of October.</p>
+</div>
+<div class="section" id="october-news">
+<h1>October News<a class="headerlink" href="#october-news" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference external" href="#">Python 3 Port</a></li>
+<li><a class="reference external" href="#">Astropy 1.1 beta</a></li>
+</ul>
+<div class="section" id="id1">
+<h2>Python 3 Port<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>One of the major features scheduled for the 0.7 release is Python 3 compatibility.
+To this end a subpackage by subpackage porting effort is underway.
+The master branch of SunPy will now install and import using Python 3.4 or 3.5 (3.3 is untested) and the map, data, util, cm, time, image, io and sun subpackges now have their tests passing.
+The next major effort is to port the large net submodule across.
+If anyone has any time to contribute to the effort, please drop in to IRC and find me (Cadair).</p>
+</div>
+<div class="section" id="id2">
+<h2>Astropy 1.1 Beta<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>Just a quick note to let you all know that the 1.1 release of Astropy is getting close.
+This release contains a couple of cool things for SunPy, as well as some improvements to coordinates which will make things easier for SunPy coordinates, it contains an implementation of astropy table with an index column, which makes it possible to store timeseries in astropy tables.</p>
+</div>
+</div>
+<div class="section" id="coming-up-in-november">
+<h1>Coming up in November<a class="headerlink" href="#coming-up-in-november" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference external" href="#">Weekly developer meetings.</a></li>
+</ul>
+<div class="section" id="weekly-developer-discussions">
+<h2>Weekly Developer Discussions<a class="headerlink" href="#weekly-developer-discussions" title="Permalink to this headline">¶</a></h2>
+<p>The weekly meetings will be continuing this month, they are now at 1700UTC each week, and will be for the next ~6 months.
+We are using Google Hangouts and you can be notified of them by following our <a class="reference external" href="https://plus.google.com/+SunpyOrg/posts">Google+ page</a> (normally the join link is posted in IRC once the meeting has started).
+These meetings are also recorded and uploaded to YouTube, so you can catch up even if you can not attend in person.</p>
+<p>Links to November’s meetings are below:</p>
+<ul class="simple">
+<li>Meeting on <a class="reference external" href="https://plus.google.com/events/ckedfpc7tsbjtqfsajv1vmdbkps">2/11</a></li>
+<li>Meeting on <a class="reference external" href="https://plus.google.com/events/c6p3updmqne67e92gfqujbcvfho">9/11</a></li>
+<li>Meeting on <a class="reference external" href="https://plus.google.com/events/cggbdujsjamcg7j4m5ssri5jb8c">16/11</a></li>
+<li>Meeting on <a class="reference external" href="https://plus.google.com/events/c516k5sn5l7q05gft7hbi5m5adk">23/11</a></li>
+<li>Meeting on <a class="reference external" href="https://plus.google.com/events/ca9ag6c6mg66uibvtkjbqnlno28">30/11</a></li>
+</ul>
+</div>
+<div class="section" id="getting-in-touch">
+<h2>Getting in touch<a class="headerlink" href="#getting-in-touch" title="Permalink to this headline">¶</a></h2>
+<p>Finally, I wanted to remind everyone about our public communication methods.
+We have two mailing lists, <a class="reference external" href="https://groups.google.com/forum/#!forum/sunpy">SunPy</a> and <a class="reference external" href="https://groups.google.com/forum/#!forum/sunpy-dev">sunpy-dev</a>, the main SunPy list is used for general questions and announcements, and the sunpy-dev list is used for developer discussion and organisational emails.
+We also have the IRC channel (<a class="reference external" href="https://kiwiirc.com/client/irc.freenode.net/#SunPy">#SunPy</a> on Freenode), which normally has someone hanging out in it, and is an excellent place to get some real-time help, or to just come for a chat.
+We also have our <a class="reference external" href="https://plus.google.com/+SunpyOrg/posts">Google+ page</a> and a <a class="reference external" href="https://twitter.com/sunpyproject">Twitter</a> account.</p>
+<p>Happy Pythoning,
+Stuart</p>
+</div>
+</div>
+
+  <div class="section">
+  
+    
+
+
+<div class="section">
+  <span style="float: left;">
+  
+  Previous: 
+  <a href="2015-10-01-Monthly-Update.html">
+    
+    SunPy Update - October 2015
+  </a>
+  
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right;">
+  
+  Next: 
+  <a href="../2016/2016-01-01-Monthly-Update.html">
+    SunPy Update - January 2016
+    
+  </a>
+  </span>
+  
+</div>
+
+  
+  
+    <div class="section">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'sunpy-org';
+        var disqus_identifier = '/posts/2015/2015-11-02-Monthly-Update/';
+        var disqus_title = 'SunPy Update - November 2015';
+        var disqus_url = 'https://sunpy.org/posts/2015/2015-11-02-Monthly-Update';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  
+  </div>
+
+      </div>
+        
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="left-footer">
+          <p>
+                &copy; SunPy Project  
+            
+<a style= "padding-left: 10px;" rel="licence" href="http://creativecommons.org/licenses/by/4.0/">
+<img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
+</a>
+
+        </p>
+      </div>
+      <div class="right-footer">
+          Built with <a href="http://sphinx-doc.org/">Sphinx 1.6.3.</a>
+      </div>
+      <div class="center-footer ">
+        <a href="https://github.com/sunpy/sunpy">Github</a>
+        <span> • </span>
+        <a href="https://twitter.com/SunPyProject">Twitter</a>
+        <span> • </span>
+        <a href="https://riot.im/app/#/room/#sunpy-general:matrix.org">Matrix</a>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>

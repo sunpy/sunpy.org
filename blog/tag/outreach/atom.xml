@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posts tagged outreach</title>
+  <id>https://sunpy.org/blog.html/blog/tag/outreach/atom.xml</id>
+  <updated>2016-05-31T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/tag/outreach/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/outreach/atom.xml">
+    <title type="text">SPD 2016</title>
+    <id>https://sunpy.org/blog.html/posts/2016/2016-05-31-SPD2016.html</id>
+    <updated>2016-05-31T00:00:00Z</updated>
+    <published>2016-05-31T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2016/2016-05-31-SPD2016.html" />
+    <author>
+      <name>Steven Christe</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;spd-2016&quot;&gt;
+
+&lt;p&gt;You can find all of the material for the introductory sessions of scientific python and sunpy can be found &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/2016SPD-Python-SunPy/blob/master/README.md&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/outreach/atom.xml">
+    <title type="text">First impressions from SunPy at Python in Astronomy 2016</title>
+    <id>https://sunpy.org/blog.html/posts/2016/2016-03-21-python-in-astronomy.html</id>
+    <updated>2016-03-31T00:00:00Z</updated>
+    <published>2016-03-31T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2016/2016-03-21-python-in-astronomy.html" />
+    <author>
+      <name>Steven Christe</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;first-impressions-from-sunpy-at-python-in-astronomy-2016&quot;&gt;
+
+&lt;p&gt;Steven Christe &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/ehsteve&quot;&gt;(&amp;#64;ehsteve)&lt;/a&gt; and Stuart Mumford &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/Cadair&quot;&gt;(&amp;#64;Cadair)&lt;/a&gt; got to attend the (great) &lt;a class=&quot;reference external&quot; href=&quot;http://python-in-astronomy.github.io/2016/&quot;&gt;Python in Astronomy&lt;/a&gt; conference which took place in Seattle Washington from 21-25th of March 2016.&lt;/p&gt;
+&lt;p&gt;An introduction to SunPy was presented by Steven and you can find the presentation (and citation) at &lt;a class=&quot;reference external&quot; href=&quot;https://zenodo.org/record/48637&quot;&gt;Zenodo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Great discussions took place on future plans for &lt;a class=&quot;reference external&quot; href=&quot;http://docs.astropy.org/en/stable/nddata/index.html&quot;&gt;NDData&lt;/a&gt;,a new &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/astropy/astropy-APEs/pull/12&quot;&gt;Time Series object&lt;/a&gt;,in Astropy, among many others.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/outreach/atom.xml">
+    <title type="text">SunPy at the 2014 SPD Meeting</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-06-06-SPD-2014-Meeting.html</id>
+    <updated>2014-06-06T00:00:00Z</updated>
+    <published>2014-06-06T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-06-06-SPD-2014-Meeting.html" />
+    <author>
+      <name>Steven Christe</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-at-the-2014-spd-meeting&quot;&gt;
+
+&lt;p&gt;A poster on SunPy was presented at the SPD 2014 Meeting which took place in Boston.
+A copy of the poster is available &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/presentations/raw/master/2014-06-04_SunPy-Poster_SPD_(Boston)/SunPy-0.4-AAS-SPD%20Poster.pdf&quot;&gt;online&lt;/a&gt; in the &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/presentations&quot;&gt;sunpy/presentations&lt;/a&gt; repo on github.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/outreach/atom.xml">
+    <title type="text">RHESSI Workshop 13</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-04-03-RHESSI-Workshop-13.html</id>
+    <updated>2014-04-03T00:00:00Z</updated>
+    <published>2014-04-03T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-04-03-RHESSI-Workshop-13.html" />
+    <author>
+      <name>Steven Christe</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;rhessi-workshop-13&quot;&gt;
+
+&lt;p&gt;The latest version of SunPy along with an introduction to scientific computing in Python was presented at the &lt;a class=&quot;reference external&quot; href=&quot;http://sprg.ssl.berkeley.edu/~solarsdy/rhessi13/&quot;&gt;13th RHESSI Workshop&lt;/a&gt; on April 3rd, 2014.
+The presentation was well attended by about 20 people, a significant fraction of the total conference attendees!
+You can find the presentations (in the form of ipython notebooks) at the following locations&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20Intro%20to%20Matploblib.ipynb&quot;&gt;Introduction to Matplotlib&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20Intro%20to%20NumPy%20&amp;amp;%20SciPy.ipynb&quot;&gt;Introduction to NumPy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20SunPy.ipynb&quot;&gt;Introduction to SunPy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/outreach/atom.xml">
+    <title type="text">SunPy at SciPy 2013</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-07-21-sunpy-at-scipy.html</id>
+    <updated>2013-07-21T00:00:00Z</updated>
+    <published>2013-07-21T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-07-21-sunpy-at-scipy.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-at-scipy-2013&quot;&gt;
+
+&lt;p&gt;This year I was lucky enough to be able to attend the annual Scientific Python conference (SciPy 2013) in Austin, Texas.
+This was very kindly supported by a sponsorship from the conference organisers and sponsors.&lt;/p&gt;
+&lt;p&gt;SciPy is a gathering of people from all over the globe who all use Python for some scientific purpose.
+People there ranged from astronomers to meteorologists.
+There were academics and people from industry or people who just write python in their spare time.
+This diversity in people’s backgrounds and interest lead to the most diverse, interesting and friendly conference I have ever attended.&lt;/p&gt;
+&lt;p&gt;The conference this year consisted of two days of tutorials, two days of talks and two days of sprints.
+The tutorials covered different levels and topics ranging from introductions to IPython, matplotlib and scikit-learn to advanced talks on Cython and NumPy.
+Like with all the sessions at SciPy there are very good quality videos available online of the &lt;a class=&quot;reference external&quot; href=&quot;http://conference.scipy.org/scipy2013/tutorials_schedule.php&quot;&gt;tutorials&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The talks were in three tracks this year, one on reproducible science, one focusing on machine learning and a general track.
+In addition to this there were also a set of “domain specific mini-symposia”, covering topics such as astronomy and medical applications.&lt;/p&gt;
+&lt;p&gt;Attending SciPy as a member of the SunPy development team was also a fantastic opportunity to raise awareness of our project and talk to interested people.
+I gave a presentation on SunPy and it’s development in the “Astronomy and Astrophysics mini-symposium”, the video of the talk is
+&lt;a class=&quot;reference external&quot; href=&quot;https://www.youtube.com/watch?v=bXPPTCkaVu8&quot;&gt;available&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;The last two days of the conference were full of very productive sprints, where you sit in a room with like minded people and work on code.
+During the sprints, and the rest of the conference, I spent some time working on many projects including yt, astropy, ginga and scikit-image.&lt;/p&gt;
+&lt;p&gt;Ginga is a fantastic FITS file viewer written in pure Python, with surprising rendering speed and extensibility, it has a lot of potential to form the basis of a SunPy GUI.
+Ginga makes use of Astropy, which is an excellent community effort to unite Python tools for astronomy.
+One of the main benefits of attending SciPy was to increase the cooperation between Astropy and SunPy, there is a lot of work regarding coordinate handling as well as the migration of the PyFITS library into Astropy, which means that SunPy will be making good use of Astropy in the future.&lt;/p&gt;
+&lt;p&gt;On the last day I spent the afternoon with the scikit-image team, and had a very productive day working with them to implement a routine that warps an image to compensate for the rotation of the Sun.
+This is based on various parts of SunPy to calculate the coordinates and the rotation, and then uses scikit-image to warp the solar disk.
+I have written up this work and it can be found
+&lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/url/sunpy.cadair.com/diff_rot.ipynb&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One other project I spent some time with was the yt project.
+yt is a visualisation and analysis library for astrophysical simulations.
+My PhD work is numerical solar physics and this was very interesting to me.
+yt has it’s own very powerful volume rendering engine as well as a very nice API to do powerful slicing and parallel computation and rendering.
+I would recommended people who might be interested take a look!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

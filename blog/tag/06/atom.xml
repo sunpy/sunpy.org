@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posts tagged 0.6</title>
+  <id>https://sunpy.org/blog.html/blog/tag/06/atom.xml</id>
+  <updated>2015-08-04T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/tag/06/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/06/atom.xml">
+    <title type="text">SunPy 0.6 Released</title>
+    <id>https://sunpy.org/blog.html/posts/2015/2015-08-04-SunPy-06.html</id>
+    <updated>2015-08-04T00:00:00Z</updated>
+    <published>2015-08-04T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2015/2015-08-04-SunPy-06.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-0-6-released&quot;&gt;
+
+&lt;p&gt;I am very happy to tell you that the long in the works 0.6.0 release of the SunPy library has arrived.
+This release has been ‘in the oven’ for well over a year, and is full of rather major changes.&lt;/p&gt;
+&lt;p&gt;The major changes in this release are:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Most functions throughout the SunPy code base now expect Astropy Quantity objects, and return Astropy Quantity objects.&lt;/li&gt;
+&lt;li&gt;Python 2.6 support has ended, we do not expect this release to work under Python 2.6.&lt;/li&gt;
+&lt;li&gt;Sample data has been removed from SunPy but helpers for downloading sample data have been added to sunpy.data.&lt;/li&gt;
+&lt;li&gt;TimeRange has a new property based API, e.g. start and end are now properties.&lt;/li&gt;
+&lt;li&gt;SunPy colormaps are now registered with matplotlib, allowing their use from imshow and similar functions after the import of sunpy.cm.&lt;/li&gt;
+&lt;li&gt;Solar rotation calculation functionality has been added, along with functionality to de-rotate MapCubes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While there have been lots of changes, it is the move to Astropy Units throughout the code base that will require most users to update their
+code, if you wish to learn more about Astropy Units see: &lt;a class=&quot;reference external&quot; href=&quot;http://docs.astropy.org/en/latest/units/&quot;&gt;http://docs.astropy.org/en/latest/units/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can install this release using either pip or conda.
+If you have a scientific python environment already configured, run:&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sunpy&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;or:&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upgrade&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sunpy&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;if you have anaconda you need to add the sunpy and astropy channels to
+your conda config:&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;channels&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sunpy&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;channels&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;astropy&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;and then run:&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sunpy&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;for more information about installing sunpy see our installation documentation: &lt;a class=&quot;reference external&quot; href=&quot;http://docs.sunpy.org/en/stable/guide/installation/index.html&quot;&gt;http://docs.sunpy.org/en/stable/guide/installation/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This release consists of 1,341 commits from 29 different people and 13 new contributors!&lt;/p&gt;
+&lt;p&gt;The people who have contributed to this release are:&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Stuart Mumford
+Daniel Ryan
+Steven Christe
+Jack Ireland
+Brigitta Sipocz *
+Asish Panda
+Andrew Inglis
+Albert Y. Shih
+Rishabh Sharma
+David Perez-Suarez
+Rajul Srivastava
+Andrew Leonard
+Ruben De Visscher *
+Dumindu Buddhika *
+Goran Cetusic *
+Jongyeob Park *
+ChloÃ© Guennou *
+Ishtyaq Habib *
+Nabil Freij
+Simon Liedtke
+Abigail Stevens *
+Alex Hamilton *
+Ambar Mehrotra *
+Erik M. Bray *
+Jaylen Wimbish *
+Juan Camilo Buitrago-Casas *
+Larry Manley
+Norbert Gyenge
+Rishabh Mishra *
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Happy Pythoning,
+Stuart Mumford&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

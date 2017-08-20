@@ -1,0 +1,16 @@
+Google Summer of Code
+=====================
+
+.. post:: 9 April 2013
+   :author: Stuart Mumford
+   :tags: Google
+   :category: GSoC
+
+SunPy is participating in the `Google Summer of Code 2013 <http://http//www.google-melange.com/gsoc/homepage/google/gsoc2013>`_ under the umbrella of the `Python Software Foundation <http://wiki.python.org/moin/SummerOfCode/2013>`_ .
+
+We have participated succefully in the ESA summer of code in space project which is similar to GSoC for the last two years. Both our students and our project have gained a lot from the experience. A list of project ideas and application info is on our `GitHub Wiki <https://github.com/sunpy/sunpy/wiki/Google-Summer-of-Code>`_ .
+
+If you are interested in talking to us about projects, applications or if you are just bored pop into our IRC channel #SunPy on
+`irc.freenode.net <http://www.sunpy.org/blog/irc.freenode.net>`_ or drop us a line on our `mailing list <https://groups.google.com/forum/#!forum/sunpy>`_ .
+
+Enjoy your summer of code!

@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posted in 2013</title>
+  <id>https://sunpy.org/blog.html/blog/2013/atom.xml</id>
+  <updated>2013-09-02T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/2013/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2013/atom.xml">
+    <title type="text">ESA Summer of Code</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-09-02-ESA-Summer-of-Code-in-Space.html</id>
+    <updated>2013-09-02T00:00:00Z</updated>
+    <published>2013-09-02T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-09-02-ESA-Summer-of-Code-in-Space.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;esa-summer-of-code&quot;&gt;
+
+&lt;p&gt;I am happy to announce that for the third year running SunPy has got a summer student from ESA’s SOCIS program.
+This year the student is Tomas Meszaros.
+Tomas’ project this summer will be working on creating a new core data type for SunPy, the HyperMap.
+Which will be designed to hold ND data with at least one spatial dimension and any combination of other axes such as Wavelength, Temperature or Time.
+This data type will allow us to support data from instruments such as Hinode EIS and the newly launched IRIS satellite, as well as a multitude of high resolution ground based instruments.
+Tomas will be documenting his progress on his blog: &lt;a class=&quot;reference external&quot; href=&quot;http://examon.wordpress.com&quot;&gt;http://examon.wordpress.com&lt;/a&gt; as well as less regular more general interest posts on this site.&lt;/p&gt;
+&lt;p&gt;Stay tuned.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2013/atom.xml">
+    <title type="text">Announcing SunPy 0.3</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-08-30-Announcing-SunPy-0.3.html</id>
+    <updated>2013-08-30T00:00:00Z</updated>
+    <published>2013-08-30T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-08-30-Announcing-SunPy-0.3.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;announcing-sunpy-0-3&quot;&gt;
+
+&lt;p&gt;It gives me great pleasure to announce the release of a new version of SunPy.
+This version has been rather too long in the making, but is here at last!&lt;/p&gt;
+&lt;p&gt;SunPy 0.3 is now available through &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/sunpy&quot;&gt;PyPI&lt;/a&gt; and via &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/releases/tag/v0.3.0&quot;&gt;GitHub&lt;/a&gt;.
+The biggest change in 0.3 is a shift away from our Map and Spectra datatypes inheriting numpy.ndarray to having their array in a &lt;cite&gt;.data&lt;/cite&gt; attribute.
+This was done to make development of these objects easier and more flexible and also to improve our compatibility with Astropy.
+In the process of doing this the map submodule has undergone a massive refactor to streamline the creation and inheritance structure of the module.&lt;/p&gt;
+&lt;p&gt;Below I highlight some of the major changes, the full change log can be found &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/blob/stable/RELEASE.txt&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;The biggest change to the Map API is the deprecation of the &lt;cite&gt;make_map&lt;/cite&gt; function. It has been replaced by the new &lt;cite&gt;sunpy.Map&lt;/cite&gt; factory which is much more intelligent and able to have custom map sources external to the SunPy library register with it, which is handy if you are developing a custom Map source. Along with this change the old top-level map class Map is now called &lt;cite&gt;GenericMap&lt;/cite&gt; and is to be created using the Map factory under normal circumstances.&lt;/li&gt;
+&lt;li&gt;&lt;cite&gt;MapCube&lt;/cite&gt; and &lt;cite&gt;CompositeMap&lt;/cite&gt; have also seen some improvements, including the implementation of &lt;cite&gt;draw_limb&lt;/cite&gt; and &lt;cite&gt;draw_grid&lt;/cite&gt; for both datatypes and a new animation based &lt;cite&gt;plot()&lt;/cite&gt; method for &lt;cite&gt;MapCube&lt;/cite&gt;.&lt;/li&gt;
+&lt;li&gt;To facilitate the changes to map there have also been a lot of improvements to the &lt;cite&gt;io&lt;/cite&gt; submodule, including the ability to read all the HDUs from a FITS file and the addition of a &lt;cite&gt;extract_waveunit&lt;/cite&gt; function that checks the header for common ways to encode the wavelength unit.&lt;/li&gt;
+&lt;li&gt;There has also been a big cleanup of the various top level and submodule namespaces to make imports simpler. Most of this has not changed the user facing API, however there are not nicer ways to import submodules, like &lt;cite&gt;sunpy.util.util&lt;/cite&gt; is now the same as sunpy.util.&lt;/li&gt;
+&lt;li&gt;The spectra module has been refactored so it also has a &lt;cite&gt;.data&lt;/cite&gt; attribute and it’s plotting API is now consistent with that of Map and LightCurve&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SunPy 0.3 consits of 9 months of work from 15 people and over 300 commits to the git repository.
+The people who have contributed to this release are (in commit order):&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Stuart Mumford&lt;/li&gt;
+&lt;li&gt;Russell Hewett&lt;/li&gt;
+&lt;li&gt;Florian Mayer&lt;/li&gt;
+&lt;li&gt;Steven Christe&lt;/li&gt;
+&lt;li&gt;Albert Shih&lt;/li&gt;
+&lt;li&gt;Simon Liedtke&lt;/li&gt;
+&lt;li&gt;Ankit Angrawal&lt;/li&gt;
+&lt;li&gt;Jack Ireland&lt;/li&gt;
+&lt;li&gt;Matt Bates&lt;/li&gt;
+&lt;li&gt;Nabil Freij&lt;/li&gt;
+&lt;li&gt;Keith Hughitt&lt;/li&gt;
+&lt;li&gt;David Perez-Suarez&lt;/li&gt;
+&lt;li&gt;Tomas Meszaros&lt;/li&gt;
+&lt;li&gt;Benjamin Mampaey&lt;/li&gt;
+&lt;li&gt;Andrew Leonard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On behalf of all the SunPy developers, we hope you enjoy 0.3!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2013/atom.xml">
+    <title type="text">Experiments in animating plots and saving movies in SunPy 0.3</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-08-29-Experiments-in-animating-plots.html</id>
+    <updated>2013-08-29T00:00:00Z</updated>
+    <published>2013-08-29T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-08-29-Experiments-in-animating-plots.html" />
+    <author>
+      <name>Jack Ireland</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;experiments-in-animating-plots-and-saving-movies-in-sunpy-0-3&quot;&gt;
+
+&lt;p&gt;Just over a year ago this post described a simple method for saving a movie of SunPy maps.
+Since then, SunPy and matplotlib have moved on, and I’d like to describe an updated method for animating SunPy maps, and saving the results as an mp4 file.&lt;/p&gt;
+&lt;p&gt;First off, all these experiments were conducted on Ubuntu 12.04.
+The code below is based on this &lt;a class=&quot;reference external&quot; href=&quot;http://stackoverflow.com/questions/18019226/matplotlib-animation&quot;&gt;StackOverflow&lt;/a&gt; question and answer (where would we be without StackOverflow???? – thanks!), and some googling around concerning Ubuntu and ffmpeg.&lt;/p&gt;
+&lt;p&gt;So, to begin, I fired up &lt;a class=&quot;reference external&quot; href=&quot;http://ipython.org/&quot;&gt;ipython&lt;/a&gt;.
+I tried the StackOverflow code (including the correction in the answer) and got stuck in an ipython error loop.
+The solution – upgrading to ipython 1.0.0.  Trying again, the code crashed because I did not have ffmpeg installed.
+Matplotlib looks for movie writers it can use, and since I had specified one that was not present, it crashed.
+You can find which movie writers are present with &lt;cite&gt;animation.writers.list()&lt;/cite&gt; (having imported the animation module as below).
+I put ffmpeg capabilities on my system through sudo apt-get install libav-tools.&lt;/p&gt;
+&lt;p&gt;So, the StackOverflow code worked!
+It was quite simple to adapt it plotting SunPy 0.3 maps.
+I want to read in a bunch of time-ordered AIA FITS files, and make a movie of them.
+A very typical use case for a solar physicist.  Here is what I managed to get to work.&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;matplotlib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Agg&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;plt&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.animation&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;animation&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sunpy&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Set up formatting for the movie files&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Writer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;writers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;ffmpeg&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;writer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Writer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;metadata&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;artist&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Me&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bitrate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1800&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Get some data&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;imagedir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;/home/ireland/Data/AIA_Data/&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;filenames&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;listdir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imagedir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;figure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;An SDO movie&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;filenames&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Processing &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%s&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;im&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sunpy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;imagedir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;im&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()])&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;ani&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;animation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ArtistAnimation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interval&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repeat_delay&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ani&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;output_movie.mp4&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;writer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The code creates a SunPy map, and then creates a list of plots of those maps for the animator to work with.
+The animator then saves the animation as a movie using the ffmpeg writer.
+Works quite well.
+The resulting movie is &lt;a class=&quot;reference external&quot; href=&quot;http://www.sunpy.org/v1/wp-content/uploads/2013/08/output2again3.mp4&quot;&gt;here&lt;/a&gt;.
+As you can see the title above each image remains the same, whereas in each individual frame the titles differ (according to the observation time).  That needs fixing, and it &lt;a class=&quot;reference external&quot; href=&quot;http://stackoverflow.com/questions/17558096/animated-title-in-matplotlib&quot;&gt;seems it is possible&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Animating a set of plots is also quite easy.
+The code is almost the same as above.
+Just comment out the line &lt;cite&gt;matplotlib.use(‘Agg’)&lt;/cite&gt; and replace the line &lt;cite&gt;ani.save(…)&lt;/cite&gt; with &lt;cite&gt;plt.show()&lt;/cite&gt;.
+A matplotlib window appears, and the animation plays in it.
+The interactive zoom feature of the matplotlib window also works, and that is pretty cool.&lt;/p&gt;
+&lt;p&gt;I have not yet worked out how to animate a set of plots, and then save it as an mp4 movie.
+These simple &lt;a class=&quot;reference external&quot; href=&quot;http://matplotlib.org/search.html?q=animation&amp;amp;check_keywords=yes&amp;amp;area=default&quot;&gt;examples&lt;/a&gt; are enough I think, however, to get you going with animating your own plots.
+And by plots, I mean any kind of plots, not just movies of 2-d image data.
+The matplotlib site has examples of how to animate line plots, for example.&lt;/p&gt;
+&lt;p&gt;Obviously it would be extremely useful to have the animation and movie saving capability baked in to the mapcube functionality of SunPy.
+The code above is just an experiment, so if you have any improvements, or whole new and better methods, please let me know leave a comment below.
+Thanks again to SunPy, StackOverflow and matplotlib!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2013/atom.xml">
+    <title type="text">SunPy at SciPy 2013</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-07-21-sunpy-at-scipy.html</id>
+    <updated>2013-07-21T00:00:00Z</updated>
+    <published>2013-07-21T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-07-21-sunpy-at-scipy.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-at-scipy-2013&quot;&gt;
+
+&lt;p&gt;This year I was lucky enough to be able to attend the annual Scientific Python conference (SciPy 2013) in Austin, Texas.
+This was very kindly supported by a sponsorship from the conference organisers and sponsors.&lt;/p&gt;
+&lt;p&gt;SciPy is a gathering of people from all over the globe who all use Python for some scientific purpose.
+People there ranged from astronomers to meteorologists.
+There were academics and people from industry or people who just write python in their spare time.
+This diversity in people’s backgrounds and interest lead to the most diverse, interesting and friendly conference I have ever attended.&lt;/p&gt;
+&lt;p&gt;The conference this year consisted of two days of tutorials, two days of talks and two days of sprints.
+The tutorials covered different levels and topics ranging from introductions to IPython, matplotlib and scikit-learn to advanced talks on Cython and NumPy.
+Like with all the sessions at SciPy there are very good quality videos available online of the &lt;a class=&quot;reference external&quot; href=&quot;http://conference.scipy.org/scipy2013/tutorials_schedule.php&quot;&gt;tutorials&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The talks were in three tracks this year, one on reproducible science, one focusing on machine learning and a general track.
+In addition to this there were also a set of “domain specific mini-symposia”, covering topics such as astronomy and medical applications.&lt;/p&gt;
+&lt;p&gt;Attending SciPy as a member of the SunPy development team was also a fantastic opportunity to raise awareness of our project and talk to interested people.
+I gave a presentation on SunPy and it’s development in the “Astronomy and Astrophysics mini-symposium”, the video of the talk is
+&lt;a class=&quot;reference external&quot; href=&quot;https://www.youtube.com/watch?v=bXPPTCkaVu8&quot;&gt;available&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;The last two days of the conference were full of very productive sprints, where you sit in a room with like minded people and work on code.
+During the sprints, and the rest of the conference, I spent some time working on many projects including yt, astropy, ginga and scikit-image.&lt;/p&gt;
+&lt;p&gt;Ginga is a fantastic FITS file viewer written in pure Python, with surprising rendering speed and extensibility, it has a lot of potential to form the basis of a SunPy GUI.
+Ginga makes use of Astropy, which is an excellent community effort to unite Python tools for astronomy.
+One of the main benefits of attending SciPy was to increase the cooperation between Astropy and SunPy, there is a lot of work regarding coordinate handling as well as the migration of the PyFITS library into Astropy, which means that SunPy will be making good use of Astropy in the future.&lt;/p&gt;
+&lt;p&gt;On the last day I spent the afternoon with the scikit-image team, and had a very productive day working with them to implement a routine that warps an image to compensate for the rotation of the Sun.
+This is based on various parts of SunPy to calculate the coordinates and the rotation, and then uses scikit-image to warp the solar disk.
+I have written up this work and it can be found
+&lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/url/sunpy.cadair.com/diff_rot.ipynb&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One other project I spent some time with was the yt project.
+yt is a visualisation and analysis library for astrophysical simulations.
+My PhD work is numerical solar physics and this was very interesting to me.
+yt has it’s own very powerful volume rendering engine as well as a very nice API to do powerful slicing and parallel computation and rendering.
+I would recommended people who might be interested take a look!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2013/atom.xml">
+    <title type="text">The Database class</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-06-19-database-class.html</id>
+    <updated>2013-06-19T00:00:00Z</updated>
+    <published>2013-06-19T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-06-19-database-class.html" />
+    <author>
+      <name>Simon Liedtke</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;the-database-class&quot;&gt;
+
+&lt;p&gt;Note: I have also a private blog which covers more advanced topics.
+The next post there will be about implementing custom caches and custom commands.&lt;/p&gt;
+&lt;p&gt;The class Database is the central class of the new database package.
+It is used to connect to a database and to manipulate it (adding new entries, editing exisitng entries, removing entries).
+Later on, it will also be possible to search for entries by specific criteria (I think about using the sunpy.net.vso.attrs module for querying the database).&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;connecting-adding-entries-getting-all-entries-and-checking-for-existence&quot;&gt;
+&lt;h2&gt;Connecting, adding entries, getting all entries and checking for existence&lt;/h2&gt;
+&lt;p&gt;To connect to a database, you create a new instance of the class Database.
+Its __init__ method receives only one positional argument: the URL.
+You may either pass a string of the form dialect+driver://user:password&amp;#64;host/dbname[?key=value..] or an instance of the class sqlalchemy.engine.url.URL.
+The special string ‘sqlite:///:memory:’ means that an in-memory SQLite database is used (which is especially handy in interactive session for trying things out).
+See sqlalchemy.create_engine for more information about the syntax of the passed string.&lt;/p&gt;
+&lt;p&gt;The method create_tables is mandatory for working with a new database.
+Missing tables are not automatically created because “explicit is better than implicit”.&lt;/p&gt;
+&lt;p&gt;Each instance of the class DatabaseEntry represents one row in the database.
+To add a new entry to the database, simply use the add method of a database object and pass it the entry you want to add.
+To check if it exists in the database, you can use the in operator.
+The number of entries can be accessed by using the len() function on any database object.
+It is also supported to iterate over a database object to get all entries.
+As a side-effect, using the list() function on a database object gives you a list of all entries.&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;sunpy.database&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DatabaseEntry&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;database&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;sqlite:///:memory:&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create_tables&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DatabaseEntry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DatabaseEntry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry1&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pprint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DatabaseEntry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;provider&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fileid&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DatabaseEntry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;provider&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fileid&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;when-are-changes-committed-to-the-database&quot;&gt;
+&lt;h2&gt;When are changes committed to the database?&lt;/h2&gt;
+&lt;p&gt;There are two answers to this question: Changes may either be committed explicitly or implicitly.
+The explicit way is easy: any number of database manipulations is flushed by calling the commit method, i.e. &lt;cite&gt;database.commit()&lt;/cite&gt; if the name of the Database instance is called database.&lt;/p&gt;
+&lt;p&gt;The implicit way is a bit harder to understand: Changes are implicitly committed directly before a command reads from the database.&lt;/p&gt;
+&lt;p&gt;Each of the following commands is committed as soon as a query to the database is issued:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;add&lt;/li&gt;
+&lt;li&gt;edit&lt;/li&gt;
+&lt;li&gt;remove&lt;/li&gt;
+&lt;li&gt;star&lt;/li&gt;
+&lt;li&gt;unstar&lt;/li&gt;
+&lt;li&gt;undo / redo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By “query” I mean any function, method or operator that reads from the database.
+These are in particular:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;cite&gt;list(database)&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;&lt;cite&gt;len(database)&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;&lt;cite&gt;database.get_entry_by_id&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;&lt;cite&gt;database.get_starred&lt;/cite&gt;&lt;/li&gt;
+&lt;li&gt;the &lt;cite&gt;in&lt;/cite&gt; operator&lt;/li&gt;
+&lt;li&gt;iterating over a database&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You don’t have to remember each of these functions.
+Just keep in mind that changes to the database are committed as soon as any operation is performed to read from the database.
+Later on, more methods and features will be added to read from the database, so that generic rule is more useful than learning a list of operations by heart.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;undoing-and-redoing-actions-also-removing-entries&quot;&gt;
+&lt;h2&gt;Undoing and redoing actions (also: removing entries)&lt;/h2&gt;
+&lt;p&gt;The actions &lt;cite&gt;add&lt;/cite&gt;, &lt;cite&gt;edit&lt;/cite&gt;, &lt;cite&gt;remove&lt;/cite&gt;, &lt;cite&gt;star&lt;/cite&gt;, and &lt;cite&gt;unstar&lt;/cite&gt; can be undone and redone using the methods undo or redo, respectively.
+Both of these methods receive an optional argument to specify the number of commands that should be undone or redone (the default is 1, i.e. undo or redo only one command).
+If the given number of commands cannot be reverted (e.g. if only 2 actions have been undone, it is not possible to redo 5 actions), an exception is raised.&lt;/p&gt;
+&lt;p&gt;The &lt;cite&gt;remove&lt;/cite&gt; method is as simple as the &lt;cite&gt;add&lt;/cite&gt; method: you pass an entry and it gets removed.&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;undo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pprint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[&amp;lt;DatabaseEntry(id 1, data provider None, fileid None)&amp;gt;,&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt; &amp;lt;DatabaseEntry(id 2, data provider None, fileid None)&amp;gt;]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;redo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[&amp;lt;DatabaseEntry(id 2, data provider None, fileid None)&amp;gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;editing-entries-un-starring-entries-and-custom-edits&quot;&gt;
+&lt;h2&gt;Editing entries: (un-)starring entries and custom edits&lt;/h2&gt;
+&lt;p&gt;The database package brings the new concept of starring entries.
+This is just to mark certain entries, it is not a ranking or a custom label (though while I’m writing this, I think that could be a good idea.
+I should discuss it with the SunPy devs).
+To star an entry, call the method star and pass the entry to be starred.
+The method unstar works accordingly.
+If you try to mark an entry as starred although it already is, an exception is raised.
+An exception is also raised if it is attempted to unstar an entry that is not starred.
+This “verbose” behaviour can be turned off by setting the optional keyword argument &lt;cite&gt;ignore_already_starred&lt;/cite&gt; (or &lt;cite&gt;ignore_already_unstarred&lt;/cite&gt; for the &lt;cite&gt;unstar&lt;/cite&gt; method) to True.
+The entry method makes it possible to change a specific value of an entry.
+The first argument is the entry to be changed and all following arguments must be keyword arguments where the key represents the column name in the database and the value represents the new value.&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;star&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_starred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;&amp;lt;generator object &amp;lt;genexpr&amp;gt; at 0xb54d734&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_starred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[&amp;lt;DatabaseEntry(id 2, data provider None, fileid None)&amp;gt;]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unstar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_starred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;edit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;starred&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_starred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[&amp;lt;DatabaseEntry(id 42, data provider None, fileid None)&amp;gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;caching&quot;&gt;
+&lt;h2&gt;Caching&lt;/h2&gt;
+&lt;p&gt;The database may be used as a cache.
+In fact, a cache is always used, but the default size is &lt;cite&gt;float(‘inf’)&lt;/cite&gt;, meaning infinite size.
+There are different possible types of caches and they mainly differ in the way what items they remove if the cache has reached the full size and another item is added.
+The default cache is an LRU (Least Recently Used) cache.
+This one removes the item where the access time is the oldest.
+There is also one other builtin cache, the LFU (Least Frequently Used) cache.
+This one removes the entry where the number of accesses is the lowest.
+It is also possible to add custom cache algorithms, this will be covered in one of the next posts in my private blog.&lt;/p&gt;
+&lt;p&gt;The cache type is the second argument, defaulting to sunpy.database.caching.LRUCache.
+The cache size of a database is specified by passing the keyword argument cache_size in the &lt;cite&gt;__init__&lt;/cite&gt; method.
+To get an entry by its unique ID, you use the method &lt;cite&gt;get_entry_by_id&lt;/cite&gt;.
+In the following example, you can see (at least I hope you do ^^) that the entries #1 and #3 have been accessed once, whereas #2 has not been accessed at all.
+So you could imagine that its last accessed time is minus infinity and therefore it gets removed when entry #4 is added to the database.&lt;/p&gt;
+&lt;div class=&quot;highlight-default&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pprint&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pprint&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;sqlite:///:memory:&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cache_size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;create_tables&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DatabaseEntry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DatabaseEntry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DatabaseEntry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DatabaseEntry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pprint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[&amp;lt;DatabaseEntry(id 1, data provider None, fileid None)&amp;gt;,&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt; &amp;lt;DatabaseEntry(id 2, data provider None, fileid None)&amp;gt;,&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt; &amp;lt;DatabaseEntry(id 3, data provider None, fileid None)&amp;gt;]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_entry_by_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;&amp;lt;DatabaseEntry(id 1, data provider None, fileid None)&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_entry_by_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;&amp;lt;DatabaseEntry(id 3, data provider None, fileid None)&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;entry4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pprint&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;database&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[&amp;lt;DatabaseEntry(id 1, data provider None, fileid None)&amp;gt;,&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt; &amp;lt;DatabaseEntry(id 3, data provider None, fileid None)&amp;gt;,&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt; &amp;lt;DatabaseEntry(id 4, data provider None, fileid None)&amp;gt;]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;what-are-the-next-plans&quot;&gt;
+&lt;h2&gt;What are the next plans?&lt;/h2&gt;
+&lt;p&gt;The next big plans are writing actual tables (the current DatabaseEntry class can be seen as a dummy model for now), support querying and adding a connection to the VSO interface so that downloaded data gets automatically added to the database.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2013/atom.xml">
+    <title type="text">Gsoc Community Bonding</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-05-28-gsoc-community-bonding.html</id>
+    <updated>2013-05-28T00:00:00Z</updated>
+    <published>2013-05-28T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-05-28-gsoc-community-bonding.html" />
+    <author>
+      <name>David Pérez-Suárez</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;gsoc-community-bonding&quot;&gt;
+
+&lt;p&gt;From our last post you may remember that SunPy is participating in GSOC-2013 under the PSF &amp;lt;&lt;a class=&quot;reference external&quot; href=&quot;http://wiki.python.org/moin/SummerOfCode/2013&quot;&gt;http://wiki.python.org/moin/SummerOfCode/2013&lt;/a&gt;&amp;gt;`_ (!=
+&lt;a class=&quot;reference external&quot; href=&quot;http://en.wikipedia.org/wiki/Point_spread_function&quot;&gt;Point Spread Function&lt;/a&gt;.
+Yesterday, Google announced the accepted candidates for their summer of code.
+If you look the &lt;a class=&quot;reference external&quot; href=&quot;http://www.google-melange.com/gsoc/projects/list/google/gsoc2013&quot;&gt;list&lt;/a&gt; you will find between all these students that there are two whose projects is to work with SunPy.&lt;/p&gt;
+&lt;p&gt;Simon Liedtke (a.k.a. derdon) will develop a database for downloaded solar data, this will allow SunPy users to interact with the data in a more efficient way, avoiding to have to download again and again the files that went lost in our hard-disk.
+This tool will be smart enough that will let you know if you query data to &lt;a class=&quot;reference external&quot; href=&quot;http://virtualsolar.org/&quot;&gt;VSO&lt;/a&gt; that you have already downloaded.&lt;/p&gt;
+&lt;p&gt;Michael Malocha (a.k.a. mjm159) is going to work on a better integration of &lt;a class=&quot;reference external&quot; href=&quot;http://www.lmsal.com/hek/&quot;&gt;HEK&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://www.helio-vo.eu/&quot;&gt;HELIO&lt;/a&gt; in SunPy.
+This will include querying for event to the available catalogues, but also other capabilities like overploting the events’ positions/contours into solar images.&lt;/p&gt;
+&lt;p&gt;They will start to work in their projects in just two weeks.
+You will be able to follow their adventures, feelings, ideas, etc. in their personal blogs (&lt;a class=&quot;reference external&quot; href=&quot;http://mjm159.wordpress.com/&quot;&gt;Michael’s&lt;/a&gt; , &lt;a class=&quot;reference external&quot; href=&quot;http://derdon.github.io/blog/&quot;&gt;Simon’s&lt;/a&gt; ).
+But they will also give us  a bi-weekly update on their progress in here! Keep an eye on them because we want your inputs to develop the best tools we can!&lt;/p&gt;
+&lt;p&gt;Meanwhile, we are in the &lt;a class=&quot;reference external&quot; href=&quot;http://googlesummerofcode.blogspot.fi/2007/04/so-what-is-this-community-bonding-all.html&quot;&gt;Community Bonding Period&lt;/a&gt;.
+In this two weeks, Michael and Simon will have to interact with us, to know how we work, to read documents needed for their projects, so on and so on… On the mentor’s side we are going to work in a couple of wiki-documents to give them a better insight on how we would like to use their implemented tools at the end of the summer.
+Check the &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/wiki/Gsoc-2013-use-cases&quot;&gt;wiki&lt;/a&gt; and feel free to contribute!&lt;/p&gt;
+&lt;p&gt;This summer is going to be AMAZING for SunPy, so don’t doubt to join us for the fun!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2013/atom.xml">
+    <title type="text">Google Summer of Code</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-04-09-gsoc.html</id>
+    <updated>2013-04-09T00:00:00Z</updated>
+    <published>2013-04-09T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-04-09-gsoc.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;google-summer-of-code&quot;&gt;
+
+&lt;p&gt;SunPy is participating in the &lt;a class=&quot;reference external&quot; href=&quot;http://http//www.google-melange.com/gsoc/homepage/google/gsoc2013&quot;&gt;Google Summer of Code 2013&lt;/a&gt; under the umbrella of the &lt;a class=&quot;reference external&quot; href=&quot;http://wiki.python.org/moin/SummerOfCode/2013&quot;&gt;Python Software Foundation&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;We have participated succefully in the ESA summer of code in space project which is similar to GSoC for the last two years. Both our students and our project have gained a lot from the experience. A list of project ideas and application info is on our &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/wiki/Google-Summer-of-Code&quot;&gt;GitHub Wiki&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;If you are interested in talking to us about projects, applications or if you are just bored pop into our IRC channel #SunPy on
+&lt;a class=&quot;reference external&quot; href=&quot;http://www.sunpy.org/blog/irc.freenode.net&quot;&gt;irc.freenode.net&lt;/a&gt; or drop us a line on our &lt;a class=&quot;reference external&quot; href=&quot;https://groups.google.com/forum/#!forum/sunpy&quot;&gt;mailing list&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;Enjoy your summer of code!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

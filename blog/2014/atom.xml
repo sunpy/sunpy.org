@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posted in 2014</title>
+  <id>https://sunpy.org/blog.html/blog/2014/atom.xml</id>
+  <updated>2014-06-26T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/2014/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2014/atom.xml">
+    <title type="text">SunPy 0.5.0</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-06-26-SunPy-0.5.html</id>
+    <updated>2014-06-26T00:00:00Z</updated>
+    <published>2014-06-26T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-06-26-SunPy-0.5.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-0-5-0&quot;&gt;
+
+&lt;p&gt;The SunPy project is happy to announce the release of SunPy 0.5.0.
+This release consists of 772 commits from 21 people including 9 new contributors,
+including the ability to co-align map cubes via template matching in scikit image, massive improvements to Map.rotate() including an implementation of an aiaprep calibration routine for SDO/AIA data and the ability to calculate GOES temperature and emission measure from GOES fluxes.&lt;/p&gt;
+&lt;p&gt;Special mentions to Daniel Ryan and Andrew Leonard who have both contributed their first major features to SunPy for this release. They contributed the GOES temperature and aiaprep code respectively.&lt;/p&gt;
+&lt;p&gt;New Features:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;map.rotate() improvements and the additon of a aiaprep routine.&lt;/li&gt;
+&lt;li&gt;GOES temperature and emission measure calculation.&lt;/li&gt;
+&lt;li&gt;Added functions that implement image coalignment with support for MapCubes.&lt;/li&gt;
+&lt;li&gt;MapCube._maps changed to MapCube.maps.&lt;/li&gt;
+&lt;li&gt;Added Nobeyama Radioheliograph data support to Lightcurve object.&lt;/li&gt;
+&lt;li&gt;Added support for NOAA solar cycle prediction in lightcurves.&lt;/li&gt;
+&lt;li&gt;Improved line quality and performances issues with map.draw_grid().&lt;/li&gt;
+&lt;li&gt;Most tests should pass on windows and on installed versions of SunPy.&lt;/li&gt;
+&lt;li&gt;Added a window/split method to time range.&lt;/li&gt;
+&lt;li&gt;Updates to spectrogram documentation.&lt;/li&gt;
+&lt;li&gt;Added method Database.add_from_hek_query_result to HEK database.&lt;/li&gt;
+&lt;li&gt;Added method Database.download_from_vso_query_result.&lt;/li&gt;
+&lt;li&gt;GOES Lightcurve now makes use of a new source of GOES data, provides metadata, and data back to 1981.&lt;/li&gt;
+&lt;li&gt;Fix algorithm in sunpy.sun.equation_of_center.&lt;/li&gt;
+&lt;li&gt;Added contains functionality to TimeRange module&lt;/li&gt;
+&lt;li&gt;Added t=’now’ to parse_time to privide utcnow datetime.&lt;/li&gt;
+&lt;li&gt;Fixed time dependant functions (.sun) to default to t=’now’&lt;/li&gt;
+&lt;li&gt;Fixed solar_semidiameter_angular_size&lt;/li&gt;
+&lt;li&gt;Removed sqlalchemy as a requirement for SunPy&lt;/li&gt;
+&lt;li&gt;Some basic tests for GenericLightCurve on types of expected input.&lt;/li&gt;
+&lt;li&gt;Added Docstrings to LightCurve methods.&lt;/li&gt;
+&lt;li&gt;Added tests for classes in sunpy.map.sources.&lt;/li&gt;
+&lt;li&gt;Cleaned up the sunpy namespace, removed .units, /ssw and .sphinx. Also moved .coords .physics.transforms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The people who have contributed to this release are:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Stuart Mumford&lt;/li&gt;
+&lt;li&gt;Daniel Ryan *&lt;/li&gt;
+&lt;li&gt;Andrew Leonard&lt;/li&gt;
+&lt;li&gt;Steven Christe&lt;/li&gt;
+&lt;li&gt;Pritish Chakraborty&lt;/li&gt;
+&lt;li&gt;Jack Ireland&lt;/li&gt;
+&lt;li&gt;David Pérez-Suárez&lt;/li&gt;
+&lt;li&gt;Andrew Inglis&lt;/li&gt;
+&lt;li&gt;Michael Mueller *&lt;/li&gt;
+&lt;li&gt;Rishabh Sharma *&lt;/li&gt;
+&lt;li&gt;Albert Y. Shih&lt;/li&gt;
+&lt;li&gt;Jose Ivan Campos Rozo&lt;/li&gt;
+&lt;li&gt;Simon Liedtke&lt;/li&gt;
+&lt;li&gt;Rajul Srivastava *&lt;/li&gt;
+&lt;li&gt;Larry Manley *&lt;/li&gt;
+&lt;li&gt;Mateo Inchaurrandieta *&lt;/li&gt;
+&lt;li&gt;Asish Panda *&lt;/li&gt;
+&lt;li&gt;Daniel Williams *&lt;/li&gt;
+&lt;li&gt;Nabil Freij&lt;/li&gt;
+&lt;li&gt;Russell Hewett&lt;/li&gt;
+&lt;li&gt;freekv *&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Where a * indicates their first contribution.&lt;/p&gt;
+&lt;p&gt;We hope you find this release useful and that it enables you to do even more useful things with SunPy.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2014/atom.xml">
+    <title type="text">SunPy at the 2014 SPD Meeting</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-06-06-SPD-2014-Meeting.html</id>
+    <updated>2014-06-06T00:00:00Z</updated>
+    <published>2014-06-06T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-06-06-SPD-2014-Meeting.html" />
+    <author>
+      <name>Steven Christe</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;sunpy-at-the-2014-spd-meeting&quot;&gt;
+
+&lt;p&gt;A poster on SunPy was presented at the SPD 2014 Meeting which took place in Boston.
+A copy of the poster is available &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/presentations/raw/master/2014-06-04_SunPy-Poster_SPD_(Boston)/SunPy-0.4-AAS-SPD%20Poster.pdf&quot;&gt;online&lt;/a&gt; in the &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/presentations&quot;&gt;sunpy/presentations&lt;/a&gt; repo on github.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2014/atom.xml">
+    <title type="text">2nd year of SunPy participating in GSOC</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-04-28-gsoc-4-students.html</id>
+    <updated>2014-04-28T00:00:00Z</updated>
+    <published>2014-04-28T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-04-28-gsoc-4-students.html" />
+    <author>
+      <name>David Pérez-Suárez</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;nd-year-of-sunpy-participating-in-gsoc&quot;&gt;
+
+&lt;p&gt;Wonderful news for SunPy!
+This year is the &lt;a class=&quot;reference external&quot; href=&quot;https://www.google-melange.com/gsoc/homepage/google/gsoc2014&quot;&gt;10th edition of Google Summer of Code&lt;/a&gt;, and SunPy is participating again for the second year in a row!
+Remember how awesome it was last year when we got two amazing students?
+Well, this year is going to be twice as awesome!
+Why?
+Because SunPy has gotten twice as many students than in 2013.
+Let’s introduce them and their projects:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/VaticanCameos&quot;&gt;Pritish Chakraborty&lt;/a&gt; (a.k.a. VaticanCameos) a Computer Science student from Haryana (India) will be working on giving SunPy a proper coordinate transformation system integrated with the developments in &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/astropy/astropy-APEs/blob/master/APE5.rst&quot;&gt;Astropy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/rajul-iitkgp&quot;&gt;Rajul Srivastava&lt;/a&gt; (a.k.a. rajul), a science student working towards a major in chemistry in Kharagpur (India),
+is going to bring a GUI interface to SunPy.
+This GUI is going to be based in &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/ejeschke/ginga&quot;&gt;Ginga&lt;/a&gt; and the SunPy file database funcionality.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/gunner272&quot;&gt;Rishabh Sharma&lt;/a&gt; (a.k.a. gunner272), who is currently pursuing a Computer Science and Engineering degree at Hyderabad (India), will be working on refractoring the lightcurve module, making it more consistant with the way Map works at the moment.
+This project will also make use of Astropy development, in particular to the &lt;a class=&quot;reference external&quot; href=&quot;https://docs.astropy.org/en/stable/table/index.html&quot;&gt;data tables module&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last but not least, &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/kaichogami&quot;&gt;Asish Panda&lt;/a&gt; .
+Asish is doing a degree in electronics and telecommunications at Bhubaneswar (India).
+He will be working on the integration of &lt;a class=&quot;reference external&quot; href=&quot;https://docs.astropy.org/en/stable/units/index.html&quot;&gt;Astropy’s Quantity objects&lt;/a&gt; into SunPy and work towards the replacement of the actual sunpy.wcs with the &lt;a class=&quot;reference external&quot; href=&quot;https://docs.astropy.org/en/stable/wcs/index.html&quot;&gt;astropy.wcs&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;Don’t forget to check the student’s blogs:
+&lt;a class=&quot;reference external&quot; href=&quot;http://thejoyofpython.wordpress.com/&quot;&gt;Pritish&lt;/a&gt; ,
+&lt;a class=&quot;reference external&quot; href=&quot;http://pettycoder.blogspot.in&quot;&gt;Rajul&lt;/a&gt; ,
+&lt;a class=&quot;reference external&quot; href=&quot;http://rishabhsharmagunner.wordpress.com/&quot;&gt;Rishabh&lt;/a&gt; and
+&lt;a class=&quot;reference external&quot; href=&quot;http://sunpygsoc.wordpress.com/&quot;&gt;Asish&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;to keep up to date with their progress during this summer and don’t be afraid to comment on their posts with words of support.
+Nevertheless, they will have also the opportunity to write some feature posts here to keep all of us updated.&lt;/p&gt;
+&lt;p&gt;Once more, this year GSOC would not have been possible without the help that the &lt;a class=&quot;reference external&quot; href=&quot;https://wiki.python.org/moin/SummerOfCode/2014&quot;&gt;Python Software Foundation&lt;/a&gt; have given us, as we are participating under their umbrella.
+Thanks PSF!
+In particular their organisers &lt;a class=&quot;reference external&quot; href=&quot;http://terri.zone12.com/&quot;&gt;Terri&lt;/a&gt; , Meflin and Florian.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2014/atom.xml">
+    <title type="text">RHESSI Workshop 13</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-04-03-RHESSI-Workshop-13.html</id>
+    <updated>2014-04-03T00:00:00Z</updated>
+    <published>2014-04-03T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-04-03-RHESSI-Workshop-13.html" />
+    <author>
+      <name>Steven Christe</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;rhessi-workshop-13&quot;&gt;
+
+&lt;p&gt;The latest version of SunPy along with an introduction to scientific computing in Python was presented at the &lt;a class=&quot;reference external&quot; href=&quot;http://sprg.ssl.berkeley.edu/~solarsdy/rhessi13/&quot;&gt;13th RHESSI Workshop&lt;/a&gt; on April 3rd, 2014.
+The presentation was well attended by about 20 people, a significant fraction of the total conference attendees!
+You can find the presentations (in the form of ipython notebooks) at the following locations&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20Intro%20to%20Matploblib.ipynb&quot;&gt;Introduction to Matplotlib&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20Intro%20to%20NumPy%20&amp;amp;%20SciPy.ipynb&quot;&gt;Introduction to NumPy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20SunPy.ipynb&quot;&gt;Introduction to SunPy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/2014/atom.xml">
+    <title type="text">Announcing SunPy 0.4</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-02-14-SunPy-0.4.html</id>
+    <updated>2014-02-14T00:00:00Z</updated>
+    <published>2014-02-14T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-02-14-SunPy-0.4.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;announcing-sunpy-0-4&quot;&gt;
+
+&lt;p&gt;The SunPy community is pleased to announce the release of SunPy 0.4.0.
+This release contains many new features, some of which are contributed by people who participated in GSOC 2013.
+It includes the addition of a new local database for storing and searching data, it features a HEK to VSO translator and a new HELIO module in net.
+As well as this major work has been undertaken on the documentation and a new website developed.&lt;/p&gt;
+&lt;p&gt;To download the latest SunPy release go to our &lt;a class=&quot;reference external&quot; href=&quot;http://sunpy.org&quot;&gt;website&lt;/a&gt; or download from &lt;a class=&quot;reference external&quot; href=&quot;https://pypi.python.org/pypi/sunpy&quot;&gt;PyPI&lt;/a&gt;.
+The documentation for the latest release can now be found at &lt;a class=&quot;reference external&quot; href=&quot;http://docs.sunpy.org/en/stable/http://docs.sunpy.org/en/stable/&quot;&gt;docs.sunpy.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release contains 1025 commits from 19 people.&lt;/p&gt;
+&lt;p&gt;New Features:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Major documentation refactor. A far reaching re-write and restructure.&lt;/li&gt;
+&lt;li&gt;Add a SunPy Database to store and search local data.&lt;/li&gt;
+&lt;li&gt;Add beta support for querying the HELIO HEC&lt;/li&gt;
+&lt;li&gt;Add beta HEK to VSO query translation.&lt;/li&gt;
+&lt;li&gt;Add the ability to download the GOES event list.&lt;/li&gt;
+&lt;li&gt;Add support for downloading and querying the LYTAF database.&lt;/li&gt;
+&lt;li&gt;Add support for ANA data.&lt;/li&gt;
+&lt;li&gt;Updated sun.constants to use astropy.constants objects which include units, source, and error instide. For more info check out &lt;a class=&quot;reference external&quot; href=&quot;http://docs.astropy.org/en/latest/constants/index.html&quot;&gt;http://docs.astropy.org/en/latest/constants/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add some beta support for IRIS data products&lt;/li&gt;
+&lt;li&gt;Add a new MapCubeAnimator class with interactive widgets which is returned by mapcube.peek().&lt;/li&gt;
+&lt;li&gt;The Glymur library is now used to read JPEG2000 files.&lt;/li&gt;
+&lt;li&gt;GOESLightCurve now supports all GOES satellites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The people who have contributed to this release are:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Stuart Mumford&lt;/li&gt;
+&lt;li&gt;Simon Liedtke&lt;/li&gt;
+&lt;li&gt;Steven Christe&lt;/li&gt;
+&lt;li&gt;Jack Ireland&lt;/li&gt;
+&lt;li&gt;Andrew Inglis&lt;/li&gt;
+&lt;li&gt;Nabil Freij&lt;/li&gt;
+&lt;li&gt;Samuel Bennett&lt;/li&gt;
+&lt;li&gt;David Perez-Suarez&lt;/li&gt;
+&lt;li&gt;Pritish Chakraborty&lt;/li&gt;
+&lt;li&gt;Albert Y. Shih&lt;/li&gt;
+&lt;li&gt;John Evans&lt;/li&gt;
+&lt;li&gt;Michael Malocha&lt;/li&gt;
+&lt;li&gt;Florian Mayer&lt;/li&gt;
+&lt;li&gt;Russell Hewett&lt;/li&gt;
+&lt;li&gt;Jose Iván Campos&lt;/li&gt;
+&lt;li&gt;Keith Hughitt&lt;/li&gt;
+&lt;li&gt;Tiago Pereira&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

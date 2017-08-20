@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posts tagged call</title>
+  <id>https://sunpy.org/blog.html/blog/tag/call/atom.xml</id>
+  <updated>2013-09-02T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/tag/call/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/call/atom.xml">
+    <title type="text">ESA Summer of Code</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-09-02-ESA-Summer-of-Code-in-Space.html</id>
+    <updated>2013-09-02T00:00:00Z</updated>
+    <published>2013-09-02T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-09-02-ESA-Summer-of-Code-in-Space.html" />
+    <author>
+      <name>Stuart Mumford</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;esa-summer-of-code&quot;&gt;
+
+&lt;p&gt;I am happy to announce that for the third year running SunPy has got a summer student from ESA’s SOCIS program.
+This year the student is Tomas Meszaros.
+Tomas’ project this summer will be working on creating a new core data type for SunPy, the HyperMap.
+Which will be designed to hold ND data with at least one spatial dimension and any combination of other axes such as Wavelength, Temperature or Time.
+This data type will allow us to support data from instruments such as Hinode EIS and the newly launched IRIS satellite, as well as a multitude of high resolution ground based instruments.
+Tomas will be documenting his progress on his blog: &lt;a class=&quot;reference external&quot; href=&quot;http://examon.wordpress.com&quot;&gt;http://examon.wordpress.com&lt;/a&gt; as well as less regular more general interest posts on this site.&lt;/p&gt;
+&lt;p&gt;Stay tuned.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

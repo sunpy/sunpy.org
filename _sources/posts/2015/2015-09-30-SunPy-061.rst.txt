@@ -1,0 +1,31 @@
+SunPy 0.6.1 Released
+====================
+
+.. post:: 30 September 2015
+   :author: Stuart Mumford
+   :tags: sunpy, 0.6.1
+   :category: Release
+
+Announcing the 0.6.1 "thesis submission" release of SunPy. This is a bug fix release and contains the following fixes to things that slipped past us into 0.6:
+
+* Fixed MapCube animations by working around a bug in Astropy's ImageNormalize
+* SunPy can now be installed without having to install Astropy first.
+* MapCubes processed with ``coalignment.apply_shifts`` now have correct metadata.
+* Multiple fixes for WCS transformations, especially with solar-x, solar-y CTYPE headers.
+
+This release is available through either conda or pip, you can update with either:
+
+::
+
+    conda update sunpy
+
+or
+
+::
+
+    pip update sunpy
+
+depending upon how you have sunpy installed.
+
+Happy Pythoning,
+Stuart

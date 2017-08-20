@@ -1,0 +1,586 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>The Project</title>
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/copybutton.js"></script>
+    <script type="text/javascript" src="_static/version.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="_static/favicon-32.ico"/>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Provide Feedback" href="contribute.html" />
+    <link rel="prev" title="SunPy needs you" href="newcomers.html" />
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="The Project | " />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="sunpy.org/team.html" />
+  <meta property="og:image" content="sunpy.org/_static/img/sunpy_icon.svg" />
+  <meta property="og:description" content="SunPy" />
+  <meta property="og:site_name" content="" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="alternate" type="application/atom+xml"  href="blog/atom.xml" title="Blog">
+  
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head>
+  <body>
+  
+<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://sunpy.org/">SunPy</a>
+	  </div>
+	  <div class="collapse navbar-collapse nav-collapse">
+	    <ul class="nav navbar-nav">
+		    
+		    <div class="collapse navbar-collapse nav-collapse">
+			    <ul class="nav navbar-nav navbar-left">
+			    	<li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">About<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html">About</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html#acknowledging-sunpy">Acknowledge</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/coc.html">Code of Conduct</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/blog.html">Blog</a></li>
+			      <li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">Documentation<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/">SunPy</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/irispy/en/latest/">IRISPy</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/solarbextrapolation/en/latest/">SolarBExtrapolation</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html">sunkit-sst</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/contribute.html">Support Us</a></li>
+			      <li><a href="http://sunpy.org/help.html">Get Help</a></li>
+			      <li><a href="http://sunpy.org/team.html">SunPy Project</a></li>
+	    	
+	        </ul>
+	    </div>
+      </ul>
+	  </div>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="row">
+          <div class="col-md-4" id="sidebar">
+            <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">The Project</a></li>
+<li><a class="reference internal" href="#sunpy-board">SunPy Board</a></li>
+<li><a class="reference internal" href="#community-roles">Community Roles</a></li>
+<li><a class="reference internal" href="#affiliated-packages">Affiliated Packages</a></li>
+</ul>
+
+            </div>
+          </div>
+      
+      <div class="col-md-8 content">
+        
+  <div class="section" id="the-project">
+<h1>The Project<a class="headerlink" href="#the-project" title="Permalink to this headline">¶</a></h1>
+<p>The <strong>SunPy project</strong> (also known as the SunPy organization) was founded and defined by <a class="reference external" href="https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md">this document</a>.
+Its primary goal is to <em>facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment</em>.</p>
+<p>The organization of a board of directors, a lead developer appointed by the board, community roles and the sunpy and affiliated package developers.
+Anyone is welcome to participate in the SunPy organization.
+The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.</p>
+<p>Members of the development community are too numerous to list here but a list of anyone who contributed code to SunPy is available on Github <a class="reference external" href="https://github.com/sunpy/sunpy/graphs/contributors">contributors</a> and for
+each major release we keep track of who contributed in-between <a class="reference external" href="https://github.com/sunpy/sunpy/blob/master/RELEASE.md">releases</a>.</p>
+</div>
+<div class="section" id="sunpy-board">
+<h1>SunPy Board<a class="headerlink" href="#sunpy-board" title="Permalink to this headline">¶</a></h1>
+<div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/steve.png" alt="Steven Christe">
+                <p>Steven Christe</p>
+                <p><button class="button" data-toggle="modal" data-target="#ehsteve">More Info</button></p>
+                <div class="modal fade" id="ehsteve" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Steven Christe</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>NA</p>
+                                <p>Affiliation: <a href="https://science.gsfc.nasa.gov/heliophysics/solar">NASA GSFC</a></p>
+                                <p>Github: <a href="https://github.com/ehsteve">@ehsteve</a></p>
+                                <p>Start Date: 17 March 2014</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/david.png" alt="David Pérez-Suárez">
+                <p>David Pérez-Suárez</p>
+                <p><button class="button" data-toggle="modal" data-target="#dpshelio">More Info</button></p>
+                <div class="modal fade" id="dpshelio" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">David Pérez-Suárez</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.</p>
+                                <p>Affiliation: <a href="http://www.ulc.ac.uk">University College London</a></p>
+                                <p>Github: <a href="https://github.com/dpshelio">@dpshelio</a></p>
+                                <p>Start Date: 17 March 2014</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/mbobra.png" alt="Monica Bobra">
+                <p>Monica Bobra</p>
+                <p><button class="button" data-toggle="modal" data-target="#mbobra">More Info</button></p>
+                <div class="modal fade" id="mbobra" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Monica Bobra</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team. She previously worked at the Harvard-Smithsonian Center for Astrophysics, where she studied solar flares as a member of two NASA Heliophysics missions called TRACE and Hinode. Monica Bobra received a B.A. in Astronomy from Boston University and a M.S. in Physics from the University of New Hampshire.</p>
+                                <p>Affiliation: <a href="https://www.stanford.edu">Stanford University</a></p>
+                                <p>Github: <a href="https://github.com/mbobra">@mbobra</a></p>
+                                <p>Start Date: 14 March 2017</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/rhewett.png" alt="Russell Hewett">
+                <p>Russell Hewett</p>
+                <p><button class="button" data-toggle="modal" data-target="#rhewett">More Info</button></p>
+                <div class="modal fade" id="rhewett" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Russell Hewett</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python.</p>
+                                <p>Affiliation: <a href="http://www.russellhewett.com">Unaffiliated</a></p>
+                                <p>Github: <a href="https://github.com/rhewett">@rhewett</a></p>
+                                <p>Start Date: 17 March 2014</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/sunpy_icon.svg" alt="Jack Ireland">
+                <p>Jack Ireland</p>
+                <p><button class="button" data-toggle="modal" data-target="#wafels">More Info</button></p>
+                <div class="modal fade" id="wafels" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Jack Ireland</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.</p>
+                                <p>Affiliation: <a href="https://www.adnet-sys.com">ADNET Systems, Inc. / NASA GSFC</a></p>
+                                <p>Github: <a href="https://github.com/wafels">@wafels</a></p>
+                                <p>Start Date: 17 March 2014</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/kevin.png" alt="Kevin Reardon">
+                <p>Kevin Reardon</p>
+                <p><button class="button" data-toggle="modal" data-target="#NA">More Info</button></p>
+                <div class="modal fade" id="NA" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Kevin Reardon</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>NA</p>
+                                <p>Affiliation: <a href="NA">NA</a></p>
+                                <p>Github: <a href="https://github.com/NA">@NA</a></p>
+                                <p>Start Date: 23 Sep 2015</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/sabrina.png" alt="Sabrina Savage">
+                <p>Sabrina Savage</p>
+                <p><button class="button" data-toggle="modal" data-target="#sabrinasavage">More Info</button></p>
+                <div class="modal fade" id="sabrinasavage" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Sabrina Savage</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Sabrina Savage is a solar astrophysicist at NASA Marshall Space Flight Center in Huntsville, AL.  She received her Ph.D. in physics from Montana State University, where she began a career in satellite operations, and followed up with a NASA Postdoctoral fellowship at Goddard Space Flight Center studying flare energetics with the hard X-ray RHESSI satellite.  She now serves as the US Project Scientist for the Japanese-led Hinode mission and works to develop solar instrumentation for sounding rockets and the International Space Station.  Her research interests include observations of reconnection in the solar corona during long duration flaring events coupled with in situ complementary measurements of magnetic storms in the Earth's magnetosphere.</p>
+                                <p>Affiliation: <a href="http://solarscience.msfc.nasa.gov">NASA MSFC</a></p>
+                                <p>Github: <a href="https://github.com/sabrinasavage">@sabrinasavage</a></p>
+                                <p>Start Date: 17 March 2017</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/sunpy_icon.svg" alt="Albert Shih">
+                <p>Albert Shih</p>
+                <p><button class="button" data-toggle="modal" data-target="#NA">More Info</button></p>
+                <div class="modal fade" id="NA" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Albert Shih</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>NA</p>
+                                <p>Affiliation: <a href="NA">NA</a></p>
+                                <p>Github: <a href="https://github.com/NA">@NA</a></p>
+                                <p>Start Date: 14 March 2017</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/sunpy_icon.svg" alt="Juan Oliveros">
+                <p>Juan Oliveros</p>
+                <p><button class="button" data-toggle="modal" data-target="#NA">More Info</button></p>
+                <div class="modal fade" id="NA" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Juan Oliveros</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>NA</p>
+                                <p>Affiliation: <a href="NA">NA</a></p>
+                                <p>Github: <a href="https://github.com/NA">@NA</a></p>
+                                <p>Start Date: 7 April 2014</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column ">
+                
+                <div class="card">
+                <img src="_static/img/stuart.png" alt="Stuart Mumford">
+                <p>Stuart Mumford</p>
+                <p><button class="button" data-toggle="modal" data-target="#cadair">More Info</button></p>
+                <div class="modal fade" id="cadair" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Stuart Mumford</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.</p>
+                                <p>Affiliation: <a href="https://www.sheffield.ac.uk/">Sheffield University</a></p>
+                                <p>Github: <a href="https://github.com/cadair">@cadair</a></p>
+                                <p>Start Date: 17 March 2014</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div></div>
+<div class="section" id="community-roles">
+<h1>Community Roles<a class="headerlink" href="#community-roles" title="Permalink to this headline">¶</a></h1>
+<div class="column column-half">
+                <h4>Lead Developer</h4>
+                <div class="card">
+                <img src="_static/img/stuart.png" alt="Stuart Mumford">
+                <p>Stuart Mumford</p>
+                <p><button class="button" data-toggle="modal" data-target="#cadair">More Info</button></p>
+                <div class="modal fade" id="cadair" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Stuart Mumford</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.</p>
+                                <p>Affiliation: <a href="https://www.sheffield.ac.uk/">Sheffield University</a></p>
+                                <p>Github: <a href="https://github.com/cadair">@cadair</a></p>
+                                <p>Start Date: 17 March 2014</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column column-half">
+                <h4>Release Manager</h4>
+                <div class="card">
+                <img src="_static/img/nabil.png" alt="Nabil Freij">
+                <p>Nabil Freij</p>
+                <p><button class="button" data-toggle="modal" data-target="#nabobalis">More Info</button></p>
+                <div class="modal fade" id="nabobalis" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Nabil Freij</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p></p>
+                                <p>Affiliation: <a href="http://www.uib.eu/">Universitat de les Illes Balears</a></p>
+                                <p>Github: <a href="https://github.com/nabobalis">@nabobalis</a></p>
+                                <p>Start Date: 1066</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column column-half">
+                <h4>Communications Officer</h4>
+                <div class="card">
+                <img src="_static/img/sunpy_icon.svg" alt="Jack Ireland">
+                <p>Jack Ireland</p>
+                <p><button class="button" data-toggle="modal" data-target="#wafels">More Info</button></p>
+                <div class="modal fade" id="wafels" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">Jack Ireland</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.</p>
+                                <p>Affiliation: <a href="https://www.adnet-sys.com/">ADNET Systems, Inc. / NASA GSFC</a></p>
+                                <p>Github: <a href="https://github.com/wafels">@wafels</a></p>
+                                <p>Start Date: 17 March 2014</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div><div class="column column-half">
+                <h4>Summer of Code Administrator</h4>
+                <div class="card">
+                <img src="_static/img/david.png" alt="David Pérez-Suárez">
+                <p>David Pérez-Suárez</p>
+                <p><button class="button" data-toggle="modal" data-target="#dpshelio">More Info</button></p>
+                <div class="modal fade" id="dpshelio" role="dialog" style="display: none;">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title center">David Pérez-Suárez</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.</p>
+                                <p>Affiliation: <a href="http://www.ulc.ac.uk/">University College London</a></p>
+                                <p>Github: <a href="https://github.com/dpshelio">@dpshelio</a></p>
+                                <p>Start Date: 17 March 2014</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div></div>
+<div class="section" id="affiliated-packages">
+<h1>Affiliated Packages<a class="headerlink" href="#affiliated-packages" title="Permalink to this headline">¶</a></h1>
+<p>An affiliated package is a Python package related to Solar Physics that is not part of the SunPy core library, but can be included in the future
+as part of the SunPy project’s community.</p>
+<p>As a community-driven project SunPy thus encourages contributions from a diverse group of people on building such software that has the potential
+to be a future <strong>Affiliated SunPy Package.</strong></p>
+<p>Requirements to be satisfied:</p>
+<ul class="simple">
+<li>The package must make use of all appropriate features in the core SunPy library, to reduce code duplication and complexity.</li>
+<li>The software must provide documentation that explains the function and use of the package, and this documentation should be of comparable standard to the core SunPy library.</li>
+<li>The code should as far as possible provide an easy to run test suite to verify the correct operation of the package.</li>
+<li>The developers of an affiliated package should engage with the rest of the SunPy community to encourage knowledge and code sharing within
+the community.</li>
+</ul>
+<p>Please look at <a class="reference external" href="https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0004.md">this SEP</a> to read about our policies surrounding affiliated packages.
+Please send an email to the <a class="reference external" href="https://groups.google.com/forum/#!forum/sunpy">mailing list</a> to start a dialogue.</p>
+<table border="1" class="colwidths-given docutils">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Package Name</th>
+<th class="head">Description</th>
+<th class="head">Documentation</th>
+<th class="head">Maintainer</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference external" href="https://github.com/sunpy/irispy">IRISPy</a></td>
+<td>A package for handling data from the IRIS satellite</td>
+<td><a class="reference external" href="http://docs.sunpy.org/projects/irispy/en/latest/">IRISPy Docs</a></td>
+<td><a class="reference external" href="https://github.com/DanRyanIrish">Daniel Ryan</a></td>
+</tr>
+<tr class="row-odd"><td><a class="reference external" href="https://github.com/sunpy/solarbextrapolation">SolarBExtrapolation</a></td>
+<td>A package used to do solar magnetic field extrapolations</td>
+<td><a class="reference external" href="http://docs.sunpy.org/projects/solarbextrapolation/en/latest/">SolarBExtrapolation Docs</a></td>
+<td><a class="reference external" href="https://github.com/Alex-Ian-Hamilton">Alex Hamilton</a></td>
+</tr>
+<tr class="row-even"><td><a class="reference external" href="https://github.com/sunpy/sunkit-sst">sunkit-sst</a></td>
+<td>A package that allows the reading of spectral files that are used by the Swedish Solar Telescope</td>
+<td><a class="reference external" href="http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html">sunkit-sst Docs</a></td>
+<td><a class="reference external" href="https://github.com/nabobalis">Nabil Freij</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+  <div class="section">
+  
+  
+  </div>
+
+      </div>
+        
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="left-footer">
+          <p>
+                &copy; SunPy Project  
+            
+<a style= "padding-left: 10px;" rel="licence" href="http://creativecommons.org/licenses/by/4.0/">
+<img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
+</a>
+
+        </p>
+      </div>
+      <div class="right-footer">
+          Built with <a href="http://sphinx-doc.org/">Sphinx 1.6.3.</a>
+      </div>
+      <div class="center-footer ">
+        <a href="https://github.com/sunpy/sunpy">Github</a>
+        <span> • </span>
+        <a href="https://twitter.com/SunPyProject">Twitter</a>
+        <span> • </span>
+        <a href="https://riot.im/app/#/room/#sunpy-general:matrix.org">Matrix</a>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>

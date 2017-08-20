@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Announcing SunPy 0.3</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/style.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/copybutton.js"></script>
+    <script type="text/javascript" src="../../_static/version.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon-32.ico"/>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="Announcing SunPy 0.3 | " />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="../../sunpy.org/posts/2013/2013-08-30-Announcing-SunPy-0.3.html" />
+  <meta property="og:image" content="../../sunpy.org/_static/img/sunpy_icon.svg" />
+  <meta property="og:description" content="SunPy" />
+  <meta property="og:site_name" content="" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <link rel="alternate" type="application/atom+xml"  href="../../blog/atom.xml" title="Blog">
+  
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head>
+  <body>
+  
+<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </button>
+	    <a class="navbar-brand" href="http://sunpy.org/">SunPy</a>
+	  </div>
+	  <div class="collapse navbar-collapse nav-collapse">
+	    <ul class="nav navbar-nav">
+		    
+		    <div class="collapse navbar-collapse nav-collapse">
+			    <ul class="nav navbar-nav navbar-left">
+			    	<li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">About<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html">About</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://sunpy.org/about.html#acknowledging-sunpy">Acknowledge</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/coc.html">Code of Conduct</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/blog.html">Blog</a></li>
+			      <li class="dropdown">
+			    	 <a role="button" id="dLabelGlobalToc" data-toggle="dropdown" data-target="#" href="#">Documentation<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/en/stable/">SunPy</a>
+                </li>
+                <li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/irispy/en/latest/">IRISPy</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/solarbextrapolation/en/latest/">SolarBExtrapolation</a>
+            		</li>
+            		<li class="dropdown-submenu">
+                  <a href="http://docs.sunpy.org/projects/sunkit-sst/en/latest/index.html">sunkit-sst</a>
+            		</li>
+              </ul>
+			      </li>
+			      <li><a href="http://sunpy.org/contribute.html">Support Us</a></li>
+			      <li><a href="http://sunpy.org/help.html">Get Help</a></li>
+			      <li><a href="http://sunpy.org/team.html">SunPy Project</a></li>
+	    	
+	        </ul>
+	    </div>
+      </ul>
+	  </div>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="row">
+          <div class="col-md-4" id="sidebar">
+            <div id="sidebar" class="bs-sidenav" role="complementary">
+  
+  
+  <h2>
+  
+  
+    30 August 2013
+  
+  </h2>
+
+  <ul>
+    
+
+  
+  <li id="author"><span>Author:</span>
+    
+      
+      <a href="../../blog/author/stuart-mumford.html">Stuart Mumford</a>
+      
+    </li>
+  
+
+  
+
+  
+
+  
+  <li id="category"><span>Category:</span>
+    
+      
+      <a href="../../blog/category/release.html">Release</a>
+      
+    </li>
+  
+
+  
+  <li id="tags"><span>Tags:</span>
+      
+    
+      
+      <a href="../../blog/tag/sunpy.html">sunpy</a>
+      
+    
+      
+      <a href="../../blog/tag/03.html">0.3</a>
+      
+    </li>
+  
+  
+  <li id="comments">
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'sunpy-org'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    
+    <a href="#disqus_thread" data-disqus-identifier="/posts/2013/2013-08-30-Announcing-SunPy-0.3/"> Comments</a>
+  </li>
+  
+  </ul>
+
+
+
+            </div>
+          </div>
+      
+      <div class="col-md-8 content">
+        
+  <div class="section" id="announcing-sunpy-0-3">
+<h1>Announcing SunPy 0.3<a class="headerlink" href="#announcing-sunpy-0-3" title="Permalink to this headline">¶</a></h1>
+<p>It gives me great pleasure to announce the release of a new version of SunPy.
+This version has been rather too long in the making, but is here at last!</p>
+<p>SunPy 0.3 is now available through <a class="reference external" href="https://pypi.python.org/pypi/sunpy">PyPI</a> and via <a class="reference external" href="https://github.com/sunpy/sunpy/releases/tag/v0.3.0">GitHub</a>.
+The biggest change in 0.3 is a shift away from our Map and Spectra datatypes inheriting numpy.ndarray to having their array in a <cite>.data</cite> attribute.
+This was done to make development of these objects easier and more flexible and also to improve our compatibility with Astropy.
+In the process of doing this the map submodule has undergone a massive refactor to streamline the creation and inheritance structure of the module.</p>
+<p>Below I highlight some of the major changes, the full change log can be found <a class="reference external" href="https://github.com/sunpy/sunpy/blob/stable/RELEASE.txt">here</a>.</p>
+<ul class="simple">
+<li>The biggest change to the Map API is the deprecation of the <cite>make_map</cite> function. It has been replaced by the new <cite>sunpy.Map</cite> factory which is much more intelligent and able to have custom map sources external to the SunPy library register with it, which is handy if you are developing a custom Map source. Along with this change the old top-level map class Map is now called <cite>GenericMap</cite> and is to be created using the Map factory under normal circumstances.</li>
+<li><cite>MapCube</cite> and <cite>CompositeMap</cite> have also seen some improvements, including the implementation of <cite>draw_limb</cite> and <cite>draw_grid</cite> for both datatypes and a new animation based <cite>plot()</cite> method for <cite>MapCube</cite>.</li>
+<li>To facilitate the changes to map there have also been a lot of improvements to the <cite>io</cite> submodule, including the ability to read all the HDUs from a FITS file and the addition of a <cite>extract_waveunit</cite> function that checks the header for common ways to encode the wavelength unit.</li>
+<li>There has also been a big cleanup of the various top level and submodule namespaces to make imports simpler. Most of this has not changed the user facing API, however there are not nicer ways to import submodules, like <cite>sunpy.util.util</cite> is now the same as sunpy.util.</li>
+<li>The spectra module has been refactored so it also has a <cite>.data</cite> attribute and it’s plotting API is now consistent with that of Map and LightCurve</li>
+</ul>
+<p>SunPy 0.3 consits of 9 months of work from 15 people and over 300 commits to the git repository.
+The people who have contributed to this release are (in commit order):</p>
+<ul class="simple">
+<li>Stuart Mumford</li>
+<li>Russell Hewett</li>
+<li>Florian Mayer</li>
+<li>Steven Christe</li>
+<li>Albert Shih</li>
+<li>Simon Liedtke</li>
+<li>Ankit Angrawal</li>
+<li>Jack Ireland</li>
+<li>Matt Bates</li>
+<li>Nabil Freij</li>
+<li>Keith Hughitt</li>
+<li>David Perez-Suarez</li>
+<li>Tomas Meszaros</li>
+<li>Benjamin Mampaey</li>
+<li>Andrew Leonard</li>
+</ul>
+<p>On behalf of all the SunPy developers, we hope you enjoy 0.3!</p>
+</div>
+
+  <div class="section">
+  
+    
+
+
+<div class="section">
+  <span style="float: left;">
+  
+  Previous: 
+  <a href="2013-08-29-Experiments-in-animating-plots.html">
+    
+    Experiments in animating plots and saving movies in SunPy 0.3
+  </a>
+  
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right;">
+  
+  Next: 
+  <a href="2013-09-02-ESA-Summer-of-Code-in-Space.html">
+    ESA Summer of Code
+    
+  </a>
+  </span>
+  
+</div>
+
+  
+  
+    <div class="section">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'sunpy-org';
+        var disqus_identifier = '/posts/2013/2013-08-30-Announcing-SunPy-0.3/';
+        var disqus_title = 'Announcing SunPy 0.3';
+        var disqus_url = 'https://sunpy.org/posts/2013/2013-08-30-Announcing-SunPy-0.3';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  
+  </div>
+
+      </div>
+        
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="left-footer">
+          <p>
+                &copy; SunPy Project  
+            
+<a style= "padding-left: 10px;" rel="licence" href="http://creativecommons.org/licenses/by/4.0/">
+<img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
+</a>
+
+        </p>
+      </div>
+      <div class="right-footer">
+          Built with <a href="http://sphinx-doc.org/">Sphinx 1.6.3.</a>
+      </div>
+      <div class="center-footer ">
+        <a href="https://github.com/sunpy/sunpy">Github</a>
+        <span> • </span>
+        <a href="https://twitter.com/SunPyProject">Twitter</a>
+        <span> • </span>
+        <a href="https://riot.im/app/#/room/#sunpy-general:matrix.org">Matrix</a>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+</html>

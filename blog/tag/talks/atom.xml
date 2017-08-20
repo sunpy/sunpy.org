@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posts tagged talks</title>
+  <id>https://sunpy.org/blog.html/blog/tag/talks/atom.xml</id>
+  <updated>2016-05-31T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/tag/talks/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/talks/atom.xml">
+    <title type="text">SPD 2016</title>
+    <id>https://sunpy.org/blog.html/posts/2016/2016-05-31-SPD2016.html</id>
+    <updated>2016-05-31T00:00:00Z</updated>
+    <published>2016-05-31T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2016/2016-05-31-SPD2016.html" />
+    <author>
+      <name>Steven Christe</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;spd-2016&quot;&gt;
+
+&lt;p&gt;You can find all of the material for the introductory sessions of scientific python and sunpy can be found &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/2016SPD-Python-SunPy/blob/master/README.md&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/tag/talks/atom.xml">
+    <title type="text">Info for the SunPy Tutorial at the TESS 2015</title>
+    <id>https://sunpy.org/blog.html/posts/2015/2015-04-27-TESS.html</id>
+    <updated>2015-04-27T00:00:00Z</updated>
+    <published>2015-04-27T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2015/2015-04-27-TESS.html" />
+    <author>
+      <name>Steven Christe</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;info-for-the-sunpy-tutorial-at-the-tess-2015&quot;&gt;
+
+&lt;p&gt;Welcome &lt;a class=&quot;reference external&quot; href=&quot;http://aas.org/meetings/tess2015/&quot;&gt;TESS&lt;/a&gt; attendees to the &lt;a class=&quot;reference external&quot; href=&quot;http://aas.org/meetings/tess2015/ancillary_events&quot;&gt;Introduction to Solar Data Analysis in Python&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Here are a list of various links and information for the tutorial:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;The &lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/github/ehsteve/ipython-notebooks/blob/master/TESS%202015%20-%20SunPy.ipynb&quot;&gt;Introduction to SunPy&lt;/a&gt; (in the form of ipython notebooks)&lt;/li&gt;
+&lt;li&gt;The &lt;a class=&quot;reference external&quot; href=&quot;http://webchat.freenode.net/?channels=sunpy&quot;&gt;IRC chatroom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;SunPy Poster by Dan Ryan - Thursday 10 am 403.07 SunPy: Solar Physics in Python (link coming soon)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://store.continuum.io/cshop/anaconda/&quot;&gt;Anaconda Python Distribution&lt;/a&gt; - the only way to fly!&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://docs.sunpy.org/en/latest/guide/installation/index.html#installing-sunpy-on-top-of-anaconda&quot;&gt;How to install SunPy with Anaconda&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://nbviewer.ipython.org/github/drewleonard42/sunpy-workshop-2015-03/tree/master/&quot;&gt;The Sheffield University SunPy Workshop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

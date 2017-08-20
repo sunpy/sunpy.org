@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Blog - Posts by David Pérez-Suárez</title>
+  <id>https://sunpy.org/blog.html/blog/author/david-perez-suarez/atom.xml</id>
+  <updated>2014-04-28T00:00:00Z</updated>
+  <link href="https://sunpy.org/blog.html" />
+  <link href="https://sunpy.org/blog.html/blog/author/david-perez-suarez/atom.xml" rel="self" />
+  <generator uri="http://ablog.readthedocs.org" version="0.8.4">ABlog</generator>
+  <entry xml:base="https://sunpy.org/blog.html/blog/author/david-perez-suarez/atom.xml">
+    <title type="text">2nd year of SunPy participating in GSOC</title>
+    <id>https://sunpy.org/blog.html/posts/2014/2014-04-28-gsoc-4-students.html</id>
+    <updated>2014-04-28T00:00:00Z</updated>
+    <published>2014-04-28T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2014/2014-04-28-gsoc-4-students.html" />
+    <author>
+      <name>David Pérez-Suárez</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;nd-year-of-sunpy-participating-in-gsoc&quot;&gt;
+
+&lt;p&gt;Wonderful news for SunPy!
+This year is the &lt;a class=&quot;reference external&quot; href=&quot;https://www.google-melange.com/gsoc/homepage/google/gsoc2014&quot;&gt;10th edition of Google Summer of Code&lt;/a&gt;, and SunPy is participating again for the second year in a row!
+Remember how awesome it was last year when we got two amazing students?
+Well, this year is going to be twice as awesome!
+Why?
+Because SunPy has gotten twice as many students than in 2013.
+Let’s introduce them and their projects:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/VaticanCameos&quot;&gt;Pritish Chakraborty&lt;/a&gt; (a.k.a. VaticanCameos) a Computer Science student from Haryana (India) will be working on giving SunPy a proper coordinate transformation system integrated with the developments in &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/astropy/astropy-APEs/blob/master/APE5.rst&quot;&gt;Astropy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/rajul-iitkgp&quot;&gt;Rajul Srivastava&lt;/a&gt; (a.k.a. rajul), a science student working towards a major in chemistry in Kharagpur (India),
+is going to bring a GUI interface to SunPy.
+This GUI is going to be based in &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/ejeschke/ginga&quot;&gt;Ginga&lt;/a&gt; and the SunPy file database funcionality.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/gunner272&quot;&gt;Rishabh Sharma&lt;/a&gt; (a.k.a. gunner272), who is currently pursuing a Computer Science and Engineering degree at Hyderabad (India), will be working on refractoring the lightcurve module, making it more consistant with the way Map works at the moment.
+This project will also make use of Astropy development, in particular to the &lt;a class=&quot;reference external&quot; href=&quot;https://docs.astropy.org/en/stable/table/index.html&quot;&gt;data tables module&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Last but not least, &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/kaichogami&quot;&gt;Asish Panda&lt;/a&gt; .
+Asish is doing a degree in electronics and telecommunications at Bhubaneswar (India).
+He will be working on the integration of &lt;a class=&quot;reference external&quot; href=&quot;https://docs.astropy.org/en/stable/units/index.html&quot;&gt;Astropy’s Quantity objects&lt;/a&gt; into SunPy and work towards the replacement of the actual sunpy.wcs with the &lt;a class=&quot;reference external&quot; href=&quot;https://docs.astropy.org/en/stable/wcs/index.html&quot;&gt;astropy.wcs&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;Don’t forget to check the student’s blogs:
+&lt;a class=&quot;reference external&quot; href=&quot;http://thejoyofpython.wordpress.com/&quot;&gt;Pritish&lt;/a&gt; ,
+&lt;a class=&quot;reference external&quot; href=&quot;http://pettycoder.blogspot.in&quot;&gt;Rajul&lt;/a&gt; ,
+&lt;a class=&quot;reference external&quot; href=&quot;http://rishabhsharmagunner.wordpress.com/&quot;&gt;Rishabh&lt;/a&gt; and
+&lt;a class=&quot;reference external&quot; href=&quot;http://sunpygsoc.wordpress.com/&quot;&gt;Asish&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;to keep up to date with their progress during this summer and don’t be afraid to comment on their posts with words of support.
+Nevertheless, they will have also the opportunity to write some feature posts here to keep all of us updated.&lt;/p&gt;
+&lt;p&gt;Once more, this year GSOC would not have been possible without the help that the &lt;a class=&quot;reference external&quot; href=&quot;https://wiki.python.org/moin/SummerOfCode/2014&quot;&gt;Python Software Foundation&lt;/a&gt; have given us, as we are participating under their umbrella.
+Thanks PSF!
+In particular their organisers &lt;a class=&quot;reference external&quot; href=&quot;http://terri.zone12.com/&quot;&gt;Terri&lt;/a&gt; , Meflin and Florian.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry xml:base="https://sunpy.org/blog.html/blog/author/david-perez-suarez/atom.xml">
+    <title type="text">Gsoc Community Bonding</title>
+    <id>https://sunpy.org/blog.html/posts/2013/2013-05-28-gsoc-community-bonding.html</id>
+    <updated>2013-05-28T00:00:00Z</updated>
+    <published>2013-05-28T00:00:00Z</published>
+    <link href="https://sunpy.org/blog.html/posts/2013/2013-05-28-gsoc-community-bonding.html" />
+    <author>
+      <name>David Pérez-Suárez</name>
+    </author>
+    <content type="html">&lt;div class=&quot;section&quot; id=&quot;gsoc-community-bonding&quot;&gt;
+
+&lt;p&gt;From our last post you may remember that SunPy is participating in GSOC-2013 under the PSF &amp;lt;&lt;a class=&quot;reference external&quot; href=&quot;http://wiki.python.org/moin/SummerOfCode/2013&quot;&gt;http://wiki.python.org/moin/SummerOfCode/2013&lt;/a&gt;&amp;gt;`_ (!=
+&lt;a class=&quot;reference external&quot; href=&quot;http://en.wikipedia.org/wiki/Point_spread_function&quot;&gt;Point Spread Function&lt;/a&gt;.
+Yesterday, Google announced the accepted candidates for their summer of code.
+If you look the &lt;a class=&quot;reference external&quot; href=&quot;http://www.google-melange.com/gsoc/projects/list/google/gsoc2013&quot;&gt;list&lt;/a&gt; you will find between all these students that there are two whose projects is to work with SunPy.&lt;/p&gt;
+&lt;p&gt;Simon Liedtke (a.k.a. derdon) will develop a database for downloaded solar data, this will allow SunPy users to interact with the data in a more efficient way, avoiding to have to download again and again the files that went lost in our hard-disk.
+This tool will be smart enough that will let you know if you query data to &lt;a class=&quot;reference external&quot; href=&quot;http://virtualsolar.org/&quot;&gt;VSO&lt;/a&gt; that you have already downloaded.&lt;/p&gt;
+&lt;p&gt;Michael Malocha (a.k.a. mjm159) is going to work on a better integration of &lt;a class=&quot;reference external&quot; href=&quot;http://www.lmsal.com/hek/&quot;&gt;HEK&lt;/a&gt; and &lt;a class=&quot;reference external&quot; href=&quot;http://www.helio-vo.eu/&quot;&gt;HELIO&lt;/a&gt; in SunPy.
+This will include querying for event to the available catalogues, but also other capabilities like overploting the events’ positions/contours into solar images.&lt;/p&gt;
+&lt;p&gt;They will start to work in their projects in just two weeks.
+You will be able to follow their adventures, feelings, ideas, etc. in their personal blogs (&lt;a class=&quot;reference external&quot; href=&quot;http://mjm159.wordpress.com/&quot;&gt;Michael’s&lt;/a&gt; , &lt;a class=&quot;reference external&quot; href=&quot;http://derdon.github.io/blog/&quot;&gt;Simon’s&lt;/a&gt; ).
+But they will also give us  a bi-weekly update on their progress in here! Keep an eye on them because we want your inputs to develop the best tools we can!&lt;/p&gt;
+&lt;p&gt;Meanwhile, we are in the &lt;a class=&quot;reference external&quot; href=&quot;http://googlesummerofcode.blogspot.fi/2007/04/so-what-is-this-community-bonding-all.html&quot;&gt;Community Bonding Period&lt;/a&gt;.
+In this two weeks, Michael and Simon will have to interact with us, to know how we work, to read documents needed for their projects, so on and so on… On the mentor’s side we are going to work in a couple of wiki-documents to give them a better insight on how we would like to use their implemented tools at the end of the summer.
+Check the &lt;a class=&quot;reference external&quot; href=&quot;https://github.com/sunpy/sunpy/wiki/Gsoc-2013-use-cases&quot;&gt;wiki&lt;/a&gt; and feel free to contribute!&lt;/p&gt;
+&lt;p&gt;This summer is going to be AMAZING for SunPy, so don’t doubt to join us for the fun!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
