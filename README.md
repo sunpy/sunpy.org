@@ -24,11 +24,14 @@ This will build a collection of html pages under `_build/html` and you can open 
 
 ## Creating a PR
 
+**Please note send any PRs to source and not master.**
+
 When you are happy with any changes you have made to the website.
 We recommend building the website and making sure that everything is building fine.
 You should see no warnings for the build.
 
-Once you are sure everything is in order, you can send in a PR to the main repository.
+Once you are sure everything is in order, you can send in a PR to the main repository aimed at the source branch.
+Master branch is the built website that is created when we merge in any PR into the source branch.
 If you are unfamiliar with this, please see this guide from [GitHub.](https://help.github.com/articles/about-pull-requests/)
 
 We include a special `make` function for PRs.
