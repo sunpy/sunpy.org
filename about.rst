@@ -40,7 +40,7 @@ If you use SunPy, we therefore ask that you acknowledge SunPy appropriately in a
 
     This research makes use of SunPy, an open-source and free community-developed solar data analysis package written in Python (citation).
 
-Where the citation is to the `SunPy v0.5 paper`_ / `arXiv (open access)`_ (`Bib reference`_).
+Where the citation is to the `SunPy v0.5 paper`_ / `arXiv (open access)`_ (`Bib reference`_), you can also cite the version of the code you are using directly using the DOI of our `zenodo`_ record.
 If the journal allows please also include a link to `sunpy.org`_.
 If you have the time please `email us`_ to let us know about your paper as we maintain a `public list`_ of papers on `Zotero`_.
 
@@ -63,6 +63,7 @@ Thank you, in advance, for your support.
 .. _public list: https://www.zotero.org/groups/sunpy_-_python_for_solar_physicists
 .. _Sunpy logo: https://github.com/sunpy/sunpy-logo/blob/master/sunpy_logo_portrait_powered.svg
 .. _sunpy-logo repository: https://github.com/sunpy/sunpy-logo/
+.. _zenodo: https://doi.org/10.5281/zenodo.591887
 
 Presentations and Posters
 =========================
