@@ -4,9 +4,12 @@ import ablog
 
 sys.path.append(os.path.abspath('exts'))
 extensions = [
-    'sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards'
+    'sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards', 'sphinx.ext.intersphinx'
 ]
 templates_path = [ablog.get_html_templates_path()]
+
+intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
+                       'sunpy': ('http://docs.sunpy.org', None)}
 
 # Files you want to copy
 rawfiles = ['CNAME']
