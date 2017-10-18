@@ -9,7 +9,7 @@ extensions = [
 templates_path = [ablog.get_html_templates_path()]
 
 # Files you want to copy
-rawfiles = ['CNAME']
+rawfiles = ['CNAME', 'jitsi.html']
 
 disqus_shortname = 'sunpy-org'
 blog_baseurl = 'https://sunpy.org/blog.html'
