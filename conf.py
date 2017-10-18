@@ -12,7 +12,7 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
                        'sunpy': ('http://docs.sunpy.org', None)}
 
 # Files you want to copy
-rawfiles = ['CNAME']
+rawfiles = ['CNAME', 'jitsi.html']
 
 disqus_shortname = 'sunpy-org'
 blog_baseurl = 'https://sunpy.org/blog.html'
