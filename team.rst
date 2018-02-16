@@ -24,11 +24,7 @@ SunPy Board
     :aff_name: NASA GSFC
     :aff_link: https://science.gsfc.nasa.gov/heliophysics/solar
     :date: 17 March 2014
-    :desc: Dr. Steven Christe is a research astrophysicist in the Solar Physics Laboratory at the Goddard Space Flight 
-    Center in Greenbelt, Maryland.  His science interests focus on hard X-ray emission from solar flares and 
-    the quiet Sun with particular emphasis on the statistics of small transient bursts such as solar
-    microflares; hard X-ray emission associated with solar radio emission; and the application of hard X-ray
-    focusing optics to solar observations.
+    :desc: Dr. Steven Christe is a research astrophysicist in the Solar Physics Laboratory at the Goddard Space Flight Center in Greenbelt, Maryland. His science interests focus on hard X-ray emission from solar flares and the quiet Sun with particular emphasis on the statistics of small transient bursts such as solar microflares; hard X-ray emission associated with solar radio emission; and the application of hard X-ray focusing optics to solar observations.
 
 .. card:: David Pérez-Suárez
     :img_name: david.png
@@ -118,8 +114,8 @@ Community Roles
     :img_name: nabil.png
     :github: nabobalis
     :title: Release Manager
-    :aff_name: Universitat de les Illes Balears
-    :aff_link: http://www.uib.eu/
+    :aff_name:
+    :aff_link:
     :desc:
 
 .. card:: Jack Ireland
