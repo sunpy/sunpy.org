@@ -1,6 +1,5 @@
 from docutils import nodes
-from docutils.parsers.rst import directives
-from sphinx.util.compat import Directive
+from docutils.parsers.rst import directives, Directive
 
 
 class card(nodes.General, nodes.Element):
