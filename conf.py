@@ -9,7 +9,9 @@ extensions = [
 templates_path = [ablog.get_html_templates_path()]
 
 intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
-                       'sunpy': ('http://docs.sunpy.org', None)}
+                       'sunpy': ('http://docs.sunpy.org/en/stable', None),
+                       'astropy': ('http://docs.astropy.org/en/stable', None),
+                       'ndcube': ('http://docs.sunpy.org/projects/ndcube/en/stable', None)}
 
 # Files you want to copy
 rawfiles = ['CNAME', 'jitsi.html']
@@ -76,5 +78,3 @@ html_sidebars = {
     'team': ['localtoc.html'],
     'newcomers': ['localtoc.html']
 }
-
-intersphinx_mapping = {'https://docs.python.org/': None}
