@@ -15,7 +15,7 @@ described by FITS-WCS. The `~ndcube.NDCube` object is based on the astropy
 and the WCS simultaneously, plotting with matplotlib and support for extra
 coordinate information along any of the axes not described by WCS.
 
-In addition to this the ndcube package provides the `~nddata.NDCubeSequence`
+In addition to this the ndcube package provides the `~ndcube.NDCubeSequence`
 class for representing sequences of `~ndcube.NDCube` objects where the
 coordinate information may or may not align, and accessing these sequences in a
 way consistent with a singular cube.
