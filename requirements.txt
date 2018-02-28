@@ -1,4 +1,4 @@
 sphinx==1.6.7
 sphinxcontrib-rawfiles
 sunpy-sphinx-theme
-git+https://github.com/Cadair/ablog.git@devel
+ablog
