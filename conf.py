@@ -1,24 +1,24 @@
 import sys
 import os
+
 import ablog
 
+from sunpy_sphinx_theme.conf import *
+
 sys.path.append(os.path.abspath('exts'))
-extensions = [
-    'sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards', 'sphinx.ext.intersphinx'
-]
+extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards', 'sphinx.ext.intersphinx']
 templates_path = [ablog.get_html_templates_path()]
 
 intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
                        'sunpy': ('http://docs.sunpy.org/en/stable', None),
                        'astropy': ('http://docs.astropy.org/en/stable', None),
-                       'ndcube': ('http://docs.sunpy.org/projects/ndcube/en/stable', None)}
+                       'ndcube': ('http://docs.sunpy.org/projects/ndcube/en/stable', None),
+                       'drms': ('http://docs.sunpy.org/projects/drms/en/stable/', None)}
 
-# Files you want to copy
 rawfiles = ['CNAME', 'jitsi.html']
 
 disqus_shortname = 'sunpy-org'
 blog_baseurl = 'https://sunpy.org/blog.html'
-
 blog_feed_fulltext = True
 blog_feed_length = 10
 blog_feed_archives = True
@@ -33,29 +33,12 @@ version = u''
 release = u''
 language = None
 
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = []
-
-# The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
-# If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = False
+default_role = 'obj'
 
-# -- Options for HTML output ----------------------------------------------
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-from sunpy_sphinx_theme.conf import *
-
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
-# documentation.
 html_title = ''
-
 html_static_path = ['_static']
-
 html_theme_options.update({
     'base_url': 'sunpy.org',
     'seo_description': 'SunPy',
@@ -67,8 +50,8 @@ html_theme_options.update({
 </a>
 """
 })
-
 html_sidebars = {
+    'index': None,
     'about': ['localtoc.html'],
     'contribute': ['localtoc.html'],
     'blog': ['searchbox.html', 'categories.html', 'archives.html'],
