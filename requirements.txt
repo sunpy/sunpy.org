@@ -1,5 +1,4 @@
 sphinx
 sphinxcontrib-rawfiles
-git+https://github.com/nabobalis/sunpy-sphinx-theme
-#sunpy-sphinx-theme
+sunpy-sphinx-theme
 ablog
