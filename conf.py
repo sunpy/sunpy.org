@@ -44,6 +44,7 @@ html_theme_options.update({
     'seo_description': 'SunPy',
     'navbar_pagenav': False,
     'globaltoc_depth': 1,
+    'on_rtd': False,
     'copyright_html': """
 <a style= "padding-left: 10px;" rel="licence" href="http://creativecommons.org/licenses/by/4.0/">
 <img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
