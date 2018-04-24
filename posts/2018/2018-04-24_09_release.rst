@@ -24,39 +24,39 @@ functionality will be available only in SunPy 1.0 and higher.
 SunPy v0.9.0 contains 807 commits in 147 merged pull requests closing 310
 issues from 31 people, 19 of which are first time contributors to SunPy.
 
-The people who have contributed to the code for this release are::
+The people who have contributed to the code for this release are
 
-    Nabil Freij
-    Stuart Mumford
-    Nitin Choudhary
-    David Stansby  *
-    Prateek Chanda
-    Jack Ireland
-    Daniel Ryan
-    Himanshu  *
-    Yash Jain  *
-    James Paul Mason  *
-    Michael Charlton
-    Vishnunarayan K I.  *
-    Swapnil Sharma  *
-    Albert Y. Shih
-    David Pérez-Suárez
-    Shresth Verma  *
-    Sanjeev Dubey  *
-    Brigitta Sipocz
-    Andrew Leonard
-    Nick Murphy  *
-    Shane Maloney
-    Carlos Molina  *
-    Yash Kothari  *
-    Dang Trung Kien  *
-    Gulshan Mittal  *
-    Rajasekhar Reddy Mekala  *
-    S Shashank  *
-    Tannmay Yadav  *
-    Will Barnes  *
-    Yudhik Agrawal  *
-    codetriage-readme-bot  *
+- Nabil Freij
+- Stuart Mumford
+- Nitin Choudhary
+- David Stansby  *
+- Prateek Chanda
+- Jack Ireland
+- Daniel Ryan
+- Himanshu  *
+- Yash Jain  *
+- James Paul Mason  *
+- Michael Charlton
+- Vishnunarayan K I.  *
+- Swapnil Sharma  *
+- Albert Y. Shih
+- David Pérez-Suárez
+- Shresth Verma  *
+- Sanjeev Dubey  *
+- Brigitta Sipocz
+- Andrew Leonard
+- Nick Murphy  *
+- Shane Maloney
+- Carlos Molina  *
+- Yash Kothari  *
+- Dang Trung Kien  *
+- Gulshan Mittal  *
+- Rajasekhar Reddy Mekala  *
+- S Shashank  *
+- Tannmay Yadav  *
+- Will Barnes  *
+- Yudhik Agrawal  *
+- codetriage-readme-bot  *
 
 Where a \* indicates their first contribution to SunPy.
 
