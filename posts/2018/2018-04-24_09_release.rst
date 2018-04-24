@@ -1,0 +1,90 @@
+SunPy 0.9 Released
+==================
+
+.. post:: April 24, 2018
+   :author: Stuart Mumford
+   :tags: sunpy
+   :category: Release
+
+The SunPy project is very happy to announce the release of SunPy 0.9, the latest
+release of the SunPy core package.
+
+SunPy 0.9 brings improved support for downloading data from the JSOC and
+bugfixes compared to the 0.8.x series of releases. The 0.9.x series will be the
+last series of SunPy releases to support Python 2. This is because Python 2
+`will not be maintained after 2019 <https://python3statement.org/>`_. The 0.9.x
+series will receive bugfixs only up until the and of life of Python 2 (around 18
+months). No new functionality will be added to the 0.9.x series, which will also
+be the last version to include `sunpy.spectra`, `sunpy.lightcurve` and
+`sunpy.wcs`, all of which were deprecated in 0.8.
+
+SunPy 1.0 and higher will support Python 3 only. All new
+functionality will be available only in SunPy 1.0 and higher.
+
+SunPy v0.9.0 contains 807 commits in 147 merged pull requests closing 310
+issues from 31 people, 19 of which are first time contributors to SunPy.
+
+The people who have contributed to the code for this release are::
+
+    Nabil Freij
+    Stuart Mumford
+    Nitin Choudhary
+    David Stansby  *
+    Prateek Chanda
+    Jack Ireland
+    Daniel Ryan
+    Himanshu  *
+    Yash Jain  *
+    James Paul Mason  *
+    Michael Charlton
+    Vishnunarayan K I.  *
+    Swapnil Sharma  *
+    Albert Y. Shih
+    David Pérez-Suárez
+    Shresth Verma  *
+    Sanjeev Dubey  *
+    Brigitta Sipocz
+    Andrew Leonard
+    Nick Murphy  *
+    Shane Maloney
+    Carlos Molina  *
+    Yash Kothari  *
+    Dang Trung Kien  *
+    Gulshan Mittal  *
+    Rajasekhar Reddy Mekala  *
+    S Shashank  *
+    Tannmay Yadav  *
+    Will Barnes  *
+    Yudhik Agrawal  *
+    codetriage-readme-bot  *
+
+Where a \* indicates their first contribution to SunPy.
+
+In addition to the contributions to the core SunPy library, we would like to
+thank Kolja Glogowski for his help with the JSOC project, and welcome his
+package 'drms' as a SunPy affiliated package, which is now powering our JSOC
+client.  Finally, we would like to thank David Pérez-Suárez and Brigitta Sipocz,
+who are leading the GSOC process for OpenAstronomy, which is of massive benefit
+to the SunPy community.
+
+
+SunPy 0.9 can be installed from pip or conda using the following commands
+
+using conda::
+
+  $ conda config channels --append conda-forge
+  $ conda install sunpy
+
+or using pip::
+
+  $ pip install sunpy
+
+
+and updated using conda::
+
+  $ conda update sunpy
+
+or pip::
+
+  $ pip install -U sunpy
+
