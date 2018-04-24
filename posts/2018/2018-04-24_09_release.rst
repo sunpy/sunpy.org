@@ -68,7 +68,7 @@ who are leading the GSOC process for OpenAstronomy, which is of massive benefit
 to the SunPy community.
 
 
-SunPy 0.9 can be installed from pip or conda using the following commands::
+SunPy 0.9 can be installed from pip or conda using the following commands
 
 using conda::
 
