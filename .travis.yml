@@ -6,15 +6,3 @@ python:
 install: "pip install -r requirements.txt"
 
 script: make html
-
-deploy:
-  edge:
-    branch: v1.8.47
-  provider: pages
-  skip_cleanup: true
-  github_token: $mytoken
-  local_dir: _build/html/
-  target_branch: master
-  fqdn: sunpy.org
-  on:
-    branch: source
