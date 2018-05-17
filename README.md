@@ -9,6 +9,8 @@ Here lays the source code for the current SunPy website.
 This site makes use of [Sphinx](http://www.sphinx-doc.org/en/stable/), and was built upon [Bootstrap](http://getbootstrap.com) via the [Sphinx Bootstrap theme](https://github.com/ryan-roemer/sphinx-bootstrap-theme).
 So each static page is written in reStructuredText (RST).
 
+We use [Netlify](https://www.netlify.com/) deploy and host the [website](https://app.netlify.com/sites/sunpy/overview).
+
 ## Testing Locally
 
 To setup your computer to run this site locally, you need to install the various Python packages in the [requirements.txt](https://github.com/sunpy/sunpy.github.io/requirements.txt) at the top level of this repository.
@@ -24,24 +26,20 @@ This will build a collection of html pages under `_build/html` and you can open 
 
 ## Creating a PR
 
-**Please note send any PRs to source and not master.**
-
 When you are happy with any changes you have made to the website.
 We recommend building the website and making sure that everything is building fine.
 You should see no warnings for the build.
 
-Once you are sure everything is in order, you can send in a PR to the main repository aimed at the source branch.
-Master branch is the built website that is created when we merge in any PR into the source branch.
+Once you are sure everything is in order, you can send in a PR to this repository.
 If you are unfamiliar with this, please see this guide from [GitHub.](https://help.github.com/articles/about-pull-requests/)
 
-We include a special `make` function for PRs.
+## PR Review
 
-```bash
-make deploy
-```
+When a PR is opened, two continuous integration services will trigger.
+We use [Travis](https://travis-ci.org/) to test the build and if it fails we wil get a full build log to debug.
+While [Netlify](https://www.netlify.com/) will create a preview of any content or style changes.
 
-This will create a build and push the website to this url: <https://username.github.io/sunpy.github.io/>
-Please check that that works and add it to your PR description.
+Both of these services must pass before the PR will be merged, furthermore, one review is required before a PR can be merged as well.
 
 ## Creating a Blog Post
 
@@ -88,11 +86,3 @@ The colors used in the site are:
 Some things to watch out for:
 
 * do not use bare colons inside your post title. If you really need a colon use `&#58;`
-
-## Deployment and PR Review
-
-This website is deployed using
-[Netlify](https://app.netlify.com/sites/sunpy/overview) for PRs to be mergeable
-the Netlify build must pass.
-
-One PR review is also required to merge PRs.
