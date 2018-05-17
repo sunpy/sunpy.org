@@ -45,7 +45,7 @@ Both of these services must pass before the PR will be merged, furthermore, one 
 
 Blog posts can be added by creating a new text file in the _posts/<current year> directory.
 The filename must use the following naming convention `YEAR-MONTH-DAY-title.rst` and be written in [RST](http://www.sphinx-doc.org/en/stable/rest.html) formatted text.
-Each file must also contain the following header for Sphinx via [Ablog](https://github.com/abakan/ablog) to parse the post properly:
+Each file must also contain the following header for Sphinx via [Ablog](https://github.com/sunpy/ablog) to parse the post properly:
 
 ```rst
 <Title>
