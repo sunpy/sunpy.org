@@ -15,7 +15,7 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
                        'ndcube': ('http://docs.sunpy.org/projects/ndcube/en/stable', None),
                        'drms': ('http://docs.sunpy.org/projects/drms/en/stable/', None)}
 
-rawfiles = ['CNAME', 'jitsi.html']
+rawfiles = ['jitsi.html']
 
 disqus_shortname = 'sunpy-org'
 blog_baseurl = 'https://sunpy.org/blog.html'
