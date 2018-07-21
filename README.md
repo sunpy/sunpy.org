@@ -43,7 +43,7 @@ Both of these services must pass before the PR will be merged, furthermore, one 
 
 ## Creating a Blog Post
 
-Blog posts can be added by creating a new text file in the _posts/<current year> directory.
+Blog posts can be added by creating a new text file in the `posts/<current year>` directory.
 The filename must use the following naming convention `YEAR-MONTH-DAY-title.{ext}` and be written in one of the following formats:
 
 * [RST](http://www.sphinx-doc.org/en/stable/rest.html) formatted text, `ext=rst`,

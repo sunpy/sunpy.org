@@ -6,7 +6,7 @@ import ablog
 from sunpy_sphinx_theme.conf import *
 
 sys.path.append(os.path.abspath('exts'))
-extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards', 
+extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards',
               'sphinx.ext.intersphinx', 'sphinx.ext.imgmath', 'nbsphinx']
 templates_path = [ablog.get_html_templates_path()]
 
