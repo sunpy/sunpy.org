@@ -18,6 +18,8 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
 
 rawfiles = ['jitsi.html']
 
+imgmath_image_format = 'svg'
+
 disqus_shortname = 'sunpy-org'
 blog_baseurl = 'https://sunpy.org/blog.html'
 blog_feed_fulltext = True
