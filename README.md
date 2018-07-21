@@ -44,8 +44,12 @@ Both of these services must pass before the PR will be merged, furthermore, one 
 ## Creating a Blog Post
 
 Blog posts can be added by creating a new text file in the _posts/<current year> directory.
-The filename must use the following naming convention `YEAR-MONTH-DAY-title.rst` and be written in [RST](http://www.sphinx-doc.org/en/stable/rest.html) formatted text.
-Each file must also contain the following header for Sphinx via [Ablog](https://github.com/sunpy/ablog) to parse the post properly:
+The filename must use the following naming convention `YEAR-MONTH-DAY-title.{ext}` and be written in one of the following formats:
+
+* [RST](http://www.sphinx-doc.org/en/stable/rest.html) formatted text, `ext=rst`,
+* [Jupyter notebook](http://jupyter.org/), `ext=ipynb`; (notebooks are converted to RST using the [nbsphinx](http://nbsphinx.readthedocs.io) extension)
+
+If you write your post in RST formatted text, each file must also contain the following header for Sphinx via [Ablog](https://github.com/sunpy/ablog) to parse the post properly:
 
 ```rst
 <Title>
@@ -56,6 +60,8 @@ Each file must also contain the following header for Sphinx via [Ablog](https://
    :tags: <Tag list with commas>
    :category: <One of the below>
 ```
+
+When writing posts as Jupyter notebooks, the first cell should be a Markdown cell with the title as a top level heading (i.e. using a single `#`) and the second cell should be a raw cell containing the post information listed above. See the [nbsphinx docs](http://nbsphinx.readthedocs.io/raw-cells.html) for information on making raw notebook cells compatible with Sphinx and RST.
 
 Please note that the date for the post is different to the way it is written for the blog filename.
 Since this date is reader facing, we want month day year **e.g.,** 14 May 2056.
