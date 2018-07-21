@@ -25,6 +25,7 @@ blog_feed_length = 10
 blog_feed_archives = True
 
 source_suffix = '.rst'
+exclude_patterns = ['posts/*/.ipynb_checkpoints/*']
 master_doc = 'index'
 project = u'SunPy'
 author = 'SunPy Project'
