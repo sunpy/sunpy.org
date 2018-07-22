@@ -6,7 +6,8 @@ import ablog
 from sunpy_sphinx_theme.conf import *
 
 sys.path.append(os.path.abspath('exts'))
-extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards', 'sphinx.ext.intersphinx']
+extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards',
+              'sphinx.ext.intersphinx', 'sphinx.ext.imgmath', 'nbsphinx']
 templates_path = [ablog.get_html_templates_path()]
 
 intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
@@ -17,6 +18,8 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
 
 rawfiles = ['jitsi.html']
 
+imgmath_image_format = 'svg'
+
 disqus_shortname = 'sunpy-org'
 blog_baseurl = 'https://sunpy.org/blog.html'
 blog_feed_fulltext = True
@@ -24,6 +27,7 @@ blog_feed_length = 10
 blog_feed_archives = True
 
 source_suffix = '.rst'
+exclude_patterns = ['posts/*/.ipynb_checkpoints/*']
 master_doc = 'index'
 project = u'SunPy'
 author = 'SunPy Project'
