@@ -1,6 +1,6 @@
 sphinx
 sphinxcontrib-rawfiles
-git+git://github.com/sunpy/sunpy-sphinx-theme.git@master
+sunpy-sphinx-theme
 ablog
 nbsphinx
 ipython
