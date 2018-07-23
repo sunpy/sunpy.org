@@ -81,9 +81,9 @@ nbsphinx_prolog = r"""
 
         This blog post was written in a `Jupyter notebook`__.
         Click here for an interactive version:
-        :raw-html:`<a href="https://mybinder.org/v2/gh/wtbarnes/sunpy.org/{{ env.config.release }}?filepath={{ docname }}"><img alt="Binder badge" src="https://mybinder.org/badge.svg" style="vertical-align:text-bottom"></a>`
+        :raw-html:`<a href="https://mybinder.org/v2/gh/sunpy/sunpy.org/{{ env.config.release }}?filepath={{ docname }}"><img alt="Binder badge" src="https://mybinder.org/badge.svg" style="vertical-align:text-bottom"></a>`
 
-    __ https://github.com/wtbarnes/sunpy.org/blob/{{ env.config.release }}/{{ docname }}
+    __ https://github.com/sunpy/sunpy.org/blob/{{ env.config.release }}/{{ docname }}
 """
 # Get release info
 try:
