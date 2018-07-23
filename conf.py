@@ -7,7 +7,7 @@ from sunpy_sphinx_theme.conf import *
 
 sys.path.append(os.path.abspath('exts'))
 extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards',
-              'sphinx.ext.intersphinx', 'sphinx.ext.imgmath', 'nbsphinx']
+              'sphinx.ext.intersphinx', 'nbsphinx', 'sphinx.ext.mathjax']
 templates_path = [ablog.get_html_templates_path()]
 
 intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
@@ -18,7 +18,7 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
 
 rawfiles = ['jitsi.html']
 
-imgmath_image_format = 'svg'
+mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 
 disqus_shortname = 'sunpy-org'
 blog_baseurl = 'https://sunpy.org/blog.html'
