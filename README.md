@@ -79,7 +79,7 @@ When writing posts as Jupyter notebooks, the first cell should be a Markdown cel
 
 The short description will appear as a preview of your post on the blog page. See the [nbsphinx docs](http://nbsphinx.readthedocs.io/raw-cells.html) for information on making raw notebook cells compatible with Sphinx and RST.
 
-Additionally, Sphinx will automatically add a link to the interactive version of your notebook, hosted on [Binder](https://mybinder.org/), to the top of your post. If your notebook requires any other dependencies basides SunPy (or its dependencies) to run, they will need to be added to `binder/requirements.txt`.
+Additionally, Sphinx will automatically add a link to the interactive version of your notebook, hosted on [Binder](https://mybinder.org/), to the top of your post. If your notebook requires any other dependencies besides SunPy (or its dependencies), they will need to be added to `binder/requirements.txt`.
  
 ### Metadata
 
