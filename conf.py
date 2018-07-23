@@ -5,6 +5,7 @@ import ablog
 
 from sunpy_sphinx_theme.conf import *
 
+
 sys.path.append(os.path.abspath('exts'))
 extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards',
               'sphinx.ext.intersphinx', 'nbsphinx', 'sphinx.ext.mathjax']
@@ -34,7 +35,7 @@ author = 'SunPy Project'
 copyright = 'SunPy Project'
 show_sphinx = True
 version = u''
-release = u''
+release = u'master'
 language = None
 
 pygments_style = 'sphinx'
@@ -66,3 +67,21 @@ html_sidebars = {
     'team': ['localtoc.html'],
     'newcomers': ['localtoc.html']
 }
+
+# nbsphinx options
+nbsphinx_prolog = r"""
+{% set docname = env.doc2path(env.docname, base=None) %}
+
+.. only:: html
+
+    .. role:: raw-html(raw)
+        :format: html
+
+    .. nbinfo::
+
+        This blog post was written in a `Jupyter notebook`__.
+        Click here for an interactive version:
+        :raw-html:`<a href="https://mybinder.org/v2/gh/sunpy/sunpy.org/{{ env.config.release }}?filepath={{ docname }}"><img alt="Binder badge" src="https://mybinder.org/badge.svg" style="vertical-align:text-bottom"></a>`
+
+    __ https://github.com/sunpy/sunpy.org/blob/{{ env.config.release }}/{{ docname }}
+"""

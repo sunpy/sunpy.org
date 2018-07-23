@@ -49,6 +49,8 @@ The filename must use the following naming convention `YEAR-MONTH-DAY-title.{ext
 * [RST](http://www.sphinx-doc.org/en/stable/rest.html) formatted text, `ext=rst`,
 * [Jupyter notebook](http://jupyter.org/), `ext=ipynb`; (notebooks are converted to RST using the [nbsphinx](http://nbsphinx.readthedocs.io) extension)
 
+### RST
+
 If you write your post in RST formatted text, each file must also contain the following header for Sphinx via [Ablog](https://github.com/sunpy/ablog) to parse the post properly:
 
 ```rst
@@ -61,7 +63,25 @@ If you write your post in RST formatted text, each file must also contain the fo
    :category: <One of the below>
 ```
 
-When writing posts as Jupyter notebooks, the first cell should be a Markdown cell with the title as a top level heading (i.e. using a single `#`) and the second cell should be a raw cell containing the post information listed above. See the [nbsphinx docs](http://nbsphinx.readthedocs.io/raw-cells.html) for information on making raw notebook cells compatible with Sphinx and RST.
+### Jupyter Notebook
+
+When writing posts as Jupyter notebooks, the first cell should be a Markdown cell with the title as a top level heading (i.e. using a single `#`) and the second cell should be a raw cell containing the following
+
+```rst
+.. post:: <Date>
+   :author: <Name>
+   :tags: <Tag list with commas>
+   :category: <One of the below>
+   :exclude:
+
+   <Short description of post>
+```
+
+The short description will appear as a preview of your post on the blog page. See the [nbsphinx docs](http://nbsphinx.readthedocs.io/raw-cells.html) for information on making raw notebook cells compatible with Sphinx and RST.
+
+Additionally, Sphinx will automatically add a link to the interactive version of your notebook, hosted on [Binder](https://mybinder.org/), to the top of your post. If your notebook requires any other dependencies besides SunPy (or its dependencies), they will need to be added to `binder/requirements.txt`.
+ 
+### Metadata
 
 Please note that the date for the post is different to the way it is written for the blog filename.
 Since this date is reader facing, we want month day year **e.g.,** 14 May 2056.
@@ -73,9 +93,9 @@ The current range of categories we have "officially" are:
 * Update
 * GSoC
 * SOCIS
+* Tutorial
 
-Please select the one that is more appropriate, for many `Update` would be enough.
-I am sure more will be added with time.
+Please select the one that is more appropriate, for many `Update` would be enough. 
 
 For tags, you can choose what you prefer for your post but please don't use any that are in the categories list.
 
