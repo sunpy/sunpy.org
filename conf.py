@@ -35,7 +35,7 @@ author = 'SunPy Project'
 copyright = 'SunPy Project'
 show_sphinx = True
 version = u''
-release = u''
+release = u'master'
 language = None
 
 pygments_style = 'sphinx'
@@ -85,13 +85,3 @@ nbsphinx_prolog = r"""
 
     __ https://github.com/sunpy/sunpy.org/blob/{{ env.config.release }}/{{ docname }}
 """
-# Get release info
-try:
-    from subprocess import check_output
-    release = check_output(['git', 'describe', '--tags', '--always'])
-    release = release.decode().strip()
-    today = check_output(['git', 'show', '-s', '--format=%ad', '--date=short'])
-    today = today.decode().strip()
-except Exception:
-    release = '<unknown>'
-    today = '<unknown date>'
