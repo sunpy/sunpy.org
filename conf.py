@@ -5,6 +5,7 @@ import ablog
 
 from sunpy_sphinx_theme.conf import *
 
+
 sys.path.append(os.path.abspath('exts'))
 extensions = ['sphinx.ext.githubpages', 'ablog', 'sphinxcontrib.rawfiles', 'cards',
               'sphinx.ext.intersphinx', 'nbsphinx', 'sphinx.ext.mathjax']
@@ -66,3 +67,31 @@ html_sidebars = {
     'team': ['localtoc.html'],
     'newcomers': ['localtoc.html']
 }
+
+# nbsphinx options
+nbsphinx_prolog = r"""
+{% set docname = env.doc2path(env.docname, base=None) %}
+
+.. only:: html
+
+    .. role:: raw-html(raw)
+        :format: html
+
+    .. nbinfo::
+
+        This blog post was written in a `Jupyter notebook`__.
+        Click here for an interactive version:
+        :raw-html:`<a href="https://mybinder.org/v2/gh/wtbarnes/sunpy.org/{{ env.config.release }}?filepath={{ docname }}"><img alt="Binder badge" src="https://mybinder.org/badge.svg" style="vertical-align:text-bottom"></a>`
+
+    __ https://github.com/wtbarnes/sunpy.org/blob/{{ env.config.release }}/{{ docname }}
+"""
+# Get release info
+try:
+    from subprocess import check_output
+    release = check_output(['git', 'describe', '--tags', '--always'])
+    release = release.decode().strip()
+    today = check_output(['git', 'show', '-s', '--format=%ad', '--date=short'])
+    today = today.decode().strip()
+except Exception:
+    release = '<unknown>'
+    today = '<unknown date>'
