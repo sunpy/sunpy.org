@@ -1,7 +1,5 @@
 # SunPy Website
 
-[![Build Status](https://travis-ci.org/sunpy/sunpy.github.io.svg?branch=master)](https://travis-ci.org/sunpy/sunpy.github.io)
-
 Here lays the source code for the current SunPy website.
 
 ## Background
