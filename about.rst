@@ -30,40 +30,10 @@ More information about the SunPy project can be find :doc:`./team`.
 .. _PSF: https://www.python.org/psf/
 .. _Google: https://developers.google.com/open-source/gsoc/
 
-Acknowledging SunPy
-===================
 
-The continued growth and development of SunPy is dependent on the community being aware of the use SunPy.
-If you use SunPy, we therefore ask that you acknowledge SunPy appropriately in a publication or presentation (poster or talk).
+.. CITATION.rst is downloaded from the sunpy/sunpy repo in conf.py
+.. include:: CITATION.rst
 
-**For a publication**, we recommend the following line be added to the conclusion or acknowledgements:
-
-    This research makes use of SunPy, an open-source and free community-developed solar data analysis package written in Python (citation).
-
-Where the citation is to the `SunPy v0.5 paper`_ / `arXiv (open access)`_ (`Bib reference`_), you can also cite the version of the code you are using directly using the DOI of our `zenodo`_ record.
-If the journal allows please also include a link to `sunpy.org`_.
-If you have the time please `email us`_ to let us know about your paper as we maintain a `public list`_ of papers on `Zotero`_.
-
-**For a poster, talks, or project websites**, please include the `Sunpy logo`_ on the title, conclusion slide, or about page.
-For websites please link the image to `sunpy.org`_.
-Other versions of the logo are available in the `sunpy-logo repository`_.
-
-**For a Python package or project**, please make a reference to SunPy somewhere in your readme or website and please get in touch with us, so we can list you on here:
-
-- Helioviewer
-
-Thank you, in advance, for your support.
-
-.. _SunPy v0.5 paper: https://iopscience.iop.org/article/10.1088/1749-4699/8/1/014009
-.. _arXiv (open access): http://arxiv.org/abs/1505.02563
-.. _Bib reference: _static/sunpy2015.bib
-.. _sunpy.org: http://sunpy.org/
-.. _email us: sunpy@googlegroups.com
-.. _Zotero: https://www.zotero.org/
-.. _public list: https://www.zotero.org/groups/sunpy_-_python_for_solar_physicists
-.. _Sunpy logo: https://github.com/sunpy/sunpy-logo/blob/master/sunpy_logo_portrait_powered.svg
-.. _sunpy-logo repository: https://github.com/sunpy/sunpy-logo/
-.. _zenodo: https://doi.org/10.5281/zenodo.591887
 
 Presentations and Posters
 =========================

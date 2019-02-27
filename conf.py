@@ -1,5 +1,6 @@
-import sys
 import os
+import sys
+from urllib.request import urlretrieve
 
 import ablog
 
@@ -85,3 +86,7 @@ nbsphinx_prolog = r"""
 
     __ https://github.com/sunpy/sunpy.org/blob/{{ env.config.release }}/{{ docname }}
 """
+
+
+urlretrieve("https://raw.githubusercontent.com/sunpy/sunpy/master/CITATION.rst",
+            filename="CITATION.rst")
