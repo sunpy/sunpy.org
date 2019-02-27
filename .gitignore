@@ -4,3 +4,4 @@ _build/
 *vscode*
 *pyc
 .ipynb_checkpoints
+CITATION.rst
