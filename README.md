@@ -75,10 +75,18 @@ When writing posts as Jupyter notebooks, the first cell should be a Markdown cel
    <Short description of post>
 ```
 
+You might have to open the notebook in a text editor and change the "metadata" for the post cell to include the following
+
+```
+   "metadata": {
+    "raw_mimetype": "text/restructuredtext"
+   },
+```
+
 The short description will appear as a preview of your post on the blog page. See the [nbsphinx docs](http://nbsphinx.readthedocs.io/raw-cells.html) for information on making raw notebook cells compatible with Sphinx and RST.
 
 Additionally, Sphinx will automatically add a link to the interactive version of your notebook, hosted on [Binder](https://mybinder.org/), to the top of your post. If your notebook requires any other dependencies besides SunPy (or its dependencies), they will need to be added to `binder/requirements.txt`.
- 
+
 ### Metadata
 
 Please note that the date for the post is different to the way it is written for the blog filename.
@@ -93,7 +101,7 @@ The current range of categories we have "officially" are:
 * SOCIS
 * Tutorial
 
-Please select the one that is more appropriate, for many `Update` would be enough. 
+Please select the one that is more appropriate, for many `Update` would be enough.
 
 For tags, you can choose what you prefer for your post but please don't use any that are in the categories list.
 

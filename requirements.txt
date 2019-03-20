@@ -4,3 +4,5 @@ sunpy-sphinx-theme
 ablog
 nbsphinx
 ipython
+jupyter_client
+ipykernel

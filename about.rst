@@ -30,10 +30,13 @@ More information about the SunPy project can be find :doc:`./team`.
 .. _PSF: https://www.python.org/psf/
 .. _Google: https://developers.google.com/open-source/gsoc/
 
+Code of Conduct
+===============
+
+We have a :ref:`coc`, which we expect everyone to follow.
 
 .. CITATION.rst is downloaded from the sunpy/sunpy repo in conf.py
 .. include:: CITATION.rst
-
 
 Presentations and Posters
 =========================
