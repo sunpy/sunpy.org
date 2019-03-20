@@ -38,7 +38,7 @@ SunPy
                 </div>
             </div>
         </div>
-        
+
 .. toctree::
    :maxdepth: 0
    :hidden:
@@ -46,6 +46,5 @@ SunPy
    about.rst
    blog.rst
    help.rst
-   newcomers.rst
    team.rst
    contribute.rst

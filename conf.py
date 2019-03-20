@@ -66,7 +66,6 @@ html_sidebars = {
     'help': ['localtoc.html'],
     'posts/**': ['postcard.html'],
     'team': ['localtoc.html'],
-    'newcomers': ['localtoc.html']
 }
 
 # nbsphinx options

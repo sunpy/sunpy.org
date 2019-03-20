@@ -5,3 +5,4 @@ _build/
 *pyc
 .ipynb_checkpoints
 CITATION.rst
+CODE_OF_CONDUCT.rst

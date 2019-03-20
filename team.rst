@@ -8,12 +8,11 @@ The organization of a board of directors, a lead developer appointed by the boar
 Anyone is welcome to participate in the SunPy organization.
 The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.
 
-Members of the development community are too numerous to list here but a list of anyone who contributed code to SunPy is available on Github `contributors`_ and for
-each major release we keep track of who contributed in-between `releases`_.
+Members of the development community are too numerous to list here but a list of anyone who contributed code to SunPy is available on Github `contributors`_ and for each major release we keep track of who contributed in-between `releases`_.
 
 .. _this document: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
 .. _contributors: https://github.com/sunpy/sunpy/graphs/contributors
-.. _releases: https://github.com/sunpy/sunpy/blob/master/RELEASE.md
+.. _releases: https://github.com/sunpy/sunpy/blob/master/RELEASE.rst
 
 SunPy Board
 ===========
@@ -114,9 +113,10 @@ Community Roles
     :img_name: nabil.png
     :github: nabobalis
     :title: Release Manager
-    :aff_name:
+    :aff_name: Freelance
     :aff_link:
-    :desc:
+    :date: 17 March 2016
+    :desc: Nabil Freij is working as  Freelance Python developer. He was a research scientist at Universitat de les Illes Balears working on coronal heating and MHD waves. Nabil received a Master of Physics at the University of Warwick and a Ph.D. in Applied Mathematics from the University of Sheffield.
 
 .. card:: Jack Ireland
     :img_name: jack.png
@@ -139,11 +139,9 @@ Community Roles
 Affiliated Packages
 ===================
 
-An affiliated package is a Python package related to Solar Physics that is not part of the SunPy core library, but can be included in the future
-as part of the SunPy project’s community.
+An affiliated package is a Python package related to Solar Physics that is not part of the SunPy core library, but can be included in the future as part of the SunPy project’s community.
 
-As a community-driven project SunPy thus encourages contributions from a diverse group of people on building such software that has the potential
-to be a future **Affiliated SunPy Package.**
+As a community-driven project SunPy thus encourages contributions from a diverse group of people on building such software that has the potential to be a future **Affiliated SunPy Package.**
 
 Requirements to be satisfied:
 
