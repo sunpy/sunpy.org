@@ -112,7 +112,7 @@ Community Roles
 .. card:: Nabil Freij
     :img_name: nabil.png
     :github: nabobalis
-    :title: Release Manager
+    :title: Deputy Lead Developer and Release Manager
     :aff_name: Freelance
     :aff_link:
     :date: 17 March 2016
