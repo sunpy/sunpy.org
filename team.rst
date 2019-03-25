@@ -44,10 +44,10 @@ SunPy Board
 .. card:: Russell Hewett
     :img_name: rhewett.png
     :github: rhewett
-    :aff_name: Unaffiliated
+    :aff_name: Virginia Tech
     :aff_link: http://www.russellhewett.com
     :date: 17 March 2014
-    :desc: Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python.
+    :desc: Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python. He is now an assistant Professor of Mathematics at Virginia Tech.
 
 .. card:: Jack Ireland
     :img_name: jack.png
