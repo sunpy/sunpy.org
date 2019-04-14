@@ -13,7 +13,7 @@ SunPy
             background-size: cover;
             }
           h1 {
-          	display : none;
+           display : none;
           }
         </style>
         <div class="container">
@@ -27,13 +27,13 @@ SunPy
                     </div>
                     <p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
                     <div id="front" class="border">
-                    <p class="whatsnew">What's new in <a href="http://docs.sunpy.org/en/stable/whatsnew/0.9.html">SunPy 0.9?</a></p>
+                    <p class="whatsnew">What's new in <a href="https://docs.sunpy.org/en/stable/whatsnew/0.9.html">SunPy 0.9?</a></p>
                     <p class="version">Current version:</p>
                     </div>
                     <div>
-                        <a href="http://docs.sunpy.org/en/stable/guide/installation/index.html" class="btn btn-default btn2" role="button">Install SunPy</a>
-                        <a href="http://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
-                        <a href="http://docs.sunpy.org/en/stable/generated/gallery/index.html" class="btn btn-default btn1" role="button">Example Gallery</a>
+                        <a href="https://docs.sunpy.org/en/stable/guide/installation/index.html" class="btn btn-default btn2" role="button">Install SunPy</a>
+                        <a href="https://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
+                        <a href="https://docs.sunpy.org/en/stable/generated/gallery/index.html" class="btn btn-default btn1" role="button">Example Gallery</a>
                     </div>
                 </div>
             </div>
