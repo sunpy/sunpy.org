@@ -1,5 +1,5 @@
 from docutils import nodes
-from docutils.parsers.rst import directives, Directive
+from docutils.parsers.rst import Directive, directives
 
 
 class card(nodes.General, nodes.Element):
@@ -8,20 +8,20 @@ class card(nodes.General, nodes.Element):
 
 def visit_card_node(self, node):
 
-    img_name = node['img_name']
-    name = node['name']
-    github = node['github']
-    aff_name = node['aff_name']
-    aff_link = node['aff_link']
-    date = node['date']
-    desc = node['desc']
+    img_name = node["img_name"]
+    name = node["name"]
+    github = node["github"]
+    aff_name = node["aff_name"]
+    aff_link = node["aff_link"]
+    date = node["date"]
+    desc = node["desc"]
 
-    if node['title']:
-        title = "<h4>{}</h4>".format(node['title'])
+    if node["title"]:
+        title = "<h4>{}</h4>".format(node["title"])
     else:
-        title = ''
+        title = ""
 
-    col_extra_class = 'column-half' if title else ''
+    col_extra_class = "column-half" if title else ""
 
     body = f"""<div class="column {col_extra_class}">
                 {title}
@@ -69,7 +69,7 @@ class Card(Directive):
         "aff_name": directives.unchanged,
         "aff_link": directives.unchanged,
         "date": directives.unchanged,
-        "desc": directives.unchanged
+        "desc": directives.unchanged,
     }
 
     def run(self):
@@ -77,34 +77,34 @@ class Card(Directive):
         if "img_name" in self.options:
             img_name = self.options.get("img_name")
         else:
-            img_name = 'sunpy_icon.svg'
+            img_name = "sunpy_icon.svg"
         if "github" in self.options:
             github = self.options.get("github")
         else:
-            github = 'sunpy'
+            github = "sunpy"
         if "aff_name" in self.options:
             aff_name = self.options.get("aff_name")
         else:
-            aff_name = 'sunpy'
+            aff_name = "sunpy"
         if "title" in self.options:
             title = self.options.get("title")
         else:
-            title = ''
+            title = ""
         if "aff_link" in self.options:
             aff_link = self.options.get("aff_link")
         else:
-            aff_link = 'sunpy.org'
+            aff_link = "sunpy.org"
         if "date" in self.options:
             date = self.options.get("date")
         else:
-            date = '1066'
+            date = "1066"
         if "desc" in self.options:
             desc = self.options.get("desc")
         else:
-            desc = 'N/A'
+            desc = "N/A"
 
         if len(self.arguments) == 2:
-            name = self.arguments[0] + ' ' + self.arguments[1]
+            name = self.arguments[0] + " " + self.arguments[1]
         else:
             name = self.arguments[0]
 
@@ -117,7 +117,8 @@ class Card(Directive):
                 aff_name=aff_name,
                 aff_link=aff_link,
                 date=date,
-                desc=desc)
+                desc=desc,
+            )
         ]
 
 
