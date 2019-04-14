@@ -1,6 +1,6 @@
 # SunPy Website
 
-Here lays the source code for the current SunPy website.
+Here lays the source code for the SunPy website.
 
 ## Background
 
