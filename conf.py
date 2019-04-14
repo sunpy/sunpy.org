@@ -20,10 +20,10 @@ templates_path = [ablog.get_html_templates_path()]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
-    "sunpy": ("http://docs.sunpy.org/en/stable", None),
-    "astropy": ("http://docs.astropy.org/en/stable", None),
-    "ndcube": ("http://docs.sunpy.org/projects/ndcube/en/stable", None),
-    "drms": ("http://docs.sunpy.org/projects/drms/en/stable/", None),
+    "sunpy": ("https://docs.sunpy.org/en/stable", None),
+    "astropy": ("https://docs.astropy.org/en/stable", None),
+    "ndcube": ("https://docs.sunpy.org/projects/ndcube/en/stable", None),
+    "drms": ("https://docs.sunpy.org/projects/drms/en/stable/", None),
 }
 
 rawfiles = ["jitsi.html"]
@@ -61,7 +61,7 @@ html_theme_options.update(
         "globaltoc_depth": 1,
         "on_rtd": False,
         "copyright_html": """
-<a style= "padding-left: 10px;" rel="licence" href="http://creativecommons.org/licenses/by/4.0/">
+<a style= "padding-left: 10px;" rel="licence" href="https://creativecommons.org/licenses/by/4.0/">
 <img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
 </a>
 """,

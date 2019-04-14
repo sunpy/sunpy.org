@@ -41,13 +41,13 @@ If you are unfamiliar with this style of developement, Astropy provide a sample 
 You can browse our `issue list`_ or our `wishlist`_ to find something that you can tackle.
 Please send a quick email to the dev list or stop by the `matrix channel`_ to let people know what you are planning to work on.
 
-.. _newcomers guide: http://docs.sunpy.org/en/latest/dev_guide/newcomers.html
-.. _developer guide: http://docs.sunpy.org/en/stable/dev.html
-.. _Git: http://git-scm.com
+.. _newcomers guide: https://docs.sunpy.org/en/latest/dev_guide/newcomers.html
+.. _developer guide: https://docs.sunpy.org/en/stable/dev.html
+.. _Git: https://git-scm.com
 .. _GitHub: https://github.com/sunpy/sunpy/
 .. _on github: https://help.github.com/en/articles/signing-up-for-a-new-github-account
-.. _workflow: http://docs.astropy.org/en/stable/development/workflow/development_workflow.html#development-workflow
-.. _tutorials: http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~opUWunJA2PgPRq
+.. _workflow: https://docs.astropy.org/en/stable/development/workflow/development_workflow.html#development-workflow
+.. _tutorials: https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~opUWunJA2PgPRq
 .. _issue list: https://github.com/sunpy/sunpy/issues
 .. _wishlist: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3A%22Feature+Request%22
 .. _matrix channel: https://riot.im/app/#/room/#sunpy-general:matrix.org
@@ -59,7 +59,7 @@ If you have an idea for a major enhancement or a proposed change to SunPy please
 This process is modeled after the `Python Enhancement Proposals (PEPs)`_ and provides a structured proposal for the SunPy community to evaluate your idea.
 You can find the `template`_ and `more information`_ about SEPs in the appropriate `SunPy repository`_. SEPs are submitted as pull requests into that repository.
 
-.. _Python Enhancement Proposals (PEPs): http://legacy.python.org/dev/peps/
+.. _Python Enhancement Proposals (PEPs): https://legacy.python.org/dev/peps/
 .. _template: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-template.md
 .. _more information: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0001.md
 .. _SunPy repository: https://github.com/sunpy/sunpy-SEP
@@ -73,7 +73,7 @@ If you like SunPy and want to support our goal that is to facilitate and promote
 
 |numfocus-logo|
 
-.. _NumFOCUS: http://numfocus.org/
+.. _NumFOCUS: https://numfocus.org/
 .. _donation: https://numfocus.salsalabs.org/donate-to-sunpy/index.html
 .. |numfocus-logo| image:: _static/img/numfocus-logo.svg
-   :target: http://numfocus.org/
+   :target: https://numfocus.org/

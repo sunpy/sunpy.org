@@ -167,19 +167,19 @@ Please send an email to the `mailing list`_ to start a dialogue.
      - Maintainer
    * - `ndcube <https://github.com/sunpy/ndcube>`_
      - A base package for multi-dimensional (non)contiguous coordinate-aware arrays
-     - `ndcube docs <http://docs.sunpy.org/projects/ndcube>`_
+     - `ndcube docs <https://docs.sunpy.org/projects/ndcube>`_
      - `Daniel Ryan`_
    * - `drms <https://github.com/sunpy/drms>`_
      -  Access HMI, AIA and MDI data with Python
-     - `drms docs <http://docs.sunpy.org/projects/drms>`_
+     - `drms docs <https://docs.sunpy.org/projects/drms>`_
      - `Kolja Glogowski <https://github.com/kbg>`_
    * - `radiospectra <https://github.com/sunpy/radiospectra>`_
      -  This package aims to provide support for some type of radiospectra on solar physics
-     - `radiospectra docs <http://docs.sunpy.org/projects/radiospectra>`_
+     - `radiospectra docs <https://docs.sunpy.org/projects/radiospectra>`_
      - `David Pérez-Suárez <https://github.com/dpshelio>`_
    * - `IRISPy <https://github.com/sunpy/irispy>`_
      - 	A package for handling data from the IRIS satellite
-     - `IRISPy docs <http://docs.sunpy.org/projects/irispy/en/latest/>`_
+     - `IRISPy docs <https://docs.sunpy.org/projects/irispy/en/latest/>`_
      - `Daniel Ryan`_
 
 .. _Daniel Ryan: https://github.com/danryanirish

@@ -19,13 +19,13 @@ SunPy has become a global project that is not associated with any individual ins
 More information about the SunPy project can be find :doc:`./team`.
 
 .. _Python programming language: https://www.python.org/
-.. _NumPy: http://www.numpy.org/
+.. _NumPy: https://www.numpy.org/
 .. _SciPy: https://www.scipy.org/
-.. _Matplotlib: http://matplotlib.org/
-.. _Pandas: http://pandas.pydata.org/
-.. _Astropy: http://www.astropy.org/
+.. _Matplotlib: https://matplotlib.org/
+.. _Pandas: https://pandas.pydata.org/
+.. _Astropy: https://www.astropy.org/
 .. _NASA Goddard Space Flight Center: https://www.nasa.gov/centers/goddard/home/
-.. _NUMFocus: http://www.numfocus.org/open-source-projects.html
+.. _NUMFocus: https://www.numfocus.org/open-source-projects.html
 .. _ESA: http://sophia.estec.esa.int/socis/
 .. _PSF: https://www.python.org/psf/
 .. _Google: https://developers.google.com/open-source/gsoc/
