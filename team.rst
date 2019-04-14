@@ -44,10 +44,10 @@ SunPy Board
 .. card:: Russell Hewett
     :img_name: rhewett.png
     :github: rhewett
-    :aff_name: Unaffiliated
+    :aff_name: Virginia Tech
     :aff_link: http://www.russellhewett.com
     :date: 17 March 2014
-    :desc: Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python.
+    :desc: Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python. He is now an assistant Professor of Mathematics at Virginia Tech.
 
 .. card:: Jack Ireland
     :img_name: jack.png
@@ -73,22 +73,6 @@ SunPy Board
     :date: 17 March 2017
     :desc: Sabrina Savage is a solar astrophysicist at NASA Marshall Space Flight Center in Huntsville, AL.  She received her Ph.D. in physics from Montana State University, where she began a career in satellite operations, and followed up with a NASA Postdoctoral fellowship at Goddard Space Flight Center studying flare energetics with the hard X-ray RHESSI satellite.  She now serves as the US Project Scientist for the Japanese-led Hinode mission and works to develop solar instrumentation for sounding rockets and the International Space Station.  Her research interests include observations of reconnection in the solar corona during long duration flaring events coupled with in situ complementary measurements of magnetic storms in the Earth's magnetosphere.
 
-.. card:: Albert Shih
-    :img_name: albert.png
-    :github: ayshih
-    :aff_name: NASA GSFC
-    :aff_link: https://science.gsfc.nasa.gov/heliophysics/solar
-    :date: 14 March 2017
-    :desc: Dr. Shih is a scientist at NASA GSFC who primarily studies ion acceleration in solar flares, mainly through gamma-ray spectroscopy and imaging using RHESSI, as well as analyzing Fermi observations.  He is also actively involved in operating current instrumentation and developing next-generation instrumentation.  He is the Deputy Mission Scientist of RHESSI, a NASA Small Explorer spacecraft launched in 2002, and he was the Solar Porject Scientist of HEROES, a NASA hard X-ray balloon instrument that flew in 2013.
-
-.. card:: Juan Oliveros
-    :img_name: juan.png
-    :github: jcmartin76
-    :aff_name: SSL/UCB
-    :aff_link: http://www.ssl.berkeley.edu
-    :date: 7 April 2014
-    :desc: Juan Carlos is a research scientist at the Space Sciences Laboraty in Berkeley Calofornina. He works in flare seismology and studies eclipses.
-
 .. card:: Stuart Mumford
     :img_name: stuart.png
     :github: cadair
@@ -112,7 +96,7 @@ Community Roles
 .. card:: Nabil Freij
     :img_name: nabil.png
     :github: nabobalis
-    :title: Release Manager
+    :title: Deputy Lead Developer and Release Manager
     :aff_name: Freelance
     :aff_link:
     :date: 17 March 2016
