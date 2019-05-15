@@ -1,7 +1,7 @@
 GSoC 2019: Project IRISpy 0.1
 =============================
 
-.. post:: May 16, 2019
+.. post:: May 15, 2019
    :author: Kris Stern
    :tags: GSoC, IRISpy, NDCube
    :category: GSoC
