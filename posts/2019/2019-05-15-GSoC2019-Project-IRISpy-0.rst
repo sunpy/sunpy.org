@@ -12,10 +12,10 @@ As the IRISpy repo is hosted on GitHub, most of the “action” will take place
 
 The coding part of the IRISpy project is 3-month long, and will kick off on May 28th, 2019 (Hong Kong Standard Time). In the meantime I plan to read up on the background regarding both IRIS and IRISpy, and to study the existing IDL code of the same feature some more before attacking the problem of converting this code from IDL to Python, then benchmarking, and bugfixing, and finally improving the flow and efficiency of the produced Python code. After that, proper documentation will be added to guide the user through the steps of using the new feature. Such documentation will include but not limited to the feature’s docstrings, additions to official SunPy website documentation, and perhaps a brand new Learn Astropy tutorial. After the completion of the project, it is expected that the following tasks will have been accomplished:
 
- 1. An improved function for deriving the time-dependent IRIS response function written entirely in Python.
- 2. Reliably maintaining this new software in terms of benchmarking and unit tests.
- 3. The new software must be incorporated into the existing methods and functions in IRISpy that depend on the instrument response function.
+1. An improved function for deriving the time-dependent IRIS response function written entirely in Python.
+2. Reliably maintaining this new software in terms of benchmarking and unit tests.
+3. The new software must be incorporated into the existing methods and functions in IRISpy that depend on the instrument response function.
 
- The IRISpy project is on a topic that is not directly related to my current PhD research (which is mostly on late-stage stellar evolution focusing on planetary nebulae), but will supplement it by expanding my general knowledge of solar physics. And, I expect this undertaking to be a challenge I can grow with, especially by helping me developing good time management skills.
+The IRISpy project is on a topic that is not directly related to my current PhD research (which is mostly on late-stage stellar evolution focusing on planetary nebulae), but will supplement it by expanding my general knowledge of solar physics. And, I expect this undertaking to be a challenge I can grow with, especially by helping me developing good time management skills.
 
- I am looking forward to a great Google Summer of Code ahead.
+I am looking forward to a great Google Summer of Code ahead.
