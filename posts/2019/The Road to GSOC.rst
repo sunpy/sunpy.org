@@ -103,7 +103,7 @@ issues.
 
 --------------
 
-**PS: ** This is my first blog post on Medium. Hope to write a few
+**PS:** This is my first blog post on Medium. Hope to write a few
 more. If you have any suggestions or remarks feel free to point it out.
 
 
