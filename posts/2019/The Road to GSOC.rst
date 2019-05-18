@@ -16,12 +16,12 @@ fondly know it, GSOC.
 
 I am a second-year student of the Indian Institute of Technology,
 Bhubaneswar and am selected in the Summer of Code project on *Developing
-Sunkit Image, *\ a solar image processing library in Python. This
-project is hosted by **Sunpy,** under **Open Astronomy. **\ This blog
+Sunkit Image,* a solar image processing library in Python. This
+project is hosted by **Sunpy,** under **Open Astronomy.** This blog
 post is written to serve as a guide to future applicants, who find
 themselves overwhelmed by GSOC. Most of us (engineering students) in
 India have heard about Google’s flagship programme for college students,
-the **Summer Of Code. **\ I too was a part of the same herd, having
+the **Summer Of Code.** I too was a part of the same herd, having
 ambitions to be a part of the programme but with no proper plans and
 knowledge.
 
@@ -43,7 +43,7 @@ major steps involved —
 
 Choosing the project which is **right for you** is very important.
 Always choose something that intrigues you rather than doing something
-just because others are doing it. I chose *sunkit image *\ because it
+just because others are doing it. I chose *sunkit image* because it
 combined both my interest in image processing and my love for astronomy.
 But finding a particular project in the vast ocean of projects is a
 tedious task.
