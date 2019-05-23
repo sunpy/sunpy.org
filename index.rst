@@ -28,7 +28,7 @@ SunPy
                     <p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
                     <div id="front" class="border">
                     <p class="whatsnew">What's new in <a href="https://docs.sunpy.org/en/stable/whatsnew/0.9.html">SunPy 0.9?</a></p>
-                    <p class="version">Current version:</p>
+                    <p class="version">Curerent stable version:</p>
                     </div>
                     <div>
                         <a href="https://docs.sunpy.org/en/stable/guide/installation/index.html" class="btn btn-default btn2" role="button">Install SunPy</a>
