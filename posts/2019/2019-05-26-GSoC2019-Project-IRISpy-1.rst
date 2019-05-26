@@ -10,7 +10,7 @@ Progress has been better than expected… Within the past few weeks, while conti
 
 For example, instead of converting from seconds to years by brute force with the conversion factor:
 
-.. codeblock:: python
+.. code-block:: python
    :linenos:
 
    yr2sec = np.float64(365.25*24.*3600.)
@@ -19,7 +19,7 @@ For example, instead of converting from seconds to years by brute force with the
 
 we opted to use Astropy’s powerful Units and Quantities “machinery” for the conversion instead, in the following manner:
 
-.. codeblock:: python
+.. code-block:: python
    :linenos:
 
    t_diff = t_obs - t_cal_coeffs
