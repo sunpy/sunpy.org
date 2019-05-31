@@ -93,15 +93,6 @@ Community Roles
     :date: 17 March 2014
     :desc: Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
-.. card:: Nabil Freij
-    :img_name: nabil.png
-    :github: nabobalis
-    :title: Deputy Lead Developer and Release Manager
-    :aff_name: Freelance
-    :aff_link:
-    :date: 17 March 2016
-    :desc: Nabil Freij is working as  Freelance Python developer. He was a research scientist at Universitat de les Illes Balears working on coronal heating and MHD waves. Nabil received a Master of Physics at the University of Warwick and a Ph.D. in Applied Mathematics from the University of Sheffield.
-
 .. card:: Jack Ireland
     :img_name: jack.png
     :github: wafels
