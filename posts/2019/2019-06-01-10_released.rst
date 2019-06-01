@@ -16,29 +16,28 @@ The major highlights of this release are:
 - A complete transition of the whole code base to use `astropy.time.Time`, which was implemented by Vishnunarayan K I as part of Google Summer of Code 2018.
 - A rewrite of how all the clients in `sunpy.net` download files from the internet. This means vastly improved progress bars, skipping downloads if files are present, and better visibility and retrying of download errors.
 - A rewrite of the differential rotation and image warping code to correctly account for observer location using the Astropy coordinate functionality.
-- Removal of many deprecated functions and submodules, we have used the 1.0 release as a chance to clean out SunPy reducing the number of lines of Python code in the project by almost 3,000!
+- Removal of many deprecated functions and submodules; we have used the 1.0 release as a chance to clean out SunPy reducing the number of lines of Python code in the project by almost 3,000!
 - The first release of SunPy to be Python 3 only, requiring Python 3.6+.
 
 See `What's New in SunPy 1.0 <https://docs.sunpy.org/en/stable/whatsnew/1.0.html>`__ for more details and the `Full Changelog <https://docs.sunpy.org/en/stable/whatsnew/changelog.html>`__ for the full list of over 150 changes in SunPy 1.0.
 
 
 This release includes many breaking changes and may require your code to be updated to support it.
-We hope you see the value in having the extra features these changes enabled and a code base that is easier to maintain.
+We hope you see the value in having the extra features these changes have enabled and a code base that is easier to maintain.
 We will be continuing to release bug fixes to the 0.9.z series until the end of 2019.
 We hope this gives you enough time to update your code and start enjoying all the improvements in SunPy 1.0.
 
 
-You can update to this release by running::
+If you use conda, you can update to this release by running::
 
   $ conda install -c conda-forge sunpy
 
-if you use conda; or by running::
+or, if you use pip, by running::
 
   $ pip install -U sunpy
 
-if you use pip.
 
-If you haven't already installed SunPy we recommend you follow our `Installation Guide <https://docs.sunpy.org/en/stable/guide/installation/index.html#installation>`__
+If you haven't already installed SunPy we recommend you follow our `Installation Guide <https://docs.sunpy.org/en/stable/guide/installation/index.html#installation>`__.
 
 
 By the numbers
@@ -98,8 +97,8 @@ The people who have contributed to the code for this release are:
 Where a * indicates their first contribution to SunPy.
 
 
-On a personal note, I am very excited to see SunPy reach this milestone, watching the community around this project grow since I got involved has been incredible.
-The sunpy library is almost unrecognisable from where it was when I got involved shortly after the 0.2 release, which is the result of countless hours of work by well over 100 people.
+On a personal note, I am very excited to see SunPy reach this milestone; watching the community around this project grow since I got involved has been incredible.
+The sunpy library is almost unrecognisable from where it was when I got involved shortly after the 0.2 release, which is the result of countless hours of work by over 100 people.
 I want to thank everyone who has contributed to SunPy in any way that helped us get to the point where we felt the library deserved the 1.0 label.
 I especially want to thank Nabil Freij who has done so much behind the scenes work to keep things moving forward, and done such a good job helping new contributors get pull requests into SunPy.
 
