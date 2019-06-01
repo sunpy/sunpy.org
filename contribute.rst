@@ -69,7 +69,7 @@ Donate
 
 SunPy is fiscally sponsored by `NumFOCUS`_.
 
-If you like SunPy and want to support our goal "to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment", consider making a `donation`_ to our project.
+If you like SunPy and want to support our goal to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment, consider making a `donation`_ to our project.
 
 |numfocus-logo|
 
