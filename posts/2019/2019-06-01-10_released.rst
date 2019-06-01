@@ -28,6 +28,19 @@ We will be continuing to release bug fixes to the 0.9.z series until the end of 
 We hope this gives you enough time to update your code and start enjoying all the improvements in SunPy 1.0.
 
 
+You can update to this release by running::
+
+  $ conda install -c conda-forge sunpy
+
+if you use conda or by running::
+
+  $ pip install -U sunpy
+
+if you use pip.
+
+If you haven't already installed SunPy we recommend you follow our `Installation Guide <https://docs.sunpy.org/en/stable/guide/installation/index.html#installation>`__
+
+
 By the numbers this release of SunPy contains 1913 commits in 332 merged pull requests closing 582 issues from 46 people, 25 of which are first time contributors to SunPy.
 
 The people who have contributed to the code for this release are:
