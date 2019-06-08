@@ -31,7 +31,7 @@ rawfiles = ["jitsi.html"]
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 
 disqus_shortname = "sunpy-org"
-blog_baseurl = "https://sunpy.org/blog.html"
+blog_baseurl = "https://sunpy.org/"
 blog_feed_fulltext = True
 blog_feed_length = 10
 blog_feed_archives = True

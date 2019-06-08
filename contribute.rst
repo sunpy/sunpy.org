@@ -50,7 +50,7 @@ Please send a quick email to the dev list or stop by the `matrix channel`_ to le
 .. _tutorials: https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~opUWunJA2PgPRq
 .. _issue list: https://github.com/sunpy/sunpy/issues
 .. _wishlist: https://github.com/sunpy/sunpy/issues?q=is%3Aissue+is%3Aopen+label%3A%22Feature+Request%22
-.. _matrix channel: https://riot.im/app/#/room/#sunpy-general:matrix.org
+.. _matrix channel: https://riot.im/app/#/room/#sunpy:openastronomy.org
 
 SunPy Enhancement Proposals (SEP)
 =================================
@@ -69,7 +69,7 @@ Donate
 
 SunPy is fiscally sponsored by `NumFOCUS`_.
 
-If you like SunPy and want to support our goal that is to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment, consider making a `donation`_ to our project.
+If you like SunPy and want to support our goal to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment, consider making a `donation`_ to our project.
 
 |numfocus-logo|
 
