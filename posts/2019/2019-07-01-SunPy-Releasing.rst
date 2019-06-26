@@ -1,7 +1,7 @@
 SunPy Release Schedule and Version Numbering
 ============================================
 
-.. post:: June 01, 2019
+.. post:: June 27, 2019
    :author: Stuart Mumford
    :tags: sunpy
    :category: Update
