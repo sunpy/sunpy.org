@@ -74,7 +74,7 @@ We still expect, and have plans for, changes to many parts of SunPy. We believe
 these changes will enable even more people to find SunPy useful in their work.
 
 To enable people to prepare for changes and to not be in for big surprises when
-updating SunPy we will endeavour to provide emit a deprecation warning for any
+updating SunPy we will endeavour to emit a deprecation warning for any
 breaking changes for *one LTS release*.
 
 The upshot of this is that, if now after 1.0, we want to change something in a
