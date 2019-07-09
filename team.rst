@@ -120,6 +120,74 @@ Community Roles
     :date: 17 March 2014
     :desc: David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
 
+Maintainer List
+===============
+The following section list the maintainers for the various
+sub-packages of the core library as well as the documentation maintainers.
+Each area should have at least one but preferably two people identified. To
+enable mentorship the two maintainers could include a lead and a deputy or
+also two co-leads.
+Some roles are currently not filled. We'd like to encourage members of the
+community to inquire about volunteering.
+
+Responsibilities of sub-package maintainers include
+
+* Evaluating and soliciting new pull requests which are consistent with the
+sub-package scope and contribution standards.
+* Providing material support for open pull requests to enable merging.
+* Maintaining and developing the sub-package roadmap consistent with the
+roadmap of the overall core package.
+* Mentoring the next generation of maintainers and developers.
+
+Responsibilities of documentation maintainers include
+
+* Overseeing and improving content
+* Soliciting and implementing improvements and new additions to the content.
+* Maintaining and improving the documentation infrastructure.
+
+.. list-table::
+   :widths: 60 60
+   :header-rows: 1
+
+   * - Sub-package
+     - Name(s)
+   * - sunpy.cm
+     - `Jack Ireland`_
+   * - sunpy.coordinate
+     - `Albert Shih`_
+   * - sunpy.database
+     -
+   * - sunpy.image
+     - `Jack Ireland`_
+   * - sunpy.instr
+     - `Dan Ryan`_
+   * - sunpy.io
+     -
+   * - sunpy.map
+     - `Stuart Mumford`_, `Steven Christe`_
+   * - sunpy.net
+     - `Stuart Mumford`_
+   * - sunpy.physics
+     - `Jack Ireland`_
+   * - sunpy.roi
+     - `David Perez-Suarez`_
+   * - sunpy.sun
+     - `Steven Christe`_
+   * - sunpy.time
+     - `Laura Hayes`_
+   * - sunpy.timeseries
+     - `Laura Hayes`_
+   * - sunpy.util
+     - `Nabil Freij`_
+   * - sunpy.visualization
+     - `Dan Ryan`_
+   * - documentation/developer
+     - `Nabil Freij`_
+   * - documentation/user
+     - `Monica Bobra`_
+   * - documentation/gallery
+     - `Monica Bobra`_, `Steven Christe`_
+
 Affiliated Packages
 ===================
 
