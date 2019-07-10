@@ -174,7 +174,7 @@ Responsibilities of documentation maintainers include
    * - sunpy.sun
      - `Steven Christe`_
    * - sunpy.time
-     - `Laura Hayes`_
+     - `Laura Hayes`_, `Vishnunarayan K. I.`_
    * - sunpy.timeseries
      - `Laura Hayes`_
    * - sunpy.util
