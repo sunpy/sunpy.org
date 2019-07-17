@@ -132,11 +132,9 @@ community to inquire about volunteering.
 
 Responsibilities of sub-package maintainers include
 
-* Evaluating and soliciting new pull requests which are consistent with the
-sub-package scope and contribution standards.
+* Evaluating and soliciting new pull requests which are consistent with the sub-package scope and contribution standards.
 * Providing material support for open pull requests to enable merging.
-* Maintaining and developing the sub-package roadmap consistent with the
-roadmap of the overall core package.
+* Maintaining and developing the sub-package roadmap consistent with the roadmap of the overall core package.
 * Mentoring the next generation of maintainers and developers.
 
 Responsibilities of documentation maintainers include
@@ -160,7 +158,7 @@ Responsibilities of documentation maintainers include
    * - sunpy.image
      - `Jack Ireland`_
    * - sunpy.instr
-     - `Dan Ryan`_
+     - `Daniel Ryan`_
    * - sunpy.io
      -
    * - sunpy.map
@@ -170,7 +168,7 @@ Responsibilities of documentation maintainers include
    * - sunpy.physics
      - `Jack Ireland`_
    * - sunpy.roi
-     - `David Perez-Suarez`_
+     - `David Pérez-Suárez`_
    * - sunpy.sun
      - `Steven Christe`_
    * - sunpy.time
@@ -233,15 +231,25 @@ Please send an email to the `mailing list`_ to start a dialogue.
    * - `drms <https://github.com/sunpy/drms>`_
      -  Access HMI, AIA and MDI data with Python
      - `drms docs <https://docs.sunpy.org/projects/drms>`_
-     - `Kolja Glogowski <https://github.com/kbg>`_
+     - `Kolja Glogowski`_
    * - `radiospectra <https://github.com/sunpy/radiospectra>`_
      -  This package aims to provide support for some type of radiospectra on solar physics
      - `radiospectra docs <https://docs.sunpy.org/projects/radiospectra>`_
-     - `David Pérez-Suárez <https://github.com/dpshelio>`_
+     - `David Pérez-Suárez`_
    * - `IRISPy <https://github.com/sunpy/irispy>`_
      - 	A package for handling data from the IRIS satellite
      - `IRISPy docs <https://docs.sunpy.org/projects/irispy/en/latest/>`_
      - `Daniel Ryan`_
 
+
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
+.. _Monica Bobra: https://github.com/mbobra
+.. _David Stansby: https://github.com/dstansby
+.. _Laura Hayes: https://github.com/hayesla
+.. _David Pérez-Suárez: https://github.com/dpshelio
+.. _Kolja Glogowski: https://github.com/kbg
+.. _Jack Ireland: https://github.com/wafels
+.. _Stuart Mumford: https://github.com/cadair
+.. _Albert Shih: https://github.com/ayshih
+.. _Vishnunarayan K. I.: https://github.com/vn-ki
