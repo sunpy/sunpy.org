@@ -182,6 +182,7 @@ Responsibilities of documentation maintainers include
    * - sunpy.visualization
      - `Dan Ryan`_, `David Stansby`_
 
+
 .. list-table::
    :widths: 60 60
    :header-rows: 1
@@ -194,6 +195,7 @@ Responsibilities of documentation maintainers include
      - `Monica Bobra`_
    * - documentation/gallery
      - `Monica Bobra`_, `Steven Christe`_
+
 
 Affiliated Packages
 ===================
@@ -242,3 +244,4 @@ Please send an email to the `mailing list`_ to start a dialogue.
      - `Daniel Ryan`_
 
 .. _Daniel Ryan: https://github.com/danryanirish
+.. _Steven Christe: https://github.com/ehsteve
