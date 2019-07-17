@@ -176,13 +176,20 @@ Responsibilities of documentation maintainers include
    * - sunpy.time
      - `Laura Hayes`_
    * - sunpy.timeseries
-     - `Laura Hayes`_
+     - `Laura Hayes`_, `David Stansby`_
    * - sunpy.util
-     - `Nabil Freij`_
+     -
    * - sunpy.visualization
-     - `Dan Ryan`_
+     - `Dan Ryan`_, `David Stansby`_
+
+.. list-table::
+   :widths: 60 60
+   :header-rows: 1
+
+   * - Documentation Section
+     - Name(s)
    * - documentation/developer
-     - `Nabil Freij`_
+     -
    * - documentation/user
      - `Monica Bobra`_
    * - documentation/gallery
