@@ -178,7 +178,7 @@ Responsibilities of documentation maintainers include
    * - sunpy.util
      -
    * - sunpy.visualization
-     - `Dan Ryan`_, `David Stansby`_
+     - `Daniel Ryan`_, `David Stansby`_
 
 
 .. list-table::
