@@ -156,9 +156,9 @@ Responsibilities of documentation maintainers include
    * - sunpy.database
      -
    * - sunpy.image
-     - `Jack Ireland`_
+     - `Jack Ireland`_, `Will Barnes`_
    * - sunpy.instr
-     - `Daniel Ryan`_
+     - `Daniel Ryan`_, `Will Barnes`_
    * - sunpy.io
      -
    * - sunpy.map
@@ -253,3 +253,4 @@ Please send an email to the `mailing list`_ to start a dialogue.
 .. _Stuart Mumford: https://github.com/cadair
 .. _Albert Shih: https://github.com/ayshih
 .. _Vishnunarayan K. I.: https://github.com/vn-ki
+.. _Will Barnes: https://github.com/wtbarnes
