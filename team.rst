@@ -120,6 +120,81 @@ Community Roles
     :date: 17 March 2014
     :desc: David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
 
+Maintainer List
+===============
+The following section list the maintainers for the various
+sub-packages of the core library as well as the documentation maintainers.
+Each area should have at least one but preferably two people identified. To
+enable mentorship the two maintainers could include a lead and a deputy or
+also two co-leads.
+Some roles are currently not filled. We'd like to encourage members of the
+community to inquire about volunteering.
+
+Responsibilities of sub-package maintainers include
+
+* Evaluating and soliciting new pull requests which are consistent with the sub-package scope and contribution standards.
+* Providing material support for open pull requests to enable merging.
+* Maintaining and developing the sub-package roadmap consistent with the roadmap of the overall core package.
+* Mentoring the next generation of maintainers and developers.
+
+Responsibilities of documentation maintainers include
+
+* Overseeing and improving content
+* Soliciting and implementing improvements and new additions to the content.
+* Maintaining and improving the documentation infrastructure.
+
+.. list-table::
+   :widths: 60 60
+   :header-rows: 1
+
+   * - Sub-package
+     - Name(s)
+   * - sunpy.cm
+     - `Jack Ireland`_
+   * - sunpy.coordinates
+     - `Albert Shih`_
+   * - sunpy.database
+     -
+   * - sunpy.image
+     - `Jack Ireland`_
+   * - sunpy.instr
+     - `Daniel Ryan`_
+   * - sunpy.io
+     -
+   * - sunpy.map
+     - `Stuart Mumford`_, `Steven Christe`_
+   * - sunpy.net
+     - `Stuart Mumford`_
+   * - sunpy.physics
+     - `Jack Ireland`_
+   * - sunpy.roi
+     - `David Pérez-Suárez`_
+   * - sunpy.sun
+     - `Steven Christe`_
+   * - sunpy.time
+     - `Laura Hayes`_, `Vishnunarayan K. I.`_
+   * - sunpy.timeseries
+     - `Laura Hayes`_, `David Stansby`_
+   * - sunpy.util
+     -
+   * - sunpy.visualization
+     - `Daniel Ryan`_, `David Stansby`_
+
+
+.. list-table::
+   :widths: 60 60
+   :header-rows: 1
+
+   * - Documentation Section
+     - Name(s)
+   * - documentation/developer
+     -
+   * - documentation/user
+     - `Monica Bobra`_
+   * - documentation/gallery
+     - `Monica Bobra`_, `Steven Christe`_
+
+
 Affiliated Packages
 ===================
 
@@ -156,14 +231,25 @@ Please send an email to the `mailing list`_ to start a dialogue.
    * - `drms <https://github.com/sunpy/drms>`_
      -  Access HMI, AIA and MDI data with Python
      - `drms docs <https://docs.sunpy.org/projects/drms>`_
-     - `Kolja Glogowski <https://github.com/kbg>`_
+     - `Kolja Glogowski`_
    * - `radiospectra <https://github.com/sunpy/radiospectra>`_
      -  This package aims to provide support for some type of radiospectra on solar physics
      - `radiospectra docs <https://docs.sunpy.org/projects/radiospectra>`_
-     - `David Pérez-Suárez <https://github.com/dpshelio>`_
+     - `David Pérez-Suárez`_
    * - `IRISPy <https://github.com/sunpy/irispy>`_
      - 	A package for handling data from the IRIS satellite
      - `IRISPy docs <https://docs.sunpy.org/projects/irispy/en/latest/>`_
      - `Daniel Ryan`_
 
+
 .. _Daniel Ryan: https://github.com/danryanirish
+.. _Steven Christe: https://github.com/ehsteve
+.. _Monica Bobra: https://github.com/mbobra
+.. _David Stansby: https://github.com/dstansby
+.. _Laura Hayes: https://github.com/hayesla
+.. _David Pérez-Suárez: https://github.com/dpshelio
+.. _Kolja Glogowski: https://github.com/kbg
+.. _Jack Ireland: https://github.com/wafels
+.. _Stuart Mumford: https://github.com/cadair
+.. _Albert Shih: https://github.com/ayshih
+.. _Vishnunarayan K. I.: https://github.com/vn-ki
