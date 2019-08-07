@@ -81,6 +81,14 @@ SunPy Board
     :date: 17 March 2014
     :desc: Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
+.. card:: Tiago Pereira
+    :img_name: tiago.png
+    :github: tiagopereira
+    :aff_name: University of Oslo
+    :aff_link: https://www.mn.uio.no/rocs/
+    :date: 07 August 2019
+    :desc: Tiago Pereira is an Associate Professor at the University of Oslo, at the Rosseland Centre for Solar Physics and the Institute of Theoretical Astrophysics. He received his Ph.D. from the Australian National University, working with 3D MHD models of the solar photosphere and spectral line formation. He subsequently was a NASA Postdoctoral Fellow at NASA Ames and LMSAL, studying the dynamic chromosphere and helping prepare for the IRIS mission. A member of the IRIS science team, Tiago's research focuses on understanding the solar chromosphere by combining multi-wavelength observations with MHD simulations.
+
 Community Roles
 ===============
 
