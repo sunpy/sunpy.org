@@ -67,13 +67,15 @@ You can find the `template`_ and `more information`_ about SEPs in the appropria
 Donate
 ======
 
-SunPy is fiscally sponsored by `NumFOCUS`_.
+SunPy is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides SunPy with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit `numfocus.org`_ for more information.
+
+Donations to SunPy are managed by NumFOCUS. For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax adviser about your particular tax situation.”
 
 If you like SunPy and want to support our goal to facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment, consider making a `donation`_ to our project.
 
 |numfocus-logo|
 
-.. _NumFOCUS: https://numfocus.org/
+.. _numfocus.org: https://numfocus.org/
 .. _donation: https://numfocus.salsalabs.org/donate-to-sunpy/index.html
 .. |numfocus-logo| image:: _static/img/numfocus-logo.svg
    :target: https://numfocus.org/
