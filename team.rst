@@ -81,6 +81,22 @@ SunPy Board
     :date: 17 March 2014
     :desc: Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
+.. card:: Tiago Pereira
+    :img_name: tiago.png
+    :github: tiagopereira
+    :aff_name: University of Oslo
+    :aff_link: https://www.mn.uio.no/rocs/
+    :date: 07 August 2019
+    :desc: Tiago Pereira is an Associate Professor at the University of Oslo, at the Rosseland Centre for Solar Physics and the Institute of Theoretical Astrophysics. He received his Ph.D. from the Australian National University, working with 3D MHD models of the solar photosphere and spectral line formation. He subsequently was a NASA Postdoctoral Fellow at NASA Ames and LMSAL, studying the dynamic chromosphere and helping prepare for the IRIS mission. A member of the IRIS science team, Tiago's research focuses on understanding the solar chromosphere by combining multi-wavelength observations with MHD simulations.
+    
+.. card:: Bin Chen
+    :img_name: chen.png
+    :github: binchensun
+    :aff_name: New Jersey Institute of Technology
+    :aff_link: https://centers.njit.edu/cstr/
+    :date: 7 August 2019
+    :desc: Bin Chen is an Associate Professor at New Jersey Institute of Technology in Newark, NJ, affiliated with the Department of Physics and the Center for Solar-Terrestrial Research. He received his Ph.D. in astronomy from University of Virginia in 2013. Prior to his appointment at NJIT, he was an astrophysicist at the Harvard-Smithsonian Center for Astrophysics. His research interests focus on high-energy aspects of solar flares and coronal mass ejections based on observations at radio, X-ray, and other wavelengths. He has been working on instrumentation, software development, and data analysis for radio facilities including the Expanded Owens Valley Solar Array, Karl G. Jansky Very Large Array, and the Atacama Large (sub)Millimeter Array. 
+
 Community Roles
 ===============
 
@@ -254,3 +270,4 @@ Please send an email to the `mailing list`_ to start a dialogue.
 .. _Albert Shih: https://github.com/ayshih
 .. _Vishnunarayan K. I.: https://github.com/vn-ki
 .. _Will Barnes: https://github.com/wtbarnes
+.. _Bin Chen: https://github.com/binchensun
