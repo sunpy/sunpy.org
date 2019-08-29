@@ -169,6 +169,7 @@ Responsibilities of documentation maintainers include
      - `Jack Ireland`_
    * - sunpy.coordinates
      - `Albert Shih`_
+     - `Stuart Mumford`_
    * - sunpy.database
      -
    * - sunpy.image
@@ -191,8 +192,6 @@ Responsibilities of documentation maintainers include
      - `Laura Hayes`_, `Vishnunarayan K. I.`_
    * - sunpy.timeseries
      - `Laura Hayes`_, `David Stansby`_
-   * - sunpy.util
-     -
    * - sunpy.visualization
      - `Daniel Ryan`_, `David Stansby`_
 
