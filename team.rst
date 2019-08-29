@@ -168,8 +168,7 @@ Responsibilities of documentation maintainers include
    * - sunpy.cm
      - `Jack Ireland`_
    * - sunpy.coordinates
-     - `Albert Shih`_
-     - `Stuart Mumford`_
+     - `Albert Shih`_, `Stuart Mumford`_
    * - sunpy.database
      -
    * - sunpy.image
