@@ -6,18 +6,6 @@ Part 6: Reaching the Summit
    :tags: GSoC, Sunpy, Sunkit-image
    :category: GSoC
 
-
-.. figure:: https://cdn-images-1.medium.com/max/12000/0*2QZq-CvyZvFB8db_
-   :alt: Photo by `Kaidi
-   Guo <https://unsplash.com/@kaidi_guo?utm_source=medium&utm_medium=referral>`__
-   on
-   `Unsplash <https://unsplash.com?utm_source=medium&utm_medium=referral>`__
-
-   Photo by `Kaidi
-   Guo <https://unsplash.com/@kaidi_guo?utm_source=medium&utm_medium=referral>`__
-   on
-   `Unsplash <https://unsplash.com?utm_source=medium&utm_medium=referral>`__
-
 If I describe my journey through Google Summer of Code as an arduous
 mountain climbing adventure then finally I have reached a point from
 where the **summit**\ is within reach.
