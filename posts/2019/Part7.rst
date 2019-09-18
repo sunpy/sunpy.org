@@ -13,17 +13,6 @@ fall. This week it will be last week as an official Google Summer of
 Code and this will be my final post as a student. I can feel the
 nostalgia gripping me.
 
-.. figure:: https://cdn-images-1.medium.com/max/7898/0*Uh5ua1Ag_AIjAEL8
-   :alt: Photo by `Annie
-   Spratt <https://unsplash.com/@anniespratt?utm_source=medium&utm_medium=referral>`__
-   on
-   `Unsplash <https://unsplash.com?utm_source=medium&utm_medium=referral>`__
-
-   Photo by `Annie
-   Spratt <https://unsplash.com/@anniespratt?utm_source=medium&utm_medium=referral>`__
-   on
-   `Unsplash <https://unsplash.com?utm_source=medium&utm_medium=referral>`__
-
 Well, this has been one of the most productive summers which helped me
 gain a lot of new skills and make new connections and I would really
 like to thank Google and Sunpy for giving me this opportunity. I would
