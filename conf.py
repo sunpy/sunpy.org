@@ -10,7 +10,7 @@ sys.path.append(os.path.abspath("exts"))
 extensions = [
     "sphinx.ext.githubpages",
     "ablog",
-    "sphinxcontrib.rawfiles",
+    "rawfiles",
     "cards",
     "sphinx.ext.intersphinx",
     "nbsphinx",

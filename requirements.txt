@@ -1,5 +1,4 @@
 sphinx
-sphinxcontrib-rawfiles
 sunpy-sphinx-theme
 ablog
 nbsphinx
