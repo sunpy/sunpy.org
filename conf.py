@@ -10,7 +10,7 @@ sys.path.append(os.path.abspath("exts"))
 extensions = [
     "sphinx.ext.githubpages",
     "ablog",
-    "sphinxcontrib.rawfiles",
+    "rawfiles",
     "cards",
     "sphinx.ext.intersphinx",
     "nbsphinx",
@@ -26,7 +26,7 @@ intersphinx_mapping = {
     "drms": ("https://docs.sunpy.org/projects/drms/en/stable/", None),
 }
 
-rawfiles = ["jitsi.html", "survey.html"]
+rawfiles = ["jitsi.html"]
 
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 
