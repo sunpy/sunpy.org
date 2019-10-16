@@ -11,7 +11,7 @@ We use [Netlify](https://www.netlify.com/) deploy and host the [website](https:/
 
 ## Testing Locally
 
-To setup your computer to run this site locally, you need to install the various Python packages in the [requirements.txt](https://github.com/sunpy/sunpy.github.io/requirements.txt) at the top level of this repository.
+To setup your computer to run this site locally, you need to install the various Python packages in the [requirements.txt](requirements.txt) at the top level of this repository.
 
 You will *WANT* to test any changes you have made to the website.
 To do this, we have a Makefile that you should use:
