@@ -109,23 +109,23 @@ Community Roles
     :date: 17 March 2014
     :desc: Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
-.. card:: Nabil Freij
-    :img_name: nabil.png
-    :github: nabobalis
-    :title: Deputy Lead Developer and Release Manager
-    :aff_name: Freelance
-    :aff_link:
-    :date: 17 March 2016
-    :desc: Nabil Freij is working as  Freelance Python developer. He was a research scientist at Universitat de les Illes Balears working on coronal heating and MHD waves. Nabil received a Master of Physics at the University of Warwick and a Ph.D. in Applied Mathematics from the University of Sheffield.
+.. card:: Will Barnes
+    :img_name: will.png
+    :github: wtbarnes
+    :title: Deputy Lead Developer
+    :aff_name: U.S. Naval Research Observatory
+    :aff_link: https://www.nrl.navy.mil/
+    :date: 3 December 2019
+    :desc: Will Barnes is a postdoctoral researcher at the Naval Research Laboratory where he studies coronal heating through forward modeling and loop hydrodynamics. Previously, he was a postdoc at the Lockheed Martin Solar and Astrophysics Laboratory. In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw. Prior to his PhD, Will received a BS in astrophysics from Baylor University in 2013.
 
-.. card:: Jack Ireland
-    :img_name: jack.png
-    :github: wafels
-    :title: Communications Officer
-    :aff_name: ADNET Systems, Inc. / NASA GSFC
-    :aff_link: https://www.adnet-sys.com/
-    :date: 17 March 2014
-    :desc: Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.
+.. card:: Sophie Murray
+    :img_name: sophie.png
+    :github: drsophiemurray
+    :title: Communication and Education Lead
+    :aff_name: Trinity College Dublin and Dublin Institute for Advanced Studies
+    :aff_link: https://www.tcd.ie/
+    :date: 3 December 2019
+    :desc: Sophie Murray is a Research Fellow at Trinity College Dublin and visiting researcher at Dublin Institute for Advanced Studies in Dublin, Ireland. Her research interests are focused on better understanding the solar source of space weather events in order to improve predictions of their impact on Earth and she leads a number of international space weather forecasting coordination activities. Sophie completed an MSc at University College London and PhD in solar physics at Trinity College Dublin. She also worked at the Met Office, the UK’s national meteorological service. Sophie is also heavily involved in public engagement and outreach, and is Principle Investigator of the Astronomical Midlands, a Science Foundation Ireland Discover Project engaging rural communities with astronomy.
 
 .. card:: David Pérez-Suárez
     :img_name: david.png
