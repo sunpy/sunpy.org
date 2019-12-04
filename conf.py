@@ -3,7 +3,6 @@ import sys
 from urllib.request import urlretrieve
 
 import ablog
-
 from sunpy_sphinx_theme.conf import *
 
 sys.path.append(os.path.abspath("exts"))
