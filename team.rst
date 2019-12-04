@@ -269,3 +269,51 @@ Please send an email to the `mailing list`_ to start a dialogue.
 .. _Vishnunarayan K. I.: https://github.com/vn-ki
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Bin Chen: https://github.com/binchensun
+
+Minutes of SunPy Board Meetings
+===============================
+
+.. raw:: html
+
+              <details>
+                <summary>2019 (3)</summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190920">Board Meeting 2019-09-20</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190802">Board Meeting 2019-08-02</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190306">Board Meeting 2019-03-06</a></p>
+              </details>
+              <details>
+                <summary>2018 (3)</summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180905">Board Meeting 2018-09-05</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180610">Board Meeting 2018-06-19</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180221">Board Meeting 2018-02-21</a></p>
+              </details>
+              <details>
+                <summary>2017 (6)</summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170922">Board Meeting 2017-09-22</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170816">Board Meeting 2017-08-16</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170802">Board Meeting 2017-08-02</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170421">Board Meeting 2017-04-21</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170313">Board Meeting 2017-03-13</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170214">Board Meeting 2017-02-17</a></p>
+              </details>
+              <details>
+                <summary>2016 (2)</summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20161026">Board Meeting 2016-10-26</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20160507">Board Meeting 2016-05-07</a></p>
+              </details>
+              <details>
+                <summary>2015 (3)</summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20151207">Board Meeting 2015-12-07</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20150921">Board Meeting 2015-09-21</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20150413">Board Meeting 2015-04-13</a></p>
+              </details>
+              <details>
+                <summary>2014 (7)</summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20141017">Board Meeting 2014-10-17</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140919">Board Meeting 2014-09-19</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140625">Board Meeting 2014-07-25</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140609">Board Meeting 2014-06-09</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140505">Board Meeting 2014-05-05</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140416">Board Meeting 2014-04-16</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140407">Board Meeting 2014-04-07</a></p>
+              </details>
