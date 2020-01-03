@@ -1,9 +1,14 @@
+.. _role_descriptions:
+
 Community Role Descriptions
 ===========================
 
 This section describes each of the SunPy projects community (non-board) roles, and lists the current holder(s) of that role.
 Roles with no holder listed are vacant and anyone interested in filling them should contact the lead developer or anyone else with a project role.
 There is no limit to how many people can share the responsibilities of a role, if you are interested in a role which is filled, contact the person and ask how you can assist them.
+
+
+.. _role_lead-dev:
 
 Lead Developer and Deputy Lead Developer
 ----------------------------------------
@@ -38,6 +43,8 @@ With the roles in this document filled, it is expected that the lead developer(s
 **Commitment Level**: The lead developer + deputy roles combined need a large time commitment.
 Between running the weekly meetings and ensuring that PRs are reviewed and issues triaged, the shared time commitment of the two roles is probably between 10 and 20 hours a week.
 
+.. _role_ci-maintainer:
+
 Continuous Integration Maintainer
 ---------------------------------
 **Unfilled**
@@ -55,6 +62,8 @@ A non-exhaustive list of things involved with this role is:
 
 **Commitment Level**: This role requires keeping an eye on the core repo and other repos’s PRs to spot issues with the CI systems and builds which needs attention.
 The time commitment is probably around 3-5 hours per week, with additional scope for improving the status quo.
+
+.. _role_release-manager:
 
 Release Manager
 ---------------
@@ -75,6 +84,7 @@ comprises of the following main tasks:
 **Commitment Level**: The main component of this role is monitoring PRs which get milestoned to be backported to release branches and ensuring the backports happen correctly, and releasing bug fix versions.
 This role is probably upto a 3-5 hour time commitment per week, although it varies based on the SunPy release schedule.
 
+.. _role_webmaster:
 
 Webmaster
 ---------
@@ -88,6 +98,8 @@ This primarily involves:
 -  Updating the website as needed.
 -  Implementing analytics on the website and docs.
 
+
+.. _role_subpackage-maintainer:
 
 Subpackage Maintainer
 ---------------------
@@ -107,6 +119,8 @@ Responsibilities of documentation maintainers include:
 * Maintaining and improving the documentation infrastructure.
 
 
+.. _role_lead-mentor:
+
 Lead Newcomer and Summer of Code Mentor
 ---------------------------------------
 **Unfilled and David Pérez-Suárez (GSOC Admin)**
@@ -125,6 +139,8 @@ This involves:
 During these times the time commitment is probably upwards of 5 hours a week.
 There is also a lot of scope for improving our onboarding process as part of this role.
 
+.. _role_comms-lead:
+
 Communication and Education Lead
 --------------------------------
 **Sophie Murray**
@@ -141,8 +157,10 @@ Communication and Education Lead
 
 **Commitment Level**: This role requires 2-3 hours of effort per week, with a lot of scope for developing new community engagement methods.
 
-Affiliated Package Liason
--------------------------
+.. _role_affiliated-liaison:
+
+Affiliated Package Liaison
+--------------------------
 **Unfilled**
 
 SunPy is starting to develop a set of general affiliated packages, i.e ndcube, sunkit-image and drms as well as instrument specific ones like IRISPy.

@@ -7,40 +7,36 @@ class card(nodes.General, nodes.Element):
 
 
 def visit_card_node(self, node):
-
-    img_name = node["img_name"]
-    name = node["name"]
-    github = node["github"]
-    aff_name = node["aff_name"]
-    aff_link = node["aff_link"]
-    date = node["date"]
-    desc = node["desc"]
-
-    if node["title"]:
-        title = "<h4>{}</h4>".format(node["title"])
-    else:
-        title = ""
+    title = node.get("title", "")
+    key = title or node['github']
+    key = key.lower().replace(" ", "-")
+    title = f"<h4>{title}</h4>"
 
     col_extra_class = "column-half" if title else ""
 
     body = f"""<div class="column {col_extra_class}">
                 {title}
                 <div class="card">
-                <img src="/_static/img/{img_name}" alt="{name}">
-                <p>{name}</p>
-                <p><button class="button" data-toggle="modal" data-target="#{github}">More Info</button></p>
-                <div class="modal fade" id="{github}" role="dialog" style="display: none;">
+                <img src="/_static/img/{node['img_name']}" alt="{node['name']}">
+                <p>{node['name']}</p>
+                <p><button class="button" data-toggle="modal" data-target="#{key}">More Info</button></p>
+                <div class="modal fade" id="{key}" role="dialog" style="display: none;">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <h4 class="modal-title center">{name}</h4>
+                                <h4 class="modal-title center">{node['name']}</h4>
                             </div>
                             <div class="modal-body">
-                                <p>{desc}</p>
-                                <p>Affiliation: <a href="{aff_link}">{aff_name}</a></p>
-                                <p>Github: <a href="https://github.com/{github}">@{github}</a></p>
-                                <p>Start Date: {date}</p>
+    """
+    self.body.append(body)
+
+
+def depart_card_node(self, node):
+    body = f"""
+                                <p>Affiliation: <a href="{node['aff_link']}">{node['aff_name']}</a></p>
+                                <p>Github: <a href="https://github.com/{node['github']}">{node['github']}</a></p>
+                                <p>Start Date: {node['date']}</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -51,10 +47,6 @@ def visit_card_node(self, node):
             </div></div>"""
 
     self.body.append(body)
-
-
-def depart_card_node(self, node):
-    pass
 
 
 class Card(Directive):
@@ -74,6 +66,10 @@ class Card(Directive):
 
     def run(self):
 
+        if "title" in self.options:
+            title = self.options.get("title")
+        else:
+            title = ""
         if "img_name" in self.options:
             img_name = self.options.get("img_name")
         else:
@@ -81,35 +77,28 @@ class Card(Directive):
         if "github" in self.options:
             github = self.options.get("github")
         else:
-            github = "sunpy"
+            github = ""
         if "aff_name" in self.options:
             aff_name = self.options.get("aff_name")
         else:
-            aff_name = "sunpy"
-        if "title" in self.options:
-            title = self.options.get("title")
-        else:
-            title = ""
+            aff_name = ""
         if "aff_link" in self.options:
             aff_link = self.options.get("aff_link")
         else:
-            aff_link = "sunpy.org"
+            aff_link = ""
         if "date" in self.options:
             date = self.options.get("date")
         else:
-            date = "1066"
+            date = ""
         if "desc" in self.options:
             desc = self.options.get("desc")
         else:
             desc = "N/A"
 
-        if len(self.arguments) == 2:
-            name = self.arguments[0] + " " + self.arguments[1]
-        else:
-            name = self.arguments[0]
+        name = " ".join(self.arguments)
 
-        return [
-            card(
+
+        out = card(
                 name=name,
                 img_name=img_name,
                 title=title,
@@ -119,7 +108,10 @@ class Card(Directive):
                 date=date,
                 desc=desc,
             )
-        ]
+
+        self.state.nested_parse(self.content, 0, out)
+
+        return [out]
 
 
 def setup(app):
