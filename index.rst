@@ -43,8 +43,8 @@ SunPy
    :maxdepth: 0
    :hidden:
 
-   about.rst
-   blog.rst
-   help.rst
-   team.rst
-   contribute.rst
+   about
+   blog
+   help
+   project/index
+   contribute

@@ -1,21 +1,33 @@
-The Project
-===========
+SunPy Project
+=============
 
-The **SunPy project** (also known as the SunPy organization) was founded and defined by `this document`_.
+.. toctree::
+   :hidden:
+
+   self
+   roles
+   affiliated
+
+The **SunPy project** is the organization which maintains the SunPy library and sponsored affiliated packages.
 Its primary goal is to *facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment*.
 
-The organization of a board of directors, a lead developer appointed by the board, community roles and the sunpy and affiliated package developers.
+The organization is described in `this document`_, and consists of a board of directors, a lead developer appointed by the board, community roles and the sunpy and affiliated package developers.
 Anyone is welcome to participate in the SunPy organization.
 The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.
 
-Members of the development community are too numerous to list here but a list of anyone who contributed code to SunPy is available on Github `contributors`_ and for each major release we keep track of who contributed in-between `releases`_.
-
 .. _this document: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
+
+People
+======
+
+In this section we list everyone with a specific role in the project, all the members of the development community are too numerous to list here.
+A list of anyone who contributed code to SunPy is available on Github `contributors`_ and for each major release we keep track of who contributed in-between `releases`_.
+
 .. _contributors: https://github.com/sunpy/sunpy/graphs/contributors
 .. _releases: https://github.com/sunpy/sunpy/blob/master/RELEASE.rst
 
 SunPy Board
-===========
+-----------
 
 .. card:: Steven Christe
     :img_name: steve.png
@@ -97,8 +109,59 @@ SunPy Board
     :date: 7 August 2019
     :desc: Bin Chen is an Associate Professor at New Jersey Institute of Technology in Newark, NJ, affiliated with the Department of Physics and the Center for Solar-Terrestrial Research. He received his Ph.D. in astronomy from University of Virginia in 2013. Prior to his appointment at NJIT, he was an astrophysicist at the Harvard-Smithsonian Center for Astrophysics. His research interests focus on high-energy aspects of solar flares and coronal mass ejections based on observations at radio, X-ray, and other wavelengths. He has been working on instrumentation, software development, and data analysis for radio facilities including the Expanded Owens Valley Solar Array, Karl G. Jansky Very Large Array, and the Atacama Large (sub)Millimeter Array.
 
+
+Minutes of SunPy Board Meetings
+###############################
+
+
+.. raw:: html
+
+              <details>
+                <summary><a>2019 (3)</a></summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190920">Board Meeting 2019-09-20</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190802">Board Meeting 2019-08-02</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190306">Board Meeting 2019-03-06</a></p>
+              </details>
+              <details>
+                <summary><a>2018 (3)</a></summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180905">Board Meeting 2018-09-05</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180610">Board Meeting 2018-06-19</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180221">Board Meeting 2018-02-21</a></p>
+              </details>
+              <details>
+                <summary><a>2017 (6)</a></summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170922">Board Meeting 2017-09-22</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170816">Board Meeting 2017-08-16</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170802">Board Meeting 2017-08-02</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170421">Board Meeting 2017-04-21</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170313">Board Meeting 2017-03-13</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170214">Board Meeting 2017-02-17</a></p>
+              </details>
+              <details>
+                <summary><a>2016 (2)</a></summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20161026">Board Meeting 2016-10-26</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20160507">Board Meeting 2016-05-07</a></p>
+              </details>
+              <details>
+                <summary><a>2015 (3)</a></summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20151207">Board Meeting 2015-12-07</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20150921">Board Meeting 2015-09-21</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20150413">Board Meeting 2015-04-13</a></p>
+              </details>
+              <details>
+                <summary><a>2014 (7)</a></summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20141017">Board Meeting 2014-10-17</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140919">Board Meeting 2014-09-19</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140625">Board Meeting 2014-07-25</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140609">Board Meeting 2014-06-09</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140505">Board Meeting 2014-05-05</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140416">Board Meeting 2014-04-16</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140407">Board Meeting 2014-04-07</a></p>
+              </details>
+
+
 Community Roles
-===============
+---------------
 
 .. card:: Stuart Mumford
     :img_name: stuart.png
@@ -136,28 +199,18 @@ Community Roles
     :date: 17 March 2014
     :desc: David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
 
-Maintainer List
-===============
-The following section list the maintainers for the various
-sub-packages of the core library as well as the documentation maintainers.
-Each area should have at least one but preferably two people identified. To
-enable mentorship the two maintainers could include a lead and a deputy or
-also two co-leads.
-Some roles are currently not filled. We'd like to encourage members of the
-community to inquire about volunteering.
 
-Responsibilities of sub-package maintainers include
+.. _subpackage_maintainers:
 
-* Evaluating and soliciting new pull requests which are consistent with the sub-package scope and contribution standards.
-* Providing material support for open pull requests to enable merging.
-* Maintaining and developing the sub-package roadmap consistent with the roadmap of the overall core package.
-* Mentoring the next generation of maintainers and developers.
+Maintainers
+-----------
 
-Responsibilities of documentation maintainers include
+The following section list the maintainers for the various sub-packages of the core library as well as the documentation maintainers.
 
-* Overseeing and improving content
-* Soliciting and implementing improvements and new additions to the content.
-* Maintaining and improving the documentation infrastructure.
+Each area should have at least one but preferably two people identified.
+To enable mentorship the two maintainers could include a lead and a deputy or also two co-leads.
+Some roles are currently not filled. We'd like to encourage members of the community to inquire about volunteering.
+
 
 .. list-table::
    :widths: 60 60
@@ -209,53 +262,6 @@ Responsibilities of documentation maintainers include
      - `Monica Bobra`_, `Steven Christe`_
 
 
-Affiliated Packages
-===================
-
-An affiliated package is a Python package related to Solar Physics that is not part of the SunPy core library, but can be included in the future as part of the SunPy project’s community.
-
-As a community-driven project SunPy thus encourages contributions from a diverse group of people on building such software that has the potential to be a future **Affiliated SunPy Package.**
-
-Requirements to be satisfied:
-
-*  The package must make use of all appropriate features in the core SunPy library, to reduce code duplication and complexity.
-*  The software must provide documentation that explains the function and use of the package, and this documentation should be of comparable standard to the core SunPy library.
-*  The code should as far as possible provide an easy to run test suite to verify the correct operation of the package.
-*  The developers of an affiliated package should engage with the rest of the SunPy community to encourage knowledge and code sharing within
-   the community.
-
-Please look at `this SEP`_ to read about our policies surrounding affiliated packages.
-Please send an email to the `mailing list`_ to start a dialogue.
-
-.. _this SEP: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0004.md
-.. _mailing list: https://groups.google.com/forum/#!forum/sunpy
-
-.. list-table::
-   :widths: 30 30 30 30
-   :header-rows: 1
-
-   * - Package Name
-     - Description
-     - Documentation
-     - Maintainer
-   * - `ndcube <https://github.com/sunpy/ndcube>`_
-     - A base package for multi-dimensional (non)contiguous coordinate-aware arrays
-     - `ndcube docs <https://docs.sunpy.org/projects/ndcube>`_
-     - `Daniel Ryan`_
-   * - `drms <https://github.com/sunpy/drms>`_
-     -  Access HMI, AIA and MDI data with Python
-     - `drms docs <https://docs.sunpy.org/projects/drms>`_
-     - `Kolja Glogowski`_
-   * - `radiospectra <https://github.com/sunpy/radiospectra>`_
-     -  This package aims to provide support for some type of radiospectra on solar physics
-     - `radiospectra docs <https://docs.sunpy.org/projects/radiospectra>`_
-     - `David Pérez-Suárez`_
-   * - `IRISPy <https://github.com/sunpy/irispy>`_
-     - 	A package for handling data from the IRIS satellite
-     - `IRISPy docs <https://docs.sunpy.org/projects/irispy/en/latest/>`_
-     - `Daniel Ryan`_
-
-
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
 .. _Monica Bobra: https://github.com/mbobra
@@ -269,51 +275,3 @@ Please send an email to the `mailing list`_ to start a dialogue.
 .. _Vishnunarayan K. I.: https://github.com/vn-ki
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Bin Chen: https://github.com/binchensun
-
-Minutes of SunPy Board Meetings
-===============================
-
-.. raw:: html
-
-              <details>
-                <summary>2019 (3)</summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190920">Board Meeting 2019-09-20</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190802">Board Meeting 2019-08-02</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190306">Board Meeting 2019-03-06</a></p>
-              </details>
-              <details>
-                <summary>2018 (3)</summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180905">Board Meeting 2018-09-05</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180610">Board Meeting 2018-06-19</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180221">Board Meeting 2018-02-21</a></p>
-              </details>
-              <details>
-                <summary>2017 (6)</summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170922">Board Meeting 2017-09-22</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170816">Board Meeting 2017-08-16</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170802">Board Meeting 2017-08-02</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170421">Board Meeting 2017-04-21</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170313">Board Meeting 2017-03-13</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170214">Board Meeting 2017-02-17</a></p>
-              </details>
-              <details>
-                <summary>2016 (2)</summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20161026">Board Meeting 2016-10-26</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20160507">Board Meeting 2016-05-07</a></p>
-              </details>
-              <details>
-                <summary>2015 (3)</summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20151207">Board Meeting 2015-12-07</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20150921">Board Meeting 2015-09-21</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20150413">Board Meeting 2015-04-13</a></p>
-              </details>
-              <details>
-                <summary>2014 (7)</summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20141017">Board Meeting 2014-10-17</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140919">Board Meeting 2014-09-19</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140625">Board Meeting 2014-07-25</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140609">Board Meeting 2014-06-09</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140505">Board Meeting 2014-05-05</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140416">Board Meeting 2014-04-16</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140407">Board Meeting 2014-04-07</a></p>
-              </details>

@@ -26,7 +26,7 @@ def visit_card_node(self, node):
     body = f"""<div class="column {col_extra_class}">
                 {title}
                 <div class="card">
-                <img src="_static/img/{img_name}" alt="{name}">
+                <img src="/_static/img/{img_name}" alt="{name}">
                 <p>{name}</p>
                 <p><button class="button" data-toggle="modal" data-target="#{github}">More Info</button></p>
                 <div class="modal fade" id="{github}" role="dialog" style="display: none;">
