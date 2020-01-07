@@ -113,7 +113,7 @@ Community Roles
     :img_name: will.png
     :github: wtbarnes
     :title: Deputy Lead Developer
-    :aff_name: U.S. Naval Research Observatory
+    :aff_name: U.S. Naval Research Laboratory
     :aff_link: https://www.nrl.navy.mil/
     :date: 3 December 2019
     :desc: Will Barnes is a postdoctoral researcher at the Naval Research Laboratory where he studies coronal heating through forward modeling and loop hydrodynamics. Previously, he was a postdoc at the Lockheed Martin Solar and Astrophysics Laboratory. In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw. Prior to his PhD, Will received a BS in astrophysics from Baylor University in 2013.
