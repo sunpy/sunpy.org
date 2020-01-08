@@ -190,7 +190,7 @@ See :ref:`role_descriptions` for more details on each role.
     :img_name: will.png
     :github: wtbarnes
     :title: Deputy Lead Developer
-    :aff_name: U.S. Naval Research Observatory
+    :aff_name: U.S. Naval Research Laboratory
     :aff_link: https://www.nrl.navy.mil/
     :date: 3 December 2019S
 
