@@ -1,5 +1,6 @@
 sphinx
-sunpy-sphinx-theme
+# sunpy-sphinx-theme
+git+git://github.com/cadair/sunpy-sphinx-theme.git#egg=sunpy-sphinx-theme
 ablog
 nbsphinx
 ipython
