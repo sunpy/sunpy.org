@@ -88,7 +88,7 @@ This role is probably upto a 3-5 hour time commitment per week, although it vari
 
 Webmaster
 ---------
-**Nabil Freij**
+**Unfilled**
 
 The webmaster maintains and improves the sunpy.org website, `sunpy-sphinx-theme <https://github.com/sunpy/sunpy-sphinx-theme>`__ and the `ablog <https://github.com/sunpy/ablog/>`__ sphinx plugin.
 This primarily involves:

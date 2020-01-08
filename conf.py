@@ -49,9 +49,7 @@ language = None
 pygments_style = "sphinx"
 
 default_role = "obj"
-
 templates_path += ["_templates"]
-
 html_title = ""
 html_static_path = ["_static"]
 html_theme_options.update(
