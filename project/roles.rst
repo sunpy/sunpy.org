@@ -39,7 +39,7 @@ It is expected that the lead developer(s), assisted by the sub-package maintaine
 -  Ensure releases occur on time and decide on the scope of releases.
 
 
-**Commitment Level**: The lead developer + deputy roles combined need a large time commitment.
+**Commitment Level Required**: High, 10 to 20 hours per week, between the two roles.
 
 .. _role_ci-maintainer:
 
