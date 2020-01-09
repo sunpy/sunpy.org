@@ -15,7 +15,7 @@ The organization is described in `SEP-2`_, and consists of a board of directors,
 Anyone is welcome to participate in the SunPy organization.
 The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.
 
-.. _this document: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
+.. _SEP-2: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
 
 People
 ======
