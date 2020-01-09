@@ -58,7 +58,7 @@ A non-exhaustive list of things involved with this role is:
 -  Updating the tox configurations.
 -  Investigating new CI services and recommending which ones could be useful.
 
-**Commitment Level Required**: Low to Med (3-5 hours per week). This role requires keeping an eye on the core repo and other repos’s PRs to spot issues with the CI systems and builds which needs attention.
+**Commitment Level Required**: Low to Med (3-5 hours per week). This role requires keeping an eye on the core repo and other repos’ PRs to spot issues with the CI systems and builds which needs attention.
 The time commitment is probably around 3-5 hours per week, with additional scope for improving the status quo.
 
 .. _role_release-manager:

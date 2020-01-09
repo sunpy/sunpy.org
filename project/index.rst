@@ -11,7 +11,7 @@ SunPy Project
 The **SunPy project** is the organization which maintains the SunPy library and sponsored affiliated packages.
 Its primary goal is to *facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment*.
 
-The organization is described in `this document`_, and consists of a board of directors, a lead developer appointed by the board, community roles and the sunpy and affiliated package developers.
+The organization is described in `SEP-2`_, and consists of a board of directors, a lead developer appointed by the board, community roles and the sunpy and affiliated package developers.
 Anyone is welcome to participate in the SunPy organization.
 The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.
 
