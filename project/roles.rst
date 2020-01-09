@@ -3,9 +3,9 @@
 Community Role Descriptions
 ===========================
 
-This section describes each of the SunPy projects community (non-board) roles, and lists the current holder(s) of that role.
-Roles with no holder listed are vacant and anyone interested in filling them should contact the lead developer or anyone else with a project role.
-There is no limit to how many people can share the responsibilities of a role, if you are interested in a role which is filled, contact the person and ask how you can assist them.
+This section describes each of the SunPy projects community (executive) roles, and lists the current holder(s) of that role. Community members can also participate by being members of the board.
+We would like to encourage anyone interested parties to apply to roles which are currently unfilled by contacting  the lead developer or the deputy lead developer.
+It is possible for more than one person to share the responsibilities of a role. If you are interested in a role which is filled, contact the individual(s) and ask how you can help.
 
 
 .. _role_lead-dev:
@@ -15,33 +15,31 @@ Lead Developer and Deputy Lead Developer
 
 **Stuart Mumford and Will Barnes (deputy)**
 
-The lead developer (and in their absence their nominated deputy) have overall responsibility for the core package and any sponsored affiliated packages.
-The most important responsibility of the lead developer is to have high availability in the communtiy to answer questions and facilitate all contributions.
+The lead developer team have overall responsibility for the core package and any sponsored affiliated packages.
+The most important responsibility of the lead developer is to lead the developer community. It is therefore important for this role to be available to the community to answer questions and facilitate and direct contributions.
 
-The role of the lead developer is outlined in `SEP-2 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md#the-executive-director>`__ and other SEPs.
-They are:
+The role of the lead developer is outlined in `SEP-2 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md#the-executive-director>`__ and other SEPs. The lead developer team have push privileges to the SunPy repository and maintain ownership of the SunPy GitHub organization and related services.
+Some of the responsibility of the lead developer team are:
 
 -  Hold regular meetings with the developer community (at least monthly).
 -  Make regular reports to the board (at least quarterly).
--  Have push privileges to the SunPy repository and can delegate those privileges.
--  Have ownership privileges to the SunPy GitHub organization and related services.
+-  Select and support sub-package maintainers. Delegate push privileges to the SunPy repository.
 -  Develop and maintain a submission and review process for proposed affiliated packages which must be included in the core library documentation. (`SEP-4 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0004.md#acceptance-process-for-affiliated-packages>`__)
--  Plan a release schedule and present it to the board each calendar year. (`SEP-9 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0009.md#detailed-description>`__)
+-  Plan and execute a release schedule consistent with `SEP-9 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0009.md#detailed-description>`__).
 
-In the governance documents the lead developer is given all the executive responsibilities of running the development side of the SunPy organization.
-This roles page splits up these responsibilities, and other related activities, into many roles to share the workload.
-The lead developer is expected to assist people who have named roles and ensure that they are happy to continue to fill those roles.
+The lead developer is delegated all executive responsibilities of running the development side of the SunPy organization.
+The following roles are identified and delegate the executive responsibilities of the lead developer to share the workload.
+The community and lead developer can define new roles as necessary. It is expected that this team of people work together to support each other and identify new people to fill these roles as needed.
 
-With the roles in this document filled, it is expected that the lead developer(s) perform the following core day-to-day tasks, on the core repo and all sponsored affiliated packages:
+It is expected that the lead developer(s), assisted by the sub-package maintainers, perform the following core day-to-day tasks, on the core repo and all sponsored affiliated packages:
 
--  Reviewing PRs.
--  Triaging issues.
--  Responding to questions on issues, mailing lists and chat.
--  Ensuring releases happen on schedule and making final decisions about what gets included in releases.
+-  Review Pull Requests.
+-  Perform triage on the list of issues.
+-  Respond to users and developers through various communications channels.
+-  Ensure releases occur on time and decide on the scope of releases.
 
 
 **Commitment Level**: The lead developer + deputy roles combined need a large time commitment.
-Between running the weekly meetings and ensuring that PRs are reviewed and issues triaged, the shared time commitment of the two roles is probably between 10 and 20 hours a week.
 
 .. _role_ci-maintainer:
 
@@ -56,11 +54,11 @@ An outline of the current CI services used can be found in `the sunpy documentat
 A non-exhaustive list of things involved with this role is:
 
 -  Maintaining the `Azure pipeline templates <https://github.com/OpenAstronomy/azure-pipelines-templates>`__.
--  Maintaining Read the Docs.
+-  Maintaining the documentation build pipeline (i.e. Read the Docs).
 -  Updating the tox configurations.
 -  Investigating new CI services and recommending which ones could be useful.
 
-**Commitment Level**: This role requires keeping an eye on the core repo and other repos’s PRs to spot issues with the CI systems and builds which needs attention.
+**Commitment Level Required**: Low to Med (3-5 hours per week). This role requires keeping an eye on the core repo and other repos’s PRs to spot issues with the CI systems and builds which needs attention.
 The time commitment is probably around 3-5 hours per week, with additional scope for improving the status quo.
 
 .. _role_release-manager:
@@ -69,19 +67,18 @@ Release Manager
 ---------------
 **Unfilled**
 
-The release manager is responsible for cuting releases of SunPy core,
+The release manager is responsible for the logistics of SunPy core releases,
 and assisting with releases of affiliated packages as required. This
 comprises of the following main tasks:
 
--  Ensuring that PRs which need backporting into release branches are backported.
--  Maintaining the CI on release branches.
--  Following the `release checklist <https://github.com/sunpy/sunpy/wiki/Home%3A-Release-Checklist>`__ to make releases.
--  Maintaining the release checklist with updates to the process.
--  Announcing the release to social media, mailing lists and blogs etc.
+-  Ensuring that PRs are backported as appropriate.
+-  Working with the CI maintainer to maintain the CI on release branches.
+-  Following, maintaining, and improving the `release checklist <https://github.com/sunpy/sunpy/wiki/Home%3A-Release-Checklist>`__ for each release.
+-  Notifying the Communications Lead of new releases.
 -  Maintaing the automated release pipeline.
 -  Maintaining the conda-forge packages for core and affiliated packages.
 
-**Commitment Level**: The main component of this role is monitoring PRs which get milestoned to be backported to release branches and ensuring the backports happen correctly, and releasing bug fix versions.
+**Commitment Level Required**: Low (3-5 hours/week). The main component of this role is monitoring PRs which get milestoned to be backported to release branches and ensuring the backports happen correctly, and releasing bug fix versions.
 This role is probably upto a 3-5 hour time commitment per week, although it varies based on the SunPy release schedule.
 
 .. _role_webmaster:
@@ -94,7 +91,7 @@ The webmaster maintains and improves the sunpy.org website, `sunpy-sphinx-theme 
 This primarily involves:
 
 -  Reviewing pull requests and issues on these repositories.
--  Making releases of the theme and ablog.
+-  Maintaining and improving the website theme and ablog.
 -  Updating the website as needed.
 -  Implementing analytics on the website and docs.
 
@@ -135,7 +132,7 @@ This involves:
 -  Finding other suitable mentors and pairing them with mentees.
 -  Leading the project’s interaction with the Open Astronomy organization for the Google Summer of Code project.
 
-**Commitment Level**: This role is seasonal, the peak time for newcomers to the project is during the lead up to GSOC (Feb - April) and Hacktoberfest (October).
+**Commitment Level Required**: Low (3 to 5 hours/week). This role is currently highly seasonal as the peak time for newcomers to the project is during the lead up to GSOC (Feb - April) and Hacktoberfest (October).
 During these times the time commitment is probably upwards of 5 hours a week.
 There is also a lot of scope for improving our onboarding process as part of this role.
 
@@ -155,7 +152,7 @@ Communication and Education Lead
 -  Maintains a list of ideas for tutorials and solicits members of the community to develop tutorials according to set standards.
 -  Provides any input or guidance to the board Chair about the Code of Conduct.
 
-**Commitment Level**: This role requires 2-3 hours of effort per week, with a lot of scope for developing new community engagement methods.
+**Commitment Level Required**: Low (2-3 hours / week). This role has a lot of scope for developing new community engagement methods.
 
 .. _role_affiliated-liaison:
 
