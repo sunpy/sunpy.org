@@ -39,7 +39,7 @@ It is expected that the lead developer(s), assisted by the sub-package maintaine
 -  Ensure releases occur on time and decide on the scope of releases.
 
 
-**Commitment Level Required**: High, 10 to 20 hours per week, between the two roles.
+**Estimated Commitment Level**: The lead developer roles require a large commitment, between 10 to 20 hours per week, between the two roles.
 
 .. _role_ci-maintainer:
 
@@ -58,7 +58,7 @@ A non-exhaustive list of things involved with this role is:
 -  Updating the tox configurations.
 -  Investigating new CI services and recommending which ones could be useful.
 
-**Commitment Level Required**: Low to Med (3-5 hours per week). This role requires keeping an eye on the core repo and other repos’ PRs to spot issues with the CI systems and builds which needs attention.
+**Estimated Commitment Level**: 3-5 hours per week. This role requires keeping an eye on the core repo and other repos’ PRs to spot issues with the CI systems and builds which needs attention.
 The time commitment is probably around 3-5 hours per week, with additional scope for improving the status quo.
 
 .. _role_release-manager:
@@ -78,8 +78,7 @@ comprises of the following main tasks:
 -  Maintaing the automated release pipeline.
 -  Maintaining the conda-forge packages for core and affiliated packages.
 
-**Commitment Level Required**: Low (3-5 hours/week). The main component of this role is monitoring PRs which get milestoned to be backported to release branches and ensuring the backports happen correctly, and releasing bug fix versions.
-This role is probably upto a 3-5 hour time commitment per week, although it varies based on the SunPy release schedule.
+**Estimated Commitment Level**: 3-5 hours/week. The main component of this role is monitoring PRs which get milestoned to be backported to release branches and ensuring the backports happen correctly, and releasing bug fix versions.
 
 .. _role_webmaster:
 
@@ -95,6 +94,8 @@ This primarily involves:
 -  Updating the website as needed.
 -  Implementing analytics on the website and docs.
 
+
+**Estimated Commitment Level**: Around 1 hour per week, but comes in bursts as PRs are opened.
 
 .. _role_subpackage-maintainer:
 
@@ -132,8 +133,8 @@ This involves:
 -  Finding other suitable mentors and pairing them with mentees.
 -  Leading the project’s interaction with the Open Astronomy organization for the Google Summer of Code project.
 
-**Commitment Level Required**: Low (3 to 5 hours/week). This role is currently highly seasonal as the peak time for newcomers to the project is during the lead up to GSOC (Feb - April) and Hacktoberfest (October).
-During these times the time commitment is probably upwards of 5 hours a week.
+**Estimated Commitment Level**: 5 hours/week. This role is highly seasonal as the peak time for newcomers to the project is during the lead up to GSOC (Feb - April) and Hacktoberfest (October).
+During these times the time commitment is probably around 5 hours per week, at other times it will be less.
 There is also a lot of scope for improving our onboarding process as part of this role.
 
 .. _role_comms-lead:
@@ -152,7 +153,7 @@ Communication and Education Lead
 -  Maintains a list of ideas for tutorials and solicits members of the community to develop tutorials according to set standards.
 -  Provides any input or guidance to the board Chair about the Code of Conduct.
 
-**Commitment Level Required**: Low (2-3 hours / week). This role has a lot of scope for developing new community engagement methods.
+**Estimated Commitment Level**: 2-3 hours / week. This role has a lot of scope for developing new community engagement methods.
 
 .. _role_affiliated-liaison:
 
