@@ -49,7 +49,7 @@ language = None
 pygments_style = "sphinx"
 
 default_role = "obj"
-
+templates_path += ["_templates"]
 html_title = ""
 html_static_path = ["_static"]
 html_theme_options.update(
@@ -74,7 +74,10 @@ html_sidebars = {
     "blog/**": ["searchbox.html", "categories.html", "archives.html"],
     "help": ["localtoc.html"],
     "posts/**": ["postcard.html"],
-    "team": ["localtoc.html"],
+    # Sphinx dosen't seem to support toctrees relative to an index, so I hacked it.
+    "project/index": ["projecttoc.html"],
+    "project/roles": ["rolestoc.html"],
+    "project/affiliated": ["affiliatedtoc.html"],
 }
 
 # nbsphinx options

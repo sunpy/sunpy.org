@@ -16,7 +16,7 @@ This enables the targeted support of other solar physics Python packages that do
 
 We are proud to be a `NUMFocus`_ sponsored project and have been supported by `ESA`_, `PSF`_ and `Google`_ to name a few.
 SunPy has become a global project that is not associated with any individual institution.
-More information about the SunPy project can be find :doc:`./team`.
+More information about the SunPy project can be find :doc:`./project/index`.
 
 .. _Python programming language: https://www.python.org/
 .. _NumPy: https://www.numpy.org/
