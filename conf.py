@@ -100,6 +100,6 @@ nbsphinx_prolog = r"""
 
 
 urlretrieve(
-    "https://raw.githubusercontent.com/sunpy/sunpy/master/CITATION.rst",
+    "https://raw.githubusercontent.com/sunpy/sunpy/master/sunpy/CITATION.rst",
     filename="CITATION.rst",
 )
