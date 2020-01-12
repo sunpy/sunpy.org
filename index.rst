@@ -27,7 +27,7 @@ SunPy
                     </div>
                     <p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
                     <div id="front" class="border">
-                    <p class="whatsnew">What's new in <a href="https://docs.sunpy.org/en/stable/whatsnew/1.0.html">SunPy 1.0?</a></p>
+                    <p class="whatsnew">What's new in <a href="https://docs.sunpy.org/en/stable/whatsnew/1.1.html">SunPy 1.1?</a></p>
                     <p class="body">Latest stable release: <span id="version"></span></p>
                     </div>
                     <div>
