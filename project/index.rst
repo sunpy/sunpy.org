@@ -192,7 +192,7 @@ See :ref:`role_descriptions` for more details on each role.
     :title: Deputy Lead Developer
     :aff_name: U.S. Naval Research Laboratory
     :aff_link: https://www.nrl.navy.mil/
-    :date: 3 December 2019S
+    :date: 3 December 2019
 
     Will Barnes is a postdoctoral researcher at the Naval Research Laboratory where he studies coronal heating through forward modeling and loop hydrodynamics. Previously, he was a postdoc at the Lockheed Martin Solar and Astrophysics Laboratory. In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw. Prior to his PhD, Will received a BS in astrophysics from Baylor University in 2013.
 
@@ -266,8 +266,6 @@ Some roles are currently not filled. We'd like to encourage members of the commu
 
    * - Sub-package
      - Name(s)
-   * - sunpy.cm
-     - `Jack Ireland`_
    * - sunpy.coordinates
      - `Albert Shih`_, `Stuart Mumford`_
    * - sunpy.database
