@@ -53,7 +53,7 @@ You will find the many SunPy users and the developers within the channel.
 
 If you are using IRC hosted on `freenode`_, then you can join the same channel (bridged into matrix) by joining the (#sunpy) channel on freenode.
 
-.. _riot channel: https://riot.im/app/#/room/#sunpy-general:matrix.org
+.. _riot channel: https://openastronomy.riot.im/#/room/#sunpy:openastronomy.org
 .. _Matrix: https://matrix.org/
 .. _freenode: https://freenode.net/
 
