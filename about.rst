@@ -1,17 +1,17 @@
 Our Mission
 ===========
 
-SunPy is a community-developed free and open-source software package for solar physics.
-It aims to be provide a comprehensive data analysis environment that allows researchers within the field of solar physics to carry out their tasks with the minimal effort.
+sunpy is a community-developed free and open-source software package for solar physics.
+It aims to be a comprehensive data analysis environment that allows researchers within the field of solar physics to carry out their tasks with the minimal effort.
 
-SunPy is written using the `Python programming language`_ and is build upon the scientific Python environment which includes several core packages such as `NumPy`_, `SciPy`_, `Matplotlib`_ and `Pandas`_.
-Since SunPy deals with key astrophysical concepts, its development is closely associated with that of `Astropy`_, which is a fundamental package within the Python astronomy ecosystem.
+sunpy is written using the `Python programming language`_ and is build upon the scientific Python environment which includes several core packages such as `NumPy`_, `SciPy`_, `Matplotlib`_ and `Pandas`_.
+Since sunpy deals with key astrophysical concepts, its development is closely associated with that of `Astropy`_, which is a fundamental package within the Python astronomy ecosystem.
 
-The SunPy package was established on the 28th of March 2011 by a small group of scientists and developers at the `NASA Goddard Space Flight Center`_.
+The sunpy package was established on the 28th of March 2011 by a small group of scientists and developers at the `NASA Goddard Space Flight Center`_.
 Since that time, SunPy have grown from this small group into large community python package.
 
-Furthermore, the SunPy project was established in order to further the goals of the SunPy package.
-The SunPy project (also known as the Sunpy organization)wants to provide the software tools necessary so that anyone can analyze the ever increasing catalogue of solar data.
+Furthermore, the SunPy project was established in order to further the goals of the sunpy package.
+The SunPy project (also known as the Sunpy organization) wants to provide the software tools necessary so that anyone can analyze the ever increasing catalogue of solar data.
 This enables the targeted support of other solar physics Python packages that do not fall within the scope of the core SunPy package.
 
 We are proud to be a `NUMFocus`_ sponsored project and have been supported by `ESA`_, `PSF`_ and `Google`_ to name a few.
