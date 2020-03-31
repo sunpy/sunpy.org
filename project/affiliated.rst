@@ -1,19 +1,21 @@
 Affiliated Packages
 ===================
 
-An affiliated package is a Python package related to Solar Physics that is not part of the SunPy core library, but can be included in the future as part of the SunPy project’s community.
+An affiliated package is a Python package related to Solar Physics that is not part of the sunpy core library, and is not managed by the SunPy project but is a part of the SunPy Project community.
 
-As a community-driven project SunPy thus encourages contributions from a diverse group of people on building such software that has the potential to be a future **Affiliated SunPy Package**.
+*What are the benifits of this?*
 
 Requirements to be satisfied:
 
-*  The package must make use of all appropriate features in the core SunPy library, to reduce code duplication and complexity.
-*  The software must provide documentation that explains the function and use of the package, and this documentation should be of comparable standard to the core SunPy library.
-*  The code should as far as possible provide an easy to run test suite to verify the correct operation of the package.
-*  The developers of an affiliated package should engage with the rest of the SunPy community to encourage knowledge and code sharing within
-   the community.
+*  The package must make use of and build on appropriate features in the core SunPy library.
+*  The software must provide documentation that explains the function and use of the package.
+*  The code should provide an easy to run test suite.
 
 Please look at `SEP-4`_ to read about our policies surrounding affiliated packages.
+
+Applying for affiliated status
+------------------------------
+
 Please send an email to `our mailing list`_ to start a dialogue.
 
 .. _SEP-4: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0004.md
