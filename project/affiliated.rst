@@ -349,6 +349,12 @@ Existing provisional affiliated will be reviewed once per year by the
 editors. They must still be working towards meeting the rest of the
 review criteria.
 
+
+Acknowledgements
+~~~~~~~~~~~~~~~~
+
+Sections of this page are heavily inspired by the Astropy affiliated package review process.
+
 .. |general| image:: https://img.shields.io/badge/General_Package-brightgreen.svg
 .. |specialized| image:: https://img.shields.io/badge/Specialized_Package-brightgreen.svg
 .. |notrelevant| image:: https://img.shields.io/badge/Not_Relevant-red.svg
