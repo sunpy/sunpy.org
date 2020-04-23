@@ -2,6 +2,18 @@
 SunPy Affiliated Packages
 =========================
 
+What is an affiliated package?
+==============================
+
+Affiliated packages are well-maintained, open source software packages
+that are useful to solar physicists and integrate well with the SunPy
+ecosystem. To aid discoverability, all affiliated packages are listed on
+the SunPy website, and they are advertised at national and international
+conferences and workshops.
+
+A SunPy sponsored package is an affiliated package that is maintained
+and governed by the SunPy project.
+
 Sponsored Packages
 ==================
 
@@ -69,26 +81,23 @@ This package aims to provide support for some type of radiospectra on solar phys
      - `David Pérez-Suárez`_
      -
 
+Affiliated Packages
+===================
+
+Your package here!!
+
+
+
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
 .. _Kolja Glogowski: https://github.com/kbg
 .. _Stuart Mumford: https://github.com/Cadair
 
 
-Affiliated Packages
-===================
+Affiliated Package Review
+=========================
 
-What is an affiliated package?
-------------------------------
-
-Affiliated packages are well-maintained, open source software packages
-that are useful to solar physicists and integrate well with the SunPy
-ecosystem. To aid discoverability, all affiliated packages are listed on
-the SunPy website, and they are advertised at national and international
-conferences and workshops.
-
-A SunPy sponsored package is an affiliated package that is maintained
-and governed by the SunPy project.
+Affiliated packages are reviewed before they are accepted for listing on this page.
 
 Review Criteria
 ---------------
@@ -116,57 +125,57 @@ Relevant and Useful Functionality
 Integration
 ~~~~~~~~~~~
 
-+--------------+-----------------------------------------------------+
-| Status       | Meaning                                             |
-+==============+=====================================================+
-| |well|       | Uses appropriate features in the                    |
-|              | core package and integrates well                    |
-|              | within the affiliated package                       |
-|              | ecosystem (e.g. depends on                          |
-|              | appropriate dependencies, uses                      |
-|              | appropriate data structures).                       |
-+--------------+-----------------------------------------------------+
-| |partially|  | Uses some features of the core                      |
-|              | library, but could integrate                        |
-|              | better with the affiliated                          |
-|              | package ecosystem.                                  |
-+--------------+-----------------------------------------------------+
-| |minimal|    | Does not use many features of the                   |
-|              | core library and does not                           |
-|              | integrate well within the                           |
-|              | affiliated package ecosystem.                       |
-+--------------+-----------------------------------------------------+
++---------------+-----------------------------------------------------+
+| Status        | Meaning                                             |
++===============+=====================================================+
+| |well|        | Uses appropriate features in the                    |
+|               | core package and integrates well                    |
+|               | within the affiliated package                       |
+|               | ecosystem (e.g. depends on                          |
+|               | appropriate dependencies, uses                      |
+|               | appropriate data structures).                       |
++---------------+-----------------------------------------------------+
+| |partially|   | Uses some features of the core                      |
+|               | library, but could integrate                        |
+|               | better with the affiliated                          |
+|               | package ecosystem.                                  |
++---------------+-----------------------------------------------------+
+| |minimal|     | Does not use many features of the                   |
+|               | core library and does not                           |
+|               | integrate well within the                           |
+|               | affiliated package ecosystem.                       |
++---------------+-----------------------------------------------------+
 
 Documentation
 ~~~~~~~~~~~~~
 
-+--------------+-----------------------------------------------------+
-| Status       | Meaning                                             |
-+==============+=====================================================+
-| |extensive|  | Extensive online                                    |
-|              | documentation, all public API                       |
-|              | has docstrings describing the                       |
-|              | code’s purpose, all inputs and                      |
-|              | outputs, and providing                              |
-|              | examples. Provides high level                       |
-|              | documentation; for example, a                       |
-|              | user guide and/or an example                        |
-|              | gallery.                                            |
-+--------------+-----------------------------------------------------+
-| |some|       | Some online documentation. The                      |
-|              | public API is documented, but                       |
-|              | may have some missing or                            |
-|              | incomplete docstrings. The                          |
-|              | documentation is missing                            |
-|              | guides, tutorials or other                          |
-|              | high level documentation.                           |
-+--------------+-----------------------------------------------------+
-| |little|     | Little to no online                                 |
-|              | documentation is provided in                        |
-|              | the version control                                 |
-|              | repository. No guides or                            |
-|              | tutorials.                                          |
-+--------------+-----------------------------------------------------+
++---------------+-----------------------------------------------------+
+| Status        | Meaning                                             |
++===============+=====================================================+
+| |extensive|   | Extensive online                                    |
+|               | documentation, all public API                       |
+|               | has docstrings describing the                       |
+|               | code’s purpose, all inputs and                      |
+|               | outputs, and providing                              |
+|               | examples. Provides high level                       |
+|               | documentation; for example, a                       |
+|               | user guide and/or an example                        |
+|               | gallery.                                            |
++---------------+-----------------------------------------------------+
+| |some|        | Some online documentation. The                      |
+|               | public API is documented, but                       |
+|               | may have some missing or                            |
+|               | incomplete docstrings. The                          |
+|               | documentation is missing                            |
+|               | guides, tutorials or other                          |
+|               | high level documentation.                           |
++---------------+-----------------------------------------------------+
+| |little|      | Little to no online                                 |
+|               | documentation is provided in                        |
+|               | the version control                                 |
+|               | repository. No guides or                            |
+|               | tutorials.                                          |
++---------------+-----------------------------------------------------+
 
 Testing
 ~~~~~~~
