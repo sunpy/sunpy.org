@@ -102,8 +102,8 @@ Affiliated packages are reviewed before they are accepted for listing on this pa
 Review Criteria
 ---------------
 
-Relevant and Useful Functionality
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Functionality
+~~~~~~~~~~~~~
 
 +---------------+----------------------------------------------------+
 |  Status       | Meaning                                            |
@@ -213,7 +213,7 @@ Duplication
 |               | affiliated packages, or other                       |
 |               | relevant packages. Builds on top                    |
 |               | of the affiliated package                           |
-|               | exosystem.                                          |
+|               | ecosystem.                                          |
 +---------------+-----------------------------------------------------+
 | |good|        | Some code or functionality                          |
 |               | duplication, functionality                          |
@@ -223,8 +223,8 @@ Duplication
 |               | functionality.                                      |
 +---------------+-----------------------------------------------------+
 
-Community Engagement
-~~~~~~~~~~~~~~~~~~~~
+Engagement
+~~~~~~~~~~
 
 +---------------+-----------------------------------------------------+
 | Status        | Meaning                                             |
@@ -255,9 +255,8 @@ Community Engagement
 |               | used.                                               |
 +---------------+-----------------------------------------------------+
 
-Maturity and Development Status
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Development Status
+~~~~~~~~~~~~~~~~~~
 
 +---------------+-----------------------------------------------------+
 | Status        | Meaning                                             |
@@ -369,23 +368,23 @@ Sections of this page are heavily inspired by the Astropy affiliated package rev
 .. |needs_work| image:: https://img.shields.io/badge/Needs_Work-red.svg
 
 .. |package_general| image:: https://img.shields.io/badge/Functionality-General_Package-brightgreen.svg
-.. |package_specialized| image:: https://img.shields.io/badge/Specialized_Package-brightgreen.svg
-.. |package_not_relevant| image:: https://img.shields.io/badge/Not_Relevant-red.svg
-.. |integration_well| image:: https://img.shields.io/badge/Well_Integrated-brightgreen.svg
-.. |integration_partially| image:: https://img.shields.io/badge/Partially_Integrated-orange.svg
-.. |integration_minimal| image:: https://img.shields.io/badge/Minimal_Integration-red.svg
-.. |docs_extensive| image:: https://img.shields.io/badge/Extensive-brightgreen.svg
-.. |docs_some| image:: https://img.shields.io/badge/Some-orange.svg
-.. |docs_little| image:: https://img.shields.io/badge/Little-red.svg
-.. |tests_excellent| image:: https://img.shields.io/badge/Excellent-brightgreen.svg
-.. |tests_good| image:: https://img.shields.io/badge/Good-orange.svg
-.. |tests_needs_work| image:: https://img.shields.io/badge/Needs_Work-red.svg
-.. |duplication_excellent| image:: https://img.shields.io/badge/Excellent-brightgreen.svg
-.. |duplication_good| image:: https://img.shields.io/badge/Good-orange.svg
-.. |duplication_needs_work| image:: https://img.shields.io/badge/Needs_Work-red.svg
-.. |community_excellent| image:: https://img.shields.io/badge/Excellent-brightgreen.svg
-.. |community_good| image:: https://img.shields.io/badge/Good-orange.svg
-.. |community_needs_work| image:: https://img.shields.io/badge/Needs_Work-red.svg
-.. |dev_excellent| image:: https://img.shields.io/badge/Excellent-brightgreen.svg
-.. |dev_good| image:: https://img.shields.io/badge/Good-orange.svg
-.. |dev_needs_work| image:: https://img.shields.io/badge/Needs_Work-red.svg
+.. |package_specialized| image:: https://img.shields.io/badge/Functionality-Specialized_Package-brightgreen.svg
+.. |package_not_relevant| image:: https://img.shields.io/badge/Functionality-Not_Relevant-red.svg
+.. |integration_well| image:: https://img.shields.io/badge/Integration-Well_Integrated-brightgreen.svg
+.. |integration_partially| image:: https://img.shields.io/badge/Integration-Partially_Integrated-orange.svg
+.. |integration_minimal| image:: https://img.shields.io/badge/Integration-Minimal_Integration-red.svg
+.. |docs_extensive| image:: https://img.shields.io/badge/Documentation-Extensive-brightgreen.svg
+.. |docs_some| image:: https://img.shields.io/badge/Documentation-Some-orange.svg
+.. |docs_little| image:: https://img.shields.io/badge/Documentation-Little-red.svg
+.. |tests_excellent| image:: https://img.shields.io/badge/Testing-Excellent-brightgreen.svg
+.. |tests_good| image:: https://img.shields.io/badge/Testing-Good-orange.svg
+.. |tests_needs_work| image:: https://img.shields.io/badge/Testing-Needs_Work-red.svg
+.. |duplication_excellent| image:: https://img.shields.io/badge/Duplication-Excellent-brightgreen.svg
+.. |duplication_good| image:: https://img.shields.io/badge/Duplication-Good-orange.svg
+.. |duplication_needs_work| image:: https://img.shields.io/badge/Duplication-Needs_Work-red.svg
+.. |community_excellent| image:: https://img.shields.io/badge/Engagement-Excellent-brightgreen.svg
+.. |community_good| image:: https://img.shields.io/badge/Engagement-Good-orange.svg
+.. |community_needs_work| image:: https://img.shields.io/badge/Engagement-Needs_Work-red.svg
+.. |dev_excellent| image:: https://img.shields.io/badge/Development_Status-Excellent-brightgreen.svg
+.. |dev_good| image:: https://img.shields.io/badge/Development_Status-Good-orange.svg
+.. |dev_needs_work| image:: https://img.shields.io/badge/Development_Status-Needs_Work-red.svg
