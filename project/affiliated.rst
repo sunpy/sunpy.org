@@ -208,18 +208,18 @@ Duplication
 +---------------+-----------------------------------------------------+
 | Status        | Meaning                                             |
 +===============+=====================================================+
-| |excellent|   | No code or functionality is                         |
+| |none|        | No code or functionality is                         |
 |               | duplicated from core other                          |
 |               | affiliated packages, or other                       |
 |               | relevant packages. Builds on top                    |
 |               | of the affiliated package                           |
 |               | ecosystem.                                          |
 +---------------+-----------------------------------------------------+
-| |good|        | Some code or functionality                          |
+| |some|        | Some code or functionality                          |
 |               | duplication, functionality                          |
 |               | already exists in the ecosystem.                    |
 +---------------+-----------------------------------------------------+
-| |needs_work|  | Duplicates major existing                           |
+| |major|       | Duplicates major existing                           |
 |               | functionality.                                      |
 +---------------+-----------------------------------------------------+
 
@@ -366,6 +366,9 @@ Sections of this page are heavily inspired by the Astropy affiliated package rev
 .. |excellent| image:: https://img.shields.io/badge/Excellent-brightgreen.svg
 .. |good| image:: https://img.shields.io/badge/Good-orange.svg
 .. |needs_work| image:: https://img.shields.io/badge/Needs_Work-red.svg
+.. |none| image:: https://img.shields.io/badge/None-brightgreen.svg
+.. |major| image:: https://img.shields.io/badge/Major-red.svg
+
 
 .. |package_general| image:: https://img.shields.io/badge/Functionality-General_Package-brightgreen.svg
 .. |package_specialized| image:: https://img.shields.io/badge/Functionality-Specialized_Package-brightgreen.svg
@@ -379,9 +382,9 @@ Sections of this page are heavily inspired by the Astropy affiliated package rev
 .. |tests_excellent| image:: https://img.shields.io/badge/Testing-Excellent-brightgreen.svg
 .. |tests_good| image:: https://img.shields.io/badge/Testing-Good-orange.svg
 .. |tests_needs_work| image:: https://img.shields.io/badge/Testing-Needs_Work-red.svg
-.. |duplication_excellent| image:: https://img.shields.io/badge/Duplication-Excellent-brightgreen.svg
-.. |duplication_good| image:: https://img.shields.io/badge/Duplication-Good-orange.svg
-.. |duplication_needs_work| image:: https://img.shields.io/badge/Duplication-Needs_Work-red.svg
+.. |duplication_none| image:: https://img.shields.io/badge/Duplication-None-brightgreen.svg
+.. |duplication_some| image:: https://img.shields.io/badge/Duplication-Some-orange.svg
+.. |duplication_major| image:: https://img.shields.io/badge/Duplication-Major-red.svg
 .. |community_excellent| image:: https://img.shields.io/badge/Engagement-Excellent-brightgreen.svg
 .. |community_good| image:: https://img.shields.io/badge/Engagement-Good-orange.svg
 .. |community_needs_work| image:: https://img.shields.io/badge/Engagement-Needs_Work-red.svg
