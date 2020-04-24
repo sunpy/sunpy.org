@@ -143,9 +143,8 @@ Integration
 |               | appropriate data structures).                       |
 +---------------+-----------------------------------------------------+
 | |partially|   | Uses some features of the core                      |
-|               | library, but could integrate                        |
-|               | better with the affiliated                          |
-|               | package ecosystem.                                  |
+|               | library and affiliated package ecosystem, but could |
+|               | integrate better or use more features.              |
 +---------------+-----------------------------------------------------+
 | |minimal|     | Does not use many features of the                   |
 |               | core library and does not                           |

@@ -31,11 +31,11 @@ about: Submit a new affiliated package for inclusion on the SunPy affiliated pac
 Please copy the following and select the ranking for each criteria, the full review criteria can be found here: 
 
 ```
-* Relevant and Useful Functionality    : General Package / Specalized Package / Not Relevant
-* Make use of all appropriate features : Well integrated / Partially Integrated / Minimal Integration
-* Documentation                        : Extensive / Some / Little
-* Testing                              : Excellent / Good / Needs Work
-* Duplication                          : Excellent / Good / Needs Work
-* Community Engagement                 : Excellent / Good / Needs Work
-* Maturity and Development Status      : Excellent / Good / Needs Work
+* Functionality           : General Package / Specalized Package / Not Relevant
+* Integration             : Well integrated / Partially Integrated / Minimal Integration
+* Documentation           : Extensive / Some / Little
+* Testing                 : Excellent / Good / Needs Work
+* Duplication             : Excellent / Good / Needs Work
+* Community               : Excellent / Good / Needs Work
+* Development Status      : Excellent / Good / Needs Work
 ```
