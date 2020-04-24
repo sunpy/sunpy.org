@@ -32,6 +32,7 @@ A core package for solar physics in Python.
    * - `Docs <https://docs.sunpy.org/>`__, `Code <https://github.com/sunpy/sunpy>`__
      - The SunPy Community
      - |package_general| |integration_well| |docs_extensive| |tests_excellent| |duplication_excellent| |community_excellent| |dev_excellent|
+     - :ref:`The SunPy Community <subpackage_maintainers>`
 
 
 NDCube
