@@ -308,8 +308,8 @@ Open review process
 -------------------
 
 The review process for becoming a SunPy affiliated package is supposed
-to be approachable, lightweight and open. Reviews are conducted by
-GitHub pull requests on the https://github.com/sunpy/sunpy.org
+to be approachable, lightweight and open. Reviews are conducted in
+GitHub issues on the https://github.com/sunpy/sunpy.org
 repository.
 
 Steps for Getting New Packages Reviewed
