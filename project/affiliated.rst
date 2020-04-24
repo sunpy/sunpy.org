@@ -200,7 +200,7 @@ Testing
 |               | classes) as well as providing                       |
 |               | integration tests. Code coverage                    |
 |               | is good. Testing is automated and                   |
-|               | runs frequently.                                     |
+|               | runs frequently.                                    |
 +---------------+-----------------------------------------------------+
 | |good|        | Unit tests of individual                            |
 |               | components (e.g. functions,                         |
@@ -303,11 +303,10 @@ Outcomes
 +---------------+-----------------------------------------------------+
 | Outcomes      | Meaning                                             |
 +===============+=====================================================+
-| Accepted      | Affiliated packages are only                        |
-|               | accepted into the list if there                     |
-|               | are no red scores and at least                      |
-|               | one green in any category except                    |
-|               | relevant and useful.                                |
+| Accepted      | To be accepted, affiliated packages must have a     |
+|               | green score in both the relevant and useful         |
+|               | categories, and at least one other. They must also  |
+|               | have no red scores.                                 |
 +---------------+-----------------------------------------------------+
 | Provisional   | After review a package is listed as                 |
 |               | provisional, as long as it is                       |
