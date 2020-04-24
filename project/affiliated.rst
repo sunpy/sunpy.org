@@ -200,7 +200,7 @@ Testing
 |               | classes) as well as providing                       |
 |               | integration tests. Code coverage                    |
 |               | is good. Testing is automated and                   |
-|               | run frequently.                                     |
+|               | runs frequently.                                     |
 +---------------+-----------------------------------------------------+
 | |good|        | Unit tests of individual                            |
 |               | components (e.g. functions,                         |
