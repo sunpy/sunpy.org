@@ -239,7 +239,7 @@ Community
 +---------------+-----------------------------------------------------+
 | |needs_work|  | Code is maintained in hosted                        |
 |               | version control, but decisions                      |
-|               | are often made without community or feedback.       |
+|               | are often made without community input or feedback. |
 |               | Lacks a Code of Conduct. It is                      |
 |               | not clear how to make a                             |
 |               | contribution or whether                             |
