@@ -30,9 +30,8 @@ A core package for solar physics in Python.
      - Maintainer(s)
      - Review
    * - `Docs <https://docs.sunpy.org/>`__, `Code <https://github.com/sunpy/sunpy>`__
-     - The SunPy Community
-     - |package_general| |integration_well| |docs_extensive| |tests_excellent| |duplication_excellent| |community_excellent| |dev_excellent|
      - :ref:`The SunPy Community <subpackage_maintainers>`
+     - |package_general| |integration_well| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
 
 NDCube
@@ -262,21 +261,22 @@ Development Status
 +---------------+-----------------------------------------------------+
 | Status        | Meaning                                             |
 +===============+=====================================================+
-| |excellent|   | Public API stable, beaking                          |
-|               | changes limited to across                           |
-|               | released versions, formal                           |
-|               | development and release process                     |
-|               | producing stable versioned                          |
-|               | releases.                                           |
+| |stable|      | Package is actively developed, contributions are    |
+|               | responded to by the developers. API stability is    |
+|               | prioritised and regular versioned releases          |
+|               | are made, with any breaking changes well documented.|
 +---------------+-----------------------------------------------------+
-| |good|        | Public API mostly stable,                           |
-|               | informal development and release                    |
-|               | process producing stable                            |
-|               | versioned releases.                                 |
+| |rapid_dev|   | Package is has active but rapid                     |
+|               | development, so large API changes might be frequent.|
+|               | Contributions are responded to by the developers.   |
+|               | Versioned releases exist and changes are documented.|
 +---------------+-----------------------------------------------------+
-| |needs_work|  | Public API rapidly changing, no                     |
-|               | established development, release,                   |
-|               | deprecation processes.                              |
+||low_activity| | Package is functional but with little activity from |
+|               | the developers. The package has versioned releases  |
+|               | and is still functional.                            |
++---------------+-----------------------------------------------------+
+| |needs_work|  | Package is no longer maintained and is not          |
+|               | functional.                                         |
 +---------------+-----------------------------------------------------+
 
 Outcomes
@@ -364,11 +364,14 @@ Sections of this page are heavily inspired by the Astropy affiliated package rev
 .. |extensive| image:: https://img.shields.io/badge/Extensive-brightgreen.svg
 .. |some| image:: https://img.shields.io/badge/Some-orange.svg
 .. |little| image:: https://img.shields.io/badge/Little-red.svg
+.. |none| image:: https://img.shields.io/badge/None-brightgreen.svg
+.. |major| image:: https://img.shields.io/badge/Major-red.svg
+.. |stable| image:: https://img.shields.io/badge/Stable-brightgreen.svg
+.. |rapid_dev| image:: https://img.shields.io/badge/Rapid_Development-orange.svg
+.. |low_activity| image:: https://img.shields.io/badge/Low_activity-orange.svg
 .. |excellent| image:: https://img.shields.io/badge/Excellent-brightgreen.svg
 .. |good| image:: https://img.shields.io/badge/Good-orange.svg
 .. |needs_work| image:: https://img.shields.io/badge/Needs_Work-red.svg
-.. |none| image:: https://img.shields.io/badge/None-brightgreen.svg
-.. |major| image:: https://img.shields.io/badge/Major-red.svg
 
 
 .. |package_general| image:: https://img.shields.io/badge/Functionality-General_Package-brightgreen.svg
@@ -389,6 +392,7 @@ Sections of this page are heavily inspired by the Astropy affiliated package rev
 .. |community_excellent| image:: https://img.shields.io/badge/Engagement-Excellent-brightgreen.svg
 .. |community_good| image:: https://img.shields.io/badge/Engagement-Good-orange.svg
 .. |community_needs_work| image:: https://img.shields.io/badge/Engagement-Needs_Work-red.svg
-.. |dev_excellent| image:: https://img.shields.io/badge/Development_Status-Excellent-brightgreen.svg
-.. |dev_good| image:: https://img.shields.io/badge/Development_Status-Good-orange.svg
+.. |dev_stable| image:: https://img.shields.io/badge/Development_Status-Stable-brightgreen.svg
+.. |dev_rapid| image:: https://img.shields.io/badge/Development_Status-Rapid_Development-orange.svg
+.. |dev_low| image:: https://img.shields.io/badge/Development_Status-Low_Activity-orange.svg
 .. |dev_needs_work| image:: https://img.shields.io/badge/Development_Status-Needs_Work-red.svg
