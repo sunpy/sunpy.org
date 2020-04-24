@@ -5,20 +5,16 @@ SunPy Affiliated Packages
 What is an affiliated package?
 ==============================
 
-Affiliated packages are well-maintained, open source software packages
-that are useful to solar physicists and integrate well with the SunPy
-ecosystem. To aid discoverability, all affiliated packages are listed on
-the SunPy website, and they are advertised at national and international
-conferences and workshops.
+Affiliated packages are well-maintained, open source software packages that are useful to solar physicists and integrate well with the SunPy ecosystem.
+To aid discoverability, all affiliated packages are listed on the SunPy website, and the SunPy project tries to advertise them at national and international conferences and workshops.
 
-A SunPy sponsored package is an affiliated package that is maintained
-and governed by the SunPy project.
+A SunPy sponsored package is an affiliated package that is maintained and governed by the SunPy project.
 
 Sponsored Packages
 ==================
 
 
-SunPy Core
+sunpy core
 ----------
 A core package for solar physics in Python.
 
@@ -97,7 +93,7 @@ Your package here!!
 Affiliated Package Review
 =========================
 
-Affiliated packages are reviewed before they are accepted for listing on this page.
+Affiliated packages are reviewed by a reviewer independent of your package, before they are accepted for listing on this page.
 
 Review Criteria
 ---------------
@@ -116,10 +112,9 @@ Functionality
 |               | relevant to a specific subsection                  |
 |               | of the solar physics community.                    |
 +---------------+----------------------------------------------------+
-| |notrelevant| | This package should implement                      |
+| |notrelevant| | This package does not implement                    |
 |               | functionality relevant to the                      |
-|               | solar physics community to be a                    |
-|               | SunPy affiliated package.                          |
+|               | solar physics community.                           |
 +---------------+----------------------------------------------------+
 
 Integration
@@ -129,7 +124,7 @@ Integration
 | Status        | Meaning                                             |
 +===============+=====================================================+
 | |well|        | Uses appropriate features in the                    |
-|               | core package and integrates well                    |
+|               | sunpy core package and integrates well              |
 |               | within the affiliated package                       |
 |               | ecosystem (e.g. depends on                          |
 |               | appropriate dependencies, uses                      |
@@ -156,7 +151,7 @@ Documentation
 |               | documentation, all public API                       |
 |               | has docstrings describing the                       |
 |               | code’s purpose, all inputs and                      |
-|               | outputs, and providing                              |
+|               | outputs, and includes                               |
 |               | examples. Provides high level                       |
 |               | documentation; for example, a                       |
 |               | user guide and/or an example                        |
@@ -185,7 +180,7 @@ Testing
 +===============+=====================================================+
 | |excellent|   | A high quality testing suite                        |
 |               | exists which tests individual                       |
-|               | functions (e.g. functions,                          |
+|               | components (e.g. functions,                         |
 |               | classes) as well as providing                       |
 |               | integration tests. Code coverage                    |
 |               | is good. Testing is automated and                   |
@@ -223,29 +218,28 @@ Duplication
 |               | functionality.                                      |
 +---------------+-----------------------------------------------------+
 
-Engagement
-~~~~~~~~~~
+Community
+~~~~~~~~~
 
 +---------------+-----------------------------------------------------+
 | Status        | Meaning                                             |
 +===============+=====================================================+
-| |excellent|   | The developers are active and                       |
-|               | engaged with the SunPy community.                   |
-|               | They actively solicit feedback                      |
-|               | and work with other developers to                   |
-|               | improve ecosystem integration.                      |
+| |excellent|   | The developers actively solicit input on decisions  |
+|               | and feedback and work with other developers to      |
+|               | improve ecosystem integration. The developers are   |
+|               | active and engaged with the SunPy community.        |
 +---------------+-----------------------------------------------------+
 | |good|        | The package is developed openly.                    |
 |               | The developers have adopted a                       |
-|               | compatible Code of Conduct. They                    |
+|               | Code of Conduct compatible with SunPy's. They       |
 |               | welcome contributions, maintain                     |
 |               | and respond to an issue tracker,                    |
-|               | and implement appropriate                           |
+|               | and are receptive to appropriate                    |
 |               | community feedback.                                 |
 +---------------+-----------------------------------------------------+
 | |needs_work|  | Code is maintained in hosted                        |
 |               | version control, but decisions                      |
-|               | are made without community input.                   |
+|               | are often made without community or feedback.       |
 |               | Lacks a Code of Conduct. It is                      |
 |               | not clear how to make a                             |
 |               | contribution or whether                             |
@@ -271,9 +265,9 @@ Development Status
 |               | Contributions are responded to by the developers.   |
 |               | Versioned releases exist and changes are documented.|
 +---------------+-----------------------------------------------------+
-||low_activity| | Package is functional but with little activity from |
-|               | the developers. The package has versioned releases  |
-|               | and is still functional.                            |
+||low_activity| | Package is functional but with little or no activity|
+|               | from the developers. The package has versioned      |
+|               | releases and is still functional.                   |
 +---------------+-----------------------------------------------------+
 | |needs_work|  | Package is no longer maintained and is not          |
 |               | functional.                                         |
@@ -282,72 +276,55 @@ Development Status
 Outcomes
 --------
 
-+-------------+-----------------------------------------------------+
-| Outcomes    | Meaning                                             |
-+=============+=====================================================+
-| Accepted    | Affiliated packages can only be                     |
-|             | accepted into the list if there                     |
-|             | are no red scores and at least                      |
-|             | one green in any category except                    |
-|             | relevant and useful.                                |
-+-------------+-----------------------------------------------------+
-| Provisional | A package may be listed as                          |
-|             | provisional, as long as it is                       |
-|             | assesed to not have a red score                     |
-|             | in “Relevant and useful                             |
-|             | functionality”, “Duplication” or                    |
-|             | “Community Engagement” and is                       |
-|             | working towards meeting the rest                    |
-|             | of the review criteria.                             |
-+-------------+-----------------------------------------------------+
-| Not accepted| A package does not satisfy the                      |
-|             | provisional criteria.                               |
-+-------------+-----------------------------------------------------+
++---------------+-----------------------------------------------------+
+| Outcomes      | Meaning                                             |
++===============+=====================================================+
+| Accepted      | Affiliated packages are only                        |
+|               | accepted into the list if there                     |
+|               | are no red scores and at least                      |
+|               | one green in any category except                    |
+|               | relevant and useful.                                |
++---------------+-----------------------------------------------------+
+| Provisional   | After review a package is listed as                 |
+|               | provisional, as long as it is                       |
+|               | assesed to not have a red score                     |
+|               | in “Relevant and useful                             |
+|               | functionality”, “Duplication” or                    |
+|               | “Community Engagement” and is                       |
+|               | working towards meeting the rest                    |
+|               | of the review criteria.                             |
++---------------+-----------------------------------------------------+
+| Not accepted  | A package does not satisfy the                      |
+|               | provisional criteria.                               |
++---------------+-----------------------------------------------------+
 
 Open review process
 -------------------
 
-The review process for becoming a SunPy affiliated package is supposed
-to be approachable, lightweight and open. Reviews are conducted in
-GitHub issues on the https://github.com/sunpy/sunpy.org
-repository.
+The review process for becoming a SunPy affiliated package is supposed to be approachable, lightweight and open.
+Reviews are conducted in GitHub issues on the https://github.com/sunpy/sunpy.org repository.
 
 Steps for Getting New Packages Reviewed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-0. If you’re not sure whether to submit your package for the affiliated
-   package review process, you can open an issue to informally discuss
-   your package or contact the Affiliated Package Liason to discuss your
-   package privately.
+0. If you’re not sure whether to submit your package for the affiliated package review process, you can open an issue to informally discuss your package or contact the :ref:`role_affiliated-liaison` to discuss your package privately.
 1. Open a new issue with the issue template.
-2. The Affiliated Package Liason will identify an independent reviewer.
-3. The reviewer evaluates the affiliated package against the review
-   criteria.
+2. The :ref:`role_affiliated-liaison` will identify a reviewer independent of your package.
+3. The reviewer evaluates the affiliated package against the review criteria.
 4. The reviewer adds their review as a comment to the issue.
-5. Based on the scores in each of the seven categories, the affiliated
-   package is either accepted or given provisional status.
-6. Based on the scores, the submitting author can decide if they want
-   their package displayed on the website.
-7. The submitting author can challenge the review and ask for another
-   reviewer. In this case, the Affiliated Package Liason will identify a
-   new independent reviewer. This new review will be added to the same
-   issue.
-8. If the review passed the review criteria then the submitting author
-   opens a pull request to add their package to the Sunpy.org
-   `affiliated package
-   website <https://sunpy.org/project/affiliated>`__.
-9. The Affiliated Package Liason merges the pull request.
+5. Based on the scores in each of the seven categories, the affiliated package is either accepted or given provisional status.
+6. Based on the scores, the submitting author can decide if they want their package displayed on the website.
+7. The submitting author can challenge the review and ask for another reviewer. In this case, the :ref:`role_affiliated-liaison` will identify a new independent reviewer. This new review will be added to the same issue.
+8. If the review passed the review criteria then the submitting author opens a pull request to add their package to the sunpy.org website.
+9. The :ref:`role_affiliated-liaison` merges the pull request.
+    
 
 Steps for Getting Existing Packages Reviewed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Existing affiliated packages will be reviewed once per year. Developers
-may challenge a new review which requires the editors to get an external
-reviewer to perform the review.
+Existing affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison`. Developers may challenge a new review which requires the editors to get an external reviewer to perform the review.
 
-Existing provisional affiliated will be reviewed once per year by the
-editors. They must still be working towards meeting the rest of the
-review criteria.
+Existing provisional affiliated will be reviewed once per year by the :ref:`role_affiliated-liaison`. They must still be working towards meeting the rest of the review criteria.
 
 
 Acknowledgements
