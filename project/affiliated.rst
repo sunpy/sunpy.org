@@ -106,6 +106,8 @@ Affiliated packages are reviewed by a reviewer independent of your package, befo
 Review Criteria
 ---------------
 
+.. _review_functionality:
+
 Functionality
 ~~~~~~~~~~~~~
 
@@ -124,6 +126,8 @@ Functionality
 |               | functionality relevant to the                      |
 |               | solar physics community.                           |
 +---------------+----------------------------------------------------+
+
+.. _review_integration:
 
 Integration
 ~~~~~~~~~~~
@@ -148,6 +152,8 @@ Integration
 |               | integrate well within the                           |
 |               | affiliated package ecosystem.                       |
 +---------------+-----------------------------------------------------+
+
+.. _review_documentation:
 
 Documentation
 ~~~~~~~~~~~~~
@@ -180,6 +186,8 @@ Documentation
 |               | tutorials.                                          |
 +---------------+-----------------------------------------------------+
 
+.. _review_testing:
+
 Testing
 ~~~~~~~
 
@@ -205,6 +213,8 @@ Testing
 |               | (e.g. pytest).                                      |
 +---------------+-----------------------------------------------------+
 
+.. _review_duplication:
+
 Duplication
 ~~~~~~~~~~~
 
@@ -225,6 +235,8 @@ Duplication
 | |major|       | Duplicates major existing                           |
 |               | functionality.                                      |
 +---------------+-----------------------------------------------------+
+
+.. _review_community:
 
 Community
 ~~~~~~~~~
@@ -257,6 +269,8 @@ Community
 |               | used.                                               |
 +---------------+-----------------------------------------------------+
 
+.. _review_development:
+
 Development Status
 ~~~~~~~~~~~~~~~~~~
 
@@ -280,6 +294,8 @@ Development Status
 | |needs_work|  | Package is no longer maintained and is not          |
 |               | functional.                                         |
 +---------------+-----------------------------------------------------+
+
+.. _review_outcomes:
 
 Outcomes
 --------
@@ -360,24 +376,46 @@ Sections of this page are heavily inspired by the Astropy affiliated package rev
 
 
 .. |package_general| image:: https://img.shields.io/badge/Functionality-General_Package-brightgreen.svg
+   :target: `review_functionality`_
 .. |package_specialized| image:: https://img.shields.io/badge/Functionality-Specialized_Package-brightgreen.svg
+   :target: `review_functionality`_
 .. |package_not_relevant| image:: https://img.shields.io/badge/Functionality-Not_Relevant-red.svg
+   :target: `review_functionality`_
 .. |integration_well| image:: https://img.shields.io/badge/Integration-Well_Integrated-brightgreen.svg
+   :target: `review_integration`_
 .. |integration_partially| image:: https://img.shields.io/badge/Integration-Partially_Integrated-orange.svg
+   :target: `review_integration`_
 .. |integration_minimal| image:: https://img.shields.io/badge/Integration-Minimal_Integration-red.svg
+   :target: `review_integration`_
 .. |docs_extensive| image:: https://img.shields.io/badge/Documentation-Extensive-brightgreen.svg
+   :target: `review_documentation`_
 .. |docs_some| image:: https://img.shields.io/badge/Documentation-Some-orange.svg
+   :target: `review_documentation`_
 .. |docs_little| image:: https://img.shields.io/badge/Documentation-Little-red.svg
+   :target: `review_documentation`_
 .. |tests_excellent| image:: https://img.shields.io/badge/Testing-Excellent-brightgreen.svg
+   :target: `review_testing`_
 .. |tests_good| image:: https://img.shields.io/badge/Testing-Good-orange.svg
+   :target: `review_testing`_
 .. |tests_needs_work| image:: https://img.shields.io/badge/Testing-Needs_Work-red.svg
+   :target: `review_testing`_
 .. |duplication_none| image:: https://img.shields.io/badge/Duplication-None-brightgreen.svg
+   :target: `review_duplication`_
 .. |duplication_some| image:: https://img.shields.io/badge/Duplication-Some-orange.svg
+   :target: `review_duplication`_
 .. |duplication_major| image:: https://img.shields.io/badge/Duplication-Major-red.svg
+   :target: `review_duplication`_
 .. |community_excellent| image:: https://img.shields.io/badge/Engagement-Excellent-brightgreen.svg
+   :target: `review_community`_
 .. |community_good| image:: https://img.shields.io/badge/Engagement-Good-orange.svg
+   :target: `review_community`_
 .. |community_needs_work| image:: https://img.shields.io/badge/Engagement-Needs_Work-red.svg
+   :target: `review_community`_
 .. |dev_stable| image:: https://img.shields.io/badge/Development_Status-Stable-brightgreen.svg
+   :target: `review_development`_
 .. |dev_rapid| image:: https://img.shields.io/badge/Development_Status-Rapid_Development-orange.svg
+   :target: `review_development`_
 .. |dev_low| image:: https://img.shields.io/badge/Development_Status-Low_Activity-orange.svg
+   :target: `review_development`_
 .. |dev_needs_work| image:: https://img.shields.io/badge/Development_Status-Needs_Work-red.svg
+   :target: `review_development`_
