@@ -30,7 +30,7 @@ We also found that most respondents (63±4%) haven't taken any computer science 
 
 Most of the people who responded to our survey work with observational data taken by ground-based or space-based instruments (82%). And about half (47%) work with numerical simulations. Some work in both sub-disciplines. Although some instruments and numerical models in solar physics generate sizeable data volumes, only a small fraction of respondents use a regional cluster, national cluster, or the commercial cloud for their research. 
 
-.. image:: 2020-04-27-SunPy_Survey_Figure3.jpg
+.. image:: 2020-04-27-SunPy_Survey_Figure4.jpg
 
 Finally, we found that 42±3% of respondents regularly cite scientific software. Half the respondents who don't cite software said they didn't know how.
 
