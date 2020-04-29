@@ -246,7 +246,7 @@ Community
 | |excellent|   | The developers actively solicit input on decisions  |
 |               | and feedback and work with other developers to      |
 |               | improve ecosystem integration. The developers are   |
-|               | active and engaged with the SunPy community.        |
+|               | active and engaged with the community.              |
 +---------------+-----------------------------------------------------+
 | |good|        | The package is developed openly.                    |
 |               | The developers have adopted a                       |
@@ -258,8 +258,8 @@ Community
 +---------------+-----------------------------------------------------+
 | |needs_work|  | Code is maintained in hosted                        |
 |               | version control, but decisions                      |
-|               | are often made without community input or feedback. |
-|               | Lacks a Code of Conduct. It is                      |
+|               | are often made without considering community input  |
+|               | or feedback. Lacks a Code of Conduct. It is         |
 |               | not clear how to make a                             |
 |               | contribution or whether                             |
 |               | contributions are welcome.                          |
@@ -316,7 +316,7 @@ Outcomes
 |               | working towards meeting the rest                    |
 |               | of the review criteria.                             |
 +---------------+-----------------------------------------------------+
-| Not accepted  | A package does not satisfy the                      |
+| Not accepted  | A package does not currently satisfy the            |
 |               | provisional criteria.                               |
 +---------------+-----------------------------------------------------+
 
