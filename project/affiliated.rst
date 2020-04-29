@@ -45,7 +45,7 @@ A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
      - Review
    * - `Docs <https://docs.sunpy.org/projects/ndcube>`__, `Code <https://github.com/sunpy/ndcube>`__
      - `Daniel Ryan`_, `Stuart Mumford`_
-     -
+     - |package_general| |integration_well| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
 
 drms
