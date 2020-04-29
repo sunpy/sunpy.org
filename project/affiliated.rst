@@ -50,7 +50,7 @@ A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
 
 drms
 ----
-Access HMI, AIA and MDI data with Python.
+Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data.
 
 .. list-table::
    :widths: 15, 20, 60
