@@ -35,7 +35,7 @@ Please copy the following and select the ranking for each criteria, the full rev
 * Integration             : Well integrated / Partially Integrated / Minimal Integration
 * Documentation           : Extensive / Some / Little
 * Testing                 : Excellent / Good / Needs Work
-* Duplication             : Excellent / Good / Needs Work
+* Duplication             : None / Some / Major
 * Community               : Excellent / Good / Needs Work
-* Development Status      : Excellent / Good / Needs Work
+* Development Status      : Stable / Rapid Development / Low Activity / Needs Work
 ```
