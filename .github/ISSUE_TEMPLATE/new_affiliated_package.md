@@ -1,6 +1,6 @@
 ---
 name: New Affiliated Package
-about: Submit a new affiliated package for inclusion on the SunPy affiliated package list
+about: Submit a new affiliated package for review
 ---
 
 ## Package Details
@@ -8,19 +8,19 @@ about: Submit a new affiliated package for inclusion on the SunPy affiliated pac
 - Package name:
 - Maintainer(s):
 - Repository:
-- PyPI link:
+- PyPI link (if applicable):
 
 ## Description of Package
 
 
-<!-- You do not need to edit below this comment !-->
+<!-- Submitters do not need to edit below this comment !-->
 
 ## Package Review
 
 ## Editor Submission Checklist
 
 - [ ] Is the submission appropriate?
-- [ ] Does the project have an OSI approved license?
+- [ ] Does the project have an appropriate license?
 - [ ] Is the project in a version control repository?
 - [ ] Does the project provide a Python interface?
 - [ ] Is the project on PyPI?
@@ -31,7 +31,7 @@ about: Submit a new affiliated package for inclusion on the SunPy affiliated pac
 Please copy the following and select the ranking for each criteria, the full review criteria can be found here: 
 
 ```
-* Functionality           : General Package / Specalized Package / Not Relevant
+* Functionality           : General Package / Specialized Package / Not Relevant
 * Integration             : Well integrated / Partially Integrated / Minimal Integration
 * Documentation           : Extensive / Some / Little
 * Testing                 : Excellent / Good / Needs Work

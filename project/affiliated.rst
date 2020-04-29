@@ -115,8 +115,8 @@ Functionality
 |  Status       | Meaning                                            |
 +===============+====================================================+
 |  |general|    | Implements functionality relevant                  |
-|               | to a large amount of the solar                     |
-|               | physics communtity.                                |
+|               | to a large cross-section of the solar              |
+|               | physics community.                                 |
 +---------------+----------------------------------------------------+
 | |specialized| | Implements functionality which is                  |
 |               | relevant to a specific subsection                  |
@@ -146,7 +146,7 @@ Integration
 |               | library and affiliated package ecosystem, but could |
 |               | integrate better or use more features.              |
 +---------------+-----------------------------------------------------+
-| |minimal|     | Does not use many features of the                   |
+| |minimal|     | Could use the applicable features of the            |
 |               | core library and does not                           |
 |               | integrate well within the                           |
 |               | affiliated package ecosystem.                       |
@@ -162,7 +162,7 @@ Documentation
 +===============+=====================================================+
 | |extensive|   | Extensive online                                    |
 |               | documentation, all public API                       |
-|               | has docstrings describing the                       |
+|               | has formatted docstrings describing the             |
 |               | code’s purpose, all inputs and                      |
 |               | outputs, and includes                               |
 |               | examples. Provides high level                       |
@@ -194,8 +194,8 @@ Testing
 | Status        | Meaning                                             |
 +===============+=====================================================+
 | |excellent|   | A high quality testing suite                        |
-|               | exists which tests individual                       |
-|               | components (e.g. functions,                         |
+|               | exists which test all of the                        |
+|               | individual components (e.g. functions,              |
 |               | classes) as well as providing                       |
 |               | integration tests. Code coverage                    |
 |               | is good. Testing is automated and                   |
@@ -221,10 +221,10 @@ Duplication
 | Status        | Meaning                                             |
 +===============+=====================================================+
 | |none|        | No code or functionality is                         |
-|               | duplicated from core other                          |
+|               | duplicated from core, other                         |
 |               | affiliated packages, or other                       |
 |               | relevant packages. Builds on top                    |
-|               | of the affiliated package                           |
+|               | of or significantly advances the affiliated package |
 |               | ecosystem.                                          |
 +---------------+-----------------------------------------------------+
 | |some|        | Some code or functionality                          |
@@ -281,14 +281,14 @@ Development Status
 |               | prioritised and regular versioned releases          |
 |               | are made, with any breaking changes well documented.|
 +---------------+-----------------------------------------------------+
-| |rapid_dev|   | Package is has active but rapid                     |
-|               | development, so large API changes might be frequent.|
+| |rapid_dev|   | Package is active but has rapid                     |
+|               | development, so large API changes may be frequent.  |
 |               | Contributions are responded to by the developers.   |
 |               | Versioned releases exist and changes are documented.|
 +---------------+-----------------------------------------------------+
 ||low_activity| | Package is functional but with little or no activity|
 |               | from the developers. The package has versioned      |
-|               | releases and is still functional.                   |
+|               | releases and is functional.                         |
 +---------------+-----------------------------------------------------+
 | |needs_work|  | Package is no longer maintained and is not          |
 |               | functional.                                         |
@@ -304,7 +304,7 @@ Outcomes
 +===============+=====================================================+
 | Accepted      | To be accepted, affiliated packages must have a     |
 |               | green score in both the relevant and useful         |
-|               | categories, and at least one other. They must also  |
+|               | categories, and at least one other. They must       |
 |               | have no red scores.                                 |
 +---------------+-----------------------------------------------------+
 | Provisional   | After review a package is listed as                 |
@@ -323,8 +323,8 @@ Outcomes
 Open review process
 -------------------
 
-The review process for becoming a SunPy affiliated package is supposed to be approachable, lightweight and open.
-Reviews are conducted in GitHub issues on the https://github.com/sunpy/sunpy.org repository.
+The review process for becoming a SunPy affiliated package is designed to be approachable, lightweight and open.
+Reviews are conducted in GitHub issues through the https://github.com/sunpy/sunpy.org repository.
 
 Steps for Getting New Packages Reviewed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -334,17 +334,17 @@ Steps for Getting New Packages Reviewed
 2. The :ref:`role_affiliated-liaison` will identify a reviewer independent of your package.
 3. The reviewer evaluates the affiliated package against the review criteria.
 4. The reviewer adds their review as a comment to the issue.
-5. Based on the scores in each of the seven categories, the affiliated package is either accepted or given provisional status.
+5. Based on the scores in each of the seven categories, the affiliated package is either accepted, given provisional status, or provided feedback on how to meet the criteria.
 6. Based on the scores, the submitting author can decide if they want their package displayed on the website.
-7. The submitting author can challenge the review and ask for another reviewer. In this case, the :ref:`role_affiliated-liaison` will identify a new independent reviewer. This new review will be added to the same issue.
-8. If the review passed the review criteria then the submitting author opens a pull request to add their package to the sunpy.org website.
+7. The submitting author has the right to ask for another review. In this case, the :ref:`role_affiliated-liaison` will identify a new independent reviewer. This new review will be added to the same issue.
+8. If the review passed the review criteria then the submitting author or the :ref:`role_affiliated-liaison` opens a pull request to add their package to the sunpy.org website.
 9. The :ref:`role_affiliated-liaison` merges the pull request.
     
 
 Steps for Getting Existing Packages Reviewed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Existing affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison`. Developers may challenge a new review which requires the editors to get an external reviewer to perform the review.
+Existing affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison` to ensure the review is current. Developers may challenge a new review which requires the liaison to get an independent reviewer to perform the review.
 
 Existing provisional affiliated will be reviewed once per year by the :ref:`role_affiliated-liaison`. They must still be working towards meeting the rest of the review criteria.
 
