@@ -9,7 +9,8 @@ about: Submit a new affiliated package for review
 - Maintainer(s):
 - Repository:
 - PyPI link (if applicable):
-
+- Documentation link (if applicable):
+- Continuous integration link (if applicable):
 ## Description of Package
 
 
