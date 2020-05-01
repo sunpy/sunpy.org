@@ -300,7 +300,7 @@ Development Status
 .. _review_outcomes:
 
 Review Criteria and Summary
---------
+---------------------------
 
 +---------------+-----------------------------------------------------+
 | Outcomes      | Requirements                                        |
