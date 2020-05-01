@@ -226,10 +226,10 @@ Duplication
 +---------------+-----------------------------------------------------+
 | |some|        | Some code or functionality                          |
 |               | duplication, functionality                          |
-|               | already exists in the ecosystem.                    |
+|               | already exists in other affiliated packages.        |
 +---------------+-----------------------------------------------------+
-| |major|       | Duplicates major existing                           |
-|               | functionality.                                      |
+| |major|       | Duplicates major existing functionality in other    |
+|               | affiliated packages.                                |
 +---------------+-----------------------------------------------------+
 
 .. _review_community:

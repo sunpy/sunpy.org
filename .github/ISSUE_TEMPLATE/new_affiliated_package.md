@@ -10,11 +10,15 @@ about: Submit a new affiliated package for review
 - Repository:
 - PyPI link (if applicable):
 - Documentation link (if applicable):
-- Continuous integration link (if applicable):
+- Continuous integration link(s) (if applicable):
+
 ## Description of Package
+<!-- Roughly 1-3 sentances in length !-->
+
 
 
 <!-- Submitters do not need to edit below this comment !-->
+
 
 ## Package Review
 
