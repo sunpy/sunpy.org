@@ -91,7 +91,6 @@ Provisional Affiliated Packages
 Your package here!!
 
 
-
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
 .. _Kolja Glogowski: https://github.com/kbg
@@ -161,7 +160,7 @@ Documentation
 | Status        | Meaning                                             |
 +===============+=====================================================+
 | |extensive|   | Extensive online                                    |
-|               | documentation, all public API                       |
+|               | documentation, the public API                       |
 |               | has formatted docstrings describing the             |
 |               | code’s purpose, all inputs and                      |
 |               | outputs, and includes                               |
@@ -223,9 +222,7 @@ Duplication
 | |none|        | No code or functionality is                         |
 |               | duplicated from core, other                         |
 |               | affiliated packages, or other                       |
-|               | relevant packages. Builds on top                    |
-|               | of or significantly advances the affiliated package |
-|               | ecosystem.                                          |
+|               | relevant packages.                                  |
 +---------------+-----------------------------------------------------+
 | |some|        | Some code or functionality                          |
 |               | duplication, functionality                          |
@@ -247,6 +244,8 @@ Community
 |               | and feedback and work with other developers to      |
 |               | improve ecosystem integration. The developers are   |
 |               | active and engaged with the community.              |
+|               | The package must also meet the requirements for a   |
+|               | 'Good' rating.                                      |
 +---------------+-----------------------------------------------------+
 | |good|        | The package is developed openly.                    |
 |               | The developers have adopted a                       |
@@ -276,13 +275,13 @@ Development Status
 +---------------+-----------------------------------------------------+
 | Status        | Meaning                                             |
 +===============+=====================================================+
-| |stable|      | Package is actively developed, contributions are    |
-|               | responded to by the developers. API stability is    |
-|               | prioritised and regular versioned releases          |
+| |stable|      | Package is well maintained, contributions are       |
+|               | responded to by the developers. API stability       |
+|               | is prioritised and regular versioned releases       |
 |               | are made, with any breaking changes well documented.|
 +---------------+-----------------------------------------------------+
-| |rapid_dev|   | Package is active but has rapid                     |
-|               | development, so large API changes may be frequent.  |
+| |stc_dev|     | Package is well maintained, but large API changes   |
+|               | may be frequent due to rapid development.           |
 |               | Contributions are responded to by the developers.   |
 |               | Versioned releases exist and changes are documented.|
 +---------------+-----------------------------------------------------+
@@ -303,9 +302,8 @@ Outcomes
 | Outcomes      | Meaning                                             |
 +===============+=====================================================+
 | Accepted      | To be accepted, affiliated packages must have a     |
-|               | green score in both the relevant and useful         |
-|               | categories, and at least one other. They must       |
-|               | have no red scores.                                 |
+|               | green score in relevant and useful and at least one |
+|               | other. They must also have no red scores.           |
 +---------------+-----------------------------------------------------+
 | Provisional   | After review a package is listed as                 |
 |               | provisional, as long as it is                       |
@@ -354,7 +352,7 @@ They must still be working towards meeting the rest of the review criteria.
 Acknowledgements
 ~~~~~~~~~~~~~~~~
 
-Sections of this page are heavily inspired by the Astropy affiliated package review process.
+Sections of this page are heavily inspired by the `Astropy affiliated package review process <https://github.com/astropy/project/blob/master/affiliated/affiliated_package_review_guidelines.md>`__.
 
 .. |general| image:: https://img.shields.io/badge/General_Package-brightgreen.svg
 .. |specialized| image:: https://img.shields.io/badge/Specialized_Package-brightgreen.svg
@@ -368,7 +366,7 @@ Sections of this page are heavily inspired by the Astropy affiliated package rev
 .. |none| image:: https://img.shields.io/badge/None-brightgreen.svg
 .. |major| image:: https://img.shields.io/badge/Major-red.svg
 .. |stable| image:: https://img.shields.io/badge/Stable-brightgreen.svg
-.. |rapid_dev| image:: https://img.shields.io/badge/Rapid_Development-orange.svg
+.. |stc_dev| image:: https://img.shields.io/badge/Subject_to_change-orange.svg
 .. |low_activity| image:: https://img.shields.io/badge/Low_activity-orange.svg
 .. |excellent| image:: https://img.shields.io/badge/Excellent-brightgreen.svg
 .. |good| image:: https://img.shields.io/badge/Good-orange.svg
@@ -413,7 +411,7 @@ Sections of this page are heavily inspired by the Astropy affiliated package rev
    :target: `review_community`_
 .. |dev_stable| image:: https://img.shields.io/badge/Development_Status-Stable-brightgreen.svg
    :target: `review_development`_
-.. |dev_rapid| image:: https://img.shields.io/badge/Development_Status-Rapid_Development-orange.svg
+.. |dev_stc| image:: https://img.shields.io/badge/Development_Status-Subject_to_change-orange.svg
    :target: `review_development`_
 .. |dev_low| image:: https://img.shields.io/badge/Development_Status-Low_Activity-orange.svg
    :target: `review_development`_

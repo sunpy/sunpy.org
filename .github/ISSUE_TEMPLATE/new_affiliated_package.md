@@ -19,7 +19,7 @@ about: Submit a new affiliated package for review
 
 ## Editor Submission Checklist
 
-- [ ] Is the submission appropriate?
+- [ ] Is the submission appropriate (compatible with the SunPy CoC)?
 - [ ] Does the project have an appropriate license?
 - [ ] Is the project in a version control repository?
 - [ ] Does the project provide a Python interface?
