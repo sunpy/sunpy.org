@@ -66,7 +66,7 @@ Provides search capability for the JSOC DRMS server which enables complex querie
 
 radiospectra
 ------------
-This package aims to provide support for some type of radiospectra on solar physics.
+This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
 
 .. list-table::
    :widths: 15, 20, 60
@@ -197,13 +197,13 @@ Testing
 |               | individual components (e.g. functions,              |
 |               | classes) as well as providing                       |
 |               | integration tests. Code coverage                    |
-|               | is good. Testing is automated and                   |
+|               | is extensive. Testing is automated and                   |
 |               | runs frequently.                                    |
 +---------------+-----------------------------------------------------+
 | |good|        | Unit tests of individual                            |
 |               | components (e.g. functions,                         |
 |               | classes) and integration tests,                     |
-|               | but coverage is not extensive. Testing              |
+|               | but coverage is good but not extensive. Testing              |
 |               | is automated.                                       |
 +---------------+-----------------------------------------------------+
 | |needs_work|  | Lacks tests and/or tests are not                    |
@@ -295,14 +295,14 @@ Development Status
 
 .. _review_outcomes:
 
-Outcomes
+Review Criteria and Summary
 --------
 
 +---------------+-----------------------------------------------------+
-| Outcomes      | Meaning                                             |
+| Outcomes      | Requirements                                             |
 +===============+=====================================================+
-| Accepted      | To be accepted, affiliated packages must have a     |
-|               | green score in relevant and useful and at least one |
+| Accepted      | Must have a                                         |
+|               | green score in the ``Relevant`` and ``Useful`` criteria and at least one |
 |               | other. They must also have no red scores.           |
 +---------------+-----------------------------------------------------+
 | Provisional   | After review a package is listed as                 |
@@ -315,7 +315,7 @@ Outcomes
 |               | of the review criteria.                             |
 +---------------+-----------------------------------------------------+
 | Not accepted  | A package does not currently satisfy the            |
-|               | provisional criteria.                               |
+|               | provisional rating.                               |
 +---------------+-----------------------------------------------------+
 
 Open review process
@@ -339,7 +339,7 @@ Steps for Getting New Packages Reviewed
 9. The :ref:`role_affiliated-liaison` merges the pull request.
     
 
-Steps for Getting Existing Packages Reviewed
+Existing Packages Review Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Existing affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison` to ensure the review is current.
