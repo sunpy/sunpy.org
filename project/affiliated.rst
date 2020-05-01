@@ -101,7 +101,7 @@ Your package here!!
 Affiliated Package Review
 =========================
 
-Affiliated packages are reviewed by a reviewer independent of your package, before they are accepted for listing on this page.
+Each candidate package is reviewed by a reviewer independent of the package before it can be approved as an affiliated package.
 
 Review Criteria
 ---------------
@@ -138,7 +138,7 @@ Integration
 | |well|        | Uses appropriate features in the                    |
 |               | sunpy core package and integrates well              |
 |               | within the affiliated package                       |
-|               | ecosystem (e.g. depends on                          |
+|               | ecosystem (e.g., has                                |
 |               | appropriate dependencies, uses                      |
 |               | appropriate data structures).                       |
 +---------------+-----------------------------------------------------+
@@ -146,7 +146,7 @@ Integration
 |               | library and affiliated package ecosystem, but could |
 |               | integrate better or use more features.              |
 +---------------+-----------------------------------------------------+
-| |minimal|     | Could use the applicable features of the            |
+| |minimal|     | Makes little use of the applicable features of the  |
 |               | core library and does not                           |
 |               | integrate well within the                           |
 |               | affiliated package ecosystem.                       |
@@ -204,7 +204,7 @@ Testing
 | |good|        | Unit tests of individual                            |
 |               | components (e.g. functions,                         |
 |               | classes) and integration tests,                     |
-|               | but coverage is minimal. Testing                    |
+|               | but coverage is not extensive. Testing              |
 |               | is automated.                                       |
 +---------------+-----------------------------------------------------+
 | |needs_work|  | Lacks tests and/or tests are not                    |
@@ -309,10 +309,10 @@ Outcomes
 +---------------+-----------------------------------------------------+
 | Provisional   | After review a package is listed as                 |
 |               | provisional, as long as it is                       |
-|               | assesed to not have a red score                     |
-|               | in “Relevant and useful                             |
-|               | functionality”, “Duplication” or                    |
-|               | “Community Engagement” and is                       |
+|               | assessed to not have a red score                    |
+|               | in the “Functionality",                             |
+|               | “Duplication” or                                    |
+|               | “Community” criteria and is                         |
 |               | working towards meeting the rest                    |
 |               | of the review criteria.                             |
 +---------------+-----------------------------------------------------+
@@ -344,9 +344,11 @@ Steps for Getting New Packages Reviewed
 Steps for Getting Existing Packages Reviewed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Existing affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison` to ensure the review is current. Developers may challenge a new review which requires the liaison to get an independent reviewer to perform the review.
+Existing affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison` to ensure the review is current.
+Developers may challenge a new review, which then requires the liaison to get an independent reviewer to perform the review.
 
-Existing provisional affiliated will be reviewed once per year by the :ref:`role_affiliated-liaison`. They must still be working towards meeting the rest of the review criteria.
+Existing provisional affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison`.
+They must still be working towards meeting the rest of the review criteria.
 
 
 Acknowledgements
