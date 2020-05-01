@@ -10,9 +10,10 @@ assignees: Cadair
 - Package name:
 - Maintainer(s):
 - Repository:
+- Documentation link:
 - PyPI link (if applicable):
-- Documentation link (if applicable):
-- Continuous integration link(s) (if applicable):
+- Continuous integration link(s):
+- Link to Code of Conduct or page describing adopted Code of Conduct:
 
 ## Description of Package
 <!-- Roughly 1-3 sentances in length !-->
@@ -28,7 +29,7 @@ assignees: Cadair
 
 - [ ] Is the submission appropriate (compatible with the SunPy CoC)?
 - [ ] Does the project have an appropriate license?
-- [ ] Is the project in a version control repository?
+- [ ] Is the project in an online version control system?
 - [ ] Does the project provide a Python interface?
 - [ ] Is the project on PyPI?
 - [ ] Is the project useful to the solar physics community?

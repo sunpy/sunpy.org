@@ -193,17 +193,17 @@ Testing
 | Status        | Meaning                                             |
 +===============+=====================================================+
 | |excellent|   | A high quality testing suite                        |
-|               | exists which test all of the                        |
+|               | exists which tests the                              |
 |               | individual components (e.g. functions,              |
 |               | classes) as well as providing                       |
 |               | integration tests. Code coverage                    |
-|               | is extensive. Testing is automated and                   |
+|               | is extensive. Testing is automated and              |
 |               | runs frequently.                                    |
 +---------------+-----------------------------------------------------+
 | |good|        | Unit tests of individual                            |
 |               | components (e.g. functions,                         |
 |               | classes) and integration tests,                     |
-|               | but coverage is good but not extensive. Testing              |
+|               | but coverage is good but not extensive. Testing     |
 |               | is automated.                                       |
 +---------------+-----------------------------------------------------+
 | |needs_work|  | Lacks tests and/or tests are not                    |
@@ -224,9 +224,9 @@ Duplication
 |               | affiliated packages, or other                       |
 |               | relevant packages.                                  |
 +---------------+-----------------------------------------------------+
-| |some|        | Some code or functionality                          |
-|               | duplication, functionality                          |
-|               | already exists in other affiliated packages.        |
+| |some|        | Some code or functionality duplication, some minor  |
+|               | functionality may be duplicated from other          |
+|               | affiliated packages, or other relevant packages.    |
 +---------------+-----------------------------------------------------+
 | |major|       | Duplicates major existing functionality in other    |
 |               | affiliated packages.                                |
@@ -240,16 +240,20 @@ Community
 +---------------+-----------------------------------------------------+
 | Status        | Meaning                                             |
 +===============+=====================================================+
-| |excellent|   | The developers actively solicit input on decisions  |
-|               | and feedback and work with other developers to      |
-|               | improve ecosystem integration. The developers are   |
+| |excellent|   | The developers actively solicit input to aid their  |
+|               | decision-making, gather and react to community      |
+|               | feedback, and work with other developers to improve |
+|               | ecosystem integration. The developers are           |
 |               | active and engaged with the community.              |
 |               | The package must also meet the requirements for a   |
 |               | 'Good' rating.                                      |
 +---------------+-----------------------------------------------------+
 | |good|        | The package is developed openly.                    |
 |               | The developers have adopted a                       |
-|               | Code of Conduct compatible with SunPy's. They       |
+|               | Code of Conduct compatible with SunPy's.            |
+|               | The developers have adopted a Code of Conduct that  |
+|               | reflects and is not contradictory to the values in  |
+|               | the SunPy Code of Conduct. They                     |
 |               | welcome contributions, maintain                     |
 |               | and respond to an issue tracker,                    |
 |               | and are receptive to appropriate                    |
@@ -299,10 +303,11 @@ Review Criteria and Summary
 --------
 
 +---------------+-----------------------------------------------------+
-| Outcomes      | Requirements                                             |
+| Outcomes      | Requirements                                        |
 +===============+=====================================================+
 | Accepted      | Must have a                                         |
-|               | green score in the ``Relevant`` and ``Useful`` criteria and at least one |
+|               | green score in the ``Relevant`` and ``Useful``      |
+|               | criteria and at least one                           |
 |               | other. They must also have no red scores.           |
 +---------------+-----------------------------------------------------+
 | Provisional   | After review a package is listed as                 |
@@ -315,7 +320,7 @@ Review Criteria and Summary
 |               | of the review criteria.                             |
 +---------------+-----------------------------------------------------+
 | Not accepted  | A package does not currently satisfy the            |
-|               | provisional rating.                               |
+|               | provisional rating.                                 |
 +---------------+-----------------------------------------------------+
 
 Open review process
