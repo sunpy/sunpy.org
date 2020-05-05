@@ -169,9 +169,9 @@ Documentation
 |               | lacking detail, or examples, or there may be minimal|
 |               | high level documentation.                           |
 +---------------+-----------------------------------------------------+
-| |some|        | Some online documentation. The public API is largely|
+| |some|        | Some online documentation. The public API is        |
 |               | documented, but may have some missing or incomplete |
-|               | docstrings. The documentation may be missing some of|
+|               | docstrings. The documentation may be missing        |
 |               | guides, tutorials or other high level documentation.|
 +---------------+-----------------------------------------------------+
 | |little|      | Little to no online documentation is provided in the|
