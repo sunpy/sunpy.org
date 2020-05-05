@@ -337,11 +337,10 @@ Steps for Getting New Packages Reviewed
 2. The :ref:`role_affiliated-liaison` will identify a reviewer independent of your package.
 3. The reviewer evaluates the affiliated package against the review criteria.
 4. The reviewer adds their review as a comment to the issue.
-5. Based on the scores in each of the seven categories, the affiliated package is either accepted, given provisional status, or provided feedback on how to meet the criteria.
-6. Based on the scores, the submitting author can decide if they want their package displayed on the website.
-7. The submitting author has the right to ask for another review. In this case, the :ref:`role_affiliated-liaison` will identify a new independent reviewer. This new review will be added to the same issue.
-8. If the review passed the review criteria then the submitting author or the :ref:`role_affiliated-liaison` opens a pull request to add their package to the sunpy.org website.
-9. The :ref:`role_affiliated-liaison` merges the pull request.
+5. The submitting author has the right to ask for another review. In this case, the :ref:`role_affiliated-liaison` will identify a new independent reviewer. This new review will be added to the same issue.
+6. Based on the scores in each of the seven categories, the affiliated package is either accepted, given provisional status, or not accepted. In all three cases, this practically means closing the issue and ending the review process. In the last case, the reviewer provides the submitting author with feedback on how to meet the acceptance criteria with the intention of helping the submitting author achieve provisional or accepted status in the future.
+7. If the review passed the review criteria then the submitting author or the :ref:`role_affiliated-liaison` opens a pull request to add the package and it's review results to the sunpy.org website, unless the submitting author withdraws the submission.
+8. The :ref:`role_affiliated-liaison` merges the pull request.
     
 
 Existing Packages Review Process
