@@ -10,11 +10,10 @@ What is an affiliated package?
 Affiliated packages are well-maintained, open source software packages that are useful to solar physicists and integrate well with the SunPy ecosystem.
 To aid discoverability, all affiliated packages are listed on the SunPy website, and the SunPy project tries to advertise them at national and international conferences and workshops.
 
-A SunPy sponsored package is an affiliated package that is maintained and governed by the SunPy project.
-
 Sponsored Packages
 ==================
 
+A SunPy sponsored package is an affiliated package that is maintained and governed by the SunPy project.
 
 sunpy core
 ----------
