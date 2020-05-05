@@ -351,7 +351,7 @@ Existing affiliated packages will be reviewed once per year by the :ref:`role_af
 Developers may challenge a new review, which then requires the liaison to get an independent reviewer to perform the review.
 
 Existing provisional affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison`.
-They must still be working towards meeting the rest of the review criteria.
+To pass they must not have a worse score and still be working towards meeting the rest of the review criteria.
 
 
 Acknowledgements
