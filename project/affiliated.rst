@@ -61,23 +61,23 @@ Provides search capability for the JSOC DRMS server which enables complex querie
      - Review
    * - `Docs <https://docs.sunpy.org/projects/drms>`__, `Code <https://github.com/sunpy/drms>`__
      - `Kolja Glogowski`_
-     -
+     - |package_general| |integration_well| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
 
+.. 
+  radiospectra
+  ------------
+  This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
 
-radiospectra
-------------
-This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
+  .. list-table::
+    :widths: 15, 20, 60
+    :header-rows: 1
 
-.. list-table::
-   :widths: 15, 20, 60
-   :header-rows: 1
-
-   * - Links
-     - Maintainer(s)
-     - Review
-   * - `Docs <https://docs.sunpy.org/projects/radiospectra>`__, `Code <https://github.com/sunpy/radiospectra>`__
-     - `David Pérez-Suárez`_
-     -
+    * - Links
+      - Maintainer(s)
+      - Review
+    * - `Docs <https://docs.sunpy.org/projects/radiospectra>`__, `Code <https://github.com/sunpy/radiospectra>`__
+      - `David Pérez-Suárez`_
+      -
 
 Affiliated Packages
 ===================
