@@ -159,29 +159,24 @@ Documentation
 +---------------+-----------------------------------------------------+
 | Status        | Meaning                                             |
 +===============+=====================================================+
-| |extensive|   | Extensive online                                    |
-|               | documentation, the public API                       |
-|               | has formatted docstrings describing the             |
-|               | code’s purpose, all inputs and                      |
-|               | outputs, and includes                               |
-|               | examples. Provides high level                       |
-|               | documentation; for example, a                       |
-|               | user guide and/or an example                        |
-|               | gallery.                                            |
+| |extensive|   | Extensive online documentation, the public API      |
+|               | has formatted docstrings describing the code’s      |
+|               | purpose, all inputs and outputs, and includes       |
+|               | examples. Provides high level documentation; for    |
+|               | example, a user guide and/or an example gallery.    |
 +---------------+-----------------------------------------------------+
-| |some|        | Some online documentation. The                      |
-|               | public API is documented, but                       |
-|               | may have some missing or                            |
-|               | incomplete docstrings. The                          |
-|               | documentation is missing                            |
-|               | guides, tutorials or other                          |
+| |good|        | Online documentation is either lacking in coverage  |
+|               | or quality. For example some docstrings maybe       |
+|               | lacking detail, or examples, or there may be minimal|
 |               | high level documentation.                           |
 +---------------+-----------------------------------------------------+
-| |little|      | Little to no online                                 |
-|               | documentation is provided in                        |
-|               | the version control                                 |
-|               | repository. No guides or                            |
-|               | tutorials.                                          |
+| |some|        | Some online documentation. The public API is largely|
+|               | documented, but may have some missing or incomplete |
+|               | docstrings. The documentation may be missing some of|
+|               | guides, tutorials or other high level documentation.|
++---------------+-----------------------------------------------------+
+| |little|      | Little to no online documentation is provided in the|
+|               | version control repository. No guides or tutorials. |
 +---------------+-----------------------------------------------------+
 
 .. _review_testing:
@@ -341,7 +336,7 @@ Steps for Getting New Packages Reviewed
 6. Based on the scores in each of the seven categories, the affiliated package is either accepted, given provisional status, or not accepted. In all three cases, this practically means closing the issue and ending the review process. In the last case, the reviewer provides the submitting author with feedback on how to meet the acceptance criteria with the intention of helping the submitting author achieve provisional or accepted status in the future.
 7. If the review passed the review criteria then the submitting author or the :ref:`role_affiliated-liaison` opens a pull request to add the package and it's review results to the sunpy.org website, unless the submitting author withdraws the submission.
 8. The :ref:`role_affiliated-liaison` merges the pull request.
-    
+
 
 Existing Packages Review Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -390,6 +385,8 @@ Sections of this page are heavily inspired by the `Astropy affiliated package re
 .. |integration_minimal| image:: https://img.shields.io/badge/Integration-Minimal_Integration-red.svg
    :target: `review_integration`_
 .. |docs_extensive| image:: https://img.shields.io/badge/Documentation-Extensive-brightgreen.svg
+   :target: `review_documentation`_
+.. |docs_good| image:: https://img.shields.io/badge/Documentation-Good-orange.svg
    :target: `review_documentation`_
 .. |docs_some| image:: https://img.shields.io/badge/Documentation-Some-orange.svg
    :target: `review_documentation`_
