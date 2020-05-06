@@ -28,7 +28,7 @@ assignees: Cadair
 ## Editor Submission Checklist
 
 - [ ] Is the submission appropriate (compatible with the SunPy CoC)?
-- [ ] Does the project have an appropriate license?
+- [ ] Does the project have an [appropriate license](https://opensource.org/licenses/)?
 - [ ] Is the project in an online version control system?
 - [ ] Does the project provide a Python interface?
 - [ ] Is the project on PyPI?
