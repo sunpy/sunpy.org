@@ -133,21 +133,21 @@ Integration
 +---------------+-----------------------------------------------------+
 | Status        | Meaning                                             |
 +===============+=====================================================+
-| |well|        | Uses appropriate features in the                    |
-|               | sunpy core package and integrates well              |
-|               | within the affiliated package                       |
-|               | ecosystem (e.g., has                                |
-|               | appropriate dependencies, uses                      |
-|               | appropriate data structures).                       |
+| |full|        | The package uses all appropriate features of the    |
+|               | core package and affiliated package ecosystem to    |
+|               | provide its functionality to users. It uses         |
+|               | applicable data structures and has appropriate      |
+|               | dependencies.                                       |
 +---------------+-----------------------------------------------------+
-| |partially|   | Uses some features of the core                      |
-|               | library and affiliated package ecosystem, but could |
-|               | integrate better or use more features.              |
+| |incomplete|  | Some applicable functionality of the affiliated     |
+|               | package ecosystem may be used but further           |
+|               | integration is possible in this package.            |
 +---------------+-----------------------------------------------------+
-| |minimal|     | Makes little use of the applicable features of the  |
-|               | core library and does not                           |
-|               | integrate well within the                           |
-|               | affiliated package ecosystem.                       |
+| |no|          | Provides functionality which should use features    |
+|               | such as data structures in core or other affiliated |
+|               | packages. i.e. provides an array and a WCS but      |
+|               | doesn't use ndcube, or represents physical          |
+|               | coordinates not using sunpy.coordinates.            |
 +---------------+-----------------------------------------------------+
 
 .. _review_documentation:
@@ -355,9 +355,9 @@ Sections of this page are heavily inspired by the `Astropy affiliated package re
 .. |general| image:: https://img.shields.io/badge/General_Package-brightgreen.svg
 .. |specialized| image:: https://img.shields.io/badge/Specialized_Package-brightgreen.svg
 .. |notrelevant| image:: https://img.shields.io/badge/Not_Relevant-red.svg
-.. |well| image:: https://img.shields.io/badge/Well_Integrated-brightgreen.svg
-.. |partially| image:: https://img.shields.io/badge/Partially_Integrated-orange.svg
-.. |minimal| image:: https://img.shields.io/badge/Minimal_Integration-red.svg
+.. |full| image:: https://img.shields.io/badge/Full_Integration-brightgreen.svg
+.. |incomplete| image:: https://img.shields.io/badge/Partial_Integration-orange.svg
+.. |no| image:: https://img.shields.io/badge/No_Integration-red.svg
 .. |extensive| image:: https://img.shields.io/badge/Extensive-brightgreen.svg
 .. |some| image:: https://img.shields.io/badge/Some-orange.svg
 .. |little| image:: https://img.shields.io/badge/Little-red.svg
@@ -377,11 +377,11 @@ Sections of this page are heavily inspired by the `Astropy affiliated package re
    :target: `review_functionality`_
 .. |package_not_relevant| image:: https://img.shields.io/badge/Functionality-Not_Relevant-red.svg
    :target: `review_functionality`_
-.. |integration_well| image:: https://img.shields.io/badge/Integration-Well_Integrated-brightgreen.svg
+.. |integration_full| image:: https://img.shields.io/badge/Integration-Full-brightgreen.svg
    :target: `review_integration`_
-.. |integration_partially| image:: https://img.shields.io/badge/Integration-Partially_Integrated-orange.svg
+.. |integration_partial| image:: https://img.shields.io/badge/Integration-Partial-orange.svg
    :target: `review_integration`_
-.. |integration_minimal| image:: https://img.shields.io/badge/Integration-Minimal_Integration-red.svg
+.. |integration_no| image:: https://img.shields.io/badge/Integration-None-red.svg
    :target: `review_integration`_
 .. |docs_extensive| image:: https://img.shields.io/badge/Documentation-Extensive-brightgreen.svg
    :target: `review_documentation`_
