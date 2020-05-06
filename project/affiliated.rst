@@ -28,7 +28,7 @@ A core package for solar physics in Python.
      - Review
    * - `Docs <https://docs.sunpy.org/>`__, `Code <https://github.com/sunpy/sunpy>`__
      - :ref:`The SunPy Community <subpackage_maintainers>`
-     - |package_general| |integration_well| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+     - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
 
 NDCube
@@ -44,7 +44,7 @@ A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
      - Review
    * - `Docs <https://docs.sunpy.org/projects/ndcube>`__, `Code <https://github.com/sunpy/ndcube>`__
      - `Daniel Ryan`_, `Stuart Mumford`_
-     - |package_general| |integration_well| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+     - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
 
 drms
@@ -60,7 +60,7 @@ Provides search capability for the JSOC DRMS server which enables complex querie
      - Review
    * - `Docs <https://docs.sunpy.org/projects/drms>`__, `Code <https://github.com/sunpy/drms>`__
      - `Kolja Glogowski`_
-     - |package_general| |integration_well| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
+     - |package_general| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
 
 .. 
   radiospectra
