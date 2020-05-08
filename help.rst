@@ -24,13 +24,13 @@ Many methods of interactions are available and listed here:
 *  Join us at one of our weekly meetings. Check out `our calendar`_ to find the next one.
 
 We are looking forward to meeting you!
-But please be aware that we have a `Code of Conduct`_, that sets out how everyone should and will behave with each other.
+Please be aware that we have a `Code of Conduct`_, that sets out how everyone should and will behave with each other.
 
 .. _The SunPy Blog: blog.html
 .. _SunPy Mailing List: https://groups.google.com/forum/#!forum/sunpy
 .. _issue list: https://github.com/sunpy/sunpy/issues
 .. _our calendar: https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s@group.calendar.google.com&pli=1
-.. _Code of Conduct: https://docs.sunpy.org/en/latest/coc.html
+.. _Code of Conduct: https://docs.sunpy.org/en/latest/code_of_conduct.html
 
 Mailing List
 ============
@@ -51,11 +51,8 @@ We have a `riot channel`_ that uses `Matrix`_ which will open directly in your b
 Please stop by and say hello!
 You will find the many SunPy users and the developers within the channel.
 
-If you are using IRC hosted on `freenode`_, then you can join the same channel (bridged into matrix) by joining the (#sunpy) channel on freenode.
-
 .. _riot channel: https://openastronomy.riot.im/#/room/#sunpy:openastronomy.org
 .. _Matrix: https://matrix.org/
-.. _freenode: https://freenode.net/
 
 .. raw:: html
 
