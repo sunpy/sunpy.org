@@ -300,7 +300,7 @@ Review Criteria and Summary
 | Outcomes      | Requirements                                        |
 +===============+=====================================================+
 | Accepted      | Must have a                                         |
-|               | green score in the ``Relevant`` and ``Useful``      |
+|               | green score in the ``Functionality``                |
 |               | criteria and at least one                           |
 |               | other. They must also have no red scores.           |
 +---------------+-----------------------------------------------------+
