@@ -30,7 +30,6 @@ A core package for solar physics in Python.
      - :ref:`The SunPy Community <subpackage_maintainers>`
      - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
-
 NDCube
 ------
 A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
@@ -45,7 +44,6 @@ A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
    * - `Docs <https://docs.sunpy.org/projects/ndcube>`__, `Code <https://github.com/sunpy/ndcube>`__
      - `Daniel Ryan`_, `Stuart Mumford`_
      - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
-
 
 drms
 ----
@@ -62,6 +60,20 @@ Provides search capability for the JSOC DRMS server which enables complex querie
      - `Kolja Glogowski`_
      - |package_general| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
 
+sunraster
+---------
+sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
+
+.. list-table::
+   :widths: 15, 20, 60
+   :header-rows: 1
+
+   * - Links
+     - Maintainer(s)
+     - Review
+   * - `Docs <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Code <https://github.com/sunpy/sunraster>`__
+     - `Daniel Ryan`_
+     - |package_specialized| |integration_full| |docs_some| |tests_good| |duplication_none| |community_excellent| |dev_stc|
 
 sunkit-image
 ------------
@@ -75,24 +87,8 @@ An open-source toolbox for solar physics image processing. Currently it is an ex
      - Maintainer(s)
      - Review
    * - `Docs <https://docs.sunpy.org/projects/sunkit-image/>`__, `Code <https://github.com/sunpy/sunkit-image/>`__
-     - `Stuart Mumford`_
+     - `Nabil Freij`_, `Stuart Mumford`_
      - |package_general| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
-
-.. 
-  radiospectra
-  ------------
-  This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
-
-  .. list-table::
-    :widths: 15, 20, 60
-    :header-rows: 1
-
-    * - Links
-      - Maintainer(s)
-      - Review
-    * - `Docs <https://docs.sunpy.org/projects/radiospectra>`__, `Code <https://github.com/sunpy/radiospectra>`__
-      - `David Pérez-Suárez`_
-      -
 
 Affiliated Packages
 ===================
@@ -112,7 +108,6 @@ aiapy is a Python package for analyzing data from the Atmospheric Imaging Assemb
      - `Will Barnes`_, `Mark Cheung`_
      - |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
 
-
 pfsspy
 ------
 A python Potential Field Source Surface model package.
@@ -128,28 +123,38 @@ A python Potential Field Source Surface model package.
      - `David Stansby`_
      - |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
 
-
 Provisional Affiliated Packages
 ===============================
 
-None at this time.
+pyflct
+------
+A Python wrapper for Fourier Local Correlation Tracking.
 
-.. 
-  pyflct
-  ------
-  A Python wrapper for Fourier Local Correlation Tracking.
+.. list-table::
+   :widths: 15, 20, 60
+   :header-rows: 1
 
-  .. list-table::
-    :widths: 15, 20, 60
-    :header-rows: 1
+   * - Links
+     - Maintainer(s)
+     - Review
+   * - `Docs <https://pyflct.readthedocs.io/>`__, `Code <https://github.com/sunpy/pyflct>`__
+     - `Nabil Freij`_, `Stuart Mumford`_
+     - |package_specialized| |integration_none| |docs_some| |tests_excellent| |duplication_none| |community_good| |dev_low|
 
-    * - Links
-      - Maintainer(s)
-      - Review
-    * - `Docs <https://pyflct.readthedocs.io/>`__, `Code <https://github.com/sunpy/pyflct>`__
-      - `Stuart Mumford`_
-      - |package_specialized| |integration_none| |docs_some| |tests_excellent| |duplication_none| |community_good| |dev_low|
+radiospectra
+------------
+This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
 
+.. list-table::
+   :widths: 15, 20, 60
+   :header-rows: 1
+
+   * - Links
+     - Maintainer(s)
+     - Review
+   * - `Docs <https://docs.sunpy.org/projects/radiospectra>`__, `Code <https://github.com/sunpy/radiospectra>`__
+     - `David Pérez-Suárez`_
+     - |package_general| |integration_none| |docs_some| |tests_good| |duplication_some| |community_excellent| |dev_stc|
 
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
@@ -158,7 +163,7 @@ None at this time.
 .. _David Stansby: https://github.com/dstansby
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Mark Cheung: https://github.com/fluxtransport
-
+.. _Nabil Freij: https://github.com/nabobalis
 
 Affiliated Package Review
 =========================
