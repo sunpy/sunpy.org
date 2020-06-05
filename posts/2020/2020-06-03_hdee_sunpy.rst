@@ -1,7 +1,7 @@
 SunPy awarded a NASA HDEE Grant
 ===============================
 
-.. post:: June 3 2020
+.. post:: June 5 2020
    :author: Jack Ireland
    :tags: sunpy
    :category: Update
