@@ -376,7 +376,7 @@ Review Criteria and Summary
 | Provisional   | After review a package is listed as                 |
 |               | provisional, as long as it is                       |
 |               | assessed to not have a red score                    |
-|               | in the “Functionality",                               |
+|               | in the “Functionality",                             |
 |               | “Duplication” or                                    |
 |               | “Community” criteria and is                         |
 |               | working towards meeting the rest                    |
