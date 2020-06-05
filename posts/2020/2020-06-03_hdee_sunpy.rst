@@ -4,14 +4,14 @@ SunPy awarded a NASA HDEE Grant
 .. post:: June 3 2020
    :author: Jack Ireland
    :tags: sunpy
-   :category: Release
+   :category: Update
 
 A NASA Heliophysics Data Environment Enhancement (HDEE) grant has been
-awarded to a proposal submitted to support SunPy development.  The
+awarded to a proposal submitted to support SunPy development. The
 grant was awarded through NASA's 2019 ROSES grant solicitation.
 
 
-The grant supports the following development goals::
+The grant supports the following development goals:
 
 * Creation of a report on the state of the SunPy codebase by analyzing
   output from code coverage and API inspection tools, etc, identifying
@@ -26,9 +26,9 @@ The grant supports the following development goals::
   the Python in Heliophysics Community.
 
 The PI of the grant is Jack Ireland, and the co-I of the grant is Andy
-Terrel (NumFOCUS).  The grant has a one year duration.  The bulk of
+Terrel (NumFOCUS). The grant has a one year duration. The bulk of
 the code development will be undertaken by a developer hired through
-NuMFOCUS.  We look forward to supporting the development of SunPy
+NuMFOCUS. We look forward to supporting the development of SunPy
 through this grant.
 
 Jack
