@@ -67,19 +67,29 @@ Once an issue is open, the Affiliate Package Liaison will check that the package
 
 The review criteria that are assessed are listed as follows with the associated gradings:
 
-* **Functionality** - Does the package provide functionality that is useful and relevant to the solar physics community?
+* **Functionality**  Does the package provide functionality that is useful and relevant to the solar physics community?
+
 * **Integration**  - Does that package integrate well within the SunPy ecosystem? for example does it make use of all appropiate features in the core library, including the applicable data structures and dependencies?
+
 * **Documentation**  - Does the package have satisfactory documentation that is up to the standard of the core sunpy library including a user guide and examples?
+
 * **Testing** - Does the package use a testing suite to verify the code functionality within its codebase? Does it provide integration tests?
+
 * **Duplication** - Does the package duplicate functionaloty within sunpy core or any of the other affilaited packages or other relevant packages?
+
 * **Community**  - Is the package openly developed with active input and engagement from users within the community? Does the package have a code of conduct and does this reflect the same values as the SunPy project? 
+
 * **Development Status** - Is the package well maintained? Are contribution responded to by developers? Is the package still under developement with large API changes?
 
-The criteria is reviewed based on a 'traffic light' system ranked 'green', 'orange', ro'red' based on the criteria listed aboce. To be accepted the package must be *green* in Functionality, and one other category. It must also not list any red scores.
+These criteria are reviewed on a 'traffic light' system and ranked 'green', 'orange', or 'red' based on the submitted package. For full details of how each of criteria are ranked please check out the `Review Criteria <https://sunpy.org/project/affiliated#affiliated-package-review>`_.
 
-If the package in its current state does not pass the critera - after review a package is listed as provisional, as long as it is assessed to not have a red score in the “Functionality”, “Duplication” or “Community” criteria and is working towards meeting the rest of the review criteria.
 
-Don't worry - we will have an Affiliated Package Liason that will help you through each step of this process :)
+For a submitted package to be accepted to affiliate package status, the package must be 'green' in **Functionality**, and one other category. It must also not list any 'red' scores.
+
+If the package in its current state does not pass the critera, it can be listed as *Provisional* once it does not list 'red' in **Functionality**, **Duplication** or **Community** criteria. The idea is that the package can be listed as Provisional as it is working towards addressing the criteria for which it did not pass the review in. 
+
+We would really like to encourgae packages interested in becoming an affiliated SunPy package to please submit and issue and open up a review dialogue. 
+We will have an Affiliated Package Liason that will help you through each step of this process :) Even if you are unsure about whether you are certain you want to submit a package, please feel free to open an issue and informally discuss your package. 
 
 Reach out!
 ----------
