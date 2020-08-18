@@ -67,9 +67,10 @@ Once an issue is open, the Affiliate Package Liaison will check that the package
 
 The review criteria that are assessed are listed as follows with the associated gradings:
 
-* **Functionality**          
+* **Functionality**   This is to asses whether the package is relevant and useful to the solar physics community    
    - Possible Gradings: General Package / Specialized Package / Not Relevant
-* **Integration**            : Well integrated / Partially Integrated / Minimal Integration
+* **Integration**            
+   - Possible gradings: Well integrated / Partially Integrated / Minimal Integration
 * **Documentation**            : Extensive / Some / Little
 * **Testing**                 : Excellent / Good / Needs Work
 * **Duplication**              : None / Some / Major
