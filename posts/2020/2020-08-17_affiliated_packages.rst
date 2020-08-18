@@ -67,15 +67,13 @@ Once an issue is open, the Affiliate Package Liaison will check that the package
 
 The review criteria that are assessed are listed as follows with the associated gradings:
 
-* **Functionality**   This is to asses whether the package is relevant and useful to the solar physics community    
-   - Possible Gradings: General Package / Specialized Package / Not Relevant
-* **Integration**            
-   - Possible gradings: Well integrated / Partially Integrated / Minimal Integration
-* **Documentation**            : Extensive / Some / Little
-* **Testing**                 : Excellent / Good / Needs Work
-* **Duplication**              : None / Some / Major
-* **Community**                : Excellent / Good / Needs Work
-* **Development Status**       : Stable / Subject to Change / Low Activity / Needs Work
+* **Functionality** - Does the package provide functionality that is useful and relevant to the solar physics community?
+* **Integration**  - Does that package integrate well within the SunPy ecosystem? for example does it make use of all appropiate features in the core library, including the applicable data structures and dependencies?
+* **Documentation**  - Does the package have satisfactory documentation that is up to the standard of the core sunpy library including a user guide and examples?
+* **Testing** - Does the package use a testing suite to verify the code functionality within its codebase? Does it provide integration tests?
+* **Duplication** - Does the package duplicate functionaloty within sunpy core or any of the other affilaited packages or other relevant packages?
+* **Community**  - Is the package openly developed with active input and engagement from users within the community? Does the package have a code of conduct and does this reflect the same values as the SunPy project? 
+* **Development Status** - Is the package well maintained? Are contribution responded to by developers? Is the package still under developement with large API changes?
 
 The criteria is reviewed based on a 'traffic light' system ranked 'green', 'orange', ro'red' based on the criteria listed aboce. To be accepted the package must be *green* in Functionality, and one other category. It must also not list any red scores.
 
