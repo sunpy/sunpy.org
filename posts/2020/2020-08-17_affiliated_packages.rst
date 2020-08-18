@@ -1,4 +1,4 @@
-The What, Why and How of SunPy Affiliated Packages
+The What, Why, and How of SunPy Affiliated Packages
 ==================
 
 .. post:: August 18 2020
@@ -22,10 +22,9 @@ SunPy supports the developement of affiliated packages through our community dev
 
 Call to instrument/mission teams!
 ---------------------------------
-We invite instrument and mission teams that are interested in developing a Python package to become a SunPy affiliated package. Integrating mission/instrument-specific software within the SunPy ecosystem will be of great benefit to the solar community and allow for a simplified and unified process for users to perform solar data analysis. For example, a package may consist of instrument specific calibration routines which would be outside the scope of SunPy core package, but could build upon the functionality provided of data containers and file readers. Developing a mission/instrument specific package as a sunpy affiliated package will allow the code to live and integrate within the SunPy ecosystem.
+We invite instrument and mission teams that are interested in developing a Python package to become a SunPy affiliated package. Integrating mission/instrument-specific software within the SunPy ecosystem will be of great benefit to the solar community and will allow for a simplified and unified process for users to perform solar data analysis. For example, a package may consist of instrument-specific calibration routines which would be outside the scope of SunPy core package, but could build upon the functionality provided by core such as the data containers and file readers. Developing a mission/instrument specific package as a sunpy affiliated package will allow the code to live and integrate within the SunPy ecosystem.
 
 Furthermore, for mission/instrument teams that would like to begin developing specific python software, the SunPy project offers support through our package template and community resources for the package to be 'incubated' until it is at the level of affiliate status. We would really like to encourage instrument/mission teams to reach out!
-
 
 Package template
 ----------------
@@ -34,7 +33,7 @@ The SunPy project has developed a `package template <https://github.com/sunpy/pa
 
 How does a package become an affiliated package?
 ---------------------------------------------------
-To become a SunPy affiliated package, a set of criteria need to be met to ensure that affiliated packages provide useful functionality to the community at a standard of quality similar to the core SunPy package. We now have a new review process for becoming an affiliated package, aimed at being open, approachable and streamline!
+To become a SunPy affiliated package, a set of criteria need to be met to ensure that affiliated packages provide useful functionality to the community at a standard of quality similar to the core SunPy package. We now have a new review process for becoming an affiliated package, aimed at being open, approachable and streamlined!
 
 The reviews are performed as an open process through GitHub issues on the `https://github.com/sunpy/sunpy.org` repository. To submit a package for review to become an affiliated package, an issue should be opened on this repository. We now have an issue template for submitting a package for review to make it easier to provide all the required information and to start a dialogue about the process. 
 
