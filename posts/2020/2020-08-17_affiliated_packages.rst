@@ -56,7 +56,7 @@ To submit a package for review to become an affiliated package, an issue should 
 We now have an `issue template <https://github.com/sunpy/sunpy.org/issues/new?assignees=Cadair&labels=Affiliated+Package+Review&template=new_affiliated_package.md>`_ for submitting a package for review to make it easier to provide all the required information and to start a dialogue about the process. 
 
 Once an issue is open, the Affiliate Package Liaison will check that the package meets the baseline requirements of an affiliated package.
-These include checking to see that it is compatible with the SunPy `Code of Conduct <https://docs.sunpy.org/en/latest/code_of_conduct.html>`_,  has an appropriate licence, provides a Python interface, is on PyPi, and is useful to the solar physics community.
+These include checking to see that it is compatible with the SunPy `Code of Conduct <https://docs.sunpy.org/en/latest/code_of_conduct.html>`_,  has an appropriate licence, provides a Python interface, is on PyPI, and is useful to the solar physics community.
 Following this, a reviewer independent to the package is assigned and a review is undertaken based on the criteria listed below. 
 
 The review criteria that are assessed are listed as follows with the associated gradings:
