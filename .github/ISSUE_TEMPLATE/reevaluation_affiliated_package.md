@@ -1,11 +1,12 @@
 ---
-name: New Affiliated Package
-about: Submit a new affiliated package for review
+name: Reevaluation of Affiliated Package
+about: Submit an update review of a affiliated package
 labels: Affiliated Package Review
 assignees: Cadair
 ---
 
 ## Package Details
+<!-- If any of these have changed, please update them. !-->
 
 - Package name:
 - Maintainer(s):
@@ -15,8 +16,8 @@ assignees: Cadair
 - Continuous integration link(s):
 - Link to Code of Conduct or page describing adopted Code of Conduct:
 
-## Description of Package
-<!-- Roughly 1-3 sentences in length !-->
+## Requested Re-review
+<!-- What would you like to be reviewed again? !-->
 
 <!-- Submitters do not need to edit below this comment !-->
 
@@ -34,7 +35,7 @@ assignees: Cadair
 
 ## Instructions to Reviewer
 
-Please copy the following and select the ranking for each criteria, the full review criteria can be found here:
+Please copy the following and select the ranking for requested criteria, the full review criteria can be found here:
 
 ```
 * Functionality           : General Package / Specialized Package / Not Relevant

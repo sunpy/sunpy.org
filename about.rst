@@ -62,7 +62,7 @@ All the talks that have been recorded from these workshops are listed below in r
 
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner" style="margin:50px 0 50px 0;">
-				
+
 				<div class="item active">
 				  <iframe width="560" height="450" src="https://www.youtube.com/embed/E_jq0EubcGs" style="width: 100%;"></iframe>
 				</div>
