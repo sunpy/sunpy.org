@@ -25,7 +25,7 @@ intersphinx_mapping = {
     "drms": ("https://docs.sunpy.org/projects/drms/en/stable/", None),
 }
 
-rawfiles = ["jitsi.html", "novice-issues.html"]
+rawfiles = ["jitsi.html", "issues.html"]
 
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 
@@ -54,7 +54,7 @@ html_title = ""
 html_static_path = ["_static"]
 html_theme_options.update(
     {
-        "base_url": "sunpy.org",
+        "base_url": "https://sunpy.org",
         "seo_description": "SunPy",
         "navbar_pagenav": False,
         "globaltoc_depth": 1,

@@ -16,12 +16,9 @@ assignees: Cadair
 - Link to Code of Conduct or page describing adopted Code of Conduct:
 
 ## Description of Package
-<!-- Roughly 1-3 sentances in length !-->
-
-
+<!-- Roughly 1-3 sentences in length !-->
 
 <!-- Submitters do not need to edit below this comment !-->
-
 
 ## Package Review
 
@@ -33,10 +30,11 @@ assignees: Cadair
 - [ ] Does the project provide a Python interface?
 - [ ] Is the project on PyPI?
 - [ ] Is the project useful to the solar physics community?
+- [ ] Version that was reviewed (tag or commit hash)
 
 ## Instructions to Reviewer
 
-Please copy the following and select the ranking for each criteria, the full review criteria can be found here: 
+Please copy the following and select the ranking for each criteria, the full review criteria can be found here:
 
 ```
 * Functionality           : General Package / Specialized Package / Not Relevant
