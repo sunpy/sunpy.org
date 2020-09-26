@@ -54,7 +54,7 @@ html_title = ""
 html_static_path = ["_static"]
 html_theme_options.update(
     {
-        "base_url": "sunpy.org",
+        "base_url": "https://sunpy.org",
         "seo_description": "SunPy",
         "navbar_pagenav": False,
         "globaltoc_depth": 1,
