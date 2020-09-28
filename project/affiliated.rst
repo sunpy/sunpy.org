@@ -118,7 +118,7 @@ aiapy is a Python package for analyzing data from the Atmospheric Imaging Assemb
    * - `Docs <https://aiapy.readthedocs.io/en/latest/>`__, `Code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
      - `Will Barnes`_, `Mark Cheung`_
      - |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
-     - `v0.2.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.2.0>`__
+     - `v0.1.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.1.0>`__
 
 pfsspy
 ------
