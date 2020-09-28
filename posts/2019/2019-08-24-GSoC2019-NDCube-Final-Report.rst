@@ -160,7 +160,7 @@ There was
 `blogpost <https://numfocus.org/blog/meet-our-2019-gsoc-students-part-3>`__
 by NumFocus which highlighted my learnings during GSoC, so I would be
 sharing some unique points (not share the old ones :P) that highlighted
-my learnings — 
+my learnings —
 
     Make sure you have a good understanding of the subparts of the project
 
@@ -168,7 +168,7 @@ I have had some moments where I just went about my tasks without having
 a solid understanding of them. I had to revert back to understand it
 again, so I recognized my shortcomings after my first evaluations and
 made sure that I had a solid understanding of the problem, rather than
-diving into it, without understanding the what and why of the problem. 
+diving into it, without understanding the what and why of the problem.
 
     Make sure you have some backup tasks to fall back upon
 
@@ -179,7 +179,7 @@ but talking with my mentor(s) and having some backup tasks did help me
 with my case of sitting idle. This turned out to be crucial in the last
 few weeks, as I had little to no time of starting out on a new feature.
 Thanks to my backup tasks, I had to carry forward them rather than
-starting them from scratch. 
+starting them from scratch.
 
     Make sure you have fun
 
@@ -191,6 +191,6 @@ happy to share the progress of my work.
 
 GSoC is surely an experience of a lifetime, and I would suggest everyone
 who is enthusiastic with Open-Source and want to develop industry graded
-software, then GSoC is the right place. 
+software, then GSoC is the right place.
 
     Ciaos Adios!

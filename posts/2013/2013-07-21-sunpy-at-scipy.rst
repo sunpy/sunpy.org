@@ -42,4 +42,3 @@ yt is a visualisation and analysis library for astrophysical simulations.
 My PhD work is numerical solar physics and this was very interesting to me.
 yt has it’s own very powerful volume rendering engine as well as a very nice API to do powerful slicing and parallel computation and rendering.
 I would recommended people who might be interested take a look!
-

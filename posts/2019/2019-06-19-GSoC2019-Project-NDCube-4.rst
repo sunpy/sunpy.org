@@ -5,7 +5,7 @@
    :tags: GSoC, NDCube
    :category: GSoC
 
-|image0| 
+|image0|
 
 Solving bugs for eternity!
 
@@ -76,4 +76,3 @@ Link to my previous post
     Until the next blog-post, ciao-adios!
 
 .. |image0| image:: https://cdn-images-1.medium.com/max/1144/1*qaM9LjB9PY5pwj9RDtP93g.jpeg
-

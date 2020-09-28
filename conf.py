@@ -50,8 +50,8 @@ pygments_style = "sphinx"
 
 default_role = "obj"
 templates_path += ["_templates"]
-html_title = ""
-html_static_path = ["_static"]
+html_static_path += ["_static"]
+html_extra_path += ["_static/img"]
 html_theme_options.update(
     {
         "base_url": "https://sunpy.org",

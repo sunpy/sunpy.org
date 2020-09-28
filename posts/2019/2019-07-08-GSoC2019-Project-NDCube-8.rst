@@ -74,4 +74,3 @@ Link to my previous post
    `Link <https://medium.com/@yashrsharma44/week-05-testing-out-the-codebase-aaf5e804ff3a>`__
 
 .. |image0| image:: https://cdn-images-1.medium.com/max/1144/1*BSnsYzTJ6ZurFgZPxZGvng.png
-

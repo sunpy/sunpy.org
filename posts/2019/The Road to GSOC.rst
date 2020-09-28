@@ -12,7 +12,7 @@ something. The same mantra applies to Google Summer of Code or as we
 fondly know it, GSOC.
 
 .. figure:: https://cdn-images-1.medium.com/max/1000/1*g5RBYeGe0VLB6t_ZsvO_wQ.png
-   :alt: 
+   :alt:
 
 I am a second-year student of the Indian Institute of Technology,
 Bhubaneswar and am selected in the Summer of Code project on *Developing

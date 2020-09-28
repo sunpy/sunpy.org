@@ -87,4 +87,3 @@ and updated using conda::
 or pip::
 
   $ pip install -U sunpy
-

@@ -12,7 +12,7 @@ What are SunPy affiliated packages?
 SunPy affiliated packages are well-maintained, open-source software packages that build upon or extend the functionality of the SunPy core library.
 The main idea behind affiliated packages is to provide additional tools and functionality to the solar physics community that is considered outside the scope of the SunPy core library, but builds upon it.
 Affiliated packages are aimed to integrate well with the SunPy ecosystem and together with the core library offer a diverse software ecosystem for which to perform solar data analysis.
-Affiliated packages are reviewed and registered with the SunPy project. 
+Affiliated packages are reviewed and registered with the SunPy project.
 
 There are two types of affiliated packages - *sponsored* and *non-sponsored*.
 A sponsored affiliated package is an affiliated package that is maintained and overseen by the SunPy project, examples of these include `sunpy core <https://docs.sunpy.org/en/stable/>`_ and `ndcube <https://docs.sunpy.org/projects/ndcube/en/stable/>`_.
@@ -53,11 +53,11 @@ We now have a new review process for becoming an affiliated package, aimed at be
 
 The reviews are performed as an open process through GitHub issues on the `https://github.com/sunpy/sunpy.org` repository.
 To submit a package for review to become an affiliated package, an issue should be opened on this repository.
-We now have an `issue template <https://github.com/sunpy/sunpy.org/issues/new?assignees=Cadair&labels=Affiliated+Package+Review&template=new_affiliated_package.md>`_ for submitting a package for review to make it easier to provide all the required information and to start a dialogue about the process. 
+We now have an `issue template <https://github.com/sunpy/sunpy.org/issues/new?assignees=Cadair&labels=Affiliated+Package+Review&template=new_affiliated_package.md>`_ for submitting a package for review to make it easier to provide all the required information and to start a dialogue about the process.
 
 Once an issue is open, the Affiliate Package Liaison will check that the package meets the baseline requirements of an affiliated package.
 These include checking to see that it is compatible with the SunPy `Code of Conduct <https://docs.sunpy.org/en/latest/code_of_conduct.html>`_,  has an appropriate licence, provides a Python interface, is on PyPI, and is useful to the solar physics community.
-Following this, a reviewer independent to the package is assigned and a review is undertaken based on the criteria listed below. 
+Following this, a reviewer independent to the package is assigned and a review is undertaken based on the criteria listed below.
 
 The review criteria that are assessed are listed as follows with the associated gradings:
 
@@ -71,7 +71,7 @@ The review criteria that are assessed are listed as follows with the associated 
 
 * **Duplication** - Does the package duplicate functionality within sunpy core or any of the other affiliated packages or other relevant packages?
 
-* **Community**  - Is the package openly developed with active input and engagement from users within the community? Does the package have a code of conduct and does this reflect the same values as the SunPy project? 
+* **Community**  - Is the package openly developed with active input and engagement from users within the community? Does the package have a code of conduct and does this reflect the same values as the SunPy project?
 
 * **Development Status** - Is the package well maintained? Are contribution responded to by developers? Is the package still under developement with large API changes?
 
@@ -82,11 +82,11 @@ For a submitted package to be accepted to affiliate package status, the package 
 It must also not list any 'red' scores.
 
 If the package in its current state does not pass the criteria, it can be listed as *Provisional* once it does not list 'red' in the **Functionality**, **Duplication** or **Community** criteria.
-The idea is that the package can be listed as Provisional as it is working towards addressing the criteria for which it did not pass the review in. 
+The idea is that the package can be listed as Provisional as it is working towards addressing the criteria for which it did not pass the review in.
 
-We would really like to encourage packages interested in becoming an affiliated SunPy package to please submit an issue and open up a review dialogue. 
+We would really like to encourage packages interested in becoming an affiliated SunPy package to please submit an issue and open up a review dialogue.
 We will have an Affiliated Package Liaison that will help you through each step of this process :).
-Even if you are unsure about whether you want to submit a package, please feel free to open an issue and informally discuss your package. 
+Even if you are unsure about whether you want to submit a package, please feel free to open an issue and informally discuss your package.
 
 Reach out!
 ----------
