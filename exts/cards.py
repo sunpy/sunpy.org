@@ -8,7 +8,7 @@ class card(nodes.General, nodes.Element):
 
 def visit_card_node(self, node):
     title = node.get("title", "")
-    key = title or node['github']
+    key = title or node["github"]
     key = key.lower().replace(" ", "-")
     title = f"<h4>{title}</h4>"
 
@@ -97,17 +97,16 @@ class Card(Directive):
 
         name = " ".join(self.arguments)
 
-
         out = card(
-                name=name,
-                img_name=img_name,
-                title=title,
-                github=github,
-                aff_name=aff_name,
-                aff_link=aff_link,
-                date=date,
-                desc=desc,
-            )
+            name=name,
+            img_name=img_name,
+            title=title,
+            github=github,
+            aff_name=aff_name,
+            aff_link=aff_link,
+            date=date,
+            desc=desc,
+        )
 
         self.state.nested_parse(self.content, 0, out)
 

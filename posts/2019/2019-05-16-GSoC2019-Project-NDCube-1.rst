@@ -9,7 +9,7 @@ GSoC 2019: Community Bonding Period - I
 
 This post encapsulates my proceedings with the **GSoC** project that I
 have been working on, and a short log on the meeting that I had with my
-mentors. 
+mentors.
 
 Community Bonding Period: Getting acquainted with the environment
 -----------------------------------------------------------------

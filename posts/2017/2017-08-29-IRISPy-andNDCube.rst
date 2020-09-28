@@ -34,35 +34,35 @@ a axis, this is handled by setting the WCS value to one for that axis.
     In [4]: cube2.dimensions
     Out[4]: DimensionPair(shape=<Quantity [ 2., 3., 4.] pix>, axis_types=['HPLN-TAN', 'HPLT-TAN', 'WAVE'])
     In [5]: cube2
-    Out[5]: 
+    Out[5]:
     Sunpy NDCube
     ---------------------
     WCS Keywords
     Number of WCS axes: 3
-    CTYPE : 'WAVE'  'HPLT-TAN'  'HPLN-TAN'  
-    CRVAL : 1.0000000000000001e-09  0.5  1.0  
-    CRPIX : 0.0  2.0  2.0  
-    PC1_1 PC1_2 PC1_3  : 1.0  0.0  0.0  
-    PC2_1 PC2_2 PC2_3  : 0.0  1.0  0.0  
-    PC3_1 PC3_2 PC3_3  : 0.0  0.0  1.0  
-    CDELT : 2.0000000000000002e-11  0.5  0.40000000000000002  
+    CTYPE : 'WAVE'  'HPLT-TAN'  'HPLN-TAN'
+    CRVAL : 1.0000000000000001e-09  0.5  1.0
+    CRPIX : 0.0  2.0  2.0
+    PC1_1 PC1_2 PC1_3  : 1.0  0.0  0.0
+    PC2_1 PC2_2 PC2_3  : 0.0  1.0  0.0
+    PC3_1 PC3_2 PC3_3  : 0.0  0.0  1.0
+    CDELT : 2.0000000000000002e-11  0.5  0.40000000000000002
     NAXIS : 4  3  2
     ---------------------
     Length of NDCube: [ 2.  3.  4.] pix
     Axis Types of NDCube: ['HPLN-TAN', 'HPLT-TAN', 'WAVE']
     In [6]: cube2[0, :, :]
-    Out[6]: 
+    Out[6]:
     Sunpy NDCube
     ---------------------
     WCS Keywords
     Number of WCS axes: 3
-    CTYPE : 'WAVE'  'HPLT-TAN'  'HPLN-TAN'  
-    CRVAL : 1.0000000000000001e-09  0.5  1.0  
-    CRPIX : 0.0  2.0  2.0  
-    PC1_1 PC1_2 PC1_3  : 1.0  0.0  0.0  
-    PC2_1 PC2_2 PC2_3  : 0.0  1.0  0.0  
-    PC3_1 PC3_2 PC3_3  : 0.0  0.0  1.0  
-    CDELT : 2.0000000000000002e-11  0.5  0.40000000000000002  
+    CTYPE : 'WAVE'  'HPLT-TAN'  'HPLN-TAN'
+    CRVAL : 1.0000000000000001e-09  0.5  1.0
+    CRPIX : 0.0  2.0  2.0
+    PC1_1 PC1_2 PC1_3  : 1.0  0.0  0.0
+    PC2_1 PC2_2 PC2_3  : 0.0  1.0  0.0
+    PC3_1 PC3_2 PC3_3  : 0.0  0.0  1.0
+    CDELT : 2.0000000000000002e-11  0.5  0.40000000000000002
     NAXIS : 4  3  1
     ---------------------
     Length of NDCube: [ 3.  4.] pix
@@ -85,7 +85,7 @@ This has methods such as:
 
 ``__getitem__`` method that slices the sequence like a list containing NDCubes which also handles slicing of WCS objects.
 
-``index_as_cube()`` this method handles the slicing of sequence as a single N-dimensional object. 
+``index_as_cube()`` this method handles the slicing of sequence as a single N-dimensional object.
 Example: if the dimension of NDCube objects inside the list of NDCubeSequence is 3 then this method will treat slicing of sequence as single 3 dimensional object by concatenating all the cubes.
 So this makes the dimensions as ``(len(list_inside_cubesequence)*NDCube[1st dimension], NDCube[2nd dimension], NDCube[3rd dimension])``.
 
@@ -107,7 +107,7 @@ This was done in a clean and neat way.
 
 So this class object has all the inherent methods and properties of NDCubeSequence as it uses this as it’s base class.
 
-Future work includes making changes to ``IRISSpectrograph`` to include the recently added changes such as 
+Future work includes making changes to ``IRISSpectrograph`` to include the recently added changes such as
 SpectrographSequence, so this is a new sequence which is using the ``NDCubeSequence`` as it’s parent class. Making the
 iris tools working properly with the new IRISSpectrograph. Developing NDCube's and NDCubeSequence's ``to_sunpy`` method
 to handle all the sunpy objects.

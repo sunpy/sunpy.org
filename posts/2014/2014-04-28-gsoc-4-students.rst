@@ -39,4 +39,3 @@ Nevertheless, they will have also the opportunity to write some feature posts he
 Once more, this year GSOC would not have been possible without the help that the `Python Software Foundation <https://wiki.python.org/moin/SummerOfCode/2014>`_ have given us, as we are participating under their umbrella.
 Thanks PSF!
 In particular their organisers `Terri <http://terri.zone12.com/>`_ , Meflin and Florian.
-

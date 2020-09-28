@@ -85,4 +85,3 @@ Link to my previous post
    `Link <https://medium.com/@yashrsharma44/week-2-solving-bugs-fb7e2eff576e>`__
 
 .. |image0| image:: https://cdn-images-1.medium.com/max/1144/0*O02irLG83RzAyKCm.jpg
-

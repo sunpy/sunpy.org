@@ -20,7 +20,7 @@ What is Google Summer of Code?
     </div>
 
 
-**According to the sources** - 
+**According to the sources** -
 
 
 **Google Summer of Code is a global program focused on introducing students to open source software development. Students work on a 3 month programming project with an open source organization during their break from university.**
@@ -36,9 +36,9 @@ Working through PRs and Issues
 ================================
 
 
-GSoC provides a really good platform to sharpen and develop skills for building Open Sourced software. While, the codebase for SunPy is present in GitHub, it was easy for me to understand and get through the process of solving issues/bugs and making a Pull Request. 
+GSoC provides a really good platform to sharpen and develop skills for building Open Sourced software. While, the codebase for SunPy is present in GitHub, it was easy for me to understand and get through the process of solving issues/bugs and making a Pull Request.
 
-I started to solve the issues and PRs for SunPy around from January, so this provided me ample time to go through the probable projects and the code base that I would work later on. 
+I started to solve the issues and PRs for SunPy around from January, so this provided me ample time to go through the probable projects and the code base that I would work later on.
 
 Reading codebase requires another skill, the ability to read through long scipts, understanding the flow of code and understanding the different **witch-craft** done in the codebase, and learning about them, which is what that makes up the important skill for making contributions.
 
@@ -50,12 +50,10 @@ After working through the issues and bugs, I started looking through the project
 Getting selected for GSoC' 19
 ===============================
 
-Even though I had a very good conversation with my mentor and the SunPy project leads, I was still quite nervous during the result day. I was watching some movies to tone out my anxiety. The moment I got my result, I was really happy, and was quite relieved. 
+Even though I had a very good conversation with my mentor and the SunPy project leads, I was still quite nervous during the result day. I was watching some movies to tone out my anxiety. The moment I got my result, I was really happy, and was quite relieved.
 
 Now the upcoming months is some thing, which I look forward to, as it remains one of my challenging months for Summers.
 
 I have written a blogpost of my first video-chat with my mentor, so stay tuned for another blogpost of my conversation.
 
 BTW, my mentors for the project are `Stuart Mumford <https://github.com/cadair>`_ and `Daniel Ryan. <https://github.com/DanRyanIrish>`_
-
-
