@@ -5,7 +5,7 @@
    :tags: GSoC, NDCube
    :category: GSoC
 
-|image0| 
+|image0|
 
 It’s time for Action ; Code-Sleep-Coffee Repeat!
 
@@ -29,7 +29,7 @@ very complex, and it contained small portions of code which made no
 sense to me at all. All the time, I spent time understanding the code,
 but made no progress.
 
-|image1| 
+|image1|
 
 Sometimes debugging is helpful in understanding the flow of
 code!
@@ -58,4 +58,3 @@ Link to previous post
 
 .. |image0| image:: https://cdn-images-1.medium.com/max/1144/0*z7jar2Q3sthcusYq.jpg
 .. |image1| image:: https://cdn-images-1.medium.com/max/1144/0*PjHq4AuTbMjXz7Gq.jpg
-

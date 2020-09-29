@@ -107,4 +107,3 @@ I hope you enjoyed reading it. Stay tuned for more exciting stories.
 
 .. |image0| image:: https://cdn-images-1.medium.com/max/1000/1*4FkOWgo5ou2OfJYrxrdZKw.png
 .. |image1| image:: https://cdn-images-1.medium.com/max/1000/0*US__hwDUSCu6nNVG.png
-

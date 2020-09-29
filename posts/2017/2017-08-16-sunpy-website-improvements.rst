@@ -13,7 +13,7 @@ I still remember the first time I read the documentation of Sphinx and say “Wh
 
 The old SunPy website was a Ruby based Jekyll static website and it wasn’t consistent with the documentation theme.
 The main aspect of the project is to remove the inconsistency between the website and the docs while improving UI/UX.
-There are also 4 extensions of the project 
+There are also 4 extensions of the project
 
 1. Implementing a registry of SunPy Affiliated packages
 2. Move away from Jekyll to a Python based static site generator
@@ -62,4 +62,3 @@ I’m also really happy with the docs theme. Now, there are just some minor issu
 I’m really exciting for the day that everyone will see the new website with the release and get some feedbacks on it :)
 In the near end of the GSoC, I can comfortably say that it makes me feel really happy to work on an open source project.
 I want to contribute to the website after the GSoC ends and see how it will improve even better by time.
-

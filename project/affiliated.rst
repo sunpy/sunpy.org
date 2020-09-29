@@ -20,75 +20,85 @@ sunpy core
 A core package for solar physics in Python.
 
 .. list-table::
-   :widths: 15, 20, 60
+   :widths: 15, 20, 60, 15
    :header-rows: 1
 
    * - Links
      - Maintainer(s)
      - Review
+     - Version Reviewed
    * - `Docs <https://docs.sunpy.org/>`__, `Code <https://github.com/sunpy/sunpy>`__
      - :ref:`The SunPy Community <subpackage_maintainers>`
      - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+     - `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
 NDCube
 ------
 A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
 
 .. list-table::
-   :widths: 15, 20, 60
+   :widths: 15, 20, 60, 15
    :header-rows: 1
 
    * - Links
      - Maintainer(s)
      - Review
+     - Version Reviewed
    * - `Docs <https://docs.sunpy.org/projects/ndcube>`__, `Code <https://github.com/sunpy/ndcube>`__
      - `Daniel Ryan`_, `Stuart Mumford`_
      - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+     - `v1.3.2 <https://github.com/sunpy/ndcube/releases/tag/v1.3.2>`__
 
 drms
 ----
 Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data.
 
 .. list-table::
-   :widths: 15, 20, 60
+   :widths: 15, 20, 60, 15
    :header-rows: 1
 
    * - Links
      - Maintainer(s)
      - Review
+     - Version Reviewed
    * - `Docs <https://docs.sunpy.org/projects/drms>`__, `Code <https://github.com/sunpy/drms>`__
      - `Kolja Glogowski`_
      - |package_general| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
+     - `v0.5.7 <https://github.com/sunpy/drms/releases/tag/v0.5.7>`__
 
 sunraster
 ---------
 sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
 
 .. list-table::
-   :widths: 15, 20, 60
+   :widths: 15, 20, 60, 15
    :header-rows: 1
 
    * - Links
      - Maintainer(s)
      - Review
+     - Version Reviewed
    * - `Docs <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Code <https://github.com/sunpy/sunraster>`__
      - `Daniel Ryan`_
      - |package_specialized| |integration_full| |docs_some| |tests_good| |duplication_none| |community_excellent| |dev_stc|
+     - `v0.1.2 <https://github.com/sunpy/sunraster/releases/tag/v0.1.2>`__
 
 sunkit-image
 ------------
 An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines.
 
 .. list-table::
-   :widths: 15, 20, 60
+   :widths: 15, 20, 60, 15
    :header-rows: 1
 
    * - Links
      - Maintainer(s)
      - Review
+     - Version Reviewed
    * - `Docs <https://docs.sunpy.org/projects/sunkit-image/>`__, `Code <https://github.com/sunpy/sunkit-image/>`__
      - `Nabil Freij`_, `Stuart Mumford`_
      - |package_general| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
+     - `v0.1 <https://github.com/sunpy/sunkit-image/releases/tag/v0.1.0>`__
 
 Affiliated Packages
 ===================
@@ -98,30 +108,34 @@ aiapy
 aiapy is a Python package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
 
 .. list-table::
-   :widths: 15, 20, 60
+   :widths: 15, 20, 60, 15
    :header-rows: 1
 
    * - Links
      - Maintainer(s)
      - Review
-   * - `Docs <https://pypi.org/project/aiapy/>`__, `Code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
+     - Version Reviewed
+   * - `Docs <https://aiapy.readthedocs.io/en/latest/>`__, `Code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
      - `Will Barnes`_, `Mark Cheung`_
      - |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
+     - `v0.1.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.1.0>`__
 
 pfsspy
 ------
 A python Potential Field Source Surface model package.
 
 .. list-table::
-   :widths: 15, 20, 60
+   :widths: 15, 20, 60, 15
    :header-rows: 1
 
    * - Links
      - Maintainer(s)
      - Review
+     - Version Reviewed
    * - `Docs <https://pfsspy.readthedocs.io/>`__, `Code <https://github.com/dstansby/pfsspy/>`__
      - `David Stansby`_
      - |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
+     - `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
 Provisional Affiliated Packages
 ===============================
@@ -131,30 +145,34 @@ pyflct
 A Python wrapper for Fourier Local Correlation Tracking.
 
 .. list-table::
-   :widths: 15, 20, 60
+   :widths: 15, 20, 60, 15
    :header-rows: 1
 
    * - Links
      - Maintainer(s)
      - Review
+     - Version Reviewed
    * - `Docs <https://pyflct.readthedocs.io/>`__, `Code <https://github.com/sunpy/pyflct>`__
      - `Nabil Freij`_, `Stuart Mumford`_
      - |package_specialized| |integration_none| |docs_some| |tests_excellent| |duplication_none| |community_good| |dev_low|
+     - `v0.2.1 <https://github.com/sunpy/pyflct/releases/tag/v0.2.1>`__
 
 radiospectra
 ------------
 This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
 
 .. list-table::
-   :widths: 15, 20, 60
+   :widths: 15, 20, 60, 15
    :header-rows: 1
 
    * - Links
      - Maintainer(s)
      - Review
+     - Version Reviewed
    * - `Docs <https://docs.sunpy.org/projects/radiospectra>`__, `Code <https://github.com/sunpy/radiospectra>`__
      - `David Pérez-Suárez`_
      - |package_general| |integration_none| |docs_some| |tests_good| |duplication_some| |community_excellent| |dev_stc|
+     - `master <https://github.com/sunpy/radiospectra/tree/201104753546d412275b4dc40adc74af34de6fb3>`__
 
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
@@ -405,7 +423,6 @@ Steps for Getting New Packages Reviewed
 7. If the review passed the review criteria then the submitting author or the :ref:`role_affiliated-liaison` opens a pull request to add the package and its review results to the sunpy.org website, unless the submitting author withdraws the submission.
 8. The :ref:`role_affiliated-liaison` merges the pull request.
 
-
 Existing Packages Review Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -414,7 +431,6 @@ Developers may challenge a new review, which then requires the liaison to get an
 
 Existing provisional affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison`.
 To pass they must not have a worse score and still be working towards meeting the rest of the review criteria.
-
 
 Acknowledgements
 ~~~~~~~~~~~~~~~~
@@ -438,7 +454,6 @@ Sections of this page are heavily inspired by the `Astropy affiliated package re
 .. |excellent| image:: https://img.shields.io/badge/Excellent-brightgreen.svg
 .. |good| image:: https://img.shields.io/badge/Good-orange.svg
 .. |needs_work| image:: https://img.shields.io/badge/Needs_Work-red.svg
-
 
 .. |package_general| image:: https://img.shields.io/badge/Functionality-General_Package-brightgreen.svg
    :target: `review_functionality`_
