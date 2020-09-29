@@ -20,7 +20,7 @@ Many methods of interactions are available and listed here:
 *  Read and subscribe to `The SunPy Blog`_.
 *  Subscribe to the `SunPy Mailing List`_.
 *  Join us on github and add a feature request or bug report to our `issue list`_.
-*  Chat with fellow SunPy users or developers on our `riot channel`_.
+*  Chat with fellow SunPy users or developers on our `matrix channel`_.
 *  Join us at one of our weekly meetings. Check out `our calendar`_ to find the next one.
 
 We are looking forward to meeting you!
@@ -47,14 +47,10 @@ If, on the other hand, you have a question about the inner workings of SunPy or 
 Live Chat
 =========
 
-We have a `riot channel`_ that uses `Matrix`_ which will open directly in your browser, or use the embedded client below.
-Please stop by and say hello!
+We have a `matrix channel`_ which will open directly in your browser.
 You will find the many SunPy users and the developers within the channel.
+Please stop by and say hello!
+You can login with any matrix account by typing in your full username, i.e. ``@cadair:matrix.org``.
 
-.. _riot channel: https://openastronomy.riot.im/#/room/#sunpy:openastronomy.org
+.. _matrix channel: https://openastronomy.element.io/#/room/#sunpy:openastronomy.org
 .. _Matrix: https://matrix.org/
-
-.. raw:: html
-
-   <iframe src="https://riot.im/app/#/room/#sunpy-general:matrix.org" style="border:0; width:100%; height:450px;">
-   </iframe>
