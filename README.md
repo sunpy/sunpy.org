@@ -2,6 +2,11 @@
 
 Here lays the source code for the SunPy website.
 
+## Submodule
+
+Useful pages from the website was moved out to a [project wide repository](https://github.com/sunpy/.github).
+The `coc.md`, `contribute.md` and `help.md` now symlink to files and so any update to these files must be done upstream.
+
 ## Background
 
 This site makes use of [Sphinx](https://www.sphinx-doc.org/en/stable/), and was built upon [Bootstrap](https://getbootstrap.com) via the [Sphinx Bootstrap theme](https://github.com/ryan-roemer/sphinx-bootstrap-theme).
