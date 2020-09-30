@@ -1,0 +1,3 @@
+[submodule "github_submodule"]
+	path = github_submodule
+	url = https://github.com/sunpy/.github.git

@@ -48,3 +48,4 @@ SunPy
    help
    project/index
    contribute
+   coc

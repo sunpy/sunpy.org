@@ -1,7 +1,8 @@
-sphinx
-sunpy-sphinx-theme
 ablog
-nbsphinx
+ipykernel
 ipython
 jupyter_client
-ipykernel
+myst-parser
+nbsphinx
+sphinx
+sunpy-sphinx-theme

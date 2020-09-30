@@ -14,7 +14,9 @@ extensions = [
     "sphinx.ext.intersphinx",
     "nbsphinx",
     "sphinx.ext.mathjax",
+    "myst_parser",
 ]
+myst_update_mathjax = False
 templates_path = [ablog.get_html_templates_path()]
 
 intersphinx_mapping = {
@@ -36,7 +38,14 @@ blog_feed_length = 10
 blog_feed_archives = True
 
 source_suffix = ".rst"
-exclude_patterns = ["posts/*/.ipynb_checkpoints/*"]
+exclude_patterns = [
+    "posts/*/.ipynb_checkpoints/*",
+    ".github/*",
+    ".history",
+    "github_submodule/*",
+    "LICENSE.md",
+    "README.md",
+]
 master_doc = "index"
 project = u"SunPy"
 author = "SunPy Project"
