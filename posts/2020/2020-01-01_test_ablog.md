@@ -1,5 +1,8 @@
 ---
 blogpost: true
+author: Kris Stern
+tags: sunpy
+category: GSoC
 ---
 
 # Test blog: Google Summer of Code (GSoC) 2020 at SunPy has been a blast!
