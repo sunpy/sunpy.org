@@ -1,5 +1,6 @@
 ---
 blogpost: true
+post: October 1 2020
 author: Kris Stern
 tags: sunpy
 category: GSoC
