@@ -1,6 +1,6 @@
+```{post} October 1 2020
 ---
 blogpost: true
-post: October 1 2020
 author: Kris Stern
 tags: sunpy
 category: GSoC
@@ -36,3 +36,4 @@ We have been very fortunate to have the following mentors to help guide the resp
 * Thomas Robitaille (glue-solar)
 
 Special mention goes to Laura Hayes for her contribution to the Fido project in a mentor-like capacity.
+```
