@@ -1,6 +1,5 @@
 :blog: True
 :author: Kris STern
-:post: 2020-10-01
 :tags: sunpy
 :category: Update
 
