@@ -1,4 +1,4 @@
-:blog: True
+:blogpost: true
 :author: Kris STern
 :tags: sunpy
 :category: Update
