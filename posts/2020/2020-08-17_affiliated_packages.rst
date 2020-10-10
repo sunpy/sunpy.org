@@ -1,11 +1,10 @@
-The What, Why, and How of SunPy Affiliated Packages
-===================================================
-
 .. post:: August 18 2020
    :author: Laura Hayes
    :tags: sunpy
    :category: Update
 
+The What, Why, and How of SunPy Affiliated Packages
+===================================================
 
 What are SunPy affiliated packages?
 -----------------------------------
