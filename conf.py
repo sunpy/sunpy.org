@@ -3,7 +3,7 @@ import sys
 from urllib.request import urlretrieve
 
 import ablog
-from sunpy_sphinx_theme.conf import *
+from sunpy_sphinx_theme.conf import *  # NOQA
 
 sys.path.append(os.path.abspath("exts"))
 extensions = [
@@ -37,7 +37,10 @@ blog_feed_fulltext = True
 blog_feed_length = 10
 blog_feed_archives = True
 
-source_suffix = ".rst"
+source_suffix = {
+    ".rst": "restructuredtext",
+    ".md": "markdown",
+}
 exclude_patterns = [
     "posts/*/.ipynb_checkpoints/*",
     ".github/*",

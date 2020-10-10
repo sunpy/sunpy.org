@@ -1,15 +1,16 @@
-SunPy awarded a NASA HDEE Grant
-===============================
+---
+blogpost: True
+date: June 5 2020
+author: Jack Ireland
+tags: sunpy
+category: Update
+---
 
-.. post:: June 5 2020
-   :author: Jack Ireland
-   :tags: sunpy
-   :category: Update
+# SunPy awarded a NASA HDEE Grant
 
 A NASA Heliophysics Data Environment Enhancement (HDEE) grant has been
 awarded to a proposal submitted to support SunPy development. The
 grant was awarded through NASA's 2019 ROSES grant solicitation.
-
 
 The grant supports the following development goals:
 
