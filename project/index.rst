@@ -56,7 +56,7 @@ SunPy Board
     :aff_link: https://www.stanford.edu
     :date: 14 March 2017
 
-    Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team. She previously worked at the Harvard-Smithsonian Center for Astrophysics, where she studied solar flares as a member of two NASA Heliophysics missions called TRACE and Hinode. Monica Bobra received a B.A. in Astronomy from Boston University and a M.S. in Physics from the University of New Hampshire.
+    Monica Bobra is a research scientist at Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team.
 
 .. card:: Russell Hewett
     :img_name: rhewett.png
@@ -85,15 +85,6 @@ SunPy Board
 
     Kevin Reardon is a staff scientist at the National Solar Observatory in Boulder.
 
-.. card:: Sabrina Savage
-    :img_name: sabrina.png
-    :github: sabrinasavage
-    :aff_name: NASA MSFC
-    :aff_link: http://solarscience.msfc.nasa.gov
-    :date: 17 March 2017
-
-    Sabrina Savage is a solar astrophysicist at NASA Marshall Space Flight Center in Huntsville, AL.  She received her Ph.D. in physics from Montana State University, where she began a career in satellite operations, and followed up with a NASA Postdoctoral fellowship at Goddard Space Flight Center studying flare energetics with the hard X-ray RHESSI satellite.  She now serves as the US Project Scientist for the Japanese-led Hinode mission and works to develop solar instrumentation for sounding rockets and the International Space Station.  Her research interests include observations of reconnection in the solar corona during long duration flaring events coupled with in situ complementary measurements of magnetic storms in the Earth's magnetosphere.
-
 .. card:: Stuart Mumford
     :img_name: stuart.png
     :github: cadair
@@ -101,7 +92,7 @@ SunPy Board
     :aff_link: https://www.sheffield.ac.uk/
     :date: 17 March 2014
 
-    Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
+    Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
 .. card:: Tiago Pereira
     :img_name: tiago.png
@@ -129,7 +120,13 @@ Minutes of SunPy Board Meetings
 .. raw:: html
 
               <details>
-                <summary><a>2019 (3)</a></summary>
+                <summary><a>2020 (2)</a></summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20200909">Board Meeting 2020-09-09</a></p>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-2020603">Board Meeting 2020-06-03</a></p>
+              </details>
+              <details>
+                <summary><a>2019 (4)</a></summary>
+                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20191118">Board Meeting 2019-11-18</a></p>                
                 <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190920">Board Meeting 2019-09-20</a></p>
                 <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190802">Board Meeting 2019-08-02</a></p>
                 <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190306">Board Meeting 2019-03-06</a></p>
@@ -186,7 +183,7 @@ See :ref:`role_descriptions` for more details on each role.
     :aff_link: https://www.sheffield.ac.uk/
     :date: 17 March 2014
 
-    Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
+    Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
 .. card:: Will Barnes
     :img_name: will.png
