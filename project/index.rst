@@ -15,9 +15,10 @@ Its primary goal is to *facilitate and promote the use and development of a comm
 
 The organization is described in `SEP-2`_, and consists of a board of directors, a lead developer appointed by the board, community roles and the sunpy and affiliated package developers.
 Anyone is welcome to participate in the SunPy organization.
-The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it.
+The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it. The SunPy Board publicly posts the `minutes`_ from each board meeting.
 
 .. _SEP-2: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
+.. _minutes: https://github.com/sunpy/sunpy/wiki/Home%3A-Organization-Information#minutes-of-sunpy-board-meetings
 
 People
 ======
@@ -56,7 +57,7 @@ SunPy Board
     :aff_link: https://www.stanford.edu
     :date: 14 March 2017
 
-    Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team. She previously worked at the Harvard-Smithsonian Center for Astrophysics, where she studied solar flares as a member of two NASA Heliophysics missions called TRACE and Hinode. Monica Bobra received a B.A. in Astronomy from Boston University and a M.S. in Physics from the University of New Hampshire.
+    Monica Bobra is a research scientist at Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team.
 
 .. card:: Russell Hewett
     :img_name: rhewett.png
@@ -85,15 +86,6 @@ SunPy Board
 
     Kevin Reardon is a staff scientist at the National Solar Observatory in Boulder.
 
-.. card:: Sabrina Savage
-    :img_name: sabrina.png
-    :github: sabrinasavage
-    :aff_name: NASA MSFC
-    :aff_link: http://solarscience.msfc.nasa.gov
-    :date: 17 March 2017
-
-    Sabrina Savage is a solar astrophysicist at NASA Marshall Space Flight Center in Huntsville, AL.  She received her Ph.D. in physics from Montana State University, where she began a career in satellite operations, and followed up with a NASA Postdoctoral fellowship at Goddard Space Flight Center studying flare energetics with the hard X-ray RHESSI satellite.  She now serves as the US Project Scientist for the Japanese-led Hinode mission and works to develop solar instrumentation for sounding rockets and the International Space Station.  Her research interests include observations of reconnection in the solar corona during long duration flaring events coupled with in situ complementary measurements of magnetic storms in the Earth's magnetosphere.
-
 .. card:: Stuart Mumford
     :img_name: stuart.png
     :github: cadair
@@ -101,7 +93,7 @@ SunPy Board
     :aff_link: https://www.sheffield.ac.uk/
     :date: 17 March 2014
 
-    Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
+    Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
 .. card:: Tiago Pereira
     :img_name: tiago.png
@@ -121,57 +113,6 @@ SunPy Board
 
     Bin Chen is an Associate Professor at New Jersey Institute of Technology in Newark, NJ, affiliated with the Department of Physics and the Center for Solar-Terrestrial Research. He received his Ph.D. in astronomy from University of Virginia in 2013. Prior to his appointment at NJIT, he was an astrophysicist at the Harvard-Smithsonian Center for Astrophysics. His research interests focus on high-energy aspects of solar flares and coronal mass ejections based on observations at radio, X-ray, and other wavelengths. He has been working on instrumentation, software development, and data analysis for radio facilities including the Expanded Owens Valley Solar Array, Karl G. Jansky Very Large Array, and the Atacama Large (sub)Millimeter Array.
 
-
-Minutes of SunPy Board Meetings
-###############################
-
-
-.. raw:: html
-
-              <details>
-                <summary><a>2019 (3)</a></summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190920">Board Meeting 2019-09-20</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190802">Board Meeting 2019-08-02</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20190306">Board Meeting 2019-03-06</a></p>
-              </details>
-              <details>
-                <summary><a>2018 (3)</a></summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180905">Board Meeting 2018-09-05</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180610">Board Meeting 2018-06-19</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20180221">Board Meeting 2018-02-21</a></p>
-              </details>
-              <details>
-                <summary><a>2017 (6)</a></summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170922">Board Meeting 2017-09-22</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170816">Board Meeting 2017-08-16</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170802">Board Meeting 2017-08-02</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170421">Board Meeting 2017-04-21</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170313">Board Meeting 2017-03-13</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20170214">Board Meeting 2017-02-17</a></p>
-              </details>
-              <details>
-                <summary><a>2016 (2)</a></summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20161026">Board Meeting 2016-10-26</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20160507">Board Meeting 2016-05-07</a></p>
-              </details>
-              <details>
-                <summary><a>2015 (3)</a></summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20151207">Board Meeting 2015-12-07</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20150921">Board Meeting 2015-09-21</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20150413">Board Meeting 2015-04-13</a></p>
-              </details>
-              <details>
-                <summary><a>2014 (7)</a></summary>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20141017">Board Meeting 2014-10-17</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140919">Board Meeting 2014-09-19</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140625">Board Meeting 2014-07-25</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140609">Board Meeting 2014-06-09</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140505">Board Meeting 2014-05-05</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140416">Board Meeting 2014-04-16</a></p>
-                <p><a href="https://github.com/sunpy/sunpy/wiki/Minutes-of-SunPy-Board-Meeting-20140407">Board Meeting 2014-04-07</a></p>
-              </details>
-
-
 Community Roles
 ---------------
 
@@ -186,7 +127,7 @@ See :ref:`role_descriptions` for more details on each role.
     :aff_link: https://www.sheffield.ac.uk/
     :date: 17 March 2014
 
-    Stuart is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
+    Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
 .. card:: Will Barnes
     :img_name: will.png
