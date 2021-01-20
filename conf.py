@@ -7,14 +7,14 @@ from sunpy_sphinx_theme.conf import *  # NOQA
 
 sys.path.append(os.path.abspath("exts"))
 extensions = [
-    "sphinx.ext.githubpages",
     "ablog",
-    "rawfiles",
     "cards",
-    "sphinx.ext.intersphinx",
-    "nbsphinx",
-    "sphinx.ext.mathjax",
     "myst_parser",
+    "nbsphinx",
+    "rawfiles",
+    "sphinx.ext.githubpages",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.mathjax",
 ]
 myst_update_mathjax = False
 templates_path = [ablog.get_html_templates_path()]
