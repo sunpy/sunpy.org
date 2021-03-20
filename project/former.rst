@@ -1,6 +1,6 @@
-=======================
-Former Members of SunPy
-=======================
+=====================
+Emeritus role holders
+=====================
 
 This page lists the people who have served as official members of the SunPy Project in some capability.
 
@@ -29,3 +29,6 @@ This page lists the people who have served as official members of the SunPy Proj
    * - `Vishnunarayan K. I. <https://github.com/vn-ki>`__
      - sunpy.database and sunpy.time maintainer
      - 2019 - 2021
+  * - `Nabil Freij <https://github.com/nabobalis>`__
+    - Deputy Lead Developer
+    - 2016 - 2019
