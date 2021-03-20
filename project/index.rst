@@ -1,5 +1,6 @@
 :tocdepth: 2
 
+=============
 SunPy Project
 =============
 
@@ -9,6 +10,7 @@ SunPy Project
    self
    roles
    affiliated
+   former
 
 The **SunPy project** is the organization which maintains the SunPy library and sponsored affiliated packages.
 Its primary goal is to *facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment*.
@@ -21,7 +23,7 @@ The purpose of the board is to lead the overall structure and direction of SunPy
 .. _minutes: https://github.com/sunpy/sunpy/wiki/Home%3A-Organization-Information#minutes-of-sunpy-board-meetings
 
 People
-======
+------
 
 In this section we list everyone with a specific role in the project, all the members of the development community are too numerous to list here.
 A list of anyone who contributed code to SunPy is available on Github `contributors`_ and for each major release we keep track of who contributed in-between `releases`_.
@@ -30,7 +32,7 @@ A list of anyone who contributed code to SunPy is available on Github `contribut
 .. _releases: https://github.com/sunpy/sunpy/blob/master/RELEASE.rst
 
 SunPy Board
------------
+^^^^^^^^^^^
 
 .. card:: Steven Christe
     :img_name: steve.png
@@ -114,7 +116,7 @@ SunPy Board
     Bin Chen is an Associate Professor at New Jersey Institute of Technology in Newark, NJ, affiliated with the Department of Physics and the Center for Solar-Terrestrial Research. He received his Ph.D. in astronomy from University of Virginia in 2013. Prior to his appointment at NJIT, he was an astrophysicist at the Harvard-Smithsonian Center for Astrophysics. His research interests focus on high-energy aspects of solar flares and coronal mass ejections based on observations at radio, X-ray, and other wavelengths. He has been working on instrumentation, software development, and data analysis for radio facilities including the Expanded Owens Valley Solar Array, Karl G. Jansky Very Large Array, and the Atacama Large (sub)Millimeter Array.
 
 Community Roles
----------------
+^^^^^^^^^^^^^^^
 
 The following people hold named roles in the SunPy community.
 See :ref:`role_descriptions` for more details on each role.
@@ -159,7 +161,6 @@ See :ref:`role_descriptions` for more details on each role.
 
     David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorologica Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
 
-
 .. card:: Role Unfilled
     :title: Lead Newcomer Mentor
 
@@ -190,18 +191,16 @@ See :ref:`role_descriptions` for more details on each role.
     If you are interested in filling this role see the description:
     :ref:`role_affiliated-liaison`
 
-
 .. _subpackage_maintainers:
 
 Maintainers
------------
+^^^^^^^^^^^
 
 The following section list the maintainers for the various sub-packages of the core library as well as the documentation maintainers.
 
 Each area should have at least one but preferably two people identified.
 To enable mentorship the two maintainers could include a lead and a deputy or also two co-leads.
 Some roles are currently not filled. We'd like to encourage members of the community to inquire about volunteering.
-
 
 .. list-table::
    :widths: 60 60
@@ -230,12 +229,11 @@ Some roles are currently not filled. We'd like to encourage members of the commu
    * - sunpy.sun
      - `Steven Christe`_
    * - sunpy.time
-     - `Laura Hayes`_, `Vishnunarayan K. I.`_
+     - `Laura Hayes`_,
    * - sunpy.timeseries
      - `Laura Hayes`_, `David Stansby`_
    * - sunpy.visualization
      - `Daniel Ryan`_, `David Stansby`_
-
 
 .. list-table::
    :widths: 60 60
@@ -250,7 +248,6 @@ Some roles are currently not filled. We'd like to encourage members of the commu
    * - documentation/gallery
      - `Monica Bobra`_, `Steven Christe`_
 
-
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
 .. _Monica Bobra: https://github.com/mbobra
@@ -261,6 +258,5 @@ Some roles are currently not filled. We'd like to encourage members of the commu
 .. _Jack Ireland: https://github.com/wafels
 .. _Stuart Mumford: https://github.com/cadair
 .. _Albert Shih: https://github.com/ayshih
-.. _Vishnunarayan K. I.: https://github.com/vn-ki
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Bin Chen: https://github.com/binchensun

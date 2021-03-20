@@ -2,7 +2,7 @@ ablog
 ipykernel
 ipython
 jupyter_client
-myst-parser<0.13.2
+myst-parser
 nbsphinx
 sphinx
 sunpy-sphinx-theme
