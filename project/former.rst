@@ -2,7 +2,7 @@
 Emeritus role holders
 =====================
 
-This page lists the people who have served as official members of the SunPy Project in some capability.
+This page lists the people who have previously served in named roles in the SunPy Project.
 
 .. list-table::
    :widths: 15, 60, 15
