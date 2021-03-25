@@ -5,18 +5,18 @@ SunPy Affiliated Packages
 =========================
 
 What is an affiliated package?
-==============================
+------------------------------
 
 Affiliated packages are well-maintained, open source software packages that are useful to solar physicists and integrate well with the SunPy ecosystem.
 To aid discoverability, all affiliated packages are listed on the SunPy website, and the SunPy project tries to advertise them at national and international conferences and workshops.
 
 Sponsored Packages
-==================
+------------------
 
 A SunPy sponsored package is an affiliated package that is maintained and governed by the SunPy project.
 
 sunpy core
-----------
+^^^^^^^^^^
 A core package for solar physics in Python.
 
 .. list-table::
@@ -33,7 +33,7 @@ A core package for solar physics in Python.
      - `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
 NDCube
-------
+^^^^^^
 A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
 
 .. list-table::
@@ -50,7 +50,7 @@ A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
      - `v1.3.2 <https://github.com/sunpy/ndcube/releases/tag/v1.3.2>`__
 
 drms
-----
+^^^^
 Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data.
 
 .. list-table::
@@ -67,7 +67,7 @@ Provides search capability for the JSOC DRMS server which enables complex querie
      - `v0.5.7 <https://github.com/sunpy/drms/releases/tag/v0.5.7>`__
 
 sunraster
----------
+^^^^^^^^^
 sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
 
 .. list-table::
@@ -84,7 +84,7 @@ sunraster is a package designed for reading, manipulating and visualizing data t
      - `v0.1.2 <https://github.com/sunpy/sunraster/releases/tag/v0.1.2>`__
 
 sunkit-image
-------------
+^^^^^^^^^^^^
 An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines.
 
 .. list-table::
@@ -101,10 +101,10 @@ An open-source toolbox for solar physics image processing. Currently it is an ex
      - `v0.1 <https://github.com/sunpy/sunkit-image/releases/tag/v0.1.0>`__
 
 Affiliated Packages
-===================
+-------------------
 
 aiapy
------
+^^^^^
 aiapy is a Python package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
 
 .. list-table::
@@ -121,7 +121,7 @@ aiapy is a Python package for analyzing data from the Atmospheric Imaging Assemb
      - `v0.1.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.1.0>`__
 
 pfsspy
-------
+^^^^^^
 A python Potential Field Source Surface model package.
 
 .. list-table::
@@ -138,10 +138,10 @@ A python Potential Field Source Surface model package.
      - `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
 Provisional Affiliated Packages
-===============================
+-------------------------------
 
 pyflct
-------
+^^^^^^
 A Python wrapper for Fourier Local Correlation Tracking.
 
 .. list-table::
@@ -158,7 +158,7 @@ A Python wrapper for Fourier Local Correlation Tracking.
      - `v0.2.1 <https://github.com/sunpy/pyflct/releases/tag/v0.2.1>`__
 
 radiospectra
-------------
+^^^^^^^^^^^^
 This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
 
 .. list-table::
@@ -184,12 +184,12 @@ This package provides support for some types of solar radio spectragrams (e.g. C
 .. _Nabil Freij: https://github.com/nabobalis
 
 Affiliated Package Review
-=========================
+-------------------------
 
 Each candidate package is reviewed by a reviewer independent of the package before it can be approved as an affiliated package.
 
 Review Criteria
----------------
+^^^^^^^^^^^^^^^
 
 .. _review_functionality:
 
@@ -381,7 +381,7 @@ Development Status
 .. _review_outcomes:
 
 Review Criteria and Summary
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 +---------------+-----------------------------------------------------+
 | Outcomes      | Requirements                                        |
@@ -405,7 +405,7 @@ Review Criteria and Summary
 +---------------+-----------------------------------------------------+
 
 Open review process
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 The review process for becoming a SunPy affiliated package is designed to be approachable, lightweight and open.
 Reviews are conducted in GitHub issues through the https://github.com/sunpy/sunpy.org repository.

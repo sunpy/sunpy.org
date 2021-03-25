@@ -28,9 +28,7 @@ intersphinx_mapping = {
 }
 
 rawfiles = ["jitsi.html", "issues.html"]
-
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
-
 disqus_shortname = "sunpy-org"
 blog_baseurl = "https://sunpy.org/"
 blog_feed_fulltext = True
@@ -92,6 +90,7 @@ html_sidebars = {
     "project/index": ["projecttoc.html"],
     "project/roles": ["rolestoc.html"],
     "project/affiliated": ["affiliatedtoc.html"],
+    "project/former": ["formertoc.html"],
 }
 
 # nbsphinx options
@@ -111,7 +110,6 @@ nbsphinx_prolog = r"""
 
     __ https://github.com/sunpy/sunpy.org/blob/{{ env.config.release }}/{{ docname }}
 """
-
 
 urlretrieve(
     "https://raw.githubusercontent.com/sunpy/sunpy/master/sunpy/CITATION.rst",

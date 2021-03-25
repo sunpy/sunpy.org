@@ -9,7 +9,15 @@ We use [Netlify](https://www.netlify.com/) deploy and host the [website](https:/
 
 To setup your computer to run this site locally, you need to install the various Python packages in the [requirements.txt](requirements.txt) at the top level of this repository.
 
-You will *WANT* to test any changes you have made to the website.
+Furthermore there is a sub-module that we use to get certain files for the build.
+
+```bash
+git submodule update --init
+```
+
+This will initialize the submodule for you locally.
+
+You will _WANT_ to test any changes you have made to the website.
 To do this, we have a Makefile that you should use:
 
 ```bash
@@ -38,9 +46,9 @@ This must pass before the PR will be merged, furthermore, one review is required
 Blog posts can be added by creating a new text file in the `posts/<current year>` directory.
 The filename must use the following naming convention `YEAR-MONTH-DAY-title.{ext}` and be written in one of the following formats:
 
-* [RST](https://www.sphinx-doc.org/en/stable/rest.html) formatted text, `ext=rst`,
-* [Jupyter notebook](https://jupyter.org/), `ext=ipynb`; (notebooks are converted to RST using the [nbsphinx](https://nbsphinx.readthedocs.io) extension)
-* [MD](https://www.markdownguide.org/cheat-sheet/) formatted text, `ext=md`,
+- [RST](https://www.sphinx-doc.org/en/stable/rest.html) formatted text, `ext=rst`,
+- [Jupyter notebook](https://jupyter.org/), `ext=ipynb`; (notebooks are converted to RST using the [nbsphinx](https://nbsphinx.readthedocs.io) extension)
+- [MD](https://www.markdownguide.org/cheat-sheet/) formatted text, `ext=md`,
 
 Please also see the [ABlog documention](https://ablog.readthedocs.io/) for more information.
 
@@ -85,6 +93,7 @@ When writing posts as Jupyter notebooks, the first cell should be a Markdown cel
 
    <Short description of post>
 ```
+
 The short description will appear as a preview of your post on the blog page.
 See the [nbsphinx docs](https://nbsphinx.readthedocs.io/raw-cells.html) for information on making raw notebook cells compatible with Sphinx and RST.
 
@@ -125,11 +134,11 @@ Also we try to enforce one line per sentence.
 
 The current range of categories we have "officially" are:
 
-* Release
-* Update
-* GSoC
-* SOCIS
-* Tutorial
+- Release
+- Update
+- GSoC
+- SOCIS
+- Tutorial
 
 Please select the one that is more appropriate, for many `Update` would be enough.
 
@@ -139,12 +148,12 @@ For tags, you can choose what you prefer for your post but please don't use any 
 
 The colors used in the site are:
 
-* #444444
-* #FE7900
-* #BDBDBD
+- #444444
+- #FE7900
+- #BDBDBD
 
 ## Miscellaneous
 
 Some things to watch out for:
 
-* do not use bare colons inside your post title. If you really need a colon use `&#58;`
+- do not use bare colons inside your post title. If you really need a colon use `&#58;`
