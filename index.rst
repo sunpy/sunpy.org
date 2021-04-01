@@ -31,7 +31,7 @@ SunPy
                     <p class="body">Latest stable release: <span id="version"></span></p>
                     </div>
                     <div>
-                        <a href="https://docs.sunpy.org/en/stable/guide/installation/index.html" class="btn btn-default btn2" role="button">Install SunPy</a>
+                        <a href="https://docs.sunpy.org/en/stable/guide/installation.html" class="btn btn-default btn2" role="button">Install SunPy</a>
                         <a href="https://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
                         <a href="https://docs.sunpy.org/en/stable/generated/gallery/index.html" class="btn btn-default btn1" role="button">Example Gallery</a>
                     </div>
