@@ -222,8 +222,6 @@ Some roles are currently not filled. We'd like to encourage members of the commu
      - `Stuart Mumford`_
    * - sunpy.physics
      - `Jack Ireland`_
-   * - sunpy.roi
-     - `David Pérez-Suárez`_
    * - sunpy.sun
      - `Steven Christe`_
    * - sunpy.time
