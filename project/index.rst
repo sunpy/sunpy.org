@@ -214,8 +214,6 @@ Some roles are currently not filled. We'd like to encourage members of the commu
      -
    * - sunpy.image
      - `Jack Ireland`_, `Will Barnes`_
-   * - sunpy.instr
-     - `Daniel Ryan`_, `Will Barnes`_
    * - sunpy.io
      -
    * - sunpy.map
@@ -224,8 +222,6 @@ Some roles are currently not filled. We'd like to encourage members of the commu
      - `Stuart Mumford`_
    * - sunpy.physics
      - `Jack Ireland`_
-   * - sunpy.roi
-     - `David Pérez-Suárez`_
    * - sunpy.sun
      - `Steven Christe`_
    * - sunpy.time
