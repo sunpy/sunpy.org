@@ -15,7 +15,6 @@ extensions = [
     "sphinx.ext.githubpages",
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
-    "sphinxext.opengraph",
 ]
 myst_update_mathjax = False
 templates_path = [ablog.get_html_templates_path()]
