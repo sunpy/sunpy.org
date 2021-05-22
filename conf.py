@@ -66,7 +66,8 @@ html_extra_path += ["_static/img"]
 html_theme_options.update(
     {
         "base_url": "https://sunpy.org",
-        "seo_description": "SunPy",
+        "seo_description": "SunPy Project Website",
+        "opengraph_imageurl": "https://raw.githubusercontent.com/sunpy/sunpy-logo/master/generated/sunpy_logo_word.png",
         "navbar_pagenav": False,
         "globaltoc_depth": 1,
         "on_rtd": False,
@@ -77,6 +78,7 @@ html_theme_options.update(
 """,
     }
 )
+
 html_sidebars = {
     "index": None,
     "about": ["localtoc.html"],
