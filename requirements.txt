@@ -5,4 +5,5 @@ jupyter_client
 myst-parser
 nbsphinx
 sphinx
+sphinxext-opengraph
 sunpy-sphinx-theme
