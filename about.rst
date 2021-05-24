@@ -58,12 +58,17 @@ All the talks that have been recorded from these workshops are listed below in r
 			    <li data-target="#myCarousel" data-slide-to="3"></li>
 				<li data-target="#myCarousel" data-slide-to="4"></li>
 				<li data-target="#myCarousel" data-slide-to="5"></li>
+				<li data-target="#myCarousel" data-slide-to="6"></li>
 			  </ol>
 
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner" style="margin:50px 0 50px 0;">
 
-				<div class="item active">
+			  	<div class="item active">
+				  <iframe width="560" height="450" src="https://www.youtube.com/embed/VWXptQ2ZSvs" style="width: 100%;"></iframe>
+				</div>
+
+				<div class="item">
 				  <iframe width="560" height="450" src="https://www.youtube.com/embed/E_jq0EubcGs" style="width: 100%;"></iframe>
 				</div>
 
