@@ -19,7 +19,7 @@ SunPy
         <div class="container">
             <div class="row logo-container">
                 <div class="col-md-6 center">
-                    <img src="_static/img/sunpy_icon.svg" class="sunpy-logo" alt="SunPy Logo">
+                    <img id="logo" src="_static/img/sunpy_icon.svg" class="sunpy-logo" alt="SunPy Logo">
                 </div>
                 <div class="col-md-6 center">
                     <div class="icon-text">
@@ -38,6 +38,12 @@ SunPy
                 </div>
             </div>
         </div>
+        <script>
+        const d = new Date();
+        if (d.getMonth() == 5){
+            document.getElementById("logo").src = "_static/img/pride/sunpy_icon.svg";
+        }
+        </script>
 
 .. toctree::
    :maxdepth: 0
