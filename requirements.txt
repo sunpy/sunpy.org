@@ -1,8 +1,9 @@
 ablog
+git+https://github.com/sunpy/sunpy-sphinx-theme
 ipykernel
 ipython
 jupyter_client
 myst-parser
 nbsphinx
 sphinx
-git+https://github.com/sunpy/sunpy-sphinx-theme
+sphinxext-opengraph
