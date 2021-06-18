@@ -15,6 +15,7 @@ extensions = [
     "sphinx.ext.githubpages",
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
+    "sphinxext.opengraph",
 ]
 myst_update_mathjax = False
 templates_path = [ablog.get_html_templates_path()]
@@ -65,9 +66,6 @@ html_static_path += ["_static"]
 html_extra_path += ["_static/img"]
 html_theme_options.update(
     {
-        "base_url": "https://sunpy.org",
-        "seo_description": "SunPy Project Website",
-        "opengraph_imageurl": "https://raw.githubusercontent.com/sunpy/sunpy-logo/master/generated/sunpy_logo_word.png",
         "navbar_pagenav": False,
         "globaltoc_depth": 1,
         "on_rtd": False,
@@ -112,6 +110,11 @@ nbsphinx_prolog = r"""
 
     __ https://github.com/sunpy/sunpy.org/blob/{{ env.config.release }}/{{ docname }}
 """
+# sphinxext-opengraph
+ogp_site_url = "https://sunpy.org/"
+ogp_image = "https://raw.githubusercontent.com/sunpy/sunpy-logo/master/generated/sunpy_logo_word.png"
+ogp_description_length = 300
+ogp_type = "website"
 
 urlretrieve(
     "https://raw.githubusercontent.com/sunpy/sunpy/master/sunpy/CITATION.rst",
