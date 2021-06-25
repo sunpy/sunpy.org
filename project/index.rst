@@ -240,9 +240,9 @@ Some roles are currently not filled. We'd like to encourage members of the commu
    * - documentation/developer
      -
    * - documentation/user
-     - `Monica Bobra`_
+     -
    * - documentation/gallery
-     - `Monica Bobra`_, `Steven Christe`_
+     - `Steven Christe`_
 
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
