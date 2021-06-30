@@ -15,90 +15,79 @@ Sponsored Packages
 
 A SunPy sponsored package is an affiliated package that is maintained and governed by the SunPy project.
 
-sunpy core
-^^^^^^^^^^
-A core package for solar physics in Python.
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
-   * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/>`__, `Code <https://github.com/sunpy/sunpy>`__
-     - :ref:`The SunPy Community <subpackage_maintainers>`
+   * - sunpy core
+     - A core package for solar physics in Python.
+   * -
+     - `Docs <https://docs.sunpy.org/>`__, `Code <https://github.com/sunpy/sunpy>`__
+   * -
+     - Maintainer: :ref:`The SunPy Community <subpackage_maintainers>`
+   * -
      - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
-     - `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
+   * -
+     - Version reviewed: `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
-NDCube
-^^^^^^
-A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
 
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
-   * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/projects/ndcube>`__, `Code <https://github.com/sunpy/ndcube>`__
-     - `Daniel Ryan`_, `Stuart Mumford`_
+   * - NDCube
+     - A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
+   * -
+     - `Docs <https://docs.sunpy.org/projects/ndcube>`__, `Code <https://github.com/sunpy/ndcube>`__
+   * -
+     - Maintainer: `Daniel Ryan`_, `Stuart Mumford`_
+   * -
      - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
-     - `v1.3.2 <https://github.com/sunpy/ndcube/releases/tag/v1.3.2>`__
+   * -
+     - Version reviewed: `v1.3.2 <https://github.com/sunpy/ndcube/releases/tag/v1.3.2>`__
 
-drms
-^^^^
-Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data.
 
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
-   * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/projects/drms>`__, `Code <https://github.com/sunpy/drms>`__
-     - `Kolja Glogowski`_
+   * - drms
+     - Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data.
+   * -
+     - `Docs <https://docs.sunpy.org/projects/drms>`__, `Code <https://github.com/sunpy/drms>`__
+   * -
+     - Maintainer: `Kolja Glogowski`_
+   * -
      - |package_general| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
-     - `v0.5.7 <https://github.com/sunpy/drms/releases/tag/v0.5.7>`__
+   * -
+     - Version reviewed: `v0.5.7 <https://github.com/sunpy/drms/releases/tag/v0.5.7>`__
 
-sunraster
-^^^^^^^^^
-sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
 
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
-   * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Code <https://github.com/sunpy/sunraster>`__
-     - `Daniel Ryan`_
+   * - sunraster
+     - sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
+   * -
+     - `Docs <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Code <https://github.com/sunpy/sunraster>`__
+   * -
+     - Maintainer: `Daniel Ryan`_
+   * -
      - |package_specialized| |integration_full| |docs_some| |tests_good| |duplication_none| |community_excellent| |dev_stc|
-     - `v0.1.2 <https://github.com/sunpy/sunraster/releases/tag/v0.1.2>`__
+   * -
+     - Version reviewed: `v0.1.2 <https://github.com/sunpy/sunraster/releases/tag/v0.1.2>`__
 
-sunkit-image
-^^^^^^^^^^^^
-An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines.
 
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
-   * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/projects/sunkit-image/>`__, `Code <https://github.com/sunpy/sunkit-image/>`__
-     - `Nabil Freij`_, `Stuart Mumford`_
+   * - sunkit-image
+     - An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines.
+   * -
+     - `Docs <https://docs.sunpy.org/projects/sunkit-image/>`__, `Code <https://github.com/sunpy/sunkit-image/>`__
+   * -
+     - Maintainer: `Nabil Freij`_, `Stuart Mumford`_
+   * -
      - |package_general| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
-     - `v0.1 <https://github.com/sunpy/sunkit-image/releases/tag/v0.1.0>`__
+   * -
+     - Version reviewed: `v0.1 <https://github.com/sunpy/sunkit-image/releases/tag/v0.1.0>`__
 
 Affiliated Packages
 -------------------
