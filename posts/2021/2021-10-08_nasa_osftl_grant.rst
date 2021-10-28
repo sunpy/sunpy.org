@@ -1,10 +1,7 @@
----
-blogpost: True
-date: 8th October 2021
-author: Stuart Mumford
-tags: sunpy
-category: Update
----
+.. post:: 8th October 2021
+   :author: Stuart Mumford
+   :tags: sunpy
+   :category: Update
 
 SunPy Awarded a NASA Grant
 ==========================
