@@ -22,9 +22,9 @@ templates_path = [ablog.get_html_templates_path()]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
-    "sunpy": ("https://docs.sunpy.org/en/stable", None),
+    "sunpy": ("https://docs.sunpy.org/en/latest", None),
     "astropy": ("https://docs.astropy.org/en/stable", None),
-    "ndcube": ("https://docs.sunpy.org/projects/ndcube/en/stable", None),
+    "ndcube": ("https://docs.sunpy.org/projects/ndcube/en/latest", None),
     "drms": ("https://docs.sunpy.org/projects/drms/en/stable/", None),
 }
 
