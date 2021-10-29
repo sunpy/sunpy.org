@@ -39,7 +39,7 @@ and the `~sunpy.map.GenericMap.reproject_to` method on all maps.
 ndcube 2.0
 ----------
 
-Even more excitingly for me personally is the long awaited 2.0 release of ndcube.
+Even more excitingly, for me personally, is the long awaited 2.0 release of ndcube.
 
 ndcube is the sunpy sponsored package for working with multi-dimensional data with an associated WCS object.
 For an introduction to ndcube and motivation for the 2.0 rework see :ref:`ndcube:ndcube_introduction`.
