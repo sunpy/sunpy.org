@@ -1,0 +1,57 @@
+.. post:: 29th October 2021
+   :author: Stuart Mumford
+   :tags: sunpy
+   :category: Update
+
+
+sunpy 3.1 and ndcube 2.0 Released
+=================================
+
+Today we have a double release announcement for you!
+It's been a very busy week in SunPy land getting both these releases over the line, I hope you enjoy them!
+
+
+sunpy 3.1
+---------
+
+The next scheduled release of the ``sunpy`` core package actually comes *a week* early according to our `release calendar <https://github.com/sunpy/sunpy/wiki/Release-Calendar>`__, but we couldn't resist bringing you this end of month release party.
+
+The 3.1 release contains many new features and improvements, having merged 145 pull requests from 16 people including 8 new contributors.
+
+Some of the highlights from the :ref:`sunpy:whatsnew-3.1` page are:
+
+* Increased in-situ data support
+* New limb drawing function
+* New WISPR map source
+* Propagating solar-surface coordinates in time
+* Convenient reprojection of maps
+* JSOC keyword filtering with Fido
+* Arithmetic operations with maps
+
+
+My personal favourites being the new `limb drawing function <sunpy.visualization.draw_limb>`:
+
+.. image:: https://docs.sunpy.org/en/v3.1.0/_images/sphx_glr_limb_plotting_001.png
+
+and the `~sunpy.map.GenericMap.reproject_to` method on all maps.
+
+
+ndcube 2.0
+----------
+
+Even more excitingly for me personally is the long awaited 2.0 release of ndcube.
+
+ndcube is the sunpy sponsored package for working with multi-dimensional data with an associated WCS object.
+For an introduction to ndcube and motivation for the 2.0 rework see :ref:`ndcube:ndcube_introduction`.
+
+We started working on ndcube 2.0 back in 2019 when we had Yash Sharma do the initial work of porting the code base to use the `APE 14 <https://zenodo.org/record/1188875>`__ APIs as his `Google Summer of Code project <https://yashrsharma44.medium.com/google-summer-of-code-2019-final-report-openastronomy-ndcube-65068b8571d8>`__.
+Little did any of us think that it would take over two years from that point to hit the final release.
+
+The road to ndcube 2.0 has been long and arduous, all involved have put in a lot of work, what we have made is something that I am personally very proud of.
+ndcube 2.0 would not have happened without Dan Ryan, who as the co-maintainer for ndcube has spent many hours on video calls with me designing APIs, and many more hours besides working out problems you would only encounter in one in a million WCS objects!
+I would also be remiss if I didn't specifically thank the DKIST data center who have, by paying for my time, funded a lot of the development work on ndcube 2.0, even when the scope increased beyond their direct requirements.
+
+I hope that many packages will start using ndcube 2.0 as the base for their code, there are already many who have helped to shape the release such as the `DKIST User Tools <https://github.com/DKISTDC/dkist>`__, `specutils <https://github.com/astropy/specutils>`__ and `sunraster <https://github.com/sunpy/sunraster>`__ as well as others I know are in the works.
+
+For all the gory details of the changes in ndcube 2.0 see `the changelog <https://docs.sunpy.org/projects/ndcube/en/2.0.0/whatsnew/changelog.html>`__.
+
