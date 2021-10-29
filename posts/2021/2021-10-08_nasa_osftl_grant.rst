@@ -28,3 +28,19 @@ After `some early community input <https://github.com/sunpy/sunpy-project/issues
    This section will improve the example gallery's of `sunpy` and the affiliated packages, develop training materials for solar physics grad students, and outreach with instrument teams and package developers.
 
 
+What will the money pay for?
+----------------------------
+
+The money awarded to this proposal will pay for development time:
+
+  * Albert Shih will be funded to spend some time in his role as `sunpy.coordinates` maintainer.
+  * Stuart Mumford will be funded to work on infrastructure for all sponsored and affiliated packages as discussed in `sunpy/sunpy-project#2 <https://github.com/sunpy/sunpy-project/issues/2>`__.
+  * Lastly, it will fund a 70% FTE role based at NASA GSFC focusing on the outreach and large dataset support components of the project.
+
+
+Finally
+-------
+
+On a personal note, this is a major milestone for SunPy, this is a significant amount of funding to be dedicated to directly working for the long term good of the project.
+I am hopeful that this funding and the time it will enable us to spend on the project will help to significantly grow SunPy; both the core package and the ecosystem of other packages we want to grow around it.
+Also, I am just really excited to be able to call working on SunPy my job for a few years 🥳.
