@@ -26,6 +26,7 @@ intersphinx_mapping = {
     "astropy": ("https://docs.astropy.org/en/stable", None),
     "ndcube": ("https://docs.sunpy.org/projects/ndcube/en/stable", None),
     "drms": ("https://docs.sunpy.org/projects/drms/en/stable/", None),
+    "aiapy": ("https://aiapy.readthedocs.io/en/stable/", None),
 }
 
 rawfiles = ["jitsi.html", "issues.html", "chat.html"]
@@ -47,6 +48,7 @@ exclude_patterns = [
     "github_submodule/*",
     "LICENSE.md",
     "README.md",
+    "_build/*",
 ]
 master_doc = "index"
 project = u"SunPy"
