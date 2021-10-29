@@ -4,11 +4,11 @@
    :category: Update
 
 
-sunpy 3.1 and ndcube 2.0 Released
-=================================
+October Release Announcements
+=============================
 
-Today we have a double release announcement for you!
-It's been a very busy week in SunPy land getting both these releases over the line, I hope you enjoy them!
+Today we have a quadruple release announcement for you!
+It's been a very busy week in SunPy land getting both the core and ndcube releases over the line, I hope you enjoy them!
 
 
 sunpy 3.1
@@ -55,3 +55,16 @@ I hope that many packages will start using ndcube 2.0 as the base for their code
 
 For all the gory details of the changes in ndcube 2.0 see `the changelog <https://docs.sunpy.org/projects/ndcube/en/2.0.0/whatsnew/changelog.html>`__.
 
+pfsspy 1.0
+----------
+
+The SunPy-affiliated potential field source surface extrapolation package `pfsspy <https://pfsspy.readthedocs.io/>`__ maintained by `David Stansby <https://github.com/dstansby/>`__ has had a 1.0 release, which includes promises of API stability.
+You can read about all the changes in `the changelog <https://pfsspy.readthedocs.io/en/stable/changes.html>`__.
+
+
+aiapy 0.6
+---------
+
+The SunPy-affiliated aiapy package, which provides tools for working with aia data and is maintained by the AIA instrument team, has a new 0.6 release which includes support for sunpy core 3.1.
+In addition to a number of bug fixes, v0.6 also includes the ability to calculate uncertainties on AIA images via the `~aiapy.calibrate.estimate_error` function.
+A complete list of changes is available `in the changelog <https://aiapy.readthedocs.io/en/stable/changelog.html#changelog>`__.
