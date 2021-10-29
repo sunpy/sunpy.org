@@ -47,6 +47,7 @@ exclude_patterns = [
     "github_submodule/*",
     "LICENSE.md",
     "README.md",
+    "_build/*",
 ]
 master_doc = "index"
 project = u"SunPy"
