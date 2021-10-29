@@ -21,8 +21,8 @@ The 3.1 release contains many new features and improvements, having merged 145 p
 Some of the highlights from the :ref:`sunpy:whatsnew-3.1` page are:
 
 * Increased in-situ data support
-* New limb drawing function
-* New WISPR map source
+* A new limb drawing function
+* A new WISPR map source
 * Propagating solar-surface coordinates in time
 * Convenient reprojection of maps
 * JSOC keyword filtering with Fido
