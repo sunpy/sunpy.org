@@ -8,7 +8,7 @@ October Release Announcements
 =============================
 
 Today we have a quadruple release announcement for you!
-It's been a very busy week in SunPy land getting both the core and ndcube releases over the line, I hope you enjoy them!
+It's been a very busy week in SunPy land getting both the core and ndcube releases over the line; I hope you enjoy them!
 
 
 sunpy 3.1
@@ -47,11 +47,12 @@ For an introduction to ndcube and motivation for the 2.0 rework see :ref:`ndcube
 We started working on ndcube 2.0 back in 2019 when we had Yash Sharma do the initial work of porting the code base to use the `APE 14 <https://zenodo.org/record/1188875>`__ APIs as his `Google Summer of Code project <https://yashrsharma44.medium.com/google-summer-of-code-2019-final-report-openastronomy-ndcube-65068b8571d8>`__.
 Little did any of us think that it would take over two years from that point to hit the final release.
 
-The road to ndcube 2.0 has been long and arduous, all involved have put in a lot of work, what we have made is something that I am personally very proud of.
+The road to ndcube 2.0 has been long and arduous; all involved have put in a lot of work and what we have made is something that I am personally very proud of.
 ndcube 2.0 would not have happened without Dan Ryan, who as the co-maintainer for ndcube has spent many hours on video calls with me designing APIs, and many more hours besides working out problems you would only encounter in one in a million WCS objects!
 I would also be remiss if I didn't specifically thank the DKIST data center who have, by paying for my time, funded a lot of the development work on ndcube 2.0, even when the scope increased beyond their direct requirements.
 
-I hope that many packages will start using ndcube 2.0 as the base for their code, there are already many who have helped to shape the release such as the `DKIST User Tools <https://github.com/DKISTDC/dkist>`__, `specutils <https://github.com/astropy/specutils>`__ and `sunraster <https://github.com/sunpy/sunraster>`__ as well as others I know are in the works.
+I hope that many packages will start using ndcube 2.0 as the base for their code.
+There are already many who have helped to shape the release such as the `DKIST User Tools <https://github.com/DKISTDC/dkist>`__, `specutils <https://github.com/astropy/specutils>`__ and `sunraster <https://github.com/sunpy/sunraster>`__ as well as others I know are in the works.
 
 For all the gory details of the changes in ndcube 2.0 see `the changelog <https://docs.sunpy.org/projects/ndcube/en/2.0.0/whatsnew/changelog.html>`__.
 
