@@ -6,11 +6,11 @@
 SunPy Awarded NASA Grant
 ========================
 
-**As part of the NASA "Open Source Tools, Frameworks, and Libraries" program the SunPy proposal "Strengthening the Foundations of the SunPy Ecosystem" has been funded for the next three years.**
+**As part of the NASA "Open Source Tools, Frameworks, and Libraries" program, the SunPy proposal "Strengthening the Foundations of the SunPy Ecosystem" has been funded for the next three years.**
 
-This proposal was submitted in January 2021, and aims to provide funding for both the core `sunpy` package and wider goals of the project.
-After `some early community input <https://github.com/sunpy/sunpy-project/issues/9>`__ Albert Shih took on leading writing the proposal, with the funds being awarded through NASA GSFC.
-`The proposal <https://docs.google.com/document/d/1_gf1HM7iIUVqgHAdDUFQfCUHzHkrEFUTJZP8O3PEoqw>`__ focuses on three main areas:
+This proposal was submitted in January 2021, and sought funding for both the core `sunpy` package and wider goals of the project.
+After `early community input was collected <https://github.com/sunpy/sunpy-project/issues/9>`__, Albert Shih led the proposal itself, with NASA GSFC as the primary institution.
+`The proposed effort <https://docs.google.com/document/d/1_gf1HM7iIUVqgHAdDUFQfCUHzHkrEFUTJZP8O3PEoqw>`__ focuses on three main areas:
 
 1. Improving the technical infrastructure.
 
@@ -31,15 +31,15 @@ After `some early community input <https://github.com/sunpy/sunpy-project/issues
 What will the money pay for?
 ----------------------------
 
-The money awarded to this proposal will pay for development time:
+The money awarded to this proposal will pay for:
 
-  * Albert Shih will manage the project and be funded to spend some time in his role as `sunpy.coordinates` maintainer.
-  * Stuart Mumford will be funded to work on infrastructure for all sponsored and affiliated packages as discussed in `sunpy/sunpy-project#2 <https://github.com/sunpy/sunpy-project/issues/2>`__.
-  * A 70% FTE role will be funded based at NASA GSFC focusing on the outreach and large dataset support components of the project.
+  * Albert Shih will manage the project and augment parts of `sunpy.coordinates`.
+  * Stuart Mumford will work on infrastructure for all sponsored and affiliated packages as discussed in `sunpy/sunpy-project#2 <https://github.com/sunpy/sunpy-project/issues/2>`__.
+  * Will Barnes will work on the training/outreach and large-dataset-support components of the project.
 
 
 Finally
 -------
 
 This is a major milestone for SunPy - it is the first significant amount of funding dedicated to directly working on the long term sustainability of the project.
-Everyone currently involved in the project is hopeful that this funding will help to significantly grow SunPy; both the core package and the ecosystem of other packages we want to grow around it.
+This funding will help to significantly grow SunPy, both the core package and the ecosystem of associated packages.
