@@ -142,7 +142,7 @@ There is also a lot of scope for improving our onboarding process as part of thi
 
 Communication and Education Lead
 --------------------------------
-**Sophie Murray**
+**Laura Hayes**
 
 -  Recruits people to write interesting blog posts.
 -  Recruits members of the SunPy community to present about the project at relevant conferences (e.g. AAS/SPD, AGU) and maintaining the `Github repo of presentations <https://github.com/sunpy/presentations>`__.
