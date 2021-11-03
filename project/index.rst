@@ -142,7 +142,7 @@ See :ref:`role_descriptions` for more details on each role.
     Will Barnes is a postdoctoral researcher at the Naval Research Laboratory where he studies coronal heating through forward modeling and loop hydrodynamics. Previously, he was a postdoc at the Lockheed Martin Solar and Astrophysics Laboratory. In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw. Prior to his PhD, Will received a BS in astrophysics from Baylor University in 2013.
 
 .. card:: Laura Hayes
-    :img_name: sophie.png
+    :img_name: laura.png
     :github: hayesla
     :title: Communication and Education Lead
     :aff_name: European Space Agency (ESTEC)
