@@ -141,15 +141,15 @@ See :ref:`role_descriptions` for more details on each role.
 
     Will Barnes is a postdoctoral researcher at the Naval Research Laboratory where he studies coronal heating through forward modeling and loop hydrodynamics. Previously, he was a postdoc at the Lockheed Martin Solar and Astrophysics Laboratory. In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw. Prior to his PhD, Will received a BS in astrophysics from Baylor University in 2013.
 
-.. card:: Sophie Murray
+.. card:: Laura Hayes
     :img_name: sophie.png
-    :github: drsophiemurray
+    :github: hayesla
     :title: Communication and Education Lead
-    :aff_name: Trinity College Dublin and Dublin Institute for Advanced Studies
-    :aff_link: https://www.tcd.ie/
-    :date: 3 December 2019
+    :aff_name: European Space Agency (ESTEC)
+    :aff_link: https://www.esa.int/
+    :date: 3 November 2021
 
-    Sophie Murray is a Research Fellow at Trinity College Dublin and visiting researcher at Dublin Institute for Advanced Studies in Dublin, Ireland. Her research interests are focused on better understanding the solar source of space weather events in order to improve predictions of their impact on Earth and she leads a number of international space weather forecasting coordination activities. Sophie completed an MSc at University College London and PhD in solar physics at Trinity College Dublin. She also worked at the Met Office, the UK’s national meteorological service. Sophie is also heavily involved in public engagement and outreach, and is Principle Investigator of the Astronomical Midlands, a Science Foundation Ireland Discover Project engaging rural communities with astronomy.
+    Laura Hayes is a research fellow at the European Space Agency at the ESTEC facility in the Netherlands. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA GSFC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with new observations from ESA's Solar Orbiter.
 
 .. card:: David Pérez-Suárez
     :img_name: david.png
