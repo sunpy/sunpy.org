@@ -1,4 +1,4 @@
-.. post:: 8th October 2021
+.. post:: 3rd November 2021
    :author: Stuart Mumford
    :tags: sunpy
    :category: Update
@@ -33,9 +33,9 @@ What will the money pay for?
 
 The money awarded to this proposal will pay for:
 
-  * Albert Shih will manage the project and augment parts of `sunpy.coordinates`.
-  * Stuart Mumford will work on infrastructure for all sponsored and affiliated packages as discussed in `sunpy/sunpy-project#2 <https://github.com/sunpy/sunpy-project/issues/2>`__.
-  * Will Barnes will work on the training/outreach and large-dataset-support components of the project.
+* Albert Shih will manage the project and augment parts of `sunpy.coordinates`.
+* Stuart Mumford will work on infrastructure for all sponsored and affiliated packages as discussed in `sunpy/sunpy-project#2 <https://github.com/sunpy/sunpy-project/issues/2>`__.
+* Will Barnes will work on the training/outreach and large-dataset-support components of the project.
 
 
 Finally
