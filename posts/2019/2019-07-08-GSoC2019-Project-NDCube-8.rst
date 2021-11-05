@@ -63,8 +63,8 @@ Tasks for the next week
 The tasks for the next week remains a bit confusing. I plan to take on
 plotting, before trying out the changes that I made for the first part
 of the coding. My mentor ``@Cadair`` would be out on his vacations for
-around 2–3 weeks, so ``@DanRyanIrish`` would be expected to take in the
-charge. I don’t expect him to be available every now and then 😛, but I
+around 2-3 weeks, so ``@DanRyanIrish`` would be expected to take in the
+charge. I don't expect him to be available every now and then 😛, but I
 plan to make progress without pinging them every now and then.
 
 Link to my previous post

@@ -41,7 +41,7 @@ Those modifications were finally incorporated in the python code but
 still, my implementation is not performing the way it should. So it is
 clear that there are some bugs still present. So began the process of
 bug hunting. Being such a complex algorithm find those hidden bugs was a
-challenge. I had many of “Eureka” moments which later turned out to be
+challenge. I had many of "Eureka" moments which later turned out to be
 false alarms. There were a few moments when I actually got frustrated
 and thought of moving to something else. But I stuck to it, hoping I
 will find it soon.

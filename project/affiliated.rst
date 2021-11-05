@@ -141,7 +141,7 @@ Provisional Affiliated Packages
    * - Links
      - `Documentation <https://docs.sunpy.org/projects/radiospectra>`__, `Source code <https://github.com/sunpy/radiospectra>`__
    * - Maintainer(s)
-     - `David Pérez-Suárez`_ `Shane Maloney`_, `Nabil Freij`_,
+     - `David Pérez-Suárez`_, `Shane Maloney`_, `Nabil Freij`_,
    * - Badges
      - |package_general| |integration_none| |docs_some| |tests_good| |duplication_some| |community_excellent| |dev_stc|
    * - Version reviewed

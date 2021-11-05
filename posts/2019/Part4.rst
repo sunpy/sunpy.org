@@ -30,7 +30,7 @@ mostly spent my weeks working on two problems :
 Soft Morphological Transform is a routine which aims to remove cosmic
 ray hits from solar images. As per our earlier plan, we would implement
 this algorithm from scratch if and only if the
-“astroscrappy.detect_cosmics” did not work for solar images. So our
+"astroscrappy.detect_cosmics" did not work for solar images. So our
 first course of action was to validate the performance of the
 astroscrappy module for solar data and to our delight, it worked
 perfectly for solar data.

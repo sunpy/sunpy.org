@@ -74,7 +74,7 @@ The people who have contributed to this release are:
 	Jongyeob Park *
 	ChloÃ© Guennou *
 	Ishtyaq Habib *
- 	Nabil Freij
+	Nabil Freij
 	Simon Liedtke
 	Abigail Stevens *
 	Alex Hamilton *
