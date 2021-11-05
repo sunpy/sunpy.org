@@ -32,7 +32,7 @@ Project Goals Completed
    Normalizing Radial Gradient Filter is an algorithm designed to
    enhance features off the solar limb in a solar image. It normalizes
    the radial gradient i.e., the sharp decrease in intensity values in
-   images as the pixels increase in radial distance from the Sun’s
+   images as the pixels increase in radial distance from the Sun's
    centre which helps in visualizing the coronal structures.
    This has been completed and merged along with its sister algorithm
    the Fourier Normalizing Radial Gradient Filter. The code for this can

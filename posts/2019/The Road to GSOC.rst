@@ -20,7 +20,7 @@ Sunkit Image,* a solar image processing library in Python. This
 project is hosted by **Sunpy,** under **Open Astronomy.** This blog
 post is written to serve as a guide to future applicants, who find
 themselves overwhelmed by GSOC. Most of us (engineering students) in
-India have heard about Google’s flagship programme for college students,
+India have heard about Google's flagship programme for college students,
 the **Summer Of Code.** I too was a part of the same herd, having
 ambitions to be a part of the programme but with no proper plans and
 knowledge.
@@ -65,7 +65,7 @@ Initiate Contact
 
 Contact the organization and the mentors as early as possible. Be formal
 in your conversations and follow every rules or guideline for
-interaction as listed on the website. Don’t be timid and shy and ask
+interaction as listed on the website. Don't be timid and shy and ask
 them questions if you stuck somewhere.
 
 Prerequisite Tasks
@@ -83,7 +83,7 @@ Proposal
 
 The proposal is the thing which highlights what you have done till now
 and what you want to do ahead. Take time in writing it. Follow the
-organization’s guideline while writing a proposal, include everything
+organization's guideline while writing a proposal, include everything
 that you have done till now, include small snippets of code which you
 have written preferably as Github gists. And most importantly come up
 with a suitable timeline for the summer — what work will be completed
@@ -97,7 +97,7 @@ proposal. Make sure to add those changes in your proposal.
 --------------
 
 After all this work sit back and wait for the results. **You have done
-your part** and let destiny unfold. While waiting for the results don’t
+your part** and let destiny unfold. While waiting for the results don't
 just stop, keep in touch with the organizations, solving some minor
 issues.
 

@@ -7,14 +7,14 @@ Experiments in animating plots and saving movies in SunPy 0.3
    :category: Update
 
 Just over a year ago this post described a simple method for saving a movie of SunPy maps.
-Since then, SunPy and matplotlib have moved on, and I’d like to describe an updated method for animating SunPy maps, and saving the results as an mp4 file.
+Since then, SunPy and matplotlib have moved on, and I'd like to describe an updated method for animating SunPy maps, and saving the results as an mp4 file.
 
 First off, all these experiments were conducted on Ubuntu 12.04.
-The code below is based on this `StackOverflow <http://stackoverflow.com/questions/18019226/matplotlib-animation>`_ question and answer (where would we be without StackOverflow???? – thanks!), and some googling around concerning Ubuntu and ffmpeg.
+The code below is based on this `StackOverflow <http://stackoverflow.com/questions/18019226/matplotlib-animation>`_ question and answer (where would we be without StackOverflow???? - thanks!), and some googling around concerning Ubuntu and ffmpeg.
 
 So, to begin, I fired up `ipython <http://ipython.org/>`_.
 I tried the StackOverflow code (including the correction in the answer) and got stuck in an ipython error loop.
-The solution – upgrading to ipython 1.0.0.  Trying again, the code crashed because I did not have ffmpeg installed.
+The solution - upgrading to ipython 1.0.0.  Trying again, the code crashed because I did not have ffmpeg installed.
 Matplotlib looks for movie writers it can use, and since I had specified one that was not present, it crashed.
 You can find which movie writers are present with `animation.writers.list()` (having imported the animation module as below).
 I put ffmpeg capabilities on my system through sudo apt-get install libav-tools.
@@ -59,7 +59,7 @@ As you can see the title above each image remains the same, whereas in each indi
 
 Animating a set of plots is also quite easy.
 The code is almost the same as above.
-Just comment out the line `matplotlib.use(‘Agg’)` and replace the line `ani.save(…)` with `plt.show()`.
+Just comment out the line `matplotlib.use('Agg')` and replace the line `ani.save(…)` with `plt.show()`.
 A matplotlib window appears, and the animation plays in it.
 The interactive zoom feature of the matplotlib window also works, and that is pretty cool.
 

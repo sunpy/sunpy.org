@@ -10,7 +10,7 @@ If I describe my journey through Google Summer of Code as an arduous
 mountain climbing adventure then finally I have reached a point from
 where the **summit**\ is within reach.
 
-But as they say — > # “The last stretch is the most difficult!!”
+But as they say — > # "The last stretch is the most difficult!!"
 
 The past few weeks have been such a delight — they involved everything
 from episodes of frustration to moments of great joy!! I really have to
@@ -27,7 +27,7 @@ anyone in the wrapper code rather it was lurking in the most unexpected
 of places.
 
 The C code had some IDL I/O routines involved with it to read and write
-binary “dat” files. We were aware that the IDL and C codes will read the
+binary "dat" files. We were aware that the IDL and C codes will read the
 arrays differently owing to the order in which they store arrays. IDL is
 column-major and C and Python are row-major. We thought that it can be
 taken care of by transposing the arrays but it was found that this was

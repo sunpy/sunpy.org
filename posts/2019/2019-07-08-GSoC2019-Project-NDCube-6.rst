@@ -27,7 +27,7 @@ So I used the new slicing API, which was written by ``@Cadair`` and
 minimal code refactoring for performing slicing of wcs object. Since an
 ``NDCube`` object contains ``WCS``, ``extra_coords`` and bunch of other
 helper methods, so the slicing of ``extra_coords`` was something, that
-wasn’t implemented earlier, and I had to do it from scratch. I had a
+wasn't implemented earlier, and I had to do it from scratch. I had a
 talk with ``@Cadair``, who warned me about thinking out the slicing of
 ``extra_coords`` in advance, and it turned out to be true, as it was
 another beast to be taken care of.

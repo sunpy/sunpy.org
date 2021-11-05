@@ -20,7 +20,7 @@ Below I highlight some of the major changes, the full change log can be found `h
 * `MapCube` and `CompositeMap` have also seen some improvements, including the implementation of `draw_limb` and `draw_grid` for both datatypes and a new animation based `plot()` method for `MapCube`.
 * To facilitate the changes to map there have also been a lot of improvements to the `io` submodule, including the ability to read all the HDUs from a FITS file and the addition of a `extract_waveunit` function that checks the header for common ways to encode the wavelength unit.
 * There has also been a big cleanup of the various top level and submodule namespaces to make imports simpler. Most of this has not changed the user facing API, however there are not nicer ways to import submodules, like `sunpy.util.util` is now the same as sunpy.util.
-* The spectra module has been refactored so it also has a `.data` attribute and it’s plotting API is now consistent with that of Map and LightCurve
+* The spectra module has been refactored so it also has a `.data` attribute and it's plotting API is now consistent with that of Map and LightCurve
 
 SunPy 0.3 consits of 9 months of work from 15 people and over 300 commits to the git repository.
 The people who have contributed to this release are (in commit order):
