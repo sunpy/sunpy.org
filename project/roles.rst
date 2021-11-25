@@ -46,7 +46,7 @@ It is expected that the lead developer(s), assisted by the sub-package maintaine
 
 Continuous Integration Maintainer
 ---------------------------------
-**Unfilled**
+**Conor MacBride**
 
 SunPy core and the affiliated packages using the `package-template <https://github.com/sunpy/package-template>`__ all use
 the same CI setup.
