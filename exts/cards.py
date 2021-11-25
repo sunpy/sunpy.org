@@ -10,7 +10,7 @@ def visit_card_node(self, node):
     title = node.get("title", "")
     key = title or node["github"]
     key = key.lower().replace(" ", "-")
-    title = f"<h4>{title}</h4>"
+    title = f"<h4>{title}</h4>" if len(title) > 0 else ""
 
     col_extra_class = "column-half" if title else ""
 
@@ -35,7 +35,7 @@ def visit_card_node(self, node):
 def depart_card_node(self, node):
     body = f"""
                                 <p>Affiliation: <a href="{node['aff_link']}">{node['aff_name']}</a></p>
-                                <p>Github: <a href="https://github.com/{node['github']}">{node['github']}</a></p>
+                                <p>GitHub: <a href="https://github.com/{node['github']}">{node['github']}</a></p>
                                 <p>Start Date: {node['date']}</p>
                             </div>
                             <div class="modal-footer">
