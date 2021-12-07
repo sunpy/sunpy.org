@@ -90,7 +90,7 @@ Example: if the dimension of NDCube objects inside the list of NDCubeSequence is
 So this makes the dimensions as ``(len(list_inside_cubesequence)*NDCube[1st dimension], NDCube[2nd dimension], NDCube[3rd dimension])``.
 
 ``explode_along_axis()`` method that slices NDCube object along that axis.
-This is useful to reduce the dimension of NDCube’s inside the sequence list.
+This is useful to reduce the dimension of NDCube's inside the sequence list.
 This will create a new sequence as this break the cube along one axis.
 
 ``to_sunpy()`` method it creates a new Sunpy instance if it satisfies the requirements.
@@ -105,9 +105,9 @@ IRISPy class was a easy implementation after the useful and challenging NDCube r
 This made creating a new class such as IRISSpectrograph a rather simple task.
 This was done in a clean and neat way.
 
-So this class object has all the inherent methods and properties of NDCubeSequence as it uses this as it’s base class.
+So this class object has all the inherent methods and properties of NDCubeSequence as it uses this as it's base class.
 
 Future work includes making changes to ``IRISSpectrograph`` to include the recently added changes such as
-SpectrographSequence, so this is a new sequence which is using the ``NDCubeSequence`` as it’s parent class. Making the
+SpectrographSequence, so this is a new sequence which is using the ``NDCubeSequence`` as it's parent class. Making the
 iris tools working properly with the new IRISSpectrograph. Developing NDCube's and NDCubeSequence's ``to_sunpy`` method
 to handle all the sunpy objects.

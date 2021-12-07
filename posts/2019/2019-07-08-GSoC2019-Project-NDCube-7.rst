@@ -15,7 +15,7 @@ First evaluations are nearing!
 ==============================
 
 My task for this week was cut-out; complete the testing and pass my
-first evaluations. Well, it wasn’t as strict as it sounds, as my mentor
+first evaluations. Well, it wasn't as strict as it sounds, as my mentor
 has been quite supportive, and he was more than happy to pass me for the
 first evaluations for the amount of work that I had put. However, I
 personally felt that delivering complete content before the first
@@ -66,15 +66,15 @@ During the telecon, after closely looking through the code, ``@Cadair``
 suggested that the ordering of slicing for ``WCS`` object required input
 parameters in the cartesian format, opposite to what I had assumed in my
 code. This sounded really scary I had written my code with that
-assumption. This was really heartbreaking for me, as I didn’t expect
-such a conceptual error from my side. This meant that I hadn’t read the
+assumption. This was really heartbreaking for me, as I didn't expect
+such a conceptual error from my side. This meant that I hadn't read the
 assumption well, and certainly threatened my progress.
 
 Diving into the docs again
 ==========================
 
 In order to fix this, I was determined to dive into the docs again, as I
-wasn’t sure how the stuff was working. I mostly considered the slicing
+wasn't sure how the stuff was working. I mostly considered the slicing
 of ``WCS`` as a black box, which was a big conceptual error from my
 part. I learned how not believe certain assumptions, and the code is
 written provides the concise proof of the assumptions taken — Nothing
@@ -92,7 +92,7 @@ I was able to get my PR merged, as Cadair was mostly impressed and
 convinced about the tests passing, and asked me to focus on the next
 part of the project which was plotting.
 
-Content for the next week’s blog post
+Content for the next week's blog post
 =====================================
 
 The next week comes after my first evaluations have been done, so I plan

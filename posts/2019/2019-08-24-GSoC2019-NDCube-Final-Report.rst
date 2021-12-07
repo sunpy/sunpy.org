@@ -56,7 +56,7 @@ data-analysis on them.
 NDCube is a SunPy affiliated package for easily dealing with ND-Data
 cubes along with convenience method that allows the data cubes to be
 sliced, attach meta-data to it, and easy to use plotting methods, to
-visualize an ND-Data. It uses SunPy’s visualization to plot more than
+visualize an ND-Data. It uses SunPy's visualization to plot more than
 `>2D` cubes and provides sliders to shift the different dimensions, so
 even if users are using only 2D dimensions at a time, we can still
 leverage the other dimensions.

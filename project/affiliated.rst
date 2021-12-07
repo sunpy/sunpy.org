@@ -15,164 +15,137 @@ Sponsored Packages
 
 A SunPy sponsored package is an affiliated package that is maintained and governed by the SunPy project.
 
-sunpy core
-^^^^^^^^^^
-A core package for solar physics in Python.
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
+   * - **sunpy core**
+     - A core package for solar physics in Python.
    * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/>`__, `Code <https://github.com/sunpy/sunpy>`__
+     - `Documentation <https://docs.sunpy.org/>`__, `Source code <https://github.com/sunpy/sunpy>`__
+   * - Maintainer(s)
      - :ref:`The SunPy Community <subpackage_maintainers>`
+   * - Badges
      - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+   * - Version reviewed
      - `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
-NDCube
-^^^^^^
-A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
+   * - **NDCube**
+     - A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
    * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/projects/ndcube>`__, `Code <https://github.com/sunpy/ndcube>`__
+     - `Documentation <https://docs.sunpy.org/projects/ndcube>`__, `Source code <https://github.com/sunpy/ndcube>`__
+   * - Maintainer(s)
      - `Daniel Ryan`_, `Stuart Mumford`_
+   * - Badges
      - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+   * - Version reviewed
      - `v1.3.2 <https://github.com/sunpy/ndcube/releases/tag/v1.3.2>`__
 
-drms
-^^^^
-Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data.
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
+   * - **drms**
+     - Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data.
    * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/projects/drms>`__, `Code <https://github.com/sunpy/drms>`__
-     - `Kolja Glogowski`_
+     - `Documentation <https://docs.sunpy.org/projects/drms>`__, `Source code <https://github.com/sunpy/drms>`__
+   * - Maintainer(s)
+     - `Kolja Glogowski`_, `Will Barnes`_, `Nabil Freij`_
+   * - Badges
      - |package_general| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
+   * - Version reviewed
      - `v0.5.7 <https://github.com/sunpy/drms/releases/tag/v0.5.7>`__
 
-sunraster
-^^^^^^^^^
-sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
+   * - **sunraster**
+     - sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
    * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Code <https://github.com/sunpy/sunraster>`__
-     - `Daniel Ryan`_
+     - `Documentation <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Source code <https://github.com/sunpy/sunraster>`__
+   * - Maintainer(s)
+     - `Daniel Ryan`_, `Nabil Freij`_
+   * - Badges
      - |package_specialized| |integration_full| |docs_some| |tests_good| |duplication_none| |community_excellent| |dev_stc|
+   * - Version reviewed
      - `v0.1.2 <https://github.com/sunpy/sunraster/releases/tag/v0.1.2>`__
 
-sunkit-image
-^^^^^^^^^^^^
-An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines.
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
+   * - **sunkit-image**
+     - An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines.
    * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/projects/sunkit-image/>`__, `Code <https://github.com/sunpy/sunkit-image/>`__
+     - `Documentation <https://docs.sunpy.org/projects/sunkit-image/>`__, `Source code <https://github.com/sunpy/sunkit-image/>`__
+   * - Maintainer(s)
      - `Nabil Freij`_, `Stuart Mumford`_
+   * - Badges
      - |package_general| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
+   * - Version reviewed
      - `v0.1 <https://github.com/sunpy/sunkit-image/releases/tag/v0.1.0>`__
 
 Affiliated Packages
 -------------------
 
-aiapy
-^^^^^
-aiapy is a Python package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
+   * - **aiapy**
+     - aiapy is a Python package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
    * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://aiapy.readthedocs.io/en/latest/>`__, `Code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
-     - `Will Barnes`_, `Mark Cheung`_
+     - `Documentation <https://aiapy.readthedocs.io/en/latest/>`__, `Source code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
+   * - Maintainer(s)
+     -  `Will Barnes`_, `Mark Cheung`_, `Nabil Freij`_
+   * - Badges
      - |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
+   * - Version reviewed
      - `v0.1.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.1.0>`__
 
-pfsspy
-^^^^^^
-A python Potential Field Source Surface model package.
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
+   * - **pfsspy**
+     - A Python Potential Field Source Surface model package.
    * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://pfsspy.readthedocs.io/>`__, `Code <https://github.com/dstansby/pfsspy/>`__
+     - `Documentation <https://pfsspy.readthedocs.io/>`__, `Source code <https://github.com/dstansby/pfsspy/>`__
+   * - Maintainer(s)
      - `David Stansby`_
+   * - Badges
      - |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
+   * - Version reviewed
      - `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
 Provisional Affiliated Packages
 -------------------------------
 
-pyflct
-^^^^^^
-A Python wrapper for Fourier Local Correlation Tracking.
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
+   * - **pyflct**
+     - A Python wrapper for Fourier Local Correlation Tracking.
    * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://pyflct.readthedocs.io/>`__, `Code <https://github.com/sunpy/pyflct>`__
+     - `Documentation <https://pyflct.readthedocs.io/>`__, `Source code <https://github.com/sunpy/pyflct>`__
+   * - Maintainer(s)
      - `Nabil Freij`_, `Stuart Mumford`_
+   * - Badges
      - |package_specialized| |integration_none| |docs_some| |tests_excellent| |duplication_none| |community_good| |dev_low|
+   * - Version reviewed
      - `v0.2.1 <https://github.com/sunpy/pyflct/releases/tag/v0.2.1>`__
 
-radiospectra
-^^^^^^^^^^^^
-This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
-
 .. list-table::
-   :widths: 15, 20, 60, 15
-   :header-rows: 1
+   :widths: 20, 80
 
+   * - **radiospectra**
+     - This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
    * - Links
-     - Maintainer(s)
-     - Review
-     - Version Reviewed
-   * - `Docs <https://docs.sunpy.org/projects/radiospectra>`__, `Code <https://github.com/sunpy/radiospectra>`__
-     - `David Pérez-Suárez`_
+     - `Documentation <https://docs.sunpy.org/projects/radiospectra>`__, `Source code <https://github.com/sunpy/radiospectra>`__
+   * - Maintainer(s)
+     - `David Pérez-Suárez`_, `Shane Maloney`_, `Nabil Freij`_,
+   * - Badges
      - |package_general| |integration_none| |docs_some| |tests_good| |duplication_some| |community_excellent| |dev_stc|
-     - `master <https://github.com/sunpy/radiospectra/tree/201104753546d412275b4dc40adc74af34de6fb3>`__
+   * - Version reviewed
+     - `v0.3.0 <https://github.com/sunpy/radiospectra/releases/tag/v0.3.0>`__
 
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
@@ -182,6 +155,7 @@ This package provides support for some types of solar radio spectragrams (e.g. C
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Mark Cheung: https://github.com/fluxtransport
 .. _Nabil Freij: https://github.com/nabobalis
+.. _Shane Maloney: https://github.com/samaloney
 
 Affiliated Package Review
 -------------------------
@@ -246,7 +220,7 @@ Documentation
 | Status        | Meaning                                             |
 +===============+=====================================================+
 | |extensive|   | Extensive online documentation, the public API      |
-|               | has formatted docstrings describing the code’s      |
+|               | has formatted docstrings describing the code's      |
 |               | purpose, all inputs and outputs, and includes       |
 |               | examples. Provides high level documentation; for    |
 |               | example, a user guide and/or an example gallery.    |
@@ -275,21 +249,21 @@ Testing
 +===============+=====================================================+
 | |excellent|   | A high quality testing suite                        |
 |               | exists which tests the                              |
-|               | individual components (e.g. functions,              |
+|               | individual components (e.g. functions,              |
 |               | classes) as well as providing                       |
 |               | integration tests. Code coverage                    |
 |               | is extensive. Testing is automated and              |
 |               | runs frequently.                                    |
 +---------------+-----------------------------------------------------+
 | |good|        | Unit tests of individual                            |
-|               | components (e.g. functions,                         |
+|               | components (e.g. functions,                         |
 |               | classes) and integration tests,                     |
 |               | but coverage is good but not extensive. Testing     |
 |               | is automated.                                       |
 +---------------+-----------------------------------------------------+
 | |needs_work|  | Lacks tests and/or tests are not                    |
 |               | executed in a test framework                        |
-|               | (e.g. pytest).                                      |
+|               | (e.g. pytest).                                      |
 +---------------+-----------------------------------------------------+
 
 .. _review_duplication:
@@ -362,7 +336,7 @@ Development Status
 +===============+=====================================================+
 | |stable|      | Package is well maintained, contributions are       |
 |               | responded to by the developers. API stability       |
-|               | is prioritised and regular versioned releases       |
+|               | is prioritized and regular versioned releases       |
 |               | are made, with any breaking changes well documented.|
 +---------------+-----------------------------------------------------+
 | |stc_dev|     | Package is well maintained, but large API changes   |
@@ -394,9 +368,9 @@ Review Criteria and Summary
 | Provisional   | After review a package is listed as                 |
 |               | provisional, as long as it is                       |
 |               | assessed to not have a red score                    |
-|               | in the “Functionality",                             |
-|               | “Duplication” or                                    |
-|               | “Community” criteria and is                         |
+|               | in the "Functionality",                             |
+|               | "Duplication" or                                    |
+|               | "Community" criteria and is                         |
 |               | working towards meeting the rest                    |
 |               | of the review criteria.                             |
 +---------------+-----------------------------------------------------+
@@ -413,15 +387,15 @@ Reviews are conducted in GitHub issues through the https://github.com/sunpy/sunp
 Steps for Getting New Packages Reviewed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-0. If you’re not sure whether to submit your package for the affiliated package review process, you can open an issue to informally discuss your package or contact the :ref:`role_affiliated-liaison` to discuss your package privately.
-1. Open a new issue with the issue template.
-2. The :ref:`role_affiliated-liaison` will identify a reviewer independent of your package.
-3. The reviewer evaluates the affiliated package against the review criteria.
-4. The reviewer adds their review as a comment to the issue.
-5. The submitting author has the right to ask for another review. In this case, the :ref:`role_affiliated-liaison` will identify a new independent reviewer. This new review will be added to the same issue.
-6. Based on the scores in each of the seven categories, the affiliated package is either accepted, given provisional status, or not accepted. In all three cases, this practically means closing the issue and ending the review process. In the last case, the reviewer provides the submitting author with feedback on how to meet the acceptance criteria with the intention of helping the submitting author achieve provisional or accepted status in the future.
-7. If the review passed the review criteria then the submitting author or the :ref:`role_affiliated-liaison` opens a pull request to add the package and its review results to the sunpy.org website, unless the submitting author withdraws the submission.
-8. The :ref:`role_affiliated-liaison` merges the pull request.
+1. If you're not sure whether to submit your package for the affiliated package review process, you can open an issue to informally discuss your package or contact the :ref:`role_affiliated-liaison` to discuss your package privately.
+2. Open a new issue with the issue template.
+3. The :ref:`role_affiliated-liaison` will identify a reviewer independent of your package.
+4. The reviewer evaluates the affiliated package against the review criteria.
+5. The reviewer adds their review as a comment to the issue.
+6. The submitting author has the right to ask for another review. In this case, the :ref:`role_affiliated-liaison` will identify a new independent reviewer. This new review will be added to the same issue.
+7. Based on the scores in each of the seven categories, the affiliated package is either accepted, given provisional status, or not accepted. In all three cases, this practically means closing the issue and ending the review process. In the last case, the reviewer provides the submitting author with feedback on how to meet the acceptance criteria with the intention of helping the submitting author achieve provisional or accepted status in the future.
+8. If the review passed the review criteria then the submitting author or the :ref:`role_affiliated-liaison` opens a pull request to add the package and its review results to the sunpy.org website, unless the submitting author withdraws the submission.
+9. The :ref:`role_affiliated-liaison` merges the pull request.
 
 Existing Packages Review Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

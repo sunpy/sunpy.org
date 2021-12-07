@@ -14,7 +14,7 @@ weeks from now so stay tuned.
 --------------
 
 The official coding period of Google Summer of Code is preceded by
-almost a month-long **“Community Bonding Period.”**\ During this period
+almost a month-long **"Community Bonding Period."**\ During this period
 a student is expected to interact with the community and understand what
 is expected of him/her during the summer. It is a very crucial period,
 during which plan for the entire summer is laid out.

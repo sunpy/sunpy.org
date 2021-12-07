@@ -17,7 +17,7 @@ For example, instead of converting from seconds to years by brute force with the
    t_diff = t_obs - t_cal_coeffs
    t_diff = t_diff/yr2sec
 
-we opted to use Astropy’s powerful Units and Quantities “machinery” for the conversion instead, in the following manner:
+we opted to use Astropy's powerful Units and Quantities "machinery" for the conversion instead, in the following manner:
 
 .. code-block:: python
    :linenos:

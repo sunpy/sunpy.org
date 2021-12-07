@@ -75,8 +75,8 @@ fairly gone according to plan, though more tasks still await. I keep
 chugging along, trying to keep up with the required pace, as the phase
 containing the real challenge has arrived.
 
-    “I will come again & conquer you because as a mountain you can’t
-    grow, but as a human, I can.” — Sir Edmund Hillary
+    "I will come again & conquer you because as a mountain you can't
+    grow, but as a human, I can." — Sir Edmund Hillary
 
 Link to my previous post
 ========================

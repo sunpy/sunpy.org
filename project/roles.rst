@@ -46,7 +46,7 @@ It is expected that the lead developer(s), assisted by the sub-package maintaine
 
 Continuous Integration Maintainer
 ---------------------------------
-**Unfilled**
+**Conor MacBride**
 
 SunPy core and the affiliated packages using the `package-template <https://github.com/sunpy/package-template>`__ all use
 the same CI setup.
@@ -66,9 +66,9 @@ The time commitment is probably around 3-5 hours per week, with additional scope
 
 Release Manager
 ---------------
-**Unfilled**
+**David Stansby**
 
-The release manager is responsible for the logistics of SunPy core releases,
+The release manager is responsible for the logistics of sunpy core releases,
 and assisting with releases of affiliated packages as required. This
 comprises of the following main tasks:
 

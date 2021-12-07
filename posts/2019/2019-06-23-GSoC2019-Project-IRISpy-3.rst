@@ -10,7 +10,7 @@ Four weeks have passed since the commencement of the Coding Period on May 27th, 
 
 Technique 1: Understanding how the new function fits into the code base — First off is to study the code base carefully in order get an idea regarding its architecture. Knowing how the chain of dependencies go can help a lot with implementing a new function. After this, review the code again to gain more insight once this first step is completed.
 
-Technique 2: Check the chain of functions involved in the hierarchy of dependency — This is best done with some keyword search functionality of the editor-of-choice. It pays to be thorough in one’s backwards and forwards double-checking to ensure every dependency in the chain is covered.
+Technique 2: Check the chain of functions involved in the hierarchy of dependency — This is best done with some keyword search functionality of the editor-of-choice. It pays to be thorough in one's backwards and forwards double-checking to ensure every dependency in the chain is covered.
 
 Technique 3: Divide-and-Conquer — Dividing the task into smaller steps, in order to help both with writing the new code snippets and the testing. The first task in the process of course would be to actually write the new function to be incorporated. Then, comes the tasks of debugging, testing, and benchmarking. And then, it is to enhance the code using some algorithmic or data-structure hacks to improve its performance. Finally, we worked back up the chain of dependency to add the new elements required, in the case of my PR that would be to implement some time-dependency in the determination of some effective areas covered by the NASA IRIS satellite.
 
