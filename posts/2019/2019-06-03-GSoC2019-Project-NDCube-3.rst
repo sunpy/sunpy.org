@@ -7,10 +7,10 @@
 
 |image0|
 
-It’s time for Action ; Code-Sleep-Coffee Repeat!
+It's time for Action ; Code-Sleep-Coffee Repeat!
 
 This blog post marks my account for the first week of coding for
-GSoC’19. While it may not be as long as my previous posts, I would hope
+GSoC'19. While it may not be as long as my previous posts, I would hope
 to make posts every week, so it would be as recent and relevant.
 
 Making Progress for the Week

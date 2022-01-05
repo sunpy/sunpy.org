@@ -66,7 +66,7 @@ Links to coming meetings can are below:
 Reviewing Pull Requests
 -----------------------
 
-As always, reviews on pull requests are always welcome, you don’t have to have merge permissions or anything other than a GitHub account to review PRs.
+As always, reviews on pull requests are always welcome, you don't have to have merge permissions or anything other than a GitHub account to review PRs.
 You can find a list of all the PRs that need reviewing `here <https://plus.google.com/events/jt7tb05t7k6ct9cqk4i3lnbjj0>`_.
 
 Getting in touch

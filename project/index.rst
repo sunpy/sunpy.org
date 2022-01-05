@@ -167,11 +167,15 @@ See :ref:`role_descriptions` for more details on each role.
     If you are interested in filling this role see the description:
     :ref:`role_lead-mentor`
 
-.. card:: Role Unfilled
+.. card:: Conor MacBride
+    :img_name: conor.png
+    :github: ConorMacBride
     :title: Continuous Integration Maintainer
+    :aff_name: Queen's University Belfast
+    :aff_link: https://www.qub.ac.uk
+    :date: 24 November 2021
 
-    If you are interested in filling this role see the description:
-    :ref:`role_ci-maintainer`
+    Conor MacBride is a solar physics PhD student at Queen's University Belfast, researching waves in the lower solar atmosphere. Prior to this, he obtained an MPhys degree in Mathematics and Theoretical Physics from the University of St Andrews.
 
 .. card:: Role Unfilled
     :title: Release Manager

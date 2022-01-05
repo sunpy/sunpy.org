@@ -59,7 +59,7 @@ Links to coming meetings are below:
 Reviewing Pull Requests
 -----------------------
 
-As always, reviews on pull requests are always welcome, you don’t have to have merge permissions or anything other than a GitHub account to review PRs.
+As always, reviews on pull requests are always welcome, you don't have to have merge permissions or anything other than a GitHub account to review PRs.
 You can find a list of all the PRs that need reviewing `here. <https://github.com/sunpy/sunpy/labels/%5BReview%5D>`_
 
 Getting in touch

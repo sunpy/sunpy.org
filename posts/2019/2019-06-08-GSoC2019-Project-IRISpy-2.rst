@@ -6,7 +6,7 @@ GSoC 2019: Project IRISpy 1.1
    :tags: GSoC, IRISpy, NDCube
    :category: GSoC
 
-It has been two weeks since the commencement of the coding phase… I can’t believe it, as it seems like time files. But to sum up the time that passed the following is a brief summary report for what tasks have been completed and what remains:
+It has been two weeks since the commencement of the coding phase… I can't believe it, as it seems like time files. But to sum up the time that passed the following is a brief summary report for what tasks have been completed and what remains:
 
 The GitHub PR opened for the project can be found at `link here <https://github.com/sunpy/irispy/pull/108>`_. This picks up from a previous unfinished PR #102 `with link here <https://github.com/sunpy/irispy/pull/102>`_, while also addresses Issue #27 with `link <https://github.com/sunpy/irispy/issues/27>`_. The ultimate goal of the project is to work on IRISpy further until it is in a state where it becomes ready for an official release. Basically, we would like to add a time-dependent iris_response() function as well as a function fit_iris_xput() to compute the time-dependent effective areas based on some input observation times and coefficients. So far, four out of the five planned stages of implementation has been carried out, and they are as follows:
 
@@ -33,12 +33,12 @@ Essentially, the first four of the five steps form the workflow for all similar 
     The aim has been to render the first functional Python version of the code to give the same or effectively the same answers as the IDL version, except perhaps rounding errors.
     Most common type of bugs encountered arose from differences in syntax, especially from converting between programming languages from IDL to Python.
     One of the more glaring and easily omitted error encountered stemmed from erroneous indentation.
-    The final bug to be fixed had to do with units used in the variable for time difference t_diff. This has to be presented in years. However, due to the way the packages were designed before and upgrade, some confusion cropped up as it has to be converted from a datetime.timedelta object in days to seconds first before it can be converted into the proper unit. After software upgrade, particularly sunpy, it became easier to perform the same task as the object is now an astropy.time.time one, so that by using astropy’s powerful units and quantities machinery, the conversion from days to years was direct and efficient.
+    The final bug to be fixed had to do with units used in the variable for time difference t_diff. This has to be presented in years. However, due to the way the packages were designed before and upgrade, some confusion cropped up as it has to be converted from a datetime.timedelta object in days to seconds first before it can be converted into the proper unit. After software upgrade, particularly sunpy, it became easier to perform the same task as the object is now an astropy.time.time one, so that by using astropy's powerful units and quantities machinery, the conversion from days to years was direct and efficient.
 
 §1.4 Improving Code Pythonically
 
     By this stage the code has been made more Pythonic as well as updated to reflect more recent changes in sunpy practices.
-    Using astropy’s download_file function instead of Requests’ get to download the IRIS .geny files. This adds the cache and timeout functionalities to the download process.
+    Using astropy's download_file function instead of Requests' get to download the IRIS .geny files. This adds the cache and timeout functionalities to the download process.
     Converting the time_obs and time_cal_coeffs into astropy.time.time objects before subtracting to obtain a time difference called t_diff (to be converted into years), which is used to compute the final fit for the effective area(s).
 
 §1.5 Plan for next stage: Incorporating Time-dependent Fitted Response into Wider IRISpy Code-base

@@ -24,7 +24,7 @@ The special string 'sqlite:///:memory:' means that an in-memory SQLite database 
 See sqlalchemy.create_engine for more information about the syntax of the passed string.
 
 The method create_tables is mandatory for working with a new database.
-Missing tables are not automatically created because “explicit is better than implicit”.
+Missing tables are not automatically created because "explicit is better than implicit".
 
 Each instance of the class DatabaseEntry represents one row in the database.
 To add a new entry to the database, simply use the add method of a database object and pass it the entry you want to add.
@@ -78,7 +78,7 @@ These are in particular:
 * the `in` operator
 * iterating over a database
 
-You don’t have to remember each of these functions.
+You don't have to remember each of these functions.
 Just keep in mind that changes to the database are committed as soon as any operation is performed to read from the database.
 Later on, more methods and features will be added to read from the database, so that generic rule is more useful than learning a list of operations by heart.
 
@@ -110,13 +110,13 @@ Editing entries: (un-)starring entries and custom edits
 -------------------------------------------------------
 
 The database package brings the new concept of starring entries.
-This is just to mark certain entries, it is not a ranking or a custom label (though while I’m writing this, I think that could be a good idea.
+This is just to mark certain entries, it is not a ranking or a custom label (though while I'm writing this, I think that could be a good idea.
 I should discuss it with the SunPy devs).
 To star an entry, call the method star and pass the entry to be starred.
 The method unstar works accordingly.
 If you try to mark an entry as starred although it already is, an exception is raised.
 An exception is also raised if it is attempted to unstar an entry that is not starred.
-This “verbose” behaviour can be turned off by setting the optional keyword argument `ignore_already_starred` (or `ignore_already_unstarred` for the `unstar` method) to True.
+This "verbose" behaviour can be turned off by setting the optional keyword argument `ignore_already_starred` (or `ignore_already_unstarred` for the `unstar` method) to True.
 The entry method makes it possible to change a specific value of an entry.
 The first argument is the entry to be changed and all following arguments must be keyword arguments where the key represents the column name in the database and the value represents the new value.
 

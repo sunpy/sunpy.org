@@ -7,7 +7,7 @@ Part 2: The Dive
    :category: GSoC
 
 The **Coding Period** of the Google Summer of Code officially began on
-27th May 2019 — for me, it was the day when the “**Dive**” into the
+27th May 2019 — for me, it was the day when the "**Dive**" into the
 realm of code began.
 
 |image0|
@@ -45,7 +45,7 @@ algorithms and the lake itself is the Google Summer of Code.
 --------------
 
 The first two weeks have been just like the way as I have described
-above — filled with “first-time” moments which were a little
+above — filled with "first-time" moments which were a little
 intimidating once, but with the help of everyone — my mentors, the Sunpy
 community everything is going on smoothly.
 
