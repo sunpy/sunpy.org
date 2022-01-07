@@ -56,7 +56,7 @@ author = "SunPy Project"
 copyright = "SunPy Project"
 show_sphinx = True
 version = u""
-release = u"master"
+release = u"main"
 language = None
 
 pygments_style = "sphinx"
