@@ -51,12 +51,12 @@ exclude_patterns = [
     "_build/*",
 ]
 master_doc = "index"
-project = u"SunPy"
+project = "SunPy"
 author = "SunPy Project"
 copyright = "SunPy Project"
 show_sphinx = True
-version = u""
-release = u"main"
+version = ""
+release = "main"
 language = None
 
 pygments_style = "sphinx"
