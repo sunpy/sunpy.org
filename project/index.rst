@@ -229,7 +229,7 @@ Some roles are currently not filled. We'd like to encourage members of the commu
    * - sunpy.sun
      - `Steven Christe`_
    * - sunpy.time
-     - `Laura Hayes`_,
+     - `Laura Hayes`_
    * - sunpy.timeseries
      - `Laura Hayes`_
    * - sunpy.visualization
