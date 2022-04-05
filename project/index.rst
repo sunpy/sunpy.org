@@ -229,11 +229,11 @@ Some roles are currently not filled. We'd like to encourage members of the commu
    * - sunpy.sun
      - `Steven Christe`_
    * - sunpy.time
-     - `Laura Hayes`_,
+     - `Laura Hayes`_
    * - sunpy.timeseries
-     - `Laura Hayes`_, `David Stansby`_
+     - `Laura Hayes`_
    * - sunpy.visualization
-     - `Daniel Ryan`_, `David Stansby`_
+     - `Daniel Ryan`_
 
 .. list-table::
    :widths: 60 60
@@ -251,7 +251,6 @@ Some roles are currently not filled. We'd like to encourage members of the commu
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
 .. _Monica Bobra: https://github.com/mbobra
-.. _David Stansby: https://github.com/dstansby
 .. _Laura Hayes: https://github.com/hayesla
 .. _David Pérez-Suárez: https://github.com/dpshelio
 .. _Kolja Glogowski: https://github.com/kbg
