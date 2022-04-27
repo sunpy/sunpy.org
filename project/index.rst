@@ -11,6 +11,7 @@ SunPy Project
    roles
    affiliated
    former
+   meetings
 
 The **SunPy project** is the organization which maintains the SunPy library and sponsored affiliated packages.
 Its primary goal is to *facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment*.
