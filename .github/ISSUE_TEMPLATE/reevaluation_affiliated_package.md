@@ -5,8 +5,7 @@ labels: Affiliated Package Review
 assignees: Cadair
 ---
 
-## Package Details
-<!-- If any of these have changed, please update them. !-->
+## Package Details - If changed
 
 - Package name:
 - Maintainer(s):
@@ -35,8 +34,9 @@ assignees: Cadair
 
 ## Instructions to Reviewer
 
-The requested review should focus on at most three of the sections below.
-Please copy the following and remove the sections that are not required.
+As this is a re-review, your focus should be on checking on what has changed in each sections below.
+You can take into account the comments from the submitter but please try to check as much as possible.
+Please copy the following and remove the sections that are not required or that have not changed.
 
 ```
 * Functionality           : General Package / Specialized Package / Not Relevant
