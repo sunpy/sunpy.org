@@ -31,7 +31,7 @@ Details regarding virtual participation will be posted here closer to the time o
 Venue
 -----
 
-The meeting will be held in person at the `Dublin Institute for Advanced Studies <https://www.dias.ie/>`_, 10 Burlington Rd, Dublin, D04 C932.
+The meeting will be held in person at the `Dublin Institute for Advanced Studies <https://www.dias.ie/>`_, 10 Burlington Rd, Dublin, Ireland, D04 C932.
 
 .. raw:: html
 
