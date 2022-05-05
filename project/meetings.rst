@@ -40,5 +40,6 @@ The meeting will be held in person at the `Dublin Institute for Advanced Studies
 Accommodation
 -------------
 
+Some suggested places to stay, please note there is no official affiliation with any hotel listed below:
 * `Clayton Hotel Burlington Road <https://bookings.claytonhotelburlingtonroad.com>`_, Leeson Street Upper, Dublin, D04 A318
 * `Mespil Hotel <https://www.mespilhotel.com>`_, 50-60 Mespil Rd, Dublin 4, D04 E7N2
