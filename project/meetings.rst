@@ -31,7 +31,7 @@ Details regarding virtual participation will be posted here closer to the time o
 Venue
 -----
 
-The meeting will be held in person at the `Dublin Institute for Advanced Studies <https://www.dias.ie/>`_, 10 Burlington Rd, Dublin, D04 C932.
+The meeting will be held in person at the `Dublin Institute for Advanced Studies <https://www.dias.ie/>`_, 10 Burlington Rd, Dublin, Ireland, D04 C932.
 
 .. raw:: html
 
@@ -45,6 +45,7 @@ The meeting will be held in person at the `Dublin Institute for Advanced Studies
 Accommodation
 -------------
 
+Some suggested places to stay, please note there is no official affiliation with any hotel listed below:
 * `Clayton Hotel Burlington Road <https://bookings.claytonhotelburlingtonroad.com>`_, Leeson Street Upper, Dublin, D04 A318
 * `Mespil Hotel <https://www.mespilhotel.com>`_, 50-60 Mespil Rd, Dublin 4, D04 E7N2
 * `Pembroke Townhouse <https://www.pembroketownhouse.ie>`_, 88 Pembroke Rd, Dublin, D04 TF72
