@@ -4,21 +4,18 @@ Meetings
 
 .. raw:: html
 
-    <div id="calendar-container"></div>
-
+    <iframe id="calendar" src="" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.4/jstz.min.js"></script>
     <script type="text/javascript">
     var timezone = encodeURIComponent(jstz.determine().name());
-    var pref = '<iframe src="https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s%40group.calendar.google.com&ctz=';
-    var suff = '" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>';
-    var iframe_html = pref + timezone + suff;
-    document.getElementById('calendar-container').innerHTML = iframe_html;
+    var iframe_url = `https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s%40group.calendar.google.com&ctz=${timezone}`;
+    document.getElementById('calendar').src = iframe_url;
     </script>
 
 Weekly Meetings
 ***************
 
-Every Wednesday at 17:00 GMT+1 / 12:00 EST (16:00 UTC summer, 17:00 UTC winter, `timezone convertor <https://dateful.com/time-zone-converter?t=5pm&tz2=London-UK>`__), we hold a community meeting to discuss items related to the project and review open issues and code contributions.
+Every Wednesday at 17:00 London time (16:00 UTC summer, 17:00 UTC winter) `timezone convertor <https://dateful.com/time-zone-converter?t=5pm&tz2=London-UK>`__, we hold a community meeting to discuss items related to the project and review open issues and code contributions.
 The meeting is open to all and we welcome discussion of any SunPy-related topics.
 The link to join the meeting as well as a link to the meeting agenda are included below.
 
