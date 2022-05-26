@@ -186,8 +186,7 @@ See :ref:`role_descriptions` for more details on each role.
     :aff_link: https://www.davidstansby.com/
     :date: 29 November 2021
 
-    David Stansby is a Research Software Engineer in UCL's Center for Advanced Research Computing (ARC),
-    writing software for a wide spectrum of research groups across the university.
+    David Stansby is a Research Software Engineer in UCL's Center for Advanced Research Computing (ARC), writing software for a wide spectrum of research groups across the university.
     Before that he researched the physics of the Solar Wind, our Sun's atmosphere that stretches from the solar surface to beyond the orbit of Pluto.
 
 .. card:: Role Unfilled
