@@ -178,11 +178,17 @@ See :ref:`role_descriptions` for more details on each role.
 
     Conor MacBride is a solar physics PhD student at Queen's University Belfast, researching waves in the lower solar atmosphere. Prior to this, he obtained an MPhys degree in Mathematics and Theoretical Physics from the University of St Andrews.
 
-.. card:: Role Unfilled
+.. card:: David Stansby
+    :img_name: david_stansby.png
+    :github: dstansby
     :title: Release Manager
+    :aff_name: University College London
+    :aff_link: https://www.davidstansby.com/
+    :date: 29 November 2021
 
-    If you are interested in filling this role see the description:
-    :ref:`role_release-manager`
+    David Stansby is a Research Software Engineer in UCL's Center for Advanced Research Computing (ARC),
+    writing software for a wide spectrum of research groups across the university.
+    Before that he researched the physics of the Solar Wind, our Sun's atmosphere that stretches from the solar surface to beyond the orbit of Pluto.
 
 .. card:: Role Unfilled
     :title: Webmaster
