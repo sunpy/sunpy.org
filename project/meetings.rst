@@ -73,8 +73,8 @@ Some suggested places to stay, please note there is no official affiliation with
 * `Mespil Hotel <https://www.mespilhotel.com>`_, 50-60 Mespil Rd, Dublin 4, D04 E7N2
 * `Pembroke Townhouse <https://www.pembroketownhouse.ie>`_, 88 Pembroke Rd, Dublin, D04 TF72
 
-Previous SunPy Coordination Meeting
-***********************************
+Previous SunPy Coordination Meetings
+************************************
 
 * `2020 Meeting Notes <https://github.com/sunpy/sunpy/wiki/Coordination-Meeting-2020-Notes>`__
 * `2021 Meeting Notes <https://github.com/sunpy/sunpy/wiki/Coordination-Meeting-2021-Notes>`__
