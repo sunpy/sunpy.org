@@ -23,7 +23,7 @@ The link to join the meeting as well as a link to the meeting agenda are include
 
 * `Agenda for the meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
 
-* `Google Calender import <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
+* `Google Calender <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
 
 2022 SunPy Coordination Meeting
 *******************************
