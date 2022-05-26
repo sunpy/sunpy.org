@@ -15,7 +15,7 @@ Meetings
 Weekly Meetings
 ***************
 
-Every Wednesday at 17:00 London time (16:00 UTC summer, 17:00 UTC winter, you can use this `timezone convertor <https://dateful.com/time-zone-converter?t=5pm&tz2=London-UK>`__), we hold a community meeting.
+Every Wednesday at 17:00 London time (16:00 UTC summer, 17:00 UTC winter, you can use this `timezone converter <https://dateful.com/time-zone-converter?t=5pm&tz2=London-UK>`__), we hold a community meeting.
 The meeting is open to all and we welcome discussion of any SunPy-related topics.
 The link to join the meeting as well as a link to the meeting agenda are included below.
 
