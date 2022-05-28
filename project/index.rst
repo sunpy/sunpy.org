@@ -183,7 +183,7 @@ See :ref:`role_descriptions` for more details on each role.
     :github: dstansby
     :title: Release Manager
     :aff_name: University College London
-    :aff_link: https://www.davidstansby.com/
+    :aff_link: https://www.ucl.ac.uk/advanced-research-computing/expertise/research-software-development
     :date: 29 November 2021
 
     David Stansby is a Research Software Engineer in UCL's Center for Advanced Research Computing (ARC), writing software for a wide spectrum of research groups across the university.
