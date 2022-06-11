@@ -116,6 +116,22 @@ Affiliated Packages
    * - Version reviewed
      - `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
+.. list-table::
+   :widths: 20, 80
+
+   * - **roentgen**
+     - A Python package for the quantitative analysis of the interaction of energetic x-rays with matter.
+   * - Links
+     - `Documentation <https://roentgen.readthedocs.io>`__, `Source code <https://github.com/ehsteve/roentgen>`__
+   * - Maintainer(s)
+     - `Steven Christe`_, `Shane Maloney`_
+   * - Badges
+     - 
+   * - Version reviewed
+     - `v1.0.0 <https://github.com/ehsteve/roentgen/releases/tag/v1.0>`__
+
+
+
 Provisional Affiliated Packages
 -------------------------------
 
@@ -156,6 +172,7 @@ Provisional Affiliated Packages
 .. _Mark Cheung: https://github.com/fluxtransport
 .. _Nabil Freij: https://github.com/nabobalis
 .. _Shane Maloney: https://github.com/samaloney
+.. _Steven Christe: https://github.com/ehsteve
 
 Affiliated Package Review
 -------------------------
