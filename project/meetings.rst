@@ -50,41 +50,64 @@ Sessions more relevant to a general audience will be held between 14:00 and 18:0
 to accommodate participants in the U.S.
 An overview of the whole week as well as a detailed schedule for each day of the meeting are given below.
 
-+----------------+---------------+---------------+---------------+---------------+---------------+
-| Time (IST/UTC) | Monday        | Tuesday       | Wednesday     | Thursday      | Friday        |
-+================+===============+===============+===============+===============+===============+
-|  10:00-10:30   | Welcome       | State of the  | Supporting    | Governance    | Hack Day      |
-+----------------+---------------+ CI            + Solar Orbiter +               +               +
-|  10:30-11:00   | State of the  |               | Data          |               |               |
-+----------------+ Core Package  +---------------+               +               +               +
-|  11:00-11:30   |               | SunPy v5.0    |               |               |               |
-+----------------+---------------+ Paper and     +               +---------------+               +
-|  11:30-12:00   | State of the  | Frontiers     |               | Code Style    |               |
-+----------------+ Subpackages   + Paper Hacking +               + and           +               +
-|  12:00-12:30   |               |               |               | Formatting    |               |
-+----------------+---------------+---------------+---------------+---------------+---------------+
-|  12:30-13:00   |               |               |               |               |               |
-+----------------+               |               |               |               |               |
-|  13:00-13:30   |     Lunch     |     Lunch     |     Lunch     |     Lunch     |     Lunch     |
-+----------------+               |               |               |               |               |
-|  13:30-14:00   |               |               |               |               |               |
-+----------------+---------------+---------------+---------------+---------------+---------------+
-|  14:00-14:30   | State of      | Outreach      | Instrument    | Supporting    | Hack Day      |
-+----------------+ Affiliated    + Retrospective + Working       + Scalable/Cloud+               +
-|  14:30-15:00   | Packages      |               | Group         | Computing     |               |
-+----------------+---------------+---------------+ Lightning     +---------------+               +
-|  15:00-15:30   |  State of the | Community     | Talks         | xarray, WCS,  |               |
-+----------------+  Docs         + Building      +               + and ndcube    +               +
-|  15:30-16:00   |               | Planning      |               |               |               |
-+----------------+---------------+---------------+---------------+---------------+               +
-|  16:00-16:30   | Data Provider | Communication | Instrument    | Misc. Topics  |               |
-+----------------+ Relations     + Channel       + Working       +               +               +
-|  16:30-17:00   |               | Review        | Group         |               |               |
-+----------------+---------------+---------------+ Feedback      +---------------+               +
-|  17:00-17:30   | OSTFL Summary | Open          | Forum         | Misc. Topics  |               |
-+----------------+               + Discussion    +               +               +               +
-|  17:30-18:00   |               |               |               |               |               |
-+----------------+---------------+---------------+---------------+---------------+---------------+
+.. raw:: html
+
+    <body>
+        <table cellspacing="0" align="center" style="text-align:center; border: 3px solid;">
+            <tr>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>Day</b></td>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>10:00-10:45</b></td>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>10:45-11:30</b></td>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>11:30-12:15</b></td>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>12:15-13:45</b></td>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>13:45-14:30</b></td>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>14:30-15:15</b></td>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>15:15-16:00</b></td>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>16:00-16:45</b></td>
+                <td align="center" height="50" width="100" style="text-align:center; border: 1px solid;"><b>16:45-17:30</b></td>
+            </tr>
+            <tr>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;"><b>Monday</b></td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">Welcome</td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">State of the Core Package</td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">State of the subpackages</td>
+                <td rowspan="6" align="center" height="50" style="text-align:center; border: 1px solid;"><h2>L<br>U<br>N<br>C<br>H</h2></td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">State of the docs</td>
+                <td align="center" colspan="3" height="50" style="text-align:center; border: 1px solid;">Data Provider Relations</td>
+                <td align="center" colspan="3" height="50" style="text-align:center; border: 1px solid;">OSTFL Summary</td>
+            </tr>
+            <tr>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;"><b>Tuesday</b></td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">State of the CI </td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">SunPy v5.0 Paper Planning</td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">Frontiers Paper Hacking</td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">Outreach Retrospective</td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">Community Building Planning</td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">Communication Channel Review</td>
+                <td align="center" colspan="2" style="text-align:center; border: 1px solid;" height="50">Open Discussion</td>
+            </tr>
+            <tr>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;"><b>Wednesday</b></td>
+                <td align="center" colspan="3" height="50" style="text-align:center; border: 1px solid;">Supporting Solar Orbiter Data</td>
+                <td align="center" colspan="2" height="50" style="text-align:center; border: 1px solid;">Instrument Working - Group Lightning Talks</td>
+                <td align="center" colspan="3" height="50" style="text-align:center; border: 1px solid;">Instrument WorkingGroup - Feedback Forum</td>
+            </tr>
+            <tr>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;"><b>Thursday</b></td>
+                <td align="center" colspan="2" height="50" style="text-align:center; border: 1px solid;">Governance</td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">Code Style and Formatting</td>
+                <td align="center" colspan="2" height="50" style="text-align:center; border: 1px solid;">Supporting Scalable/Cloud Computing </td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">xarray, WCS and ndcube</td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">Misc. Topics</td>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;">Misc. Topics</td>
+            </tr>
+            <tr>
+                <td align="center" height="50" style="text-align:center; border: 1px solid;"><b>Friday</b></td>
+                <td align="center" height="50" colspan="3" style="text-align:center; border: 1px solid;">Hack Day</td>
+                <td align="center" height="50" colspan="5" style="text-align:center; border: 1px solid;">Hack Day</td>
+            </tr>
+        </table>
+    </body>
 
 Virtual Participation
 ---------------------
@@ -98,7 +121,7 @@ The meeting will be held in person at the `Dublin Institute for Advanced Studies
 
 .. raw:: html
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.6655452906884!2d-6.247826284162118!3d53.33134147997581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ebc417667b9%3A0x2ebe337565685fca!2sDublin%20Institute%20for%20Advanced%20Studies!5e0!3m2!1sen!2sie!4v1651738610863!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.6655452906884!2d-6.247826284162118!3d53.33134147997581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ebc417667b9%3A0x2ebe337565685fca!2sDublin%20Institute%20for%20Advanced%20Studies!5e0!3m2!1sen!2sie!4v1651738610863!5m2!1sen!2sie" width="600" height="450" style="text-align:center; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 Accommodation
 -------------
