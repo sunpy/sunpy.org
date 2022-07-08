@@ -140,7 +140,7 @@ See :ref:`role_descriptions` for more details on each role.
     :aff_link: https://www.american.edu/cas/issti/
     :date: 3 December 2019
 
-    Will Barnes is research associate at American University and NASA Goddard Space Flight Center where he works on instrument data pipeline development as well as the SunPy project.
+    Will Barnes is a research associate at American University and NASA Goddard Space Flight Center where he works on instrument data pipeline development as well as the SunPy project.
     Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
     In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
 
