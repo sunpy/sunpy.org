@@ -44,7 +44,106 @@ Registration and attendance is free, though in-person attendance will be capped 
 Agenda
 -------
 
-A detailed agenda will be provided closer to the meeting.
+All sessions will be held between 10:00 and 18:00 Irish Standard Time (IST).
+Times in the agenda are given in both IST and UTC.
+Sessions more relevant to a general audience will be held between 14:00 and 18:00 IST (9:00-13:00 EDT)
+to accommodate participants in the U.S.
+An overview of the whole week as well as a detailed schedule for each day of the meeting are given below.
+
++----------------+---------------+---------------+---------------+---------------+---------------+
+| Time (IST/UTC) | Monday        | Tuesday       | Wednesday     | Thursday      | Friday        |
++================+===============+===============+===============+===============+===============+
+|  10:00-10:30   | Welcome       | State of the  | Supporting    | Governance    | Hack Day      |
++----------------+---------------+ CI            + Solar Orbiter +               +               +
+|  10:30-11:00   | State of the  |               | Data          |               |               |
++----------------+ Core Package  +---------------+               +               +               +
+|  11:00-11:30   |               | SunPy v5.0    |               |               |               |
++----------------+---------------+ Paper and     +               +---------------+               +
+|  11:30-12:00   | State of the  | Frontiers     |               | Code Style    |               |
++----------------+ Subpackages   + Paper Hacking +               + and           +               +
+|  12:00-12:30   |               |               |               | Formatting    |               |
++----------------+---------------+---------------+---------------+---------------+---------------+
+|  12:30-13:00   |               |               |               |               |               |
++----------------+               |               |               |               |               |
+|  13:00-13:30   |     Lunch     |     Lunch     |     Lunch     |     Lunch     |     Lunch     |
++----------------+               |               |               |               |               |
+|  13:30-14:00   |               |               |               |               |               |
++----------------+---------------+---------------+---------------+---------------+---------------+
+|  14:00-14:30   | State of      | Outreach      | Instrument    | Supporting    | Hack Day      |
++----------------+ Affiliated    + Retrospective + Working       + Scalable/Cloud+               +
+|  14:30-15:00   | Packages      |               | Group         | Computing     |               |
++----------------+---------------+---------------+ Lightning     +---------------+               +
+|  15:00-15:30   |  State of the | Community     | Talks         | xarray, WCS,  |               |
++----------------+  Docs         + Building      +               + and ndcube    +               +
+|  15:30-16:00   |               | Planning      |               |               |               |
++----------------+---------------+---------------+---------------+---------------+               +
+|  16:00-16:30   | Data Provider | Communication | Instrument    | Misc. Topics  |               |
++----------------+ Relations     + Channel       + Working       +               +               +
+|  16:30-17:00   |               | Review        | Group         |               |               |
++----------------+---------------+---------------+ Feedback      +---------------+               +
+|  17:00-17:30   | OSTFL Summary | Open          | Forum         | Misc. Topics  |               |
++----------------+               + Discussion    +               +               +               +
+|  17:30-18:00   |               |               |               |               |               |
++----------------+---------------+---------------+---------------+---------------+---------------+
+
+
+Monday (8/22)
++++++++++++++
+
+* Welcome/Introductions
+* State of the Core Package (Stuart)
+* State of the subpackages (subpackage maintainers)
+* State of Affiliated Packages (affiliated package maintainers)
+    - ``ndcube``
+    - ``sunkit-image``
+    - ``sunkit-instruments``
+    - ``pfsspy``
+    - ``aiapy``
+* Data Provider Relations
+    - VSO (Jack / Stuart)
+    - JSOC (Nabil)
+    - SOAR (Laura / Stuart / Will)
+* Open Source Tools and Frameworks (OSTFL) Funding Summary (Will / Albert / Stuart)
+
+Tuesday (8/23)
+++++++++++++++
+
+* State of the CI (Connor)
+* SunPy v5.0 Paper Planning (Will)
+* Frontiers Paper Hacking (Will / Nabil / Laura)
+* Outreach Retrospective (Laura)
+* Community Building Planning
+    - New Contributor Workshop (Will)
+    - SunPy Nuggets (Will)
+
+Wednesday (8/24)
+++++++++++++++++
+
+* Supporting Solar Orbiter Data (Shane / Laura / Dan)
+* Instrument Working Group Lightning Talks
+    - 1 slide summary from each instrument showing how they are (or are not) using SunPy
+* Instrument Working Group Feedback Forum
+    - Feedback on usefulness of SunPy in instrument packages
+    - Discussion of affiliated package process 
+
+Thursday (8/25)
++++++++++++++++
+
+* Governance Review and Discussion (Stuart / Will)
+* Code Style and Formatting (Stuart / Nabil)
+* Supporting Scalable / Cloud Computing (Jack)
+    - How can SunPy better enable scalable compute in HelioCloud-like environments?
+* xarray, WCS, and ndcube (Jack / Stuart / Dan)
+    - Revisit friction between xarray and WCS
+
+Friday (8/26)
++++++++++++++
+
+* Hack Day Ideas
+    - Element Workflow (Stuart)
+    - Website/Theme (Nabil)
+    - Refactor Map onto NDCube (Dan)
+    - Solar models package (Dan)
 
 Virtual Participation
 ---------------------
