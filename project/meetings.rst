@@ -34,7 +34,7 @@ The meeting will be held virtually and in person at the Dublin Institute for Adv
 Registration
 ------------
 
-Please register your interest below prior to 1st July 2022.
+Please register your interest below prior to 1st August 2022.
 Registration and attendance is free, though in-person attendance will be capped at 40 people due to space constraints.
 
 .. raw:: html
@@ -86,65 +86,6 @@ An overview of the whole week as well as a detailed schedule for each day of the
 |  17:30-18:00   |               |               |               |               |               |
 +----------------+---------------+---------------+---------------+---------------+---------------+
 
-
-Monday (8/22)
-+++++++++++++
-
-* Welcome/Introductions
-* State of the Core Package (Stuart)
-* State of the subpackages (subpackage maintainers)
-* State of Affiliated Packages (affiliated package maintainers)
-    - ``ndcube``
-    - ``sunkit-image``
-    - ``sunkit-instruments``
-    - ``pfsspy``
-    - ``aiapy``
-* Data Provider Relations
-    - VSO (Jack / Stuart)
-    - JSOC (Nabil)
-    - SOAR (Laura / Stuart / Will)
-* Open Source Tools and Frameworks (OSTFL) Funding Summary (Will / Albert / Stuart)
-
-Tuesday (8/23)
-++++++++++++++
-
-* State of the CI (Connor)
-* SunPy v5.0 Paper Planning (Will)
-* Frontiers Paper Hacking (Will / Nabil / Laura)
-* Outreach Retrospective (Laura)
-* Community Building Planning
-    - New Contributor Workshop (Will)
-    - SunPy Nuggets (Will)
-
-Wednesday (8/24)
-++++++++++++++++
-
-* Supporting Solar Orbiter Data (Shane / Laura / Dan)
-* Instrument Working Group Lightning Talks
-    - 1 slide summary from each instrument showing how they are (or are not) using SunPy
-* Instrument Working Group Feedback Forum
-    - Feedback on usefulness of SunPy in instrument packages
-    - Discussion of affiliated package process 
-
-Thursday (8/25)
-+++++++++++++++
-
-* Governance Review and Discussion (Stuart / Will)
-* Code Style and Formatting (Stuart / Nabil)
-* Supporting Scalable / Cloud Computing (Jack)
-    - How can SunPy better enable scalable compute in HelioCloud-like environments?
-* xarray, WCS, and ndcube (Jack / Stuart / Dan)
-    - Revisit friction between xarray and WCS
-
-Friday (8/26)
-+++++++++++++
-
-* Hack Day Ideas
-    - Element Workflow (Stuart)
-    - Website/Theme (Nabil)
-    - Refactor Map onto NDCube (Dan)
-    - Solar models package (Dan)
-
 Virtual Participation
 ---------------------
 
@@ -158,10 +99,6 @@ The meeting will be held in person at the `Dublin Institute for Advanced Studies
 .. raw:: html
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.6655452906884!2d-6.247826284162118!3d53.33134147997581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ebc417667b9%3A0x2ebe337565685fca!2sDublin%20Institute%20for%20Advanced%20Studies!5e0!3m2!1sen!2sie!4v1651738610863!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-.. raw:: html
-
-    <iframe src="https://www.google.com/maps/embed?pb=!4v1651748599429!6m8!1m7!1s8dG6i23a8Z54tk2qqX3uww!2m2!1d53.33157163944034!2d-6.246030024886875!3f141.65991100205062!4f-0.21975806055093017!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 Accommodation
 -------------
