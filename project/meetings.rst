@@ -34,7 +34,7 @@ The meeting will be held virtually and in person at the Dublin Institute for Adv
 Registration
 ------------
 
-Please register your interest below prior to 1st July 2022.
+Please register your interest below prior to 1st August 2022.
 Registration and attendance is free, though in-person attendance will be capped at 40 people due to space constraints.
 
 .. raw:: html
@@ -50,100 +50,93 @@ Sessions more relevant to a general audience will be held between 14:00 and 18:0
 to accommodate participants in the U.S.
 An overview of the whole week as well as a detailed schedule for each day of the meeting are given below.
 
-+----------------+---------------+---------------+---------------+---------------+---------------+
-| Time (IST/UTC) | Monday        | Tuesday       | Wednesday     | Thursday      | Friday        |
-+================+===============+===============+===============+===============+===============+
-|  10:00-10:30   | Welcome       | State of the  | Supporting    | Governance    | Hack Day      |
-+----------------+---------------+ CI            + Solar Orbiter +               +               +
-|  10:30-11:00   | State of the  |               | Data          |               |               |
-+----------------+ Core Package  +---------------+               +               +               +
-|  11:00-11:30   |               | SunPy v5.0    |               |               |               |
-+----------------+---------------+ Paper and     +               +---------------+               +
-|  11:30-12:00   | State of the  | Frontiers     |               | Code Style    |               |
-+----------------+ Subpackages   + Paper Hacking +               + and           +               +
-|  12:00-12:30   |               |               |               | Formatting    |               |
-+----------------+---------------+---------------+---------------+---------------+---------------+
-|  12:30-13:00   |               |               |               |               |               |
-+----------------+               |               |               |               |               |
-|  13:00-13:30   |     Lunch     |     Lunch     |     Lunch     |     Lunch     |     Lunch     |
-+----------------+               |               |               |               |               |
-|  13:30-14:00   |               |               |               |               |               |
-+----------------+---------------+---------------+---------------+---------------+---------------+
-|  14:00-14:30   | State of      | Outreach      | Instrument    | Supporting    | Hack Day      |
-+----------------+ Affiliated    + Retrospective + Working       + Scalable/Cloud+               +
-|  14:30-15:00   | Packages      |               | Group         | Computing     |               |
-+----------------+---------------+---------------+ Lightning     +---------------+               +
-|  15:00-15:30   |  State of the | Community     | Talks         | xarray, WCS,  |               |
-+----------------+  Docs         + Building      +               + and ndcube    +               +
-|  15:30-16:00   |               | Planning      |               |               |               |
-+----------------+---------------+---------------+---------------+---------------+               +
-|  16:00-16:30   | Data Provider | Communication | Instrument    | Misc. Topics  |               |
-+----------------+ Relations     + Channel       + Working       +               +               +
-|  16:30-17:00   |               | Review        | Group         |               |               |
-+----------------+---------------+---------------+ Feedback      +---------------+               +
-|  17:00-17:30   | OSTFL Summary | Open          | Forum         | Misc. Topics  |               |
-+----------------+               + Discussion    +               +               +               +
-|  17:30-18:00   |               |               |               |               |               |
-+----------------+---------------+---------------+---------------+---------------+---------------+
+.. raw:: html
 
+    <table style="text-align: center; border: 3px solid; width:50em;" cellspacing="0" align="center">
+        <tbody>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>Time (Irish Standard
+                        Time) </strong></td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>Monday</strong></td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>Tuesday</strong></td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>Wednesday</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>Thursday</strong></td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>Friday</strong></td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>10:00-10:45</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Welcome</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the CI</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="3" align="center" height="50">Supporting Solar
+                    Orbiter Data</td>
+                <td style="text-align: center; border: 1px solid" rowspan="2" align="center" height="50">Governance</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="3" align="center" height="50">Hack Day</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>10:45-11:30</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the Core Package</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">SunPy v5.0 Paper Planning</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>11:30-12:15</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the subpackages</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Frontiers Paper Hacking</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Code Style and Formatting</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>12:15-13:45</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" colspan="6" align="center" height="50">
+                    <strong>Lunch</strong></td>
+            </tr>
+            <tr style="height: 61px;">
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>13:45-14:30</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the docs</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Outreach Retrospective</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">Instrument Working
+                    - Group Lightning Talks</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">Supporting
+                    Scalable/Cloud Computing</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="6" align="center" height="50">Hack Day</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>14:30-15:15</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" rowspan="3" align="center" height="50">Data Provider
+                    Relations</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Community Building Planning
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>15:15-16:00</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Communication Channel Review
+                </td>
+                <td style="text-align: center; border: 1px solid;" rowspan="3" align="center" height="50">Instrument
+                    WorkingGroup - Feedback Forum</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">xarray, WCS and ndcube</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>16:00-16:45</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">Open Discussion
+                </td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Misc. Topics</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>16:45-17:30</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">OSTFL Summary</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Misc. Topics</td>
+            </tr>
+        </tbody>
+    </table>
 
-Monday (8/22)
-+++++++++++++
-
-* Welcome/Introductions
-* State of the Core Package (Stuart)
-* State of the subpackages (subpackage maintainers)
-* State of Affiliated Packages (affiliated package maintainers)
-    - ``ndcube``
-    - ``sunkit-image``
-    - ``sunkit-instruments``
-    - ``pfsspy``
-    - ``aiapy``
-* Data Provider Relations
-    - VSO (Jack / Stuart)
-    - JSOC (Nabil)
-    - SOAR (Laura / Stuart / Will)
-* Open Source Tools and Frameworks (OSTFL) Funding Summary (Will / Albert / Stuart)
-
-Tuesday (8/23)
-++++++++++++++
-
-* State of the CI (Connor)
-* SunPy v5.0 Paper Planning (Will)
-* Frontiers Paper Hacking (Will / Nabil / Laura)
-* Outreach Retrospective (Laura)
-* Community Building Planning
-    - New Contributor Workshop (Will)
-    - SunPy Nuggets (Will)
-
-Wednesday (8/24)
-++++++++++++++++
-
-* Supporting Solar Orbiter Data (Shane / Laura / Dan)
-* Instrument Working Group Lightning Talks
-    - 1 slide summary from each instrument showing how they are (or are not) using SunPy
-* Instrument Working Group Feedback Forum
-    - Feedback on usefulness of SunPy in instrument packages
-    - Discussion of affiliated package process 
-
-Thursday (8/25)
-+++++++++++++++
-
-* Governance Review and Discussion (Stuart / Will)
-* Code Style and Formatting (Stuart / Nabil)
-* Supporting Scalable / Cloud Computing (Jack)
-    - How can SunPy better enable scalable compute in HelioCloud-like environments?
-* xarray, WCS, and ndcube (Jack / Stuart / Dan)
-    - Revisit friction between xarray and WCS
-
-Friday (8/26)
-+++++++++++++
-
-* Hack Day Ideas
-    - Element Workflow (Stuart)
-    - Website/Theme (Nabil)
-    - Refactor Map onto NDCube (Dan)
-    - Solar models package (Dan)
 
 Virtual Participation
 ---------------------
@@ -157,11 +150,7 @@ The meeting will be held in person at the `Dublin Institute for Advanced Studies
 
 .. raw:: html
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.6655452906884!2d-6.247826284162118!3d53.33134147997581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ebc417667b9%3A0x2ebe337565685fca!2sDublin%20Institute%20for%20Advanced%20Studies!5e0!3m2!1sen!2sie!4v1651738610863!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-.. raw:: html
-
-    <iframe src="https://www.google.com/maps/embed?pb=!4v1651748599429!6m8!1m7!1s8dG6i23a8Z54tk2qqX3uww!2m2!1d53.33157163944034!2d-6.246030024886875!3f141.65991100205062!4f-0.21975806055093017!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.6655452906884!2d-6.247826284162118!3d53.33134147997581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670ebc417667b9%3A0x2ebe337565685fca!2sDublin%20Institute%20for%20Advanced%20Studies!5e0!3m2!1sen!2sie!4v1651738610863!5m2!1sen!2sie" width="600" height="450" style="text-align:center; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 Accommodation
 -------------
