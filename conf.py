@@ -29,7 +29,7 @@ intersphinx_mapping = {
     "aiapy": ("https://aiapy.readthedocs.io/en/stable/", None),
 }
 
-rawfiles = ["jitsi.html", "issues.html", "chat.html"]
+rawfiles = ["jitsi.html", "issues.html", "chat.html", "community_meeting_agenda.html"]
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 disqus_shortname = "sunpy-org"
 blog_baseurl = "https://sunpy.org/"
