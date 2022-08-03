@@ -31,15 +31,7 @@ The link to join the meeting as well as a link to the meeting agenda are include
 The 2022 SunPy Coordination Meeting will take place 22-26 August, 2022.
 The meeting will be held virtually and in person at the Dublin Institute for Advanced Study (DIAS) in Dublin, Ireland.
 
-Registration
-------------
-
-Please register your interest below prior to 1st August 2022.
-Registration and attendance is free, though in-person attendance will be capped at 40 people due to space constraints.
-
-.. raw:: html
-
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfg16MlcVmi4iVF0UqarAMuR1jhHI5Goa48q3qfoXgzTBBntw/viewform?embedded=true" width="640" height="1057" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+There is no requirements to register, if you want to receive the remote viewing instructions, `please register <https://docs.google.com/forms/d/e/1FAIpQLSfg16MlcVmi4iVF0UqarAMuR1jhHI5Goa48q3qfoXgzTBBntw/>`__.
 
 Agenda
 -------
@@ -65,38 +57,45 @@ An overview of the whole week as well as a detailed schedule for each day of the
                 <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>Friday</strong></td>
             </tr>
             <tr>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>10:00-10:45</strong>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>10:00-10:30</strong>
                 </td>
                 <td style="text-align: center; border: 1px solid;" align="center" height="50">Welcome</td>
                 <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the CI</td>
                 <td style="text-align: center; border: 1px solid;" rowspan="3" align="center" height="50">Supporting Solar
                     Orbiter Data</td>
-                <td style="text-align: center; border: 1px solid" rowspan="2" align="center" height="50">Governance</td>
-                <td style="text-align: center; border: 1px solid;" rowspan="3" align="center" height="50">Hack Day</td>
+                <td style="text-align: center; border: 1px solid" rowspan="4" align="center" height="50">Governance</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="4" align="center" height="50">Hack Day</td>
             </tr>
             <tr>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>10:45-11:30</strong>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>10:30-11:00</strong>
                 </td>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the Core Package</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the core package</td>
                 <td style="text-align: center; border: 1px solid;" align="center" height="50">SunPy v5.0 Paper Planning</td>
+
             </tr>
             <tr>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>11:30-12:15</strong>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>11:00-11:30</strong>
                 </td>
                 <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the subpackages</td>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50">Frontiers Paper Hacking</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">Frontiers Paper Hacking</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>11:30-12:00</strong>
+                </td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the docs</td>
+
                 <td style="text-align: center; border: 1px solid;" align="center" height="50">Code Style and Formatting</td>
             </tr>
             <tr>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>12:15-13:45</strong>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>12:00-13:30</strong>
                 </td>
                 <td style="text-align: center; border: 1px solid;" colspan="6" align="center" height="50">
                     <strong>Lunch</strong></td>
             </tr>
             <tr style="height: 61px;">
-                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>13:45-14:30</strong>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>13:30-14:00</strong>
                 </td>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50">State of the docs</td>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Welcome</td>
                 <td style="text-align: center; border: 1px solid;" align="center" height="50">Outreach Retrospective</td>
                 <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">Instrument Working
                     - Group Lightning Talks</td>
@@ -105,7 +104,7 @@ An overview of the whole week as well as a detailed schedule for each day of the
                 <td style="text-align: center; border: 1px solid;" rowspan="6" align="center" height="50">Hack Day</td>
             </tr>
             <tr>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>14:30-15:15</strong>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>14:00-14:30</strong>
                 </td>
                 <td style="text-align: center; border: 1px solid;" rowspan="3" align="center" height="50">Data Provider
                     Relations</td>
@@ -113,29 +112,34 @@ An overview of the whole week as well as a detailed schedule for each day of the
                 </td>
             </tr>
             <tr>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>15:15-16:00</strong>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>15:00-15:30</strong>
                 </td>
                 <td style="text-align: center; border: 1px solid;" align="center" height="50">Communication Channel Review
                 </td>
-                <td style="text-align: center; border: 1px solid;" rowspan="3" align="center" height="50">Instrument
+                <td style="text-align: center; border: 1px solid;" rowspan="4" align="center" height="50">Instrument
                     WorkingGroup - Feedback Forum</td>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50">xarray, WCS and ndcube</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">xarray, WCS and ndcube</td>
             </tr>
             <tr>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>16:00-16:45</strong>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>15:30-16:00</strong>
                 </td>
-                <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">Open Discussion
+                <td style="text-align: center; border: 1px solid;" align="center" height="50">Open Discussion
                 </td>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50">Misc. Topics</td>
             </tr>
             <tr>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>16:45-17:30</strong>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>16:00-16:30</strong>
                 </td>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50">OSTFL Summary</td>
-                <td style="text-align: center; border: 1px solid;" align="center" height="50">Misc. Topics</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">OSTFL Summary</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">TBD</td>
+                <td style="text-align: center; border: 1px solid;" rowspan="2" align="center" height="50">TBD</td>
+            </tr>
+            <tr>
+                <td style="text-align: center; border: 1px solid;" align="center" height="50"><strong>16:30-17:00</strong>
+                </td>
             </tr>
         </tbody>
     </table>
+
 
 
 Virtual Participation
