@@ -37,7 +37,7 @@ They will be added to this page closer to the date.
 Agenda
 -------
 
-All sessions will be held between 09:00 and 18:00 Irish Standard Time (IST).
+All sessions will be held between 09:00 and 17:00 Irish Standard Time (IST).
 Sessions more relevant to a general audience will be held between 14:00 and 17:00 IST (9:00-12:00 EDT)
 to accommodate participants in the U.S.
 
