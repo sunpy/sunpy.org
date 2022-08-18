@@ -31,7 +31,7 @@ The link to join the meeting as well as a link to the meeting agenda are include
 The 2022 SunPy Coordination Meeting will take place 22-26 August, 2022.
 The meeting will be held virtually and in person at the Dublin Institute for Advanced Study (DIAS) in Dublin, Ireland.
 
-There is no requirements to register, if you want to receive the remote participation instructions via email, `please register <https://docs.google.com/forms/d/e/1FAIpQLSfg16MlcVmi4iVF0UqarAMuR1jhHI5Goa48q3qfoXgzTBBntw/>`__.
+There is no requirements to register, if you want to receive the remote participation instructions via email, `please register <https://forms.gle/79G3dzxCtxXLDj8c9>`__.
 They will be added to this page closer to the date.
 
 Agenda
