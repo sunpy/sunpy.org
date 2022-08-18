@@ -781,6 +781,11 @@ Venue
 
 The meeting will be held in person at the `Dublin Institute for Advanced Studies <https://www.dias.ie/>`_, 10 Burlington Rd, Dublin, Ireland, D04 C932.
 
+Code of Conduct
+---------------
+
+All participants, both virtual and in person, must abide by the `Code of Conduct for the SunPy Community <https://sunpy.org/coc.html>`_.
+
 Previous SunPy Coordination Meetings
 ************************************
 
