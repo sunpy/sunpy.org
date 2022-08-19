@@ -23,6 +23,8 @@ The link to join the meeting as well as a link to the meeting agenda are include
 
 * `YouTube Livestreams and recordings for each day <https://www.youtube.com/playlist?list=PLOWSPnooGuj2sWk3enDieOE_H-WvcZZCd>`__
 
+* `Chat room for the meeting <https://openastronomy.element.io/#/room/#sunpycoordinationmeeting:openastronomy.org>`__
+
 * `Agenda for the meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
 
 * `Google Calender <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
