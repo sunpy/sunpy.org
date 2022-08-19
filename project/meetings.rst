@@ -16,14 +16,14 @@ Weekly Meetings
 ***************
 
 Every Wednesday at 17:00 London time (16:00 UTC summer, 17:00 UTC winter, you can use this `timezone converter <https://dateful.com/time-zone-converter?t=5pm&tz2=London-UK>`__), we hold a community meeting.
-The meeting is open to all and we welcome discussion of any SunPy-related topics.
-The link to join the meeting as well as a link to the meeting agenda are included below.
+The weekly community meeting is open to all and we welcome discussion of any SunPy-related topics.
+The link to join the weekly community meeting as well as a link to the agenda are included below.
 
-* `Link to join the weekly meeting <https://sunpy.org/jitsi>`__
+* `Link to join the weekly community meeting <https://sunpy.org/jitsi>`__
 
-* `Agenda for the weekly meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
+* `Agenda for the weekly community meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
 
-* `Google Calender <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
+* `SunPy Google Calender <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
 
 2022 SunPy Coordination Meeting
 *******************************
