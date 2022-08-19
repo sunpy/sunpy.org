@@ -19,13 +19,9 @@ Every Wednesday at 17:00 London time (16:00 UTC summer, 17:00 UTC winter, you ca
 The meeting is open to all and we welcome discussion of any SunPy-related topics.
 The link to join the meeting as well as a link to the meeting agenda are included below.
 
-* `Link to join the meeting <https://sunpy.org/jitsi>`__
+* `Link to join the weekly meeting <https://sunpy.org/jitsi>`__
 
-* `YouTube Livestreams and recordings for each day <https://www.youtube.com/playlist?list=PLOWSPnooGuj2sWk3enDieOE_H-WvcZZCd>`__
-
-* `Chat room for the meeting <https://openastronomy.element.io/#/room/#sunpycoordinationmeeting:openastronomy.org>`__
-
-* `Agenda for the meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
+* `Agenda for the weekly meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
 
 * `Google Calender <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
 
@@ -778,7 +774,11 @@ to accommodate participants in the U.S.
 Virtual Participation
 ---------------------
 
-Details regarding virtual participation will be posted here closer to the time of the meeting.
+* `Coordination Video Meeting Room <https://sunpy.org/jitsi>`__
+
+* `YouTube Livestreams and recordings for each day <https://www.youtube.com/playlist?list=PLOWSPnooGuj2sWk3enDieOE_H-WvcZZCd>`__
+
+* `Chat room for the meeting <https://openastronomy.element.io/#/room/#sunpycoordinationmeeting:openastronomy.org>`__
 
 Venue
 -----
