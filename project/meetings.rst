@@ -34,6 +34,8 @@ The meeting will be held virtually and in person at the Dublin Institute for Adv
 There is no requirements to register, if you want to receive the remote participation instructions via email, `please register <https://forms.gle/79G3dzxCtxXLDj8c9>`__.
 They will be added to this page closer to the date.
 
+* `Chat room for the coordination meeting <https://openastronomy.element.io/#/room/#sunpycoordinationmeeting:openastronomy.org>`__
+
 Agenda
 -------
 
@@ -778,8 +780,6 @@ Virtual Participation
 
 * `YouTube Livestreams and recordings for each day <https://www.youtube.com/playlist?list=PLOWSPnooGuj2sWk3enDieOE_H-WvcZZCd>`__
 
-* `Chat room for the meeting <https://openastronomy.element.io/#/room/#sunpycoordinationmeeting:openastronomy.org>`__
-
 Venue
 -----
 
@@ -788,7 +788,7 @@ The meeting will be held in person at the `Dublin Institute for Advanced Studies
 Code of Conduct
 ---------------
 
-All participants, both virtual and in person, must abide by the `Code of Conduct for the SunPy Community <https://sunpy.org/coc.html>`_.
+All participants, both virtual and in person, must abide by the `Code of Conduct for the SunPy Community <https://sunpy.org/coc.html>`__.
 
 Previous SunPy Coordination Meetings
 ************************************
