@@ -36,6 +36,8 @@ They will be added to this page closer to the date.
 
 * `Chat room for the coordination meeting <https://openastronomy.element.io/#/room/#sunpycoordinationmeeting:openastronomy.org>`__
 
+* `2022 Coordination Meeting Notes <https://demo.hedgedoc.org/fqLNg0xpStac_M9v92v99Q?edit>`__
+
 Agenda
 -------
 
@@ -772,8 +774,6 @@ to accommodate participants in the U.S.
     </body>
 
     </html>
-
-* `2022 Coordination Meeting Notes <https://demo.hedgedoc.org/fqLNg0xpStac_M9v92v99Q?edit>`__
 
 Virtual Participation
 ---------------------
