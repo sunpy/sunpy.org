@@ -773,6 +773,8 @@ to accommodate participants in the U.S.
 
     </html>
 
+* `2022 Coordination Meeting Notes <https://demo.hedgedoc.org/fqLNg0xpStac_M9v92v99Q?edit>`__
+
 Virtual Participation
 ---------------------
 
