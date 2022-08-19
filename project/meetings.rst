@@ -16,14 +16,14 @@ Weekly Meetings
 ***************
 
 Every Wednesday at 17:00 London time (16:00 UTC summer, 17:00 UTC winter, you can use this `timezone converter <https://dateful.com/time-zone-converter?t=5pm&tz2=London-UK>`__), we hold a community meeting.
-The meeting is open to all and we welcome discussion of any SunPy-related topics.
-The link to join the meeting as well as a link to the meeting agenda are included below.
+The weekly community meeting is open to all and we welcome discussion of any SunPy-related topics.
+The link to join the weekly community meeting as well as a link to the agenda are included below.
 
-* `Link to join the meeting <https://sunpy.org/jitsi>`__
+* `Link to join the weekly community meeting <https://sunpy.org/jitsi>`__
 
-* `Agenda for the meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
+* `Agenda for the weekly community meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
 
-* `Google Calender <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
+* `SunPy Google Calender <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
 
 2022 SunPy Coordination Meeting
 *******************************
@@ -33,6 +33,10 @@ The meeting will be held virtually and in person at the Dublin Institute for Adv
 
 There is no requirements to register, if you want to receive the remote participation instructions via email, `please register <https://forms.gle/79G3dzxCtxXLDj8c9>`__.
 They will be added to this page closer to the date.
+
+* `Chat room for the coordination meeting <https://openastronomy.element.io/#/room/#sunpycoordinationmeeting:openastronomy.org>`__
+
+* `2022 Coordination Meeting Notes <https://demo.hedgedoc.org/fqLNg0xpStac_M9v92v99Q?edit>`__
 
 Agenda
 -------
@@ -774,7 +778,9 @@ to accommodate participants in the U.S.
 Virtual Participation
 ---------------------
 
-Details regarding virtual participation will be posted here closer to the time of the meeting.
+* `Coordination Video Meeting Room <https://sunpy.org/jitsi>`__
+
+* `YouTube Livestreams and recordings for each day <https://www.youtube.com/playlist?list=PLOWSPnooGuj2sWk3enDieOE_H-WvcZZCd>`__
 
 Venue
 -----
@@ -784,7 +790,7 @@ The meeting will be held in person at the `Dublin Institute for Advanced Studies
 Code of Conduct
 ---------------
 
-All participants, both virtual and in person, must abide by the `Code of Conduct for the SunPy Community <https://sunpy.org/coc.html>`_.
+All participants, both virtual and in person, must abide by the `Code of Conduct for the SunPy Community <https://sunpy.org/coc.html>`__.
 
 Previous SunPy Coordination Meetings
 ************************************
