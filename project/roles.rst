@@ -8,7 +8,6 @@ This section describes each of the SunPy projects community (executive) roles, a
 We would like to encourage anyone interested parties to apply to roles which are currently unfilled by contacting  the lead developer or the deputy lead developer.
 It is possible for more than one person to share the responsibilities of a role. If you are interested in a role which is filled, contact the individual(s) and ask how you can help.
 
-
 .. _role_lead-dev:
 
 Lead Developer and Deputy Lead Developer
@@ -39,7 +38,6 @@ It is expected that the lead developer(s), assisted by the sub-package maintaine
 -  Respond to users and developers through various communications channels.
 -  Ensure releases occur on time and decide on the scope of releases.
 
-
 **Estimated Commitment Level**: The lead developer roles require a large commitment, between 10 to 20 hours per week, between the two roles.
 
 .. _role_ci-maintainer:
@@ -59,7 +57,7 @@ A non-exhaustive list of things involved with this role is:
 -  Updating the tox configurations.
 -  Investigating new CI services and recommending which ones could be useful.
 
-**Estimated Commitment Level**: 3-5 hours per week. This role requires keeping an eye on the core repo and other repos’ PRs to spot issues with the CI systems and builds which needs attention.
+**Estimated Commitment Level**: 3-5 hours per week. This role requires keeping an eye on the core repo and other repos' PRs to spot issues with the CI systems and builds which needs attention.
 The time commitment is probably around 3-5 hours per week, with additional scope for improving the status quo.
 
 .. _role_release-manager:
@@ -102,7 +100,6 @@ This primarily involves:
 
 Subpackage Maintainer
 ---------------------
-See :ref:`subpackage_maintainers`.
 
 Responsibilities of sub-package maintainers include:
 
@@ -117,7 +114,6 @@ Responsibilities of documentation maintainers include:
 * Soliciting and implementing improvements and new additions to the content.
 * Maintaining and improving the documentation infrastructure.
 
-
 .. _role_lead-mentor:
 
 Lead Newcomer and Summer of Code Mentor
@@ -128,11 +124,11 @@ The newcomer mentor is responsible for supporting new users and contributors to 
 This involves:
 
 -  Being responsive to GitHub issues, pull requests, mailing lists and chat.
--  Helping new contributors understand SunPy’s development methodologies.
+-  Helping new contributors understand SunPy's development methodologies.
 -  Maintaining the `Newcomers Guide <https://github.com/sunpy/sunpy/blob/master/CONTRIBUTING.rst>`__.
--  Leading SunPy’s participation in sprints and events to attract new contributors.
+-  Leading SunPy's participation in sprints and events to attract new contributors.
 -  Finding other suitable mentors and pairing them with mentees.
--  Leading the project’s interaction with the Open Astronomy organization for the Google Summer of Code project.
+-  Leading the project's interaction with the Open Astronomy organization for the Google Summer of Code project.
 
 **Estimated Commitment Level**: 5 hours/week. This role is highly seasonal as the peak time for newcomers to the project is during the lead up to GSOC (Feb - April) and Hacktoberfest (October).
 During these times the time commitment is probably around 5 hours per week, at other times it will be less.
