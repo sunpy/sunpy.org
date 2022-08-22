@@ -23,7 +23,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
    * - Links
      - `Documentation <https://docs.sunpy.org/>`__, `Source code <https://github.com/sunpy/sunpy>`__
    * - Maintainer(s)
-     - :ref:`The SunPy Community <subpackage_maintainers>`
+     - The SunPy Community
    * - Badges
      - |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
    * - Version reviewed
