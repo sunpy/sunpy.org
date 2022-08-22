@@ -203,59 +203,6 @@ See :ref:`role_descriptions` for more details on each role.
     If you are interested in filling this role see the description:
     :ref:`role_affiliated-liaison`
 
-.. _subpackage_maintainers:
-
-Maintainers
-^^^^^^^^^^^
-
-The following section list the maintainers for the various sub-packages of the core library as well as the documentation maintainers.
-
-Each area should have at least one but preferably two people identified.
-To enable mentorship the two maintainers could include a lead and a deputy or also two co-leads.
-Some roles are currently not filled. We'd like to encourage members of the community to inquire about volunteering.
-
-.. list-table::
-   :widths: 60 60
-   :header-rows: 1
-
-   * - Sub-package
-     - Name(s)
-   * - sunpy.coordinates
-     - `Albert Shih`_, `Stuart Mumford`_
-   * - sunpy.database
-     -
-   * - sunpy.image
-     - `Jack Ireland`_, `Will Barnes`_
-   * - sunpy.io
-     -
-   * - sunpy.map
-     - `Stuart Mumford`_, `Steven Christe`_
-   * - sunpy.net
-     - `Stuart Mumford`_
-   * - sunpy.physics
-     - `Jack Ireland`_
-   * - sunpy.sun
-     - `Steven Christe`_
-   * - sunpy.time
-     - `Laura Hayes`_
-   * - sunpy.timeseries
-     - `Laura Hayes`_
-   * - sunpy.visualization
-     - `Daniel Ryan`_
-
-.. list-table::
-   :widths: 60 60
-   :header-rows: 1
-
-   * - Documentation Section
-     - Name(s)
-   * - documentation/developer
-     -
-   * - documentation/user
-     -
-   * - documentation/gallery
-     - `Steven Christe`_
-
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
 .. _Monica Bobra: https://github.com/mbobra
