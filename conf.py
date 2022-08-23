@@ -92,7 +92,6 @@ html_sidebars = {
     "project/index": ["projecttoc.html"],
     "project/roles": ["rolestoc.html"],
     "project/affiliated": ["affiliatedtoc.html"],
-    "project/former": ["formertoc.html"],
 }
 
 # nbsphinx options
