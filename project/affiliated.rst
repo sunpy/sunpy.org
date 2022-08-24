@@ -19,9 +19,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
    :widths: 20, 80
 
    * - **sunpy core**
-     - A core package for solar physics in Python.
-   * - Links
-     - `Documentation <https://docs.sunpy.org/>`__, `Source code <https://github.com/sunpy/sunpy>`__
+     - A core package for solar physics in Python. `Documentation <https://docs.sunpy.org/>`__, `Source code <https://github.com/sunpy/sunpy>`__
    * - Maintainer(s)
      - The SunPy Community
    * - Badges
@@ -33,9 +31,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
    :widths: 20, 80
 
    * - **NDCube**
-     - A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
-   * - Links
-     - `Documentation <https://docs.sunpy.org/projects/ndcube>`__, `Source code <https://github.com/sunpy/ndcube>`__
+     - A base package for multi-dimensional (non)contiguous coordinate-aware arrays. `Documentation <https://docs.sunpy.org/projects/ndcube>`__, `Source code <https://github.com/sunpy/ndcube>`__
    * - Maintainer(s)
      - `Daniel Ryan`_, `Stuart Mumford`_
    * - Badges
@@ -47,9 +43,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
    :widths: 20, 80
 
    * - **drms**
-     - Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data.
-   * - Links
-     - `Documentation <https://docs.sunpy.org/projects/drms>`__, `Source code <https://github.com/sunpy/drms>`__
+     - Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data. `Documentation <https://docs.sunpy.org/projects/drms>`__, `Source code <https://github.com/sunpy/drms>`__
    * - Maintainer(s)
      - `Kolja Glogowski`_, `Will Barnes`_, `Nabil Freij`_
    * - Badges
@@ -61,9 +55,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
    :widths: 20, 80
 
    * - **sunraster**
-     - sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
-   * - Links
-     - `Documentation <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Source code <https://github.com/sunpy/sunraster>`__
+     - sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments. `Documentation <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Source code <https://github.com/sunpy/sunraster>`__
    * - Maintainer(s)
      - `Daniel Ryan`_, `Nabil Freij`_
    * - Badges
@@ -75,9 +67,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
    :widths: 20, 80
 
    * - **sunkit-image**
-     - An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines.
-   * - Links
-     - `Documentation <https://docs.sunpy.org/projects/sunkit-image/>`__, `Source code <https://github.com/sunpy/sunkit-image/>`__
+     - An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines. `Documentation <https://docs.sunpy.org/projects/sunkit-image/>`__, `Source code <https://github.com/sunpy/sunkit-image/>`__
    * - Maintainer(s)
      - `Nabil Freij`_, `Stuart Mumford`_
    * - Badges
@@ -92,9 +82,7 @@ Affiliated Packages
    :widths: 20, 80
 
    * - **aiapy**
-     - aiapy is a Python package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
-   * - Links
-     - `Documentation <https://aiapy.readthedocs.io/en/latest/>`__, `Source code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
+     - aiapy is a Python package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft. `Documentation <https://aiapy.readthedocs.io/en/latest/>`__, `Source code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
    * - Maintainer(s)
      -  `Will Barnes`_, `Mark Cheung`_, `Nabil Freij`_
    * - Badges
@@ -106,9 +94,7 @@ Affiliated Packages
    :widths: 20, 80
 
    * - **pfsspy**
-     - A Python Potential Field Source Surface model package.
-   * - Links
-     - `Documentation <https://pfsspy.readthedocs.io/>`__, `Source code <https://github.com/dstansby/pfsspy/>`__
+     - A Python Potential Field Source Surface model package. `Documentation <https://pfsspy.readthedocs.io/>`__, `Source code <https://github.com/dstansby/pfsspy/>`__
    * - Maintainer(s)
      - `David Stansby`_
    * - Badges
@@ -123,9 +109,7 @@ Provisional Affiliated Packages
    :widths: 20, 80
 
    * - **pyflct**
-     - A Python wrapper for Fourier Local Correlation Tracking.
-   * - Links
-     - `Documentation <https://pyflct.readthedocs.io/>`__, `Source code <https://github.com/sunpy/pyflct>`__
+     - A Python wrapper for Fourier Local Correlation Tracking. `Documentation <https://pyflct.readthedocs.io/>`__, `Source code <https://github.com/sunpy/pyflct>`__
    * - Maintainer(s)
      - `Nabil Freij`_, `Stuart Mumford`_
    * - Badges
@@ -137,9 +121,7 @@ Provisional Affiliated Packages
    :widths: 20, 80
 
    * - **radiospectra**
-     - This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES).
-   * - Links
-     - `Documentation <https://docs.sunpy.org/projects/radiospectra>`__, `Source code <https://github.com/sunpy/radiospectra>`__
+     - This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES). `Documentation <https://docs.sunpy.org/projects/radiospectra>`__, `Source code <https://github.com/sunpy/radiospectra>`__
    * - Maintainer(s)
      - `David Pérez-Suárez`_, `Shane Maloney`_, `Nabil Freij`_,
    * - Badges
