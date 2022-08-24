@@ -18,13 +18,15 @@ We aim to work with the astropy community to build spectrum support that can be 
 
 Multi-dimensional data sets
 ***************************
+
 N-dimensional data sets are common in solar physics.
 For example, a series of images taken sequentially with a CCD camera can be stored as a single 3-D array with two spatial axes and one temporal axis.
 The value in each array-element can represent the reading in a pixel at a given time.
-In solar physics and astronomy, the relationship between the array element and physical coordinates (e.g. position in the sky, wavelength, sometimes time) the location and time in the Universe being observed is often represented by the World Coordinate System (WCS) framework.
-The `ndcube <https://docs.sunpy.org/projects/ndcube/en/stable/index.html>`_ package has been written to handle these kinds of datasets.
-This package now provides capabilities that go beyond those of `MapSequence <https://docs.sunpy.org/en/stable/generated/api/sunpy.map.MapSequence.html>`_ for example and can handle data from slit spectragraphs.
-We aim to integrate ndcube into sunpy core to improve some of our existing data classes as well as support new ones.
+In solar physics and astronomy, the relationship between the array element and physical coordinates (e.g. position in the sky, wavelength and others) the location and time in the Universe being observed is often represented by the World Coordinate System (WCS) framework.
+
+The `**ndcube** <https://docs.sunpy.org/projects/ndcube/en/stable/index.html>`__ package has been written to handle these kinds of datasets.
+This package provides signficant capabilities that go beyond those of `MapSequence <https://docs.sunpy.org/en/stable/generated/api/sunpy.map.MapSequence.html>`__ for example and can handle data from slit spectragraphs.
+We aim to integrate **ndcube** into **sunpy** to improve some of our existing data classes as well as support new ones.
 
 Enabling Contributors, Developers and Users
 *******************************************
