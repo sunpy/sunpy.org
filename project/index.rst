@@ -202,7 +202,7 @@ See :ref:`role_descriptions` for more details on each role.
     :title: Affiliated Package Liaison
     :aff_name: American University / NASA GSFC
     :aff_link: https://www.american.edu/cas/issti/
-    :date: 3 December 2019
+    :date: 24 August 2022
 
     Will Barnes is a research associate at American University and NASA Goddard Space Flight Center where he works on instrument data pipeline development as well as the SunPy project.
     Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
