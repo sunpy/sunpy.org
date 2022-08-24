@@ -1,0 +1,44 @@
+.. _roadmap:
+
+=====================
+SunPy Project Roadmap
+=====================
+
+This section describes the roadmap for the SunPy project which includes the sunpy package.
+This roadmap is discussed and reviewed at the yearly SunPy coordination meetings.
+It provides a broad outline of what areas we will be investing our time and energy in.
+
+Spectra
+*******
+Spectra are a vital missing data object in sunpy core.
+Such a data object should support injesting data files but also some of the common tasks such as fitting.
+Thankfully, significant development has been performed by the astropy community in the `specutils package <https://specutils.readthedocs.io/en/stable/>`_ though it is not yet stable.
+We aim to work with the astropy community to build spectrum support that can then be brought to sunpy core for solar spectra.
+
+Multi-dimensional data sets
+***************************
+N-dimensional data sets are common in solar physics.
+For example, a series of images taken sequentially with a CCD camera can be stored as a single 3-D array with two spatial axes and one temporal axis.
+The value in each array-element can represent the reading in a pixel at a given time.
+In solar physics and astronomy, the relationship between the array element and physical coordinates (e.g. position in the sky, wavelength, sometimes time) the location and time in the Universe being observed is often represented by the World Coordinate System (WCS) framework.
+The `ndcube <https://docs.sunpy.org/projects/ndcube/en/stable/index.html>`_ package has been written to handle these kinds of datasets.
+This package now provides capabilities that go beyond those of `MapSequence <https://docs.sunpy.org/en/stable/generated/api/sunpy.map.MapSequence.html>`_ for example and can handle data from slit spectragraphs.
+We aim to integrate ndcube into sunpy core to improve some of our existing data classes as well as support new ones.
+
+Enabling Contributors, Developers and Users
+*******************************************
+Feedback from the community has made it clear that improvements are needed to better support our contributors, developers, as well as users.
+The following key objectives have been identified to provide the maximum impact.
+ #. Supporting and encouraging new and existing contributors (to sunpy core). 
+    Submitting new code or documentation to sunpy core or afiliated packages has been, historically, an arduous task. Many code standards and expectations are not well documented in the developer documentation.
+    Merge requests frequently take several rounds of back and forth with reviewers asking for changes which is frustrating and demoralizing especially for new contributors.
+    We aim to improve our support for contributors by improving our developer documentation generally but especially by better documenting expectations.
+    We will also offer to actively help contributors during development and work to minimize the amount of work needed to contribute.
+ #. Better support for affiliated packages.
+    ???
+ #. Onboarding new Python users.
+    Our documentation and gallery make the assumption that users are already familiar with Python and the scientific Python ecosystem.
+    We aim to provide a tools for users to learn both Python and sunpy at the same time to support users transition from other languages or those just starting their Python journey.
+    We plan supporting the community by using these tools in live tutorials during conferences and other events.
+
+
