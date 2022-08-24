@@ -196,11 +196,17 @@ See :ref:`role_descriptions` for more details on each role.
     If you are interested in filling this role see the description:
     :ref:`role_webmaster`
 
-.. card:: Role Unfilled
+.. card:: Will Barnes
+    :img_name: will.png
+    :github: wtbarnes
     :title: Affiliated Package Liaison
+    :aff_name: American University / NASA GSFC
+    :aff_link: https://www.american.edu/cas/issti/
+    :date: 3 December 2019
 
-    If you are interested in filling this role see the description:
-    :ref:`role_affiliated-liaison`
+    Will Barnes is a research associate at American University and NASA Goddard Space Flight Center where he works on instrument data pipeline development as well as the SunPy project.
+    Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
+    In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
 
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
