@@ -156,7 +156,7 @@ Communication and Education Lead
 
 Affiliated Package Liaison
 --------------------------
-**Unfilled**
+**Will Barnes**
 
 SunPy is starting to develop a set of general affiliated packages, i.e ndcube, sunkit-image and drms as well as instrument specific ones like IRISPy.
 Affiliated packages are not very structured currently, although a framework for them exists in
