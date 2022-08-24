@@ -10,7 +10,6 @@ SunPy Project
    self
    roles
    affiliated
-   former
    meetings
 
 The **SunPy project** is the organization which maintains the SunPy library and sponsored affiliated packages.

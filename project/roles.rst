@@ -165,3 +165,36 @@ Affiliated packages are not very structured currently, although a framework for 
 This role would develop a set of processes for both sponsored and non-sponsored affiliated packages, a review procedure for new affiliated packages, and lead the effort to integrate instrument teams with SunPy.
 
 **Commitment Level**: This role needs an investment of time at the beggining to set up the processes for affiliated packages. These processes would then determine the likely time commitment after that.
+
+Emeritus role holders
+---------------------
+These people have previously served in named roles in the SunPy Project, either in community roles or on the board.
+
+.. list-table::
+   :widths: 15, 60, 15
+   :header-rows: 1
+
+   * - Name
+     - Role
+     - Period
+   * - `Andy Inglis <https://github.com/aringlis>`__
+     - Board member and Secretary
+     - 2014 - 2017
+   * - `Albert Shih <https://github.com/ayshih>`__
+     - Board member, Lead Developer
+     - 2014 - 2018, 2014 - 2015
+   * - `Sabrina Savage <https://github.com/SabrinaSavage>`__
+     - Board member and Secretary
+     - 2017 - 2019
+   * - `Thomas Robitaille <https://github.com/astrofrog>`__
+     - Board member
+     - 2014 - 2017
+   * - Juan Carlos Martínez Oliveros
+     - Board member
+     - 2014 - 2019
+   * - `Vishnunarayan K. I. <https://github.com/vn-ki>`__
+     - sunpy.database and sunpy.time maintainer
+     - 2019 - 2021
+   * - `Nabil Freij <https://github.com/nabobalis>`__
+     - Deputy Lead Developer
+     - 2016 - 2019
