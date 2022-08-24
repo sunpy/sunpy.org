@@ -30,18 +30,18 @@ We aim to integrate **ndcube** into **sunpy** to improve some of our existing da
 
 Enabling Contributors, Developers and Users
 *******************************************
+
 Feedback from the community has made it clear that improvements are needed to better support our contributors, developers, as well as users.
 The following key objectives have been identified to provide the maximum impact.
- #. Supporting and encouraging new and existing contributors (to sunpy core). 
-    Submitting new code or documentation to sunpy core or afiliated packages has been, historically, an arduous task. Many code standards and expectations are not well documented in the developer documentation.
+#. Supporting and encouraging new and existing contributors. 
+    Submitting new code or documentation to **sunpy** or affiliated packages has been, historically, an arduous task.
+    Many code standards and expectations are not well documented in the developer documentation.
     Merge requests frequently take several rounds of back and forth with reviewers asking for changes which is frustrating and demoralizing especially for new contributors.
     We aim to improve our support for contributors by improving our developer documentation generally but especially by better documenting expectations.
-    We will also offer to actively help contributors during development and work to minimize the amount of work needed to contribute.
- #. Better support for affiliated packages.
+    In addition, we will offer to actively help contributors during development and work to minimize the amount of work needed to contribute.
+#. Better support for affiliated packages.
     ???
- #. Onboarding new Python users.
+#. Onboarding new Python users.
     Our documentation and gallery make the assumption that users are already familiar with Python and the scientific Python ecosystem.
-    We aim to provide a tools for users to learn both Python and sunpy at the same time to support users transition from other languages or those just starting their Python journey.
-    We plan supporting the community by using these tools in live tutorials during conferences and other events.
-
-
+    We will aim to provide a range of tutorials for users to learn both Python and **sunpy** at the same time to support users transition from other languages or those just starting their Python journey.
+    We plan to use these in live tutorials during conferences and other events depending on the audience.
