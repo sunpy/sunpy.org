@@ -5,7 +5,7 @@ SunPy Project Roadmap
 =====================
 
 This section describes the roadmap for the SunPy project which includes the **sunpy** core library.
-This roadmap is discussed and reviewed at the yearly SunPy coordination meetings.
+This roadmap is discussed and reviewed at the yearly SunPy coordination meeting.
 It provides a broad outline of what areas we will be investing our time and energy in.
 
 Spectra
