@@ -12,8 +12,9 @@ Spectra
 *******
 
 Spectra are a vital missing data object in the sunpy core library.
-Such a data object should support ingesting data files but also some of the common tasks such as fitting.
-Thankfully, significant development has been performed by the astropy community in the `specutils package <https://specutils.readthedocs.io/en/stable/>`__ though it is not yet stable.
+Such a data object should support ingesting data files but also some of the common tasks performed on them such as fitting.
+Thankfully, significant development has been performed by the astropy community in the `specutils package <https://specutils.readthedocs.io/en/stable/>`__ which provides data objects for 1d spectra as well as spectra collections and spectral cubes.
+though it is not yet stable.
 We aim to work with the astropy community to build spectrum support that can be utilized for solar spectra.
 
 Multi-dimensional data sets
