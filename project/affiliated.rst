@@ -121,7 +121,7 @@ Provisional Affiliated Packages
    :widths: 20, 80
 
    * - **radiospectra**
-     - This package provides support for some types of solar radio spectragrams (e.g. CALISTO, SWAVES). `Documentation <https://docs.sunpy.org/projects/radiospectra>`__, `Source code <https://github.com/sunpy/radiospectra>`__
+     - This package provides support for some types of solar radio spectrograms (e.g. CALISTO, SWAVES). `Documentation <https://docs.sunpy.org/projects/radiospectra>`__, `Source code <https://github.com/sunpy/radiospectra>`__
    * - Maintainer(s)
      - `David Pérez-Suárez`_, `Shane Maloney`_, `Nabil Freij`_,
    * - Badges

@@ -48,7 +48,7 @@ Continuous Integration Maintainer
 
 SunPy core and the affiliated packages using the `package-template <https://github.com/sunpy/package-template>`__ all use
 the same CI setup.
-The primariy responsibility of the CI Maintainer is to keep these resources up to date and fix issues as they arise with new package versions or changes to CI platforms.
+The primary responsibility of the CI Maintainer is to keep these resources up to date and fix issues as they arise with new package versions or changes to CI platforms.
 An outline of the current CI services used can be found in `the sunpy documentation <https://docs.sunpy.org/en/latest/dev_guide/pr_review_procedure.html#continuous-integration>`__.
 A non-exhaustive list of things involved with this role is:
 
@@ -74,7 +74,7 @@ comprises of the following main tasks:
 -  Working with the CI maintainer to maintain the CI on release branches.
 -  Following, maintaining, and improving the `release checklist <https://github.com/sunpy/sunpy/wiki/Home%3A-Release-Checklist>`__ for each release.
 -  Notifying the Communications Lead of new releases.
--  Maintaing the automated release pipeline.
+-  Maintaining the automated release pipeline.
 -  Maintaining the conda-forge packages for core and affiliated packages.
 
 **Estimated Commitment Level**: 3-5 hours/week. The main component of this role is monitoring PRs which get milestoned to be backported to release branches and ensuring the backports happen correctly, and releasing bug fix versions.
@@ -132,7 +132,7 @@ This involves:
 
 **Estimated Commitment Level**: 5 hours/week. This role is highly seasonal as the peak time for newcomers to the project is during the lead up to GSOC (Feb - April) and Hacktoberfest (October).
 During these times the time commitment is probably around 5 hours per week, at other times it will be less.
-There is also a lot of scope for improving our onboarding process as part of this role.
+There is also a lot of scope for improving our on-boarding process as part of this role.
 
 .. _role_comms-lead:
 
@@ -164,7 +164,7 @@ Affiliated packages are not very structured currently, although a framework for 
 
 This role would develop a set of processes for both sponsored and non-sponsored affiliated packages, a review procedure for new affiliated packages, and lead the effort to integrate instrument teams with SunPy.
 
-**Commitment Level**: This role needs an investment of time at the beggining to set up the processes for affiliated packages. These processes would then determine the likely time commitment after that.
+**Commitment Level**: This role needs an investment of time at the beginning to set up the processes for affiliated packages. These processes would then determine the likely time commitment after that.
 
 Emeritus role holders
 ---------------------
