@@ -7,9 +7,9 @@ We use [Netlify](https://www.netlify.com/) deploy and host the [website](https:/
 
 ## Testing Locally
 
-To setup your computer to run this site locally, you need to install the various Python packages in the [requirements.txt](requirements.txt) at the top level of this repository.
+To set up your computer to run this site locally, you need to install the various Python packages in the [requirements.txt](requirements.txt) at the top level of this repository.
 
-Furthermore there is a sub-module that we use to get certain files for the build.
+Furthermore, there is a sub-module that we use to get certain files for the build.
 
 ```bash
 git submodule update --init
@@ -50,7 +50,7 @@ The filename must use the following naming convention `YEAR-MONTH-DAY-title.{ext
 - [Jupyter notebook](https://jupyter.org/), `ext=ipynb`; (notebooks are converted to RST using the [nbsphinx](https://nbsphinx.readthedocs.io) extension)
 - [MD](https://www.markdownguide.org/cheat-sheet/) formatted text, `ext=md`,
 
-Please also see the [ABlog documention](https://ablog.readthedocs.io/) for more information.
+Please also see the [ABlog documentation](https://ablog.readthedocs.io/) for more information.
 
 ### RST
 
@@ -130,7 +130,7 @@ category: <One of the below>
 
 Please note that the date for the post is different to the way it is written for the blog filename.
 Since this date is reader facing, we want month day year **e.g.,** May 14 2056.
-Also we try to enforce one line per sentence.
+Also, we try to enforce one line per sentence.
 
 The current range of categories we have "officially" are:
 
