@@ -115,4 +115,4 @@ class Card(Directive):
 
 def setup(app):
     app.add_node(card, html=(visit_card_node, depart_card_node))
-    app.add_directive("card", Card)
+    app.add_directive("custom-card", Card)

@@ -15,7 +15,9 @@ extensions = [
     "sphinx.ext.mathjax",
     "sphinxext.opengraph",
     "ablog",
+    "sphinx_design",
 ]
+myst_enable_extensions = ["colon_fence"]
 myst_update_mathjax = False
 templates_path = ["_templates"]
 
