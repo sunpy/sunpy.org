@@ -24,12 +24,12 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        Version reviewed: `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
-   * - **NDCube**
+   * - **ndcube**
      - A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
 
        `Documentation <https://docs.sunpy.org/projects/ndcube>`__, `Source code <https://github.com/sunpy/ndcube>`__
 
-       *Maintainers*: The SunPy Community
+       **Maintainers**: The SunPy Community
 
        |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
