@@ -29,9 +29,6 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
 
        Version reviewed: `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
-.. list-table::
-   :widths: 20, 80
-
    * - **NDCube**
      - A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
 
@@ -42,9 +39,6 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
        |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
        Version reviewed: `v1.3.2 <https://github.com/sunpy/ndcube/releases/tag/v1.3.2>`__
-
-.. list-table::
-   :widths: 20, 80
 
    * - **drms**
      - Provides search capability for the JSOC DRMS server which enables complex queries of HMI, AIA and MDI data.
@@ -57,9 +51,6 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
 
        Version reviewed: `v0.5.7 <https://github.com/sunpy/drms/releases/tag/v0.5.7>`__
 
-.. list-table::
-   :widths: 20, 80
-
    * - **sunraster**
      - sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
 
@@ -70,9 +61,6 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
        |package_specialized| |integration_full| |docs_some| |tests_good| |duplication_none| |community_excellent| |dev_stc|
 
        Version reviewed: `v0.1.2 <https://github.com/sunpy/sunraster/releases/tag/v0.1.2>`__
-
-.. list-table::
-   :widths: 20, 80
 
    * - **sunkit-image**
      - An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines.
@@ -101,9 +89,6 @@ Affiliated Packages
        |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
 
        Version reviewed: `v0.1.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.1.0>`__
-
-.. list-table::
-   :widths: 20, 80
 
    * - **pfsspy**
      - A Python Potential Field Source Surface model package.
