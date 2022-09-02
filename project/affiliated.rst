@@ -10,11 +10,6 @@ What is an affiliated package?
 Affiliated packages are well-maintained, open source software packages that are useful to solar physicists and integrate well with the SunPy ecosystem.
 To aid discoverability, all affiliated packages are listed on the SunPy website, and the SunPy project tries to advertise them at national and international conferences and workshops.
 
-Sponsored Packages
-------------------
-
-A SunPy sponsored package is an affiliated package that is maintained and governed by the SunPy project.
-
 .. list-table::
    :widths: 20, 80
 
@@ -34,7 +29,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
 
        `Documentation <https://docs.sunpy.org/projects/ndcube>`__, `Source code <https://github.com/sunpy/ndcube>`__
 
-       *Maintainers*: `Daniel Ryan`_, `Stuart Mumford`_
+       *Maintainers*: The SunPy Community
 
        |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
@@ -45,7 +40,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
 
        `Documentation <https://docs.sunpy.org/projects/drms>`__, `Source code <https://github.com/sunpy/drms>`__
 
-       **Maintainers**: `Kolja Glogowski`_, `Will Barnes`_, `Nabil Freij`_
+       **Maintainers**: The SunPy Community
 
        |package_general| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
 
@@ -56,7 +51,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
 
        `Documentation <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Source code <https://github.com/sunpy/sunraster>`__
 
-       **Maintainers**: `Daniel Ryan`_, `Nabil Freij`_
+       **Maintainers**: The SunPy Community
 
        |package_specialized| |integration_full| |docs_some| |tests_good| |duplication_none| |community_excellent| |dev_stc|
 
@@ -67,17 +62,11 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
 
        `Documentation <https://docs.sunpy.org/projects/sunkit-image/>`__, `Source code <https://github.com/sunpy/sunkit-image/>`__
 
-       **Maintainers**: `Nabil Freij`_, `Stuart Mumford`_
+       **Maintainers**: The SunPy Community
 
        |package_general| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
 
        Version reviewed: `v0.1 <https://github.com/sunpy/sunkit-image/releases/tag/v0.1.0>`__
-
-Affiliated Packages
--------------------
-
-.. list-table::
-   :widths: 20, 80
 
    * - **aiapy**
      - aiapy is a Python package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
