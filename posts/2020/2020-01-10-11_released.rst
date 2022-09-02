@@ -1,11 +1,11 @@
-:blogpost: true
-:date: January 10 2020
-:author: Stuart Mumford
-:tags: sunpy
-:category: Release
-
 SunPy 1.1 Released
 ==================
+
+.. post:: January 10 2020
+   :author: Stuart Mumford
+   :tags: sunpy
+   :category: Release
+
 
 The SunPy project is happy to announce the release of SunPy 1.1!
 SunPy is an open-source Python library for Solar Physics data analysis and visualization.
