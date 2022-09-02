@@ -1,10 +1,10 @@
+```{post} June 05 2020
 ---
-blogpost: True
-date: June 5 2020
 author: Jack Ireland
 tags: sunpy
 category: Update
 ---
+```
 
 # SunPy awarded a NASA HDEE Grant
 
