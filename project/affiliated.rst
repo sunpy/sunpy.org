@@ -102,7 +102,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
 Provisional packages
 --------------------
-These packages are works in progress that don't yet meet the functionality crieteria for an affiliated package, but is working towards it.
+These packages are works in progress that do not yet meet the functionality criteria for an affiliated package, but are working towards it.
 
 
 .. list-table::
