@@ -25,7 +25,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
 
        |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
-       *Maintainer*: The SunPy Community
+       **Maintainer**: The SunPy Community
 
        Version reviewed: `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
@@ -79,7 +79,7 @@ A SunPy sponsored package is an affiliated package that is maintained and govern
 
        `Documentation <https://docs.sunpy.org/projects/sunkit-image/>`__, `Source code <https://github.com/sunpy/sunkit-image/>`__
 
-       Maintainer: `Nabil Freij`_, `Stuart Mumford`_
+       **Maintainers**: `Nabil Freij`_, `Stuart Mumford`_
 
        |package_general| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
 
@@ -96,7 +96,7 @@ Affiliated Packages
 
        `Documentation <https://aiapy.readthedocs.io/en/latest/>`__, `Source code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
 
-       Maintainers: `Will Barnes`_, `Mark Cheung`_, `Nabil Freij`_
+       **Maintainers**: `Will Barnes`_, `Mark Cheung`_, `Nabil Freij`_
 
        |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
 
@@ -110,7 +110,7 @@ Affiliated Packages
 
        `Documentation <https://pfsspy.readthedocs.io/>`__, `Source code <https://github.com/dstansby/pfsspy/>`__
 
-       Maintainers: `David Stansby`_
+       **Maintainer**: `David Stansby`_
 
        |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
 
