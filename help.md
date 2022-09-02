@@ -2,7 +2,7 @@
 
 ::::{grid} 1 3 3 3
 
-:::{grid-item-card} Docs
+:::{grid-item-card} Documentation
 For examples, reference, and tutorials see the [sunpy core docs](https://docs.sunpy.org/en/stable/). For other SunPy packages see the "Documentation" dropdown above.
 :::
 
