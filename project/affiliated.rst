@@ -100,6 +100,33 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 .. _Nabil Freij: https://github.com/nabobalis
 .. _Shane Maloney: https://github.com/samaloney
 
+Provisional packages
+--------------------
+These packages are works in progress that don't yet meet the functionality crieteria for an affiliated package, but is working towards it.
+
+
+.. list-table::
+   :widths: 20, 80
+
+   * - **pyflct**
+     - A Python wrapper for Fourier Local Correlation Tracking. `Documentation <https://pyflct.readthedocs.io/>`__, `Source code <https://github.com/sunpy/pyflct>`__
+
+       **Maintainers**: `Nabil Freij`_, `Stuart Mumford`_
+
+       |package_specialized| |integration_none| |docs_some| |tests_excellent| |duplication_none| |community_good| |dev_low|
+
+       Version reviewed: `v0.2.1 <https://github.com/sunpy/pyflct/releases/tag/v0.2.1>`__
+
+   * - **radiospectra**
+     - This package provides support for some types of solar radio spectrograms (e.g. CALISTO, SWAVES). `Documentation <https://docs.sunpy.org/projects/radiospectra>`__, `Source code <https://github.com/sunpy/radiospectra>`__
+
+       **Maintainers**: `David Pérez-Suárez`_, `Shane Maloney`_, `Nabil Freij`_,
+
+       |package_general| |integration_none| |docs_some| |tests_good| |duplication_some| |community_excellent| |dev_stc|
+
+       Version reviewed: `v0.3.0 <https://github.com/sunpy/radiospectra/releases/tag/v0.3.0>`__
+
+
 Affiliated Package Review
 -------------------------
 
