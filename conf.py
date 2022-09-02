@@ -18,7 +18,7 @@ extensions = [
     "sphinxext.opengraph",
 ]
 myst_update_mathjax = False
-templates_path = [ablog.get_html_templates_path()]
+templates_path = [ablog.get_html_templates_path(), "_templates"]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
@@ -62,7 +62,6 @@ language = "en"
 pygments_style = "sphinx"
 
 default_role = "obj"
-templates_path = ["_templates"]
 html_title = "sunpy.org"
 html_static_path = ["_static"]
 html_extra_path = ["_static/img"]
