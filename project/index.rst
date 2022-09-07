@@ -208,56 +208,13 @@ See :ref:`role_descriptions` for more details on each role.
     Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
     In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
 
-``sunpy`` Subpackage Maintainers
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Maintainers
+^^^^^^^^^^^
 
-The following section list the maintainers for the various sub-packages of the core library as well as the documentation maintainers.
+The following section list the people who maintain various aspects of the SunPy Project that are not covered by the above roles.
 
-Each area should have at least one but preferably two people identified.
-To enable mentorship the two maintainers could include a lead and a deputy or also two co-leads.
-Some roles are currently not filled. We'd like to encourage members of the community to inquire about volunteering.
-
-.. list-table::
-   :widths: 60 60
-   :header-rows: 1
-
-   * - Sub-package
-     - Name(s)
-   * - sunpy.coordinates
-     - `Albert Shih`_
-   * - sunpy.database
-     -
-   * - sunpy.image
-     -
-   * - sunpy.io
-     -
-   * - sunpy.map
-     -
-   * - sunpy.net
-     -
-   * - sunpy.physics
-     -
-   * - sunpy.sun
-     -
-   * - sunpy.time
-     -
-   * - sunpy.timeseries
-     -
-   * - sunpy.visualization
-     -
-
-.. list-table::
-   :widths: 60 60
-   :header-rows: 1
-
-   * - Documentation Section
-     - Name(s)
-   * - documentation/developer
-     -
-   * - documentation/user
-     -
-   * - documentation/gallery
-     -
+* sunpy.coordinates: `Albert Shih`_
+* ndcube: `Daniel Ryan`_ and `Stuart Mumford`_
 
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
