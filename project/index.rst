@@ -212,7 +212,7 @@ Maintainers
 ^^^^^^^^^^^
 
 The following section list the people who maintain various aspects of the SunPy Project that are not covered by the above roles.
-These people are the ones who *lead* development of their advanced-research-computing
+These people are the ones who *lead* development of their domain.
 
 We are always looking for qualified people to take on a package or a submodule.
 If you would like to get involved please get in touch.
