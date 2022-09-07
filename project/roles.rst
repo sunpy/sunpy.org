@@ -93,7 +93,6 @@ This primarily involves:
 -  Updating the website as needed.
 -  Implementing analytics on the website and docs.
 
-
 **Estimated Commitment Level**: Around 1 hour per week, but comes in bursts as PRs are opened.
 
 .. _role_maintainer:
@@ -111,6 +110,8 @@ Responsibilities of a maintainer (subpackage, or library etc) include:
 * Handling GitHub issues associated with their scope.
 * Overseeing and improving documentation content.
 * Soliciting and implementing improvements and new additions to the documentation content.
+
+**Estimated Commitment Level**: Around 2 hour per week, but comes in bursts as PRs are opened or as questions roll in.
 
 .. _role_lead-mentor:
 
