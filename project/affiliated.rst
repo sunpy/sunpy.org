@@ -4,9 +4,6 @@
 SunPy Affiliated Packages
 =========================
 
-What is an affiliated package?
-------------------------------
-
 Affiliated packages are well-maintained, open source software packages that are useful to solar physicists and integrate well with the SunPy ecosystem.
 To aid discoverability, all affiliated packages are listed on the SunPy website, and the SunPy project tries to advertise them at national and international conferences and workshops.
 
@@ -20,7 +17,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
-       **Maintainer**: The SunPy Community
+       **Maintainer**: The SunPy Project
 
        Version reviewed: `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
@@ -29,7 +26,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://docs.sunpy.org/projects/ndcube>`__, `Source code <https://github.com/sunpy/ndcube>`__
 
-       **Maintainers**: The SunPy Community
+       **Maintainers**: The SunPy Project
 
        |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
@@ -40,7 +37,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://docs.sunpy.org/projects/drms>`__, `Source code <https://github.com/sunpy/drms>`__
 
-       **Maintainers**: The SunPy Community
+       **Maintainers**: The SunPy Project
 
        |package_general| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
 
@@ -51,7 +48,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Source code <https://github.com/sunpy/sunraster>`__
 
-       **Maintainers**: The SunPy Community
+       **Maintainers**: The SunPy Project
 
        |package_specialized| |integration_full| |docs_some| |tests_good| |duplication_none| |community_excellent| |dev_stc|
 
@@ -62,7 +59,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://docs.sunpy.org/projects/sunkit-image/>`__, `Source code <https://github.com/sunpy/sunkit-image/>`__
 
-       **Maintainers**: The SunPy Community
+       **Maintainers**: The SunPy Project
 
        |package_general| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
 
