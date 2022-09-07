@@ -107,6 +107,8 @@ Responsibilities of sub-package maintainers include:
 * Providing material support for open pull requests to enable merging.
 * Maintaining and developing the sub-package roadmap consistent with the roadmap of the overall core package.
 * Mentoring the next generation of maintainers and developers.
+* Responding to sub-package queries on all official SunPy communication channels.
+* Handling GitHub issues associated with the sub-package.
 
 Responsibilities of documentation maintainers include:
 
