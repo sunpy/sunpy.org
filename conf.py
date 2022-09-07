@@ -85,7 +85,7 @@ html_sidebars = {
     "contribute": ["localtoc.html"],
     "blog": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
     "blog/**": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
-    "help": ["localtoc.html"],
+    "help": None,
     "posts/**": ["ablog/postcard.html"],
     # Sphinx dosen't seem to support toctrees relative to an index, so I hacked it.
     "project/index": ["projecttoc.html"],
