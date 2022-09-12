@@ -1,8 +1,8 @@
 :tocdepth: 3
 
-=========================
-SunPy Affiliated Packages
-=========================
+===================
+Affiliated Packages
+===================
 
 Affiliated packages are well-maintained, open source software packages that are useful to solar physicists and integrate well with the SunPy ecosystem.
 To aid discoverability, all affiliated packages are listed on the SunPy website, and the SunPy project tries to advertise them at national and international conferences and workshops.
@@ -17,7 +17,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
-       **Maintainer**: The SunPy Project
+       **Maintainer**: `The SunPy Project`_
 
        Version reviewed: `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
@@ -26,7 +26,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://docs.sunpy.org/projects/ndcube>`__, `Source code <https://github.com/sunpy/ndcube>`__
 
-       **Maintainers**: The SunPy Project
+       **Maintainers**: `The SunPy Project`_
 
        |package_general| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
@@ -37,7 +37,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://docs.sunpy.org/projects/drms>`__, `Source code <https://github.com/sunpy/drms>`__
 
-       **Maintainers**: The SunPy Project
+       **Maintainers**: `The SunPy Project`_
 
        |package_general| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stable|
 
@@ -48,7 +48,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Source code <https://github.com/sunpy/sunraster>`__
 
-       **Maintainers**: The SunPy Project
+       **Maintainers**: `The SunPy Project`_
 
        |package_specialized| |integration_full| |docs_some| |tests_good| |duplication_none| |community_excellent| |dev_stc|
 
@@ -59,7 +59,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://docs.sunpy.org/projects/sunkit-image/>`__, `Source code <https://github.com/sunpy/sunkit-image/>`__
 
-       **Maintainers**: The SunPy Project
+       **Maintainers**: `The SunPy Project`_
 
        |package_general| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
 
@@ -89,12 +89,12 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
-.. _Kolja Glogowski: https://github.com/kbg
 .. _Stuart Mumford: https://github.com/Cadair
 .. _David Stansby: https://github.com/dstansby
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Nabil Freij: https://github.com/nabobalis
 .. _Shane Maloney: https://github.com/samaloney
+.. _The SunPy Project: https://sunpy.org/project/#community-roles
 
 Provisional packages
 --------------------
@@ -116,7 +116,7 @@ These packages are works in progress that do not yet meet the functionality crit
    * - **radiospectra**
      - This package provides support for some types of solar radio spectrograms (e.g. CALISTO, SWAVES). `Documentation <https://docs.sunpy.org/projects/radiospectra>`__, `Source code <https://github.com/sunpy/radiospectra>`__
 
-       **Maintainers**: `David Pérez-Suárez`_, `Shane Maloney`_, `Nabil Freij`_,
+       **Maintainers**: `The SunPy Project`_
 
        |package_general| |integration_none| |docs_some| |tests_good| |duplication_some| |community_excellent| |dev_stc|
 
