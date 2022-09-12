@@ -70,7 +70,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://aiapy.readthedocs.io/en/latest/>`__, `Source code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
 
-       **Maintainers**: `Will Barnes`_, `Mark Cheung`_, `Nabil Freij`_
+       **Maintainers**: `Will Barnes`_, `Nabil Freij`_
 
        |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
 
@@ -93,7 +93,6 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 .. _Stuart Mumford: https://github.com/Cadair
 .. _David Stansby: https://github.com/dstansby
 .. _Will Barnes: https://github.com/wtbarnes
-.. _Mark Cheung: https://github.com/fluxtransport
 .. _Nabil Freij: https://github.com/nabobalis
 .. _Shane Maloney: https://github.com/samaloney
 
