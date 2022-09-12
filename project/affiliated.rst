@@ -107,7 +107,7 @@ These packages are works in progress that do not yet meet the functionality crit
    * - **pyflct**
      - A Python wrapper for Fourier Local Correlation Tracking. `Documentation <https://pyflct.readthedocs.io/>`__, `Source code <https://github.com/sunpy/pyflct>`__
 
-       **Maintainers**: `Nabil Freij`_, `Stuart Mumford`_
+       **Maintainers**: `The SunPy Project`_
 
        |package_specialized| |integration_none| |docs_some| |tests_excellent| |duplication_none| |community_good| |dev_low|
 
