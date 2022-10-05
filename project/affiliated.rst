@@ -87,6 +87,17 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        Version reviewed: `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
+   * - **sunpy-soar**
+     - A sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR).
+
+       `Documentation <https://github.com/sunpy/sunpy-soar#readme>`__, `Source code <https://github.com/sunpy/sunpy-soar>`__
+
+       **Maintainer**: `David Stansby`_
+
+       |package_general| |integration_full| |docs_some| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+
+       Version reviewed: `v1.5 <https://github.com/sunpy/sunpy-soar/releases/tag/v1.5>`__
+
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
 .. _Stuart Mumford: https://github.com/Cadair
