@@ -117,6 +117,6 @@ ogp_description_length = 300
 ogp_type = "website"
 
 urlretrieve(
-    "https://raw.githubusercontent.com/sunpy/sunpy/master/sunpy/CITATION.rst",
+    "https://raw.githubusercontent.com/sunpy/sunpy/main/sunpy/CITATION.rst",
     filename="CITATION.rst",
 )
