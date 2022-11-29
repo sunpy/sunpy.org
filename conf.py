@@ -49,6 +49,7 @@ exclude_patterns = [
     "LICENSE.md",
     "README.md",
     "_build/*",
+    "CITATION.rst",
 ]
 master_doc = "index"
 project = "SunPy"
