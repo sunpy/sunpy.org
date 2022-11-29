@@ -49,6 +49,7 @@ exclude_patterns = [
     "LICENSE.md",
     "README.md",
     "_build/*",
+    "CITATION.rst",
 ]
 master_doc = "index"
 project = "SunPy"
@@ -117,6 +118,6 @@ ogp_description_length = 300
 ogp_type = "website"
 
 urlretrieve(
-    "https://raw.githubusercontent.com/sunpy/sunpy/master/sunpy/CITATION.rst",
+    "https://raw.githubusercontent.com/sunpy/sunpy/main/sunpy/CITATION.rst",
     filename="CITATION.rst",
 )

@@ -1,4 +1,4 @@
-# sunpy.org website
+# sunpy.org
 
 ## Background
 
