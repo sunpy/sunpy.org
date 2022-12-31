@@ -2,12 +2,10 @@ import os
 import sys
 from urllib.request import urlretrieve
 
-import ablog
 from sunpy_sphinx_theme.conf import *  # NOQA
 
 sys.path.append(os.path.abspath("exts"))
 extensions = [
-    "ablog",
     "cards",
     "myst_parser",
     "nbsphinx",
@@ -16,9 +14,10 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
     "sphinxext.opengraph",
+    "ablog",
 ]
 myst_update_mathjax = False
-templates_path = [ablog.get_html_templates_path(), "_templates"]
+templates_path = ["_templates"]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
@@ -28,7 +27,6 @@ intersphinx_mapping = {
     "drms": ("https://docs.sunpy.org/projects/drms/en/stable/", None),
     "aiapy": ("https://aiapy.readthedocs.io/en/stable/", None),
 }
-
 rawfiles = ["jitsi.html", "issues.html", "chat.html", "community_meeting_agenda.html"]
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 disqus_shortname = "sunpy-org"
@@ -36,7 +34,6 @@ blog_baseurl = "https://sunpy.org/"
 blog_feed_fulltext = True
 blog_feed_length = 10
 blog_feed_archives = True
-
 source_suffix = {
     ".rst": "restructuredtext",
     ".md": "markdown",
@@ -84,10 +81,10 @@ html_sidebars = {
     "about": ["localtoc.html"],
     "coc": ["localtoc.html"],
     "contribute": ["localtoc.html"],
-    "blog": ["searchbox.html", "categories.html", "archives.html"],
-    "blog/**": ["searchbox.html", "categories.html", "archives.html"],
+    "blog": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
+    "blog/**": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
     "help": ["localtoc.html"],
-    "posts/**": ["postcard.html"],
+    "posts/**": ["ablog/postcard.html"],
     # Sphinx dosen't seem to support toctrees relative to an index, so I hacked it.
     "project/index": ["projecttoc.html"],
     "project/roles": ["rolestoc.html"],
