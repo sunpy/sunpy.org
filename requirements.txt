@@ -7,3 +7,4 @@ myst-parser
 nbsphinx
 sphinx<6.0.0
 sphinxext-opengraph
+sphinx-design

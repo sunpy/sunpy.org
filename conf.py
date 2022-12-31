@@ -15,7 +15,9 @@ extensions = [
     "sphinx.ext.mathjax",
     "sphinxext.opengraph",
     "ablog",
+    "sphinx_design",
 ]
+myst_enable_extensions = ["colon_fence"]
 myst_update_mathjax = False
 templates_path = ["_templates"]
 
@@ -79,11 +81,11 @@ html_theme_options.update(
 html_sidebars = {
     "index": None,
     "about": ["localtoc.html"],
-    "coc": ["localtoc.html"],
-    "contribute": ["localtoc.html"],
+    "coc": None,
+    "contribute": None,
     "blog": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
     "blog/**": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
-    "help": ["localtoc.html"],
+    "help": None,
     "posts/**": ["ablog/postcard.html"],
     # Sphinx dosen't seem to support toctrees relative to an index, so I hacked it.
     "project/index": ["projecttoc.html"],

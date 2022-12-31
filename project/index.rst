@@ -34,7 +34,7 @@ A list of anyone who contributed code to SunPy is available on Github `contribut
 SunPy Board
 ^^^^^^^^^^^
 
-.. card:: Steven Christe
+.. custom-card:: Steven Christe
     :img_name: steve.png
     :github: ehsteve
     :aff_name: NASA GSFC
@@ -43,7 +43,7 @@ SunPy Board
 
     Dr. Steven Christe is a research astrophysicist in the Solar Physics Laboratory at the Goddard Space Flight Center in Greenbelt, Maryland. His science interests focus on hard X-ray emission from solar flares and the quiet Sun with particular emphasis on the statistics of small transient bursts such as solar microflares; hard X-ray emission associated with solar radio emission; and the application of hard X-ray focusing optics to solar observations.
 
-.. card:: David Pérez-Suárez
+.. custom-card:: David Pérez-Suárez
     :img_name: david.png
     :github: dpshelio
     :aff_name: University College London
@@ -52,7 +52,7 @@ SunPy Board
 
     David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorological Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
 
-.. card:: Monica Bobra
+.. custom-card:: Monica Bobra
     :img_name: mbobra.png
     :github: mbobra
     :aff_name: Stanford University
@@ -61,7 +61,7 @@ SunPy Board
 
     Monica Bobra is a research scientist at Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team.
 
-.. card:: Russell Hewett
+.. custom-card:: Russell Hewett
     :img_name: rhewett.png
     :github: rhewett
     :aff_name: Virginia Tech
@@ -70,7 +70,7 @@ SunPy Board
 
     Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python. He is now an assistant Professor of Mathematics at Virginia Tech.
 
-.. card:: Jack Ireland
+.. custom-card:: Jack Ireland
     :img_name: jack.png
     :github: wafels
     :aff_name: ADNET Systems, Inc. / NASA GSFC
@@ -79,7 +79,7 @@ SunPy Board
 
     Jack Ireland is a research scientist at the NASA Goddard Spaceflight Center, working on coronal heating, solar flares and space weather. He has worked as a member of the SOHO, TRACE, Hinode and SDO mission teams. He also runs the Helioviewer Project, which designs systems and services that give users everywhere the capability to explore the Sun and inner heliosphere and to give transparent access to the underlying data. Jack received a B.Sc in Mathematics and Physics and a Ph.D. in Physics from the University of Glasgow, Scotland.
 
-.. card:: Kevin Reardon
+.. custom-card:: Kevin Reardon
     :img_name: kevin.png
     :github: kreardon
     :aff_name: NSO
@@ -88,7 +88,7 @@ SunPy Board
 
     Kevin Reardon is a staff scientist at the National Solar Observatory in Boulder.
 
-.. card:: Stuart Mumford
+.. custom-card:: Stuart Mumford
     :img_name: stuart.png
     :github: cadair
     :aff_name: Sheffield University
@@ -97,7 +97,7 @@ SunPy Board
 
     Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
-.. card:: Tiago Pereira
+.. custom-card:: Tiago Pereira
     :img_name: tiago.png
     :github: tiagopereira
     :aff_name: University of Oslo
@@ -106,7 +106,7 @@ SunPy Board
 
     Tiago Pereira is an Associate Professor at the University of Oslo, at the Rosseland Centre for Solar Physics and the Institute of Theoretical Astrophysics. He received his Ph.D. from the Australian National University, working with 3D MHD models of the solar photosphere and spectral line formation. He subsequently was a NASA Postdoctoral Fellow at NASA Ames and LMSAL, studying the dynamic chromosphere and helping prepare for the IRIS mission. A member of the IRIS science team, Tiago's research focuses on understanding the solar chromosphere by combining multi-wavelength observations with MHD simulations.
 
-.. card:: Bin Chen
+.. custom-card:: Bin Chen
     :img_name: chen.png
     :github: binchensun
     :aff_name: New Jersey Institute of Technology
@@ -121,7 +121,7 @@ Community Roles
 The following people hold named roles in the SunPy community.
 See :ref:`role_descriptions` for more details on each role.
 
-.. card:: Stuart Mumford
+.. custom-card:: Stuart Mumford
     :img_name: stuart.png
     :github: cadair
     :title: Lead Developer
@@ -131,7 +131,7 @@ See :ref:`role_descriptions` for more details on each role.
 
     Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
-.. card:: Will Barnes
+.. custom-card:: Will Barnes
     :img_name: will.png
     :github: wtbarnes
     :title: Deputy Lead Developer
@@ -143,7 +143,7 @@ See :ref:`role_descriptions` for more details on each role.
     Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
     In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
 
-.. card:: Laura Hayes
+.. custom-card:: Laura Hayes
     :img_name: laura.png
     :github: hayesla
     :title: Communication and Education Lead
@@ -153,7 +153,7 @@ See :ref:`role_descriptions` for more details on each role.
 
     Laura Hayes is a research fellow at the European Space Agency at the ESTEC facility in the Netherlands. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA GSFC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with new observations from ESA's Solar Orbiter.
 
-.. card:: David Pérez-Suárez
+.. custom-card:: David Pérez-Suárez
     :img_name: david.png
     :github: dpshelio
     :title: Summer of Code Administrator
@@ -163,13 +163,13 @@ See :ref:`role_descriptions` for more details on each role.
 
     David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorological Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
 
-.. card:: Role Unfilled
+.. custom-card:: Role Unfilled
     :title: Lead Newcomer Mentor
 
     If you are interested in filling this role see the description:
     :ref:`role_lead-mentor`
 
-.. card:: Conor MacBride
+.. custom-card:: Conor MacBride
     :img_name: conor.png
     :github: ConorMacBride
     :title: Continuous Integration Maintainer
@@ -179,7 +179,7 @@ See :ref:`role_descriptions` for more details on each role.
 
     Conor MacBride is a solar physics PhD student at Queen's University Belfast, researching waves in the lower solar atmosphere. Prior to this, he obtained an MPhys degree in Mathematics and Theoretical Physics from the University of St Andrews.
 
-.. card:: David Stansby
+.. custom-card:: David Stansby
     :img_name: david_stansby.png
     :github: dstansby
     :title: Release Manager
@@ -190,13 +190,13 @@ See :ref:`role_descriptions` for more details on each role.
     David Stansby is a Research Software Engineer in UCL's Center for Advanced Research Computing (ARC), writing software for a wide spectrum of research groups across the university.
     Before that he researched the physics of the Solar Wind, our Sun's atmosphere that stretches from the solar surface to beyond the orbit of Pluto.
 
-.. card:: Role Unfilled
+.. custom-card:: Role Unfilled
     :title: Webmaster
 
     If you are interested in filling this role see the description:
     :ref:`role_webmaster`
 
-.. card:: Will Barnes
+.. custom-card:: Will Barnes
     :img_name: will.png
     :github: wtbarnes
     :title: Affiliated Package Liaison
