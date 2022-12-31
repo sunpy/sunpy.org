@@ -1,6 +1,6 @@
 # Getting help
 
-::::{grid} 1 2 2 2
+::::{grid} 1 3 3 3
 
 :::{grid-item-card} Documentation
 For examples, reference, and tutorials see the [sunpy core docs](https://docs.sunpy.org/en/stable/).
@@ -16,10 +16,5 @@ For quick questions join the community chat room.
 :::{grid-item-card} Forum
 :link: https://community.openastronomy.org/c/sunpy/5
 For longer questions post in the community forum.
-:::
-
-:::{grid-item-card} Issues
-:link: https://github.com/sunpy/sunpy/issues
-If you encounter a bug, please report it on GitHub.
 :::
 ::::
