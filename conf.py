@@ -81,8 +81,8 @@ html_theme_options.update(
 html_sidebars = {
     "index": None,
     "about": ["localtoc.html"],
-    "coc": ["localtoc.html"],
-    "contribute": ["localtoc.html"],
+    "coc": None,
+    "contribute": None,
     "blog": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
     "blog/**": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
     "help": None,
