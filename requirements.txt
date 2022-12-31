@@ -5,5 +5,5 @@ ipython
 jupyter_client
 myst-parser
 nbsphinx
-sphinx
+sphinx<6.0.0
 sphinxext-opengraph
