@@ -93,26 +93,25 @@ This primarily involves:
 -  Updating the website as needed.
 -  Implementing analytics on the website and docs.
 
-
 **Estimated Commitment Level**: Around 1 hour per week, but comes in bursts as PRs are opened.
 
-.. _role_subpackage-maintainer:
+.. _role_maintainer:
 
-Subpackage Maintainer
----------------------
+Maintainer
+----------
 
-Responsibilities of sub-package maintainers include:
+Responsibilities of a maintainer (subpackage, or library etc) include:
 
-* Evaluating and soliciting new pull requests which are consistent with the sub-package scope and contribution standards.
+* Evaluating and soliciting new pull requests which are consistent with their scope and contribution standards.
 * Providing material support for open pull requests to enable merging.
-* Maintaining and developing the sub-package roadmap consistent with the roadmap of the overall core package.
+* Maintaining and developing the roadmap consistent with the roadmap of the project.
 * Mentoring the next generation of maintainers and developers.
+* Responding to relevant queries on all official SunPy communication channels.
+* Handling GitHub issues associated with their scope.
+* Overseeing and improving related documentation content.
+* Soliciting and implementing improvements and new additions to related documentation content.
 
-Responsibilities of documentation maintainers include:
-
-* Overseeing and improving content.
-* Soliciting and implementing improvements and new additions to the content.
-* Maintaining and improving the documentation infrastructure.
+**Estimated Commitment Level**: Around 2 hour per week, but comes in bursts as PRs are opened or as questions roll in.
 
 .. _role_lead-mentor:
 

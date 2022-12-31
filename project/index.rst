@@ -208,6 +208,31 @@ See :ref:`role_descriptions` for more details on each role.
     Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
     In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
 
+Maintainers
+^^^^^^^^^^^
+
+The following section list the individuals who extend or maintain various aspects of the SunPy Project that are not covered by the above roles.
+These are people who maintain a submodule of ``sunpy`` or who maintain a separate package that under the control of the SunPy Project.
+These people might also *lead* development of their specific domain.
+
+We are always looking for people to join the SunPy Project to ensure we continue to provide the best possible set of libraries to the solar physics community.
+If you would like to get involved please get in touch.
+
+* `ndcube <https://github.com/sunpy/ndcube>`__: `Daniel Ryan`_ and `Stuart Mumford`_
+* `pyflct <https://github.com/sunpy/pyflct>`__: `Stuart Mumford`_
+* `radiospectra <https://github.com/sunpy/radiospectra>`__: `Shane Maloney`_ and `Laura Hayes`_
+* `sunkit-pyvista <https://github.com/sunpy/sunkit-pyvista>`__: `David Stansby`_
+* `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__: `David Stansby`_
+* `sunpy.coordinates <https://github.com/sunpy/sunpy/tree/main/sunpy/coordinates>`__: `Albert Shih`_
+* `sunraster <https://github.com/sunpy/sunraster>`__: `Daniel Ryan`_
+* `sunxspex <https://github.com/sunpy/sunxspex>`__: `Shane Maloney`_ and `Laura Hayes`_
+* `sunkit-image <https://github.com/sunpy/sunkit-image>`__:
+* `sunkit-instruments <https://github.com/sunpy/sunkit-instruments>`__:
+* `ablog <https://github.com/sunpy/ablog>`__:
+* `sunpy.org <https://github.com/sunpy/sunkit-pyvista>`__:
+* `sunpy-sphinx-theme <https://github.com/sunpy/sunkit-image>`__:
+* `drms <https://github.com/sunpy/drms>`__:
+
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
 .. _Monica Bobra: https://github.com/mbobra
@@ -219,3 +244,5 @@ See :ref:`role_descriptions` for more details on each role.
 .. _Albert Shih: https://github.com/ayshih
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Bin Chen: https://github.com/binchensun
+.. _Shane Maloney: https://github.com/samaloney
+.. _David Stansby: https://github.com/dstansby
