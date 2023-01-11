@@ -98,6 +98,19 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        Version reviewed: `v1.5 <https://github.com/sunpy/sunpy-soar/releases/tag/v1.5>`__
 
+   * - **roentgen**
+     - A package for the quantitative analysis of the interaction of energetic x-rays with matter.
+
+       `Documentation <https://roentgen.readthedocs.io/`__, `Source code <https://github.com/ehsteve/roentgen>`__
+
+       **Maintainer**: `Steven Christe`_, `Shane Maloney`_ `Daniel Ryan`_
+
+       |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+
+       Version reviewed: `v2.1 <https://github.com/ehsteve/roentgen/releases/tag/v2.1.0>`__
+
+
+.. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
 .. _Stuart Mumford: https://github.com/Cadair
