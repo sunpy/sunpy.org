@@ -88,7 +88,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
    * - **sunpy-soar**
-     - A sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR).
+     - A sunpy FIDO plugin for accessing data in the Solar Orbiter Archive (SOAR).
 
        `Documentation <https://github.com/sunpy/sunpy-soar#readme>`__, `Source code <https://github.com/sunpy/sunpy-soar>`__
 
@@ -101,7 +101,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
    * - **roentgen**
      - A package for the quantitative analysis of the interaction of energetic x-rays with matter.
 
-       `Documentation <https://roentgen.readthedocs.io/`__, `Source code <https://github.com/ehsteve/roentgen>`__
+       `Documentation <https://roentgen.readthedocs.io/>`__, `Source code <https://github.com/ehsteve/roentgen>`__
 
        **Maintainer**: `Steven Christe`_, `Shane Maloney`_ `Daniel Ryan`_
 
