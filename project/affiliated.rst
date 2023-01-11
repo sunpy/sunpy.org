@@ -88,7 +88,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
    * - **sunpy-soar**
-     - A sunpy FIDO plugin for accessing data in the Solar Orbiter Archive (SOAR).
+     - A sunpy Fido plugin for accessing data in the Solar Orbiter Archive (SOAR).
 
        `Documentation <https://github.com/sunpy/sunpy-soar#readme>`__, `Source code <https://github.com/sunpy/sunpy-soar>`__
 
@@ -109,6 +109,16 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        Version reviewed: `v2.1 <https://github.com/ehsteve/roentgen/releases/tag/v2.1.0>`__
 
+   * - **sunkit-instruments**
+     - A package for instrument-specific data structures and processing in the SunPy ecosystem.
+
+       `Documentation <https://docs.sunpy.org/projects/sunkit-instruments/en/stable/>`__, `Source code <https://github.com/sunpy/sunkit-instruments>`__
+
+       **Maintainers**: `The SunPy Project`_
+
+       |package_general| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_good| |dev_low|
+
+       Version reviewed: `v0.3.1 <https://github.com/sunpy/sunkit-instruments/releases/tag/v0.3.1>`__
 
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
