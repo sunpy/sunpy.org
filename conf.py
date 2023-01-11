@@ -43,12 +43,13 @@ source_suffix = {
 exclude_patterns = [
     "posts/*/.ipynb_checkpoints/*",
     ".github/*",
-    ".history",
+    ".history/*",
     "github_submodule/*",
     "LICENSE.md",
     "README.md",
     "_build/*",
     "CITATION.rst",
+    ".tox/*",
 ]
 master_doc = "index"
 project = "SunPy"
