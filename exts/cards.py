@@ -50,7 +50,6 @@ def depart_card_node(self, node):
 
 
 class Card(Directive):
-
     has_content = True
     required_arguments = 1
     optional_arguments = 6
@@ -65,7 +64,6 @@ class Card(Directive):
     }
 
     def run(self):
-
         if "title" in self.options:
             title = self.options.get("title")
         else:
