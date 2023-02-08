@@ -35,7 +35,7 @@ SunPy
                         <a href="https://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
                         <a href="https://docs.sunpy.org/en/stable/generated/gallery/index.html" class="btn btn-default btn1" role="button">Example Gallery</a>
                         <br>
-                        <a href="https://openastronomy.element.io/#/room/#sunpy:openastronomy.org" class="btn btn-default btn2" role="button">Chat</a>
+                        <a href="https://app.element.io/#/room/#sunpy:openastronomy.org" class="btn btn-default btn2" role="button">Chat</a>
                         <a href="https://community.openastronomy.org/c/sunpy/5" class="btn btn-default btn2" role="button">Forum</a>
                     </div>
                 </div>

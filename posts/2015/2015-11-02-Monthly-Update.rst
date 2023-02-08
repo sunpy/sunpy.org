@@ -21,7 +21,7 @@ Python 3 Port
 
 One of the major features scheduled for the 0.7 release is Python 3 compatibility.
 To this end a subpackage by subpackage porting effort is underway.
-The master branch of SunPy will now install and import using Python 3.4 or 3.5 (3.3 is untested) and the map, data, util, cm, time, image, io and sun subpackges now have their tests passing.
+The master branch of SunPy will now install and import using Python 3.4 or 3.5 (3.3 is untested) and the map, data, util, cm, time, image, io and sun subpackages now have their tests passing.
 The next major effort is to port the large net submodule across.
 If anyone has any time to contribute to the effort, please drop in to IRC and find me (Cadair).
 

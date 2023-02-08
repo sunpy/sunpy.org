@@ -11,7 +11,7 @@ The SunPy project is happy to announce the release of SunPy 2.0!
 SunPy is an open-source Python library for Solar Physics data analysis and visualization.
 
 This release is our second long(er) term support release, that we will be supporting with bug fixes until 3.0 in roughly a year's time.
-With this release, the 1.0 and 1.1 releases will no longer recieve bug fixes and we encourage everyone to upgrade to 2.0.
+With this release, the 1.0 and 1.1 releases will no longer receive bug fixes and we encourage everyone to upgrade to 2.0.
 
 The major highlights of this release are:
 

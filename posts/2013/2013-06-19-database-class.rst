@@ -11,7 +11,7 @@ Note: I have also a private blog which covers more advanced topics.
 The next post there will be about implementing custom caches and custom commands.
 
 The class Database is the central class of the new database package.
-It is used to connect to a database and to manipulate it (adding new entries, editing exisitng entries, removing entries).
+It is used to connect to a database and to manipulate it (adding new entries, editing existing entries, removing entries).
 Later on, it will also be possible to search for entries by specific criteria (I think about using the sunpy.net.vso.attrs module for querying the database).
 
 Connecting, adding entries, getting all entries and checking for existence

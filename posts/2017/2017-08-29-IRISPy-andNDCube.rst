@@ -8,8 +8,8 @@ IRISPy and NDCube
 
 GSoC has come to an end, it was one of the best summer experience I had.  In
 this summer I had to create a new affiliated package IRISPy but during this
-project making a base package for multi-dimensional contiguious and
-non-contiguious spatially aware arrays (from readme.md of NDCube) was a natural
+project making a base package for multi-dimensional contiguous and
+non-contiguous spatially aware arrays (from readme.md of NDCube) was a natural
 step so ended up developing another repository NDCube.  This was initially
 a part of sunpycube but after breaking and burning everything we ended up with
 ndcube :P.

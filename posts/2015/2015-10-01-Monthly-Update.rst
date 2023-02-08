@@ -8,7 +8,7 @@ SunPy Update - October 2015
 
 I wanted to keep people in the loop about what is happening in the SunPy project, so I thought I would start sending out monthy updates about things that have happened and things that are going to happen.
 This update might be a little longer than usual due to the fact it's the first one, and I want to get everyone up to speed.
-Before I start I just wanted to introduce myself just incase any of you have had the fortune of not knowing.
+Before I start I just wanted to introduce myself just in case any of you have had the fortune of not knowing.
 I am Stuart Mumford, I submitted my PhD thesis last week at the University of Sheffield.
 I am currently lead developer of the SunPy project (again) having taken over from Albert.
 
@@ -16,7 +16,7 @@ September News
 ==============
 
 * `SunPy 0.6.1 released <#>`_
-* `Three summer students succesfully completed their projects <#>`_
+* `Three summer students successfully completed their projects <#>`_
 * `SunPy board meeting <#>`_
 
 SunPy 0.6.1
