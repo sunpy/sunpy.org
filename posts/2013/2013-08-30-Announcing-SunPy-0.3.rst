@@ -22,7 +22,7 @@ Below I highlight some of the major changes, the full change log can be found `h
 * There has also been a big cleanup of the various top level and submodule namespaces to make imports simpler. Most of this has not changed the user facing API, however there are not nicer ways to import submodules, like `sunpy.util.util` is now the same as sunpy.util.
 * The spectra module has been refactored so it also has a `.data` attribute and it's plotting API is now consistent with that of Map and LightCurve
 
-SunPy 0.3 consits of 9 months of work from 15 people and over 300 commits to the git repository.
+SunPy 0.3 consists of 9 months of work from 15 people and over 300 commits to the git repository.
 The people who have contributed to this release are (in commit order):
 
 * Stuart Mumford

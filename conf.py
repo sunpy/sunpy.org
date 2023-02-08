@@ -88,7 +88,7 @@ html_sidebars = {
     "blog/**": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
     "help": None,
     "posts/**": ["ablog/postcard.html"],
-    # Sphinx dosen't seem to support toctrees relative to an index, so I hacked it.
+    # Sphinx doesn't seem to support toctrees relative to an index, so I hacked it.
     "project/index": ["projecttoc.html"],
     "project/roles": ["rolestoc.html"],
     "project/affiliated": ["affiliatedtoc.html"],

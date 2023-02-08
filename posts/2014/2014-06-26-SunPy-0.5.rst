@@ -14,7 +14,7 @@ Special mentions to Daniel Ryan and Andrew Leonard who have both contributed the
 
 New Features:
 
-* map.rotate() improvements and the additon of a aiaprep routine.
+* map.rotate() improvements and the addition of a aiaprep routine.
 * GOES temperature and emission measure calculation.
 * Added functions that implement image coalignment with support for MapCubes.
 * MapCube._maps changed to MapCube.maps.
@@ -29,8 +29,8 @@ New Features:
 * GOES Lightcurve now makes use of a new source of GOES data, provides metadata, and data back to 1981.
 * Fix algorithm in sunpy.sun.equation_of_center.
 * Added contains functionality to TimeRange module
-* Added t='now' to parse_time to privide utcnow datetime.
-* Fixed time dependant functions (.sun) to default to t='now'
+* Added t='now' to parse_time to provide utcnow datetime.
+* Fixed time dependent functions (.sun) to default to t='now'
 * Fixed solar_semidiameter_angular_size
 * Removed sqlalchemy as a requirement for SunPy
 * Some basic tests for GenericLightCurve on types of expected input.

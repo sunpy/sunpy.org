@@ -22,7 +22,7 @@ In this blog post we want to outline our new streamline process for becoming an 
 
 Why would a package want to become an affiliated package?
 ---------------------------------------------------------
-SunPy supports the developement of affiliated packages through our community development efforts and by providing our package template.
+SunPy supports the development of affiliated packages through our community development efforts and by providing our package template.
 The SunPy project will also ensure that affiliated packages are publicized to encourage community development.
 For example, affiliated packages are listed on the SunPy website, and SunPy adverstises them at conferences and workshops.
 
@@ -72,7 +72,7 @@ The review criteria that are assessed are listed as follows with the associated 
 
 * **Community**  - Is the package openly developed with active input and engagement from users within the community? Does the package have a code of conduct and does this reflect the same values as the SunPy project?
 
-* **Development Status** - Is the package well maintained? Are contribution responded to by developers? Is the package still under developement with large API changes?
+* **Development Status** - Is the package well maintained? Are contribution responded to by developers? Is the package still under development with large API changes?
 
 These criteria are reviewed on a 'traffic light' system and ranked 'green', 'orange', or 'red' based on the submitted package.
 For full details of how each of criteria are ranked please check out the `Review Criteria <https://sunpy.org/project/affiliated#affiliated-package-review>`_.
@@ -91,4 +91,4 @@ Reach out!
 ----------
 If you are a developer of a package that you think fits nicely into the SunPy ecosystem and will of benefit to the solar physics community and want to chat to us about it please reach out!
 This can be of course regardless of how far along the package is - from concept to maturity!
-Join us our live chat `Matrix room <https://openastronomy.element.io/#/room/#sunpy:openastronomy.org>`_ or join in on the SunPy weekly community meetings which occur each Wednesday (see `our calendar <https://calendar.google.com/calendar?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`_ for the time in your timezone) and are hosted on `jitsi <https://sunpy.org/jitsi>`_.
+Join us our live chat `Matrix room <https://app.element.io/#/room/#sunpy:openastronomy.org>`_ or join in on the SunPy weekly community meetings which occur each Wednesday (see `our calendar <https://calendar.google.com/calendar?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`_ for the time in your timezone) and are hosted on `jitsi <https://sunpy.org/jitsi>`_.

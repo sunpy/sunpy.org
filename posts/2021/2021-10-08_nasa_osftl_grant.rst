@@ -16,7 +16,7 @@ After `early community input was collected <https://github.com/sunpy/sunpy-proje
 
    This focuses on the tools that the wider project needs to scale up as we adopt more coordinated and affiliated packages.
    To support multiple active projects with a common development workflow, more tooling and infrastructure is needed, both for maintainers of existing packages and developers new to writing affiliated packages.
-   As part of this work templates for setting up new pacakges will be improved, documentation will be written, and new automation and monitoring bots will be developed to ease the burden on the SunPy maintainers.
+   As part of this work templates for setting up new packages will be improved, documentation will be written, and new automation and monitoring bots will be developed to ease the burden on the SunPy maintainers.
 
 2. Augmenting science-enabling functionality.
 

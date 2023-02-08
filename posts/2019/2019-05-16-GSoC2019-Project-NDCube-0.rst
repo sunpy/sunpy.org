@@ -40,7 +40,7 @@ GSoC provides a really good platform to sharpen and develop skills for building 
 
 I started to solve the issues and PRs for SunPy around from January, so this provided me ample time to go through the probable projects and the code base that I would work later on.
 
-Reading codebase requires another skill, the ability to read through long scipts, understanding the flow of code and understanding the different **witch-craft** done in the codebase, and learning about them, which is what that makes up the important skill for making contributions.
+Reading codebase requires another skill, the ability to read through long scripts, understanding the flow of code and understanding the different **witch-craft** done in the codebase, and learning about them, which is what that makes up the important skill for making contributions.
 
 Making Proposal
 =================
