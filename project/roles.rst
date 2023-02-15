@@ -64,8 +64,6 @@ The time commitment is probably around 3-5 hours per week, with additional scope
 
 Release Manager
 ---------------
-**David Stansby**
-
 The release manager is responsible for the logistics of sunpy core releases,
 and assisting with releases of affiliated packages as required. This
 comprises of the following main tasks:

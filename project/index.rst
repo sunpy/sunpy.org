@@ -179,16 +179,8 @@ See :ref:`role_descriptions` for more details on each role.
 
     Conor MacBride is a solar physics PhD student at Queen's University Belfast, researching waves in the lower solar atmosphere. Prior to this, he obtained an MPhys degree in Mathematics and Theoretical Physics from the University of St Andrews.
 
-.. custom-card:: David Stansby
-    :img_name: david_stansby.png
-    :github: dstansby
+.. custom-card:: Role Unfilled
     :title: Release Manager
-    :aff_name: University College London
-    :aff_link: https://www.ucl.ac.uk/advanced-research-computing/expertise/research-software-development
-    :date: 29 November 2021
-
-    David Stansby is a Research Software Engineer in UCL's Center for Advanced Research Computing (ARC), writing software for a wide spectrum of research groups across the university.
-    Before that he researched the physics of the Solar Wind, our Sun's atmosphere that stretches from the solar surface to beyond the orbit of Pluto.
 
 .. custom-card:: Role Unfilled
     :title: Webmaster
@@ -221,8 +213,8 @@ If you would like to get involved please get in touch.
 * `ndcube <https://github.com/sunpy/ndcube>`__: `Daniel Ryan`_ and `Stuart Mumford`_
 * `pyflct <https://github.com/sunpy/pyflct>`__: `Stuart Mumford`_
 * `radiospectra <https://github.com/sunpy/radiospectra>`__: `Shane Maloney`_ and `Laura Hayes`_
-* `sunkit-pyvista <https://github.com/sunpy/sunkit-pyvista>`__: `David Stansby`_
-* `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__: `David Stansby`_
+* `sunkit-pyvista <https://github.com/sunpy/sunkit-pyvista>`__
+* `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__
 * `sunpy.coordinates <https://github.com/sunpy/sunpy/tree/main/sunpy/coordinates>`__: `Albert Shih`_
 * `sunraster <https://github.com/sunpy/sunraster>`__: `Daniel Ryan`_
 * `sunxspex <https://github.com/sunpy/sunxspex>`__: `Shane Maloney`_ and `Laura Hayes`_
@@ -245,4 +237,3 @@ If you would like to get involved please get in touch.
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Bin Chen: https://github.com/binchensun
 .. _Shane Maloney: https://github.com/samaloney
-.. _David Stansby: https://github.com/dstansby

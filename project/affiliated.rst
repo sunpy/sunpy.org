@@ -92,8 +92,6 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
 
        `Documentation <https://github.com/sunpy/sunpy-soar#readme>`__, `Source code <https://github.com/sunpy/sunpy-soar>`__
 
-       **Maintainer**: `David Stansby`_
-
        |package_general| |integration_full| |docs_some| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
        Version reviewed: `v1.5 <https://github.com/sunpy/sunpy-soar/releases/tag/v1.5>`__
