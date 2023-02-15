@@ -195,3 +195,6 @@ These people have previously served in named roles in the SunPy Project, either 
    * - `Nabil Freij <https://github.com/nabobalis>`__
      - Deputy Lead Developer
      - 2016 - 2019
+   * - `David Stansby <https://github.com/dstansby>`__
+     - Release Manager, sunkit-pyvista and sunkit-soar maintainer
+     - 2019 - 2023
