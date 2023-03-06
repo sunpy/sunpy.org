@@ -11,7 +11,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
    :widths: 20, 80
 
    * - **sunpy core**
-     - A core package for solar physics in Python.
+     - The core package for solar physics in Python.
 
        `Documentation <https://docs.sunpy.org/>`__, `Source code <https://github.com/sunpy/sunpy>`__
 
@@ -22,7 +22,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v1.1.4 <https://github.com/sunpy/sunpy/releases/tag/v1.1.4>`__
 
    * - **ndcube**
-     - A base package for multi-dimensional (non)contiguous coordinate-aware arrays.
+     - Base package for multi-dimensional (non)contiguous coordinate-aware arrays.
 
        `Documentation <https://docs.sunpy.org/projects/ndcube>`__, `Source code <https://github.com/sunpy/ndcube>`__
 
@@ -44,7 +44,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v0.5.7 <https://github.com/sunpy/drms/releases/tag/v0.5.7>`__
 
    * - **sunraster**
-     - sunraster is a package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
+     - Package designed for reading, manipulating and visualizing data taken with slit spectrograph instruments.
 
        `Documentation <https://docs.sunpy.org/projects/sunraster/en/latest/>`__, `Source code <https://github.com/sunpy/sunraster>`__
 
@@ -55,7 +55,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v0.1.2 <https://github.com/sunpy/sunraster/releases/tag/v0.1.2>`__
 
    * - **sunkit-image**
-     - An open-source toolbox for solar physics image processing. Currently it is an experimental library for various solar physics specific image processing routines.
+     - Open-source toolbox for solar physics image processing. Currently an experimental library.
 
        `Documentation <https://docs.sunpy.org/projects/sunkit-image/>`__, `Source code <https://github.com/sunpy/sunkit-image/>`__
 
@@ -66,7 +66,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v0.1 <https://github.com/sunpy/sunkit-image/releases/tag/v0.1.0>`__
 
    * - **aiapy**
-     - aiapy is a Python package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
+     - Package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
 
        `Documentation <https://aiapy.readthedocs.io/en/latest/>`__, `Source code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
 
@@ -77,7 +77,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v0.1.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.1.0>`__
 
    * - **pfsspy**
-     - A Python Potential Field Source Surface model package.
+     - Potential Field Source Surface modelling package.
 
        `Documentation <https://pfsspy.readthedocs.io/>`__, `Source code <https://github.com/dstansby/pfsspy/>`__
 
@@ -88,7 +88,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
    * - **sunpy-soar**
-     - A sunpy Fido plugin for accessing data in the Solar Orbiter Archive (SOAR).
+     - sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR).
 
        `Documentation <https://github.com/sunpy/sunpy-soar#readme>`__, `Source code <https://github.com/sunpy/sunpy-soar>`__
 
@@ -99,7 +99,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v1.5 <https://github.com/sunpy/sunpy-soar/releases/tag/v1.5>`__
 
    * - **roentgen**
-     - A package for the quantitative analysis of the interaction of energetic x-rays with matter.
+     - Package for the quantitative analysis of the interaction of energetic x-rays with matter.
 
        `Documentation <https://roentgen.readthedocs.io/>`__, `Source code <https://github.com/ehsteve/roentgen>`__
 
@@ -110,7 +110,7 @@ To aid discoverability, all affiliated packages are listed on the SunPy website,
        Version reviewed: `v2.1 <https://github.com/ehsteve/roentgen/releases/tag/v2.1.0>`__
 
    * - **sunkit-instruments**
-     - A package for instrument-specific data structures and processing in the SunPy ecosystem.
+     - Package for instrument-specific data structures and processing in the SunPy ecosystem.
 
        `Documentation <https://docs.sunpy.org/projects/sunkit-instruments/en/stable/>`__, `Source code <https://github.com/sunpy/sunkit-instruments>`__
 
