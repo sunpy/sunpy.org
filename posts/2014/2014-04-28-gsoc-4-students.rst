@@ -18,7 +18,7 @@ Let's introduce them and their projects:
 
 `Rajul Srivastava <https://github.com/rajul-iitkgp>`_ (a.k.a. rajul), a science student working towards a major in chemistry in Kharagpur (India),
 is going to bring a GUI interface to SunPy.
-This GUI is going to be based in `Ginga <https://github.com/ejeschke/ginga>`_ and the SunPy file database funcionality.
+This GUI is going to be based in `Ginga <https://github.com/ejeschke/ginga>`_ and the SunPy file database functionality.
 
 `Rishabh Sharma <https://github.com/gunner272>`_ (a.k.a. gunner272), who is currently pursuing a Computer Science and Engineering degree at Hyderabad (India), will be working on refractoring the lightcurve module, making it more consistent with the way Map works at the moment.
 This project will also make use of Astropy development, in particular to the `data tables module <https://docs.astropy.org/en/stable/table/index.html>`_.
