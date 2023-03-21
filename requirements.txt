@@ -1,10 +1,10 @@
-ablog>=0.11.0
+ablog
 sunpy-sphinx-theme
 ipykernel
 ipython
 jupyter_client
 myst-parser
 nbsphinx
-sphinx<6.0.0
+sphinx
 sphinxext-opengraph
 sphinx-design
