@@ -4,7 +4,7 @@
 .. post:: 28 April 2014
    :author: David Pérez-Suárez
    :tags: students
-   :category: GSoC
+   :category: Google Summer of Code
 
 Wonderful news for SunPy!
 This year is the `10th edition of Google Summer of Code <https://www.google-melange.com/gsoc/homepage/google/gsoc2014>`_, and SunPy is participating again for the second year in a row!

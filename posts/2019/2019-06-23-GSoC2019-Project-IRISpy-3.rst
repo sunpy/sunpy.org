@@ -4,7 +4,7 @@ GSoC 2019: Project IRISpy 1.2
 .. post:: June 23, 2019
    :author: Kris Stern
    :tags: GSoC, IRISpy, NDCube
-   :category: GSoC
+   :category: Google Summer of Code
 
 Four weeks have passed since the commencement of the Coding Period on May 27th, 2019 (EST). Soon our 1st evaluation will come up, which in itself is an exciting time as we will be judged on whether we will be qualified to go on to the next round. In my opinion I have done most of what have been agreed between me and my mentors. Comparing to my peers my project probably is more manageable, as an IDL version of the code already exists which provides us with a source code from which a Python-translation is written. And, the level of the project is relatively easy, so that the concepts involved are pretty basic. In this blog post, I would like to discuss about a trinity of techniques I have developed as a rookie software developer to deal with issues arising during the implementation of some new function into the broader code base. For the most up-to-date status of the PR please head to `link <https://github.com/sunpy/irispy/pull/108>`_.
 

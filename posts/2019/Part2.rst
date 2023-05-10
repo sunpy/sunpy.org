@@ -4,7 +4,7 @@ Part 2: The Dive
 .. post:: June 9, 2019
    :author: Vatsalya Chaubey
    :tags: GSoC, Sunpy, Sunkit-image
-   :category: GSoC
+   :category: Google Summer of Code
 
 The **Coding Period** of the Google Summer of Code officially began on
 27th May 2019 — for me, it was the day when the "**Dive**" into the

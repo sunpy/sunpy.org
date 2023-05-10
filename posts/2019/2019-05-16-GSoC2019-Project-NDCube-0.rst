@@ -4,7 +4,7 @@ Getting selected for Google Summer of Code-2019
 .. post:: May 16, 2019
    :author: Yash Sharma
    :tags: GSoC, NDCube
-   :category: GSoC
+   :category: Google Summer of Code
 
 
 This short blogpost describes the journey of getting selected for Google Summer of Code, under SunPy organisation, for 2019.

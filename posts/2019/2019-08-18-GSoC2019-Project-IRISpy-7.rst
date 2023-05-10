@@ -4,7 +4,7 @@ GSoC 2019: Project IRISpy 3.2
 .. post:: August 18, 2019
    :author: Kris Stern
    :tags: GSoC, IRISpy
-   :category: GSoC
+   :category: Google Summer of Code
 
 It is my pleasure to report that with my mentors' assistance as well as my many hours of contributing to the sunpy/irispy GitHub repo, I have been able to reach all four goals original set out by the primary mentor Danny Ryan, which are as follows:
 

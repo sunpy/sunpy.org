@@ -4,7 +4,7 @@ ESA Summer of Code
 .. post:: 2 September 2013
    :author: Stuart Mumford
    :tags: call, students
-   :category: SOCIS
+   :category: ESA Summer of Code
 
 I am happy to announce that for the third year running SunPy has got a summer student from ESA's SOCIS program.
 This year the student is Tomas Meszaros.

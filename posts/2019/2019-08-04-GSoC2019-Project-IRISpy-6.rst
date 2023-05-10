@@ -4,7 +4,7 @@ GSoC 2019: Project IRISpy 3.1
 .. post:: August 4, 2019
    :author: Kris Stern
    :tags: GSoC, IRISpy
-   :category: GSoC
+   :category: Google Summer of Code
 
 Grateful to report that I have eventually solved the issues encountered as stated in blog post 2.2 in the series for my GSoC project… and most important of all with my mentors' blessings I have successfully passed the 2nd coding phase. Moreover, I am delighted to report that my most significant contribution on GitHub thus far, which is the PR to enable time-dependent effective areas determination of IRISpy, has been merged about 6 days ago. More can be found about this PR at the link `here <https://github.com/sunpy/irispy/pull/108>`_.
 

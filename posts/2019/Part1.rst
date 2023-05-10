@@ -4,7 +4,7 @@
 .. post:: May 26, 2019
    :author: Vatsalya Chaubey
    :tags: GSoC, Sunpy, Sunkit-image
-   :category: GSoC
+   :category: Google Summer of Code
 
 In this series of posts, I describe my journey as a Google Summer of
 Code student. These posts would mostly include my work during the weeks

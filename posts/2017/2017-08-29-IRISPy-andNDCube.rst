@@ -4,7 +4,7 @@ IRISPy and NDCube
 .. post:: Aug 29, 2017
    :author: Ankit Baruah
    :tags: GSoC, Code, Fun
-   :category: GSoC
+   :category: Google Summer of Code
 
 GSoC has come to an end, it was one of the best summer experience I had.  In
 this summer I had to create a new affiliated package IRISPy but during this

@@ -4,7 +4,7 @@ Google Summer of Code 2019 \| Final Report \| OpenAstronomy \| NDCube
 .. post:: August 24, 2019
    :author: Yash Sharma
    :tags: GSoC, NDCube
-   :category: GSoC
+   :category: Google Summer of Code
 
 Google Summer of Code 2019 \| Final Report \| OpenAstronomy \| NDCube
 ---------------------------------------------------------------------

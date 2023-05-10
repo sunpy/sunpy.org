@@ -3,7 +3,7 @@ GSoC 2019: Community Bonding Period — II
 .. post:: May 26, 2019
    :author: Yash Sharma
    :tags: GSoC, NDCube
-   :category: GSoC
+   :category: Google Summer of Code
 
 |image0|
 
