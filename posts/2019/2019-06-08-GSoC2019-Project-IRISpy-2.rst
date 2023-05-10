@@ -4,7 +4,7 @@ GSoC 2019: Project IRISpy 1.1
 .. post:: June 8, 2019
    :author: Kris Stern
    :tags: GSoC, IRISpy, NDCube
-   :category: GSoC
+   :category: Google Summer of Code
 
 It has been two weeks since the commencement of the coding phase… I can't believe it, as it seems like time files. But to sum up the time that passed the following is a brief summary report for what tasks have been completed and what remains:
 

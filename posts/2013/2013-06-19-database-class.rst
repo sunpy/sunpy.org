@@ -5,7 +5,7 @@ The Database class
 .. post:: 19 June 2013
    :author: Simon Liedtke
    :tags: student, progress, database
-   :category: GSoC
+   :category: Google Summer of Code
 
 Note: I have also a private blog which covers more advanced topics.
 The next post there will be about implementing custom caches and custom commands.

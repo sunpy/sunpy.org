@@ -4,7 +4,7 @@ Part 7: The End Arrives
 .. post:: August 19, 2019
    :author: Vatsalya Chaubey
    :tags: GSoC, Sunpy, Sunkit-image
-   :category: GSoC
+   :category: Google Summer of Code
 
 
 It has now been twelve weeks since I began this journey and finally, the

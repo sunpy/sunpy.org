@@ -3,7 +3,7 @@
 .. post:: June 19, 2019
    :author: Yash Sharma
    :tags: GSoC, NDCube
-   :category: GSoC
+   :category: Google Summer of Code
 
 |image0|
 

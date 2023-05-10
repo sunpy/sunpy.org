@@ -4,7 +4,7 @@ Part 5: The Second Evaluation Awaits
 .. post:: July 21, 2019
    :author: Vatsalya Chaubey
    :tags: GSoC, Sunpy, Sunkit-image
-   :category: GSoC
+   :category: Google Summer of Code
 
 
 The fifth part of the ongoing series of my blog posts on my experience

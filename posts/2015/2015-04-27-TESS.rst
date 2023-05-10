@@ -4,7 +4,7 @@ Info for the SunPy Tutorial at the TESS 2015
 .. post:: 27 April 2015
    :author: Steven Christe
    :tags: workshop, talks, tutorials
-   :category: SOCIS
+   :category: ESA Summer of Code
 
 Welcome `TESS <http://aas.org/meetings/tess2015/>`_ attendees to the `Introduction to Solar Data Analysis in Python <http://aas.org/meetings/tess2015/ancillary_events>`_!
 

@@ -4,7 +4,7 @@ GSoC 2019: Project IRISpy 0.1
 .. post:: May 15, 2019
    :author: Kris Stern
    :tags: GSoC, IRISpy, NDCube
-   :category: GSoC
+   :category: Google Summer of Code
 
 The community bonding period of this year's GSoC is officially under way. The project I am embarking on has to do with adding a new feature to IRISpy, which is a essentially a package that is developed on top of SunPy's NDCube package, and is written in the popular Python programming language. IRISpy itself (albeit not yet released) provides functionalities to read, manipulate, and visualize data collected with NASA's `IRIS satellite <http://iris.lmsal.com/>`_ which looks at UV emission from the solar chromosphere. The proposed new feature is a time-dependent instrument response function, which will give scientists far greater power and ability to perform IRIS data analysis in Python, as well as to make new discoveries regarding the energetics and dynamics of the solar chromosphere and transition region than previously allowed. For more information on both the IRIS instrument and IRISpy, please take a look at `the SunPy documentations for IRISpy <https://docs.sunpy.org/projects/irispy/en/latest/introduction.html>`_.
 

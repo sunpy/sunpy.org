@@ -4,7 +4,7 @@ Part 3: The Debugging
 .. post:: June 22, 2019
    :author: Vatsalya Chaubey
    :tags: GSoC, Sunpy, Sunkit-image
-   :category: GSoC
+   :category: Google Summer of Code
 
 This is part 3 of the ongoing series of my blog posts describing my
 journey as a Google Summer Of Code student working with Sunpy to develop

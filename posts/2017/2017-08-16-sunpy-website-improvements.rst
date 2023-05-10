@@ -5,7 +5,7 @@ Sunpy Website Improvements
 .. post:: Aug 16, 2017
    :author: Duygu KESKEK
    :tags: GSoC, Code, Fun
-   :category: GSoC
+   :category: Google Summer of Code
 
 Believe or not, there is only one week left to the end of GSoC!
 The whole GSoC period became an unforgettable experience for me.

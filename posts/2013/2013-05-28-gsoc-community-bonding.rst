@@ -4,7 +4,7 @@ Gsoc Community Bonding
 .. post:: 28 May 2013
    :author: David Pérez-Suárez
    :tags: students
-   :category: GSoC
+   :category: Google Summer of Code
 
 From our last post you may remember that SunPy is participating in GSOC-2013 under the PSF <http://wiki.python.org/moin/SummerOfCode/2013>`_ (!= `Point Spread Function <http://en.wikipedia.org/wiki/Point_spread_function>`_.
 Yesterday, Google announced the accepted candidates for their summer of code.

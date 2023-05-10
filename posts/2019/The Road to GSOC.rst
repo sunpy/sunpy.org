@@ -4,7 +4,7 @@ The Road To Google Summer Of Code
 .. post:: May 18, 2019
    :author: Vatsalya Chaubey
    :tags: GSoC, Sunpy, Sunkit-image
-   :category: GSoC
+   :category: Google Summer of Code
 
 We have been taught from our childhoods that nothing can be earned
 without toiling hard, to achieve something we need to sacrifice

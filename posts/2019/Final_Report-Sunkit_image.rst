@@ -4,7 +4,7 @@ Sunkit-Image: Final GSOC Report
 .. post:: August 24, 2019
    :author: Vatsalya Chaubey
    :tags: GSoC, Sunpy, Sunkit-image
-   :category: GSoC
+   :category: Google Summer of Code
 
 
 This project developed several image processing algorithms and

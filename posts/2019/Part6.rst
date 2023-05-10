@@ -4,7 +4,7 @@ Part 6: Reaching the Summit
 .. post:: August 5, 2019
    :author: Vatsalya Chaubey
    :tags: GSoC, Sunpy, Sunkit-image
-   :category: GSoC
+   :category: Google Summer of Code
 
 If I describe my journey through Google Summer of Code as an arduous
 mountain climbing adventure then finally I have reached a point from
