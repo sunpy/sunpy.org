@@ -177,6 +177,8 @@ My initial recommendation would be to adopt `xarray.DataArray`, as the two red i
 - It *should* (I haven't confirmed this) be possible to convert times in different time scales (including ones with leap seconds) to a single timescale that doesn't have leap seconds, and store this in an `xarray.DataArray`.
 - Although there is not native support for units in `DataArray` currently, there is interest and ongoing development to support them.
 
+It is unclear to me (because I did not have time to investigate) how hard it would be to implement support for storing rich coordinates (ie. `astropy.SkyCoord`) in the extra_coords part of xarray data structures.
+
 In contrast I think implementing multi-dimensional data in `astropy.TimeSeries`, adding documentation for out of memory datasets, and implementing easy data manipulation methods would take significantly more effor than this.
 Finally, `xarray` has a much bigger development community than `astropy.TimeSeries`, so implementing bug fixes and new features would probably be much easier with `xarray`.
 
