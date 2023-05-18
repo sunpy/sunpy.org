@@ -15,7 +15,7 @@ The first stage of my work investigated what the user requirements are for a sun
 - [Discussion on the Python in Heliophysics mailing list](https://groups.google.com/g/pyhc-list/c/ujnZEZcsI_k/m/gNfYrIJdBgAJ)
 - [Discussion on the SunPy forum](https://community.openastronomy.org/t/choosing-a-future-data-container-for-timeseries-data/556?u=dstansby)
 
-From these discsusion came the following list of requirements:
+From these discsusions came the following list of requirements:
 
 | Requirement | Notes |
 | ----------- | ----- |
@@ -152,7 +152,7 @@ Having found possible options, in this section I've evaluated them against the c
 
 ## Initial recommendations
 - `numpy.ndarray` doesn't implement several key features, and these are almost certainly out of scope for future `ndarray` development, so I suggest `ndarray` is discounted.
-- `xarray.DataArray` builds on top of `pandas.DataFrame` with additional features that would be useful to us, I suggest `pandas.DataFrame` is dicsounted.
+- `xarray.DataArray` builds on top of `pandas.DataFrame` with additional features that would be useful to us, I suggest `pandas.DataFrame` is discounted.
 - `NDCube` is designed specifically to store data that is associated with a FITS world coordinate system (WCS). While some solar timeseries data is already in the FITS format, a large portion is in CDF format which is tabular, which FITS is not primarily designed to represent. So I suggest `NDCube` is discounted.
 
 At a SunPy community meeting there was a consensus agreement that going forward we should consider `astropy.TimeSeries` and `xarray.DataArray` as the two options to consider.
@@ -168,15 +168,16 @@ These two options have the following comparison:
 | Interop with scientific Python | 🟩 | 🟩 |
 | Out of memory | 🟠  | 🟩 |
 | Metadata | 🟩  | 🟩  |
-| Observer coordinates | 🛑 | 🟠 |
+| Observer coordinates | 🟩 | 🟠 |
 | Easy data manipulation | 🟠 | 🟩 |
 | I/O | 🟩 | 🟩 |
 
-My initial recommendation would be to adopt `xarray.DataArray`, as there are more green items compared to `astropy.TimeSeries`. I also think the two red items have the possibility of being solved with `DataArray`:
+My initial recommendation would be to adopt `xarray.DataArray`, as the two red items have a strong possibility of being solved with `DataArray`:
 
-- It *should* (I haven't confirmed this) be possible to convert times in different time scales (including ones with leapseconds) to a single timescale that doesn't have leapseconds, and store this in an `xarray.DataArray`.
+- It *should* (I haven't confirmed this) be possible to convert times in different time scales (including ones with leap seconds) to a single timescale that doesn't have leap seconds, and store this in an `xarray.DataArray`.
 - Although there is not native support for units in `DataArray` currently, there is interest and ongoing development to support them.
 
+In contrast I think implementing multi-dimensional data in `astropy.TimeSeries`, adding documentation for out of memory datasets, and implementing easy data manipulation methods would take significantly more effor than this.
 Finally, `xarray` has a much bigger development community than `astropy.TimeSeries`, so implementing bug fixes and new features would probably be much easier with `xarray`.
 
 ## Putting `astropy` objects in `xarray` structures
@@ -187,7 +188,7 @@ As a model for doing this, it is currently possible to store unitful data create
 - `xarray` [natively supports storing duck arrays](https://docs.xarray.dev/en/stable/internals/duck-arrays-integration.html)
 - `xarray-pint` provides a set of accessors that can be used to serialise and de-serialise unitful data so that it can be saved to a file and loaded again. It does this by converting the unit data into metadata, with strings representing units.
 
-It is not currently possible to store `astropy.Quantity` objects in `xarray` structures, as they inherit directly from `ndarray`, and get co-erced from `Quantity` to `ndarray` durying the `xarray` structure initialisation. I think fixing this is (at least initially) a one line change, changing [this line](https://github.com/pydata/xarray/blob/51554f2638bc9e4a527492136fe6f54584ffa75d/xarray/core/variable.py#L288) from
+It is not currently possible to store `astropy.Quantity` objects in `xarray` structures, as they inherit directly from `ndarray`, and get coerced from `Quantity` to `ndarray` during the `xarray` structure initialisation. I think fixing this is (at least initially) a one line change, changing [this line](https://github.com/pydata/xarray/blob/51554f2638bc9e4a527492136fe6f54584ffa75d/xarray/core/variable.py#L288) from
 ```python
 data = np.asarray(data)
 ```
