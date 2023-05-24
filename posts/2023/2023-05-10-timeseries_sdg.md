@@ -6,7 +6,8 @@
 # The future of time series data in `sunpy`
 
 In late 2022 I got a [small development grant](https://numfocus.org/programs/small-development-grants) from [NumFocus](https://numfocus.org/) to scope the future of time series data in `sunpy`.
-The successful application [can be read on the sunpy wiki](https://github.com/sunpy/sunpy/wiki/2022-Timeseries-Small-Development-Grant). The application contains context that I won't repeat here.
+The successful application [can be read on the sunpy wiki](https://github.com/sunpy/sunpy/wiki/2022-Timeseries-Small-Development-Grant).
+The application contains context that I won't repeat here.
 This blog post is the key outcome of this grant, with a record of what I did, the recommendations I made, and any decisions we came to as a community.
 
 ## User requirements
@@ -34,7 +35,8 @@ From these discsusions came the following list of requirements:
 | Functionality for loading and saving out to common file formats | |
 
 ## Existing options for a data container
-The next step was to identify a set of possible data containers that could be used to store time- series data in sunpy. The identified options were:
+The next step was to identify a set of possible data containers that could be used to store time- series data in sunpy.
+The identified options were:
 
 - `astropy.timeseries.TimeSeries`
 - `pandas.DataFrame`
@@ -61,7 +63,8 @@ I also looked at what [Python in Heliophysics projects](https://heliopython.org/
 There is no common container used, with only `astropy.TimeSeries` not represented out of the possible options above.
 
 ### What datasets does sunpy currently support?
-sunpy currently has built in support for reading CDF files that conform to the [Space Physics Guidelines for CDF](https://spdf.gsfc.nasa.gov/sp_use_of_cdf.html), as long as the dataset is one- or two- dimensional. Alongside this several custom data readers have been written to support different data sources:
+sunpy currently has built in support for reading CDF files that conform to the [Space Physics Guidelines for CDF](https://spdf.gsfc.nasa.gov/sp_use_of_cdf.html), as long as the dataset is one- or two- dimensional.
+Alongside this several custom data readers have been written to support different data sources:
 
 (links point to the data source information web page)
 | Data product(s) | File format |
@@ -186,9 +189,11 @@ Finally, `xarray` has a much bigger development community than `astropy.TimeSeri
 
 For the final part of the small development grant, I investigated the changes needed to put `astropy` objects in `xarray` structures.
 
-As a model for doing this, it is currently possible to store unitful data created with `pint` in `xarray` structures. Support for doing this has two components:
+As a model for doing this, it is currently possible to store unitful data created with `pint` in `xarray` structures.
+Support for doing this has two components:
 - `xarray` [natively supports storing duck arrays](https://docs.xarray.dev/en/stable/internals/duck-arrays-integration.html)
-- `xarray-pint` provides a set of accessors that can be used to serialise and de-serialise unitful data so that it can be saved to a file and loaded again. It does this by converting the unit data into metadata, with strings representing units.
+- `xarray-pint` provides a set of accessors that can be used to serialise and deserialise unitful data so that it can be saved to a file and loaded again.
+  It does this by converting the unit data into metadata, with strings representing units.
 
 It is not currently possible to store `astropy.Quantity` objects in `xarray` structures, as they inherit directly from `ndarray`, and get coerced from `Quantity` to `ndarray` during the `xarray` structure initialisation. I think fixing this is (at least initially) a one line change, changing [this line](https://github.com/pydata/xarray/blob/51554f2638bc9e4a527492136fe6f54584ffa75d/xarray/core/variable.py#L288) from
 ```python
@@ -200,6 +205,7 @@ if not isinstance(data, np.array):
     data = np.asarray(data)
 ```
 
-Before moving forward with this it needs to be possible to run the full unit tests in xarray with `astropy.Quantity`. I started work on this in these two PRs:
+Before moving forward with this it needs to be possible to run the full unit tests in xarray with `astropy.Quantity`.
+I started work on this in these two PRs:
 - [https://github.com/pydata/xarray/pull/7799](https://github.com/pydata/xarray/pull/7799)
 - [https://github.com/pydata/xarray/pull/7800](https://github.com/pydata/xarray/pull/7800)
