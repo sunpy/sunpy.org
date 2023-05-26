@@ -1,5 +1,5 @@
 ablog>=0.11.0rc1
-sunpy-sphinx-theme @ git+https://github.com/dstansby/sunpy-sphinx-theme@structure
+sunpy-sphinx-theme
 ipykernel
 ipython
 jupyter_client
