@@ -16,7 +16,7 @@ This enables the targeted support of other solar physics Python packages that do
 
 We are proud to be a `NUMFocus`_ sponsored project and have been supported by `ESA`_, `PSF`_ and `Google`_ to name a few.
 SunPy has become a global project that is not associated with any individual institution.
-More information about the SunPy project can be find :doc:`./project/index`.
+More information about the SunPy project can be find :doc:`/about/project`.
 
 .. _Python programming language: https://www.python.org/
 .. _NumPy: https://www.numpy.org/
@@ -29,14 +29,6 @@ More information about the SunPy project can be find :doc:`./project/index`.
 .. _ESA: http://sophia.estec.esa.int/socis/
 .. _PSF: https://www.python.org/psf/
 .. _Google: https://developers.google.com/open-source/gsoc/
-
-Code of Conduct
-===============
-
-We have a :ref:`coc`, which we expect everyone to follow.
-
-.. CITATION.rst is downloaded from the sunpy/sunpy repo in conf.py
-.. include:: CITATION.rst
 
 Presentations and Posters
 =========================

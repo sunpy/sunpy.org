@@ -8,3 +8,4 @@ nbsphinx
 sphinx<6.0.0
 sphinxext-opengraph
 sphinx-design
+sphinx_reredirects

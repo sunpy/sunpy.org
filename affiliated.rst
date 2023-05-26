@@ -7,6 +7,9 @@ Affiliated Packages
 Affiliated packages are well-maintained, open source software packages that are useful to solar physicists and integrate well with the SunPy ecosystem.
 To aid discoverability, all affiliated packages are listed on the SunPy website, and the SunPy project tries to advertise them at national and international conferences and workshops.
 
+Package list
+------------
+
 .. list-table::
    :widths: 20, 80
 
