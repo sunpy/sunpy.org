@@ -52,9 +52,8 @@ SunPy
    :maxdepth: 0
    :hidden:
 
-   about
-   blog
+   about/index
+   affiliated
    help
-   project/index
    contribute
-   coc
+   blog

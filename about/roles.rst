@@ -1,8 +1,8 @@
 .. _role_descriptions:
 
-===========================
-Community Role Descriptions
-===========================
+===============
+Community Roles
+===============
 
 This section describes each of the SunPy projects community (executive) roles, and lists the current holder(s) of that role. Community members can also participate by being members of the board.
 We would like to encourage anyone interested parties to apply to roles which are currently unfilled by contacting  the lead developer or the deputy lead developer.
