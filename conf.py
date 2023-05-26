@@ -94,11 +94,11 @@ html_sidebars = {
 }
 
 redirects = {
-    "about": "about/mission",
-    "project/meetings": "about/meetings",
-    "project/roles": "about/roles",
-    "project/index": "about/project",
-    "project/affiliated": "affiliated",
+    "/about": "/about/mission",
+    "/project/meetings": "/about/meetings",
+    "/project/roles": "/about/roles",
+    "/project": "/about/project",
+    "/project/affiliated": "/affiliated",
 }
 
 # nbsphinx options
