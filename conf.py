@@ -16,6 +16,7 @@ extensions = [
     "sphinxext.opengraph",
     "ablog",
     "sphinx_design",
+    "sphinx_reredirects",
 ]
 myst_enable_extensions = ["colon_fence"]
 myst_update_mathjax = False
@@ -81,17 +82,23 @@ html_theme_options.update(
 
 html_sidebars = {
     "index": None,
-    "about": ["localtoc.html"],
-    "coc": None,
+    "about/**": ["abouttoc.html"],
+    "coc": ["abouttoc.html"],
     "contribute": None,
     "blog": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
     "blog/**": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
     "help": None,
     "posts/**": ["ablog/postcard.html"],
     # Sphinx doesn't seem to support toctrees relative to an index, so I hacked it.
-    "project/index": ["projecttoc.html"],
-    "project/roles": ["rolestoc.html"],
-    "project/affiliated": ["affiliatedtoc.html"],
+    "affiliated": ["affiliatedtoc.html"],
+}
+
+redirects = {
+    "about": "about/mission",
+    "project/meetings": "about/meetings",
+    "project/roles": "about/roles",
+    "project": "about/project",
+    "project/affiliated": "affiliated",
 }
 
 # nbsphinx options
