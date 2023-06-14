@@ -31,8 +31,8 @@ SunPy
                     <p class="body">Latest stable release: <span id="version"></span></p>
                     </div>
                     <div>
-                        <a href="https://docs.sunpy.org/en/stable/guide/installation.html" class="btn btn-default btn2" role="button">Install SunPy</a>
-                        <a href="https://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
+                        <a href="https://docs.sunpy.org/en/stable/tutorial/installation.html" class="btn btn-default btn2" role="button">Install sunpy</a>
+                        <a href="https://docs.sunpy.org/en/stable/tutorial/index.html" class="btn btn-default btn1" role="button">sunpy tutorial</a>
                         <a href="https://docs.sunpy.org/en/stable/generated/gallery/index.html" class="btn btn-default btn1" role="button">Example Gallery</a>
                         <br>
                         <a href="https://app.element.io/#/room/#sunpy:openastronomy.org" class="btn btn-default btn2" role="button">Chat</a>
