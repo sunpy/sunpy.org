@@ -123,6 +123,17 @@ Package list
 
        Version reviewed: `v0.3.1 <https://github.com/sunpy/sunkit-instruments/releases/tag/v0.3.1>`__
 
+   * - **demcmc**
+     - Package for differential emission measure (DEM) estimation using Monte Carlo Markov chain (MCMC) methods
+
+       `Documentation <https://demcmc.readthedocs.io/en/latest/>`__, `Source code <https://github.com/dstansby/demcmc>`__
+
+       **Maintainers**: `David Stansby`_
+
+       |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_low|
+
+       Version reviewed: `v1.1.0 <https://github.com/dstansby/demcmc/releases/tag/v1.1.0>`__
+
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
