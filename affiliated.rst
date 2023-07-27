@@ -134,6 +134,17 @@ Package list
 
        Version reviewed: `v1.1.0 <https://github.com/dstansby/demcmc/releases/tag/v1.1.0>`__
 
+   * - **dkist**
+     - A package which aims to help you search, obtain and use DKIST data as part of your Python software.
+
+       `Documentation <https://docs.dkist.nso.edu/projects/python-tools>`__, `Source code <https://github.com/DKISTDC/dkist>`__
+
+       **Maintainers**: DKIST Data Center Team & `Stuart Mumford`_
+
+       |package_specialized| |integration_full| |docs_good| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+
+       Version reviewed: `v1.0.0b15 <https://github.com/DKISTDC/dkist/releases/tag/v1.0.0b15>`__
+
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
