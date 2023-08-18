@@ -71,28 +71,26 @@ html_theme_options.update(
     {
         "show_prev_next": False,
         "on_rtd": False,
+        "use_download_button": False,
+        "use_fullscreen_button": False,
     }
 )
 
+blog_sidebars = [
+    "ablog/postcard.html",
+    "ablog/recentposts.html",
+    "ablog/tagcloud.html",
+    "ablog/categories.html",
+    "ablog/archives.html",
+]
+
 html_sidebars = {
-    "index": [],
-    "blog/*": [
-        "ablog/postcard.html",
-        "ablog/recentposts.html",
-        "ablog/tagcloud.html",
-        "ablog/categories.html",
-        "ablog/authors.html",
-        "ablog/languages.html",
-        "ablog/locations.html",
-        "ablog/archives.html",
-    ],
-#     "about/**": ["abouttoc.html"],
-#     "coc": ["abouttoc.html"],
-#     "contribute": None,
-#     "help": None,
-#     "posts/**": ["ablog/postcard.html"],
-#     # Sphinx doesn't seem to support toctrees relative to an index, so I hacked it.
-#     "affiliated": ["affiliatedtoc.html"],
+    "*": [],
+    "about/**": ["website-sidebar.html"],
+    "coc": ["website-sidebar.html"],
+    "posts/**": ["ablog/postcard.html"],
+    "blog": blog_sidebars,
+    "blog/**": blog_sidebars,
 }
 
 redirects = {

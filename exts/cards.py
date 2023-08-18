@@ -17,15 +17,15 @@ def visit_card_node(self, node):
     body = f"""<div class="column {col_extra_class}">
                 {title}
                 <div class="card">
-                <img src="/_static/img/{node['img_name']}" alt="{node['name']}">
+                <img class="dark-light" src="/_static/img/{node['img_name']}" alt="{node['name']}">
                 <p>{node['name']}</p>
-                <p><button class="button" data-toggle="modal" data-target="#{key}">More Info</button></p>
-                <div class="modal fade" id="{key}" role="dialog" style="display: none;">
+                <p><button type="button" class="btn btn-sunpy btn-sunpy1" data-bs-toggle="modal" data-bs-target="#{key}">More Info</button></p>
+                <div class="modal fade" id="{key}" tabindex=-1>
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
                                 <h4 class="modal-title center">{node['name']}</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
     """
@@ -37,9 +37,6 @@ def depart_card_node(self, node):
                                 <p>Affiliation: <a href="{node['aff_link']}">{node['aff_name']}</a></p>
                                 <p>GitHub: <a href="https://github.com/{node['github']}">{node['github']}</a></p>
                                 <p>Start Date: {node['date']}</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>

@@ -21,27 +21,56 @@ SunPy
           .bd-header-article {
             display: none;
           }
+          .whatsnew {
+            padding-top: 15px;
+            font-size: 30px;
+            text-align: center;
+          }
+          .whatsnew a {
+            color: var(--sst-sunpy-logo-primary-color);
+            font-weight: bold;
+            text-decoration: none;
+          }
+          p.whatsnew{
+            margin-bottom: 0;
+            color: var(--sst-sunpy-darkest-gray)
+          }
+          #front {
+            border: 1px var(--sst-sunpy-light-gray) solid;
+            border-left-style: none;
+            border-right-style: none;
+          }
+          @media only screen and (min-width: 768px) {
+            .lead {
+              font-size: 1.8rem;
+            }
+          }
+          /* TODO: Use flex here */
+          .logo-container {
+            margin-top: 2%;
+            margin-bottom: 5%;
+          }
         </style>
         <div class="container">
             <div class="row logo-container">
                 <div class="col-md-6 center">
-                    <img id="logo" src="_static/img/sunpy_icon.svg" class="sunpy-logo" alt="SunPy Logo">
+                    <img id="logo" class="dark-light" src="_static/img/sunpy_icon.svg" class="sunpy-logo" alt="SunPy Logo">
                 </div>
                 <div class="col-md-6 center">
-                    <div class="sunpy-icon-text">
-                        <p>sun<span class="sunpy-icon-text-color2">py</span></p>
+                    <div class="text-center">
+                        <p class="sunpy-icon-text">sun<span class="sunpy-icon-text-color2">py</span></p>
                     </div>
-                    <p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
-                    <div id="front" class="border">
-                    <p class="whatsnew">What's new in <a href="https://docs.sunpy.org/en/stable/whatsnew/5.0.html">sunpy 5.0?</a></p>
-                    <p class="body">Latest stable release: <span id="version"></span></p>
+                    <p class="lead text-center always-light-theme">The community-developed, free and open-source solar data analysis environment for Python.</p>
+                    <div id="front" class="text-center">
+                    <p class="whatsnew always-light-theme">What's new in <a href="https://docs.sunpy.org/en/stable/whatsnew/5.0.html">sunpy 5.0?</a></p>
+                    <p class="body always-light-theme">Latest stable release: <span id="version"></span></p>
                     </div>
-                    <div class="grid text-center">
-                        <a href="https://docs.sunpy.org/en/stable/tutorial/installation.html" class="btn btn-default btn-lg" type="button">Install sunpy</a>
-                        <a href="https://docs.sunpy.org/en/stable/tutorial/index.html" class="btn btn-default btn-lg" role="button">sunpy tutorial</a>
-                        <a href="https://docs.sunpy.org/en/stable/generated/gallery/index.html" class="btn btn-default btn-lg" role="button">Example Gallery</a>
-                        <a href="https://app.element.io/#/room/#sunpy:openastronomy.org" class="btn btn-default btn-lg" role="button">Chat</a>
-                        <a href="https://community.openastronomy.org/c/sunpy/5" class="btn btn-default btn-lg" role="button">Forum</a>
+                    <div class="grid text-center sunpy-btn-grid">
+                        <a href="https://docs.sunpy.org/en/stable/tutorial/installation.html" class="btn btn-lg btn-sunpy btn-sunpy2" type="button">Install sunpy</a>
+                        <a href="https://docs.sunpy.org/en/stable/tutorial/index.html" class="btn btn-lg btn-sunpy btn-sunpy1" role="button">sunpy tutorial</a>
+                        <a href="https://docs.sunpy.org/en/stable/generated/gallery/index.html" class="btn btn-lg btn-sunpy btn-sunpy1" role="button">Example Gallery</a>
+                        <a href="https://app.element.io/#/room/#sunpy:openastronomy.org" class="btn btn-lg btn-sunpy btn-sunpy1" role="button">Chat</a>
+                        <a href="https://community.openastronomy.org/c/sunpy/5" class="btn btn-lg btn-sunpy btn-sunpy1" role="button">Forum</a>
                     </div>
                 </div>
             </div>
