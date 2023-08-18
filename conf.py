@@ -69,28 +69,30 @@ html_static_path = ["_static"]
 html_extra_path = ["_static/img"]
 html_theme_options.update(
     {
-        "navbar_pagenav": False,
-        "globaltoc_depth": 1,
+        "show_prev_next": False,
         "on_rtd": False,
-        "copyright_html": """
-<a style= "padding-left: 10px;" rel="licence" href="https://creativecommons.org/licenses/by/4.0/">
-<img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
-</a>
-""",
     }
 )
 
 html_sidebars = {
-    "index": None,
-    "about/**": ["abouttoc.html"],
-    "coc": ["abouttoc.html"],
-    "contribute": None,
-    "blog": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
-    "blog/**": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
-    "help": None,
-    "posts/**": ["ablog/postcard.html"],
-    # Sphinx doesn't seem to support toctrees relative to an index, so I hacked it.
-    "affiliated": ["affiliatedtoc.html"],
+    "index": [],
+    "blog/*": [
+        "ablog/postcard.html",
+        "ablog/recentposts.html",
+        "ablog/tagcloud.html",
+        "ablog/categories.html",
+        "ablog/authors.html",
+        "ablog/languages.html",
+        "ablog/locations.html",
+        "ablog/archives.html",
+    ],
+#     "about/**": ["abouttoc.html"],
+#     "coc": ["abouttoc.html"],
+#     "contribute": None,
+#     "help": None,
+#     "posts/**": ["ablog/postcard.html"],
+#     # Sphinx doesn't seem to support toctrees relative to an index, so I hacked it.
+#     "affiliated": ["affiliatedtoc.html"],
 }
 
 redirects = {
