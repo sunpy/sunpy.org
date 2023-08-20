@@ -45,6 +45,10 @@ SunPy
               font-size: 1.8rem;
             }
           }
+          /* Override the sbt header nav hiding. */
+          .bd-header label.sidebar-toggle {
+            display: inherit;
+          }
           /* TODO: Use flex here */
           .logo-container {
             margin-top: 2%;
