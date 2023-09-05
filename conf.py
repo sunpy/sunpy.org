@@ -71,8 +71,6 @@ html_static_path = ["_static"]
 html_extra_path = ["_static/img"]
 html_theme_options = {
     "show_prev_next": False,
-    "use_download_button": False,
-    "use_fullscreen_button": False,
     # This build uses / as the root for the top nav
     "sst_site_root": "/",
 }
@@ -87,8 +85,7 @@ blog_sidebars = [
 
 html_sidebars = {
     "*": [],
-    "about/**": ["website-sidebar.html"],
-    "coc": ["website-sidebar.html"],
+    "about/**": ["components/sst-sidebar-nav.html"],
     "posts/**": ["ablog/postcard.html"],
     "blog": blog_sidebars,
     "blog/**": blog_sidebars,

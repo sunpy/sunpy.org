@@ -9,45 +9,59 @@
      background-attachment: fixed;
      background-size: cover;
  }
+
  h1 {
-     display : none;
+     display: none;
  }
+
  .bd-main {
      width: 100%;
  }
- .bd-header-article {
+
+ .bd-sidebar-secondary {
      display: none;
  }
+
+.bd-header label.secondary-toggle {
+    display: none;
+}
+
  .whatsnew {
      padding-top: 15px;
      font-size: 30px;
      text-align: center;
  }
+
  .whatsnew a {
      color: var(--sst-sunpy-logo-primary-color);
      font-weight: bold;
      text-decoration: none;
  }
+
  p.whatsnew{
      margin-bottom: 0;
      color: var(--sst-sunpy-darkest-gray)
  }
+
  #front {
      border: 1px var(--sst-sunpy-light-gray) solid;
      border-left-style: none;
      border-right-style: none;
  }
+
  @media only screen and (min-width: 768px) {
      .lead {
          font-size: 1.8rem;
      }
  }
+
  @media(max-width:959px) {
      /* Override the sbt header nav hiding. */
-     .bd-header label.sidebar-toggle {
+     .bd-header label.primary-toggle {
          display: inherit;
      }
  }
+
  /* TODO: Use flex here */
  .logo-container {
      margin-top: 2%;
