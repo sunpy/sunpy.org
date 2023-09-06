@@ -1,5 +1,10 @@
+import os
+from pathlib import Path
+
 from docutils import nodes
 from docutils.parsers.rst import Directive, directives
+
+from sphinx.util.fileutil import copy_asset
 
 
 class card(nodes.General, nodes.Element):
@@ -108,6 +113,16 @@ class Card(Directive):
         return [out]
 
 
+def copy_asset_files(app, exc):
+    if exc is None: # build succeeded
+        for path in (Path(__file__).parent / "static").glob("*"):
+            copy_asset(path, os.path.join(app.outdir, '_static'))
+
+
 def setup(app):
     app.add_node(card, html=(visit_card_node, depart_card_node))
+
+    app.add_css_file("cards.css")
     app.add_directive("custom-card", Card)
+
+    app.connect('build-finished', copy_asset_files)
