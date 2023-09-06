@@ -76,6 +76,10 @@ html_theme_options = {
     "sst_site_root": ".",
 }
 
+html_css_files = [
+    'sunpy_org.css',
+]
+
 blog_sidebars = [
     "ablog/postcard.html",
     "ablog/recentposts.html",
