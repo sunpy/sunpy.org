@@ -9,3 +9,4 @@ sphinx
 sphinxext-opengraph
 sphinx-design
 sphinx_reredirects
+sphinxcontrib-youtube

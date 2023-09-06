@@ -17,6 +17,7 @@ extensions = [
     "ablog",
     "sphinx_design",
     "sphinx_reredirects",
+    "sphinxcontrib.youtube",
 ]
 myst_enable_extensions = ["colon_fence"]
 myst_update_mathjax = False
@@ -72,7 +73,7 @@ html_extra_path = ["_static/img"]
 html_theme_options = {
     "show_prev_next": False,
     # This build uses / as the root for the top nav
-    "sst_site_root": "/",
+    "sst_site_root": ".",
 }
 
 blog_sidebars = [
@@ -85,7 +86,9 @@ blog_sidebars = [
 
 html_sidebars = {
     "*": [],
-    "about/**": ["components/sst-sidebar-nav.html"],
+    "about": ["about-sidebar.html"],
+    "coc": ["about-sidebar.html"],
+    "about/**": ["about-sidebar.html"],
     "posts/**": ["ablog/postcard.html"],
     "blog": blog_sidebars,
     "blog/**": blog_sidebars,

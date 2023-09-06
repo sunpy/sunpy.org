@@ -4,11 +4,17 @@ Meetings
 
 .. raw:: html
 
-    <iframe id="calendar" src="" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <style>
+    html[data-theme="dark"] iframe#calendar {
+        filter: invert(.9) saturate(0.5) hue-rotate(145deg);
+    }
+    </style>
+
+    <iframe id="calendar" src="" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.4/jstz.min.js"></script>
     <script type="text/javascript">
     var timezone = encodeURIComponent(jstz.determine().name());
-    var iframe_url = `https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s%40group.calendar.google.com&ctz=${timezone}`;
+    var iframe_url = `https://calendar.google.com/calendar/embed?src=g9c9eakg98b5cbogd7m5ta6h8s%40group.calendar.google.com&mode=AGENDA&showCalendars=0&showTabs=1&ctz=${timezone}`;
     document.getElementById('calendar').src = iframe_url;
     </script>
 
