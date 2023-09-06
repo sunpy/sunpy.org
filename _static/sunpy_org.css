@@ -33,21 +33,21 @@
 
 .btn-sunpy1:hover {
   color: var(--sst-dark-color);
-  background-color: var(--sst-lighest-color);
+  background-color: var(--sst-lightest-color);
   border-color: var(--sst-accent-color-bright);
   text-decoration-line: none;
 }
 
 .btn-sunpy2,
 .btn-sunpy2:visited {
-  color: var(--sst-lighest-color);
+  color: var(--sst-lightest-color);
   background-color: var(--sst-dark-color);
   border-color: var(--sst-dark-color);
 }
 
 .btn-sunpy2:hover {
   color: var(--sst-dark-color);
-  background-color: var(--sst-lighest-color);
+  background-color: var(--sst-lightest-color);
   text-decoration-line: none;
   border-color: var(--sst-dark-color);
 }
