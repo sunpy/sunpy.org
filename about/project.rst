@@ -204,16 +204,16 @@ If you would like to get involved please get in touch.
 * `pyflct <https://github.com/sunpy/pyflct>`__: `Stuart Mumford`_
 * `radiospectra <https://github.com/sunpy/radiospectra>`__: `Shane Maloney`_ and `Laura Hayes`_
 * `sunkit-pyvista <https://github.com/sunpy/sunkit-pyvista>`__
-* `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__
+* `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__: `Laura Hayes`_
 * `sunpy.coordinates <https://github.com/sunpy/sunpy/tree/main/sunpy/coordinates>`__: `Albert Shih`_
 * `sunraster <https://github.com/sunpy/sunraster>`__: `Daniel Ryan`_
 * `sunxspex <https://github.com/sunpy/sunxspex>`__: `Shane Maloney`_ and `Laura Hayes`_
 * `sunkit-image <https://github.com/sunpy/sunkit-image>`__:
 * `sunkit-instruments <https://github.com/sunpy/sunkit-instruments>`__:
-* `ablog <https://github.com/sunpy/ablog>`__:
-* `sunpy.org <https://github.com/sunpy/sunkit-pyvista>`__:
-* `sunpy-sphinx-theme <https://github.com/sunpy/sunkit-image>`__:
-* `drms <https://github.com/sunpy/drms>`__:
+* `ablog <https://github.com/sunpy/ablog>`__: `Nabil Freij`_
+* `sunpy.org <https://github.com/sunpy/sunpy.org>`__: `Nabil Freij`_ and `Stuart Mumford`_
+* `sunpy-sphinx-theme <https://github.com/sunpy/sunpy-sphinx-theme>`__: `Nabil Freij`_ and `Stuart Mumford`_
+* `drms <https://github.com/sunpy/drms>`__: `Nabil Freij`_
 
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
@@ -222,8 +222,9 @@ If you would like to get involved please get in touch.
 .. _David Pérez-Suárez: https://github.com/dpshelio
 .. _Kolja Glogowski: https://github.com/kbg
 .. _Jack Ireland: https://github.com/wafels
-.. _Stuart Mumford: https://github.com/cadair
+.. _Stuart Mumford: https://github.com/Cadair
 .. _Albert Shih: https://github.com/ayshih
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Bin Chen: https://github.com/binchensun
 .. _Shane Maloney: https://github.com/samaloney
+.. _Nabil Freij: https://github.com/nabobalis

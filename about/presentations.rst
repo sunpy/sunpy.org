@@ -9,10 +9,33 @@ All the talks that have been recorded from these workshops are listed below in r
 .. _SunPy Presentations: https://github.com/sunpy/presentations
 
 .. youtube:: PM8OXJ7fkF4
+	:privacy_mode:
+	:width: 100%
+
 .. youtube:: VWXptQ2ZSvs
+	:privacy_mode:
+	:width: 100%
+
 .. youtube:: E_jq0EubcGs
+	:privacy_mode:
+	:width: 100%
+
 .. youtube:: FvVecMbS4gs
+	:privacy_mode:
+	:width: 100%
+
 .. youtube:: 1KdeO-lZ2dQ
+	:privacy_mode:
+	:width: 100%
+
 .. youtube:: 3HYEr4NdziQ
+	:privacy_mode:
+	:width: 100%
+
 .. youtube:: -Lfz3kBjEyY
+	:privacy_mode:
+	:width: 100%
+
 .. youtube:: bXPPTCkaVu8
+	:privacy_mode:
+	:width: 100%
