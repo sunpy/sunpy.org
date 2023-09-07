@@ -3,7 +3,6 @@ from pathlib import Path
 
 from docutils import nodes
 from docutils.parsers.rst import Directive, directives
-
 from sphinx.util.fileutil import copy_asset
 
 
@@ -114,9 +113,9 @@ class Card(Directive):
 
 
 def copy_asset_files(app, exc):
-    if exc is None: # build succeeded
+    if exc is None:  # build succeeded
         for path in (Path(__file__).parent / "static").glob("*"):
-            copy_asset(path, os.path.join(app.outdir, '_static'))
+            copy_asset(path, os.path.join(app.outdir, "_static"))
 
 
 def setup(app):
@@ -125,4 +124,4 @@ def setup(app):
     app.add_css_file("cards.css")
     app.add_directive("custom-card", Card)
 
-    app.connect('build-finished', copy_asset_files)
+    app.connect("build-finished", copy_asset_files)

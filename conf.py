@@ -67,13 +67,10 @@ html_theme = "sunpy"
 html_title = "sunpy.org"
 html_static_path = ["_static"]
 html_extra_path = ["_static/img"]
-html_theme_options = {
-    "show_prev_next": False,
-    "sst_is_root": True
-}
+html_theme_options = {"show_prev_next": False, "sst_is_root": True}
 
 html_css_files = [
-    'sunpy_org.css',
+    "sunpy_org.css",
 ]
 
 blog_sidebars = [
