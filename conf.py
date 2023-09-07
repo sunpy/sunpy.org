@@ -2,8 +2,6 @@ import os
 import sys
 from urllib.request import urlretrieve
 
-from sunpy_sphinx_theme import ON_RTD
-
 sys.path.append(os.path.abspath("exts"))
 extensions = [
     "cards",
@@ -33,7 +31,6 @@ intersphinx_mapping = {
 }
 rawfiles = ["jitsi.html", "issues.html", "chat.html", "community_meeting_agenda.html"]
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
-disqus_shortname = "sunpy-org"
 blog_baseurl = "https://sunpy.org/"
 blog_feed_fulltext = True
 blog_feed_length = 10
