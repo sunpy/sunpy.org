@@ -115,7 +115,7 @@ class Card(Directive):
 def copy_asset_files(app, exc):
     if exc is None:  # build succeeded
         for path in (Path(__file__).parent / "static").glob("*"):
-            copy_asset(path, os.path.join(app.outdir, "_static"))
+            copy_asset(str(path), os.path.join(app.outdir, "_static"))
 
 
 def setup(app):
