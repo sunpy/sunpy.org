@@ -1,5 +1,5 @@
 ablog>=0.11.0rc1
-sunpy-sphinx-theme
+sunpy-sphinx-theme>=2.0.0rc1
 ipykernel
 ipython
 jupyter_client
