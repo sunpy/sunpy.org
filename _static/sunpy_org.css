@@ -1,0 +1,53 @@
+/* CSS Specific to the whole sunpy.org site */
+/* Other CSS is in the home.html file inline just for the home page */
+
+.sunpy-icon-text {
+  color: var(--sst-accent-color-bright);
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.sunpy-icon-text-color2 {
+  color: var(--sst-dark-color);
+}
+
+/* landing page buttons */
+.sunpy-btn-grid a {
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 10px 21px;
+}
+
+.btn-sunpy {
+  font-size: 16px;
+  font-weight: bolder;
+  border-width: 2px;
+}
+
+.btn-sunpy1,
+.btn-sunpy1:visited {
+  color: var(--sst-darkest-color);
+  background-color: var(--sst-accent-color-bright);
+  border-color: var(--sst-accent-color-bright);
+}
+
+.btn-sunpy1:hover {
+  color: var(--sst-dark-color);
+  background-color: var(--sst-lightest-color);
+  border-color: var(--sst-accent-color-bright);
+  text-decoration-line: none;
+}
+
+.btn-sunpy2,
+.btn-sunpy2:visited {
+  color: var(--sst-lightest-color);
+  background-color: var(--sst-dark-color);
+  border-color: var(--sst-dark-color);
+}
+
+.btn-sunpy2:hover {
+  color: var(--sst-dark-color);
+  background-color: var(--sst-lightest-color);
+  text-decoration-line: none;
+  border-color: var(--sst-dark-color);
+}

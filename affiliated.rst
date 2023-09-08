@@ -1,5 +1,3 @@
-:tocdepth: 3
-
 ===================
 Affiliated Packages
 ===================
