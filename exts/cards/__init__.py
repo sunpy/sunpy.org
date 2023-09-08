@@ -125,3 +125,8 @@ def setup(app):
     app.add_directive("custom-card", Card)
 
     app.connect("build-finished", copy_asset_files)
+
+    return {
+        "parallel_read_safe": True,
+        "parallel_write_safe": True,
+    }

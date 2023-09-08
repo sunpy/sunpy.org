@@ -92,7 +92,6 @@ html_sidebars = {
 }
 
 redirects = {
-    "about": "about/mission",
     "project/meetings": "about/meetings",
     "project/roles": "about/roles",
     "project": "about/project",
