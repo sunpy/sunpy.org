@@ -149,7 +149,7 @@ Having found possible options, in this section I've evaluated them against the c
 | Out of memory | 🟠 | Seems to be supported in theory, but little docs  |
 | Metadata | 🟩  | Can store arbitrary FITS metadata |
 | Observer coordinates | 🛑 | No support for extra coordinates |
-| Easy data manipulation | 🛑 | Very few manipulation methods impelmented |
+| Easy data manipulation | 🛑 | Very few manipulation methods implemented |
 | I/O | 🛑 | |
 
 
