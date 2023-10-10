@@ -19,6 +19,9 @@ jobs:
     uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@main
     with:
       submodules: true
+      libraries: |
+        apt:
+          - pandoc
       envs: |
         - linux: py311
         - linux: linkcheck
