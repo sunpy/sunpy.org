@@ -36,7 +36,7 @@ OpenAstronomy SunPy and Astropy Workshop
 On 11th to 15th of January at the University of Sheffield there will be a 5 day workshop, with the first two days being a two day Software Carpentry workshop, teaching bash, git and Python.
 While the rest of the week covers more SunPy and Astropy specific topics. More information can be found on the `website <http://openastronomy.org/2016-01-11-Sheffield/>`_.
 
-There are still places available, you can register `here. <http://goo.gl/forms/Jv5ocjMo71>`_
+There are still places available, you can register `here. <https://docs.google.com/forms/d/e/1FAIpQLSdOD4fDCk7mShxu25cxp-aRetjYuF9cc0P7XjbWbtRHtskQBQ/viewform?c=0&w=1&usp=send_form>`_
 
 Weekly Developer Discussions
 ----------------------------

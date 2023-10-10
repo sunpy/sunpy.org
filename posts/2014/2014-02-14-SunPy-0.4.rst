@@ -12,7 +12,7 @@ It includes the addition of a new local database for storing and searching data,
 As well as this major work has been undertaken on the documentation and a new website developed.
 
 To download the latest SunPy release go to our `website <http://sunpy.org>`_ or download from `PyPI <https://pypi.python.org/pypi/sunpy>`_.
-The documentation for the latest release can now be found at `docs.sunpy.org <http://docs.sunpy.org/en/stable/http://docs.sunpy.org/en/stable/>`_.
+The documentation for the latest release can now be found at `docs.sunpy.org <https://docs.sunpy.org/en/stable/>`_.
 
 This release contains 1025 commits from 19 people.
 
@@ -25,7 +25,7 @@ New Features:
 * Add the ability to download the GOES event list.
 * Add support for downloading and querying the LYTAF database.
 * Add support for ANA data.
-* Updated sun.constants to use astropy.constants objects which include units, source, and error instide. For more info check out http://docs.astropy.org/en/latest/constants/index.html
+* Updated sun.constants to use astropy.constants objects which include units, source, and error instide. For more info check out https://docs.astropy.org/en/latest/constants/index.html
 * Add some beta support for IRIS data products
 * Add a new MapCubeAnimator class with interactive widgets which is returned by mapcube.peek().
 * The Glymur library is now used to read JPEG2000 files.

@@ -19,9 +19,9 @@ This release brings many `changes <https://github.com/sunpy/sunpy/blob/0.7/CHANG
 * New ``draw_rectangle`` and ``draw_contours`` helpers for ``Map``.
 * Support for masks in SunPy ``Map`` and ``MapCube``.
 
-For this version of SunPy we have started building our `conda <http://conda.pydata.org/docs/>`_ packages on the excellent `conda forge <http://conda-forge.github.io>`_ service.
+For this version of SunPy we have started building our `conda <https://docs.conda.io/en/latest/>`_ packages on the excellent `conda forge <https://conda-forge.org/>`_ service.
 This means you need to add the conda-forge channel to your conda installation.
-If you have never installed SunPy before we recommend you follow our `installation instruction <http://docs.sunpy.org/en/stable/installation>`_.
+If you have never installed SunPy before we recommend you follow our `installation instruction <https://docs.sunpy.org/en/stable/tutorial/installation.html>`_.
 If you are upgrading from a previous release run the following two commands if you installed via ``conda``:
 
 ::

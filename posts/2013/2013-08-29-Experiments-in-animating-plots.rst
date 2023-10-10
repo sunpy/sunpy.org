@@ -12,7 +12,7 @@ Since then, SunPy and matplotlib have moved on, and I'd like to describe an upda
 First off, all these experiments were conducted on Ubuntu 12.04.
 The code below is based on this `StackOverflow <http://stackoverflow.com/questions/18019226/matplotlib-animation>`_ question and answer (where would we be without StackOverflow???? - thanks!), and some googling around concerning Ubuntu and ffmpeg.
 
-So, to begin, I fired up `ipython <http://ipython.org/>`_.
+So, to begin, I fired up `ipython <https://ipython.org/>`_.
 I tried the StackOverflow code (including the correction in the answer) and got stuck in an ipython error loop.
 The solution - upgrading to ipython 1.0.0.  Trying again, the code crashed because I did not have ffmpeg installed.
 Matplotlib looks for movie writers it can use, and since I had specified one that was not present, it crashed.
@@ -64,7 +64,7 @@ A matplotlib window appears, and the animation plays in it.
 The interactive zoom feature of the matplotlib window also works, and that is pretty cool.
 
 I have not yet worked out how to animate a set of plots, and then save it as an mp4 movie.
-These simple `examples <http://matplotlib.org/search.html?q=animation&check_keywords=yes&area=default>`_ are enough I think, however, to get you going with animating your own plots.
+These simple `examples <https://matplotlib.org/stable/search.html?q=animation&check_keywords=yes&area=default>`_ are enough I think, however, to get you going with animating your own plots.
 And by plots, I mean any kind of plots, not just movies of 2-d image data.
 The matplotlib site has examples of how to animate line plots, for example.
 

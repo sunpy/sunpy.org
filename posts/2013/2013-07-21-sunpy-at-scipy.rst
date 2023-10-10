@@ -16,7 +16,7 @@ This diversity in people's backgrounds and interest lead to the most diverse, in
 
 The conference this year consisted of two days of tutorials, two days of talks and two days of sprints.
 The tutorials covered different levels and topics ranging from introductions to IPython, matplotlib and scikit-learn to advanced talks on Cython and NumPy.
-Like with all the sessions at SciPy there are very good quality videos available online of the `tutorials <http://conference.scipy.org/scipy2013/tutorials_schedule.php>`_.
+Like with all the sessions at SciPy there are very good quality videos available online of the `tutorials <https://conference.scipy.org/scipy2013/tutorials_schedule.php>`_.
 
 The talks were in three tracks this year, one on reproducible science, one focusing on machine learning and a general track.
 In addition to this there were also a set of "domain specific mini-symposia", covering topics such as astronomy and medical applications.
@@ -35,7 +35,7 @@ One of the main benefits of attending SciPy was to increase the cooperation betw
 On the last day I spent the afternoon with the scikit-image team, and had a very productive day working with them to implement a routine that warps an image to compensate for the rotation of the Sun.
 This is based on various parts of SunPy to calculate the coordinates and the rotation, and then uses scikit-image to warp the solar disk.
 I have written up this work and it can be found
-`here <http://nbviewer.ipython.org/url/sunpy.cadair.com/diff_rot.ipynb>`_
+here.
 
 One other project I spent some time with was the yt project.
 yt is a visualisation and analysis library for astrophysical simulations.

@@ -10,4 +10,4 @@ Steven Christe `(@ehsteve) <https://github.com/ehsteve>`_ and Stuart Mumford `(@
 
 An introduction to SunPy was presented by Steven and you can find the presentation (and citation) at `Zenodo <https://zenodo.org/record/48637>`_
 
-Great discussions took place on future plans for `NDData <http://docs.astropy.org/en/stable/nddata/index.html>`_,a new `Time Series object <https://github.com/astropy/astropy-APEs/pull/12>`_,in Astropy, among many others.
+Great discussions took place on future plans for `NDData <https://docs.astropy.org/en/stable/nddata/index.html>`_,a new `Time Series object <https://github.com/astropy/astropy-APEs/pull/12>`_,in Astropy, among many others.
