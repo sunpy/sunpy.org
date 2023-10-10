@@ -1,5 +1,6 @@
-ablog>=0.11.0
-sunpy-sphinx-theme>=2.0.0
+# RC versions are needed as netfily does not support modern python
+ablog>=0.11.0rc1
+sunpy-sphinx-theme>=2.0.0rc1
 ipykernel
 ipython
 jupyter_client
