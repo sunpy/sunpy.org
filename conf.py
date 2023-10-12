@@ -125,3 +125,5 @@ urlretrieve(
     "https://raw.githubusercontent.com/sunpy/sunpy/main/sunpy/CITATION.rst",
     filename="CITATION.rst",
 )
+
+linkcheck_ignore = ["https://app.element.io/#/room/#sunpy:openastronomy.org"]

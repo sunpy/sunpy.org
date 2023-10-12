@@ -6,7 +6,7 @@ First impressions from SunPy at Python in Astronomy 2016
    :tags: conference, workshop, outreach, tutorials
    :category: Update
 
-Steven Christe `(@ehsteve) <https://github.com/ehsteve>`_ and Stuart Mumford `(@Cadair) <https://github.com/Cadair>`_ got to attend the (great) `Python in Astronomy <http://python-in-astronomy.github.io/2016/>`_ conference which took place in Seattle Washington from 21-25th of March 2016.
+Steven Christe `(@ehsteve) <https://github.com/ehsteve>`_ and Stuart Mumford `(@Cadair) <https://github.com/Cadair>`_ got to attend the (great) `Python in Astronomy <https://python-in-astronomy.github.io/2016/>`_ conference which took place in Seattle Washington from 21-25th of March 2016.
 
 An introduction to SunPy was presented by Steven and you can find the presentation (and citation) at `Zenodo <https://zenodo.org/record/48637>`_
 

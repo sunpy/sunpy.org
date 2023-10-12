@@ -34,7 +34,7 @@ OpenAstronomy SunPy and Astropy Workshop
 ----------------------------------------
 
 On 11th to 15th of January at the University of Sheffield there will be a 5 day workshop, with the first two days being a two day Software Carpentry workshop, teaching bash, git and Python.
-While the rest of the week covers more SunPy and Astropy specific topics. More information can be found on the `website <http://openastronomy.org/2016-01-11-Sheffield/>`_.
+While the rest of the week covers more SunPy and Astropy specific topics. More information can be found on the `website <https://openastronomy.org//2016-01-11-Sheffield/>`_.
 
 There are still places available, you can register `here. <https://docs.google.com/forms/d/e/1FAIpQLSdOD4fDCk7mShxu25cxp-aRetjYuF9cc0P7XjbWbtRHtskQBQ/viewform?c=0&w=1&usp=send_form>`_
 
@@ -68,7 +68,7 @@ As usual this year SunPy will be applying for the GSOC and SOCIS summer of code 
 As always, the most important part of these applications is having an interesting project ideas list and people willing to mentor students.
 If you have any interesting project ideas related to SunPy (they do not have to be on the SunPy code base), then please drop us a line on the mailing list, or edit this `wiki page <https://github.com/sunpy/sunpy/wiki/GSoC-2016-Ideas-Page>`_.
 
-As we did last year we will be initially applying for GSOC under the `OpenAstronomy banner <http://openastronomy.org>`_, so suggestions of ways to improve that site, or general involvement with OpenAstronomy would be welcome.
+As we did last year we will be initially applying for GSOC under the `OpenAstronomy banner <https://openastronomy.org/>`_, so suggestions of ways to improve that site, or general involvement with OpenAstronomy would be welcome.
 
 Getting in touch
 ----------------

@@ -11,7 +11,7 @@ This release contains many new features, some of which are contributed by people
 It includes the addition of a new local database for storing and searching data, it features a HEK to VSO translator and a new HELIO module in net.
 As well as this major work has been undertaken on the documentation and a new website developed.
 
-To download the latest SunPy release go to our `website <http://sunpy.org>`_ or download from `PyPI <https://pypi.python.org/pypi/sunpy>`_.
+To download the latest SunPy release go to our `website <https://sunpy.org/>`_ or download from `PyPI <https://pypi.python.org/pypi/sunpy>`_.
 The documentation for the latest release can now be found at `docs.sunpy.org <https://docs.sunpy.org/en/stable/>`_.
 
 This release contains 1025 commits from 19 people.

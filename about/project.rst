@@ -37,7 +37,7 @@ SunPy Board
     :img_name: david.png
     :github: dpshelio
     :aff_name: University College London
-    :aff_link: http://www.ulc.ac.uk
+    :aff_link: https://www.ulc.ac.uk
     :date: 17 March 2014
 
     David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorological Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
@@ -55,7 +55,7 @@ SunPy Board
     :img_name: rhewett.png
     :github: rhewett
     :aff_name: Virginia Tech
-    :aff_link: http://www.russellhewett.com
+    :aff_link: https://www.russellhewett.com
     :date: 17 March 2014
 
     Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python. He is now an assistant Professor of Mathematics at Virginia Tech.
@@ -148,7 +148,7 @@ See :ref:`role_descriptions` for more details on each role.
     :github: dpshelio
     :title: Summer of Code Administrator
     :aff_name: University College London
-    :aff_link: http://www.ulc.ac.uk/
+    :aff_link: https://www.ulc.ac.uk/
     :date: 17 March 2014
 
     David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorological Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
