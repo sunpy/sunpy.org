@@ -18,7 +18,7 @@ Lead Developer and Deputy Lead Developer
 The lead developer team have overall responsibility for the core package and any sponsored affiliated packages.
 The most important responsibility of the lead developer is to lead the developer community. It is therefore important for this role to be available to the community to answer questions and facilitate and direct contributions.
 
-The role of the lead developer is outlined in `SEP-2 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md#the-executive-director>`__ and other SEPs. The lead developer team have push privileges to the SunPy repository and maintain ownership of the SunPy GitHub organization and related services.
+The role of the lead developer is outlined in `SEP-2 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md#the-executive>`__ and other SEPs. The lead developer team have push privileges to the SunPy repository and maintain ownership of the SunPy GitHub organization and related services.
 Some of the responsibility of the lead developer team are:
 
 -  Hold regular meetings with the developer community (at least monthly).
@@ -49,7 +49,7 @@ Continuous Integration Maintainer
 SunPy core and the affiliated packages using the `package-template <https://github.com/sunpy/package-template>`__ all use
 the same CI setup.
 The primary responsibility of the CI Maintainer is to keep these resources up to date and fix issues as they arise with new package versions or changes to CI platforms.
-An outline of the current CI services used can be found in `the sunpy documentation <https://docs.sunpy.org/en/latest/dev_guide/pr_review_procedure.html#continuous-integration>`__.
+An outline of the current CI services used can be found in `the sunpy documentation <https://docs.sunpy.org/en/latest/dev_guide/contents/ci_jobs.html>`__.
 A non-exhaustive list of things involved with this role is:
 
 -  Maintaining the `Azure pipeline templates <https://github.com/OpenAstronomy/azure-pipelines-templates>`__.
@@ -122,7 +122,7 @@ This involves:
 
 -  Being responsive to GitHub issues, pull requests, mailing lists and chat.
 -  Helping new contributors understand SunPy's development methodologies.
--  Maintaining the `Newcomers Guide <https://github.com/sunpy/sunpy/blob/master/CONTRIBUTING.rst>`__.
+-  Maintaining the `Newcomers Guide <https://docs.sunpy.org/en/latest/dev_guide/contents/newcomers.html>`__.
 -  Leading SunPy's participation in sprints and events to attract new contributors.
 -  Finding other suitable mentors and pairing them with mentees.
 -  Leading the project's interaction with the Open Astronomy organization for the Google Summer of Code project.
@@ -143,7 +143,7 @@ Communication and Education Lead
 -  Manages the @SunPyProject Twitter account.
 -  Moderates the mailing list.
 -  Organizes and provides support for tutorials.
--  Maintains the `tutorial notebook repository <https://github.com/sunpy/tutorial-notebooks>`__.
+-  Maintains the `tutorial notebook repository <https://github.com/sunpy/previous-workshop-notebooks>`__.
 -  Maintains a list of ideas for tutorials and solicits members of the community to develop tutorials according to set standards.
 -  Provides any input or guidance to the board Chair about the Code of Conduct.
 

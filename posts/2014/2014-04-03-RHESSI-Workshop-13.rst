@@ -10,6 +10,6 @@ The latest version of SunPy along with an introduction to scientific computing i
 The presentation was well attended by about 20 people, a significant fraction of the total conference attendees!
 You can find the presentations (in the form of ipython notebooks) at the following locations
 
-* `Introduction to Matplotlib <https://nbviewer.ipython.org/urls/raw.githubusercontent.com/ehsteve/ipython-notebooks/master/RHESSI%20Workshope%2013%20-%20Intro%20to%20Matploblib.ipynb>`_
+* Introduction to Matplotlib
 * `Introduction to NumPy <https://nbviewer.org/github/ehsteve/ipython-notebooks/blob/master/RHESSI%20Workshope%2013%20-%20Intro%20to%20NumPy%20%26%20SciPy.ipynb>`_
 * `Introduction to SunPy <https://nbviewer.org/github/ehsteve/ipython-notebooks/blob/master/RHESSI%20Workshope%2013%20-%20SunPy.ipynb>`_

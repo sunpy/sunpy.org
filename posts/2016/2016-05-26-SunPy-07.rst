@@ -8,7 +8,7 @@ SunPy 0.7
 
 SunPy 0.7 has arrived!
 This release is a culmination of about 10 months of work from 27 different people.
-This release brings many `changes <https://github.com/sunpy/sunpy/blob/0.7/CHANGELOG.md>`_, the highlights are:
+This release brings many changes, the highlights are:
 
 * Python 3.4 and 3.5 support. This is the first version of SunPy to support
   Python 3, we recommend that users start to consider moving to Python 3, please

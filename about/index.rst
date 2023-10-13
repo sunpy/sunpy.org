@@ -35,8 +35,8 @@ More information about the SunPy project can be find :doc:`/about/project`.
 .. _Matplotlib: https://matplotlib.org/
 .. _Pandas: https://pandas.pydata.org/
 .. _Astropy: https://www.astropy.org/
-.. _NASA Goddard Space Flight Center: https://www.nasa.gov/centers/goddard/home/
+.. _NASA Goddard Space Flight Center: https://www.nasa.gov/goddard/
 .. _NUMFocus: https://numfocus.org/open-source-projects.html
 .. _ESA: https://www.esa.int/Enabling_Support/Space_Engineering_Technology/SOCIS_The_ESA_Summer_of_Code_in_Space
-.. _PSF: https://www.python.org/psf/
+.. _PSF: https://www.python.org/psf-landing/
 .. _Google: https://developers.google.com/open-source/gsoc/

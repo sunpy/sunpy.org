@@ -10,7 +10,7 @@ Anyone is welcome to participate in the SunPy organization.
 The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it. The SunPy Board publicly posts the `minutes`_ from each board meeting.
 
 .. _SEP-2: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
-.. _minutes: https://github.com/sunpy/sunpy/wiki/Home%3A-Organization-Information#minutes-of-sunpy-board-meetings
+.. _minutes: https://github.com/sunpy/sunpy/wiki/Home%3A-Organization-Information
 
 People
 ------
@@ -19,7 +19,7 @@ In this section we list everyone with a specific role in the project, all the me
 A list of anyone who contributed code to SunPy is available on Github `contributors`_ and for each major release we keep track of who contributed in-between `releases`_.
 
 .. _contributors: https://github.com/sunpy/sunpy/graphs/contributors
-.. _releases: https://github.com/sunpy/sunpy/blob/master/RELEASE.rst
+.. _releases: https://docs.sunpy.org/en/stable/whatsnew/index.html
 
 SunPy Board
 ^^^^^^^^^^^

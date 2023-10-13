@@ -126,4 +126,14 @@ urlretrieve(
     filename="CITATION.rst",
 )
 
-linkcheck_ignore = ["https://app.element.io/#/room/#sunpy:openastronomy.org"]
+# These links have anchors that linkcheck does not like
+linkcheck_ignore = [
+    "https://app.element.io/#/room/#sunpy:openastronomy.org",
+]
+linkcheck_anchors_ignore = [
+    "/projects\?project=develop_sunkit-image",
+    "the-executive",
+    "acceptance-process-for-affiliated-packages",
+    "detailed-description",
+    "!forum/sunpy",
+]

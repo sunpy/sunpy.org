@@ -7,7 +7,7 @@
    :category: Google Summer of Code
 
 Wonderful news for SunPy!
-This year is the `10th edition of Google Summer of Code <https://www.google-melange.com/gsoc/homepage/google/gsoc2014>`_, and SunPy is participating again for the second year in a row!
+This year is the `10th edition of Google Summer of Code <https://www.google-melange.com/archive/gsoc/2014>`_, and SunPy is participating again for the second year in a row!
 Remember how awesome it was last year when we got two amazing students?
 Well, this year is going to be twice as awesome!
 Why?
@@ -16,7 +16,7 @@ Let's introduce them and their projects:
 
 `Pritish Chakraborty <https://github.com/VaticanCameos>`_ (a.k.a. VaticanCameos) a Computer Science student from Haryana (India) will be working on giving SunPy a proper coordinate transformation system integrated with the developments in `Astropy <https://github.com/astropy/astropy-APEs/blob/master/APE5.rst>`_.
 
-`Rajul Srivastava <https://github.com/rajul-iitkgp>`_ (a.k.a. rajul), a science student working towards a major in chemistry in Kharagpur (India),
+Rajul Srivastava (a.k.a. rajul), a science student working towards a major in chemistry in Kharagpur (India),
 is going to bring a GUI interface to SunPy.
 This GUI is going to be based in `Ginga <https://github.com/ejeschke/ginga>`_ and the SunPy file database functionality.
 

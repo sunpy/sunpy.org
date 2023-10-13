@@ -20,7 +20,7 @@ SunPy
 
 SunPy is using now the latest version of `astropy-helpers <https://github.com/astropy/astropy-helpers>`_ (v1.1.1) and astropy's `ci-helpers <https://github.com/astropy/ci-helpers>`_ which eases the maintenance of the package and the tests running.
 
-Few new "badges" has been added now to the readme file in the repository, these badges show the status of the repository, like number of downloads, whether the development version is passing all its tests or not (via `Travis <https://travis-ci.org/sunpy/sunpy>`_ and `appveyor <https://ci.appveyor.com/project/sunpy/sunpy>`_ ), the amount of code tested, two `quality <https://landscape.io/github/sunpy/sunpy/>`_ measurements and one that shows `the impact in academia <https://depsy.org/package/python/sunpy>`_.
+Few new "badges" has been added now to the readme file in the repository, these badges show the status of the repository, like number of downloads, whether the development version is passing all its tests or not (via `Travis <https://travis-ci.org/sunpy/sunpy>`_ and `appveyor <https://ci.appveyor.com/project/sunpy/sunpy>`_ ), the amount of code tested, two quality measurements and one that shows the impact in academia.
 All these are little helpers to keep an eye on the quality and usage of our beloved project.
 
 One of the important tests problem solved in this last month has been the figures tests.
