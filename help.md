@@ -9,7 +9,7 @@ For other SunPy packages see the "Documentation" dropdown above.
 :::
 
 :::{grid-item-card} Chat
-:link: https://app.element.io/#/room/#sunpy:openastronomy.org)
+:link: https://app.element.io/#/room/#sunpy:openastronomy.org
 For quick questions join the community chat room.
 :::
 
