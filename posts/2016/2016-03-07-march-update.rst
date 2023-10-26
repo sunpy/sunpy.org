@@ -26,11 +26,11 @@ Fido is a key feature of SunPy 0.7 and will permit the development of the LightC
 Google Summer of Code
 ---------------------
 
-`OpenAstronomy <http://openastronomy.org>`_ got accepted as a GSOC 2016 mentoring Organisation.
+`OpenAstronomy <https://openastronomy.org/>`_ got accepted as a GSOC 2016 mentoring Organisation.
 This is a significant new development as it indidcates outside recognition of the maturity and quality of the efforts comprising Open Astronomy (SunPy's previous GSOC students came via the Python Foundation as the mentoring Organisation).
 This is the first time in 4 years thathe GSOC Org application SunPy has put in (individually or as a team) has been accepted!
 What this means for SunPy is that we will get some money per student from Google.
-For more information on GSOC see the `OpenAstronomy <http://openastronomy.org>`_ website, and it's not too late to submit project ideas.
+For more information on GSOC see the `OpenAstronomy <https://openastronomy.org/>`_ website, and it's not too late to submit project ideas.
 
 Coming up in March
 ==================

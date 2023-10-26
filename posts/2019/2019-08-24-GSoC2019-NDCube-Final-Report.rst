@@ -132,7 +132,7 @@ rest of the checkpoints were achieved successfully.
    it remains on top of my priority list.
 
 -  Completing
-   `plotting <https://github.com/sunpy/ndcube/projects/2#card-21344119>`__
+   plotting
    of NDCubeSequence — I had completed almost all of the tasks as I had
    planned in my
    `proposal <https://github.com/sunpy/ndcube/projects/2>`__ but

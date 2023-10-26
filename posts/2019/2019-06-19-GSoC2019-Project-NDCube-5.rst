@@ -22,7 +22,7 @@ we looking to refactoring, can easily ease out the process, and help in
 breaking the refactoring to small parts.
 
 I had a look into the `astropy
-docs <http://docs.astropy.org/en/stable/_modules/astropy/nddata/mixins/ndslicing.html#NDSlicingMixin>`__,
+docs <https://docs.astropy.org/en/stable/_modules/astropy/nddata/mixins/ndslicing.html>`__,
 and boy, they have documented each part of the logic, explaining the
 what and why of the code. Trust me for I have been contributing to
 open-source projects over for more than a year, and this sounds delight

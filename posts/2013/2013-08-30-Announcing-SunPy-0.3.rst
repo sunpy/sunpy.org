@@ -14,7 +14,7 @@ The biggest change in 0.3 is a shift away from our Map and Spectra datatypes inh
 This was done to make development of these objects easier and more flexible and also to improve our compatibility with Astropy.
 In the process of doing this the map submodule has undergone a massive refactor to streamline the creation and inheritance structure of the module.
 
-Below I highlight some of the major changes, the full change log can be found `here <https://github.com/sunpy/sunpy/blob/stable/RELEASE.txt>`_.
+Below I highlight some of the major changes, the full change log can be found here.
 
 * The biggest change to the Map API is the deprecation of the `make_map` function. It has been replaced by the new `sunpy.Map` factory which is much more intelligent and able to have custom map sources external to the SunPy library register with it, which is handy if you are developing a custom Map source. Along with this change the old top-level map class Map is now called `GenericMap` and is to be created using the Map factory under normal circumstances.
 * `MapCube` and `CompositeMap` have also seen some improvements, including the implementation of `draw_limb` and `draw_grid` for both datatypes and a new animation based `plot()` method for `MapCube`.

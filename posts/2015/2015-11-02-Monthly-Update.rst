@@ -55,8 +55,8 @@ Getting in touch
 ----------------
 
 Finally, I wanted to remind everyone about our public communication methods.
-We have two mailing lists, `SunPy <https://groups.google.com/forum/#!forum/sunpy>`_ and `sunpy-dev <https://groups.google.com/forum/#!forum/sunpy-dev>`_, the main SunPy list is used for general questions and announcements, and the sunpy-dev list is used for developer discussion and organisational emails.
-We also have the IRC channel (`#SunPy <https://kiwiirc.com/client/irc.freenode.net/#SunPy>`_ on Freenode), which normally has someone hanging out in it, and is an excellent place to get some real-time help, or to just come for a chat.
+We have two mailing lists, `SunPy <https://groups.google.com/forum/#!forum/sunpy>`_ and sunpy-dev, the main SunPy list is used for general questions and announcements, and the sunpy-dev list is used for developer discussion and organisational emails.
+We also have the IRC channel, which normally has someone hanging out in it, and is an excellent place to get some real-time help, or to just come for a chat.
 We also have our `Google+ page <https://plus.google.com/+SunpyOrg/posts>`_ and a `Twitter <https://twitter.com/sunpyproject>`_ account.
 
 Happy Pythoning,

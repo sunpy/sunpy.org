@@ -20,7 +20,7 @@ SunPy
 
 SunPy is using now the latest version of `astropy-helpers <https://github.com/astropy/astropy-helpers>`_ (v1.1.1) and astropy's `ci-helpers <https://github.com/astropy/ci-helpers>`_ which eases the maintenance of the package and the tests running.
 
-Few new "badges" has been added now to the readme file in the repository, these badges show the status of the repository, like number of downloads, whether the development version is passing all its tests or not (via `Travis <https://travis-ci.org/sunpy/sunpy>`_ and `appveyor <https://ci.appveyor.com/project/sunpy/sunpy>`_ ), the amount of code tested, two `quality <https://landscape.io/github/sunpy/sunpy/>`_ `measurements <https://www.quantifiedcode.com/app/project/9edd3e28230840038713e1c7dc3eb141>`_ and one that shows `the impact in academia <http://depsy.org/package/python/sunpy>`_.
+Few new "badges" has been added now to the readme file in the repository, these badges show the status of the repository, like number of downloads, whether the development version is passing all its tests or not (via `Travis <https://travis-ci.org/sunpy/sunpy>`_ and `appveyor <https://ci.appveyor.com/project/sunpy/sunpy>`_ ), the amount of code tested, two quality measurements and one that shows the impact in academia.
 All these are little helpers to keep an eye on the quality and usage of our beloved project.
 
 One of the important tests problem solved in this last month has been the figures tests.
@@ -31,9 +31,9 @@ There you can see the figures and compare them with the previous versions - incl
 OpenAstronomy workshop
 ----------------------
 
-January started with a 5-day workshop which extended a 2-day `software-carpentry <http://software-carpentry.org/>`_ bootcamp with an
+January started with a 5-day workshop which extended a 2-day `software-carpentry <https://software-carpentry.org/>`_ bootcamp with an
 introduction to Astropy and SunPy.
-Read more about the success of the workshop in the `openastronomy blog <http://openastronomy.org/2016/01/15/Workshop.html>`_.
+Read more about the success of the workshop in the `openastronomy blog <https://openastronomy.org//2016/01/15/Workshop.html>`_.
 This workshop will be repeated in the future, but if you want to organise one don't hesitate to contact us about it.
 
 Coming up

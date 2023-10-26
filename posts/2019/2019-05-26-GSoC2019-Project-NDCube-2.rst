@@ -14,8 +14,7 @@ with the Week 01 tasks
 
 I had a chat with ``@Cadair`` who is my mentor, and we decided that I
 start with the tasks of the
-`first <https://github.com/sunpy/ndcube/projects/2#card-21344600>`__
-`part <https://github.com/sunpy/ndcube/projects/2#card-21340828>`__ of
+first part of
 the project. GitHub has these awesome project tabs, which help you sort
 out all the tasks and todo for a GitHub project, and even though it is a
 simple feature, it makes managing the stuff look neat and easy.
@@ -61,7 +60,7 @@ While the title sounds a bit misleading, as I have made PRs to
 changes which might affect ``SunPy`` indirectly.
 
 After completing most of the
-`tasks <https://github.com/sunpy/ndcube/projects/2#card-21340828>`__, I
+`tasks <https://github.com/sunpy/ndcube/projects/2>`__, I
 decided to do something else, unrelated to my project. I had a chat with
 ``@Cadair`` and he suggested me to help him to fix some tests which were
 failing in ``SunPy/NDCube``. As ``SunPy`` was quite near to be released,

@@ -17,7 +17,7 @@ The major highlights of this release are:
 
 * `~sunpy.net.Fido` now supports tab completion of search attributes.
   This allows you to do ``a.Instrument.AIA``, and print ``a.Instrument`` to see the list of known supported instruments.
-* `~sunpy.instr.aia.aiaprep` has been deprecated in favor of the functionality in the `aiapy <https://aiapy.readthedocs.io/>`__ package.
+* `~sunpy.instr.aia.aiaprep` has been deprecated in favor of the functionality in the `aiapy <https://aiapy.readthedocs.io/en/stable/>`__ package.
 * Various fixes and clarifications to pixel indexing in the `sunpy.map` subpackage.
 * Standardization of specifying rectangles in coordinate space in the :meth:`~sunpy.map.GenericMap.submap` and :meth:`~sunpy.map.GenericMap.draw_rectangle` methods of `~sunpy.map.GenericMap`.
 * HTML quicklook previews of `~sunpy.map.GenericMap` and `~sunpy.map.MapSequence` instances are available with the new :meth:`~sunpy.map.GenericMap.quicklook` and :meth:`~sunpy.map.MapSequence.quicklook` methods, respectively.
