@@ -45,11 +45,11 @@ SunPy Board
 .. custom-card:: Monica Bobra
     :img_name: mbobra.png
     :github: mbobra
-    :aff_name: Stanford University
-    :aff_link: https://www.stanford.edu
+    :aff_name: State of California, Office of Data and Innovation
+    :aff_link: https://innovation.ca.gov
     :date: 14 March 2017
 
-    Monica Bobra is a research scientist at Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team.
+    Monica Bobra serves as the Principal Data Scientist for the State of California. She previously studied the Sun and space weather at Stanford University and the Harvard-Smithsonian Center for Astrophysics.
 
 .. custom-card:: Russell Hewett
     :img_name: rhewett.png
