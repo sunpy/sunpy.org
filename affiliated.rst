@@ -69,7 +69,7 @@ Package list
    * - **aiapy**
      - Package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
 
-       `Documentation <https://aiapy.readthedocs.io/en/stable/>`__, `Source code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
+       `Documentation <https://aiapy.readthedocs.io/en/stable/>`__, `Source code <https://github.com/LM-SAL/aiapy>`__
 
        **Maintainers**: `Will Barnes`_, `Nabil Freij`_
 
