@@ -1,5 +1,3 @@
-:tocdepth: 3
-
 ===================
 Affiliated Packages
 ===================
@@ -71,7 +69,7 @@ Package list
    * - **aiapy**
      - Package for analyzing data from the Atmospheric Imaging Assembly (AIA) instrument onboard NASA's Solar Dynamics Observatory spacecraft.
 
-       `Documentation <https://aiapy.readthedocs.io/en/latest/>`__, `Source code <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy>`__
+       `Documentation <https://aiapy.readthedocs.io/en/stable/>`__, `Source code <https://github.com/LM-SAL/aiapy>`__
 
        **Maintainers**: `Will Barnes`_, `Nabil Freij`_
 
@@ -153,7 +151,7 @@ Package list
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Nabil Freij: https://github.com/nabobalis
 .. _Shane Maloney: https://github.com/samaloney
-.. _The SunPy Project: https://sunpy.org/project/#community-roles
+.. _The SunPy Project: https://sunpy.org/about/roles
 
 Provisional packages
 --------------------

@@ -2,8 +2,6 @@ import os
 import sys
 from urllib.request import urlretrieve
 
-from sunpy_sphinx_theme.conf import *  # NOQA
-
 sys.path.append(os.path.abspath("exts"))
 extensions = [
     "cards",
@@ -17,6 +15,7 @@ extensions = [
     "ablog",
     "sphinx_design",
     "sphinx_reredirects",
+    "sphinxcontrib.youtube",
 ]
 myst_enable_extensions = ["colon_fence"]
 myst_update_mathjax = False
@@ -32,7 +31,6 @@ intersphinx_mapping = {
 }
 rawfiles = ["jitsi.html", "issues.html", "chat.html", "community_meeting_agenda.html"]
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
-disqus_shortname = "sunpy-org"
 blog_baseurl = "https://sunpy.org/"
 blog_feed_fulltext = True
 blog_feed_length = 10
@@ -63,38 +61,37 @@ language = "en"
 
 pygments_style = "sphinx"
 
+
 default_role = "obj"
+html_theme = "sunpy"
 html_title = "sunpy.org"
 html_static_path = ["_static"]
 html_extra_path = ["_static/img"]
-html_theme_options.update(
-    {
-        "navbar_pagenav": False,
-        "globaltoc_depth": 1,
-        "on_rtd": False,
-        "copyright_html": """
-<a style= "padding-left: 10px;" rel="licence" href="https://creativecommons.org/licenses/by/4.0/">
-<img src="https://i.creativecommons.org/l/by/4.0/80x15.png">
-</a>
-""",
-    }
-)
+html_theme_options = {"show_prev_next": False, "sst_is_root": True}
+
+html_css_files = [
+    "sunpy_org.css",
+]
+
+blog_sidebars = [
+    "ablog/postcard.html",
+    "ablog/recentposts.html",
+    "ablog/tagcloud.html",
+    "ablog/categories.html",
+    "ablog/archives.html",
+]
 
 html_sidebars = {
-    "index": None,
-    "about/**": ["abouttoc.html"],
-    "coc": ["abouttoc.html"],
-    "contribute": None,
-    "blog": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
-    "blog/**": ["searchbox.html", "ablog/categories.html", "ablog/archives.html"],
-    "help": None,
+    "*": [],
+    "about": ["about-sidebar.html"],
+    "coc": ["about-sidebar.html"],
+    "about/**": ["about-sidebar.html"],
     "posts/**": ["ablog/postcard.html"],
-    # Sphinx doesn't seem to support toctrees relative to an index, so I hacked it.
-    "affiliated": ["affiliatedtoc.html"],
+    "blog": blog_sidebars,
+    "blog/**": blog_sidebars,
 }
 
 redirects = {
-    "about": "about/mission",
     "project/meetings": "about/meetings",
     "project/roles": "about/roles",
     "project": "about/project",
@@ -128,3 +125,15 @@ urlretrieve(
     "https://raw.githubusercontent.com/sunpy/sunpy/main/sunpy/CITATION.rst",
     filename="CITATION.rst",
 )
+
+# These links have anchors that linkcheck does not like
+linkcheck_ignore = [
+    "https://app.element.io/#/room/#sunpy:openastronomy.org",
+]
+linkcheck_anchors_ignore = [
+    "/projects\?project=develop_sunkit-image",
+    "the-executive",
+    "acceptance-process-for-affiliated-packages",
+    "detailed-description",
+    "!forum/sunpy",
+]

@@ -34,7 +34,7 @@ following people:
 A lot of the design and development of ndcube was done as part of Ankit's Google
 Summer of Code project in the summer of 2017.
 
-For more information about ndcube see the `documentation <http://docs.sunpy.org/projects/ndcube/>`_.
+For more information about ndcube see the `documentation <https://docs.sunpy.org/projects/ndcube/en/stable/>`_.
 
 ndcube can be installed from pip or conda using the following commands::
 

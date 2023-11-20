@@ -101,7 +101,7 @@ Having found possible options, in this section I've evaluated them against the c
 | -- | -- | -- |
 | Time-like index data | 🟩 | |
 | Different time scales | 🛑 | No support |
-| Multi-dimensional data | 🟠 | Possible, but [recommended to use xarray instead](https://pandas.pydata.org/pandas-docs/stable/ecosystem.html#xarray) |
+| Multi-dimensional data | 🟠 | Possible, but [recommended to use xarray instead](https://pandas.pydata.org/docs/getting_started/install.html#computation) |
 | Physical units | 🛑  | No native support ([tracking issue](https://github.com/pandas-dev/pandas/issues/10349)), could be possible with [`pint-pands`](https://github.com/hgrecco/pint-pandas) |
 | Interop with scientific Python | 🟩  | |
 | Out of memory | 🛑 | pandas DataFrames are always in memory |
@@ -149,7 +149,7 @@ Having found possible options, in this section I've evaluated them against the c
 | Out of memory | 🟠 | Seems to be supported in theory, but little docs  |
 | Metadata | 🟩  | Can store arbitrary FITS metadata |
 | Observer coordinates | 🛑 | No support for extra coordinates |
-| Easy data manipulation | 🛑 | Very few manipulation methods impelmented |
+| Easy data manipulation | 🛑 | Very few manipulation methods implemented |
 | I/O | 🛑 | |
 
 
@@ -195,7 +195,7 @@ Support for doing this has two components:
 - `xarray-pint` provides a set of accessors that can be used to serialise and deserialise unitful data so that it can be saved to a file and loaded again.
   It does this by converting the unit data into metadata, with strings representing units.
 
-It is not currently possible to store `astropy.Quantity` objects in `xarray` structures, as they inherit directly from `ndarray`, and get coerced from `Quantity` to `ndarray` during the `xarray` structure initialisation. I think fixing this is (at least initially) a one line change, changing [this line](https://github.com/pydata/xarray/blob/51554f2638bc9e4a527492136fe6f54584ffa75d/xarray/core/variable.py#L288) from
+It is not currently possible to store `astropy.Quantity` objects in `xarray` structures, as they inherit directly from `ndarray`, and get coerced from `Quantity` to `ndarray` during the `xarray` structure initialisation. I think fixing this is (at least initially) a one line change, changing (what was xarray/core/variable.py#L288 on commit hash 51554f2638bc9e4a527492136fe6f54584ffa75d) from
 ```python
 data = np.asarray(data)
 ```

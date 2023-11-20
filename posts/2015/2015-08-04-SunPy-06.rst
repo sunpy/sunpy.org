@@ -19,7 +19,7 @@ The major changes in this release are:
 * Solar rotation calculation functionality has been added, along with functionality to de-rotate MapCubes.
 
 While there have been lots of changes, it is the move to Astropy Units throughout the code base that will require most users to update their
-code, if you wish to learn more about Astropy Units see: http://docs.astropy.org/en/latest/units/
+code, if you wish to learn more about Astropy Units see: https://docs.astropy.org/en/latest/units/
 
 You can install this release using either pip or conda.
 If you have a scientific python environment already configured, run:
@@ -47,7 +47,7 @@ and then run:
 
     conda install sunpy
 
-for more information about installing sunpy see our installation documentation: http://docs.sunpy.org/en/stable/guide/installation/index.html
+for more information about installing sunpy see our installation documentation: https://docs.sunpy.org/en/stable/tutorial/installation.html
 
 
 This release consists of 1,341 commits from 29 different people and 13 new contributors!

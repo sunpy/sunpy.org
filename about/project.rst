@@ -10,7 +10,7 @@ Anyone is welcome to participate in the SunPy organization.
 The purpose of the board is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it. The SunPy Board publicly posts the `minutes`_ from each board meeting.
 
 .. _SEP-2: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
-.. _minutes: https://github.com/sunpy/sunpy/wiki/Home%3A-Organization-Information#minutes-of-sunpy-board-meetings
+.. _minutes: https://github.com/sunpy/sunpy/wiki/Home%3A-Organization-Information
 
 People
 ------
@@ -19,7 +19,7 @@ In this section we list everyone with a specific role in the project, all the me
 A list of anyone who contributed code to SunPy is available on Github `contributors`_ and for each major release we keep track of who contributed in-between `releases`_.
 
 .. _contributors: https://github.com/sunpy/sunpy/graphs/contributors
-.. _releases: https://github.com/sunpy/sunpy/blob/master/RELEASE.rst
+.. _releases: https://docs.sunpy.org/en/stable/whatsnew/index.html
 
 SunPy Board
 ^^^^^^^^^^^
@@ -37,7 +37,7 @@ SunPy Board
     :img_name: david.png
     :github: dpshelio
     :aff_name: University College London
-    :aff_link: http://www.ulc.ac.uk
+    :aff_link: https://www.ulc.ac.uk
     :date: 17 March 2014
 
     David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorological Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
@@ -45,17 +45,17 @@ SunPy Board
 .. custom-card:: Monica Bobra
     :img_name: mbobra.png
     :github: mbobra
-    :aff_name: Stanford University
-    :aff_link: https://www.stanford.edu
+    :aff_name: State of California, Office of Data and Innovation
+    :aff_link: https://innovation.ca.gov
     :date: 14 March 2017
 
-    Monica Bobra is a research scientist at Stanford University in the W. W. Hansen Experimental Physics Laboratory, where she studies the Sun and space weather as a member of the NASA Solar Dynamics Observatory science team.
+    Monica Bobra serves as the Principal Data Scientist for the State of California. She previously studied the Sun and space weather at Stanford University and the Harvard-Smithsonian Center for Astrophysics.
 
 .. custom-card:: Russell Hewett
     :img_name: rhewett.png
     :github: rhewett
     :aff_name: Virginia Tech
-    :aff_link: http://www.russellhewett.com
+    :aff_link: https://www.russellhewett.com
     :date: 17 March 2014
 
     Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python. He is now an assistant Professor of Mathematics at Virginia Tech.
@@ -148,7 +148,7 @@ See :ref:`role_descriptions` for more details on each role.
     :github: dpshelio
     :title: Summer of Code Administrator
     :aff_name: University College London
-    :aff_link: http://www.ulc.ac.uk/
+    :aff_link: https://www.ulc.ac.uk/
     :date: 17 March 2014
 
     David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorological Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
@@ -204,16 +204,16 @@ If you would like to get involved please get in touch.
 * `pyflct <https://github.com/sunpy/pyflct>`__: `Stuart Mumford`_
 * `radiospectra <https://github.com/sunpy/radiospectra>`__: `Shane Maloney`_ and `Laura Hayes`_
 * `sunkit-pyvista <https://github.com/sunpy/sunkit-pyvista>`__
-* `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__
+* `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__: `Laura Hayes`_
 * `sunpy.coordinates <https://github.com/sunpy/sunpy/tree/main/sunpy/coordinates>`__: `Albert Shih`_
 * `sunraster <https://github.com/sunpy/sunraster>`__: `Daniel Ryan`_
 * `sunxspex <https://github.com/sunpy/sunxspex>`__: `Shane Maloney`_ and `Laura Hayes`_
 * `sunkit-image <https://github.com/sunpy/sunkit-image>`__:
 * `sunkit-instruments <https://github.com/sunpy/sunkit-instruments>`__:
-* `ablog <https://github.com/sunpy/ablog>`__:
-* `sunpy.org <https://github.com/sunpy/sunkit-pyvista>`__:
-* `sunpy-sphinx-theme <https://github.com/sunpy/sunkit-image>`__:
-* `drms <https://github.com/sunpy/drms>`__:
+* `ablog <https://github.com/sunpy/ablog>`__: `Nabil Freij`_
+* `sunpy.org <https://github.com/sunpy/sunpy.org>`__: `Nabil Freij`_ and `Stuart Mumford`_
+* `sunpy-sphinx-theme <https://github.com/sunpy/sunpy-sphinx-theme>`__: `Nabil Freij`_ and `Stuart Mumford`_
+* `drms <https://github.com/sunpy/drms>`__: `Nabil Freij`_
 
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _Steven Christe: https://github.com/ehsteve
@@ -222,8 +222,9 @@ If you would like to get involved please get in touch.
 .. _David Pérez-Suárez: https://github.com/dpshelio
 .. _Kolja Glogowski: https://github.com/kbg
 .. _Jack Ireland: https://github.com/wafels
-.. _Stuart Mumford: https://github.com/cadair
+.. _Stuart Mumford: https://github.com/Cadair
 .. _Albert Shih: https://github.com/ayshih
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Bin Chen: https://github.com/binchensun
 .. _Shane Maloney: https://github.com/samaloney
+.. _Nabil Freij: https://github.com/nabobalis

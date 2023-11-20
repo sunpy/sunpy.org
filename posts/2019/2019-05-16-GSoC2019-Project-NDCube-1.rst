@@ -92,5 +92,4 @@ the further challenges of the project.
 Previous Post
 ~~~~~~~~~~~~~
 
--  Getting selected for GSoC' 2019 -
-   `Link <https://yashrsharma44.github.io/blog/2019-05/getting-selected-for-gsoc-2019/>`__
+-  Getting selected for GSoC' 2019

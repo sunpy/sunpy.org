@@ -37,7 +37,7 @@ or, if you use pip, by running::
   $ pip install -U sunpy
 
 
-If you haven't already installed SunPy we recommend you follow our `Installation Guide <https://docs.sunpy.org/en/stable/guide/installation/index.html#installation>`__.
+If you haven't already installed SunPy we recommend you follow our `Installation Guide <https://docs.sunpy.org/en/stable/tutorial/installation.html>`__.
 
 
 By the numbers

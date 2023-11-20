@@ -29,12 +29,8 @@ Some of the highlights from the :ref:`sunpy:whatsnew-3.1` page are:
 * Arithmetic operations with maps
 
 
-My personal favourites being the new `limb drawing function <sunpy.visualization.draw_limb>`:
-
-.. image:: https://docs.sunpy.org/en/v3.1.0/_images/sphx_glr_limb_plotting_001.png
-
+My personal favourites being the new `limb drawing function <sunpy.visualization.draw_limb>`
 and the `~sunpy.map.GenericMap.reproject_to` method on all maps.
-
 
 ndcube 2.0
 ----------
@@ -54,7 +50,7 @@ I would also be remiss if I didn't specifically thank the DKIST data center who 
 I hope that many packages will start using ndcube 2.0 as the base for their code.
 There are already many who have helped to shape the release such as the `DKIST User Tools <https://github.com/DKISTDC/dkist>`__, `specutils <https://github.com/astropy/specutils>`__ and `sunraster <https://github.com/sunpy/sunraster>`__ as well as others I know are in the works.
 
-For all the gory details of the changes in ndcube 2.0 see `the changelog <https://docs.sunpy.org/projects/ndcube/en/2.0.0/whatsnew/changelog.html>`__.
+For all the gory details of the changes in ndcube 2.0 see `the changelog <https://docs.sunpy.org/projects/ndcube/en/stable/whatsnew/changelog.html#id11>`__.
 
 pfsspy 1.0
 ----------

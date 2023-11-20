@@ -6,4 +6,4 @@ SPD 2016
    :tags: conference, outreach, talks
    :category: Update
 
-You can find all of the material for the introductory sessions of scientific python and sunpy can be found `here <https://github.com/sunpy/2016SPD-Python-SunPy/blob/master/README.md>`_.
+You can find all of the material for the introductory sessions of scientific python and sunpy can be found `here <https://github.com/ehsteve/2016SPD-Python-SunPy>`_.
