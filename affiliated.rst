@@ -78,13 +78,13 @@ Package list
        Version reviewed: `v0.1.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.1.0>`__
 
    * - **pfsspy**
-     - Potential Field Source Surface modelling package.
+     - Potential Field Source Surface modelling package. Note that this package is archived and is no longer developed.
 
        `Documentation <https://pfsspy.readthedocs.io/>`__, `Source code <https://github.com/dstansby/pfsspy/>`__
 
        **Maintainer**: `David Stansby`_
 
-       |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stc|
+       |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |low_activity|
 
        Version reviewed: `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
