@@ -2,31 +2,40 @@ ci:
   autofix_prs: false
   autoupdate_schedule: "quarterly"
 repos:
--   repo: https://github.com/psf/black
+  - repo: https://github.com/psf/black
     rev: 23.11.0
     hooks:
-    - id: black
--   repo: https://github.com/PyCQA/isort
+      - id: black
+  - repo: https://github.com/PyCQA/isort
     rev: 5.12.0
     hooks:
-    - id: isort
--   repo: https://github.com/pre-commit/pre-commit-hooks
+      - id: isort
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.1.0
+    hooks:
+      - id: prettier
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
-    - id: check-ast
-    - id: check-case-conflict
-    - id: trailing-whitespace
-    - id: mixed-line-ending
-    - id: end-of-file-fixer
-    - id: check-yaml
-    - id: debug-statements
--   repo: https://github.com/PyCQA/autoflake
+      - id: check-ast
+      - id: check-case-conflict
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: debug-statements
+  - repo: https://github.com/PyCQA/autoflake
     rev: v2.2.1
     hooks:
-    - id: autoflake
-      args: ['--in-place', '--remove-all-unused-imports', '--remove-unused-variable']
--   repo: https://github.com/codespell-project/codespell
+      - id: autoflake
+        args:
+          [
+            "--in-place",
+            "--remove-all-unused-imports",
+            "--remove-unused-variable",
+          ]
+  - repo: https://github.com/codespell-project/codespell
     rev: v2.2.6
     hooks:
-    - id: codespell
-      args: ['--config setup.cfg']
+      - id: codespell
+        args: ["--config setup.cfg"]
