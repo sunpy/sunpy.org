@@ -25,7 +25,7 @@ Every Wednesday at 17:00 London time (16:00 UTC summer, 17:00 UTC winter, you ca
 The weekly community meeting is open to all and we welcome discussion of any SunPy-related topics.
 The link to join the weekly community meeting as well as a link to the agenda are included below.
 
-* `Link to join the weekly community meeting <https://sunpy.org/jitsi>`__
+* `Link to join the weekly community meeting <https://sunpy.org/meeting>`__
 
 * `Agenda for the weekly community meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
 

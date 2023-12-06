@@ -91,4 +91,4 @@ Reach out!
 ----------
 If you are a developer of a package that you think fits nicely into the SunPy ecosystem and will of benefit to the solar physics community and want to chat to us about it please reach out!
 This can be of course regardless of how far along the package is - from concept to maturity!
-Join us our live chat `Matrix room <https://app.element.io/#/room/#sunpy:openastronomy.org>`_ or join in on the SunPy weekly community meetings which occur each Wednesday (see `our calendar <https://calendar.google.com/calendar?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`_ for the time in your timezone) and are hosted on `jitsi <https://sunpy.org/jitsi>`_.
+Join us our live chat `Matrix room <https://app.element.io/#/room/#sunpy:openastronomy.org>`_ or join in on the SunPy weekly community meetings which occur each Wednesday (see `our calendar <https://calendar.google.com/calendar?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`_ for the time in your timezone) and are hosted on `jitsi <https://sunpy.org/meeting>`_.
