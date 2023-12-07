@@ -104,7 +104,7 @@ Package list
 
        `Documentation <https://roentgen.readthedocs.io/>`__, `Source code <https://github.com/ehsteve/roentgen>`__
 
-       **Maintainer**: `Steven Christe`_, `Shane Maloney`_ `Daniel Ryan`_
+       **Maintainer**: `Steven Christe`_, `Shane Maloney`_, `Daniel Ryan`_
 
        |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
 
