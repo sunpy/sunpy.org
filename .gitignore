@@ -9,3 +9,4 @@ CITATION.rst
 CODE_OF_CONDUCT.rst
 .idea/
 .tox
+node_modules/
