@@ -144,7 +144,7 @@ Package list
        Version reviewed: `v1.0.0b15 <https://github.com/DKISTDC/dkist/releases/tag/v1.0.0b15>`__
 
    * - **solarmach**
-     - The Solar MAgnetic Connection Haus (Solar-MACH) tool is a multi-spacecraft longitudinal configuration plotter. 
+     - The Solar MAgnetic Connection Haus (Solar-MACH) tool is a multi-spacecraft longitudinal configuration plotter.
 
        `Documentation <https://solarmach.readthedocs.io/en/stable/index.html>`__, `Source code <https://github.com/jgieseler/solarmach>`__
 
