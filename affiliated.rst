@@ -143,6 +143,18 @@ Package list
 
        Version reviewed: `v1.0.0b15 <https://github.com/DKISTDC/dkist/releases/tag/v1.0.0b15>`__
 
+   * - **solarmach**
+     - The Solar MAgnetic Connection Haus (Solar-MACH) tool is a multi-spacecraft longitudinal configuration plotter.
+
+       `Documentation <https://solarmach.readthedocs.io/en/stable/index.html>`__, `Source code <https://github.com/jgieseler/solarmach>`__
+
+       **Maintainers**: `Jan Gieseler`_
+
+       |package_general| |integration_partial| |docs_good| |tests_good| |duplication_none| |community_excellent| |dev_stc|
+
+       Version reviewed: `v3.3.0 <https://github.com/jgieseler/solarmach/releases/tag/v0.3.3>`__
+
+
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
@@ -152,6 +164,7 @@ Package list
 .. _Nabil Freij: https://github.com/nabobalis
 .. _Shane Maloney: https://github.com/samaloney
 .. _The SunPy Project: https://sunpy.org/about/roles
+.. _Jan Gieseler: https://github.com/jgieseler
 
 Provisional packages
 --------------------
