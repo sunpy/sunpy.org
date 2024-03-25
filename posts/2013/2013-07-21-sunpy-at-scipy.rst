@@ -16,7 +16,7 @@ This diversity in people's backgrounds and interest lead to the most diverse, in
 
 The conference this year consisted of two days of tutorials, two days of talks and two days of sprints.
 The tutorials covered different levels and topics ranging from introductions to IPython, matplotlib and scikit-learn to advanced talks on Cython and NumPy.
-Like with all the sessions at SciPy there are very good quality videos available online of the `tutorials <http://conference.scipy.org.s3-website-us-east-1.amazonaws.com/proceedings/scipy2013/mumford.html>`__.
+Like with all the sessions at SciPy there are very good quality videos available online of the `tutorials <http://conference.scipy.org.s3-website-us-east-1.amazonaws.com/proceedings/scipy2013/>`__.
 
 The talks were in three tracks this year, one on reproducible science, one focusing on machine learning and a general track.
 In addition to this there were also a set of "domain specific mini-symposia", covering topics such as astronomy and medical applications.
