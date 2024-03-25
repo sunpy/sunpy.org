@@ -91,7 +91,7 @@ Package list
    * - **sunpy-soar**
      - sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR).
 
-       `Documentation <https://github.com/sunpy/sunpy-soar#readme>`__, `Source code <https://github.com/sunpy/sunpy-soar>`__
+       `Documentation <https://docs.sunpy.org/projects/soar/>`__, `Source code <https://github.com/sunpy/sunpy-soar>`__
 
        **Maintainers**: `The SunPy Project`_
 
