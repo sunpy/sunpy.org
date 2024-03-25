@@ -152,7 +152,7 @@ Package list
 
        |package_general| |integration_partial| |docs_good| |tests_good| |duplication_none| |community_excellent| |dev_stc|
 
-       Version reviewed: `v3.3.0 <https://github.com/jgieseler/solarmach/releases/tag/v0.3.3>`__
+       Version reviewed: `v0.3.3 <https://github.com/jgieseler/solarmach/releases/tag/v0.3.3>`__
 
 
 .. _Steven Christe: https://github.com/ehsteve
