@@ -1,4 +1,15 @@
 [codespell]
-skip = posts/2019/2019-08-24-GSoC2019-NDCube-Final-Report.rst,posts/2022/2022-01-06-aiapy-demo.ipynb,posts/2018/2018-07-21-coronal-loop-coordinates.ipynb,posts/2013/2013-09-02-ESA-Summer-of-Code-in-Space.rst
+skip = *.asdf,*.fits,*.fts,*.header,*.json,*.xsh,*cache*,*egg*,*extern*,.git,.idea,.tox,_build,*truncated,*.svg,.asv_env,.history,posts/2019/2019-08-24-GSoC2019-NDCube-Final-Report.rst,posts/2022/2022-01-06-aiapy-demo.ipynb,posts/2018/2018-07-21-coronal-loop-coordinates.ipynb,posts/2013/2013-09-02-ESA-Summer-of-Code-in-Space.rst
 ignore-words-list =
+    alog,
+    nd,
+    nin,
+    observ,
+    ot,
+    te,
+    upto
+    upto,
+    afile,
+    aas,
+    AAS,
     lightyear,
