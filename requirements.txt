@@ -11,3 +11,13 @@ sphinxext-opengraph
 sphinx-design
 sphinx_reredirects
 sphinxcontrib-youtube
+
+# eclipse notebooks
+exifread
+numpy
+matplotlib
+astropy
+scikit-image
+sunpy[map,net]
+photutils
+ipywidgets
