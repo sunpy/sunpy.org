@@ -1,7 +1,5 @@
 import astropy.units as u
-
 from sunpy.time import parse_time
-
 
 SOLAR_ECLIPSE_IMAGE = "total_solar_eclipse2017.jpg"
 
@@ -52,7 +50,9 @@ def get_camera_metadata(tags):
         camera_metadata["author"] = tags["Image Artist"].values
     if "EXIF DateTimeOriginal" in tags:
         datetime_str = tags["EXIF DateTimeOriginal"].values.replace(" ", ":").split(":")
-        camera_metadata["time"] = parse_time(f"{'-'.join(datetime_str[:3])} {':'.join(datetime_str[3:])}")
+        camera_metadata["time"] = parse_time(
+            f"{'-'.join(datetime_str[:3])} {':'.join(datetime_str[3:])}"
+        )
     if "Image Model" in tags:
         camera_metadata["camera_model"] = tags["Image Model"].values
 
