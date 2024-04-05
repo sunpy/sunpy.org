@@ -1,6 +1,7 @@
-import datetime
-
 import astropy.units as u
+
+from sunpy.time import parse_time
+
 
 SOLAR_ECLIPSE_IMAGE = "total_solar_eclipse2017.jpg"
 
@@ -9,11 +10,11 @@ def _convert_to_degress(value):
     """
     Helper function to convert the GPS coordinates stored in the EXIF to degrees in float format
     """
-    d = float(value.values[0].num) / float(value.values[0].den)
-    m = float(value.values[1].num) / float(value.values[1].den)
-    s = float(value.values[2].num) / float(value.values[2].den)
+    d = float(value.values[0].num) / float(value.values[0].den) * u.degree
+    m = float(value.values[1].num) / float(value.values[1].den) * u.arcminute
+    s = float(value.values[2].num) / float(value.values[2].den) * u.arcsec
 
-    return d + (m / 60.0) + (s / 3600.0)
+    return d + m + s
 
 
 def get_exif_location(exif_data):
@@ -51,14 +52,7 @@ def get_camera_metadata(tags):
         camera_metadata["author"] = tags["Image Artist"].values
     if "EXIF DateTimeOriginal" in tags:
         datetime_str = tags["EXIF DateTimeOriginal"].values.replace(" ", ":").split(":")
-        camera_metadata["time"] = datetime.datetime(
-            int(datetime_str[0]),
-            int(datetime_str[1]),
-            int(datetime_str[2]),
-            int(datetime_str[3]),
-            int(datetime_str[4]),
-            int(datetime_str[5]),
-        )
+        camera_metadata["time"] = parse_time(f"{'-'.join(datetime_str[:3])} {':'.join(datetime_str[3:])}")
     if "Image Model" in tags:
         camera_metadata["camera_model"] = tags["Image Model"].values
 
