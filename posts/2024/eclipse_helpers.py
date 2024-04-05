@@ -2,14 +2,12 @@ import datetime
 
 import astropy.units as u
 
+SOLAR_ECLIPSE_IMAGE = "total_solar_eclipse2017.jpg"
 
-# the following functions will help us get GPS data from the EXIF data if it exists
+
 def _convert_to_degress(value):
     """
     Helper function to convert the GPS coordinates stored in the EXIF to degrees in float format
-    :param value:
-    :type value: exifread.utils.Ratio
-    :rtype: float
     """
     d = float(value.values[0].num) / float(value.values[0].den)
     m = float(value.values[1].num) / float(value.values[1].den)
@@ -20,7 +18,7 @@ def _convert_to_degress(value):
 
 def get_exif_location(exif_data):
     """
-    Returns the latitude and longitude, if available, from the provided exif_data (obtained through get_exif_data above)
+    Returns the latitude and longitude, if available, from the provided exif_data
     """
     lat = None
     lon = None
@@ -65,9 +63,6 @@ def get_camera_metadata(tags):
         camera_metadata["camera_model"] = tags["Image Model"].values
 
     lat, lon = get_exif_location(tags)
-    if (lat != None) and (lon != None):
+    if lat is not None and lon is not None:
         camera_metadata["gps"] = [lat, lon] * u.deg
     return camera_metadata
-
-
-solar_eclipse_image = "total_solar_eclipse2017.jpg"
