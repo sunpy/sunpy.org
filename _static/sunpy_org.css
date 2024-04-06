@@ -51,3 +51,8 @@
   text-decoration-line: none;
   border-color: var(--sst-dark-color);
 }
+
+/* TODO: Revert this as it's rude */
+#ethical-ad-placement {
+  display: none;
+}
