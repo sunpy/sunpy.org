@@ -70,8 +70,6 @@ html_extra_path = ["_static/img"]
 html_theme_options = {
     "show_prev_next": False,
     "sst_is_root": True,
-    "goatcounter_analytics_url": "https://sunpy.goatcounter.com/count",
-    "goatcounter_non_domain_endpoint": "https://sunpy-testing.goatcounter.com/count",
 }
 
 html_css_files = [
