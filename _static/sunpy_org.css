@@ -51,3 +51,13 @@
   text-decoration-line: none;
   border-color: var(--sst-dark-color);
 }
+
+/* We don't need the flyout on sunpy.org */
+#rtd-footer-container {
+  display: none;
+}
+
+/* TODO: Revert this as it's rude */
+#ethical-ad-placement {
+  display: none;
+}
