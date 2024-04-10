@@ -9,7 +9,7 @@ build:
       - git submodule update --init
 
 sphinx:
-  builder: html
+  builder: dirhtml
   configuration: conf.py
   fail_on_warning: false
 
