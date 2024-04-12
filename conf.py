@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 from urllib.request import urlretrieve
 
-sys.path.append(Path("exts").resolve())
+sys.path.append(Path("exts").absolute().as_posix())
 extensions = [
     "cards",
     "myst_parser",
