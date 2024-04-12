@@ -6,26 +6,28 @@ SOLAR_ECLIPSE_IMAGE = "total_solar_eclipse2017.jpg"
 
 def _convert_to_degress(value):
     """
-    Helper function to convert the GPS coordinates stored in the EXIF to degrees in float format
+    Helper function to convert the GPS coordinates stored in the EXIF to degrees
     """
-    d = float(value.values[0].num) / float(value.values[0].den) * u.degree
-    m = float(value.values[1].num) / float(value.values[1].den) * u.arcminute
-    s = float(value.values[2].num) / float(value.values[2].den) * u.arcsec
+    d = value.values[0].num / value.values[0].den * u.degree
+    m = value.values[1].num / value.values[1].den * u.arcminute
+    s = value.values[2].num / value.values[2].den * u.arcsec
 
     return d + m + s
 
 
 def get_exif_location(exif_data):
     """
-    Returns the latitude and longitude, if available, from the provided exif_data
+    Returns the latitude, longitude, and altitude, if available, from the provided exif_data
     """
     lat = None
     lon = None
+    alt = None
 
     gps_latitude = exif_data.get("GPS GPSLatitude", None)
     gps_latitude_ref = exif_data.get("GPS GPSLatitudeRef", None)
     gps_longitude = exif_data.get("GPS GPSLongitude", None)
     gps_longitude_ref = exif_data.get("GPS GPSLongitudeRef", None)
+    gps_altitude = exif_data.get("GPS GPSAltitude", None)
 
     if gps_latitude and gps_latitude_ref and gps_longitude and gps_longitude_ref:
         lat = _convert_to_degress(gps_latitude)
@@ -36,7 +38,10 @@ def get_exif_location(exif_data):
         if gps_longitude_ref.values[0] != "E":
             lon = 0 - lon
 
-    return lat, lon
+    if gps_altitude:
+        alt = gps_altitude.values[0].num / gps_altitude.values[0].den * u.m
+
+    return lat, lon, alt
 
 
 def get_camera_metadata(tags):
@@ -56,7 +61,6 @@ def get_camera_metadata(tags):
     if "Image Model" in tags:
         camera_metadata["camera_model"] = tags["Image Model"].values
 
-    lat, lon = get_exif_location(tags)
-    if lat is not None and lon is not None:
-        camera_metadata["gps"] = [lat, lon] * u.deg
+    camera_metadata["gps"] = get_exif_location(tags)
+
     return camera_metadata
