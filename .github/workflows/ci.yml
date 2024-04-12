@@ -21,5 +21,5 @@ jobs:
         apt:
           - pandoc
       envs: |
-        - linux: py311
+        - linux: py312
         - linux: linkcheck

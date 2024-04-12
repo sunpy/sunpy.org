@@ -1,8 +1,8 @@
-import os
 import sys
+from pathlib import Path
 from urllib.request import urlretrieve
 
-sys.path.append(os.path.abspath("exts"))
+sys.path.append(Path("exts").absolute().as_posix())
 extensions = [
     "cards",
     "myst_parser",
@@ -51,17 +51,14 @@ exclude_patterns = [
     ".tox/*",
 ]
 master_doc = "index"
-project = "SunPy"
-author = "SunPy Project"
-copyright = "SunPy Project"
+project = "sunpy.org"
+author = "The SunPy Community"
+copyright = "The SunPy Community"  # NOQA: A001
 show_sphinx = True
 version = ""
 release = "main"
 language = "en"
-
 pygments_style = "sphinx"
-
-
 default_role = "obj"
 html_theme = "sunpy"
 html_title = "sunpy.org"
@@ -71,11 +68,9 @@ html_theme_options = {
     "show_prev_next": False,
     "sst_is_root": True,
 }
-
 html_css_files = [
     "sunpy_org.css",
 ]
-
 blog_sidebars = [
     "ablog/postcard.html",
     "ablog/recentposts.html",
@@ -83,7 +78,6 @@ blog_sidebars = [
     "ablog/categories.html",
     "ablog/archives.html",
 ]
-
 html_sidebars = {
     "*": [],
     "about": ["about-sidebar.html"],
@@ -93,14 +87,12 @@ html_sidebars = {
     "blog": blog_sidebars,
     "blog/**": blog_sidebars,
 }
-
 redirects = {
     "project/meetings": "about/meetings",
     "project/roles": "about/roles",
     "project": "about/project",
     "project/affiliated": "affiliated",
 }
-
 # nbsphinx options
 nbsphinx_prolog = r"""
 {% set docname = env.doc2path(env.docname, base=None) %}
@@ -123,18 +115,16 @@ ogp_site_url = "https://sunpy.org/"
 ogp_image = "https://raw.githubusercontent.com/sunpy/sunpy-logo/master/generated/sunpy_logo_word.png"
 ogp_description_length = 300
 ogp_type = "website"
-
 urlretrieve(
     "https://raw.githubusercontent.com/sunpy/sunpy/main/sunpy/CITATION.rst",
     filename="CITATION.rst",
 )
-
 # These links have anchors that linkcheck does not like
 linkcheck_ignore = [
     "https://app.element.io/#/room/#sunpy:openastronomy.org",
 ]
 linkcheck_anchors_ignore = [
-    "/projects\?project=develop_sunkit-image",
+    r"/projects\?project=develop_sunkit-image",
     "the-executive",
     "acceptance-process-for-affiliated-packages",
     "detailed-description",

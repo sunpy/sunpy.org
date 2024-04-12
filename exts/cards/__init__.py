@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 from docutils import nodes
@@ -15,9 +14,7 @@ def visit_card_node(self, node):
     key = title or node["github"]
     key = key.lower().replace(" ", "-")
     title = f"<h4>{title}</h4>" if len(title) > 0 else ""
-
     col_extra_class = "column-half" if title else ""
-
     body = f"""<div class="column {col_extra_class}">
                 {title}
                 <div class="card">
@@ -46,7 +43,6 @@ def depart_card_node(self, node):
                     </div>
                 </div>
             </div></div>"""
-
     self.body.append(body)
 
 
@@ -54,7 +50,7 @@ class Card(Directive):
     has_content = True
     required_arguments = 1
     optional_arguments = 6
-    option_spec = {
+    option_spec = {  # NOQA: RUF012
         "img_name": directives.unchanged,
         "title": directives.unchanged,
         "github": directives.unchanged,
@@ -65,37 +61,14 @@ class Card(Directive):
     }
 
     def run(self):
-        if "title" in self.options:
-            title = self.options.get("title")
-        else:
-            title = ""
-        if "img_name" in self.options:
-            img_name = self.options.get("img_name")
-        else:
-            img_name = "sunpy_icon.svg"
-        if "github" in self.options:
-            github = self.options.get("github")
-        else:
-            github = ""
-        if "aff_name" in self.options:
-            aff_name = self.options.get("aff_name")
-        else:
-            aff_name = ""
-        if "aff_link" in self.options:
-            aff_link = self.options.get("aff_link")
-        else:
-            aff_link = ""
-        if "date" in self.options:
-            date = self.options.get("date")
-        else:
-            date = ""
-        if "desc" in self.options:
-            desc = self.options.get("desc")
-        else:
-            desc = "N/A"
-
+        title = self.options.get("title") if "title" in self.options else ""
+        img_name = self.options.get("img_name") if "img_name" in self.options else "sunpy_icon.svg"
+        github = self.options.get("github") if "github" in self.options else ""
+        aff_name = self.options.get("aff_name") if "aff_name" in self.options else ""
+        aff_link = self.options.get("aff_link") if "aff_link" in self.options else ""
+        date = self.options.get("date") if "date" in self.options else ""
+        desc = self.options.get("desc") if "desc" in self.options else "N/A"
         name = " ".join(self.arguments)
-
         out = card(
             name=name,
             img_name=img_name,
@@ -106,26 +79,21 @@ class Card(Directive):
             date=date,
             desc=desc,
         )
-
         self.state.nested_parse(self.content, 0, out)
-
         return [out]
 
 
 def copy_asset_files(app, exc):
-    if exc is None:  # build succeeded
+    if exc is None:  # Build succeeded
         for path in (Path(__file__).parent / "static").glob("*"):
-            copy_asset(str(path), os.path.join(app.outdir, "_static"))
+            copy_asset(str(path), str(Path(app.outdir) / Path("_static")))
 
 
 def setup(app):
     app.add_node(card, html=(visit_card_node, depart_card_node))
-
     app.add_css_file("cards.css")
     app.add_directive("custom-card", Card)
-
     app.connect("build-finished", copy_asset_files)
-
     return {
         "parallel_read_safe": True,
         "parallel_write_safe": True,
