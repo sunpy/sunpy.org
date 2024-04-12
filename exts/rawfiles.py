@@ -1,12 +1,12 @@
-import os
 import shutil
+from pathlib import Path
 
 
 def on_html_collect_pages(app):
     for f in app.builder.config.rawfiles:
-        src = os.path.join(app.srcdir, f)
-        dst = os.path.join(app.builder.outdir, f)
-        if os.path.isfile(src):
+        src = str(Path(app.srcdir) / Path(f))
+        dst = str(Path(app.builder.outdir) / Path(f))
+        if Path(src).is_file():
             shutil.copy(src, dst)
         else:
             shutil.copytree(src, dst)

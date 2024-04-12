@@ -1,0 +1,83 @@
+# Allow unused variables when underscore-prefixed.
+lint.dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+target-version = "py39"
+line-length = 120
+exclude=[
+    ".git,",
+    "__pycache__",
+    "build",
+    "tools/**",
+]
+lint.select = [
+    "A",
+    "ARG",
+    "ASYNC",
+    "B",
+    "BLE",
+    "C4",
+    "COM",
+    "DTZ",
+    "E",
+    "EM",
+    "ERA",
+    "EXE",
+    "F",
+    "FBT",
+    "FLY",
+    "G",
+    "I",
+    "ICN",
+    "INP",
+    "INT",
+    "ISC",
+    "LOG",
+    "NPY",
+    "PERF",
+    "PGH",
+    "PIE",
+    "PLE",
+    "PT",
+    "PTH",
+    "PYI",
+    "Q",
+    "RET",
+    "RSE",
+    "RUF",
+    "SIM",
+    "SLF",
+    "SLOT",
+    "T10",
+    "T20",
+    "TCH",
+    "TID",
+    "TRIO",
+    "TRY",
+    "UP",
+    "W",
+    "YTT",
+]
+lint.extend-ignore = [
+    "COM812", # May cause conflicts when used with the formatter
+    "E501",  # Line too long
+    "ISC001",  # May cause conflicts when used with the formatter
+    "T201", # Print statements
+]
+
+[lint.per-file-ignores]
+"exts/rawfiles.py" = [
+    "INP001", # Part of an implicit namespace package
+]
+"posts/2024/eclipse_helpers.py" = [
+    "INP001", # Part of an implicit namespace package
+]
+"docs/conf.py" = [
+    "INP001", # Part of an implicit namespace package
+]
+
+[lint.pydocstyle]
+convention = "numpy"
+
+[format]
+docstring-code-format = true
+indent-style = "space"
+quote-style = "double"

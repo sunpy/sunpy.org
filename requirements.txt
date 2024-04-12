@@ -1,23 +1,21 @@
-# RC versions are needed as netfily does not support modern python
-ablog>=0.11.0rc1
-sunpy-sphinx-theme>=2.0.0
+ablog>=0.11.0
 ipykernel
 ipython
 jupyter_client
 myst-parser
 nbsphinx
 sphinx
-sphinxext-opengraph
-sphinx-design
 sphinx_reredirects
+sphinx-design
 sphinxcontrib-youtube
+sphinxext-opengraph
+sunpy-sphinx-theme>=2.0.0
 
-# eclipse notebooks
-exifread
-numpy
-matplotlib
+# Eclipse notebook
 astropy
+exifread
+ipywidgets
+matplotlib
+numpy
 scikit-image
 sunpy[map,net]
-photutils
-ipywidgets
