@@ -431,7 +431,7 @@ Reviews are conducted in GitHub issues through the https://github.com/sunpy/sunp
 9. The :ref:`role_affiliated-liaison` merges the pull request.
 
 Existing Packages Review Process
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Existing affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison` to ensure the review is current.
 Developers may challenge a new review, which then requires the liaison to get an independent reviewer to perform the review.
