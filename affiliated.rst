@@ -5,8 +5,8 @@ Affiliated Packages
 Affiliated packages are well-maintained, open source software packages that are useful to solar physicists and integrate well with the SunPy ecosystem.
 To aid discoverability, all affiliated packages are listed on the SunPy website, and the SunPy project tries to advertise them at national and international conferences and workshops.
 
-Package list
-------------
+Current packages
+----------------
 
 .. list-table::
    :widths: 20, 80
@@ -414,14 +414,11 @@ Review Criteria and Summary
 |               | provisional rating.                                 |
 +---------------+-----------------------------------------------------+
 
-Open review process
-^^^^^^^^^^^^^^^^^^^
+Becoming an affiliated package
+------------------------------
 
-The review process for becoming a SunPy affiliated package is designed to be approachable, lightweight and open.
-Reviews are conducted in GitHub issues through the https://github.com/sunpy/sunpy.org repository.
-
-Steps for Getting New Packages Reviewed
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The review process for becoming an affiliated package is designed to be approachable, lightweight and open.
+Reviews are conducted in GitHub issues through the https://github.com/sunpy/sunpy.org repository, using the following process:
 
 1. If you're not sure whether to submit your package for the affiliated package review process, you can open an issue to informally discuss your package or contact the :ref:`role_affiliated-liaison` to discuss your package privately.
 2. Open a new issue with the issue template.
@@ -434,7 +431,7 @@ Steps for Getting New Packages Reviewed
 9. The :ref:`role_affiliated-liaison` merges the pull request.
 
 Existing Packages Review Process
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Existing affiliated packages will be reviewed once per year by the :ref:`role_affiliated-liaison` to ensure the review is current.
 Developers may challenge a new review, which then requires the liaison to get an independent reviewer to perform the review.
@@ -443,7 +440,7 @@ Existing provisional affiliated packages will be reviewed once per year by the :
 To pass they must not have a worse score and still be working towards meeting the rest of the review criteria.
 
 Acknowledgements
-~~~~~~~~~~~~~~~~
+----------------
 
 Sections of this page are heavily inspired by the `Astropy affiliated package review process <https://github.com/astropy/project/blob/master/affiliated/affiliated_package_review_guidelines.md>`__.
 
