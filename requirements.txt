@@ -12,7 +12,7 @@ sphinxext-opengraph
 sunpy-sphinx-theme>=2.0.0
 
 # Eclipse notebook
-astropy
+astropy<6.1
 exifread
 ipywidgets
 matplotlib
