@@ -8,7 +8,7 @@ Google Summer of Code
 
 SunPy is participating in the `Google Summer of Code 2013 <https://www.google-melange.com/archive/gsoc/2013>`_ under the umbrella of the `Python Software Foundation <https://wiki.python.org/moin/SummerOfCode/2013>`_ .
 
-We have participated succefully in the ESA summer of code in space project which is similar to GSoC for the last two years. Both our students and our project have gained a lot from the experience.
+We have participated successfully in the ESA summer of code in space project which is similar to GSoC for the last two years. Both our students and our project have gained a lot from the experience.
 A list of project ideas and application info is on our `GitHub Wiki <https://github.com/sunpy/sunpy/wiki/Google-Summer-of-Code>`_ .
 
 If you are interested in talking to us about projects, applications or if you are just bored pop into our IRC channel #SunPy on
