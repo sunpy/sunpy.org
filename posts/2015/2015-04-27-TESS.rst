@@ -6,7 +6,7 @@ Info for the SunPy Tutorial at the TESS 2015
    :tags: workshop, talks, tutorials
    :category: ESA Summer of Code
 
-Welcome `TESS <https://aas.org/meetings/tess2015/>`_ attendees to the "Introduction to Solar Data Analysis in Python"!
+Welcome ``TESS <https://aas.org/meetings/tess2015/>`` attendees to the "Introduction to Solar Data Analysis in Python"!
 
 Here are a list of various links and information for the tutorial:
 
