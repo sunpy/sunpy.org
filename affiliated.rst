@@ -77,17 +77,6 @@ Current packages
 
        Version reviewed: `v0.1.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.1.0>`__
 
-   * - **pfsspy**
-     - Potential Field Source Surface modelling package. Note that this package is archived and is no longer developed.
-
-       `Documentation <https://pfsspy.readthedocs.io/>`__, `Source code <https://github.com/dstansby/pfsspy/>`__
-
-       **Maintainer**: `David Stansby`_
-
-       |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |low_activity|
-
-       Version reviewed: `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
-
    * - **sunpy-soar**
      - sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR).
 
@@ -154,6 +143,17 @@ Current packages
 
        Version reviewed: `v0.3.3 <https://github.com/jgieseler/solarmach/releases/tag/v0.3.3>`__
 
+   * - **sunkit-magex**
+     - Magnetic Field Extrapolation package. Currently supports Potential Field Source Surface extrapolations. This is a successor to ``pfsspy``.
+
+       `Documentation <https://docs.sunpy.org/projects/sunkit-magex/>`__, `Source code <https://github.com/sunpy/sunkit-magex>`__
+
+       **Maintainer**: `The SunPy Project`_
+
+       |package_specialized| |integration_partial| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+
+       Version reviewed: `v1.0.0 <https://github.com/sunpy/sunkit-magex/releases/tag/v1.0.0>`__
+
 
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
@@ -192,6 +192,24 @@ These packages are works in progress that do not yet meet the functionality crit
 
        Version reviewed: `v0.3.0 <https://github.com/sunpy/radiospectra/releases/tag/v0.3.0>`__
 
+Historical Packages
+-------------------
+
+These packages were previously listed as affiliated but have been de-listed at the request of their authors or as part of our regular re-review processes.
+
+.. list-table::
+   :widths: 20, 80
+
+   * - **pfsspy**
+     - Potential Field Source Surface modelling package. This package has been superseded by sunkit-magex.
+
+       `Documentation <https://pfsspy.readthedocs.io/>`__, `Source code <https://github.com/dstansby/pfsspy/>`__
+
+       **Maintainer**: `David Stansby`_
+
+       |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |low_activity|
+
+       Version reviewed: `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
 
 Affiliated Package Review
 -------------------------
