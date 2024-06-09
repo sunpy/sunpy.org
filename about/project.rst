@@ -2,12 +2,12 @@
 SunPy Project
 =============
 
-The **SunPy project** is the organization which maintains the SunPy library and sponsored affiliated packages.
+The **SunPy Project** is the organization which maintains the SunPy library and sponsored affiliated packages.
 Its primary goal is to *facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment*.
 
 The organization is described in `SEP-2`_, and consists of the Project Custodians, a Steering Committee appointed by the Project Custodians, an advisory board, with community roles supported by developers who contribute to any package under the organization.
 
-**Anyone is welcome to participate in the SunPy organization.**
+**Everyone is encouraged to participate in the SunPy Project.**
 
 The goal of the Steering Committee is to lead the overall structure and direction of the SunPy Project while the lead developer works with the developer community to implement it.
 The Advisory Board publicly posts the `minutes`_ from each of their meetings.
@@ -128,31 +128,26 @@ These people might also *lead* development of their specific domain.
 We are always looking for people to join the SunPy Project to ensure we continue to provide the best possible set of libraries to the solar physics community.
 If you would like to get involved please get in touch.
 
-* `ndcube <https://github.com/sunpy/ndcube>`__: `Daniel Ryan`_ and `Stuart Mumford`_
-* `pyflct <https://github.com/sunpy/pyflct>`__: `Stuart Mumford`_
-* `radiospectra <https://github.com/sunpy/radiospectra>`__: `Shane Maloney`_ and `Laura Hayes`_
-* `sunkit-pyvista <https://github.com/sunpy/sunkit-pyvista>`__
-* `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__: `Laura Hayes`_
-* `sunpy.coordinates <https://github.com/sunpy/sunpy/tree/main/sunpy/coordinates>`__: `Albert Shih`_
-* `sunraster <https://github.com/sunpy/sunraster>`__: `Daniel Ryan`_
-* `sunxspex <https://github.com/sunpy/sunxspex>`__: `Shane Maloney`_ and `Laura Hayes`_
-* `sunkit-image <https://github.com/sunpy/sunkit-image>`__:
-* `sunkit-instruments <https://github.com/sunpy/sunkit-instruments>`__:
 * `ablog <https://github.com/sunpy/ablog>`__: `Nabil Freij`_
-* `sunpy.org <https://github.com/sunpy/sunpy.org>`__: `Nabil Freij`_ and `Stuart Mumford`_
-* `sunpy-sphinx-theme <https://github.com/sunpy/sunpy-sphinx-theme>`__: `Nabil Freij`_ and `Stuart Mumford`_
 * `drms <https://github.com/sunpy/drms>`__: `Nabil Freij`_
+* `ndcube <https://github.com/sunpy/ndcube>`__: `Daniel Ryan`_ and `Stuart Mumford`_
+* `pyflct <https://github.com/sunpy/pyflct>`__: `Stuart Mumford`_ and `Nabil Freij`_
+* `radiospectra <https://github.com/sunpy/radiospectra>`__: `Shane Maloney`_ and `Laura Hayes`_
+* `sunkit-image <https://github.com/sunpy/sunkit-image>`__: `Will Barnes`_ and `Nabil Freij`_
+* `sunkit-instruments <https://github.com/sunpy/sunkit-instruments>`__: `Will Barnes`_ and `Nabil Freij`_
+* `sunkit-pyvista <https://github.com/sunpy/sunkit-pyvista>`__: `Nabil Freij`_
+* `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__: `Laura Hayes`_
+* `sunpy-sphinx-theme <https://github.com/sunpy/sunpy-sphinx-theme>`__: `Stuart Mumford`_ and `Nabil Freij`_
+* `sunpy.coordinates <https://github.com/sunpy/sunpy/tree/main/sunpy/coordinates>`__: `Albert Shih`_
+* `sunpy.org <https://github.com/sunpy/sunpy.org>`__: `Stuart Mumford`_ and `Nabil Freij`_
+* `sunraster <https://github.com/sunpy/sunraster>`__: `Daniel Ryan`_ and `Nabil Freij`_
+* `sunxspex <https://github.com/sunpy/sunxspex>`__: `Shane Maloney`_ and `Laura Hayes`_
 
-.. _Daniel Ryan: https://github.com/danryanirish
-.. _Steven Christe: https://github.com/ehsteve
-.. _Monica Bobra: https://github.com/mbobra
-.. _Laura Hayes: https://github.com/hayesla
-.. _David Pérez-Suárez: https://github.com/dpshelio
-.. _Kolja Glogowski: https://github.com/kbg
-.. _Jack Ireland: https://github.com/wafels
-.. _Stuart Mumford: https://github.com/Cadair
 .. _Albert Shih: https://github.com/ayshih
-.. _Will Barnes: https://github.com/wtbarnes
-.. _Bin Chen: https://github.com/binchensun
-.. _Shane Maloney: https://github.com/samaloney
+.. _Daniel Ryan: https://github.com/danryanirish
+.. _David Pérez-Suárez: https://github.com/dpshelio
+.. _Laura Hayes: https://github.com/hayesla
 .. _Nabil Freij: https://github.com/nabobalis
+.. _Shane Maloney: https://github.com/samaloney
+.. _Stuart Mumford: https://github.com/Cadair
+.. _Will Barnes: https://github.com/wtbarnes
