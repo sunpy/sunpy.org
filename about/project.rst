@@ -5,20 +5,24 @@ SunPy Project
 The **SunPy project** is the organization which maintains the SunPy library and sponsored affiliated packages.
 Its primary goal is to *facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment*.
 
-The organization is described in `SEP-2`_, and consists of Project Custodians, a Steering Comittee appointed by the Project Custodians, an advisory board, and community roles and the sunpy and affiliated package developers.
-Anyone is welcome to participate in the SunPy organization.
-The goal of the Steering Committee is to lead the overall structure and direction of SunPy while the lead developer works with the developer community to implement it. The Advisory Board publicly posts the `minutes`_ from each of their meetings.
+The organization is described in `SEP-2`_, and consists of the Project Custodians, a Steering Committee appointed by the Project Custodians, an advisory board, with community roles supported by developers who contribute to any package under the organization.
+
+**Anyone is welcome to participate in the SunPy organization.**
+
+The goal of the Steering Committee is to lead the overall structure and direction of the SunPy Project while the lead developer works with the developer community to implement it.
+The Advisory Board publicly posts the `minutes`_ from each of their meetings.
 
 .. _SEP-2: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
 .. _minutes: https://github.com/sunpy/sunpy/wiki/Home%3A-Organization-Information
 
-The project governance was significantly updated on 16-May-2024. This page will be updated as those changes are implemented.
+The project governance was significantly updated on 16-May-2024 via a heavily changed `SEP-2`_.
+This page will be updated as those changes are implemented.
 
 People
 ------
 
 In this section we list everyone with a specific role in the project, all the members of the development community are too numerous to list here.
-A list of anyone who contributed code to SunPy is available on Github `contributors`_ and for each major release we keep track of who contributed in-between `releases`_.
+A list of anyone who contributed code to the SunPy Project is available on Github `contributors`_ and for each major release we keep track of who contributed in-between `releases`_.
 
 .. _contributors: https://github.com/sunpy/sunpy/graphs/contributors
 .. _releases: https://docs.sunpy.org/en/stable/whatsnew/index.html
@@ -26,7 +30,8 @@ A list of anyone who contributed code to SunPy is available on Github `contribut
 Advisory Board
 ^^^^^^^^^^^^^^
 
-The advisory board is not yet staffed. If you are interested in serving on the advisory board please let us know in the chat. 
+The advisory board is not yet staffed.
+If you are interested in serving on the advisory board please let us know in the `element.io Chat Room <https://app.element.io/#/room/#sunpy:openastronomy.org>`__.
 
 Community Roles
 ^^^^^^^^^^^^^^^
@@ -35,7 +40,7 @@ The following people hold named roles in the SunPy community.
 See :ref:`role_descriptions` for more details on each role.
 
 .. custom-card:: Stuart Mumford
-    :img_name: stuart.png
+    :img_name: Stuart-Mumford.png
     :github: cadair
     :title: Lead Developer
     :aff_name: Sheffield University
@@ -45,7 +50,7 @@ See :ref:`role_descriptions` for more details on each role.
     Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
 .. custom-card:: Will Barnes
-    :img_name: will.png
+    :img_name: Will-Barnes.png
     :github: wtbarnes
     :title: Deputy Lead Developer
     :aff_name: American University / NASA GSFC
@@ -57,7 +62,7 @@ See :ref:`role_descriptions` for more details on each role.
     In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
 
 .. custom-card:: Laura Hayes
-    :img_name: laura.png
+    :img_name: Laura-Hayes.png
     :github: hayesla
     :title: Communication and Education Lead
     :aff_name: European Space Agency (ESTEC)
@@ -67,7 +72,7 @@ See :ref:`role_descriptions` for more details on each role.
     Laura Hayes is a research fellow at the European Space Agency at the ESTEC facility in the Netherlands. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA GSFC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with new observations from ESA's Solar Orbiter.
 
 .. custom-card:: David Pérez-Suárez
-    :img_name: david.png
+    :img_name: David-Perez-Suarez.png
     :github: dpshelio
     :title: Summer of Code Administrator
     :aff_name: University College London
@@ -83,7 +88,7 @@ See :ref:`role_descriptions` for more details on each role.
     :ref:`role_lead-mentor`
 
 .. custom-card:: Conor MacBride
-    :img_name: conor.png
+    :img_name: Conor-MacBride.png
     :github: ConorMacBride
     :title: Continuous Integration Maintainer
     :aff_name: Queen's University Belfast
@@ -102,7 +107,7 @@ See :ref:`role_descriptions` for more details on each role.
     :ref:`role_webmaster`
 
 .. custom-card:: Will Barnes
-    :img_name: will.png
+    :img_name: Will-Barnes.png
     :github: wtbarnes
     :title: Affiliated Package Liaison
     :aff_name: American University / NASA GSFC
