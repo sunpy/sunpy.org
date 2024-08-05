@@ -4,7 +4,6 @@ from urllib.request import urlretrieve
 
 sys.path.append(Path("exts").absolute().as_posix())
 extensions = [
-    "cards",
     "myst_parser",
     "nbsphinx",
     "rawfiles",
