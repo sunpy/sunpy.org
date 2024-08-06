@@ -11,7 +11,7 @@ Welcome ``TESS <https://aas.org/meetings/tess2015/>`` attendees to the "Introduc
 Here are a list of various links and information for the tutorial:
 
 * The `Introduction to SunPy <https://nbviewer.org/github/ehsteve/ipython-notebooks/blob/master/TESS%202015%20-%20SunPy.ipynb>`_ (in the form of ipython notebooks)
-* The `IRC chatroom <https://webchat.freenode.net/?channels=sunpy>`_
+* The ``IRC chatroom <https://webchat.freenode.net/?channels=sunpy>``
 * SunPy Poster by Dan Ryan - Thursday 10 am 403.07 SunPy: Solar Physics in Python (link coming soon)
 * `Anaconda Python Distribution <https://store.continuum.io/cshop/anaconda/>`_ - the only way to fly!
 * How to install SunPy with Anaconda.

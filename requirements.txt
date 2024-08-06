@@ -9,10 +9,10 @@ sphinx_reredirects
 sphinx-design
 sphinxcontrib-youtube
 sphinxext-opengraph
-sunpy-sphinx-theme>=2.0.0
+sunpy-sphinx-theme>=2.0.14
 
 # Eclipse notebook
-astropy<6.1
+astropy
 exifread
 ipywidgets
 matplotlib

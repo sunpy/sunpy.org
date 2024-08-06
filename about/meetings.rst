@@ -27,8 +27,6 @@ The link to join the weekly community meeting as well as a link to the agenda ar
 
 * `Link to join the weekly community meeting <https://sunpy.org/meeting>`__
 
-* `Agenda for the weekly community meeting <https://demo.hedgedoc.org/GAEnxycXQcCQLrAFN7ie8A?both>`__
-
 * `SunPy Google Calendar <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
 
 Previous SunPy Coordination Meetings
