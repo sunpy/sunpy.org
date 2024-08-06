@@ -28,7 +28,7 @@ intersphinx_mapping = {
     "drms": ("https://docs.sunpy.org/projects/drms/en/stable/", None),
     "aiapy": ("https://aiapy.readthedocs.io/en/stable/", None),
 }
-rawfiles = ["meeting.html", "issues.html", "chat.html", "community_meeting_agenda.html"]
+rawfiles = ["meeting.html", "issues.html", "chat.html"]
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 blog_baseurl = "https://sunpy.org/"
 blog_feed_fulltext = True
