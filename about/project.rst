@@ -40,7 +40,7 @@ The following people hold named roles in the SunPy community.
 See :ref:`role_descriptions` for more details on each role.
 
 .. custom-card:: Stuart Mumford
-    :img_name: Stuart-Mumford.png
+    :img_name: /_static/img/Stuart-Mumford.png
     :github: cadair
     :title: Lead Developer
     :aff_name: Sheffield University
@@ -50,7 +50,7 @@ See :ref:`role_descriptions` for more details on each role.
     Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
 .. custom-card:: Will Barnes
-    :img_name: Will-Barnes.png
+    :img_name: /_static/img/Will-Barnes.png
     :github: wtbarnes
     :title: Deputy Lead Developer
     :aff_name: American University / NASA GSFC
@@ -62,7 +62,7 @@ See :ref:`role_descriptions` for more details on each role.
     In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
 
 .. custom-card:: Laura Hayes
-    :img_name: Laura-Hayes.png
+    :img_name: /_static/img/Laura-Hayes.png
     :github: hayesla
     :title: Communication and Education Lead
     :aff_name: European Space Agency (ESTEC)
@@ -72,7 +72,7 @@ See :ref:`role_descriptions` for more details on each role.
     Laura Hayes is a research fellow at the European Space Agency at the ESTEC facility in the Netherlands. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA GSFC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with new observations from ESA's Solar Orbiter.
 
 .. custom-card:: David Pérez-Suárez
-    :img_name: David-Perez-Suarez.png
+    :img_name: /_static/img/David-Perez-Suarez.png
     :github: dpshelio
     :title: Summer of Code Administrator
     :aff_name: University College London
@@ -88,7 +88,7 @@ See :ref:`role_descriptions` for more details on each role.
     :ref:`role_lead-mentor`
 
 .. custom-card:: Conor MacBride
-    :img_name: Conor-MacBride.png
+    :img_name: /_static/img/Conor-MacBride.png
     :github: ConorMacBride
     :title: Continuous Integration Maintainer
     :aff_name: Queen's University Belfast
@@ -107,7 +107,7 @@ See :ref:`role_descriptions` for more details on each role.
     :ref:`role_webmaster`
 
 .. custom-card:: Will Barnes
-    :img_name: Will-Barnes.png
+    :img_name: /_static/img/Will-Barnes.png
     :github: wtbarnes
     :title: Affiliated Package Liaison
     :aff_name: American University / NASA GSFC
