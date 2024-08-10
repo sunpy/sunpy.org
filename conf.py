@@ -15,6 +15,7 @@ extensions = [
     "sphinx_design",
     "sphinx_reredirects",
     "sphinxcontrib.youtube",
+    "sunpy_sphinx_theme.cards",
 ]
 myst_enable_extensions = ["colon_fence"]
 myst_update_mathjax = False
