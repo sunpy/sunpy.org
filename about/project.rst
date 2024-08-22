@@ -139,7 +139,7 @@ If you would like to get involved please get in touch.
 * `sunpy-soar <https://github.com/sunpy/sunpy-soar>`__: `Laura Hayes`_
 * `sunpy-sphinx-theme <https://github.com/sunpy/sunpy-sphinx-theme>`__: `Stuart Mumford`_
 * `sunpy.coordinates <https://github.com/sunpy/sunpy/tree/main/sunpy/coordinates>`__: `Albert Shih`_
-* `sunpy.org <https://github.com/sunpy/sunpy.org>`__: `Stuart Mumford`_ 
+* `sunpy.org <https://github.com/sunpy/sunpy.org>`__: `Stuart Mumford`_
 * `sunraster <https://github.com/sunpy/sunraster>`__: `Daniel Ryan`_
 * `sunxspex <https://github.com/sunpy/sunxspex>`__: `Shane Maloney`_ and `Laura Hayes`_
 
