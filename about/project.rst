@@ -63,10 +63,6 @@ Active
     :aff_name: ???
     :aff_link: ???
 
-.. custom-card:: Nabil Freij
-    :github: nabobalis
-    :aff_name: ???
-    :aff_link: ???
 
 .. custom-card:: Daniel Garcia Briseno
     :github: ???
@@ -175,9 +171,13 @@ Emeritus
     :aff_name: ???
     :aff_link: ???
 
+.. custom-card:: Nabil Freij
+    :github: nabobalis
+    :aff_name: ???
+    :aff_link: ???
 
-SunPy Board
-^^^^^^^^^^^
+SunPy Advisory Board
+^^^^^^^^^^^^^^^^^^^^
 
 The advisory board is not yet staffed.
 If you are interested in serving on the advisory board please let us know in the `Chat Room <https://app.element.io/#/room/#sunpy:openastronomy.org>`__.
