@@ -13,6 +13,6 @@ def on_html_collect_pages(app):
     return ()
 
 
-def setup(app):
+def setup(app) -> None:
     app.add_config_value("rawfiles", [], "html")
     app.connect("html-collect-pages", on_html_collect_pages)
