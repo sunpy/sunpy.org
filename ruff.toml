@@ -2,64 +2,23 @@
 lint.dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 target-version = "py39"
 line-length = 120
-exclude=[
+extend-exclude=[
     ".git,",
     "__pycache__",
     "build",
     "tools/**",
 ]
 lint.select = [
-    "A",
-    "ARG",
-    "ASYNC",
-    "B",
-    "BLE",
-    "C4",
-    "COM",
-    "DTZ",
-    "E",
-    "EM",
-    "ERA",
-    "EXE",
-    "F",
-    "FBT",
-    "FLY",
-    "G",
-    "I",
-    "ICN",
-    "INP",
-    "INT",
-    "ISC",
-    "LOG",
-    "NPY",
-    "PERF",
-    "PGH",
-    "PIE",
-    "PLE",
-    "PT",
-    "PTH",
-    "PYI",
-    "Q",
-    "RET",
-    "RSE",
-    "RUF",
-    "SIM",
-    "SLF",
-    "SLOT",
-    "T10",
-    "T20",
-    "TCH",
-    "TID",
-    "TRIO",
-    "TRY",
-    "UP",
-    "W",
-    "YTT",
+    "ALL",
 ]
 lint.extend-ignore = [
+    "ANN", # Ignore missing annotations
     "COM812", # May cause conflicts when used with the formatter
-    "E501",  # Line too long
+    "D", # Ignore docstrings
+    "E501", # Line too long
+    "E741", # Ambiguous variable name
     "ISC001",  # May cause conflicts when used with the formatter
+    "PD011", # Use `.to_numpy()` instead of `.values`
     "T201", # Print statements
 ]
 
