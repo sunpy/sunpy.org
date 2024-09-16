@@ -165,6 +165,17 @@ Current packages
 
        Version reviewed: `v0.4.1 <https://github.com/HinodeXRT/xrtpy/releases/tag/v0.4.1>`__
 
+   * - **irispy-lmsal**
+     - A Python package that provides the tools to read in and analyze data from the IRIS solar-observing satellite.
+
+       `Documentation <https://irispy-lmsal.readthedocs.io>`__, `Source code <https://github.com/LM-SAL/irispy-lmsal>`__
+
+       **Maintainer**: `Nabil Freij`_
+
+       |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stc|
+
+       Version reviewed: `v0.2.0 <https://github.com/LM-SAL/irispy-lmsal/releases/tag/v0.2.0>`__
+
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
