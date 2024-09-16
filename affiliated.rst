@@ -154,6 +154,16 @@ Current packages
 
        Version reviewed: `v1.0.0 <https://github.com/sunpy/sunkit-magex/releases/tag/v1.0.0>`__
 
+   * - **xrtpy**
+     - XRTpy facilitates the analysis of observations from the X-Ray Telescope (XRT) aboard the Hinode spacecraft.
+
+       `Documentation <https://xrtpy.readthedocs.io>`__, `Source code <https://github.com/HinodeXRT/xrtpy>`__
+
+       **Maintainer**: `Joy Velasquez`_, `Nick Murphy`_, `Jonathan Slavin`_
+
+       |package_specialized| |integration_full| |docs_good| |tests_good| |duplication_none| |community_good| |dev_stc|
+
+       Version reviewed: `v0.4.1 <https://github.com/HinodeXRT/xrtpy/releases/tag/v0.4.1>`__
 
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
@@ -165,6 +175,9 @@ Current packages
 .. _Shane Maloney: https://github.com/samaloney
 .. _The SunPy Project: https://sunpy.org/about/roles
 .. _Jan Gieseler: https://github.com/jgieseler
+.. _Joy Velasquez: https://github.com/joyvelasquez
+.. _Nick Murphy: https://github.com/namurphy
+.. _Jonathan Slavin: https://github.com/jslavin
 
 Provisional packages
 --------------------
