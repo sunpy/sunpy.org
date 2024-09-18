@@ -71,7 +71,7 @@ Current packages
 
        `Documentation <https://aiapy.readthedocs.io/en/stable/>`__, `Source code <https://github.com/LM-SAL/aiapy>`__
 
-       **Maintainers**: `Will Barnes`_, `Nabil Freij`_
+       **Maintainers**: `Will Barnes`_, `AIA Team @ LMSAL`_
 
        |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
 
@@ -185,6 +185,7 @@ Current packages
 .. _Shane Maloney: https://github.com/samaloney
 .. _The SunPy Project: https://sunpy.org/about/roles
 .. _IRIS Team @ LMSAL: https://iris.lmsal.com/
+.. _AIA Team @ LMSAL: https://aia.lmsal.com/
 .. _Jan Gieseler: https://github.com/jgieseler
 .. _Joy Velasquez: https://github.com/joyvelasquez
 .. _Nick Murphy: https://github.com/namurphy
