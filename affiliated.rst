@@ -170,7 +170,7 @@ Current packages
 
        `Documentation <https://irispy-lmsal.readthedocs.io>`__, `Source code <https://github.com/LM-SAL/irispy-lmsal>`__
 
-       **Maintainer**: `Nabil Freij`_
+       **Maintainer**: `IRIS Team @ LMSAL`_
 
        |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stc|
 
@@ -182,9 +182,9 @@ Current packages
 .. _Stuart Mumford: https://github.com/Cadair
 .. _David Stansby: https://github.com/dstansby
 .. _Will Barnes: https://github.com/wtbarnes
-.. _Nabil Freij: https://github.com/nabobalis
 .. _Shane Maloney: https://github.com/samaloney
 .. _The SunPy Project: https://sunpy.org/about/roles
+.. _IRIS Team @ LMSAL: https://iris.lmsal.com/
 .. _Jan Gieseler: https://github.com/jgieseler
 .. _Joy Velasquez: https://github.com/joyvelasquez
 .. _Nick Murphy: https://github.com/namurphy
