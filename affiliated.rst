@@ -71,7 +71,7 @@ Current packages
 
        `Documentation <https://aiapy.readthedocs.io/en/stable/>`__, `Source code <https://github.com/LM-SAL/aiapy>`__
 
-       **Maintainers**: `Will Barnes`_, `Nabil Freij`_
+       **Maintainers**: `Will Barnes`_, `AIA Team @ LMSAL`_
 
        |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
 
@@ -154,6 +154,27 @@ Current packages
 
        Version reviewed: `v1.0.0 <https://github.com/sunpy/sunkit-magex/releases/tag/v1.0.0>`__
 
+   * - **xrtpy**
+     - XRTpy facilitates the analysis of observations from the X-Ray Telescope (XRT) aboard the Hinode spacecraft.
+
+       `Documentation <https://xrtpy.readthedocs.io>`__, `Source code <https://github.com/HinodeXRT/xrtpy>`__
+
+       **Maintainer**: `Joy Velasquez`_, `Nick Murphy`_, `Jonathan Slavin`_
+
+       |package_specialized| |integration_full| |docs_good| |tests_good| |duplication_none| |community_good| |dev_stc|
+
+       Version reviewed: `v0.4.1 <https://github.com/HinodeXRT/xrtpy/releases/tag/v0.4.1>`__
+
+   * - **irispy-lmsal**
+     - A Python package that provides the tools to read in and analyze data from the IRIS solar-observing satellite.
+
+       `Documentation <https://irispy-lmsal.readthedocs.io>`__, `Source code <https://github.com/LM-SAL/irispy-lmsal>`__
+
+       **Maintainer**: `IRIS Team @ LMSAL`_
+
+       |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_excellent| |dev_stc|
+
+       Version reviewed: `v0.2.0 <https://github.com/LM-SAL/irispy-lmsal/releases/tag/v0.2.0>`__
 
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
@@ -161,10 +182,14 @@ Current packages
 .. _Stuart Mumford: https://github.com/Cadair
 .. _David Stansby: https://github.com/dstansby
 .. _Will Barnes: https://github.com/wtbarnes
-.. _Nabil Freij: https://github.com/nabobalis
 .. _Shane Maloney: https://github.com/samaloney
 .. _The SunPy Project: https://sunpy.org/about/roles
+.. _IRIS Team @ LMSAL: https://iris.lmsal.com/
+.. _AIA Team @ LMSAL: https://aia.lmsal.com/
 .. _Jan Gieseler: https://github.com/jgieseler
+.. _Joy Velasquez: https://github.com/joyvelasquez
+.. _Nick Murphy: https://github.com/namurphy
+.. _Jonathan Slavin: https://github.com/jslavin
 
 Provisional packages
 --------------------
