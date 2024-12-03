@@ -1,4 +1,4 @@
-=============
+ =============
 SunPy Project
 =============
 
@@ -50,7 +50,7 @@ Active
 .. custom-card:: Samuel Badman
     :github: stbadman
     :aff_name: Center for Astrophysics | Harvard & Smithsonian
-    :aff_link: ???
+    :aff_link: 
 
 .. custom-card:: Will Barnes
     :github: wtbarnes
@@ -78,18 +78,18 @@ Active
 .. custom-card:: Hannah Collier
     :github: hannahc243
     :aff_name: FHNW/ETH Switzerland
-    :aff_link: ???
+    :aff_link: 
 
 
 .. custom-card:: Daniel Garcia Briseno
     :github: dgarciabriseno
-    :aff_name: ???
-    :aff_link: ???
+    :aff_name: 
+    :aff_link: 
 
 .. custom-card:: Brett Graham
     :github: braingram
     :aff_name: Space Telescope Science Institute
-    :aff_link: ???
+    :aff_link: 
 
 .. custom-card:: Laura Hayes
     :github: hayesla
@@ -101,12 +101,12 @@ Active
 .. custom-card:: Michael Kirk
     :github: MSKirk
     :aff_name: NASA Goddard Space Flight Center
-    :aff_link: ???
+    :aff_link: 
 
 .. custom-card:: Shane Maloney
     :github: samaloney
     :aff_name: Dublin Institute for Advanced Studies
-    :aff_link: ???
+    :aff_link: 
 
 .. custom-card:: Stuart Mumford
     :github: cadair
@@ -118,12 +118,12 @@ Active
 .. custom-card:: Nick Murphy
     :github: namurphy
     :aff_name: Center for Astrophysics | Harvard & Smithsonian.
-    :aff_link: ???
+    :aff_link: 
 
 .. custom-card:: Sophie Musset
     :github:
     :aff_name: APL
-    :aff_link: ???
+    :aff_link: 
 
 .. custom-card:: Tiago Pereira
     :github: tiagopereira
@@ -141,23 +141,23 @@ Active
 
 .. custom-card:: Dan Ryan
     :github: DanRyanIrish
-    :aff_name: ???
-    :aff_link: ???
+    :aff_name: UCL/MSSL
+    :aff_link: 
 
 .. custom-card:: Albert Shih
     :github: ayshih
     :aff_name: NASA Goddard Space Flight Center
-    :aff_link: ???
+    :aff_link: 
 
 .. custom-card:: Samuel Van Kooten
     :github: svank
     :aff_name: Southwest Research Institute in Boulder
-    :aff_link: ???
+    :aff_link: 
 
 .. custom-card:: Alisdair Wilson
     :github: alasdairwilson
-    :aff_name: ???
-    :aff_link: ???
+    :aff_name: 
+    :aff_link: 
 
 Emeritus
 ########
@@ -178,13 +178,13 @@ Emeritus
 
 .. custom-card:: David Stansby
     :github: dstansby
-    :aff_name: ???
-    :aff_link: ???
+    :aff_name: 
+    :aff_link: 
 
 .. custom-card:: Nabil Freij
     :github: nabobalis
-    :aff_name: ???
-    :aff_link: ???
+    :aff_name: 
+    :aff_link: 
 
 SunPy Advisory Board
 ^^^^^^^^^^^^^^^^^^^^
