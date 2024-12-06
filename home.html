@@ -3,7 +3,7 @@
 <style>
   body {
     background-color: none !important;
-    background-image: url("_static/img/sunpy-bg.jpg");
+    background-image: url('_static/img/sunpy-bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -139,15 +139,27 @@
 
 <script>
   window.onload = async function () {
-    // Get the latest version of sunpy from PyPI
-    const res = await fetch("https://pypi.org/pypi/sunpy/json");
-    const data = await res.json();
-    document.getElementById("version").innerHTML = data.info.version;
+    // Fetch SunPy version from PyPI
+    const res = await fetch('https://pypi.org/pypi/sunpy/json')
+    if (!res.ok) return
+    const data = await res.json()
 
-    // Pride month
-    const d = new Date();
+    // Extract the version and update the "Latest stable release"
+    const latestVersion = data.info.version
+    document.getElementById('version').innerHTML = latestVersion
+
+    // Extract the major version and update the "What's new in x.y?" section
+    const majorVersion = latestVersion.split('.')[0] // Get the first part (major version)
+    const whatsNewLink = `https://docs.sunpy.org/en/stable/whatsnew/${majorVersion}.0.html`
+    const whatsNewText = `What's new in sunpy ${majorVersion}.0?`
+    const whatsNewElement = document.querySelector('.whatsnew a')
+    whatsNewElement.href = whatsNewLink
+    whatsNewElement.innerHTML = whatsNewText
+
+    // Special case for Pride month (June)
+    const d = new Date()
     if (d.getMonth() == 5) {
-      document.getElementById("logo").src = "_static/img/pride/sunpy_icon.svg";
+      document.getElementById('logo').src = '_static/img/pride/sunpy_icon.svg'
     }
-  };
+  }
 </script>
