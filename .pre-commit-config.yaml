@@ -3,7 +3,7 @@ ci:
   autoupdate_schedule: "quarterly"
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.6.4"
+    rev: "v0.8.6"
     hooks:
       - id: ruff
         args: ["--fix", "--unsafe-fixes"]
@@ -24,12 +24,12 @@ repos:
       - id: docformatter
         args: ["--make-summary-multi-line", "--pre-summary-newline", "-ri"]
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.3.3
+    rev: v3.4.2
     hooks:
       - id: prettier
         types_or: [css, scss, javascript, rst, json, yaml, toml, markdown]
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-ast
       - id: check-case-conflict
