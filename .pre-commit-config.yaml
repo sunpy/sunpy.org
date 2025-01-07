@@ -18,11 +18,6 @@ repos:
             "--remove-all-unused-imports",
             "--remove-unused-variable",
           ]
-  - repo: https://github.com/PyCQA/docformatter
-    rev: v1.7.5
-    hooks:
-      - id: docformatter
-        args: ["--make-summary-multi-line", "--pre-summary-newline", "-ri"]
   - repo: https://github.com/rbubley/mirrors-prettier
     rev: v3.4.2
     hooks:
