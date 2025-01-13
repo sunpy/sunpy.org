@@ -29,6 +29,21 @@ The link to join the weekly community meeting as well as a link to the agenda ar
 
 * `SunPy Google Calendar <https://calendar.google.com/calendar/u/0?cid=ZzljOWVha2c5OGI1Y2JvZ2Q3bTV0YTZoOHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ>`__
 
+
+SunPy Coordination Meeting 2025
+*******************************
+The SunPy Project is pleased to announce that the next SunPy Coordination Meeting will take place from 18-20 June 2025 at University College London (UCL), London, UK. The meeting will be held in person and online, and is open to everyone.
+
+This year's meeting will span three days:
+
+- **Wednesday 18th and Thursday 19th June** will focus on ongoing developments, future plans for SunPy and its affiliated packages, and hack sessions to work on SunPy 7.1 and the NDCube refactor.
+- **Friday 20th June** will be dedicated to a "State of the Union" session, including an overview of the SunPy project, lightning talks from the community (i.e. attendees), project updates, and a broader discussion of the SunPy roadmap.
+
+Participation from both long-time contributors and new community members is highly encouraged. We particularly welcome attendees from instrument teams developing user tools and data pipelines as well as researchers using sunpy for solar data analysis in their workflows.
+
+Further information, including the meeting agenda and registration details, will be available on this webpage soon.
+
+
 Previous SunPy Coordination Meetings
 ************************************
 
