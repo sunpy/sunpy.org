@@ -1,22 +1,15 @@
-=============
+ =============
 SunPy Project
 =============
 
 The **SunPy Project** is the organization which maintains the SunPy library and sponsored affiliated packages.
 Its primary goal is to *facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment*.
 
-The organization is described in `SEP-2`_, and consists of the Project Custodians, a Steering Committee appointed by the Project Custodians, an advisory board, with community roles supported by developers who contribute to any package under the organization.
+The organization is described in `SEP-2`_, and consists of a group of trusted community members the "Project Custodians", a three person "Steering Committee" who manage the project day-to-day, and an Advisory Board who provide oversight and guidance.
 
 **Everyone is encouraged to participate in the SunPy Project.**
 
-The goal of the Steering Committee is to lead the overall structure and direction of the SunPy Project while the lead developer works with the developer community to implement it.
-The Advisory Board publicly posts the `minutes`_ from each of their meetings.
-
 .. _SEP-2: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
-.. _minutes: https://github.com/sunpy/sunpy/wiki/Home%3A-Organization-Information
-
-The project governance was significantly updated on 16-May-2024 via a heavily changed `SEP-2`_.
-This page will be updated as those changes are implemented.
 
 People
 ------
@@ -27,11 +20,177 @@ A list of anyone who contributed code to the SunPy Project is available on Githu
 .. _contributors: https://github.com/sunpy/sunpy/graphs/contributors
 .. _releases: https://docs.sunpy.org/en/stable/whatsnew/index.html
 
-Advisory Board
-^^^^^^^^^^^^^^
+Steering Commitee
+^^^^^^^^^^^^^^^^^
+.. custom-card:: Albert Shih
+    :github: ayshih
+    :aff_name: NASA Goddard Space Flight Center
+    :aff_link: 
+
+.. custom-card:: Stuart Mumford
+    :github: cadair
+    :aff_name: Aperio Software
+    :aff_link: https://www.aperiosoftware.com
+
+    Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
+
+.. custom-card:: Laura Hayes
+    :github: hayesla
+    :aff_name: Dublin Institute for Advanced Studies
+    :aff_link: 
+
+    Laura Hayes is a Royal Society-Research Ireland University Research Fellow. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
+
+Project Custodians
+^^^^^^^^^^^^^^^^^^
+
+Active
+######
+
+.. custom-card:: Samuel Badman
+    :github: stbadman
+    :aff_name: Center for Astrophysics | Harvard & Smithsonian
+    :aff_link: 
+
+.. custom-card:: Will Barnes
+    :github: wtbarnes
+    :aff_name: American University / NASA GSFC
+    :aff_link: https://www.american.edu/cas/issti/
+
+    Will Barnes is a research associate at American University and NASA Goddard Space Flight Center where he works on instrument data pipeline development as well as the SunPy project.
+    Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
+    In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
+
+.. custom-card:: Monica Bobra
+    :github: mbobra
+    :aff_name: State of California, Office of Data and Innovation
+    :aff_link: https://innovation.ca.gov
+
+    Monica Bobra serves as the Principal Data Scientist for the State of California. She previously studied the Sun and space weather at Stanford University and the Harvard-Smithsonian Center for Astrophysics.
+
+.. custom-card:: Steven Christe
+    :github: ehsteve
+    :aff_name: NASA Goddard Space Flight Center
+    :aff_link: https://science.gsfc.nasa.gov/heliophysics/solar
+
+    Dr. Steven Christe is a research astrophysicist in the Solar Physics Laboratory at the Goddard Space Flight Center in Greenbelt, Maryland. His science interests focus on hard X-ray emission from solar flares and the quiet Sun with particular emphasis on the statistics of small transient bursts such as solar microflares; hard X-ray emission associated with solar radio emission; and the application of hard X-ray focusing optics to solar observations.
+
+.. custom-card:: Hannah Collier
+    :github: hannahc243
+    :aff_name: FHNW/ETH Switzerland
+    :aff_link: 
+
+
+.. custom-card:: Daniel Garcia Briseno
+    :github: dgarciabriseno
+    :aff_name: 
+    :aff_link: 
+
+.. custom-card:: Brett Graham
+    :github: braingram
+    :aff_name: Space Telescope Science Institute
+    :aff_link: 
+
+.. custom-card:: Laura Hayes
+    :github: hayesla
+    :aff_name: European Space Agency (ESTEC)
+    :aff_link: https://www.esa.int/
+
+    Laura Hayes is a Royal Society-Research Ireland University Research Fellow. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
+
+.. custom-card:: Michael Kirk
+    :github: MSKirk
+    :aff_name: NASA Goddard Space Flight Center
+    :aff_link: 
+
+.. custom-card:: Shane Maloney
+    :github: samaloney
+    :aff_name: Dublin Institute for Advanced Studies
+    :aff_link: 
+
+.. custom-card:: Stuart Mumford
+    :github: cadair
+    :aff_name: Aperio Software
+    :aff_link: https://www.aperiosoftware.com
+
+    Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
+
+.. custom-card:: Nick Murphy
+    :github: namurphy
+    :aff_name: Center for Astrophysics | Harvard & Smithsonian.
+    :aff_link: 
+
+.. custom-card:: Sophie Musset
+    :github:
+    :aff_name: APL
+    :aff_link: 
+
+.. custom-card:: Tiago Pereira
+    :github: tiagopereira
+    :aff_name: University of Oslo
+    :aff_link: https://www.mn.uio.no/rocs/
+
+    Tiago Pereira is an Associate Professor at the University of Oslo, at the Rosseland Centre for Solar Physics and the Institute of Theoretical Astrophysics. He received his Ph.D. from the Australian National University, working with 3D MHD models of the solar photosphere and spectral line formation. He subsequently was a NASA Postdoctoral Fellow at NASA Ames and LMSAL, studying the dynamic chromosphere and helping prepare for the IRIS mission. A member of the IRIS science team, Tiago's research focuses on understanding the solar chromosphere by combining multi-wavelength observations with MHD simulations.
+
+.. custom-card:: David Pérez-Suárez
+    :github: dpshelio
+    :aff_name: University College London
+    :aff_link: https://www.ulc.ac.uk
+
+    David Pérez-Suárez is working now as a Research Software Developer at University College London. There he helps researchers to get better science via better software and teaches research software engineering to young scientists. He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorological Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
+
+.. custom-card:: Dan Ryan
+    :github: DanRyanIrish
+    :aff_name: UCL/MSSL
+    :aff_link: 
+
+.. custom-card:: Albert Shih
+    :github: ayshih
+    :aff_name: NASA Goddard Space Flight Center
+    :aff_link: 
+
+.. custom-card:: Samuel Van Kooten
+    :github: svank
+    :aff_name: Southwest Research Institute in Boulder
+    :aff_link: 
+
+.. custom-card:: Alisdair Wilson
+    :github: alasdairwilson
+    :aff_name: 
+    :aff_link: 
+
+Emeritus
+########
+
+.. custom-card:: Russell Hewett
+    :github: rhewett
+    :aff_name: Virginia Tech
+    :aff_link: https://www.russellhewett.com
+
+    Russell J. Hewett is a research scientist in computational science and engineering.  He has worked in solar physics since 2000 and in addition to his PhD thesis on 3D tomography of the corona, he has spent time at NASA GSFC and Trinity College Dublin working on data processing, visualization, and science software for the RHESSI, SOHO,  and STEREO satellite observatories.  Russell earned a B.S. in Computer Science from Virginia Tech and a Ph.D. in Computer Science with a focus on Computational Science and Engineering from the University of Illinois and he was a postdoc in Applied Mathematics at MIT.  He has extensive experience in scientific software for Python. He is now an assistant Professor of Mathematics at Virginia Tech.
+
+.. custom-card:: Conor MacBride
+    :github: ConorMacBride
+    :aff_name: Queen's University Belfast
+    :aff_link: https://www.qub.ac.uk
+
+    Conor MacBride is a solar physics PhD student at Queen's University Belfast, researching waves in the lower solar atmosphere. Prior to this, he obtained an MPhys degree in Mathematics and Theoretical Physics from the University of St Andrews.
+
+.. custom-card:: David Stansby
+    :github: dstansby
+    :aff_name: 
+    :aff_link: 
+
+.. custom-card:: Nabil Freij
+    :github: nabobalis
+    :aff_name: 
+    :aff_link: 
+
+SunPy Advisory Board
+^^^^^^^^^^^^^^^^^^^^
 
 The advisory board is not yet staffed.
-If you are interested in serving on the advisory board please let us know in the `element.io Chat Room <https://app.element.io/#/room/#sunpy:openastronomy.org>`__.
+If you are interested in serving on the advisory board please let us know in the `Chat Room <https://app.element.io/#/room/#sunpy:openastronomy.org>`__.
 
 Community Roles
 ^^^^^^^^^^^^^^^
@@ -39,40 +198,16 @@ Community Roles
 The following people hold named roles in the SunPy community.
 See :ref:`role_descriptions` for more details on each role.
 
-.. custom-card:: Stuart Mumford
-    :img_name: /_static/img/Stuart-Mumford.png
-    :github: cadair
-    :title: Lead Developer
-    :aff_name: Sheffield University
-    :aff_link: https://www.sheffield.ac.uk/
-    :date: 17 March 2014
-
-    Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre. He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
-
-.. custom-card:: Will Barnes
-    :img_name: /_static/img/Will-Barnes.png
-    :github: wtbarnes
-    :title: Deputy Lead Developer
-    :aff_name: American University / NASA GSFC
-    :aff_link: https://www.american.edu/cas/issti/
-    :date: 3 December 2019
-
-    Will Barnes is a research associate at American University and NASA Goddard Space Flight Center where he works on instrument data pipeline development as well as the SunPy project.
-    Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
-    In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
 
 .. custom-card:: Laura Hayes
-    :img_name: /_static/img/Laura-Hayes.png
     :github: hayesla
     :title: Communication and Education Lead
-    :aff_name: European Space Agency (ESTEC)
-    :aff_link: https://www.esa.int/
-    :date: 3 November 2021
+    :aff_name: Dublin Institute for Advanced Studies
+    :aff_link: 
 
-    Laura Hayes is a research fellow at the European Space Agency at the ESTEC facility in the Netherlands. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA GSFC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with new observations from ESA's Solar Orbiter.
+    Laura Hayes is a Royal Society-Research Ireland University Research Fellow. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
 
 .. custom-card:: David Pérez-Suárez
-    :img_name: /_static/img/David-Perez-Suarez.png
     :github: dpshelio
     :title: Summer of Code Administrator
     :aff_name: University College London
@@ -88,7 +223,6 @@ See :ref:`role_descriptions` for more details on each role.
     :ref:`role_lead-mentor`
 
 .. custom-card:: Conor MacBride
-    :img_name: /_static/img/Conor-MacBride.png
     :github: ConorMacBride
     :title: Continuous Integration Maintainer
     :aff_name: Queen's University Belfast
@@ -107,7 +241,6 @@ See :ref:`role_descriptions` for more details on each role.
     :ref:`role_webmaster`
 
 .. custom-card:: Will Barnes
-    :img_name: /_static/img/Will-Barnes.png
     :github: wtbarnes
     :title: Affiliated Package Liaison
     :aff_name: American University / NASA GSFC
