@@ -3,7 +3,7 @@ ci:
   autoupdate_schedule: "monthly"
 repos:
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.9.4"
+    rev: "v0.9.9"
     hooks:
       - id: ruff
         args: ["--fix", "--unsafe-fixes"]
@@ -19,7 +19,7 @@ repos:
             "--remove-unused-variable",
           ]
   - repo: https://github.com/rbubley/mirrors-prettier
-    rev: v3.4.2
+    rev: v3.5.3
     hooks:
       - id: prettier
         types_or: [css, scss, javascript, rst, json, yaml, toml, markdown]
