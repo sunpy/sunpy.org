@@ -39,7 +39,7 @@ Gearing up for the next sub-part
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If any of my readers had been gauging my progress, here is a
-`tab <https://github.com/sunpy/ndcube/projects/2>`__ which contains most
+tab which contains most
 of the task that should be completed to check-off the task. I had
 covered most of the tasks of ``NDCubeBase``. I was concerned with the
 working of ``axis_world_coords``, which I had re-written earlier, and
