@@ -100,9 +100,9 @@ Active
     :aff_link: https://www.fhnw.ch/en/startseite
 
     Hannah is a PhD student studying solar flare energy release and particle acceleration at ETH Zürich in collaboration with the University of Applied Science and Arts, Northwestern Switzerland.
-   She previously completed an MSc in space science and engineering at University College London.
-   Prior to that she studied theoretical physics at Trinity College Dublin.
-   She is passionate about applying her studies to understanding the natural world, in particular in the fields of space science and astrophysics.
+    She previously completed an MSc in space science and engineering at University College London.
+    Prior to that she studied theoretical physics at Trinity College Dublin.
+    She is passionate about applying her studies to understanding the natural world, in particular in the fields of space science and astrophysics.
 
 .. custom-card:: Daniel Garcia Briseno
     :github: dgarciabriseno
@@ -232,7 +232,7 @@ Emeritus
     :aff_name: SETI Institute
     :aff_link: https://www.seti.org
 
-   Worked to death, RIP.
+    Worked to death, RIP.
 
 SunPy Advisory Board
 ^^^^^^^^^^^^^^^^^^^^
