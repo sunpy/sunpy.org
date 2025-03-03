@@ -21,7 +21,7 @@ A list of anyone who contributed code to the SunPy Project is available on Githu
 .. _releases: https://docs.sunpy.org/en/stable/whatsnew/index.html
 
 Steering Committee
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 .. custom-card:: Albert Y. Shih
     :github: ayshih
