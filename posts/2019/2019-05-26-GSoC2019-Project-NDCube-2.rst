@@ -60,7 +60,7 @@ While the title sounds a bit misleading, as I have made PRs to
 changes which might affect ``SunPy`` indirectly.
 
 After completing most of the
-`tasks <https://github.com/sunpy/ndcube/projects/2>`__, I
+tasks, I
 decided to do something else, unrelated to my project. I had a chat with
 ``@Cadair`` and he suggested me to help him to fix some tests which were
 failing in ``SunPy/NDCube``. As ``SunPy`` was quite near to be released,

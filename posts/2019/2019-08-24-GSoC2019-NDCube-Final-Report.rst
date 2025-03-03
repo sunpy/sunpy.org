@@ -135,7 +135,7 @@ rest of the checkpoints were achieved successfully.
    plotting
    of NDCubeSequence — I had completed almost all of the tasks as I had
    planned in my
-   `proposal <https://github.com/sunpy/ndcube/projects/2>`__ but
+   proposal but
    remaining one — Completing the plotting for NDCube Sequence objects.
    I had made the PR, but on close digging with the codebase, I realized
    that the master codebase was buggy, and a bug fix was needed to be
