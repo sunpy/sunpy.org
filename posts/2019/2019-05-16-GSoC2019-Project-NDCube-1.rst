@@ -74,7 +74,7 @@ the parts of **``NDCube``** as it was quite intuitive with the way, the
 mentors, particularly **Dan Ryan**, explained. The meeting was quite
 long, which meant that I was starting to lose out on the objectives and
 pointers of the meeting. **Cadair** started to
-`document <https://github.com/sunpy/ndcube/projects/2>`__ down all the
+document down all the
 requirements of the project, which made it quite simple to understand
 it. Of course, the low-level idea about the goals required me to discuss
 with them as required, but the overall high-level idea helped me

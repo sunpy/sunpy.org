@@ -64,4 +64,4 @@ aiapy 0.6
 
 The SunPy-affiliated aiapy package, which provides tools for working with SDO/AIA data and is maintained by the AIA instrument team, has a new 0.6 release which includes support for sunpy core 3.1.
 In addition to a number of bug fixes, v0.6 also includes the ability to calculate uncertainties on AIA images via the `~aiapy.calibrate.estimate_error` function.
-A complete list of changes is available `in the changelog <https://aiapy.readthedocs.io/en/stable/changelog.html#changelog>`__.
+A complete list of changes is available `in the changelog <https://aiapy.readthedocs.io/en/stable/whatsnew/changelog.html>`__.
