@@ -20,7 +20,7 @@ A list of anyone who contributed code to the SunPy Project is available on Githu
 .. _contributors: https://github.com/sunpy/sunpy/graphs/contributors
 .. _releases: https://docs.sunpy.org/en/stable/whatsnew/index.html
 
-Steering Commitee
+Steering Committee
 ^^^^^^^^^^^^^^^^^
 
 .. custom-card:: Albert Y. Shih
@@ -30,7 +30,7 @@ Steering Commitee
 
     Dr. Albert Shih was born and raised in Southern California.
     He obtained his BSc in physics and mathematics from the California Institute of Technology, and his PhD in physics from the University of California, Berkeley.
-    He was a GSFC GSRP fellow from 2004 to 2007, and then he started at GSFC as an NPP fellow in 2009. 
+    He was a GSFC GSRP fellow from 2004 to 2007, and then he started at GSFC as an NPP fellow in 2009.
     In 2010, he was hired by GSFC as a research astrophysicist in the Solar Physics Laboratory.
 
 .. custom-card:: Stuart Mumford
@@ -185,7 +185,7 @@ Active
 
     Dr. Albert Shih was born and raised in Southern California.
     He obtained his BSc in physics and mathematics from the California Institute of Technology, and his PhD in physics from the University of California, Berkeley.
-    He was a GSFC GSRP fellow from 2004 to 2007, and then he started at GSFC as an NPP fellow in 2009. 
+    He was a GSFC GSRP fellow from 2004 to 2007, and then he started at GSFC as an NPP fellow in 2009.
     In 2010, he was hired by GSFC as a research astrophysicist in the Solar Physics Laboratory.
 
 .. custom-card:: Samuel Van Kooten
@@ -229,7 +229,7 @@ Emeritus
 
 .. custom-card:: Nabil Freij
     :github: nabobalis
-    :aff_name: SETI Institute 
+    :aff_name: SETI Institute
     :aff_link: https://www.seti.org
 
    Worked to death, RIP.
@@ -260,7 +260,7 @@ See :ref:`role_descriptions` for more details on each role.
 .. custom-card:: Laura Hayes
     :github: hayesla
     :aff_name: Dublin Institute for Advanced Studies
-    :aff_link: 
+    :aff_link:
 
     Laura Hayes is a Royal Society-Research Ireland University Research Fellow. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
 
