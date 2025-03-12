@@ -36,8 +36,8 @@ The SunPy Project is pleased to announce that the next SunPy Coordination Meetin
 
 This year's meeting will span three days:
 
-- **Wednesday 18th and Thursday 19th June** will focus on ongoing developments, future plans for SunPy and its affiliated packages, and hack sessions to work on SunPy 7.1 and the NDCube refactor.
-- **Friday 20th June** will be dedicated to a "State of the Union" session, including an overview of the SunPy project, lightning talks from the community (i.e. attendees), project updates, and a broader discussion of the SunPy roadmap.
+- **Wednesday 18th and Thursday 19th June** will focus on ongoing developments, future plans for SunPy and its affiliated packages, and hack sessions to work on SunPy 7.1 and the NDCube refactor. ⚠ Please note that space for in-person attendance on these days may be limited. If demand exceeds capacity, registration will be on a first-come, first-served basis.
+- **Friday 20th June** will be dedicated to a "State of the Union" session, including an overview of the SunPy project, lightning talks from the community (i.e. attendees), project updates, and a broader discussion of the SunPy roadmap. ✅ A larger room is available for Friday, so more in-person participants can be accommodated
 
 Participation from both long-time contributors and new community members is highly encouraged.
 We particularly welcome attendees from instrument teams developing user tools and data pipelines as well as researchers using sunpy for solar data analysis in their workflows.
