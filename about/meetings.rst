@@ -42,10 +42,18 @@ This year's meeting will span three days:
 Participation from both long-time contributors and new community members is highly encouraged.
 We particularly welcome attendees from instrument teams developing user tools and data pipelines as well as researchers using sunpy for solar data analysis in their workflows.
 
+Registration
+############
+
+The meeting is open to everyone, please fill in this form by the 16th May if you are interested in attending either in-person or virtually.
+
+https://forms.gle/mDL7RmwY2NTRhsyW9
+
 Logistics
 #########
 
-🏢 Location: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__. 1st floor on Function room and 1.14.
+🏢 Location: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__.
+1st floor for Function room (Wed and Thurs) and Room 1.14 (Fri).
 
 
 🚀 Transport:
