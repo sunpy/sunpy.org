@@ -39,10 +39,30 @@ This year's meeting will span three days:
 - **Wednesday 18th and Thursday 19th June** will focus on ongoing developments, future plans for SunPy and its affiliated packages, and hack sessions to work on SunPy 7.1 and the NDCube refactor.
 - **Friday 20th June** will be dedicated to a "State of the Union" session, including an overview of the SunPy project, lightning talks from the community (i.e. attendees), project updates, and a broader discussion of the SunPy roadmap.
 
-Participation from both long-time contributors and new community members is highly encouraged. We particularly welcome attendees from instrument teams developing user tools and data pipelines as well as researchers using sunpy for solar data analysis in their workflows.
+Participation from both long-time contributors and new community members is highly encouraged.
+We particularly welcome attendees from instrument teams developing user tools and data pipelines as well as researchers using sunpy for solar data analysis in their workflows.
 
-Further information, including the meeting agenda and registration details, will be available on this webpage soon.
+Logistics
+#########
 
+🏢 Location: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__. 1st floor on Function room and 1.14.
+
+🚀 Transport:
+- 🚇 Closest tube stop Holborn 🔴 central & 🔵 Piccadilly.
+- 🚍 Few buses stopping by from different locations.
+- 🚲 City bikes stations next to building and drop-them-where-you-can-annoy-more-people bikes also available.
+- 🚶 25 min from Euston/King Cross/St Pancras/Waterloo; 36 min from Liverpool st. 56 min from Paddington.
+- 🛫 Heathrow, Stansted, Gatwick, Luton, City are all well connected to the centre. Southend is also possible but a bit less easier.
+
+🏨 Hotels: There are plenty of hotels local to the venue.
+Student accommodation may be available and they are `already open for booking <https://www.ucl.ac.uk/residences/>`__ unfortunately they are just bookable from the 23rd.
+
+🥙 Food: Plenty of food options on Red Lion Street.
+
+🍻 Pubs: lots around, one even with £5 a pint.
+🏓 Table tennis: though we have a table in the office, there's a bar full of them and with pizza 8 minutes away.
+🎯 Darts: there's a Flight club 9 minutes away.
+🪓 Axe Throwing: 20 min away, but there may be others closer.
 
 Previous SunPy Coordination Meetings
 ************************************
