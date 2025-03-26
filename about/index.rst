@@ -7,7 +7,6 @@ About
    self
    project
    presentations
-   roles
    meetings
    ../coc
 
