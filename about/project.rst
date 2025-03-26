@@ -1,13 +1,18 @@
+.. _sunpy_project:
+
 =============
 SunPy Project
 =============
 
 The **SunPy Project** is the organization which maintains the SunPy library and sponsored affiliated packages.
-Its primary goal is to *facilitate and promote the use and development of a community-led, free and open-source solar data-analysis software based on the scientific Python environment*.
 
-The organization is described in `SEP-2`_, and consists of a group of trusted community members the "Project Custodians", a three person "Steering Committee" who manage the project day-to-day, and an Advisory Board who provide oversight and guidance.
+The organizational structure is described in `SEP-2`_, and consists of:
 
-**Everyone is encouraged to participate in the SunPy Project.**
+* a group of trusted community members the "Project Custodians"
+* a three person "Steering Committee" who manage the project day-to-day
+* an Advisory Board who provide oversight and guidance
+
+In addition to this there are other roles people may hold with a specific focus inside the project (see :ref:`sunpy_project_other_roles`).
 
 .. _SEP-2: https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md
 
@@ -19,6 +24,8 @@ A list of anyone who contributed code to the SunPy Project is available on Githu
 
 .. _contributors: https://github.com/sunpy/sunpy/graphs/contributors
 .. _releases: https://docs.sunpy.org/en/stable/whatsnew/index.html
+
+.. _sunpy_project_steering_committee:
 
 Steering Committee
 ^^^^^^^^^^^^^^^^^^
@@ -49,6 +56,8 @@ Steering Committee
     Laura Hayes is a Royal Society-Research Ireland University Research Fellow.
     Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC.
     Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
+
+.. _sunpy_project_custodians:
 
 Project Custodians
 ^^^^^^^^^^^^^^^^^^
@@ -232,16 +241,21 @@ Emeritus
     :aff_name: University College London
     :aff_link: https://www.ucl.ac.uk/
 
+.. _sunpy_project_board:
+
 SunPy Advisory Board
 ^^^^^^^^^^^^^^^^^^^^
 
 The advisory board is not yet staffed.
 If you are interested in serving on the advisory board please let us know in the `Chat Room <https://app.element.io/#/room/#sunpy:openastronomy.org>`__.
 
-Community Roles
-^^^^^^^^^^^^^^^
 
-The following people hold named roles in the SunPy community.
+.. _sunpy_project_other_roles:
+
+Other Roles
+^^^^^^^^^^^
+
+The following people hold named roles.
 See :ref:`role_descriptions` for more details on each role.
 
 .. custom-card:: Laura A. Hayes
@@ -254,13 +268,6 @@ See :ref:`role_descriptions` for more details on each role.
     Laura Hayes is a Royal Society-Research Ireland University Research Fellow.
     Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC.
     Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
-
-.. custom-card:: Laura Hayes
-    :github: hayesla
-    :aff_name: Dublin Institute for Advanced Studies
-    :aff_link:
-
-    Laura Hayes is a Royal Society-Research Ireland University Research Fellow. Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC. Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
 
 .. custom-card:: David Pérez-Suárez
     :github: dpshelio
@@ -276,9 +283,6 @@ See :ref:`role_descriptions` for more details on each role.
 .. custom-card:: Role Unfilled
     :title: Lead Newcomer Mentor
 
-    If you are interested in filling this role see the description:
-    :ref:`role_lead-mentor`
-
 .. custom-card:: Conor MacBride
     :github: ConorMacBride
     :aff_name: Allstate in Northern Ireland
@@ -292,9 +296,6 @@ See :ref:`role_descriptions` for more details on each role.
 .. custom-card:: Role Unfilled
     :title: Webmaster
 
-    If you are interested in filling this role see the description:
-    :ref:`role_webmaster`
-
 .. custom-card:: Will Barnes
     :github: wtbarnes
     :aff_name: American University / NASA GSFC
@@ -305,6 +306,8 @@ See :ref:`role_descriptions` for more details on each role.
     Will Barnes is a research associate at American University and NASA Goddard Space Flight Center where he works on instrument data pipeline development as well as the SunPy project.
     Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
     In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
+
+.. _sunpy_project_maintainers:
 
 Maintainers
 ^^^^^^^^^^^
@@ -341,8 +344,8 @@ If you would like to get involved please get in touch in the `Chat Room <https:/
 
 .. _role_descriptions:
 
-Community Role Descriptions
----------------------------
+Role Descriptions
+-----------------
 
 This section describes each of the SunPy projects community (executive) roles, and lists the current holder(s) of that role. Community members can also participate by being members of the board.
 We would like to encourage anyone interested parties to apply to roles which are currently unfilled by contacting  the lead developer or the deputy lead developer.

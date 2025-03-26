@@ -24,9 +24,9 @@ Furthermore, the SunPy project was established in order to further the goals of 
 The SunPy project (also known as the Sunpy organization) wants to provide the software tools necessary so that anyone can analyze the ever increasing catalogue of solar data.
 This enables the targeted support of other solar physics Python packages that do not fall within the scope of the core SunPy package.
 
-We are proud to be a `NUMFocus`_ sponsored project and have been supported by `ESA`_, `PSF`_ and `Google`_ to name a few.
+We are proud to be a `NUMFocus`_ sponsored project and have been supported by ESA (via Summer of Code in Space), `PSF`_ and `Google`_ to name a few.
 SunPy has become a global project that is not associated with any individual institution.
-More information about the SunPy project can be find :doc:`/about/project`.
+More information about the SunPy project can be found on the :ref:`sunpy_project` page.
 
 .. _Python programming language: https://www.python.org/
 .. _NumPy: https://numpy.org/
@@ -36,6 +36,5 @@ More information about the SunPy project can be find :doc:`/about/project`.
 .. _Astropy: https://www.astropy.org/
 .. _NASA Goddard Space Flight Center: https://www.nasa.gov/goddard/
 .. _NUMFocus: https://numfocus.org/open-source-projects.html
-.. _ESA: https://www.esa.int/Enabling_Support/Space_Engineering_Technology/SOCIS_The_ESA_Summer_of_Code_in_Space
 .. _PSF: https://www.python.org/psf-landing/
 .. _Google: https://developers.google.com/open-source/gsoc/
