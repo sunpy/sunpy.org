@@ -86,6 +86,15 @@ Active
     Monica Bobra serves as the Principal Data Scientist for the State of California.
     She previously studied the Sun and space weather at Stanford University and the Harvard-Smithsonian Center for Astrophysics.
 
+.. custom-card:: Daniel Garcia Briseno
+    :github: dgarciabriseno
+    :aff_name: ADNET Systems Inc
+    :aff_link: https://www.adnet-sys.com/
+
+    Making solar physics data browsable by anyone, anywhere for The Helioviewer Project since 2021.
+
+    The Helioviewer Project designs systems and services to give people all over the world the capability to explore the Sun and inner heliosphere and assists with accessing the underlying science data.
+
 .. custom-card:: Steven Christe
     :github: ehsteve
     :aff_name: NASA Goddard Space Flight Center
@@ -104,15 +113,6 @@ Active
     Prior to that she studied theoretical physics at Trinity College Dublin.
     She is passionate about applying her studies to understanding the natural world, in particular in the fields of space science and astrophysics.
 
-.. custom-card:: Daniel Garcia Briseno
-    :github: dgarciabriseno
-    :aff_name: ADNET Systems Inc
-    :aff_link: https://www.adnet-sys.com/
-
-    Making solar physics data browsable by anyone, anywhere for The Helioviewer Project since 2021.
-
-    The Helioviewer Project designs systems and services to give people all over the world the capability to explore the Sun and inner heliosphere and assists with accessing the underlying science data.
-
 .. custom-card:: Nabil Freij
     :github: nabobalis
     :aff_name: SETI Institute
@@ -123,10 +123,24 @@ Active
     :aff_name: Space Telescope Science Institute
     :aff_link: https://www.stsci.edu/
 
+.. custom-card:: Laura A. Hayes
+    :github: hayesla
+    :aff_name: Dublin Institute for Advanced Studies
+    :aff_link: https://www.dias.ie/
+
+    Laura Hayes is a Royal Society-Research Ireland University Research Fellow.
+    Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC.
+    Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
+
 .. custom-card:: Michael S. F. Kirk
     :github: MSKirk
     :aff_name: NASA Goddard Space Flight Center
     :aff_link: https://www.nasa.gov/goddard/
+
+.. custom-card:: Samuel Van Kooten
+    :github: svank
+    :aff_name: Southwest Research Institute in Boulder, Colorado
+    :aff_link: https://www.boulder.swri.edu/
 
 .. custom-card:: Shane Maloney
     :github: samaloney
@@ -141,22 +155,13 @@ Active
     Stuart Mumford is the Python developer for the Daniel K. Inouye Solar Telescope Data Centre.
     He obtained a PhD in Numerical solar physics from Sheffield University in 2016, prior to his PhD he obtained a first class MPhys degree in Physics with Planetary and Space Physics from The University of Wales Aberystwyth, during which he spent 5 months studying at UNIS on Svalbard in the high arctic.
 
-.. custom-card:: Laura A. Hayes
-    :github: hayesla
-    :aff_name: Dublin Institute for Advanced Studies
-    :aff_link: https://www.dias.ie/
-
-    Laura Hayes is a Royal Society-Research Ireland University Research Fellow.
-    Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC.
-    Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
-
 .. custom-card:: Nick Murphy
     :github: namurphy
     :aff_name: Center for Astrophysics | Harvard & Smithsonian.
     :aff_link: https://www.cfa.harvard.edu/
 
 .. custom-card:: Sophie Musset
-    :github:
+    :github: somusset
     :aff_name: APL
     :aff_link: https://www.jhuapl.edu/
 
@@ -192,11 +197,6 @@ Active
     He obtained his BSc in physics and mathematics from the California Institute of Technology, and his PhD in physics from the University of California, Berkeley.
     He was a GSFC GSRP fellow from 2004 to 2007, and then he started at GSFC as an NPP fellow in 2009.
     In 2010, he was hired by GSFC as a research astrophysicist in the Solar Physics Laboratory.
-
-.. custom-card:: Samuel Van Kooten
-    :github: svank
-    :aff_name: Southwest Research Institute in Boulder, Colorado
-    :aff_link: https://www.boulder.swri.edu/
 
 .. custom-card:: Alisdair Wilson
     :github: alasdairwilson
