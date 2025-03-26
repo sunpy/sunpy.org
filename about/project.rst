@@ -113,6 +113,11 @@ Active
 
     The Helioviewer Project designs systems and services to give people all over the world the capability to explore the Sun and inner heliosphere and assists with accessing the underlying science data.
 
+.. custom-card:: Nabil Freij
+    :github: nabobalis
+    :aff_name: SETI Institute
+    :aff_link: https://www.seti.org
+
 .. custom-card:: Brett Graham
     :github: braingram
     :aff_name: Space Telescope Science Institute
@@ -226,13 +231,6 @@ Emeritus
     :github: dstansby
     :aff_name: University College London
     :aff_link: https://www.ucl.ac.uk/
-
-.. custom-card:: Nabil Freij
-    :github: nabobalis
-    :aff_name: SETI Institute
-    :aff_link: https://www.seti.org
-
-    Worked to death, RIP.
 
 SunPy Advisory Board
 ^^^^^^^^^^^^^^^^^^^^
