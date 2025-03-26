@@ -8,46 +8,13 @@ This section describes each of the SunPy projects community (executive) roles, a
 We would like to encourage anyone interested parties to apply to roles which are currently unfilled by contacting  the lead developer or the deputy lead developer.
 It is possible for more than one person to share the responsibilities of a role. If you are interested in a role which is filled, contact the individual(s) and ask how you can help.
 
-.. _role_lead-dev:
-
-Lead Developer and Deputy Lead Developer
-----------------------------------------
-
-**Stuart Mumford and Will Barnes (deputy)**
-
-The lead developer team have overall responsibility for the core package and any sponsored affiliated packages.
-The most important responsibility of the lead developer is to lead the developer community. It is therefore important for this role to be available to the community to answer questions and facilitate and direct contributions.
-
-The role of the lead developer is outlined in `SEP-2 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0002.md#the-executive>`__ and other SEPs. The lead developer team have push privileges to the SunPy repository and maintain ownership of the SunPy GitHub organization and related services.
-Some of the responsibility of the lead developer team are:
-
--  Hold regular meetings with the developer community (at least monthly).
--  Make regular reports to the board (at least quarterly).
--  Select and support sub-package maintainers. Delegate push privileges to the SunPy repository.
--  Develop and maintain a submission and review process for proposed affiliated packages which must be included in the core library documentation. (`SEP-4 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0004.md#acceptance-process-for-affiliated-packages>`__)
--  Plan and execute a release schedule consistent with `SEP-9 <https://github.com/sunpy/sunpy-SEP/blob/master/SEP-0009.md#detailed-description>`__).
-
-The lead developer is delegated all executive responsibilities of running the development side of the SunPy organization.
-The following roles are identified and delegate the executive responsibilities of the lead developer to share the workload.
-The community and lead developer can define new roles as necessary. It is expected that this team of people work together to support each other and identify new people to fill these roles as needed.
-
-It is expected that the lead developer(s), assisted by the sub-package maintainers, perform the following core day-to-day tasks, on the core repo and all sponsored affiliated packages:
-
--  Review Pull Requests.
--  Perform triage on the list of issues.
--  Respond to users and developers through various communications channels.
--  Ensure releases occur on time and decide on the scope of releases.
-
-**Estimated Commitment Level**: The lead developer roles require a large commitment, between 10 to 20 hours per week, between the two roles.
-
 .. _role_ci-maintainer:
 
 Continuous Integration Maintainer
 ---------------------------------
 **Conor MacBride**
 
-SunPy core and the affiliated packages using the `package-template <https://github.com/sunpy/package-template>`__ all use
-the same CI setup.
+SunPy core and the affiliated packages using the `package-template <https://github.com/sunpy/package-template>`__ all use the same CI setup.
 The primary responsibility of the CI Maintainer is to keep these resources up to date and fix issues as they arise with new package versions or changes to CI platforms.
 An outline of the current CI services used can be found in `the sunpy documentation <https://docs.sunpy.org/en/latest/dev_guide/contents/ci_jobs.html>`__.
 A non-exhaustive list of things involved with this role is:
