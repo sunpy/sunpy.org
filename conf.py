@@ -17,14 +17,10 @@ extensions = [
     "sphinx_reredirects",
     "sphinxcontrib.youtube",
     "sunpy_sphinx_theme.cards",
-    "sphinxcontrib.bibtex",
 ]
 myst_enable_extensions = ["colon_fence"]
 myst_update_mathjax = False
 templates_path = ["_templates"]
-
-bibtex_bibfiles = ["references.bib"]  # This is the file you already downloaded
-bibtex_reference_style = "author_year"
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
@@ -128,10 +124,6 @@ urlretrieve(
     filename="CITATION.rst",
 )
 
-urlretrieve(
-    "https://raw.githubusercontent.com/sunpy/sunpy/refs/heads/main/docs/references.bib",
-    filename="references.bib",
-)
 # These links have anchors that linkcheck does not like
 linkcheck_ignore = [
     "https://app.element.io/#/room/#sunpy:openastronomy.org",
