@@ -1,6 +1,7 @@
 import sys
 from pathlib import Path
 from urllib.request import urlretrieve
+from sunpy_sphinx_theme import default_navbar
 
 sys.path.append(Path("exts").absolute().as_posix())
 extensions = [
@@ -16,10 +17,14 @@ extensions = [
     "sphinx_reredirects",
     "sphinxcontrib.youtube",
     "sunpy_sphinx_theme.cards",
+    "sphinxcontrib.bibtex",
 ]
 myst_enable_extensions = ["colon_fence"]
 myst_update_mathjax = False
 templates_path = ["_templates"]
+
+bibtex_bibfiles = ["references.bib"]  # This is the file you already downloaded
+bibtex_reference_style = "author_year"
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3", None),
@@ -47,8 +52,9 @@ exclude_patterns = [
     "LICENSE.md",
     "README.md",
     "_build/*",
-    "CITATION.rst",
     ".tox/*",
+    "CITATION.rst",
+    "references.bib",
 ]
 master_doc = "index"
 project = "sunpy.org"
@@ -67,6 +73,7 @@ html_extra_path = ["_static/img"]
 html_theme_options = {
     "show_prev_next": False,
     "sst_is_root": True,
+    "navbar_links": default_navbar() + [("Citing SunPy", "citation_page", 2)],
 }
 html_css_files = [
     "sunpy_org.css",
@@ -93,6 +100,7 @@ redirects = {
     "project": "about/project",
     "project/affiliated": "affiliated",
 }
+
 # nbsphinx options
 nbsphinx_prolog = r"""
 {% set docname = env.doc2path(env.docname, base=None) %}
@@ -118,6 +126,11 @@ ogp_type = "website"
 urlretrieve(
     "https://raw.githubusercontent.com/sunpy/sunpy/main/sunpy/CITATION.rst",
     filename="CITATION.rst",
+)
+
+urlretrieve(
+    "https://raw.githubusercontent.com/sunpy/sunpy/refs/heads/main/docs/references.bib",
+    filename="references.bib",
 )
 # These links have anchors that linkcheck does not like
 linkcheck_ignore = [
