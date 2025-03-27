@@ -1,11 +1,14 @@
-.. bibliography:: references.bib
-   :style: author_year
-   :hidden:
-
-.. _citing_sunpy_page:
-
 Citing SunPy
 ============
 
-.. include:: CITATION.rst
-   :start-after: .. _citing_sunpy:
+.. meta::
+   :http-equiv=refresh: 0;URL=https://docs.sunpy.org/en/stable/citation.html
+
+.. raw:: html
+
+    <script>
+      window.location.href = "https://docs.sunpy.org/en/stable/citation.html";
+    </script>
+
+If you are not redirected, click
+`here <https://docs.sunpy.org/en/stable/citation.html>`_.
