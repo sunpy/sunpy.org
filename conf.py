@@ -89,7 +89,6 @@ html_sidebars = {
 }
 redirects = {
     "project/meetings": "about/meetings",
-    "project/roles": "about/roles",
     "project": "about/project",
     "project/affiliated": "affiliated",
 }
