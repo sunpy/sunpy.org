@@ -160,7 +160,9 @@ The exact timing of each talk will be confirmed soon and posted in the final age
      - Daniel Ryan
    * - STIXpy
      - Shane Maloney
-   * - Website Traffic Statistics & DKIST
+   * - Website Traffic Statistics
+     - Stuart Mumford
+   * - DKIST
      - Stuart Mumford
    * - Coronal Holes Curation with Semantic Segmentation
      - Raphael Attie
