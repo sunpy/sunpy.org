@@ -1,11 +1,11 @@
 SunPy Coordination Meeting – 18-20th June 2025
-=======================================
+==============================================
 
 We invite you to join the **SunPy Coordination Meeting**, a hybrid, three-day event bringing together developers, affiliated package maintainers, and community members to collaborate on the future of SunPy and the broader heliophysics Python ecosystem.
 
 * 🗓 **Dates:** Wednesday 18 – Friday 20 June 2025  
 * 🏢 **Location**: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__.
-1st floor for Function room (Wed and Thurs) and Room 1.14 (Fri).
+  -  1st floor for Function room (Wed and Thurs) and Room 1.14 (Fri).
 *  🛜 **Virtual connection details**: <https://sunpy.org/meeting>`__
 * 👥 Who:** Anyone interested in SunPy, affiliated packages, or heliophysics Python tools.
 
@@ -40,73 +40,108 @@ All times are in **GMT (UTC+1)**.
 **Wednesday 18 June – Development & Planning**
 
 .. list-table::
-   :widths: 25 75
-   :header-rows: 0
+   :widths: 20 25 55
+   :header-rows: 1
 
+   * - Time
+     - Session Lead
+     - Topic
    * - 09:00–10:00
+     - Laura Hayes
      - Welcome, Setup, Introductions
    * - 10:00–11:00
+     - Samuel Bennett
      - Hack: NDCube Refactor
    * - 11:00–11:30
+     - —
      - ☕ Coffee Break
    * - 11:30–13:00
+     - Samuel Bennett
      - Continued Hacking
    * - 13:00–14:00
+     - —
      - 🍽 Lunch Break
    * - 14:00–15:30
-     - Discussion: Project Roadmap (led by Stuart Mumford)
+     - Stuart Mumford
+     - Discussion: Project Roadmap
    * - 15:30–16:00
+     - —
      - ☕ Coffee Break
    * - 16:00–17:00
+     - Stuart Mumford
      - Continued Roadmap Discussion
 
 **Thursday 19 June – Hack + Strategy**
 
 .. list-table::
-   :widths: 25 75
-   :header-rows: 0
+   :widths: 20 25 55
+   :header-rows: 1
 
+   * - Time
+     - Session Lead
+     - Topic
    * - 09:00–11:00
-     - Open Hack Session (led by Laura Hayes)
+     - Laura Hayes
+     - Open Hack Session
    * - 11:00–11:30
+     - —
      - ☕ Coffee Break
    * - 11:30–13:00
+     - Laura Hayes
      - Continued Hacking
    * - 13:00–14:00
+     - —
      - 🍽 Lunch Break
    * - 14:00–15:30
+     - TBD
      - Discussion: Sustainability & Governance
    * - 15:30–16:00
+     - —
      - ☕ Coffee Break
    * - 16:00–17:00
+     - TBD
      - Continued Discussion
    * - 19:00–Late
+     - —
      - 🥂 Social Dinner (optional)
 
 **Friday 20 June – State of the Union & Community**
 
 .. list-table::
-   :widths: 25 75
-   :header-rows: 0
+   :widths: 20 25 55
+   :header-rows: 1
 
+   * - Time
+     - Session Lead
+     - Topic
    * - 10:00–11:30
+     - Community
      - Lightning Talks from Community
    * - 11:30–12:00
+     - —
      - ☕ Coffee Break
    * - 12:00–13:00
+     - Community
      - More Lightning Talks & Open Discussion
    * - 13:00–14:00
+     - —
      - 🍽 Lunch Break
    * - 14:00–14:30
-     - State of the Project – Governance & Funding (Stuart Mumford)
+     - Stuart Mumford
+     - State of the Project – Governance & Funding
    * - 14:30–14:50
-     - Core Package Updates – Map & Coordinates (Albert Shih)
+     - Albert Shih
+     - Core Package Updates – Map & Coordinates
    * - 14:50–15:10
-     - Affiliated Packages Overview (Nabil Freij)
+     - Nabil Freij
+     - Affiliated Packages Overview
    * - 15:10–15:30
-     - Engagement & Community Plans (Laura Hayes)
+     - Laura Hayes
+     - Engagement & Community Plans
    * - 15:30–16:00
+     - All
      - 🧩 Discussion, Q&A, Roadmap & Mission Statement
+
 
 
 Lightning Talks
