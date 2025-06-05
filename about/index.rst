@@ -8,6 +8,7 @@ About
    project
    presentations
    meetings
+   coordination_meet_2025
    ../coc
 
 

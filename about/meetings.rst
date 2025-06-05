@@ -49,34 +49,7 @@ The meeting is open to everyone, please fill in this form by the 16th May if you
 
 https://forms.gle/mDL7RmwY2NTRhsyW9
 
-Logistics
-#########
 
-🏢 Location: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__.
-1st floor for Function room (Wed and Thurs) and Room 1.14 (Fri).
-
-
-🚀 Transport:
-
-* 🚇 Closest tube stop Holborn 🔴 central & 🔵 Piccadilly.
-* 🚍 Few buses stopping by from different locations.
-* 🚲 City bikes stations next to building and drop-them-where-you-can-annoy-more-people bikes also available.
-* 🚶 25 min from Euston/King Cross/St Pancras/Waterloo; 36 min from Liverpool st. 56 min from Paddington.
-* 🛫 Heathrow, Stansted, Gatwick, Luton, City are all well connected to the centre. Southend is also possible but a bit less easier.
-
-
-🏨 Hotels: There are plenty of hotels local to the venue.
-Student accommodation may be available and they are `already open for booking <https://www.ucl.ac.uk/residences/>`__ unfortunately they are just bookable from the 23rd.
-
-
-🥙 Food: Plenty of food options on Red Lion Street.
-
-🥳 Entertainment:
-
-* 🍻 Pubs: lots around, one even with £5 a pint.
-* 🏓 Table tennis: though we have a table in the office, there's a bar full of them and with pizza 8 minutes away.
-* 🎯 Darts: there's a Flight club 9 minutes away.
-* 🪓 Axe Throwing: 20 min away, but there may be others closer.
 
 Previous SunPy Coordination Meetings
 ************************************
