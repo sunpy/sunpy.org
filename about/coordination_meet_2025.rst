@@ -7,7 +7,14 @@ We invite you to join the **SunPy Coordination Meeting**, a hybrid, three-day ev
 * 🏢 **Location**: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__.
   -  1st floor for Function room (Wed and Thurs) and Room 1.14 (Fri).
 *  🛜 **Virtual connection details**: <https://sunpy.org/meeting>`__
-* 👥 Who:** Anyone interested in SunPy, affiliated packages, or heliophysics Python tools.
+* 👥 **Who** Anyone interested in SunPy, affiliated packages, or heliophysics Python tools.
+
+Registration
+------------
+The meeting is open to everyone. While the deadline for in-person attendance has passed, **you can still register to attend online**.
+
+Please fill in the form below if you're interested in joining virtually:
+https://forms.gle/mDL7RmwY2NTRhsyW
 
 Overview
 --------
@@ -20,22 +27,11 @@ This year's meeting will span three days:
 Participation from both long-time contributors and new community members is highly encouraged.
 We particularly welcome attendees from instrument teams developing user tools and data pipelines as well as researchers using sunpy for solar data analysis in their workflows.
 
-We particularly encourage attendance from:
-- Contributors to affiliated packages
-- Instrument teams interested in Python support
-- New contributors looking to get involved
-
-Registration
-------------
-The meeting is open to everyone.  
-While the deadline for in-person attendance has passed, **you can still register to attend online**.
-
-Please fill in the form below if you're interested in joining virtually:
-https://forms.gle/mDL7RmwY2NTRhsyW
 
 Schedule
 --------
 All times are in **GMT (UTC+1)**.
+For those attending online, please connect here: <https://sunpy.org/meeting>`__
 
 **Wednesday 18 June – Development & Planning**
 
@@ -47,7 +43,7 @@ All times are in **GMT (UTC+1)**.
      - Session Lead
      - Topic
    * - 09:00–10:00
-     - Laura Hayes
+     - All
      - Welcome, Setup, Introductions
    * - 10:00–11:00
      - Samuel Bennett
@@ -57,7 +53,7 @@ All times are in **GMT (UTC+1)**.
      - ☕ Coffee Break
    * - 11:30–13:00
      - Samuel Bennett
-     - Continued Hacking
+     - Hack: NDCube Refactor
    * - 13:00–14:00
      - —
      - 🍽 Lunch Break
@@ -81,26 +77,26 @@ All times are in **GMT (UTC+1)**.
      - Session Lead
      - Topic
    * - 09:00–11:00
-     - Laura Hayes
+     - TBD
      - Open Hack Session
    * - 11:00–11:30
      - —
      - ☕ Coffee Break
    * - 11:30–13:00
-     - Laura Hayes
-     - Continued Hacking
+     - TBD
+     - Open Hack Session
    * - 13:00–14:00
      - —
      - 🍽 Lunch Break
    * - 14:00–15:30
-     - TBD
+     - Laura Hayes
      - Discussion: Sustainability & Governance
    * - 15:30–16:00
      - —
      - ☕ Coffee Break
    * - 16:00–17:00
-     - TBD
-     - Continued Discussion
+     - Will Barnes
+     - Continued Discussion & Funding Ideas
    * - 19:00–Late
      - —
      - 🥂 Social Dinner (optional)
@@ -180,7 +176,6 @@ The exact timing of each talk will be confirmed soon and posted in the final age
 
 Logistics
 ---------
-
 🏢 Location: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__.
 1st floor for Function room (Wed and Thurs) and Room 1.14 (Fri).
 
