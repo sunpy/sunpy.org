@@ -16,7 +16,7 @@ While the deadline for full in-person attendance has passed, **you can still reg
 and we also welcome **in-person attendees for the Friday session (20 June)** if you are local or able to join on short notice.
 
 Please fill in the form below if you're interested in joining virtually:
-https://forms.gle/mDL7RmwY2NTRhsyW
+https://forms.gle/mDL7RmwY2NTRhsyW9
 
 Overview
 --------
