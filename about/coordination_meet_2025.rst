@@ -3,7 +3,7 @@ SunPy Coordination Meeting – 18-20th June 2025
 
 We invite you to join the **SunPy Coordination Meeting**, a hybrid, three-day event bringing together developers, affiliated package maintainers, and community members to collaborate on the future of SunPy and the broader heliophysics Python ecosystem.
 
-* 🗓 **Dates:** Wednesday 18 – Friday 20 June 2025  
+* 🗓 **Dates:** Wednesday 18 – Friday 20 June 2025
 * 🏢 **Location**: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__.
   -  1st floor for Function room (Wed and Thurs) and Room 1.14 (Fri).
 *  🛜 **Virtual connection details**: <https://sunpy.org/meeting>`__
@@ -22,7 +22,7 @@ This year's meeting will span three days:
 
 - **Wednesday 18th and Thursday 19th June** will focus on ongoing developments, future plans for SunPy and its affiliated packages, and hack sessions to work on the NDCube refactor and SunPy 7.1.
 
-- **Friday 20th June** will be dedicated to a "State of the Union" session, including an overview of the SunPy project, lightning talks from the community (i.e. attendees), project updates, and a broader discussion of the SunPy roadmap. 
+- **Friday 20th June** will be dedicated to a "State of the Union" session, including an overview of the SunPy project, lightning talks from the community (i.e. attendees), project updates, and a broader discussion of the SunPy roadmap.
 
 Participation from both long-time contributors and new community members is highly encouraged.
 We particularly welcome attendees from instrument teams developing user tools and data pipelines as well as researchers using sunpy for solar data analysis in their workflows.
@@ -143,7 +143,7 @@ For those attending online, please connect here: <https://sunpy.org/meeting>`__
 Lightning Talks
 ---------------
 Lightning talks are short (5–7 minute) presentations from members of the SunPy community,
-designed to highlight new tools, projects, ideas, or even open questions.  
+designed to highlight new tools, projects, ideas, or even open questions.
 They’re a great way to share your work, spark discussion, and connect with others working in similar areas.
 
 The exact timing of each talk will be confirmed soon and posted in the final agenda.
@@ -201,5 +201,3 @@ Student accommodation may be available and they are `already open for booking <h
 * 🏓 Table tennis: though we have a table in the office, there's a bar full of them and with pizza 8 minutes away.
 * 🎯 Darts: there's a Flight club 9 minutes away.
 * 🪓 Axe Throwing: 20 min away, but there may be others closer.
-
-
