@@ -33,7 +33,7 @@ We particularly welcome attendees from instrument teams developing user tools an
 Schedule
 --------
 All times are in **BST (UTC+1)**.
-For those attending online, please connect here: <https://sunpy.org/meeting>`__
+For those attending online, please connect here: `https://sunpy.org/meeting <https://sunpy.org/meeting>`__
 
 **Wednesday 18 June – Development & Planning**
 
