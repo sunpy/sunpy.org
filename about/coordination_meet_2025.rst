@@ -11,7 +11,9 @@ We invite you to join the **SunPy Coordination Meeting**, a hybrid, three-day ev
 
 Registration
 ------------
-The meeting is open to everyone. While the deadline for in-person attendance has passed, **you can still register to attend online**.
+The meeting is open to everyone.  
+While the deadline for full in-person attendance has passed, **you can still register to attend online**,  
+and we also welcome **in-person attendees for the Friday session (20 June)** if you are local or able to join on short notice.
 
 Please fill in the form below if you're interested in joining virtually:
 https://forms.gle/mDL7RmwY2NTRhsyW
