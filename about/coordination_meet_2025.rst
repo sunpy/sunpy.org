@@ -121,7 +121,7 @@ For those attending online, please connect here: `https://sunpy.org/meeting <htt
    * - 12:00–12:30
      - Community
      - More Lightning Talks
-   * - 15:10–15:30
+   * - 12:30-13:00
      - Laura Hayes
      - Engagement & Community Plans
    * - 13:00–14:00
