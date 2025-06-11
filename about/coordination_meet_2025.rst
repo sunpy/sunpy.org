@@ -118,9 +118,12 @@ For those attending online, please connect here: `https://sunpy.org/meeting <htt
    * - 11:30–12:00
      - —
      - ☕ Coffee Break
-   * - 12:00–13:00
+   * - 12:00–12:30
      - Community
-     - More Lightning Talks & Open Discussion
+     - More Lightning Talks
+   * - 15:10–15:30
+     - Laura Hayes
+     - Engagement & Community Plans
    * - 13:00–14:00
      - —
      - 🍽 Lunch Break
@@ -134,8 +137,8 @@ For those attending online, please connect here: `https://sunpy.org/meeting <htt
      - Nabil Freij
      - Affiliated Packages Overview
    * - 15:10–15:30
-     - Laura Hayes
-     - Engagement & Community Plans
+     - Community
+     - Lightning Talks (US timezones)
    * - 15:30–16:00
      - All
      - 🧩 Discussion, Q&A, Roadmap & Mission Statement
