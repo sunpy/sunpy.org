@@ -49,13 +49,13 @@ For those attending online, please connect here: `https://sunpy.org/meeting <htt
      - Welcome, Setup, Introductions
    * - 10:00–11:00
      - Samuel Bennett
-     - Hack: NDCube Refactor
+     - Hack: Map NDCube Refactor
    * - 11:00–11:30
      - —
      - ☕ Coffee Break
    * - 11:30–13:00
      - Samuel Bennett
-     - Hack: NDCube Refactor
+     - Hack: Map NDCube Refactor
    * - 13:00–14:00
      - —
      - 🍽 Lunch Break
