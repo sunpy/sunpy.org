@@ -138,7 +138,7 @@ For those attending online, please connect here: `https://sunpy.org/meeting <htt
      - Affiliated Packages Overview
    * - 15:10–15:30
      - Community
-     - Lightning Talks (US timezones)
+     - Lightning Talks (American time zones)
    * - 15:30–16:00
      - All
      - 🧩 Discussion, Q&A, Roadmap & Mission Statement
