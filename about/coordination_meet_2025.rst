@@ -7,6 +7,7 @@ We invite you to join the **SunPy Coordination Meeting**, a hybrid, three-day ev
 * 🏢 **Location**: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__.
   -  1st floor for Function room (Wed and Thurs) and Room 1.14 (Fri).
 *  🛜 **Virtual connection details**: `sunpy.org/meeting <https://sunpy.org/meeting>`__
+* **Chat Room**: `#sunpycoordinationmeeting:openastronomy.org <https://matrix.to/#/#sunpycoordinationmeeting:openastronomy.org>`__
 * 👥 **Who** Anyone interested in SunPy, affiliated packages, or heliophysics Python tools.
 
 Registration
@@ -49,13 +50,13 @@ For those attending online, please connect here: `https://sunpy.org/meeting <htt
      - Welcome, Setup, Introductions
    * - 10:00–11:00
      - Samuel Bennett
-     - Hack: NDCube Refactor
+     - Hack: Map NDCube Refactor
    * - 11:00–11:30
      - —
      - ☕ Coffee Break
    * - 11:30–13:00
      - Samuel Bennett
-     - Hack: NDCube Refactor
+     - Hack: Map NDCube Refactor
    * - 13:00–14:00
      - —
      - 🍽 Lunch Break
@@ -97,8 +98,8 @@ For those attending online, please connect here: `https://sunpy.org/meeting <htt
      - —
      - ☕ Coffee Break
    * - 16:00–17:00
-     - Will Barnes
-     - Continued Discussion & Funding Ideas
+     - Dan Ryan
+     - Metadata for Map, NDCube etc.
    * - 19:00–Late
      - —
      - 🥂 Social Dinner (optional)
@@ -118,9 +119,12 @@ For those attending online, please connect here: `https://sunpy.org/meeting <htt
    * - 11:30–12:00
      - —
      - ☕ Coffee Break
-   * - 12:00–13:00
+   * - 12:00–12:30
      - Community
-     - More Lightning Talks & Open Discussion
+     - More Lightning Talks
+   * - 12:30-13:00
+     - Laura Hayes
+     - Engagement & Community Plans
    * - 13:00–14:00
      - —
      - 🍽 Lunch Break
@@ -134,8 +138,8 @@ For those attending online, please connect here: `https://sunpy.org/meeting <htt
      - Nabil Freij
      - Affiliated Packages Overview
    * - 15:10–15:30
-     - Laura Hayes
-     - Engagement & Community Plans
+     - Community
+     - Lightning Talks (American time zones)
    * - 15:30–16:00
      - All
      - 🧩 Discussion, Q&A, Roadmap & Mission Statement
