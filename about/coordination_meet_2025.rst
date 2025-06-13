@@ -172,6 +172,8 @@ The exact timing of each talk will be confirmed soon and posted in the final age
      - Raphael Attie
    * - Pre-condition of an X1.0 Class Flare Observed on 28 October 2021
      - Lopez Araujo
+   * - Solar Rollercoaster: looping-the-loop in the solar corona
+     - Mohamed Nedal
    * - PUNCH Results
      - Marcus Hughes
    * - Accessing PUNCH Data Using SunPy
@@ -180,6 +182,7 @@ The exact timing of each talk will be confirmed soon and posted in the final age
      - Joy Velasquez
    * - EIS Python Analysis Code (EISPAC)
      - Micah Weberg
+
 
 
 Logistics
