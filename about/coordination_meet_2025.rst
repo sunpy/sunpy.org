@@ -5,7 +5,7 @@ We invite you to join the **SunPy Coordination Meeting**, a hybrid, three-day ev
 
 * 🗓 **Dates:** Wednesday 18 – Friday 20 June 2025
 * 🏢 **Location**: `90 High Holborn, WC1V 6LJ <https://omaps.app/0tdd0Zh3fq/WC1V_6LJ>`__.
-  -  1st floor for Function room (Wed and Thurs) and Room 1.14 (Fri).
+  -  1st floor for Function room.
 * 🛜 **Virtual connection details**: `sunpy.org/meeting <https://sunpy.org/meeting>`__
 * ⏺️ `Live Stream <https://youtube.com/playlist?list=PLOWSPnooGuj0sPNNQ_a6DVkk_FbIajzzs&si=yzg1GaA0-Ls1S5WI>`__
 * 💬 **Chat Room**: `#sunpycoordinationmeeting:openastronomy.org <https://matrix.to/#/#sunpycoordinationmeeting:openastronomy.org>`__
