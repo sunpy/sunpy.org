@@ -33,7 +33,7 @@ The link to join the weekly community meeting as well as a link to the agenda ar
 SunPy Coordination Meeting 2025
 *******************************
 The SunPy Project is pleased to announce that the next SunPy Coordination Meeting will take place from 18-20 June 2025 at University College London (UCL), London, UK. The meeting will be held in person and online, and is open to everyone.
-Read more about the upcoming Coordination Meeting :doc:`here <coordination_meet_2025>`.
+Read more about the upcoming :doc:`Coordination Meeting <coordination_meet_2025>`.
 
 
 
