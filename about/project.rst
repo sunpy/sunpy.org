@@ -249,7 +249,6 @@ SunPy Advisory Board
 The advisory board is not yet staffed.
 If you are interested in serving on the advisory board please let us know in the `Chat Room <https://app.element.io/#/room/#sunpy:openastronomy.org>`__.
 
-
 .. _sunpy_project_other_roles:
 
 Other Roles
@@ -347,17 +346,19 @@ If you would like to get involved please get in touch in the `Chat Room <https:/
 Role Descriptions
 -----------------
 
-This section describes each of the SunPy projects community (executive) roles, and lists the current holder(s) of that role. Community members can also participate by being members of the board.
-We would like to encourage anyone interested parties to apply to roles which are currently unfilled by contacting  the lead developer or the deputy lead developer.
-It is possible for more than one person to share the responsibilities of a role. If you are interested in a role which is filled, contact the individual(s) and ask how you can help.
+This section describes each of the SunPy projects community (executive) roles, and lists the current holder(s) of that role.
+Community members can also participate by being members of the board.
+We would like to encourage anyone interested parties to apply to roles which are currently unfilled posting a message in the element chat room.
+It is possible for more than one person to share the responsibilities of a role.
+If you are interested in a role which is filled, contact the individual(s) and ask how you can help.
 
 .. _role_ci-maintainer:
 
 Continuous Integration Maintainer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-SunPy core and the affiliated packages using the `package-template <https://github.com/sunpy/package-template>`__ all use the same CI setup.
 The primary responsibility of the CI Maintainer is to keep these resources up to date and fix issues as they arise with new package versions or changes to CI platforms.
+SunPy core and the affiliated packages using the `package-template <https://github.com/sunpy/package-template>`__ all use the same CI setup.
 An outline of the current CI services used can be found in `the sunpy documentation <https://docs.sunpy.org/en/latest/dev_guide/contents/ci_jobs.html>`__.
 A non-exhaustive list of things involved with this role is:
 
@@ -366,16 +367,17 @@ A non-exhaustive list of things involved with this role is:
 -  Updating the tox configurations.
 -  Investigating new CI services and recommending which ones could be useful.
 
-**Estimated Commitment Level**: 3-5 hours per week. This role requires keeping an eye on the core repo and other repos' PRs to spot issues with the CI systems and builds which needs attention.
+**Estimated Commitment Level**: 3-5 hours per week.
+This role requires keeping an eye on the core repo and other repos' PRs to spot issues with the CI systems and builds which needs attention.
 The time commitment is probably around 3-5 hours per week, with additional scope for improving the status quo.
 
 .. _role_release-manager:
 
 Release Manager
 ^^^^^^^^^^^^^^^
-The release manager is responsible for the logistics of sunpy core releases,
-and assisting with releases of affiliated packages as required. This
-comprises of the following main tasks:
+
+The release manager is responsible for the logistics of sunpy core releases, and assisting with releases of affiliated packages as required.
+This comprises of the following main tasks:
 
 -  Ensuring that PRs are backported as appropriate.
 -  Working with the CI maintainer to maintain the CI on release branches.
@@ -384,7 +386,8 @@ comprises of the following main tasks:
 -  Maintaining the automated release pipeline.
 -  Maintaining the conda-forge packages for core and affiliated packages.
 
-**Estimated Commitment Level**: 3-5 hours/week. The main component of this role is monitoring PRs which get milestoned to be backported to release branches and ensuring the backports happen correctly, and releasing bug fix versions.
+**Estimated Commitment Level**: 3-5 hours/week.
+The main component of this role is monitoring PRs which get milestoned to be backported to release branches and ensuring the backports happen correctly, and releasing bug fix versions.
 
 .. _role_webmaster:
 
@@ -397,7 +400,6 @@ This primarily involves:
 -  Reviewing pull requests and issues on these repositories.
 -  Maintaining and improving the website theme and ablog.
 -  Updating the website as needed.
--  Implementing analytics on the website and docs.
 
 **Estimated Commitment Level**: Around 1 hour per week, but comes in bursts as PRs are opened.
 
@@ -421,8 +423,8 @@ Responsibilities of a maintainer (subpackage, or library etc) include:
 
 .. _role_lead-mentor:
 
-Lead Newcomer and Summer of Code Mentor
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Lead Newcomer Mentor
+^^^^^^^^^^^^^^^^^^^^
 
 The newcomer mentor is responsible for supporting new users and contributors to sunpy and sponsored affiliated packages.
 This involves:
@@ -434,7 +436,8 @@ This involves:
 -  Finding other suitable mentors and pairing them with mentees.
 -  Leading the project's interaction with the Open Astronomy organization for the Google Summer of Code project.
 
-**Estimated Commitment Level**: 5 hours/week. This role is highly seasonal as the peak time for newcomers to the project is during the lead up to GSOC (Feb - April) and Hacktoberfest (October).
+**Estimated Commitment Level**: 5 hours/week.
+This role is highly seasonal as the peak time for newcomers to the project is during the lead up to GSOC (Feb - April) and Hacktoberfest (October).
 During these times the time commitment is probably around 5 hours per week, at other times it will be less.
 There is also a lot of scope for improving our on-boarding process as part of this role.
 
@@ -444,7 +447,7 @@ Communication and Education Lead
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 -  Recruits people to write interesting blog posts.
--  Recruits members of the SunPy community to present about the project at relevant conferences (e.g. AAS/SPD, AGU) and maintaining the `Github repo of presentations <https://github.com/sunpy/presentations>`__.
+-  Recruits members of the SunPy community to present about the project at relevant conferences (e.g. AAS/SPD, AGU) and maintaining the `Github repo of presentations <https://github.com/sunpy/presentations>`__.
 -  Sends updates to the community about the project.
 -  Manages the @SunPyProject Twitter account.
 -  Moderates the mailing list.
@@ -453,7 +456,8 @@ Communication and Education Lead
 -  Maintains a list of ideas for tutorials and solicits members of the community to develop tutorials according to set standards.
 -  Provides any input or guidance to the board Chair about the Code of Conduct.
 
-**Estimated Commitment Level**: 2-3 hours / week. This role has a lot of scope for developing new community engagement methods.
+**Estimated Commitment Level**: 2-3 hours / week.
+This role has a lot of scope for developing new community engagement methods.
 
 .. _role_affiliated-liaison:
 
@@ -467,6 +471,17 @@ Affiliated packages are not very structured currently, although a framework for 
 This role would develop a set of processes for both sponsored and non-sponsored affiliated packages, a review procedure for new affiliated packages, and lead the effort to integrate instrument teams with SunPy.
 
 **Commitment Level**: This role needs an investment of time at the beginning to set up the processes for affiliated packages. These processes would then determine the likely time commitment after that.
+
+.. _role_project_custodians:
+
+Project Custodians
+^^^^^^^^^^^^^^^^^^
+
+The Project Custodians are trusted community members with a proven track record of constructive contribution to the goals of the project.
+Collectively, the Project Custodians make decisions about the direction of the project and have authority over the project, which is delegated to the Steering Committee.
+
+It is expected that Project Custodians act as role models for the Community and are custodians of the SunPy Project.
+The Project Custodians elect a Steering Committee to lead the SunPy Project.
 
 .. _emeritus_role_holders:
 
