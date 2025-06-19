@@ -11,7 +11,7 @@ Current packages
 .. list-table::
    :widths: 20, 80
 
-   * - **sunpy core**
+   * - **sunpy**
      - The core package for solar physics in Python.
 
        `Documentation <https://docs.sunpy.org/>`__, `Source code <https://github.com/sunpy/sunpy>`__
