@@ -12,6 +12,7 @@ sphinxext-opengraph
 #sunpy-sphinx-theme>=2.0.18
 git+https://github.com/Cadair/sunpy-sphinx-theme.git@more_avatars
 
+
 # Eclipse notebook
 astropy
 exifread
