@@ -207,7 +207,7 @@ Active
     He was a GSFC GSRP fellow from 2004 to 2007, and then he started at GSFC as an NPP fellow in 2009.
     In 2010, he was hired by GSFC as a research astrophysicist in the Solar Physics Laboratory.
 
-.. custom-card:: Alisdair Wilson
+.. custom-card:: Alasdair Wilson
     :github: alasdairwilson
     :aff_name: University of Oxford
     :aff_link: https://www.ox.ac.uk/
