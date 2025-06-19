@@ -9,9 +9,7 @@ sphinx_reredirects
 sphinx-design
 sphinxcontrib-youtube
 sphinxext-opengraph
-#sunpy-sphinx-theme>=2.0.18
-git+https://github.com/Cadair/sunpy-sphinx-theme.git@more_avatars
-
+sunpy-sphinx-theme>=2.0.20
 
 # Eclipse notebook
 astropy
