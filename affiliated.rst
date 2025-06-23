@@ -172,7 +172,7 @@ Current packages
 .. _David Stansby: https://github.com/dstansby
 .. _Will Barnes: https://github.com/wtbarnes
 .. _Shane Maloney: https://github.com/samaloney
-.. _The SunPy Project: https://sunpy.org/about/roles
+.. _The SunPy Project: https://sunpy.org/about/project
 .. _IRIS Team @ LMSAL: https://iris.lmsal.com/
 .. _AIA Team @ LMSAL: https://aia.lmsal.com/
 .. _Jan Gieseler: https://github.com/jgieseler
