@@ -110,17 +110,6 @@ Current packages
 
        Version reviewed: `v0.3.1 <https://github.com/sunpy/sunkit-instruments/releases/tag/v0.3.1>`__
 
-   * - **demcmc**
-     - Package for differential emission measure (DEM) estimation using Monte Carlo Markov chain (MCMC) methods
-
-       `Documentation <https://demcmc.readthedocs.io/en/latest/>`__, `Source code <https://github.com/dstansby/demcmc>`__
-
-       **Maintainers**: `David Stansby`_
-
-       |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_low|
-
-       Version reviewed: `v1.1.0 <https://github.com/dstansby/demcmc/releases/tag/v1.1.0>`__
-
    * - **dkist**
      - A package which aims to help you search, obtain and use DKIST data as part of your Python software.
 
@@ -235,6 +224,17 @@ These packages were previously listed as affiliated but have been de-listed at t
        |package_specialized| |integration_full| |docs_extensive| |tests_excellent| |duplication_none| |community_excellent| |low_activity|
 
        Version reviewed: `v0.5.2 <https://github.com/dstansby/pfsspy/releases/tag/0.5.2>`__
+
+   * - **demcmc**
+     - Package for differential emission measure (DEM) estimation using Monte Carlo Markov chain (MCMC) methods
+
+       `Documentation <https://demcmc.readthedocs.io/en/latest/>`__, `Source code <https://github.com/dstansby/demcmc>`__
+
+       **Maintainers**: `David Stansby`_
+
+       |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_low|
+
+       Version reviewed: `v1.1.0 <https://github.com/dstansby/demcmc/releases/tag/v1.1.0>`__
 
 Affiliated Package Review
 -------------------------
