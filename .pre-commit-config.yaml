@@ -1,3 +1,4 @@
+exclude: (2024-04-03-eclipse)|^$
 ci:
   autofix_prs: false
   autoupdate_schedule: "monthly"
