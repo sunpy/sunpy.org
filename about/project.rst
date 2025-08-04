@@ -132,9 +132,9 @@ Active
     :aff_name: University of Turku, Finland
     :aff_link: https://www.utu.fi
 
-    Dr. Jan Gieseler is a Senior Researcher at the Space Research Laboratory at the University of Turku, Finland. 
+    Dr. Jan Gieseler is a Senior Researcher at the Space Research Laboratory at the University of Turku, Finland.
     He obtained his PhD in Extraterrestrial Physics from the University of Kiel, Germany, investigating the modulation of galactic cosmic rays.
-    Jan's research focuses on the measurement and analysis of solar energetic particles. 
+    Jan's research focuses on the measurement and analysis of solar energetic particles.
     He was/is an instrument team member or Co-I of various energetic charged particle telescopes onboard spacecraft such as BepiColombo, SOHO, Solar Orbiter, STEREO, and Ulysses.
 
 .. custom-card:: Brett Graham
