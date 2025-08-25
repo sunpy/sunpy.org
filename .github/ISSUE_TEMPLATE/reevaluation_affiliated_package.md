@@ -2,7 +2,7 @@
 name: Reevaluation of Affiliated Package
 about: Submit a request for an updated review of an affiliated package
 labels: Affiliated Package Review
-assignees: Cadair
+assignees: wtbarnes
 ---
 
 ## Package Details - If changed
