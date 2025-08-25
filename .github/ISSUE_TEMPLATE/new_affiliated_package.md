@@ -2,7 +2,7 @@
 name: New Affiliated Package
 about: Submit a new affiliated package for review
 labels: Affiliated Package Review
-assignees: Cadair
+assignees: wtbarnes
 ---
 
 ## Package Details
