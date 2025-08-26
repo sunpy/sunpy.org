@@ -165,6 +165,17 @@ Current packages
 
        Version reviewed: `v0.2.0 <https://github.com/LM-SAL/irispy-lmsal/releases/tag/v0.2.0>`__
 
+   * - **scope**
+     - A Python package for statistical confidence of oscillatory processes ("scope") with empirical mode decomposition
+
+       `Documentation <https://statistical-confidence-of-oscillatory-processes-with-emd.readthedocs.io>`__, `Source code <https://github.com/Warwick-Solar/scope>`__
+
+       **Maintainer**: `Sergey Belov`_
+
+       |package_specialized| |integration_partial| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
+
+       Version reviewed: `v1.0.0 <https://github.com/Warwick-Solar/scope/tree/ef202727294310c59f95ee25251208d808c89e96>`__.
+
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
 .. _David Pérez-Suárez: https://github.com/dpshelio
@@ -179,6 +190,7 @@ Current packages
 .. _Joy Velasquez: https://github.com/joyvelasquez
 .. _Nick Murphy: https://github.com/namurphy
 .. _Jonathan Slavin: https://github.com/jslavin
+.. _Sergey Belov: https://github.com/BelovSA
 
 Provisional packages
 --------------------
