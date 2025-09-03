@@ -202,6 +202,13 @@ Active
     There he helps researchers to get better science via better software and teaches research software engineering to young scientists.
     He has studied the behavior of Coronal Bright Points with multi-instrument observations while at Armagh Observatory and participated in few EU virtual observatory projects to understand the heliosphere and the space weather effects on Earth while his jobs at Trinity College Dublin, the Finnish Meteorological Institute, the South African National Space Agency and the Mullard Space Science Laboratory.
 
+.. custom-card:: Kevin Reardon
+    :github: kreardon
+    :aff_name: NSO
+    :aff_link: https://www.nso.edu
+
+    Kevin Reardon is a staff scientist at the National Solar Observatory in Boulder.
+
 .. custom-card:: Daniel Ryan
     :github: DanRyanIrish
     :aff_name: UCL/MSSL
