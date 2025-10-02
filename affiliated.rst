@@ -170,7 +170,7 @@ Current packages
 
        `Documentation <https://statistical-confidence-of-oscillatory-processes-with-emd.readthedocs.io>`__, `Source code <https://github.com/Warwick-Solar/scope>`__
 
-       **Maintainer**: `Sergey Belov`_
+       **Maintainer**: `Warwick-Solar`_
 
        |package_specialized| |integration_partial| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
 
@@ -190,7 +190,7 @@ Current packages
 .. _Joy Velasquez: https://github.com/joyvelasquez
 .. _Nick Murphy: https://github.com/namurphy
 .. _Jonathan Slavin: https://github.com/jslavin
-.. _Sergey Belov: https://github.com/BelovSA
+.. _Warwick-Solar: https://github.com/Warwick-Solar
 
 Provisional packages
 --------------------
