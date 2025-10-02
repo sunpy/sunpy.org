@@ -170,11 +170,22 @@ Current packages
 
        `Documentation <https://statistical-confidence-of-oscillatory-processes-with-emd.readthedocs.io>`__, `Source code <https://github.com/Warwick-Solar/scope>`__
 
-       **Maintainer**: `Sergey Belov`_
+       **Maintainer**: `Warwick-Solar`_
 
        |package_specialized| |integration_partial| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_stc|
 
        Version reviewed: `v1.0.0 <https://github.com/Warwick-Solar/scope/tree/ef202727294310c59f95ee25251208d808c89e96>`__.
+
+   * - **spectroflat**
+     - spectroflat is a Python based library to flat field spatially resolved spectro-polarimetric data.
+
+       `Documentation <https://gitlab.gwdg.de/hoelken/spectroflat/-/blob/main/README.md>`__, `Source code <https://gitlab.gwdg.de/hoelken/spectroflat>`__
+
+       **Maintainer**: `Johannes Hölken`_
+
+       |package_specialized| |integration_partial| |docs_good| |tests_excellent| |duplication_none| |community_good| |dev_stable|
+
+       Version reviewed: `v2.1.0 <https://gitlab.gwdg.de/hoelken/spectroflat/-/releases/2.1.0>`__.
 
 .. _Steven Christe: https://github.com/ehsteve
 .. _Daniel Ryan: https://github.com/danryanirish
@@ -190,7 +201,8 @@ Current packages
 .. _Joy Velasquez: https://github.com/joyvelasquez
 .. _Nick Murphy: https://github.com/namurphy
 .. _Jonathan Slavin: https://github.com/jslavin
-.. _Sergey Belov: https://github.com/BelovSA
+.. _Warwick-Solar: https://github.com/Warwick-Solar
+.. _Johannes Hölken: https://github.com/johoelken
 
 Provisional packages
 --------------------
