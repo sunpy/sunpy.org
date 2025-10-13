@@ -512,8 +512,8 @@ These people have previously served in named roles in the SunPy Project, either 
      - Board member and Secretary
      - 2014 - 2017
    * - `Albert Shih <https://github.com/ayshih>`__
-     - Board member, Lead Developer
-     - 2014 - 2018, 2014 - 2015
+     - Board member, Lead Developer, Steering Committee
+     - 2014 - 2018, 2014 - 2015, 2024 - 2025
    * - `Sabrina Savage <https://github.com/SabrinaSavage>`__
      - Board member and Secretary
      - 2017 - 2019
