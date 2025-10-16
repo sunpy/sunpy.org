@@ -29,17 +29,6 @@ A list of anyone who contributed code to the SunPy Project is available on Githu
 
 Steering Committee
 ^^^^^^^^^^^^^^^^^^
-
-.. custom-card:: Albert Y. Shih
-    :github: ayshih
-    :aff_name: NASA Goddard Space Flight Center
-    :aff_link: https://www.nasa.gov/goddard/
-
-    Dr. Albert Shih was born and raised in Southern California.
-    He obtained his BSc in physics and mathematics from the California Institute of Technology, and his PhD in physics from the University of California, Berkeley.
-    He was a GSFC GSRP fellow from 2004 to 2007, and then he started at GSFC as an NPP fellow in 2009.
-    In 2010, he was hired by GSFC as a research astrophysicist in the Solar Physics Laboratory.
-
 .. custom-card:: Stuart Mumford
     :github: cadair
     :aff_name: Aperio Software
@@ -56,6 +45,11 @@ Steering Committee
     Laura Hayes is a Royal Society-Research Ireland University Research Fellow.
     Previously, she obtained a PhD in solar physics from Trinity College Dublin, and then worked as a postdoc at NASA/GSFC and ESA/ESTEC.
     Her research focuses mainly on multi-wavelength observations of solar flares, particularly with observations from ESA's Solar Orbiter.
+
+.. custom-card:: Shane Maloney
+    :github: samaloney
+    :aff_name: Dublin Institute for Advanced Studies
+    :aff_link: https://www.dias.ie/
 
 .. _sunpy_project_custodians:
 
@@ -518,8 +512,8 @@ These people have previously served in named roles in the SunPy Project, either 
      - Board member and Secretary
      - 2014 - 2017
    * - `Albert Shih <https://github.com/ayshih>`__
-     - Board member, Lead Developer
-     - 2014 - 2018, 2014 - 2015
+     - Board member, Lead Developer, Steering Committee
+     - 2014 - 2018, 2014 - 2015, 2024 - 2025
    * - `Sabrina Savage <https://github.com/SabrinaSavage>`__
      - Board member and Secretary
      - 2017 - 2019
