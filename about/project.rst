@@ -257,8 +257,33 @@ Emeritus
 SunPy Advisory Board
 ^^^^^^^^^^^^^^^^^^^^
 
-The advisory board is not yet staffed.
-If you are interested in serving on the advisory board please let us know in the `Chat Room <https://app.element.io/#/room/#sunpy:openastronomy.org>`__.
+.. custom-card:: Vanessa Polito
+    :github: politovan
+    :aff_name: Lockheed Martin Solar and Astrophysics Laboratory
+    :aff_link: https:/www.lmsal.com/~polito/
+
+    Vanessa Polito is a Solar Physicist working at the Lockheed Solar and Astrophysics Laboratory in Palo Alto, CA.
+    She obtained her PhD from the University of Cambridge, UK, and then worked as a postdoc at the Harvard-Smithsonian CfA in Massachusetts, MA.
+    Her research topics include ultraviolet observations and modelling of solar flares and energetic events on the Sun.
+    She is also deputy-PI of IRIS and co-I of MUSE NASA missions.
+
+.. custom-card:: Alex Russell
+    :github:
+    :aff_name: University of St Andrews
+    :aff_link: https://www.st-andrews.ac.uk/mathematics-statistics/people/ar51/
+
+.. custom-card:: Andy To
+    :github: andyto1234
+    :aff_name: European Space Research and Technology Centre
+    :aff_link: https://andyto1234.github.io/andyto.uk/
+
+.. custom-card:: Steph Yardley
+    :github: slyardley
+    :aff_name: Northumbria University
+    :aff_link: https://www.northumbria.ac.uk/about-us/our-staff/y/steph-yardley/
+
+    Dr Steph Yardley is an STFC Ernest Rutherford Fellow and Vice-Chancellor's Fellow at Northumbria University.
+    Her research focuses on understanding the pre-eruptive evolution of coronal mass ejections, the sources of solar energetic particles accelerated during these eruptions, and the origins of the solar wind, particularly using observations from Solar Orbiter.
 
 .. _sunpy_project_other_roles:
 
