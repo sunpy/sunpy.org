@@ -116,11 +116,6 @@ Active
     Prior to that she studied theoretical physics at Trinity College Dublin.
     She is passionate about applying her studies to understanding the natural world, in particular in the fields of space science and astrophysics.
 
-.. custom-card:: Nabil Freij
-    :github: nabobalis
-    :aff_name: SETI Institute
-    :aff_link: https://www.seti.org
-
 .. custom-card:: Jan Gieseler
     :github: jgieseler
     :aff_name: University of Turku, Finland
@@ -251,6 +246,11 @@ Emeritus
     :github: dstansby
     :aff_name: University College London
     :aff_link: https://www.ucl.ac.uk/
+
+.. custom-card:: Nabil Freij
+    :github: nabobalis
+    :aff_name: SETI Institute
+    :aff_link: https://www.seti.org
 
 .. _sunpy_project_board:
 
