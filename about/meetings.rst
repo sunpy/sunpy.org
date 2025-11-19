@@ -32,6 +32,7 @@ The link to join the weekly community meeting as well as a link to the agenda ar
 Previous SunPy Coordination Meetings
 ************************************
 
-* `2020 Meeting Notes <https://github.com/sunpy/sunpy/wiki/Coordination-Meeting-2020-Notes>`__
-* `2021 Meeting Notes <https://github.com/sunpy/sunpy/wiki/Coordination-Meeting-2021-Notes>`__
+* `2025 Meeting Notes <https://github.com/sunpy/sunpy/wiki/Coordination-Meeting-2025-Notes>`__
 * `2022 Meeting Notes <https://github.com/sunpy/sunpy/wiki/Coordination-Meeting-2022-Notes>`__
+* `2021 Meeting Notes <https://github.com/sunpy/sunpy/wiki/Coordination-Meeting-2021-Notes>`__
+* `2020 Meeting Notes <https://github.com/sunpy/sunpy/wiki/Coordination-Meeting-2020-Notes>`__
