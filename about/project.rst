@@ -257,10 +257,20 @@ Emeritus
 SunPy Advisory Board
 ^^^^^^^^^^^^^^^^^^^^
 
+.. custom-card:: Will Barnes
+    :github: wtbarnes
+    :aff_name: American University / NASA GSFC
+    :aff_link: https://www.american.edu/cas/issti/
+
+    Will Barnes is a research associate at American University and NASA Goddard Space Flight Center where he works on instrument data pipeline development as well as the SunPy project.
+    Previously, he was a postdoc at the Naval Research Laboratory and the Lockheed Martin Solar and Astrophysics Laboratory.
+    In May of 2019, Will completed his PhD in the Department of Physics and Astronomy at Rice University under the direction of Stephen Bradshaw.
+
 .. custom-card:: Vanessa Polito
     :github: politovan
     :aff_name: Lockheed Martin Solar and Astrophysics Laboratory
     :aff_link: https:/www.lmsal.com/~polito/
+    :img_name: /static/img/polito_headshot.jpg
 
     Vanessa Polito is a Solar Physicist working at the Lockheed Solar and Astrophysics Laboratory in Palo Alto, CA.
     She obtained her PhD from the University of Cambridge, UK, and then worked as a postdoc at the Harvard-Smithsonian CfA in Massachusetts, MA.
@@ -268,9 +278,12 @@ SunPy Advisory Board
     She is also deputy-PI of IRIS and co-I of MUSE NASA missions.
 
 .. custom-card:: Alex Russell
-    :github:
+    :github: alex-russell-solar-plasma
     :aff_name: University of St Andrews
     :aff_link: https://www.st-andrews.ac.uk/mathematics-statistics/people/ar51/
+
+    Alexander Russell is a Senior Lecturer and Head of Solar/Magnetospheric Theory at the University of St Andrews.
+    His research interests include magnetic reconnection, solar flares and MHD waves.
 
 .. custom-card:: Andy To
     :github: andyto1234
@@ -281,6 +294,7 @@ SunPy Advisory Board
     :github: slyardley
     :aff_name: Northumbria University
     :aff_link: https://www.northumbria.ac.uk/about-us/our-staff/y/steph-yardley/
+    :img_name: /static/img/yardley_headshot.jpg
 
     Dr Steph Yardley is an STFC Ernest Rutherford Fellow and Vice-Chancellor's Fellow at Northumbria University.
     Her research focuses on understanding the pre-eruptive evolution of coronal mass ejections, the sources of solar energetic particles accelerated during these eruptions, and the origins of the solar wind, particularly using observations from Solar Orbiter.
