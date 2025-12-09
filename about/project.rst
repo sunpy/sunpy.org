@@ -270,7 +270,7 @@ SunPy Advisory Board
     :github: politovan
     :aff_name: Lockheed Martin Solar and Astrophysics Laboratory
     :aff_link: https:/www.lmsal.com/~polito/
-    :img_name: /_static/img/polito_headshot.jpg
+    :img_name: /_static/img/polito_headshot.png
 
     Vanessa Polito is a Solar Physicist working at the Lockheed Solar and Astrophysics Laboratory in Palo Alto, CA.
     She obtained her PhD from the University of Cambridge, UK, and then worked as a postdoc at the Harvard-Smithsonian CfA in Massachusetts, MA.
@@ -294,7 +294,7 @@ SunPy Advisory Board
     :github: slyardley
     :aff_name: Northumbria University
     :aff_link: https://www.northumbria.ac.uk/about-us/our-staff/y/steph-yardley/
-    :img_name: /_static/img/yardley_headshot.jpg
+    :img_name: /_static/img/yardley_headshot.png
 
     Dr Steph Yardley is an STFC Ernest Rutherford Fellow and Vice-Chancellor's Fellow at Northumbria University.
     Her research focuses on understanding the pre-eruptive evolution of coronal mass ejections, the sources of solar energetic particles accelerated during these eruptions, and the origins of the solar wind, particularly using observations from Solar Orbiter.
