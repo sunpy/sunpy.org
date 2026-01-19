@@ -6,6 +6,7 @@ About
 
    self
    project
+   papers
    presentations
    meetings
    ../coc
