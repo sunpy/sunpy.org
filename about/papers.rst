@@ -3,8 +3,8 @@
 SunPy Project Papers
 ====================
 
-The SunPy Project is a community-led effort to develop a free and open-source 
-software library for solar physics. If you use SunPy in your research, please 
+The SunPy Project is a community-led effort to develop a free and open-source
+software library for solar physics. If you use SunPy in your research, please
 cite the relevant papers below.
 
 Core Library Papers
