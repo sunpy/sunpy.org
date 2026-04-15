@@ -6,7 +6,6 @@ category: Tutorial
 tags: eclipse
 ---
 
-
 # Artemis II Solar Eclipse
 
 The Artemis II mission launched on the 1st April 2026, this launch date (or the window on the 2nd) allowed the crew to observe a solar eclipse on the 6th April after transiting the far side of the moon.
@@ -33,7 +32,6 @@ To do this we perform the following steps, all the code for this example is in *
 1. Use the three planets visible in the lower right of the image to identify the rotation angle.
 1. Use the planets to fit the distortion of the lens.
 
-
 ### Finding the position of Artemis 2
 
 The first step is to know the time the image is taken, we can extract this from the [Exif metadata](https://en.wikipedia.org/wiki/Exif).
@@ -55,6 +53,7 @@ To see the details of how this was done see [this example in the SunPy gallery](
 
 Visulaisation of the Artemis II trajectory with the eclipse highlighted.
 ```
+
 ### Moon Limb Fitting
 
 The next step is to find a known location in the image, a reference point.
@@ -132,4 +131,3 @@ We can quantify exactly how much the image has been distorted through comparing 
 
 Coordinate system fit to with additional correction for lens distortion.
 ```
-
