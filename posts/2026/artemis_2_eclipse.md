@@ -8,7 +8,7 @@ tags: eclipse
 
 # Artemis II Solar Eclipse
 
-The Artemis II mission launched on the 1st April 2026; this launch date allowed the crew to observe a solar eclipse on the 6th April after transiting the far side of the moon.
+The Artemis II mission launched on the 1st April 2026; this launch date allowed the crew to observe a solar eclipse on the 6th April(EDT) / 7th April (UTC) after transiting the far side of the moon.
 
 ```{figure} ./artemis2_images/art2_eclipse_ship.jpg
   :width: 100%
@@ -39,7 +39,7 @@ At the end of the post you will be able to see how we can overlay on this photo 
 To be able to compare this image with other observations of the Sun, we need to identify where the camera was pointed and how it was rotated.
 To do this we perform the following steps:
 
-1. Extract the time information from the metadata on the camera.
+1. Extract the time information from the metadata stored in the image.
 1. Use the time information to lookup the exact position of Artemis II.
 1. Fit the edge of the moon to identify the location of the center of the moon, and the size of the moon in the image.
 1. Use the three planets visible in the lower right of the image to identify the rotation angle.
@@ -98,7 +98,7 @@ accums, cx, cy, rad = hough_circle_peaks(hough_res, radii, total_num_peaks=1)
 
 ### Calculating Image Scale
 
-Based on knowing where the center of the moon is and its radius in the image we can construct a coordinate system for the image.
+Based on the determined center of the moon is and its radius in the image we can construct a coordinate system for the image.
 
 ```python
 from astropy.coordinates import SkyCoord
@@ -126,7 +126,7 @@ Initial coordinate system fit to image, notice that the locations of the highlig
 ### Fitting Roll Angle
 
 It's clear from the previous image that the image is rotated around the center of the moon.
-We can solve for this rotation by using a peak finding algorithm to locate the planets in the image.
+We can solve for this rotation by using a peak finding algorithm to locate the planets in the image and comparing these positions to the planets coordinates extracted from JPL Horizons.
 Doing this results in a {math}`-21.2^\circ` roll angle which we can add to our Maps metadata.
 
 ```{figure} ./artemis2_images/figure_5.svg
