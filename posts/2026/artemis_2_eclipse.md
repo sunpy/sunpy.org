@@ -19,7 +19,7 @@ Image credit NASA
 
 We on the SunPy blog {ref}`rarely miss the opportunity <2024-04-03-eclipse>` to talk [about a solar eclipse](https://github.com/sunpy/solar-eclipse/).
 So when we saw the stunning photos taken by the astronauts on Artemis II, we wanted to use SunPy to compare them to other photos of the solar corona.
-I do highly recommend watching the recording of the eclipse [on YouTube](https://youtu.be/dS9qqzSF3mI?si=NFfli3b7f0tYoVDP&t=1683); the reactions and descriptions of the astronauts are worth it.
+I do highly recommend watching the recording of the eclipse <a href="https://youtu.be/dS9qqzSF3mI?si=NFfli3b7f0tYoVDP&t=1683">on YouTube</a>; the reactions and descriptions of the astronauts are worth it.
 
 Amongst the many amazing photos downlinked during the mission was this image of the solar eclipse:
 
@@ -31,7 +31,7 @@ Image credit NASA
 ```
 
 This image is particularly good for comparing to other solar data because the limb of the moon is clearly visible, and there are stars and planets in the image we can use as references.
-These features will allow us to determine exactly where the image was pointing and the angle of the camera.
+These features will allow us to determine exactly where and at what angle the camera was pointing.
 At the end of the post you will be able to see how we can overlay on this photo images taken by solar observing satellites.
 
 ## Fitting Coordinate Information
@@ -40,12 +40,12 @@ To be able to compare this image with other observations of the Sun, we need to 
 To do this we perform the following steps:
 
 1. Extract the time information from the metadata on the camera.
-1. Use the time information to know the exact position of Artemis II.
+1. Use the time information to lookup the exact position of Artemis II.
 1. Fit the edge of the moon to identify the location of the center of the moon, and the size of the moon in the image.
 1. Use the three planets visible in the lower right of the image to identify the rotation angle.
 1. Use the planets to fit the distortion of the lens.
 
-All the code for this example is in **the sunpy example gallery**.
+All the code for this example is in {ref}`The sunpy Gallery <>`.
 
 ### Finding the position of Artemis II
 
@@ -66,7 +66,7 @@ To see the details of how this was done see [this example in the SunPy gallery](
   :width: 100%
   :alt: Artemis 2 trajectory showing when the solar eclipse occurred.
 
-Visulaisation of the Artemis II trajectory with the eclipse highlighted.
+Visualization of the Artemis II trajectory with the eclipse highlighted.
 ```
 
 ### Moon Limb Fitting
@@ -140,7 +140,7 @@ Image showing the expected positions of the planets and the detected (peaks) pos
 
 The final correction to apply to our fitted coordinate system is the distortion of the camera lens (a Nikkor AF 135mm f/2D DC).
 This makes objects distant from the centre of the image appear even more distant than they should.
-We can quantify exactly how much the image has been distorted through comparing the expect vs actual positions of Mars and Mercury.
+We can quantify exactly how much the image has been distorted through comparing the expected vs actual positions of Mars and Mercury (not Saturn as it is too close to the center of the image).
 We add this distortion to our coordinate system and our planets now appear in the correct place.
 
 ```{figure} ./artemis2_images/figure_7.svg
@@ -164,4 +164,5 @@ The Artemis II solar eclipse photo with the positions of Mercury, Mars and Satur
 ```
 
 We hope you have found this post interesting.
-Remember, that if you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe in August 2026 and you take a photo, you can try this type of analysis with your own photos!
+The full code for this post can be found in {ref}`The sunpy Gallery <>`.
+Remember, that if you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe in August 2026 and you take a photo, you can try this type of analysis with your own photos, by following our {ref}`previous blog post <2024-04-03-eclipse>`!
