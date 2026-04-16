@@ -16,6 +16,6 @@ astropy
 exifread
 ipywidgets
 matplotlib
-numpy<2.3.0
+numpy
 scikit-image
 sunpy[map,net]
