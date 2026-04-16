@@ -156,7 +156,7 @@ Now that we have fit a coordinate system to the eclipse photo we can compare thi
 To do this we are going to use the coronagraph on the [Solar and Heliospheric Observatory (SOHO)](https://soho.nascom.nasa.gov/) which is located around the Sun-Earth L1 point.
 We reproject (or re-grid) these images to the fitted coordinate system of the Artemis II image to compensate for differences in satellite location and point of view, and then crop them to the limb of the moon.
 
-```{figure} ./artemis2_images/figure_8.svg
+```{figure} ./artemis2_images/figure_9.svg
   :width: 100%
   :alt: The Artemis II solar eclipse photo with the positions of Mercury, Mars and Saturn highlighted, and coronagraph images from SOHO's LASCO instrument plotted over the disc of the moon.
 
