@@ -10,8 +10,8 @@ tags: eclipse
 
 The Artemis II mission launched on the 1st April 2026, this launch date (or the window on the 2nd) allowed the crew to observe a solar eclipse on the 6th April after transiting the far side of the moon.
 
-```{figure} ./art2_eclipse_ship.jpg
-  :width: 66%
+```{figure} ./artemis2_images/art2_eclipse_ship.jpg
+  :width: 100%
   :alt: Artemis 2 Solar Eclipse with Capsule
 
 Image credit NASA
@@ -19,7 +19,20 @@ Image credit NASA
 
 We on the SunPy blog {ref}`rarely miss the opportunity <2024-04-03-eclipse>` to talk [about a solar eclipse](https://github.com/sunpy/solar-eclipse/).
 So when we saw the stunning photos taken by the astronauts on Artemis II, we loaded them with SunPy.
-I do highly recommend watching the recording of the eclipse [on YouTube](https://youtu.be/dS9qqzSF3mI?si=NFfli3b7f0tYoVDP&t=1683).
+I do highly recommend watching the recording of the eclipse [on YouTube](https://youtu.be/dS9qqzSF3mI?si=NFfli3b7f0tYoVDP&t=1683), the reactions and descriptions of the astronauts are worth it.
+
+Amongst the many amazing photos downlinked during the mission was this image of the solar eclipse:
+
+```{figure} ./artemis2_images/art002e009301~large.jpg
+  :width: 100%
+  :alt: Artemis 2 Solar Eclipse, showing the moon lit by Earthshine, multiple planets and a star field.
+
+Image credit NASA
+```
+
+This image is particularly good for comparing to other solar data because the limb of the moon is clearly visible, and there are stars and planets in the image we can use as references.
+These features will allow us to determine exactly where the image was pointing and the angle of the camera.
+At the end of the post you will be able to see how we can overlay on this photo images taken by solar observing satellites.
 
 ## Fitting Coordinate Information
 
@@ -74,7 +87,7 @@ hough_res = hough_circle(edges, radii)
 accums, cx, cy, rad = hough_circle_peaks(hough_res, radii, total_num_peaks=1)
 ```
 
-```{figure} ./artemis2-hough.png
+```{figure} ./artemis2_images/figure_2.svg
   :width: 100%
   :alt: A cropped image of the moon showing edge detection and Hough filtering in three panes.
 
@@ -100,7 +113,7 @@ plate_scale = moon_angular_width / im_radius
 
 using this information we can build a sunpy map (see the gallery example for details), plotting this alongside the locations of the planets results in:
 
-```{figure} ./artemis2-initial-fit.png
+```{figure} ./artemis2_images/figure_4.svg
   :width: 100%
   :alt: Initial coordinate system fit, showing the lunar center, limb and expected locations of Mercury, Mars and Saturn, which are offset from their positions in the picture.
 
@@ -112,22 +125,38 @@ Initial coordinate system fit to image, notice that the locations of the highlig
 It's clear from the previous image that the image is rotated around the center of the moon, we can solve for this rotation by using a peak finding algorithm to locate the planets in the image.
 Doing this results in a {math}`-21.2^\circ` roll angle which we can add to our Maps metadata.
 
-```{figure} ./artemis2-roll-fit.png
+```{figure} ./artemis2_images/figure_5.svg
   :width: 100%
-  :alt: Coordinate system fit with corrected roll angle, showing the lunar center, limb and expected locations of Mercury, Mars and Saturn, which match much better, but are not perfect.
+  :alt: Image showing the expected positions of the planets and the detected (peaks) positions of the planets.
 
-Coordinate system fit to image with correction for roll angle, notice that the locations of the highlighted planets are still slightly incorrect.
+Image showing the expected positions of the planets and the detected (peaks) positions of the planets, from which the roll angle is calculated.
 ```
 
 ### Fitting Lens Distortion
 
 The final correction to apply to our fitted coordinate system is the distortion of the camera lens (a Nikkor AF 135mm f/2D DC).
-The lens attached to the camera the astronauts used has added some distortion to the image; objects distant from the centre of the image appear even more distant than they should.
+This makes objects distant from the centre of the image appear even more distant than they should.
 We can quantify exactly how much the image has been distorted through comparing the expect vs actual positions of Mars and Mercury, we add this distortion to our coordinate system and our planets now appear in the correct place.
 
-```{figure} ./artemis2-distortion-fit.png
+```{figure} ./artemis2_images/figure_7.svg
   :width: 100%
   :alt: Coordinate system fit with additional correction for lens distortion, the expected positions of the planets now match the image.
 
 Coordinate system fit to with additional correction for lens distortion.
 ```
+
+## Overplotting Coronagraph Images
+
+Now that we have fit a coordinate system to the eclipse photo we can compare this observation of the corona to other data.
+To do this we are going to use the coronagraph on the [Solar and Heliospheric Observatory (SOHO)](https://soho.nascom.nasa.gov/) which is located around the Sun-Earth L1 point.
+We reproject (or re-grid) these images to the fitted coordinate system of the Artemis II image to compensate for differences in satellite location and point of view, and then crop them to the limb of the moon.
+
+```{figure} ./artemis2_images/figure_8.svg
+  :width: 100%
+  :alt: The Artemis II solar eclipse photo with the positions of Mercury, Mars and Saturn highlighted, and coronagraph images from SOHO's LASCO instrument plotted over the disc of the moon.
+
+The Artemis II solar eclipse photo with the positions of Mercury, Mars and Saturn highlighted, and coronagraph images from SOHO's LASCO instrument plotted over the disc of the moon.
+```
+
+We hope you have found this post interesting.
+Remember, that if you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe in August 2026 and you take a photo, you can try this type of analysis with your own photos!
