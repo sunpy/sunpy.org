@@ -163,7 +163,9 @@ We reproject (or re-grid) these images to the fitted coordinate system of the Ar
 The Artemis II solar eclipse photo with the positions of Mercury, Mars and Saturn highlighted, and coronagraph images from SOHO's LASCO instrument plotted over the disc of the Moon.
 ```
 
-Although this image does not reveal any dramatic new coronal structure, it is a striking demonstration of what `sunpy` makes possible. By combining image metadata, spacecraft ephemerides, and coordinate-aware reprojection, we can place the astronauts’ eclipse photo and SOHO/LASCO coronagraph data into the same physical frame and compare views of the same corona from two very different vantage points.
+Although this image does not reveal any dramatic new coronal structure, it is a striking demonstration of what `sunpy` makes possible.
+By combining image metadata, spacecraft ephemerides, and coordinate-aware reprojection, we can place the astronauts’ eclipse photo and SOHO/LASCO coronagraph data into the same physical frame and compare views of the same corona from two very different vantage points.
+
 We hope you have found this post interesting.
 The full code for this post can be found in the [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse) example in the sunpy gallery.
 Remember, that if you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe on 12th August 2026 and you take a photo, you can try this type of analysis with your own photos, by following our {ref}`previous blog post <2024-04-03-eclipse>`!
