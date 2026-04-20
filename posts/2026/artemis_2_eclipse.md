@@ -18,7 +18,7 @@ Image credit NASA
 ```
 
 We on the SunPy blog {ref}`rarely miss the opportunity <2024-04-03-eclipse>` to talk [about a solar eclipse](https://github.com/sunpy/solar-eclipse/).
-So when we saw the stunning photos taken by the astronauts on Artemis II, we wanted to use SunPy to compare them to other photos of the solar corona.
+So when we saw the stunning photos taken by the astronauts during the Artemis II mission, we wanted to use SunPy to compare them to other photos of the solar corona.
 We highly recommend watching the recording of the eclipse <a href="https://youtu.be/dS9qqzSF3mI?si=NFfli3b7f0tYoVDP&t=1683">on YouTube</a>; the reactions and descriptions of the astronauts are worth it.
 
 Amongst the many amazing photos downlinked during the mission was this image of the solar eclipse:
@@ -30,8 +30,8 @@ Amongst the many amazing photos downlinked during the mission was this image of 
 Image credit NASA
 ```
 
-This image is particularly good for comparing to other solar observations because the limb of the Moon is clearly visible, and there are stars and planets in the image we can use as references.
-These features will allow us to determine exactly where and at what angle the camera was pointing.
+This image is particularly well suited to comparison with other solar observations because the limb of the Moon is clearly visible, and there are stars and planets in the image we can use as references.
+These features allow us to determine where the camera was pointing and its roll angle.
 At the end of the post you will be able to see how we can overlay on this photo images taken by solar observing satellites.
 
 ## Fitting Coordinate Information
@@ -41,7 +41,7 @@ To do this we perform the following steps:
 
 1. Extract the time information from the metadata stored in the image.
 1. Use the time information to lookup the exact position of Artemis II.
-1. Fit the edge of the moon to identify the location of the center of the Moon, and the size of the Moon in the image.
+1. Fit the edge of the moon to identify the center of the Moon, and the size of the Moon in the image.
 1. Use the three planets visible in the lower right of the image to identify the rotation angle.
 1. Use the planets to fit the distortion of the lens.
 
@@ -113,7 +113,7 @@ im_radius = rad * u.pix
 plate_scale = moon_angular_width / im_radius
 ```
 
-Using this information we can build a sunpy map (see the [gallery example](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse) for details).
+Using this information, we can build a sunpy map (see the [gallery example](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse) for details).
 Plotting this alongside the locations of the planets results in:
 
 ```{figure} ./artemis2_images/figure_4.svg
@@ -127,7 +127,7 @@ Initial coordinate system fit to image, notice that the locations of the highlig
 
 It's clear from the previous image that the image is rotated around the center of the Moon.
 We can solve for this rotation by using a peak finding algorithm to locate the planets in the image and comparing these positions to the planets coordinates extracted from JPL Horizons.
-Doing this results in a {math}`-21.2^\circ` roll angle which we can add to our `Map` metadata.
+Doing this gives a {math}`-21.2^\circ` roll angle which we can add to our `Map` metadata.
 
 ```{figure} ./artemis2_images/figure_5.svg
   :width: 100%
@@ -140,7 +140,7 @@ Image showing the expected positions of the planets and the detected (peaks) pos
 
 The final correction to apply to our fitted coordinate system is the distortion of the camera lens (a Nikkor AF 135mm f/2D DC).
 This makes objects distant from the center of the image appear even more distant than they should.
-We can quantify exactly how much the image has been distorted through comparing the expected vs actual positions of Mars and Mercury (not Saturn as it is too close to the center of the image).
+We can quantify exactly how much the image has been distorted by comparing the expected versus actual positions of Mars and Mercury (not Saturn as it is too close to the center of the image).
 We add this distortion to our coordinate system and our planets now appear in the correct place.
 
 ```{figure} ./artemis2_images/figure_7.svg
@@ -163,6 +163,7 @@ We reproject (or re-grid) these images to the fitted coordinate system of the Ar
 The Artemis II solar eclipse photo with the positions of Mercury, Mars and Saturn highlighted, and coronagraph images from SOHO's LASCO instrument plotted over the disc of the Moon.
 ```
 
+Although this image does not reveal any dramatic new coronal structure, it is a striking demonstration of what `sunpy` makes possible. By combining image metadata, spacecraft ephemerides, and coordinate-aware reprojection, we can place the astronauts’ eclipse photo and SOHO/LASCO coronagraph data into the same physical frame and compare views of the same corona from two very different vantage points.
 We hope you have found this post interesting.
 The full code for this post can be found in the [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse) example in the sunpy gallery.
 Remember, that if you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe on 12th August 2026 and you take a photo, you can try this type of analysis with your own photos, by following our {ref}`previous blog post <2024-04-03-eclipse>`!
