@@ -35,8 +35,8 @@ Understanding the coordinate system of the photo will allow us to overlay images
 
 The following images in this post, and the code to generate them, are from this two examples in the SunPy gallery:
 
-* [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-trajectory)
-* [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse)
+- [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-trajectory)
+- [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse)
 
 ## Visualize the path of Artemis II
 
@@ -181,4 +181,4 @@ We think this post is a striking demonstration of what `sunpy` makes possible.
 By combining image metadata, spacecraft ephemerides, and coordinate-aware reprojection, we can place the astronauts’ eclipse photo and SOHO/LASCO coronagraph data into the same physical frame and compare views of the same corona from two very different vantage points.
 As a reminder, you can find the full code behind this post in these two examples in the SunPy gallery: [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-trajectory) and [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse).
 
-If you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe on August 12, 2026, remmeber you can try this type of analysis with your own photos by following our {ref}`previous blog post <2024-04-03-eclipse>`!
+If you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe on August 12, 2026, remember you can try this type of analysis with your own photos by following our {ref}`previous blog post <2024-04-03-eclipse>`!
