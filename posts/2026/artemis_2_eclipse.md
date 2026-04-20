@@ -113,7 +113,7 @@ im_radius = rad * u.pix
 plate_scale = moon_angular_width / im_radius
 ```
 
-Using this information we can build a sunpy map (see the gallery example for details).
+Using this information we can build a sunpy map (see the [gallery example](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse) for details).
 Plotting this alongside the locations of the planets results in:
 
 ```{figure} ./artemis2_images/figure_4.svg
