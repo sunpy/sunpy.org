@@ -33,7 +33,7 @@ Image credit NASA
 This photo is particularly well suited to comparison with other solar observations because the limb of the Moon is clearly visible, and there are stars and planets in the image we can use as references.
 Understanding the coordinate system of the photo will allow us to overlay images taken by solar observatories.
 
-The following images in this post, and the code to generate them, are from this two examples in the SunPy gallery:
+The following images in this post, and the code to generate them, are from these two examples in the SunPy gallery:
 
 - [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-trajectory)
 - [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse)
