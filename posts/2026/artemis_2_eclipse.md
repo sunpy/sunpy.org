@@ -45,7 +45,7 @@ To do this we perform the following steps:
 1. Use the three planets visible in the lower right of the image to identify the rotation angle.
 1. Use the planets to fit the distortion of the lens.
 
-All the code for this example is in {ref}`The sunpy Gallery <>`.
+All the code for this example is in [the sunpy example gallery](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse).
 
 ### Finding the position of Artemis II
 
@@ -60,7 +60,7 @@ artemis2_coord = get_horizons_coord(artemis2_naif_id , "2026-04-07 01:06:19")
 ```
 
 We can also use the positions returned by JPL Horizons and the coordinates packages in sunpy and astropy to visualize what part of the Artemis II trajectory was in eclipse.
-To see the details of how this was done see [this example in the SunPy gallery](https://sunpy--8574.org.readthedocs.build/en/8574/generated/gallery/showcase/artemis-ii-trajectory.html).
+To see the details of how this was done see [this example in the SunPy gallery](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-trajectory).
 
 ```{figure} ./artemis2-corot-traj.png
   :width: 100%
@@ -164,5 +164,5 @@ The Artemis II solar eclipse photo with the positions of Mercury, Mars and Satur
 ```
 
 We hope you have found this post interesting.
-The full code for this post can be found in {ref}`The sunpy Gallery <>`.
+The full code for this post can be found in the [](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-eclipse) example in the sunpy gallery.
 Remember, that if you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe on 12th August 2026 and you take a photo, you can try this type of analysis with your own photos, by following our {ref}`previous blog post <2024-04-03-eclipse>`!
