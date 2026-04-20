@@ -1,14 +1,14 @@
 ---
 blogpost: true
 date: Apr 9 2026
-author: Stuart Mumford, Shane Maloney, Albert Y. Shih
+author: Stuart Mumford, Shane Maloney, Albert Y. Shih, Laura Hayes
 category: Tutorial
 tags: eclipse
 ---
 
 # Artemis II Solar Eclipse
 
-The Artemis II mission launched on the 1st April 2026; this launch date allowed the crew to observe a solar eclipse on the 6th April(EDT) / 7th April (UTC) after transiting the far side of the moon.
+The Artemis II mission launched on the 1st April 2026; this launch date allowed the crew to observe a solar eclipse on the 6th April (EDT) / 7th April (UTC) after transiting the far side of the Moon.
 
 ```{figure} ./artemis2_images/art2_eclipse_ship.jpg
   :width: 100%
@@ -19,7 +19,7 @@ Image credit NASA
 
 We on the SunPy blog {ref}`rarely miss the opportunity <2024-04-03-eclipse>` to talk [about a solar eclipse](https://github.com/sunpy/solar-eclipse/).
 So when we saw the stunning photos taken by the astronauts on Artemis II, we wanted to use SunPy to compare them to other photos of the solar corona.
-I do highly recommend watching the recording of the eclipse <a href="https://youtu.be/dS9qqzSF3mI?si=NFfli3b7f0tYoVDP&t=1683">on YouTube</a>; the reactions and descriptions of the astronauts are worth it.
+We highly recommend watching the recording of the eclipse <a href="https://youtu.be/dS9qqzSF3mI?si=NFfli3b7f0tYoVDP&t=1683">on YouTube</a>; the reactions and descriptions of the astronauts are worth it.
 
 Amongst the many amazing photos downlinked during the mission was this image of the solar eclipse:
 
@@ -30,7 +30,7 @@ Amongst the many amazing photos downlinked during the mission was this image of 
 Image credit NASA
 ```
 
-This image is particularly good for comparing to other solar data because the limb of the moon is clearly visible, and there are stars and planets in the image we can use as references.
+This image is particularly good for comparing to other solar observations because the limb of the Moon is clearly visible, and there are stars and planets in the image we can use as references.
 These features will allow us to determine exactly where and at what angle the camera was pointing.
 At the end of the post you will be able to see how we can overlay on this photo images taken by solar observing satellites.
 
@@ -41,7 +41,7 @@ To do this we perform the following steps:
 
 1. Extract the time information from the metadata stored in the image.
 1. Use the time information to lookup the exact position of Artemis II.
-1. Fit the edge of the moon to identify the location of the center of the moon, and the size of the moon in the image.
+1. Fit the edge of the moon to identify the location of the center of the Moon, and the size of the Moon in the image.
 1. Use the three planets visible in the lower right of the image to identify the rotation angle.
 1. Use the planets to fit the distortion of the lens.
 
@@ -98,7 +98,7 @@ accums, cx, cy, rad = hough_circle_peaks(hough_res, radii, total_num_peaks=1)
 
 ### Calculating Image Scale
 
-Based on the determined center of the moon is and its radius in the image we can construct a coordinate system for the image.
+Based on the determined center of the Moon and its radius in the image we can construct a coordinate system for the image.
 
 ```python
 from astropy.coordinates import SkyCoord
@@ -125,9 +125,9 @@ Initial coordinate system fit to image, notice that the locations of the highlig
 
 ### Fitting Roll Angle
 
-It's clear from the previous image that the image is rotated around the center of the moon.
+It's clear from the previous image that the image is rotated around the center of the Moon.
 We can solve for this rotation by using a peak finding algorithm to locate the planets in the image and comparing these positions to the planets coordinates extracted from JPL Horizons.
-Doing this results in a {math}`-21.2^\circ` roll angle which we can add to our Maps metadata.
+Doing this results in a {math}`-21.2^\circ` roll angle which we can add to our `Map` metadata.
 
 ```{figure} ./artemis2_images/figure_5.svg
   :width: 100%
@@ -139,7 +139,7 @@ Image showing the expected positions of the planets and the detected (peaks) pos
 ### Fitting Lens Distortion
 
 The final correction to apply to our fitted coordinate system is the distortion of the camera lens (a Nikkor AF 135mm f/2D DC).
-This makes objects distant from the centre of the image appear even more distant than they should.
+This makes objects distant from the center of the image appear even more distant than they should.
 We can quantify exactly how much the image has been distorted through comparing the expected vs actual positions of Mars and Mercury (not Saturn as it is too close to the center of the image).
 We add this distortion to our coordinate system and our planets now appear in the correct place.
 
@@ -147,7 +147,7 @@ We add this distortion to our coordinate system and our planets now appear in th
   :width: 100%
   :alt: Coordinate system fit with additional correction for lens distortion, the expected positions of the planets now match the image.
 
-Coordinate system fit to with additional correction for lens distortion.
+Coordinate system fit with additional correction for lens distortion.
 ```
 
 ## Overplotting Coronagraph Images
@@ -160,9 +160,9 @@ We reproject (or re-grid) these images to the fitted coordinate system of the Ar
   :width: 100%
   :alt: The Artemis II solar eclipse photo with the positions of Mercury, Mars and Saturn highlighted, and coronagraph images from SOHO's LASCO instrument plotted over the disc of the moon.
 
-The Artemis II solar eclipse photo with the positions of Mercury, Mars and Saturn highlighted, and coronagraph images from SOHO's LASCO instrument plotted over the disc of the moon.
+The Artemis II solar eclipse photo with the positions of Mercury, Mars and Saturn highlighted, and coronagraph images from SOHO's LASCO instrument plotted over the disc of the Moon.
 ```
 
 We hope you have found this post interesting.
 The full code for this post can be found in {ref}`The sunpy Gallery <>`.
-Remember, that if you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe in August 2026 and you take a photo, you can try this type of analysis with your own photos, by following our {ref}`previous blog post <2024-04-03-eclipse>`!
+Remember, that if you are lucky enough to observe the total solar eclipse which will be visible from parts of Europe on 12th August 2026 and you take a photo, you can try this type of analysis with your own photos, by following our {ref}`previous blog post <2024-04-03-eclipse>`!
