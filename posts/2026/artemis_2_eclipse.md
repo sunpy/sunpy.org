@@ -1,7 +1,7 @@
 ---
 blogpost: true
 date: Apr 9 2026
-author: Stuart Mumford, Shane Maloney, Albert Y. Shih, Laura Hayes
+author: Stuart Mumford, Shane Maloney, Albert Y. Shih, Laura Hayes, Alasdair Wilson
 category: Tutorial
 tags: eclipse
 ---
