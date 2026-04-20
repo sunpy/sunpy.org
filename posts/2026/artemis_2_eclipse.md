@@ -62,7 +62,7 @@ artemis2_coord = get_horizons_coord(artemis2_naif_id , "2026-04-07 01:06:19")
 We can also use the positions returned by JPL Horizons and the coordinates packages in sunpy and astropy to visualize what part of the Artemis II trajectory was in eclipse.
 To see the details of how this was done see [this example in the SunPy gallery](inv:sunpy:std:doc#generated/gallery/showcase/artemis-ii-trajectory).
 
-```{figure} ./artemis2-corot-traj.png
+```{figure} ./artemis2_images/trajectory.svg
   :width: 100%
   :alt: Artemis 2 trajectory showing when the solar eclipse occurred.
 
