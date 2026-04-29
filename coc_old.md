@@ -1,3 +1,7 @@
+---
+orphan: true
+---
+
 (coc_old)=
 
 # Previous SunPy Project Code of Conduct
