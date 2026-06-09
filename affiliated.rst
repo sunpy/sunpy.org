@@ -157,7 +157,7 @@ Current packages
    * - **irispy-lmsal**
      - A Python package that provides the tools to read in and analyze data from the IRIS solar-observing satellite.
 
-       `Documentation <https://irispy-lmsal.readthedocs.io>`__, `Source code <https://github.com/LM-SAL/irispy-lmsal>`__
+       `Documentation <https://irispy.readthedocs.io/>`__, `Source code <https://github.com/LM-SAL/irispy-lmsal>`__
 
        **Maintainer**: `IRIS Team @ LMSAL`_
 
