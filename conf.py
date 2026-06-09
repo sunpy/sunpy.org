@@ -111,7 +111,8 @@ nbsphinx_prolog = r"""
 """
 # sphinxext-opengraph
 ogp_site_url = "https://sunpy.org/"
-ogp_image = "https://raw.githubusercontent.com/sunpy/sunpy-logo/master/generated/sunpy_logo_word.png"
+# Use the main site logo for link unfurls; sadly need to use png.
+ogp_image = "https://sunpy.org/_static/img/sunpy_icon_128x128.png"
 ogp_description_length = 300
 ogp_type = "website"
 urlretrieve(
