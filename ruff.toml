@@ -20,6 +20,7 @@ lint.extend-ignore = [
     "ISC001",  # May cause conflicts when used with the formatter
     "PD011", # Use `.to_numpy()` instead of `.values`
     "T201", # Print statements
+    "CPY001", # Copyright statements in each file
 ]
 
 [lint.per-file-ignores]
