@@ -77,17 +77,6 @@ Current packages
 
        Version reviewed: `v0.1.0 <https://gitlab.com/LMSAL_HUB/aia_hub/aiapy/-/releases/v0.1.0>`__
 
-   * - **sunpy-soar**
-     - sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR).
-
-       `Documentation <https://docs.sunpy.org/projects/soar/>`__, `Source code <https://github.com/sunpy/sunpy-soar>`__
-
-       **Maintainers**: `The SunPy Project`_
-
-       |package_general| |integration_full| |docs_some| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
-
-       Version reviewed: `v1.5 <https://github.com/sunpy/sunpy-soar/releases/tag/v1.5>`__
-
    * - **roentgen**
      - Package for the quantitative analysis of the interaction of energetic x-rays with matter.
 
@@ -259,6 +248,17 @@ These packages were previously listed as affiliated but have been de-listed at t
        |package_specialized| |integration_full| |docs_extensive| |tests_good| |duplication_none| |community_good| |dev_low|
 
        Version reviewed: `v1.1.0 <https://github.com/dstansby/demcmc/releases/tag/v1.1.0>`__
+
+   * - **sunpy-soar**
+     - sunpy plugin for accessing data in the Solar Orbiter Archive (SOAR), this package was merged into sunpy core as of v8.0.
+
+       `Documentation <https://docs.sunpy.org/projects/soar/>`__, `Source code <https://github.com/sunpy/sunpy-soar>`__
+
+       **Maintainers**: `The SunPy Project`_
+
+       |package_general| |integration_full| |docs_some| |tests_excellent| |duplication_none| |community_excellent| |dev_stable|
+
+       Version reviewed: `v1.5 <https://github.com/sunpy/sunpy-soar/releases/tag/v1.5>`__
 
 Affiliated Package Review
 -------------------------
