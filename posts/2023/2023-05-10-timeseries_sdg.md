@@ -75,7 +75,7 @@ Alongside this several custom data readers have been written to support differen
 
 | Data product(s)                                                                                  | File format  |
 | ------------------------------------------------------------------------------------------------ | ------------ |
-| [SDO EVE/ESP L1](https://lasp.colorado.edu/eve/data_access/eve_data/products/level1/esp/2020/)   | FITS         |     |
+| [SDO EVE/ESP L1](https://lasp.colorado.edu/eve/data_access/eve_data/products/level1/esp/2020/)   | FITS         |
 | [SDO EVE/ESP L0CS](https://lasp.colorado.edu/home/eve/data/)                                     | Text file    |
 | [FERMI GBM summary](https://fermi.gsfc.nasa.gov/ssc/data/access/)                                | FITS         |
 | GOES XRS                                                                                         | FITS, netCDF |
