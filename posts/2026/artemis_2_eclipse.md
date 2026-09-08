@@ -73,7 +73,7 @@ As with the trajectory above, we use [JPL Horizons](https://ssd.jpl.nasa.gov/hor
 ```python
 from sunpy.coordinates import get_horizons_coord
 
-artemis2_coord = get_horizons_coord("Artemis II" , "2026-04-07 01:06:19")
+artemis2_coord = get_horizons_coord("Artemis II", "2026-04-07 01:06:19")
 ```
 
 ### Locate the Moon
@@ -90,7 +90,7 @@ from skimage.transform import hough_circle, hough_circle_peaks
 edges = canny(eclipse_image, sigma=2)
 
 h, w = eclipse_image.shape
-radii = np.arange(0.25*h, 0.4*h, 10)
+radii = np.arange(0.25 * h, 0.4 * h, 10)
 
 hough_res = hough_circle(edges, radii)
 accums, cx, cy, rad = hough_circle_peaks(hough_res, radii, total_num_peaks=1)
@@ -112,7 +112,7 @@ from astropy.coordinates import SkyCoord
 import astropy.units as u
 
 moon = SkyCoord(coords["moon"], observer=coords["artemis_ii"])
-R_moon = 0.2725076 *  u.R_earth  # IAU mean radius
+R_moon = 0.2725076 * u.R_earth  # IAU mean radius
 dist_moon = SkyCoord(coords["artemis_ii"]).separation_3d(moon)
 
 moon_angular_width = np.arcsin(R_moon / dist_moon).to(u.arcsec)
