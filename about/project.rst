@@ -339,8 +339,16 @@ See :ref:`role_descriptions` for more details on each role.
     :title: Continuous Integration Maintainer
     :date: 24 November 2021
 
-.. custom-card:: Role Unfilled
+.. custom-card:: Alasdair Wilson
+    :github: alasdairwilson
+    :aff_name: University of Oxford
+    :aff_link: https://www.ox.ac.uk/
     :title: Release Manager
+
+    Experienced Postdoctoral Research Associate with a proven track record of working on data science, numerical computing and developing scientific software.
+    Skilled in Python, Fortran, Matlab, CUDA and a variety of other technical and computational tools.
+    Excellent communication and Teamwork skills. Strong research professional with a Doctor of Philosophy - PhD focused in Solar/Plasma Physics from University of Glasgow and a good research publication record.
+    Overall, the best person who works on the SunPy Project.
 
 .. custom-card:: Role Unfilled
     :title: Webmaster
