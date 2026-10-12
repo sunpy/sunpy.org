@@ -218,10 +218,9 @@ Active
     :aff_name: University of Oxford
     :aff_link: https://www.ox.ac.uk/
 
-    Experienced Postdoctoral Research Associate with a proven track record of working on data science, numerical computing and developing scientific software.
-    Skilled in Python, Fortran, Matlab, CUDA and a variety of other technical and computational tools.
-    Excellent communication and Teamwork skills. Strong research professional with a Doctor of Philosophy - PhD focused in Solar/Plasma Physics from University of Glasgow and a good research publication record.
-    Overall, the best person who works on the SunPy Project.
+    Experienced Senior Research Software Engineer in the University of Oxford, Oxford research software engineering team with a proven track record of working on data science, numerical computing and developing scientific software.
+    Skilled full stack developer with experience in: a range of frontend frameworks including React, Flask, Django and Dash; in databases; in cloud infrastructure; in scientific programming with Python, Fortran, Matlab, CUDA and a variety of other technical and computational tools.
+    Strong research background with a Doctor of Philosophy - PhD focused in Solar/Plasma Physics from University of Glasgow and a good research publication record.
 
 Emeritus
 ########
@@ -345,10 +344,9 @@ See :ref:`role_descriptions` for more details on each role.
     :aff_link: https://www.rse.ox.ac.uk/
     :title: Release Manager
 
-    Experienced Postdoctoral Research Associate with a proven track record of working on data science, numerical computing and developing scientific software.
-    Skilled in Python, Fortran, Matlab, CUDA and a variety of other technical and computational tools.
-    Excellent communication and Teamwork skills. Strong research professional with a Doctor of Philosophy - PhD focused in Solar/Plasma Physics from University of Glasgow and a good research publication record.
-    Overall, the best person who works on the SunPy Project.
+    Experienced Senior Research Software Engineer in the University of Oxford, Oxford research software engineering team with a proven track record of working on data science, numerical computing and developing scientific software.
+    Skilled full stack developer with experience in: a range of frontend frameworks including React, Flask, Django and Dash; in databases; in cloud infrastructure; in scientific programming with Python, Fortran, Matlab, CUDA and a variety of other technical and computational tools.
+    Strong research background with a Doctor of Philosophy - PhD focused in Solar/Plasma Physics from University of Glasgow and a good research publication record.
 
 .. custom-card:: Role Unfilled
     :title: Webmaster
