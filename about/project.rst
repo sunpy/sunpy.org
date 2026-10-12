@@ -131,6 +131,11 @@ Active
     :aff_name: Space Telescope Science Institute
     :aff_link: https://www.stsci.edu/
 
+.. custom-card:: Nabil Freij
+    :github: nabobalis
+    :aff_name: SETI Institute
+    :aff_link: https://www.seti.org
+
 .. custom-card:: Laura A. Hayes
     :github: hayesla
     :aff_name: Dublin Institute for Advanced Studies
@@ -245,11 +250,6 @@ Emeritus
     :github: dstansby
     :aff_name: University College London
     :aff_link: https://www.ucl.ac.uk/
-
-.. custom-card:: Nabil Freij
-    :github: nabobalis
-    :aff_name: SETI Institute
-    :aff_link: https://www.seti.org
 
 .. _sunpy_project_board:
 
