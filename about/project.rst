@@ -216,12 +216,12 @@ Active
 .. custom-card:: Alasdair Wilson
     :github: alasdairwilson
     :aff_name: University of Oxford
-    :aff_link: https://www.ox.ac.uk/
+    :aff_link: https://www.rse.ox.ac.uk/
 
-    Experienced Postdoctoral Research Associate with a proven track record of working on data science, numerical computing and developing scientific software.
-    Skilled in Python, Fortran, Matlab, CUDA and a variety of other technical and computational tools.
-    Excellent communication and Teamwork skills. Strong research professional with a Doctor of Philosophy - PhD focused in Solar/Plasma Physics from University of Glasgow and a good research publication record.
-    Overall, the best person who works on the SunPy Project.
+    Dr. Alasdair Wilson is a Senior Research Software Engineer in the University of Oxford Research Software Engineering team.
+    He has a strong research background with a PhD in Solar and Plasma Physics from the University of Glasgow and a variety of postdoctoral positions in plasma physics, fusion, and solar physics.
+    He is an experienced Research Software Engineer, joining OxRSE in 2023, with a proven track record in developing scientific software, web applications, in data science, and in numerical computing.
+    He is skilled as a full-stack developer with experience across a broad range of technologies, including frontend web frameworks such as React, Flask, Django, and Dash; databases and cloud infrastructure; and scientific and high-performance computing using Python, Fortran, MATLAB, CUDA, and a variety of other technical and computational tools.
 
 Emeritus
 ########
@@ -345,10 +345,10 @@ See :ref:`role_descriptions` for more details on each role.
     :aff_link: https://www.rse.ox.ac.uk/
     :title: Release Manager
 
-    Experienced Postdoctoral Research Associate with a proven track record of working on data science, numerical computing and developing scientific software.
-    Skilled in Python, Fortran, Matlab, CUDA and a variety of other technical and computational tools.
-    Excellent communication and Teamwork skills. Strong research professional with a Doctor of Philosophy - PhD focused in Solar/Plasma Physics from University of Glasgow and a good research publication record.
-    Overall, the best person who works on the SunPy Project.
+    Dr. Alasdair Wilson is a Senior Research Software Engineer in the University of Oxford Research Software Engineering team.
+    He has a strong research background with a PhD in Solar and Plasma Physics from the University of Glasgow and a variety of postdoctoral positions in plasma physics, fusion, and solar physics.
+    He is an experienced Research Software Engineer, joining OxRSE in 2023, with a proven track record in developing scientific software, web applications, in data science, and in numerical computing.
+    He is skilled as a full-stack developer with experience across a broad range of technologies, including frontend web frameworks such as React, Flask, Django, and Dash; databases and cloud infrastructure; and scientific and high-performance computing using Python, Fortran, MATLAB, CUDA, and a variety of other technical and computational tools.
 
 .. custom-card:: Role Unfilled
     :title: Webmaster
