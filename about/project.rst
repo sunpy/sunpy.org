@@ -342,7 +342,7 @@ See :ref:`role_descriptions` for more details on each role.
 .. custom-card:: Alasdair Wilson
     :github: alasdairwilson
     :aff_name: University of Oxford
-    :aff_link: https://www.ox.ac.uk/
+    :aff_link: https://www.rse.ox.ac.uk/
     :title: Release Manager
 
     Experienced Postdoctoral Research Associate with a proven track record of working on data science, numerical computing and developing scientific software.
