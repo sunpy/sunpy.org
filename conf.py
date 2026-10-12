@@ -49,6 +49,7 @@ exclude_patterns = [
     "_build/*",
     "CITATION.rst",
     ".tox/*",
+    ".venv/*",
 ]
 master_doc = "index"
 project = "sunpy.org"
