@@ -53,8 +53,8 @@ Steering Committee
 
     Shane Maloney is a Senior Research Fellow at DIAS.
     He obtained his PhD in Solar Physics at Trinity College Dublin before working as a software developer and then engineer at a Dublin-based SME.
-    He returned to academia to work on Solar Orbiters X-ray tetescope, STIX, as part of the instrument team. 
-    His work focuses on solar activity, including solar flares and coronal mass ejections (CMEs), what triggers them, and how they drive space weather. 
+    He returned to academia to work on Solar Orbiters X-ray tetescope, STIX, as part of the instrument team.
+    His work focuses on solar activity, including solar flares and coronal mass ejections (CMEs), what triggers them, and how they drive space weather.
 
 
 .. _sunpy_project_custodians:
